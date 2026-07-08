@@ -1,0 +1,44 @@
+# Databricks Update One-Pager — configuration
+#
+# Everything the pipeline needs is here so no code changes are required to
+# retarget the source, tweak the model, or change output styling.
+
+# --- Sources -------------------------------------------------------------
+# Databricks platform release notes (AWS docs). The RSS feed drives the
+# weekly incremental run; the archive base drives historical backfill.
+source:
+  name: "Databricks platform release notes"
+  cloud: "aws"                       # aws | azure | gcp
+  # RSS/Atom feed for the platform release notes page. Verified at runtime;
+  # if the feed 404s the fetcher falls back to scraping the index page.
+  rss_url: "https://docs.databricks.com/aws/en/release-notes/product/rss.xml"
+  # Human index page (used as a fallback discovery source).
+  index_url: "https://docs.databricks.com/aws/en/release-notes/product/"
+  # Monthly archive URL pattern for backfill, e.g. .../product/2025/july
+  archive_pattern: "https://docs.databricks.com/aws/en/release-notes/product/{year}/{month}"
+  docs_base: "https://docs.databricks.com/aws/en/"
+
+# --- LLM enrichment ------------------------------------------------------
+llm:
+  # Batch model — good quality/cost for the volume of release notes.
+  model: "claude-sonnet-5"
+  # Optional higher-quality model you can opt into per-run with --model.
+  premium_model: "claude-opus-4-8"
+  max_tokens: 2000
+  temperature: 0.2
+  # API key is read from the ANTHROPIC_API_KEY environment variable.
+
+# --- Rendering -----------------------------------------------------------
+render:
+  # Default one-pager variant: "console" (dark) or "paper" (light).
+  variant: "console"
+  # Also emit the alternate variant alongside the default.
+  emit_alternate: true
+  site_title: "Databricks Update One-Pagers"
+
+# --- Paths (relative to repo root) --------------------------------------
+paths:
+  releases: "data/releases"          # raw normalized release notes
+  onepagers: "data/onepagers"        # enriched one-pager JSON
+  site: "site"                       # rendered HTML (GitHub Pages root)
+  fixtures: "fixtures"               # offline sample notes for testing

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env / secrets
+.env
+*.local
+
+# OS
+.DS_Store
+
+# Playwright downloads (browsers are provisioned by CI / environment)
+.cache/

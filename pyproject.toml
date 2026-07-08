@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dbx-onepager"
+version = "0.1.0"
+description = "Weekly Databricks release-note one-pager generator"
+requires-python = ">=3.10"
+dependencies = [
+  "anthropic>=0.40.0",
+  "jinja2>=3.1.0",
+  "feedparser>=6.0.11",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.0.0",
+  "playwright>=1.44.0",
+  "pydantic>=2.6.0",
+  "python-dateutil>=2.9.0",
+  "pyyaml>=6.0",
+  "markdownify>=0.12.0",
+]
+
+[project.scripts]
+dbx-onepager = "dbx_onepager.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,45 @@
+{
+  "product": "Lakeflow Declarative Pipelines is now generally available",
+  "tagline": "Lakeflow Declarative Pipelines is now generally available on the Databricks platform.",
+  "updated": "Jun 16, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/#lakeflow-declarative-pipelines",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#lakeflow-declarative-pipelines",
+  "what_it_does": "Lakeflow Declarative Pipelines is now generally available on the Databricks platform. Declarative Pipelines let you define end to end data pipelines in SQL or Python by describing the transformations you want, while the runtime manages orchestration, incremental processing, checkpointing, and recovery for you.",
+  "why_it_matters": "The generally available release adds: Serverless compute for pipeline execution with automatic scaling.",
+  "capabilities": [
+    {
+      "title": "Serverless compute for pipeline",
+      "desc": "Serverless compute for pipeline execution with automatic scaling."
+    },
+    {
+      "title": "Native change data capture",
+      "desc": "Native change data capture (CDC) ingestion from operational databases."
+    },
+    {
+      "title": "Data quality expectations with",
+      "desc": "Data quality expectations with quarantine and alerting on failed rows."
+    },
+    {
+      "title": "Unity Catalog governance for",
+      "desc": "Unity Catalog governance for all pipeline tables and lineage."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Lakeflow Declarative Pipelines is now generally available on the Databricks platform.",
+  "note_id": "2026-06-16-lakeflow-declarative-pipelines-is-now-generally-available",
+  "category": "platform"
+}

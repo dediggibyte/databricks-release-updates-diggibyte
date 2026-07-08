@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="console">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Databricks Update One-Pagers</title>
+  <link rel="stylesheet" href="assets/ds/tokens/fonts.css">
+  <link rel="stylesheet" href="assets/ds/tokens/colors.css">
+  <link rel="stylesheet" href="assets/ds/tokens/typography.css">
+  <link rel="stylesheet" href="assets/ds/tokens/spacing.css">
+  <link rel="stylesheet" href="assets/ds/tokens/base.css">
+  <style>
+    body { background: var(--ink-0); font-family: var(--font-sans); color: var(--text-1);
+           margin: 0; padding: 48px 24px 80px; }
+    .wrap { max-width: 1320px; margin: 0 auto; }
+    .masthead { display: flex; justify-content: space-between; align-items: flex-end;
+                gap: 24px; border-bottom: 1px solid var(--line-1); padding-bottom: 22px; }
+    .brand { display: flex; align-items: center; gap: 8px; font: 600 15px/1 var(--font-display); }
+    .brand .dot { width: 10px; height: 10px; background: var(--flow-400); border-radius: 2px; }
+    h1 { font: 600 34px/1.1 var(--font-display); letter-spacing: var(--tracking-display); margin: 14px 0 0; }
+    .sub { font: var(--type-body); color: var(--text-2); margin: 8px 0 0; max-width: 720px; }
+    .meta { font: var(--type-code-sm); color: var(--text-3); text-align: right; flex: none; }
+    .controls { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .controls input, .controls select {
+      font: var(--type-body-sm); color: var(--text-1); background: var(--ink-2);
+      border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: 9px 12px; }
+    .controls input { flex: 1; min-width: 220px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
+    .cardlink { text-decoration: none; }
+    .cardx { background: var(--ink-1); border: 1px solid var(--line-1); border-radius: var(--radius-md);
+             padding: 20px 22px; height: 100%; display: flex; flex-direction: column; gap: 12px;
+             transition: border-color 120ms, transform 120ms; }
+    .cardx:hover { border-color: var(--flow-500); transform: translateY(-2px); }
+    .crow { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: var(--radius-full);
+             font: var(--type-data); border: 1px solid var(--line-2); }
+    .badge .bdot { width: 7px; height: 7px; border-radius: 50%; }
+    .cdate { font: var(--type-code-sm); color: var(--text-3); }
+    .cprod { font: 600 18px/1.25 var(--font-display); color: var(--text-1); margin: 0; }
+    .ctag { font: var(--type-body-sm); color: var(--text-2); margin: 0;
+            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .empty { color: var(--text-3); font: var(--type-body); padding: 40px 0; }
+    footer { margin-top: 48px; color: var(--text-3); font: var(--type-code-sm); }
+    footer a { color: var(--flow-400); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="masthead">
+      <div>
+        <div class="brand"><span class="dot"></span>databricks</div>
+        <h1>Databricks Update One-Pagers</h1>
+        <p class="sub">Auto-generated executive one-pagers for every Databricks platform
+           release note — the technical change and the business impact, side by side.
+           Refreshed weekly.</p>
+      </div>
+      <div class="meta">3 updates<br>Built Jul 08, 2026 09:23 UTC</div>
+    </div>
+
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search updates…" aria-label="Search">
+      <select id="status" aria-label="Filter by status">
+        <option value="">All statuses</option>
+        <option value="ga">GA</option>
+        <option value="public-preview">Public Preview</option>
+        <option value="gated-preview">Gated Preview</option>
+        <option value="beta">Beta</option>
+        <option value="changed">Update</option>
+        <option value="eol">EOL</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+      </select>
+    </div>
+
+    <div class="grid" id="grid">
+      <a class="cardlink card-item" href="onepagers/2026-06-16-lakeflow-declarative-pipelines-is-now-generally-available.html"
+         data-title="lakeflow declarative pipelines is now generally available lakeflow declarative pipelines is now generally available on the databricks platform."
+         data-status="ga" data-date="2026-06-16">
+        <div class="cardx">
+          <div class="crow">
+            <span class="badge" style="color:var(--ok-400);">
+              <span class="bdot" style="background:var(--ok-400);"></span>GA
+            </span>
+            <span class="cdate">Jun 16, 2026</span>
+          </div>
+          <h3 class="cprod">Lakeflow Declarative Pipelines is now generally available</h3>
+          <p class="ctag">Lakeflow Declarative Pipelines is now generally available on the Databricks platform.</p>
+        </div>
+      </a>
+      <a class="cardlink card-item" href="onepagers/2026-06-09-attribute-based-access-control-abac-in-unity-catalog-is-in-public-preview.html"
+         data-title="attribute-based access control (abac) in unity catalog is in public preview attribute based access control (abac) for unity catalog is now in public preview."
+         data-status="public-preview" data-date="2026-06-09">
+        <div class="cardx">
+          <div class="crow">
+            <span class="badge" style="color:var(--info-400);">
+              <span class="bdot" style="background:var(--info-400);"></span>Public Preview
+            </span>
+            <span class="cdate">Jun 9, 2026</span>
+          </div>
+          <h3 class="cprod">Attribute-based access control (ABAC) in Unity Catalog is in Public Preview</h3>
+          <p class="ctag">Attribute based access control (ABAC) for Unity Catalog is now in Public Preview.</p>
+        </div>
+      </a>
+      <a class="cardlink card-item" href="onepagers/2026-06-02-incremental-refresh-for-materialized-views-in-databricks-sql.html"
+         data-title="incremental refresh for materialized views in databricks sql databricks sql materialized views now support incremental refresh in public preview."
+         data-status="public-preview" data-date="2026-06-02">
+        <div class="cardx">
+          <div class="crow">
+            <span class="badge" style="color:var(--info-400);">
+              <span class="bdot" style="background:var(--info-400);"></span>Public Preview
+            </span>
+            <span class="cdate">Jun 2, 2026</span>
+          </div>
+          <h3 class="cprod">Incremental refresh for materialized views in Databricks SQL</h3>
+          <p class="ctag">Databricks SQL materialized views now support incremental refresh in Public Preview.</p>
+        </div>
+      </a>
+    </div>
+    <div class="empty" id="empty" style="display:none;">No updates match your filters.</div>
+
+    <footer>
+      Generated by the Databricks Update One-Pager pipeline · fetch → enrich → render.
+      Source: <a href="https://docs.databricks.com/aws/en/release-notes/product/">Databricks platform release notes</a>.
+    </footer>
+  </div>
+
+  <script>
+    const q = document.getElementById('q');
+    const statusSel = document.getElementById('status');
+    const sortSel = document.getElementById('sort');
+    const grid = document.getElementById('grid');
+    const empty = document.getElementById('empty');
+    const cards = Array.from(document.querySelectorAll('.card-item'));
+
+    function apply() {
+      const term = q.value.trim().toLowerCase();
+      const st = statusSel.value;
+      let visible = 0;
+      cards.forEach(c => {
+        const okTerm = !term || c.dataset.title.includes(term);
+        const okStatus = !st || c.dataset.status === st;
+        const show = okTerm && okStatus;
+        c.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      empty.style.display = visible ? 'none' : 'block';
+    }
+    function sortCards() {
+      const dir = sortSel.value === 'oldest' ? 1 : -1;
+      cards.sort((a, b) => (a.dataset.date < b.dataset.date ? -1 : 1) * dir)
+           .forEach(c => grid.appendChild(c));
+    }
+    q.addEventListener('input', apply);
+    statusSel.addEventListener('change', apply);
+    sortSel.addEventListener('change', () => { sortCards(); apply(); });
+    sortCards();
+  </script>
+</body>
+</html>
