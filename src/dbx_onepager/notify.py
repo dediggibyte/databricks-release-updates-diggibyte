@@ -304,8 +304,8 @@ def build_html(
           <tr>
             <td align="center" style="padding:18px 20px 0;">
               <div style="font-family:{_FONT};font-size:11px;line-height:1.7;color:{_TEXT_FOOT};">
-                Sent automatically by the <a href="https://github.com/dediggibyte/databricks-updates-agent" style="color:{_TEXT_FOOT};">Databricks Updates Agent</a> {cadence}.<br>
-                <a href="{html.escape(site_url)}/" style="color:{_ACTION};text-decoration:none;">Gallery</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="https://github.com/dediggibyte/databricks-updates-agent" style="color:{_ACTION};text-decoration:none;">GitHub repo</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="https://docs.databricks.com/aws/en/release-notes/product/" style="color:{_ACTION};text-decoration:none;">Release notes</a>
+                Sent automatically by the <a href="https://github.com/dediggibyte/databricks-release-updates-diggibyte" style="color:{_TEXT_FOOT};">Databricks Updates Agent</a> {cadence}.<br>
+                <a href="{html.escape(site_url)}/" style="color:{_ACTION};text-decoration:none;">Gallery</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="https://github.com/dediggibyte/databricks-release-updates-diggibyte" style="color:{_ACTION};text-decoration:none;">GitHub repo</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="https://docs.databricks.com/aws/en/release-notes/product/" style="color:{_ACTION};text-decoration:none;">Release notes</a>
               </div>
             </td>
           </tr>

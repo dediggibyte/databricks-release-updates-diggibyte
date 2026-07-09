@@ -61,7 +61,7 @@ render:
   emit_alternate: true
   site_title: "Databricks Update One-Pagers"
   # Published site base URL — used for links in the weekly email digest.
-  pages_url: "https://dediggibyte.github.io/databricks-updates-agent"
+  pages_url: "https://dediggibyte.github.io/databricks-release-updates-diggibyte"
 
 # --- Paths (relative to repo root) --------------------------------------
 paths:
