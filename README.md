@@ -13,7 +13,7 @@ The pipeline runs **every day** (and redeploys on every merge to `main`), can
 **backfill any past release notes** on demand, and mails a **weekly digest**
 every Tuesday with links to the published gallery — never more often.
 
-![Gallery + one-pager](docs/preview.png)
+![Gallery](docs/preview.png)
 
 ---
 
