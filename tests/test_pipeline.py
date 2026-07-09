@@ -72,6 +72,82 @@ def test_extract_json_tolerates_code_fences():
     assert _extract_json('{"a": 3}') == {"a": 3}
 
 
+def test_clean_text_strips_markdown_links_bold_and_leading_date():
+    from dbx_onepager.enrich import _clean_text
+
+    out = _clean_text("**June 8, 2026** External lineage is now GA. See [docs](/x).")
+    assert out.startswith("External lineage")
+    assert "[" not in out and "**" not in out
+    assert "June 8, 2026" not in out
+
+
+def test_store_refresh_overwrites_and_invalidates_onepager(tmp_path):
+    from dbx_onepager.store import Store
+
+    class _P:  # minimal Paths stand-in
+        def __init__(self, base):
+            self.releases = base / "releases"
+            self.onepagers = base / "onepagers"
+            self.docs = base / "docs"
+            self.site = base / "site"
+            self.site_onepagers = base / "site" / "onepagers"
+
+        def ensure(self):
+            for d in (self.releases, self.onepagers, self.docs,
+                      self.site, self.site_onepagers):
+                d.mkdir(parents=True, exist_ok=True)
+
+    store = Store(_P(tmp_path))
+    note = _note()
+    store.add_notes([note])
+    op = enrich_note(note, {"llm": {}, "source": {}, "doc": {"fetch_underlying": False}}, mock=True)
+    store.save_onepager(op)
+    assert store.has_onepager(note.id)
+
+    assert store.add_notes([note]) == []            # already stored -> skipped
+    saved = store.add_notes([note], refresh=True)    # refresh -> re-saved
+    assert len(saved) == 1
+    assert not store.has_onepager(note.id)           # stale one-pager dropped
+
+
+def test_extract_links_resolves_relative_and_skips_anchors():
+    from dbx_onepager.fetch import _extract_links
+
+    html = (
+        '<p>See <a href="/aws/en/ingestion/lakeflow-connect/row-filtering">'
+        "Select rows to ingest</a> and <a href=\"#top\">top</a>.</p>"
+    )
+    links = _extract_links(html, "https://docs.databricks.com/aws/en/release-notes/product/")
+    urls = [l.url for l in links]
+    assert "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering" in urls
+    assert not any(u.endswith("#top") for u in urls)  # in-page anchors skipped
+
+
+def test_pick_primary_doc_prefers_tech_doc_over_release_note():
+    from dbx_onepager.fetch import pick_primary_doc
+    from dbx_onepager.models import RefLink
+
+    note = _note(
+        ref_links=[
+            RefLink(text="another note", url="https://docs.databricks.com/aws/en/release-notes/product/2026/june"),
+            RefLink(text="Select rows to ingest", url="https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering"),
+        ]
+    )
+    assert pick_primary_doc(note).endswith("/row-filtering")
+
+
+def test_enrich_sets_docs_url_to_tech_reference():
+    from dbx_onepager.models import RefLink
+
+    note = _note(
+        ref_links=[RefLink(text="doc", url="https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering")]
+    )
+    cfg = {"llm": {}, "source": {}, "doc": {"fetch_underlying": False}}
+    op = enrich_note(note, cfg, mock=True)
+    assert op.docs_url.endswith("/row-filtering")     # tech doc, not the note
+    assert op.source_url == note.url                  # provenance kept
+
+
 def test_provider_falls_back_to_heuristic_when_unavailable():
     # provider=github-models but no GITHUB_TOKEN -> must not raise, degrades.
     import os

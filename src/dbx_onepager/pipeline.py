@@ -14,13 +14,16 @@ from .render import build_site
 from .store import Store
 
 
-def _enrich_pending(store: Store, cfg: dict, model: Optional[str], mock: bool) -> int:
-    pending = store.notes_needing_enrichment()
-    print(f"enrich: {len(pending)} note(s) pending")
+def _enrich_pending(
+    store: Store, cfg: dict, model: Optional[str], mock: bool, force: bool = False
+) -> int:
+    pending = store.all_notes() if force else store.notes_needing_enrichment()
+    verb = "re-enrich (forced)" if force else "enrich"
+    print(f"{verb}: {len(pending)} note(s)")
     done = 0
     for note in pending:
         try:
-            op = enrich_note(note, cfg, model=model, mock=mock)
+            op = enrich_note(note, cfg, model=model, mock=mock, docs_cache=store.paths.docs)
             store.save_onepager(op)
             done += 1
             print(f"  ✓ {note.id}")
@@ -35,14 +38,16 @@ def _finish(store: Store, cfg: dict, paths: Paths) -> None:
     print(f"site: rebuilt with {len(onepagers)} one-pager(s) -> {paths.site}")
 
 
-def run_weekly(config_path: Optional[str], model: Optional[str], mock: bool) -> None:
+def run_weekly(
+    config_path: Optional[str], model: Optional[str], mock: bool, refresh: bool = False
+) -> None:
     cfg = load_config(config_path)
     paths = Paths(cfg)
     store = Store(paths)
     print("fetch: pulling latest release notes (RSS → index fallback)…")
     notes = fetch.fetch_new(cfg)
-    new = store.add_notes(notes)
-    print(f"fetch: {len(notes)} found, {len(new)} new")
+    saved = store.add_notes(notes, refresh=refresh)
+    print(f"fetch: {len(notes)} found, {len(saved)} {'refreshed' if refresh else 'new'}")
     _enrich_pending(store, cfg, model, mock)
     _finish(store, cfg, paths)
 
@@ -53,14 +58,15 @@ def run_backfill(
     end: date,
     model: Optional[str],
     mock: bool,
+    refresh: bool = False,
 ) -> None:
     cfg = load_config(config_path)
     paths = Paths(cfg)
     store = Store(paths)
     print(f"backfill: walking archives {start} … {end}")
     notes = fetch.fetch_archive_range(cfg, start, end)
-    new = store.add_notes(notes)
-    print(f"backfill: {len(notes)} found, {len(new)} new")
+    saved = store.add_notes(notes, refresh=refresh)
+    print(f"backfill: {len(notes)} found, {len(saved)} {'refreshed' if refresh else 'new'}")
     _enrich_pending(store, cfg, model, mock)
     _finish(store, cfg, paths)
 
@@ -77,11 +83,13 @@ def run_fixtures(config_path: Optional[str], model: Optional[str], mock: bool) -
     _finish(store, cfg, paths)
 
 
-def run_enrich(config_path: Optional[str], model: Optional[str], mock: bool) -> None:
+def run_enrich(
+    config_path: Optional[str], model: Optional[str], mock: bool, force: bool = False
+) -> None:
     cfg = load_config(config_path)
     paths = Paths(cfg)
     store = Store(paths)
-    _enrich_pending(store, cfg, model, mock)
+    _enrich_pending(store, cfg, model, mock, force=force)
     _finish(store, cfg, paths)
 
 

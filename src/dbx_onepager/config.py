@@ -30,6 +30,7 @@ class Paths:
         self.root = root
         self.releases = root / p["releases"]
         self.onepagers = root / p["onepagers"]
+        self.docs = root / p.get("docs", "data/docs")
         self.site = root / p["site"]
         self.site_onepagers = self.site / "onepagers"
         self.fixtures = root / p["fixtures"]
@@ -37,5 +38,5 @@ class Paths:
         self.templates = root / "templates"
 
     def ensure(self) -> None:
-        for d in (self.releases, self.onepagers, self.site, self.site_onepagers):
+        for d in (self.releases, self.onepagers, self.docs, self.site, self.site_onepagers):
             d.mkdir(parents=True, exist_ok=True)

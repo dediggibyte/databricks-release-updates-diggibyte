@@ -7,16 +7,20 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "weekly (new notes) or backfill (past notes)"
+        description: "weekly (new notes), backfill (past notes), or reenrich (refresh all existing)"
         type: choice
         default: weekly
-        options: [weekly, backfill]
+        options: [weekly, backfill, reenrich]
       from_month:
         description: "Backfill start month YYYY-MM (backfill mode only)"
         required: false
       to_month:
         description: "Backfill end month YYYY-MM (backfill mode only)"
         required: false
+      refresh:
+        description: "Re-fetch & overwrite existing notes (weekly/backfill) — updates doc links and re-enriches"
+        type: boolean
+        default: false
       model:
         description: "Override model id (optional, e.g. claude-opus-4-8)"
         required: false
@@ -59,12 +63,18 @@ jobs:
           if [ -n "${{ github.event.inputs.model }}" ]; then
             MODEL_FLAG="--model ${{ github.event.inputs.model }}"
           fi
+          REFRESH_FLAG=""
+          if [ "${{ github.event.inputs.refresh }}" = "true" ]; then
+            REFRESH_FLAG="--refresh"
+          fi
           if [ "${{ github.event.inputs.mode }}" = "backfill" ]; then
             python -m dbx_onepager $MODEL_FLAG backfill \
               --from "${{ github.event.inputs.from_month }}" \
-              --to "${{ github.event.inputs.to_month }}"
+              --to "${{ github.event.inputs.to_month }}" $REFRESH_FLAG
+          elif [ "${{ github.event.inputs.mode }}" = "reenrich" ]; then
+            python -m dbx_onepager $MODEL_FLAG enrich --force
           else
-            python -m dbx_onepager $MODEL_FLAG weekly
+            python -m dbx_onepager $MODEL_FLAG weekly $REFRESH_FLAG
           fi
 
       - name: Commit generated content

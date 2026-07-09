@@ -14,16 +14,18 @@ Two ingestion modes:
 from __future__ import annotations
 
 import calendar
+import hashlib
 import json
 import re
 import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Iterable, Optional
+from urllib.parse import urljoin, urlparse
 
 from dateutil import parser as dateparser
 
-from .models import ReleaseNote
+from .models import RefLink, ReleaseNote
 
 _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -130,6 +132,90 @@ def _html_to_markdown(html: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+# Link targets that are never the "technical reference" for a note.
+_NON_DOC_URL = re.compile(
+    r"/release-notes/|/feed\.xml|mailto:|#$|databricks\.com/?$", re.I
+)
+
+
+def _extract_links(html: str, base_url: str) -> list[RefLink]:
+    """Absolute reference links from a note fragment, de-duplicated in order."""
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "lxml")
+    seen: set[str] = set()
+    links: list[RefLink] = []
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href or href.startswith(("#", "javascript:")):
+            continue
+        url = urljoin(base_url, href)
+        text = a.get_text(" ", strip=True) or url
+        if url in seen:
+            continue
+        seen.add(url)
+        links.append(RefLink(text=text[:120], url=url))
+    return links
+
+
+def pick_primary_doc(note: ReleaseNote) -> Optional[str]:
+    """Choose the technical reference a one-pager should link to and expand.
+
+    Preference: an on-docs link that is NOT another release note. Databricks
+    notes end with "See <doc>", so the last qualifying link is usually the
+    canonical feature doc.
+    """
+    candidates = [
+        r for r in note.ref_links
+        if not _NON_DOC_URL.search(r.url) and "docs.databricks.com" in urlparse(r.url).netloc
+    ]
+    if candidates:
+        return candidates[-1].url
+    # Fall back to any non-release-note link.
+    other = [r for r in note.ref_links if not _NON_DOC_URL.search(r.url)]
+    return other[-1].url if other else None
+
+
+def fetch_doc(url: str, cache_dir: Optional[Path] = None, max_chars: int = 14000) -> str:
+    """Fetch a technical doc page and return its main content as markdown.
+
+    Results are cached on disk (keyed by URL hash) so the underlying doc is
+    fetched once and is git-inspectable. Returns "" on failure.
+    """
+    cache_file = None
+    if cache_dir is not None:
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        digest = hashlib.sha1(url.encode()).hexdigest()[:16]
+        cache_file = cache_dir / f"{digest}.md"
+        if cache_file.exists():
+            return cache_file.read_text(encoding="utf-8")
+    try:
+        html = fetch_url(url)
+        text = _extract_main_markdown(html)[:max_chars]
+    except Exception as err:  # noqa: BLE001 - doc is best-effort context
+        print(f"    · doc fetch failed ({url}): {err}")
+        text = ""
+    if cache_file is not None and text:
+        cache_file.write_text(text, encoding="utf-8")
+    return text
+
+
+def _extract_main_markdown(html: str) -> str:
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "lxml")
+    for tag in soup(["nav", "header", "footer", "script", "style", "aside"]):
+        tag.decompose()
+    article = (
+        soup.find("article")
+        or soup.find("main")
+        or soup.find("div", attrs={"role": "main"})
+        or soup.body
+        or soup
+    )
+    return _html_to_markdown(str(article))
+
+
 # --------------------------------------------------------------------------
 # RSS ingestion (weekly incremental)
 # --------------------------------------------------------------------------
@@ -183,6 +269,7 @@ def _notes_from_feed(feed, cfg: dict) -> list[ReleaseNote]:
             summary_html = entry["content"][0].get("value", "")
         summary_html = summary_html or entry.get("summary", "")
         body = _html_to_markdown(summary_html) if summary_html else title
+        ref_links = _extract_links(summary_html, link) if summary_html else []
         notes.append(
             ReleaseNote(
                 id=ReleaseNote.make_id(note_date, title),
@@ -192,6 +279,7 @@ def _notes_from_feed(feed, cfg: dict) -> list[ReleaseNote]:
                 cloud=src.get("cloud", "aws"),
                 category=cfg["source"].get("category", "platform"),
                 body=body,
+                ref_links=ref_links,
                 source="rss",
                 fetched_at=datetime.now(timezone.utc),
             )
@@ -250,6 +338,7 @@ def parse_notes_from_html(
         note_date = _extract_date(title + " " + body, default_date)
         anchor = h.get("id")
         url = f"{page_url}#{anchor}" if anchor else page_url
+        ref_links = _extract_links(body_html, page_url) if body_html else []
         notes.append(
             ReleaseNote(
                 id=ReleaseNote.make_id(note_date, title),
@@ -259,6 +348,7 @@ def parse_notes_from_html(
                 cloud=src.get("cloud", "aws"),
                 category=src.get("category", "platform"),
                 body=body,
+                ref_links=ref_links,
                 source=source_tag,  # type: ignore[arg-type]
                 fetched_at=datetime.now(timezone.utc),
             )
@@ -356,12 +446,18 @@ def _note_from_markdown(path: Path) -> ReleaseNote:
         elif line.strip() and not line.startswith(("#", ">")):
             break
     body = "\n".join(lines[body_start:]).strip()
+    # Markdown links [text](url) become reference links.
+    ref_links = [
+        RefLink(text=m.group(1)[:120], url=m.group(2))
+        for m in re.finditer(r"\[([^\]]+)\]\((https?://[^)]+)\)", body)
+    ]
     return ReleaseNote(
         id=ReleaseNote.make_id(note_date, title),
         title=title,
         date=note_date,
         url=f"https://docs.databricks.com/aws/en/release-notes/product/#{path.stem}",
         body=body,
+        ref_links=ref_links,
         source="fixture",
         fetched_at=datetime.now(timezone.utc),
     )

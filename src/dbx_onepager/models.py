@@ -34,6 +34,13 @@ def slugify(text: str) -> str:
     return text.strip("-")[:80] or "note"
 
 
+class RefLink(BaseModel):
+    """A reference link found in a release note (its "See ..." / doc links)."""
+
+    text: str
+    url: str
+
+
 class ReleaseNote(BaseModel):
     """A single normalized Databricks release note."""
 
@@ -45,6 +52,9 @@ class ReleaseNote(BaseModel):
     category: str = "platform"
     # Raw content as markdown/plain text — what the LLM reads.
     body: str = ""
+    # Reference links in the note (e.g. "See Select rows to ingest"). The
+    # primary one is the technical doc the one-pager should link to and expand.
+    ref_links: list[RefLink] = Field(default_factory=list)
     # Provenance for auditing / re-fetch.
     source: Literal["rss", "archive", "fixture"] = "rss"
     fetched_at: Optional[datetime] = None

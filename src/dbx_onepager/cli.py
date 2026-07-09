@@ -48,8 +48,11 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="dbx_onepager", description=__doc__, parents=[common])
     sub = p.add_subparsers(dest="command", required=True)
 
-    sub.add_parser("weekly", parents=[common],
-                   help="Fetch new notes via RSS, enrich, rebuild site")
+    wk = sub.add_parser("weekly", parents=[common],
+                        help="Fetch new notes via RSS, enrich, rebuild site")
+    wk.add_argument("--refresh", action="store_true",
+                    help="Re-fetch and overwrite matching notes (updates links, "
+                         "re-enriches) instead of skipping ones already stored")
 
     bf = sub.add_parser("backfill", parents=[common],
                         help="Backfill historical notes by month range")
@@ -57,9 +60,14 @@ def build_parser() -> argparse.ArgumentParser:
                     help="Start month YYYY-MM")
     bf.add_argument("--to", dest="end", required=True, type=_parse_month,
                     help="End month YYYY-MM (inclusive)")
+    bf.add_argument("--refresh", action="store_true",
+                    help="Re-fetch and overwrite matching notes (updates links, "
+                         "re-enriches) instead of skipping ones already stored")
 
     sub.add_parser("fixtures", parents=[common], help="Run offline over fixtures/ (dev + CI)")
-    sub.add_parser("enrich", parents=[common], help="Enrich all pending notes, rebuild site")
+    en = sub.add_parser("enrich", parents=[common], help="Enrich pending notes, rebuild site")
+    en.add_argument("--force", action="store_true",
+                    help="Re-enrich ALL stored notes (refresh existing one-pagers)")
     sub.add_parser("build", parents=[common], help="Rebuild the static site from existing data")
     return p
 
@@ -68,13 +76,14 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     cmd = args.command
     if cmd == "weekly":
-        pipeline.run_weekly(args.config, args.model, args.mock)
+        pipeline.run_weekly(args.config, args.model, args.mock, refresh=args.refresh)
     elif cmd == "backfill":
-        pipeline.run_backfill(args.config, args.start, args.end, args.model, args.mock)
+        pipeline.run_backfill(args.config, args.start, args.end, args.model,
+                              args.mock, refresh=args.refresh)
     elif cmd == "fixtures":
         pipeline.run_fixtures(args.config, args.model, args.mock)
     elif cmd == "enrich":
-        pipeline.run_enrich(args.config, args.model, args.mock)
+        pipeline.run_enrich(args.config, args.model, args.mock, force=args.force)
     elif cmd == "build":
         pipeline.run_build(args.config)
     else:  # pragma: no cover - argparse enforces

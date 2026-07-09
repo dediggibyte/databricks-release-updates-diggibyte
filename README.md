@@ -24,15 +24,22 @@ fetch  →  store  →  enrich (Claude)  →  render  →  gallery
 
 | Stage | Module | What it does |
 |-------|--------|--------------|
-| **fetch**  | `fetch.py`   | Pulls release notes. Weekly = the release-notes **RSS feed**; backfill = walks **monthly archive** pages. Uses headless **Chromium/Playwright** (Databricks docs block plain bots), with a urllib fallback and offline fixtures. |
+| **fetch**  | `fetch.py`   | Pulls release notes (RSS weekly, archive backfill) **and extracts each note's reference links**, then fetches the **underlying technical doc** it points to (cached under `data/docs/`). Uses headless **Chromium/Playwright**, with a urllib fallback and offline fixtures. |
 | **store**  | `store.py`   | Durable JSON per note, **deduped by id**. Keeps full history so any past note is always re-generatable. |
-| **enrich** | `enrich.py`  | Turns each note into the structured one-pager contract. Pluggable provider (see below); always falls back to a keyless heuristic if the provider errors. |
+| **enrich** | `enrich.py`  | Turns each note **plus its underlying tech doc** into the structured one-pager contract — so the page describes what actually changed in depth, and links to the technical reference (not the release-note page). Pluggable provider (see below); always falls back to a keyless heuristic. |
 | **render** | `render.py`  | Fills the Jinja2 template with the Datalab design tokens → one self-contained HTML page per note. |
 | **gallery**| `render.py`  | Builds `index.html`: a searchable, filterable card grid of every update. |
 
 The one-pager **content contract** lives in `models.py` (`OnePager`). That single
-Pydantic model drives the Claude tool schema *and* the template, so they can
+Pydantic model drives the LLM tool schema *and* the template, so they can
 never drift apart.
+
+**Depth from the source doc.** Release-note blurbs are one or two sentences, so
+each note's "See …" link is followed to the real feature documentation. That
+doc is the primary source for enrichment (mechanism, prerequisites,
+limitations, adoption steps) and becomes the one-pager's `docs ↗` link. Fetched
+docs are cached in `data/docs/` (git-tracked, fetched once). If a doc can't be
+reached, enrichment degrades to the note blurb.
 
 ## Quick start
 
@@ -60,6 +67,11 @@ python -m dbx_onepager backfill --from 2025-01 --to 2025-12
 # Re-enrich anything pending / rebuild the static site only.
 python -m dbx_onepager enrich
 python -m dbx_onepager build
+
+# Refresh EXISTING notes with newer logic (re-fetch reference links +
+# underlying docs, then re-enrich). Use after upgrading the pipeline.
+python -m dbx_onepager backfill --from 2026-06 --to 2026-07 --refresh
+python -m dbx_onepager enrich --force        # re-enrich stored notes in place
 ```
 
 Global flags (usable before or after the subcommand):

@@ -33,14 +33,24 @@ class Store:
             note.model_dump_json(indent=2), encoding="utf-8"
         )
 
-    def add_notes(self, notes: Iterable[ReleaseNote]) -> list[ReleaseNote]:
-        """Persist notes that are not already stored. Returns the new ones."""
-        new: list[ReleaseNote] = []
+    def add_notes(
+        self, notes: Iterable[ReleaseNote], refresh: bool = False
+    ) -> list[ReleaseNote]:
+        """Persist notes. Skips ones already stored unless ``refresh`` is set,
+        in which case the note is overwritten (picking up newly-extracted
+        ref_links) and its stale one-pager is dropped so it re-enriches.
+        Returns the notes that were saved."""
+        saved: list[ReleaseNote] = []
         for note in notes:
-            if not self.has_note(note.id):
-                self.save_note(note)
-                new.append(note)
-        return new
+            if self.has_note(note.id) and not refresh:
+                continue
+            self.save_note(note)
+            if refresh:
+                op = self._onepager_path(note.id)
+                if op.exists():
+                    op.unlink()
+            saved.append(note)
+        return saved
 
     def get_note(self, note_id: str) -> Optional[ReleaseNote]:
         path = self._note_path(note_id)
