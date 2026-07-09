@@ -1,37 +1,74 @@
 {
-  "product": "Install third-party apps from Databricks Marketplace",
-  "tagline": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "product": "Third-Party Apps from Databricks Marketplace",
+  "tagline": "Discover and install third-party applications directly in your Unity Catalog workspace.",
   "updated": "Jun 16, 2026",
-  "status_label": "Update",
-  "status": "changed",
+  "status_label": "Public Preview",
+  "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/marketplace/get-started-consumer#third-party-apps",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#install-third-party-apps-from-databricks-marketplace",
-  "what_it_does": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace. The provider's code stays closed source, and you authorize any external access the app needs when you install it. Open Marketplace and filter by the Apps category to get started.",
-  "why_it_matters": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "what_it_does": "Databricks Marketplace now allows users to discover, install, and run third-party data and AI applications directly within their Unity Catalog-governed workspace. These applications maintain closed-source code, and users can authorize any external access required during installation. This feature supports a wide range of applications, enhancing the capabilities of data consumers in a secure environment governed by Unity Catalog.",
+  "why_it_matters": "This update empowers organizations to leverage third-party applications seamlessly within their existing data infrastructure, enhancing productivity and operational efficiency. By integrating external tools directly into their workflows, users can accelerate data-driven decision-making while ensuring compliance with governance policies.",
   "capabilities": [
     {
-      "title": "CREATE CATALOG and USE PROVIDER",
-      "desc": "CREATE CATALOG and USE PROVIDER permissions on the Unity Catalog metastore."
+      "title": "Secure Third-Party Integration",
+      "desc": "Install third-party applications that run within your Databricks environment, ensuring data remains secure."
     },
     {
-      "title": "Metastore admin role",
-      "desc": "Metastore admin role."
+      "title": "Unity Catalog Governance",
+      "desc": "Utilize Unity Catalog for governance, auditing, and management of third-party app resources."
+    },
+    {
+      "title": "Customizable App Installation",
+      "desc": "Configure app resources and permissions during installation to tailor functionality to specific needs."
+    },
+    {
+      "title": "Instant Access to Apps",
+      "desc": "Request and gain instant access to available third-party applications directly from the Marketplace."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Databricks account on the Premium plan or above.",
+    "Databricks workspace enabled for Unity Catalog.",
+    "USE MARKETPLACE ASSETS privilege on the Unity Catalog metastore."
+  ],
+  "use_cases": [
+    "Integrating AI models from third-party vendors into existing workflows.",
+    "Utilizing specialized data processing applications for enhanced analytics.",
+    "Accessing proprietary datasets and tools from trusted partners."
+  ],
+  "limitations": [
+    "Some apps may require notebook installation scripts for setup.",
+    "Network policies may block required endpoints; admin intervention may be needed."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Marketplace",
+    "Unity Catalog",
+    "Databricks Workspace",
+    "Third-Party Applications"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Marketplace",
+      "desc": "Navigate to the Databricks Marketplace from your workspace."
+    },
+    {
+      "title": "Select an App",
+      "desc": "Browse or search for the desired third-party app under the Apps category."
+    },
+    {
+      "title": "Install the App",
+      "desc": "Click Install, agree to terms, and configure necessary resources."
+    },
+    {
+      "title": "Grant Permissions",
+      "desc": "Set up permissions for app scopes and resources as needed."
+    },
+    {
+      "title": "Complete Installation",
+      "desc": "Finalize the installation and access the app from Databricks Apps."
     }
   ],
-  "key_takeaway": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "key_takeaway": "Databricks Marketplace now enables seamless integration of third-party applications, enhancing data capabilities while ensuring governance and security.",
   "note_id": "2026-06-16-install-third-party-apps-from-databricks-marketplace",
   "category": "platform"
 }

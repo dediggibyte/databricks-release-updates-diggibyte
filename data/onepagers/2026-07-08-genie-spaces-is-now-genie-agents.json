@@ -1,45 +1,70 @@
 {
-  "product": "Genie Spaces is now Genie Agents",
-  "tagline": "Genie Spaces are now called Genie Agents.",
+  "product": "Genie Agents",
+  "tagline": "Formerly known as Genie Spaces, Genie Agents provide a natural-language interface for data interaction.",
   "updated": "Jul 8, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/genie/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
-  "what_it_does": "Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. A Genie Agent is a domain specific natural language chat interface in Databricks where users ask questions of their data and get back SQL queries, results tables, and visualizations.",
-  "why_it_matters": "For agent authors + Tune Genie Agent quality + Add metrics, business rules, and verified answers to improve response quality.",
+  "what_it_does": "Genie Agents serve as a domain-specific natural-language chat interface within Databricks, allowing users to query their data and receive SQL queries, results tables, and visualizations. Each agent is curated by data analysts using datasets from Unity Catalog, example SQL queries, and tailored instructions to fit organizational terminology. The product's capabilities remain unchanged despite the name change from Genie Spaces.",
+  "why_it_matters": "The rebranding to Genie Agents enhances clarity and aligns with the product's functionality, making it easier for business users to leverage AI for data exploration. This change supports improved productivity for data analysts and business users by providing a streamlined chat interface for accessing data insights, ultimately driving better decision-making.",
   "capabilities": [
     {
-      "title": "Genie Agents concepts",
-      "desc": "Genie Agents concepts"
+      "title": "Natural Language Queries",
+      "desc": "Users can ask questions in natural language and receive structured data responses."
     },
     {
-      "title": "Learn what Genie Agents are",
-      "desc": "Learn what Genie Agents are, how they generate responses, and how data access works."
+      "title": "Curated Data Access",
+      "desc": "Data analysts can curate agents with datasets and SQL queries tailored to business needs."
     },
     {
-      "title": "Create and manage a Genie",
-      "desc": "Create and manage a Genie Agent"
+      "title": "Integration with Unity Catalog",
+      "desc": "Genie Agents utilize datasets registered in Unity Catalog for enhanced data governance."
     },
     {
-      "title": "Create a Genie Agent and",
-      "desc": "Create a Genie Agent and configure datasets, SQL queries, and instructions."
+      "title": "Embedding in Applications",
+      "desc": "Genie Agents can be embedded into external applications for broader accessibility."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
+  "prerequisites": [
+    "Access to Databricks workspace",
+    "Datasets registered in Unity Catalog"
+  ],
+  "use_cases": [
+    "Business users exploring data insights through natural language.",
+    "Data analysts curating agents for specific business queries.",
+    "Embedding Genie Agents into customer-facing applications."
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Sources",
+    "Unity Catalog",
+    "Genie Agents",
+    "User Interface"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create a Genie Agent",
+      "desc": "Set up a new Genie Agent and configure it with relevant datasets."
+    },
+    {
+      "title": "Curate Agent Content",
+      "desc": "Add SQL queries and tailored instructions for user interaction."
+    },
+    {
+      "title": "Test Agent Performance",
+      "desc": "Run benchmarks and monitor the agent's response quality."
+    },
+    {
+      "title": "Embed in External Apps",
+      "desc": "Integrate the Genie Agent into other applications as needed."
+    },
+    {
+      "title": "Troubleshoot Issues",
+      "desc": "Diagnose and resolve any common issues encountered with the agent."
     }
   ],
-  "key_takeaway": "Genie Spaces are now called Genie Agents.",
+  "key_takeaway": "Genie Spaces have been rebranded to Genie Agents, maintaining their core functionality while enhancing user clarity and engagement.",
   "note_id": "2026-07-08-genie-spaces-is-now-genie-agents",
   "category": "platform"
 }

@@ -1,33 +1,69 @@
 {
-  "product": "Solution Accelerators in Databricks Marketplace are now published as apps or…",
-  "tagline": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace.",
+  "product": "Databricks Marketplace",
+  "tagline": "Solution Accelerators are now categorized as apps or notebooks.",
   "updated": "Jun 25, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/marketplace/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#solution-accelerators-in-databricks-marketplace-are-now-published-as-apps-or-notebooks",
-  "what_it_does": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace. The content is unchanged, but they are now categorized as apps (interactive applications) or notebooks (code based accelerators). Databricks Marketplace is an open exchange where data providers, software vendors, and technology partners publish offerings that Databricks customers can discover, evaluate, and connect with directly from their workspace.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
+  "what_it_does": "Solution Accelerators in Databricks Marketplace have been reclassified from a separate listing type to being categorized as either interactive applications (apps) or code-based accelerators (notebooks). This change streamlines the user experience by consolidating offerings under familiar categories while maintaining the original content. The Marketplace serves as a centralized platform for discovering and connecting with various data assets and partner solutions.",
+  "why_it_matters": "This update enhances the discoverability and usability of Solution Accelerators, allowing users to more easily find and utilize these resources in their workflows. By integrating them into the broader app and notebook categories, organizations can improve productivity and accelerate their data-driven initiatives, ultimately leading to better decision-making and innovation.",
+  "capabilities": [
+    {
+      "title": "Unified Listing Categories",
+      "desc": "Solution Accelerators are now listed as either apps or notebooks, simplifying navigation."
+    },
+    {
+      "title": "Access to Diverse Data Assets",
+      "desc": "Users can discover datasets, AI models, and notebooks all in one place."
+    },
+    {
+      "title": "Partner Connect Integration",
+      "desc": "Seamless connections to partner solutions enhance the functionality of the Marketplace."
+    },
+    {
+      "title": "Secure Data Exchange",
+      "desc": "Utilizes OpenSharing for secure and controlled access to shared data."
+    }
+  ],
+  "prerequisites": [
+    "Databricks account with a premium workspace enabled for Unity Catalog."
+  ],
   "use_cases": [
-    "In addition to datasets",
-    "you can also share Databricks notebooks",
-    "machine learning models",
-    "MCP servers to demonstrate use cases"
+    "Data scientists can quickly find and implement pre-built solutions.",
+    "Organizations can leverage partner integrations to enhance their analytics capabilities.",
+    "Users can access both public and private data offerings based on their needs."
   ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Workspace",
+    "Databricks Marketplace",
+    "OpenSharing Protocol",
+    "Partner Connect"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Marketplace",
+      "desc": "Navigate to the Marketplace from your Databricks workspace."
+    },
+    {
+      "title": "Browse Listings",
+      "desc": "Explore the categorized offerings of apps and notebooks."
+    },
+    {
+      "title": "Request Data Products",
+      "desc": "Submit requests for access to desired data products."
+    },
+    {
+      "title": "Utilize Partner Connect",
+      "desc": "Create trial accounts with partners directly from the Marketplace."
+    },
+    {
+      "title": "Integrate Solutions",
+      "desc": "Incorporate the selected apps or notebooks into your workflows."
     }
   ],
-  "key_takeaway": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace.",
+  "key_takeaway": "The reclassification of Solution Accelerators enhances usability and integration within Databricks Marketplace, driving productivity for users.",
   "note_id": "2026-06-25-287c1962",
   "category": "platform"
 }

@@ -1,28 +1,80 @@
 {
-  "product": "Managed disaster recovery is now in Public Preview",
-  "tagline": "Managed disaster recovery (DR) is now in Public Preview.",
+  "product": "Managed Disaster Recovery",
+  "tagline": "Now in Public Preview for enhanced resilience.",
   "updated": "Jun 12, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/admin/managed-disaster-recovery",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-disaster-recovery-is-now-in-public-preview",
-  "what_it_does": "Managed disaster recovery (DR) is now in Public Preview. Managed DR replicates your Unity Catalog metadata, managed table data, and workspace assets to a secondary region, and provides a stable URL that survives failover so downstream clients do not need to be reconfigured. You configure and operate managed DR from the new Resilience section of the account console.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Managed disaster recovery (DR) replicates your Databricks deployment to a secondary region, allowing for rapid recovery from regional outages. It continuously replicates Unity Catalog metadata, managed table data, and workspace assets, while providing a stable URL that remains consistent through failover events. Users can trigger failovers as needed, ensuring minimal disruption during outages.",
+  "why_it_matters": "This feature significantly enhances business continuity by minimizing downtime during regional outages, thus protecting critical data and applications. Organizations can maintain operational resilience, reduce recovery time objectives (RTO), and ensure that downstream clients remain connected without reconfiguration, ultimately safeguarding productivity and reducing risk.",
+  "capabilities": [
+    {
+      "title": "Continuous Replication",
+      "desc": "Replicates Unity Catalog metadata and workspace assets continuously to a secondary region."
+    },
+    {
+      "title": "Stable URL Support",
+      "desc": "Provides a stable URL that points to the current primary, ensuring seamless client connectivity post-failover."
+    },
+    {
+      "title": "Manual Failover Control",
+      "desc": "Allows users to manually trigger failovers for both planned tests and unplanned outages."
+    },
+    {
+      "title": "Asset ID Preservation",
+      "desc": "Maintains workspace asset IDs across regions, ensuring URLs referencing assets remain valid after failover."
+    }
+  ],
+  "prerequisites": [
+    "Mission Critical workspace add-on enabled on both workspaces.",
+    "Serverless compute enabled on both workspaces.",
+    "Account admin role with ALL PRIVILEGES on external locations used by catalogs.",
+    "Account-level SSO with all workspaces enabled and identities synced via SCIM.",
+    "A secondary workspace and Unity Catalog metastore in the secondary region."
+  ],
+  "use_cases": [
+    "Rapid recovery from regional outages to maintain business operations.",
+    "Testing disaster recovery plans to ensure readiness for actual outages.",
+    "Maintaining client connectivity without reconfiguration during failovers.",
+    "Safeguarding critical data and applications in multi-region deployments."
+  ],
+  "limitations": [
+    "Only specific categories of data and assets are replicated; anything not listed is not replicated.",
+    "Initial replication can take up to two weeks for large workspaces.",
+    "Secondary in-scope catalogs are read-only during the initial replication phase.",
+    "Existing in-scope assets in the secondary workspace are deleted upon initial replication."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Primary Databricks Workspace",
+    "Secondary Databricks Workspace",
+    "Unity Catalog",
+    "Replication Pipeline",
+    "Stable URL"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Mission Critical",
+      "desc": "Turn on the Mission Critical add-on for both primary and secondary workspaces."
+    },
+    {
+      "title": "Create Stable URL",
+      "desc": "In the account console, navigate to Resilience and create a stable URL for client connections."
+    },
+    {
+      "title": "Create Failover Group",
+      "desc": "Define a failover group by specifying primary and secondary workspaces and replication settings."
+    },
+    {
+      "title": "Map Storage Locations",
+      "desc": "Add storage mappings for external locations referenced by the primary catalogs."
+    },
+    {
+      "title": "Monitor Replication",
+      "desc": "Use the Failover groups tab to check the state and health of the replication process."
     }
   ],
-  "key_takeaway": "Managed disaster recovery (DR) is now in Public Preview.",
+  "key_takeaway": "Managed disaster recovery enhances operational resilience by enabling rapid recovery from regional outages with minimal disruption.",
   "note_id": "2026-06-12-managed-disaster-recovery-is-now-in-public-preview",
   "category": "platform"
 }

@@ -1,45 +1,70 @@
 {
-  "product": "Lakebase Autoscaling now available in AWS Tokyo region (ap-northeast-1)",
-  "tagline": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "product": "Lakebase Autoscaling",
+  "tagline": "Now available in AWS Tokyo region for enhanced scalability.",
   "updated": "Jun 30, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/get-started",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
-  "what_it_does": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo). For all supported regions, see Region availability. To get started, see Get a Postgres database.",
-  "why_it_matters": "The compute for the production branch has scale to zero enabled by default with a 24 hour inactivity timeout, but you can configure this setting if needed.",
+  "what_it_does": "Lakebase Autoscaling allows users to automatically adjust compute resources based on workload demands within the Databricks environment. This feature is now available in the AWS Tokyo region (ap-northeast-1), enabling users to create projects with autoscaling capabilities that include a default database and compute resources. The autoscaling feature includes a scale-to-zero option, which conserves resources by shutting down compute when not in use, with a configurable inactivity timeout.",
+  "why_it_matters": "This update significantly enhances operational efficiency and cost management for businesses operating in the Tokyo region by providing on-demand resource scaling. Organizations can benefit from reduced costs associated with idle resources while ensuring that applications maintain performance during peak usage. This is particularly valuable for companies looking to optimize their cloud expenditures while maintaining high availability and responsiveness.",
   "capabilities": [
     {
-      "title": "Build an app",
-      "desc": "Build an app"
+      "title": "Automatic Resource Scaling",
+      "desc": "Compute resources automatically adjust based on workload demands."
     },
     {
-      "title": "Deploy a Databricks App with",
-      "desc": "Deploy a Databricks App with automatic Lakebase connection."
+      "title": "Scale-to-Zero Feature",
+      "desc": "Resources can be configured to shut down during inactivity, saving costs."
     },
     {
-      "title": "Register in Unity Catalog",
-      "desc": "Register in Unity Catalog"
+      "title": "Postgres Database Integration",
+      "desc": "Easily create and connect to a Postgres database within the Lakebase environment."
     },
     {
-      "title": "Unified governance, lineage, and cross-source",
-      "desc": "Unified governance, lineage, and cross-source queries."
+      "title": "Sample Data Setup",
+      "desc": "Preloaded SQL scripts allow for quick setup of sample data tables."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
+  "prerequisites": [
+    "Databricks workspace in the AWS Tokyo region",
+    "Basic understanding of Postgres and SQL"
+  ],
+  "use_cases": [
+    "Developing applications that require dynamic resource allocation.",
+    "Cost-effective management of cloud resources for variable workloads.",
+    "Integrating Postgres databases with existing Databricks workflows."
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Lakebase App",
+    "Autoscaling UI",
+    "Postgres Database",
+    "Databricks Lakehouse"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create a Project",
+      "desc": "Open the Lakebase App, select Autoscaling, and create a new project."
+    },
+    {
+      "title": "Connect to Database",
+      "desc": "Select the production branch and use the provided connection string to connect."
+    },
+    {
+      "title": "Create a Table",
+      "desc": "Use the SQL Editor to run sample SQL and create a new table."
+    },
+    {
+      "title": "Configure Autoscaling",
+      "desc": "Set up autoscaling and scale-to-zero options as needed."
+    },
+    {
+      "title": "Explore Next Steps",
+      "desc": "Learn about syncing data with Unity Catalog and storing changes in the lakehouse."
     }
   ],
-  "key_takeaway": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "key_takeaway": "Lakebase Autoscaling in the AWS Tokyo region enhances resource efficiency and cost management for dynamic workloads.",
   "note_id": "2026-06-30-lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
   "category": "platform"
 }

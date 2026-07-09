@@ -1,28 +1,73 @@
 {
-  "product": "Managed agent memory is in Beta",
-  "tagline": "Managed agent memory gives your AI agents long term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you.",
+  "product": "Managed Agent Memory",
+  "tagline": "Enhance AI agents with long-term memory capabilities.",
   "updated": "Jun 23, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-memory/managed-memory",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-agent-memory-is-in-beta",
-  "what_it_does": "Managed agent memory gives your AI agents long term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you. Memory is stored in Unity Catalog memory stores, governed as Unity Catalog securables and accessed through the Unity Catalog REST API. Beta This feature is in Beta.",
-  "why_it_matters": "Memory is stored in Unity Catalog memory stores, governed as Unity Catalog securables and accessed through the Unity Catalog REST API.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Managed agent memory enables AI agents to retain long-term memory across conversations, with Databricks managing the infrastructure and isolating memories by scope. Memory is stored in Unity Catalog memory stores, which are governed as Unity Catalog securables and accessed via the Unity Catalog REST API. This allows agents to remember user preferences and past interactions, improving their accuracy and efficiency over time.",
+  "why_it_matters": "This feature significantly enhances the user experience by allowing AI agents to provide personalized interactions based on historical context. Businesses can leverage this capability to improve customer support, increase user engagement, and streamline workflows, ultimately leading to higher productivity and satisfaction.",
+  "capabilities": [
+    {
+      "title": "Long-Term Memory",
+      "desc": "Agents can remember user preferences and past decisions across conversations."
+    },
+    {
+      "title": "Unity Catalog Governance",
+      "desc": "Memory is secured and governed through Unity Catalog, ensuring compliance and access control."
+    },
+    {
+      "title": "Scope Isolation",
+      "desc": "Memory entries are isolated by user or organizational scope, maintaining privacy and relevance."
+    },
+    {
+      "title": "API Access",
+      "desc": "Memory stores and entries are accessible via the Unity Catalog REST API for integration."
+    }
+  ],
+  "prerequisites": [
+    "A Databricks workspace with Unity Catalog enabled.",
+    "The CREATE MEMORY STORE privilege on the parent schema."
+  ],
+  "use_cases": [
+    "Customer support agents can remember user preferences for personalized service.",
+    "AI assistants can retain context for ongoing projects across multiple sessions.",
+    "Sales agents can track customer interactions and preferences for better engagement."
+  ],
+  "limitations": [
+    "Memory entries provide long-term memory only; short-term memory must be managed separately.",
+    "Memory stores and entries can only be created and managed through the Unity Catalog REST API."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Workspace",
+    "Unity Catalog",
+    "Memory Store",
+    "AI Agent"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Unity Catalog",
+      "desc": "Ensure Unity Catalog is enabled in your Databricks workspace."
+    },
+    {
+      "title": "Set Permissions",
+      "desc": "Grant the CREATE MEMORY STORE privilege on the parent schema."
+    },
+    {
+      "title": "Create Memory Store",
+      "desc": "Use the Unity Catalog REST API to create a memory store for your agent."
+    },
+    {
+      "title": "Add Memory Entries",
+      "desc": "Store user preferences and context as memory entries in the memory store."
+    },
+    {
+      "title": "Integrate with Agent",
+      "desc": "Connect the memory store to your agent's conversation state using the OpenAI-compatible client."
     }
   ],
-  "key_takeaway": "Managed agent memory gives your AI agents long term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you.",
+  "key_takeaway": "Managed agent memory empowers AI agents with the ability to retain and utilize long-term memory, enhancing user interactions and operational efficiency.",
   "note_id": "2026-06-23-managed-agent-memory-is-in-beta",
   "category": "platform"
 }

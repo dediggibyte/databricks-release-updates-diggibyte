@@ -1,28 +1,72 @@
 {
-  "product": "Comments on foreign tables (Beta)",
-  "tagline": "Syncing comments on foreign tables is now in Beta.",
+  "product": "Comments on Foreign Tables",
+  "tagline": "Sync comments from external data sources to Unity Catalog.",
   "updated": "Jun 17, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/query-federation/foreign-table-comments",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#comments-on-foreign-tables-beta",
-  "what_it_does": "Syncing comments on foreign tables is now in Beta. Lakehouse Federation can sync table and column comments from supported external data sources to foreign tables in Unity Catalog. Synced comments appear in table metadata, including Catalog Explorer, DESCRIBE, and DESCRIBE EXTENDED output.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This feature allows Lakehouse Federation to sync table and column comments from supported external data sources to foreign tables in Unity Catalog. The synced comments are accessible in table metadata, including Catalog Explorer and through SQL commands like `DESCRIBE` and `DESCRIBE EXTENDED`. Comments are updated dynamically when the foreign table metadata is resolved during query execution.",
+  "why_it_matters": "This update enhances data governance and usability by ensuring that metadata is consistent and up-to-date across different data sources. It benefits data analysts and engineers by providing clearer context and documentation directly within the data platform, improving productivity and reducing the risk of misinterpretation of data assets.",
+  "capabilities": [
+    {
+      "title": "Dynamic Comment Syncing",
+      "desc": "Automatically syncs comments from external data sources to foreign tables."
+    },
+    {
+      "title": "Metadata Accessibility",
+      "desc": "Synced comments are visible in Catalog Explorer and SQL outputs."
+    },
+    {
+      "title": "Query-Time Updates",
+      "desc": "Comments are updated when resolving foreign table metadata during queries."
+    },
+    {
+      "title": "Support for Multiple Sources",
+      "desc": "Compatible with various external data sources like AWS Glue, Google BigQuery, and Snowflake."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 18.2 or above",
+    "SQL warehouse on Databricks SQL version 2026.15 or above"
+  ],
+  "use_cases": [
+    "Enhancing data documentation for analytics teams.",
+    "Improving data governance across multiple data sources.",
+    "Facilitating better collaboration between data engineers and analysts."
+  ],
+  "limitations": [
+    "Comments are not synced for Azure Synapse, Databricks-to-Databricks, Microsoft SQL Server, and Salesforce Data 360."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Lakehouse Federation",
+    "Unity Catalog",
+    "Foreign Tables",
+    "External Data Sources"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Feature",
+      "desc": "Workspace admins can enable this feature from the Previews page."
+    },
+    {
+      "title": "Check Compatibility",
+      "desc": "Ensure you are using the required Databricks Runtime or SQL warehouse version."
+    },
+    {
+      "title": "Query Foreign Tables",
+      "desc": "Run queries on foreign tables to fetch synced comments."
+    },
+    {
+      "title": "Use DESCRIBE EXTENDED",
+      "desc": "Execute `DESCRIBE EXTENDED <catalog-name>.<schema-name>.<table-name>;` to sync comments without querying data."
+    },
+    {
+      "title": "Monitor Updates",
+      "desc": "Check for updated comments during subsequent queries."
     }
   ],
-  "key_takeaway": "Syncing comments on foreign tables is now in Beta.",
+  "key_takeaway": "The ability to sync comments on foreign tables enhances metadata management and improves data usability across platforms.",
   "note_id": "2026-06-17-comments-on-foreign-tables-beta",
   "category": "platform"
 }

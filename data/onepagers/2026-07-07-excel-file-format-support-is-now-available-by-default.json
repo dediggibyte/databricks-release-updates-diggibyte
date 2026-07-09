@@ -1,28 +1,78 @@
 {
-  "product": "Excel file format support is now available by default",
-  "tagline": "Excel file format support is now available by default for all workspaces.",
+  "product": "Excel File Format Support",
+  "tagline": "Built-in support for Excel files enhances data ingestion capabilities.",
   "updated": "Jul 7, 2026",
-  "status_label": "GA",
-  "status": "ga",
+  "status_label": "Beta",
+  "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/query/formats/excel",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#excel-file-format-support-is-now-available-by-default",
-  "what_it_does": "Excel file format support is now available by default for all workspaces. You can ingest, parse, and query .xls, .xlsx, and .xlsm files directly using built in support, without external libraries or manual conversions. Beta This feature is in Beta.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Databricks now supports reading `.xls`, `.xlsx`, and `.xlsm` files natively, allowing users to ingest, parse, and query Excel files without needing external libraries or manual conversions. Users can read any sheet from multi-sheet workbooks, target specific cell ranges, and automatically infer schema and data types. This feature supports both batch and streaming workloads using Auto Loader, facilitating seamless data integration from Excel files.",
+  "why_it_matters": "This enhancement significantly improves productivity by streamlining the data ingestion process for users who rely on Excel files, reducing the time and effort spent on data preparation. It allows data teams to leverage existing Excel data directly in their analytics workflows, enhancing decision-making capabilities and enabling faster insights. The built-in support also mitigates risks associated with manual conversions and external dependencies.",
+  "capabilities": [
+    {
+      "title": "Native Excel Support",
+      "desc": "Read and process Excel files directly without external libraries."
+    },
+    {
+      "title": "Batch and Streaming Workloads",
+      "desc": "Supports both batch and streaming data ingestion using Auto Loader."
+    },
+    {
+      "title": "Schema Inference",
+      "desc": "Automatically infers schema and data types from Excel files."
+    },
+    {
+      "title": "Targeted Data Access",
+      "desc": "Allows targeting specific sheets and cell ranges for precise data extraction."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 17.1 or above",
+    "Auto Loader for streaming workloads"
+  ],
+  "use_cases": [
+    "Ingesting financial reports stored in Excel for analysis.",
+    "Automating data workflows that require regular updates from Excel files.",
+    "Extracting data from complex Excel sheets with multiple tables.",
+    "Integrating Excel data into larger data pipelines for analytics."
+  ],
+  "limitations": [
+    "Password-protected files are not supported.",
+    "Only one header row is supported.",
+    "Merged cell values only populate the top-left cell.",
+    "Schema evolution is not supported in streaming.",
+    "Strict Open XML Spreadsheet (Strict OOXML) is not supported."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Ingestion",
+    "Excel File Support",
+    "Auto Loader",
+    "Data Processing",
+    "Analytics"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Check Runtime Version",
+      "desc": "Ensure your Databricks Runtime is 17.1 or above."
+    },
+    {
+      "title": "Enable Feature",
+      "desc": "Workspace admins can enable Excel support from the Previews page."
+    },
+    {
+      "title": "Upload Excel Files",
+      "desc": "Use the Add Data UI to upload Excel files or read from cloud storage."
+    },
+    {
+      "title": "Read Excel Files",
+      "desc": "Use `spark.read.excel` to read Excel files in your notebooks."
+    },
+    {
+      "title": "Stream Data",
+      "desc": "Set `cloudFiles.format` to `excel` for streaming ingestion."
     }
   ],
-  "key_takeaway": "Excel file format support is now available by default for all workspaces.",
+  "key_takeaway": "Excel file format support enhances data ingestion capabilities, enabling seamless integration of Excel data into analytics workflows.",
   "note_id": "2026-07-07-excel-file-format-support-is-now-available-by-default",
   "category": "platform"
 }

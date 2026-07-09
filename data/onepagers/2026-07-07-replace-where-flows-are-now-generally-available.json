@@ -1,41 +1,74 @@
 {
-  "product": "REPLACE WHERE flows are now generally available",
-  "tagline": "REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.",
+  "product": "REPLACE WHERE Flows",
+  "tagline": "Now generally available for efficient data processing.",
   "updated": "Jul 7, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/ldp/flows-replace-where",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#replace-where-flows-are-now-generally-available",
-  "what_it_does": "REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available. Use them to replace only rows matching a predicate on each refresh, without reprocessing the full table history. REPLACE WHERE flows in Lakeflow Spark Declarative Pipelines recompute and overwrite a targeted subset of a table without reprocessing your entire table history.",
-  "why_it_matters": "Example: Initial historical load To perform a one time backfill of historical data when first setting up a pipeline: Python pipeline id = \"<pipeline id \" overrides = [ { \"flow name\": \"orders enriched\", \"predicate override\": \"date BETWEEN '2020 01 01' AND '2024 12 31'\", } ] resp = start update with replace where( pipeline id=pipeline id, replace where overrides=overrides, ) print(resp) Example: Correct a column for a specific period After updating a column definition, backfill the change for a targeted historical range: Python pipeline id = \"<pipeline id \" overrides = [ { \"flow name\": \"orders enriched\", \"predicate override\": \"date = date add(current date(), 30)\", } ] resp = start update with replace where( pipeline id=pipeline id, replace where overrides=overrides, refresh selection=[\"orders enriched\"], ) print(resp) Combine multiple dimensions in a single predicate override: Python overrides = [ { \"flow name\": \"orders enriched\", \"predicate override\": \"date = date add(current date(), 30) AND region = 'asia'\", } ] Helper function: start update with replace where Use the pipeline update API from a notebook to submit predicate overrides: Python from databricks.sdk import WorkspaceClient from databricks.sdk.service.pipelines import StartUpdateResponse def start update with replace where( pipeline id: str, replace where overrides: list[dict], refresh selection: list[str] = None, ) StartUpdateResponse: \"\"\"Start a pipeline update with REPLACE WHERE predicate overrides.\"\"\" client = WorkspaceClient() body = { \"pipeline id\": pipeline id, \"cause\": \"JOB TASK\", \"update cause details\": { \"job details\": {\"performance target\": \"PERFORMANCE\"} }, \"replace where overrides\": replace where overrides, } if refresh selection: body[\"refresh selection\"] = refresh selection res = client.api client.do( \"POST\", f\"/api/2.0/pipelines/{pipeline id}/updates\", body=body, headers={\"Accept\": \"application/json\", \"Content Type\": \"application/json\"}, ) return StartUpdateResponse.from dict(res) DML statements Run DML statements directly on the target table from outside the pipeline to perform initial loads or corrections, such as loading from a legacy table: SQL INSERT INTO orders enriched SELECT FROM orders enriched legacy WHERE date < '2025 01 01'; Rows inserted through DML are not subject to the REPLACE WHERE predicate and persist across scheduled refreshes unless they fall within the predicate range of a future run.",
+  "what_it_does": "REPLACE WHERE flows allow for targeted updates of a table by replacing only the rows that match a specified predicate, without the need to reprocess the entire table history. This mechanism supports late-arriving data, schema evolution, and selective reprocessing, making it ideal for incremental batch processing. The flows can be defined using SQL or Python, and they can handle complex scenarios beyond standard materialized views.",
+  "why_it_matters": "This feature significantly enhances data processing efficiency by reducing the computational overhead associated with full table refreshes. Businesses can achieve faster data updates, lower operational costs, and improved data accuracy, ultimately leading to better decision-making and responsiveness to changing data conditions.",
   "capabilities": [
     {
-      "title": "Target tables with longer retention",
-      "desc": "Target tables with longer retention than the source"
+      "title": "Incremental Batch Processing",
+      "desc": "Process new rows in batches without managing streaming complexities."
     },
     {
-      "title": "Preventing recomputation when a dimension",
-      "desc": "Preventing recomputation when a dimension table changes"
+      "title": "Selective Reprocessing",
+      "desc": "Recompute only rows matching a predicate while leaving others untouched."
     },
     {
-      "title": "Schema evolution without recomputing entire",
-      "desc": "Schema evolution without recomputing entire history"
+      "title": "Schema Evolution Support",
+      "desc": "Handle schema changes without full recomputation of historical data."
+    },
+    {
+      "title": "Backfill Historical Data",
+      "desc": "Easily backfill historical data using predicate overrides or DML statements."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Unity Catalog is recommended.",
+    "Serverless compute is required for incremental refresh."
+  ],
+  "use_cases": [
+    "Updating sales data with new transactions.",
+    "Maintaining historical aggregates from a limited-retention source.",
+    "Correcting data for specific historical periods."
+  ],
+  "limitations": [
+    "Only one REPLACE WHERE flow is allowed per target table.",
+    "The target table must be created within the pipeline.",
+    "Expectations are not supported on tables targeted by REPLACE WHERE flows."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Source Data",
+    "REPLACE WHERE Flow",
+    "Target Table",
+    "Incremental Refresh"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Define Flow",
+      "desc": "Create a REPLACE WHERE flow using SQL or Python syntax."
+    },
+    {
+      "title": "Set Predicate",
+      "desc": "Specify the predicate for rows to be replaced."
+    },
+    {
+      "title": "Execute Flow",
+      "desc": "Run the flow to update the target table with new data."
+    },
+    {
+      "title": "Backfill Data",
+      "desc": "Use predicate overrides or DML for historical data corrections."
+    },
+    {
+      "title": "Monitor Performance",
+      "desc": "Check logs to ensure incremental refresh is functioning as expected."
     }
   ],
-  "key_takeaway": "REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.",
+  "key_takeaway": "REPLACE WHERE flows streamline data updates by allowing selective row replacement, enhancing efficiency and reducing costs.",
   "note_id": "2026-07-07-replace-where-flows-are-now-generally-available",
   "category": "platform"
 }

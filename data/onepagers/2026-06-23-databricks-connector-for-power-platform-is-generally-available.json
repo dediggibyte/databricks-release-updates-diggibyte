@@ -1,45 +1,69 @@
 {
-  "product": "Databricks connector for Power Platform is generally available",
-  "tagline": "The Databricks connector for Microsoft Power Platform is now generally available.",
+  "product": "Databricks Connector for Power Platform",
+  "tagline": "Now generally available for low-code integration.",
   "updated": "Jun 23, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
-  "what_it_does": "The Databricks connector for Microsoft Power Platform is now generally available. The Databricks connector for Microsoft Power Platform enables you to build low code applications, workflows, and agents using your Databricks data. Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
-  "why_it_matters": "Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
+  "what_it_does": "The Databricks connector for Microsoft Power Platform allows users to integrate Databricks data into low-code applications, workflows, and AI agents. It supports building applications in Power Apps, automating workflows in Power Automate, and developing AI agents in Copilot Studio, all while maintaining Databricks governance controls. This integration facilitates seamless data access and manipulation for users within the Microsoft ecosystem.",
+  "why_it_matters": "This release empowers business users to leverage Databricks data without deep technical expertise, enhancing productivity and accelerating application development. By integrating with Power Platform, organizations can streamline workflows and improve decision-making processes, ultimately driving better business outcomes. The governance controls ensure that data security and compliance are upheld, reducing risk.",
   "capabilities": [
     {
-      "title": "Create a Databricks connection",
-      "desc": "Create a Databricks connection"
+      "title": "Low-Code Application Development",
+      "desc": "Build applications in Power Apps using Databricks data."
     },
     {
-      "title": "Set up the Databricks connector",
-      "desc": "Set up the Databricks connector on Microsoft Power Platform by creating a connection."
+      "title": "Automated Workflows",
+      "desc": "Create automated flows in Power Automate leveraging Databricks data."
     },
     {
-      "title": "Use Databricks data on Power",
-      "desc": "Use Databricks data on Power Platform"
+      "title": "AI Agent Development",
+      "desc": "Develop AI agents in Copilot Studio with access to Databricks data."
     },
     {
-      "title": "Build Power canvas apps, Power",
-      "desc": "Build Power canvas apps, Power Automate flows, and Copilot Studio agents using your Databricks data and Genie Agents."
+      "title": "Governance Control Preservation",
+      "desc": "Maintain Databricks governance controls while using Power Platform."
     }
   ],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "Building business applications with Databricks data",
+    "Automating data-driven workflows",
+    "Creating AI-driven solutions using Databricks data",
+    "Enhancing data accessibility for non-technical users"
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Lakehouse",
+    "Databricks Connector",
+    "Power Platform",
+    "Power Apps",
+    "Power Automate"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create a Connection",
+      "desc": "Set up the Databricks connector on Microsoft Power Platform."
+    },
+    {
+      "title": "Access Databricks Data",
+      "desc": "Utilize Databricks data in Power Platform applications."
+    },
+    {
+      "title": "Build Canvas Apps",
+      "desc": "Develop Power canvas apps using the integrated data."
+    },
+    {
+      "title": "Automate Flows",
+      "desc": "Create automated workflows in Power Automate."
+    },
+    {
+      "title": "Develop AI Agents",
+      "desc": "Use Copilot Studio to create AI agents with Databricks data."
     }
   ],
-  "key_takeaway": "The Databricks connector for Microsoft Power Platform is now generally available.",
+  "key_takeaway": "The Databricks connector for Power Platform enables low-code development with robust governance, enhancing data accessibility and application efficiency.",
   "note_id": "2026-06-23-databricks-connector-for-power-platform-is-generally-available",
   "category": "platform"
 }

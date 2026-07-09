@@ -1,45 +1,76 @@
 {
-  "product": "ai_extract is now generally available",
-  "tagline": "The ai extract function is now generally available.",
+  "product": "ai_extract",
+  "tagline": "Now generally available for structured data extraction.",
   "updated": "Jun 11, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/info-extraction",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_extract-is-now-generally-available",
-  "what_it_does": "The ai extract function is now generally available. This function extracts structured data from text and documents according to a schema you provide, supporting nested objects, arrays, type validation, citations, and confidence scores. For a no code UI to build, validate, and iterate on extraction agents, see Information Extraction.",
-  "why_it_matters": "Use your extraction agent After you're happy with the agent's performance, use the agent to extract information.",
+  "what_it_does": "The `ai_extract` function enables the extraction of structured data from unstructured text, documents, and images based on a user-defined schema. It supports complex data types including nested objects and arrays, and provides features like type validation, citation tracking, and confidence scoring. This function is integrated with a visual UI for building and refining extraction agents, allowing users to optimize their data extraction processes.",
+  "why_it_matters": "This update enhances data accessibility and usability for organizations by transforming unstructured data into actionable insights, improving reporting and analysis capabilities. It benefits data analysts and business leaders by streamlining workflows, reducing manual data processing time, and enabling more informed decision-making based on structured data extraction.",
   "capabilities": [
     {
-      "title": "Serverless compute enabled. See Serverless",
-      "desc": "Serverless compute enabled. See Serverless compute requirements."
+      "title": "Schema-Based Extraction",
+      "desc": "Extracts data according to a user-defined schema, allowing for tailored data insights."
     },
     {
-      "title": "Unity Catalog enabled. See Enable",
-      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+      "title": "Visual UI for Agents",
+      "desc": "Provides a no-code interface to create and manage extraction agents easily."
     },
     {
-      "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
+      "title": "Support for Nested Structures",
+      "desc": "Handles complex data types including nested objects and arrays for comprehensive data extraction."
     },
     {
-      "title": "See regional support for aiextract",
-      "desc": "See regional support for aiextract for the appropriate compliance standard."
+      "title": "Confidence Scoring",
+      "desc": "Offers confidence scores for extracted data, enhancing the reliability of insights."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Workspace with serverless compute enabled.",
+    "Unity Catalog must be enabled.",
+    "Access to a serverless usage policy with a nonzero budget.",
+    "Unstructured data must be in a Unity Catalog volume or table."
+  ],
+  "use_cases": [
+    "Extracting legal terms from contracts.",
+    "Pulling payment details from invoices.",
+    "Extracting key information from medical records."
+  ],
+  "limitations": [
+    "Maximum context length for agents is 128k tokens.",
+    "Union schema types are not supported."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Sources",
+    "Unity Catalog",
+    "ai_extract Function",
+    "Information Extraction UI",
+    "Extraction Agents"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create Agent",
+      "desc": "Navigate to Agents and select Create Agent > Information Extraction."
+    },
+    {
+      "title": "Select Data",
+      "desc": "Choose files or tables from which to extract information."
+    },
+    {
+      "title": "Define Schema",
+      "desc": "Configure the extraction schema using natural language or manual entry."
+    },
+    {
+      "title": "Run Extraction",
+      "desc": "Save and run the extraction to see results based on the defined schema."
+    },
+    {
+      "title": "Use Agent",
+      "desc": "Deploy the agent for SQL queries or create a Spark Declarative Pipeline."
     }
   ],
-  "key_takeaway": "The ai extract function is now generally available.",
+  "key_takeaway": "The `ai_extract` function is now generally available, enabling efficient extraction of structured data from unstructured sources.",
   "note_id": "2026-06-11-ai-extract-is-now-generally-available",
   "category": "platform"
 }

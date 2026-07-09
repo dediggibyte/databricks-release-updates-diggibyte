@@ -1,28 +1,76 @@
 {
-  "product": "Custom Docker images for AI Runtime CLI workloads (Beta)",
-  "tagline": "You can now bring your own Docker container image to AI Runtime CLI (air) workloads.",
+  "product": "Custom Docker Images for AI Runtime CLI",
+  "tagline": "Enhance your AI workloads with tailored Docker environments.",
   "updated": "Jun 29, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/cli/docker-images",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#custom-docker-images-for-ai-runtime-cli-workloads-beta",
-  "what_it_does": "You can now bring your own Docker container image to AI Runtime CLI (air) workloads. This feature is in Beta. Use a custom image when you need specific system library versions, complex dependencies, or a reproducible environment.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This feature allows users to bring their own Docker container images to AI Runtime CLI workloads, enabling the use of specific system library versions, complex dependencies, and reproducible environments. Users can register public or private Docker images, which are then cached in the Databricks platform for use in workloads. The registration process ensures that the images are ready for execution within 2-6 minutes.",
+  "why_it_matters": "This capability empowers data scientists and engineers to customize their environments, leading to improved reproducibility of research results and the ability to leverage specific dependencies that may not be available in standard images. This flexibility can enhance productivity and reduce the time spent on environment setup, ultimately accelerating the development of AI models.",
+  "capabilities": [
+    {
+      "title": "Custom Image Registration",
+      "desc": "Users can register their Docker images with the AI Runtime CLI for use in workloads."
+    },
+    {
+      "title": "Support for Public and Private Images",
+      "desc": "Both public and private Docker Hub images can be registered and used."
+    },
+    {
+      "title": "Environment Variable Injection",
+      "desc": "AI Runtime injects essential environment variables into containers at runtime."
+    },
+    {
+      "title": "Use of Databricks Base Images",
+      "desc": "Users can build custom images based on Databricks-provided base images for optimized performance."
+    }
+  ],
+  "prerequisites": [
+    "Install the AI Runtime CLI.",
+    "Docker Hub account for private images."
+  ],
+  "use_cases": [
+    "Reproducing research results with specific library versions.",
+    "Using complex dependencies that do not fit standard configurations.",
+    "Leveraging organizationally built images for compliance and security.",
+    "Accelerating model development by reducing environment setup time."
+  ],
+  "limitations": [
+    "Images must be hosted on Docker Hub; other registries are not supported.",
+    "Image size must be under 20 GB.",
+    "WORKDIR is not honored; use absolute paths.",
+    "environment.dependencies and environment.version cannot be used with environment.docker_image.url."
+  ],
   "architecture": [
+    "User Docker Image",
+    "AI Runtime CLI",
     "Databricks Platform",
-    "Platform"
+    "Workload Execution"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Install AI Runtime CLI",
+      "desc": "Ensure the AI Runtime CLI is installed on your system."
+    },
+    {
+      "title": "Register Docker Image",
+      "desc": "Use 'air register image' command to register your Docker image."
+    },
+    {
+      "title": "Specify Image in Workload",
+      "desc": "Include the Docker image URL in your workload YAML file."
+    },
+    {
+      "title": "Submit Workload",
+      "desc": "Run your workload using the 'air run' command."
+    },
+    {
+      "title": "Monitor Execution",
+      "desc": "Check the execution status and logs for your workload."
     }
   ],
-  "key_takeaway": "You can now bring your own Docker container image to AI Runtime CLI (air) workloads.",
+  "key_takeaway": "Custom Docker images for AI Runtime CLI workloads provide flexibility and control over the execution environment, enhancing productivity and reproducibility.",
   "note_id": "2026-06-29-custom-docker-images-for-ai-runtime-cli-workloads-beta",
   "category": "platform"
 }

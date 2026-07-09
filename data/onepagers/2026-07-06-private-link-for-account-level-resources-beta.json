@@ -1,28 +1,76 @@
 {
-  "product": "Private Link for account-level resources (Beta)",
-  "tagline": "You can now use Private Link to privately connect to Databricks account level resources, such as the account console, through a VPC interface endpoint instead of the public internet.",
+  "product": "Private Link for Account-Level Resources",
+  "tagline": "Securely connect to Databricks resources without exposing them to the public internet.",
   "updated": "Jul 6, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect-account",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-link-for-account-level-resources-beta",
-  "what_it_does": "You can now use Private Link to privately connect to Databricks account level resources, such as the account console, through a VPC interface endpoint instead of the public internet. Preview Inbound Private Link for account level resources is in Beta. This feature gives users in your AWS VPCs or on premises networks private access to Databricks account level resources, including the account console and account level Genie.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This feature enables private access to Databricks account-level resources, such as the account console, through a VPC interface endpoint, ensuring that traffic does not traverse the public internet. Users can configure inbound Private Link connections for both the Databricks web application and REST API. Additionally, it allows sharing a single inbound VPC endpoint across multiple Databricks accounts, enhancing resource management and security.",
+  "why_it_matters": "By utilizing Private Link, organizations can significantly enhance their security posture by ensuring that sensitive data does not traverse the public internet. This feature is particularly beneficial for enterprises that require strict compliance and governance measures, as it reduces exposure to potential threats and vulnerabilities. It also streamlines connectivity for users in AWS VPCs or on-premises networks, improving overall productivity.",
+  "capabilities": [
+    {
+      "title": "Private Access Configuration",
+      "desc": "Users can configure inbound Private Link connections to securely access Databricks resources."
+    },
+    {
+      "title": "Shared VPC Endpoint",
+      "desc": "Multiple Databricks accounts can share a single inbound VPC endpoint for efficient resource management."
+    },
+    {
+      "title": "Context-Based Ingress Control",
+      "desc": "Allows for detailed access policies to be set for account-level resources based on user context."
+    },
+    {
+      "title": "DNS Configuration",
+      "desc": "Enables routing of user requests through private networks to ensure secure access."
+    }
+  ],
+  "prerequisites": [
+    "Databricks account must be on the Enterprise plan.",
+    "Necessary AWS permissions to create new VPC endpoints.",
+    "On-premises network must connect to an AWS VPC using Direct Connect or VPN.",
+    "Network traffic must be allowed from relevant address spaces to connect to the VPC endpoint using TCP port 443."
+  ],
+  "use_cases": [
+    "Organizations needing secure access to Databricks resources without public exposure.",
+    "Companies with multiple Databricks accounts wanting to streamline resource access.",
+    "Enterprises requiring compliance with strict data governance policies."
+  ],
+  "limitations": [
+    "Public and private access settings are independent; completing setup does not block public access automatically.",
+    "Default context-based ingress policy allows no registered endpoints unless configured otherwise.",
+    "Only the first 200 registered VPC endpoints are included by default in the allow access option."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "User Network",
+    "Transit VPC",
+    "VPC Endpoint",
+    "Databricks Account-Level Resources"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create VPC Endpoints",
+      "desc": "Use the AWS Management Console to create inbound VPC endpoints for Databricks."
+    },
+    {
+      "title": "Register VPC Endpoints",
+      "desc": "Register the created VPC endpoints in the Databricks account console."
+    },
+    {
+      "title": "Configure Private Access Policy",
+      "desc": "Set up a private access policy using context-based ingress in the account console."
+    },
+    {
+      "title": "Configure DNS",
+      "desc": "Route user requests through the private network to the VPC endpoint's private IP address."
+    },
+    {
+      "title": "Disable Public Access (Optional)",
+      "desc": "Use account IP access lists to enforce private-only connectivity."
     }
   ],
-  "key_takeaway": "You can now use Private Link to privately connect to Databricks account level resources, such as the account console, through a VPC interface endpoint instead of the public internet.",
+  "key_takeaway": "Private Link for account-level resources enhances security by enabling private connectivity to Databricks without exposing sensitive data to the public internet.",
   "note_id": "2026-07-06-private-link-for-account-level-resources-beta",
   "category": "platform"
 }

@@ -1,45 +1,78 @@
 {
-  "product": "ai_classify is now generally available",
-  "tagline": "The ai classify function is now generally available.",
+  "product": "ai_classify",
+  "tagline": "Now generally available for text classification.",
   "updated": "Jun 11, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
-  "what_it_does": "The ai classify function is now generally available. This function classifies text content according to custom labels you provide, with support for label descriptions, global instructions, and multi label classification. For a no code UI to build, validate, and iterate on classification agents, see Classification.",
-  "why_it_matters": "Review and improve classification responses Review the classification responses and give feedback to improve the agent.",
+  "what_it_does": "The `ai_classify` function enables users to classify text content into predefined categories based on custom labels, supporting features like multi-label classification and label descriptions. It is designed to work with unstructured data stored in Unity Catalog, allowing for efficient document classification. Users can create classification agents through a no-code UI to streamline the classification process and improve accuracy over time.",
+  "why_it_matters": "This release enhances productivity by providing a robust tool for automating text classification, which can lead to improved decision-making and operational efficiency. Businesses can leverage this capability to better understand customer interactions, categorize documents, and analyze sentiment, ultimately driving better customer experiences and insights.",
   "capabilities": [
     {
-      "title": "Serverless compute enabled. See Serverless",
-      "desc": "Serverless compute enabled. See Serverless compute requirements."
+      "title": "Multi-Label Classification",
+      "desc": "Classify documents with multiple labels to capture complex categorization needs."
     },
     {
-      "title": "Unity Catalog enabled. See Enable",
-      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+      "title": "Custom Label Descriptions",
+      "desc": "Define and refine classification labels with optional descriptions for clarity."
     },
     {
-      "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
+      "title": "No-Code UI for Agents",
+      "desc": "Utilize a user-friendly interface to create and manage classification agents without coding."
     },
     {
-      "title": "See regional support for aiclassify",
-      "desc": "See regional support for aiclassify for the appropriate compliance standard."
+      "title": "Integration with SQL and Spark",
+      "desc": "Run classification at scale using SQL queries or create ETL pipelines for automated processing."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Serverless compute enabled in the workspace.",
+    "Unity Catalog must be enabled.",
+    "Access to a serverless usage policy with a nonzero budget.",
+    "Unstructured data must be in a Unity Catalog volume or table.",
+    "At least one unlabeled document or row in the data source."
+  ],
+  "use_cases": [
+    "Classifying customer call transcripts by intent.",
+    "Categorizing documents by content type.",
+    "Analyzing product reviews for sentiment.",
+    "Organizing unstructured data for better retrieval."
+  ],
+  "limitations": [
+    "Function availability is limited to specific regions.",
+    "Requires compliance with regional support for Enhanced Security and Compliance add-on."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Ingestion",
+    "Unity Catalog",
+    "ai_classify Function",
+    "Classification Agent",
+    "SQL Queries or Spark Pipelines"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Select Source Data",
+      "desc": "Choose a volume or table containing the documents to classify."
+    },
+    {
+      "title": "Configure Labels",
+      "desc": "Add and refine classification labels manually or import from a table."
+    },
+    {
+      "title": "Review Classification Responses",
+      "desc": "Provide feedback on classification accuracy to improve the agent."
+    },
+    {
+      "title": "Use the Classification Agent",
+      "desc": "Deploy the agent for large-scale classification using SQL or Spark pipelines."
+    },
+    {
+      "title": "Iterate and Optimize",
+      "desc": "Compare versions of the agent to enhance performance based on feedback."
     }
   ],
-  "key_takeaway": "The ai classify function is now generally available.",
+  "key_takeaway": "The `ai_classify` function empowers organizations to automate and enhance text classification, driving better insights and operational efficiency.",
   "note_id": "2026-06-11-ai-classify-is-now-generally-available",
   "category": "platform"
 }

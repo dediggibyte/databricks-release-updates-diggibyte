@@ -1,28 +1,74 @@
 {
-  "product": "Share data behind a firewall with SecureConnect (Public Preview)",
-  "tagline": "Providers can now use OpenSharing SecureConnect to share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist.",
+  "product": "SecureConnect",
+  "tagline": "Share data securely behind firewalls with ease.",
   "updated": "Jun 15, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/clean-rooms/manage-clean-room#secureconnect",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-data-behind-a-firewall-with-secureconnect-public-preview",
-  "what_it_does": "Providers can now use OpenSharing SecureConnect to share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist. Recipients access the shares using their existing OpenSharing setup. SecureConnect is also available for clean rooms.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "SecureConnect allows providers to share data from cloud storage behind a firewall or private endpoint without needing to add each recipient's network to an allowlist. This is achieved through a managed proxy that brokers the connection, simplifying the sharing process for clean rooms. Recipients can access shared data using their existing OpenSharing setup, enhancing collaboration while maintaining security.",
+  "why_it_matters": "This feature significantly reduces the complexity and administrative overhead associated with data sharing across secure environments, enabling faster collaboration and data access. Organizations can now share sensitive data without compromising security, which is crucial for compliance and governance. This capability is particularly beneficial for industries that handle sensitive information, such as finance and healthcare.",
+  "capabilities": [
+    {
+      "title": "Firewall Bypass",
+      "desc": "Share data without adding recipient networks to an allowlist."
+    },
+    {
+      "title": "Managed Proxy Connection",
+      "desc": "Utilizes a managed proxy to facilitate secure data sharing."
+    },
+    {
+      "title": "Seamless Integration",
+      "desc": "Works with existing OpenSharing setups for recipients."
+    },
+    {
+      "title": "Clean Room Compatibility",
+      "desc": "Enables SecureConnect for clean rooms, enhancing data collaboration."
+    }
+  ],
+  "prerequisites": [
+    "Provider must configure their storage firewall as per guidelines.",
+    "Collaborators must allowlist Databricks control plane IPs for their region."
+  ],
+  "use_cases": [
+    "Sharing sensitive financial data between institutions.",
+    "Collaborating on healthcare research while maintaining patient confidentiality.",
+    "Data sharing in regulated industries requiring strict compliance."
+  ],
+  "limitations": [
+    "SecureConnect cannot be enabled on a per clean room basis; it applies to all assets shared into clean rooms.",
+    "Assets shared by other collaborators are not affected by SecureConnect settings."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Storage",
+    "Firewall Configuration",
+    "Managed Proxy",
+    "OpenSharing Setup",
+    "Clean Rooms"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Configure Firewall",
+      "desc": "Complete the provider firewall configuration as outlined in the documentation."
+    },
+    {
+      "title": "Enable SecureConnect",
+      "desc": "In the Databricks workspace, navigate to Catalog and turn on Enable SecureConnect."
+    },
+    {
+      "title": "Share Data",
+      "desc": "Use the OpenSharing setup to share data securely with recipients."
+    },
+    {
+      "title": "Monitor Access",
+      "desc": "Utilize the Clean Rooms UI to monitor shared data access and activity."
+    },
+    {
+      "title": "Manage Permissions",
+      "desc": "Assign appropriate privileges to collaborators for accessing clean rooms."
     }
   ],
-  "key_takeaway": "Providers can now use OpenSharing SecureConnect to share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist.",
+  "key_takeaway": "SecureConnect simplifies secure data sharing behind firewalls, enhancing collaboration while ensuring compliance.",
   "note_id": "2026-06-15-share-data-behind-a-firewall-with-secureconnect-public-preview",
   "category": "platform"
 }

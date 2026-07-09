@@ -1,28 +1,74 @@
 {
-  "product": "Genie Code now uses models served through OpenAI on Databricks",
-  "tagline": "Genie Code now uses models served through OpenAI on Databricks, in addition to models served through Azure OpenAI and Anthropic on Databricks, when partner powered AI features are enabled.",
+  "product": "Genie Code",
+  "tagline": "Now integrates OpenAI models for enhanced capabilities.",
   "updated": "Jun 11, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-uses-models-served-through-openai-on-databricks",
-  "what_it_does": "Genie Code now uses models served through OpenAI on Databricks, in addition to models served through Azure OpenAI and Anthropic on Databricks, when partner powered AI features are enabled. For the model provider used by each feature, see Partner powered AI features. The partner powered AI features setting controls whether some features are powered by models hosted by a partner provider.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Genie Code now utilizes models served through OpenAI on Databricks, alongside Azure OpenAI and Anthropic models, when the partner-powered AI features setting is enabled. This integration allows users to access advanced AI capabilities, including Genie Code's agentic features, which are not available when the setting is disabled. The partner-powered AI features setting is enabled by default for most workspaces, providing broader access to AI functionalities.",
+  "why_it_matters": "This update enhances Genie Code's functionality by leveraging powerful AI models, improving productivity and efficiency for data scientists and developers. By integrating OpenAI, users can access more sophisticated AI-driven features, which can lead to better insights and faster development cycles, ultimately driving innovation and competitive advantage.",
+  "capabilities": [
+    {
+      "title": "Enhanced AI Features",
+      "desc": "Access to advanced AI capabilities powered by OpenAI, Azure OpenAI, and Anthropic."
+    },
+    {
+      "title": "Agentic Capabilities",
+      "desc": "Utilize Genie Code's agent mode for more interactive and intelligent code assistance."
+    },
+    {
+      "title": "Compliance Flexibility",
+      "desc": "Partner-powered AI features are available in compliance with various security standards."
+    },
+    {
+      "title": "Global Model Access",
+      "desc": "Databricks-hosted models are available for workspaces in the Americas and Europe."
+    }
+  ],
+  "prerequisites": [
+    "Partner-powered AI features setting must be enabled for advanced features.",
+    "Compliance security profile (CSP) may restrict access to certain features."
+  ],
+  "use_cases": [
+    "Developing AI-assisted code with enhanced suggestions.",
+    "Creating interactive dashboards with AI-generated visualizations.",
+    "Generating synthetic data for model training and evaluation."
+  ],
+  "limitations": [
+    "Agent mode is not available when partner-powered AI features are disabled.",
+    "Certain features are not available in CSP workspaces unless specific compliance standards are met."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "User Interface",
+    "Genie Code",
+    "Partner-Powered AI Features",
+    "OpenAI Models",
+    "Databricks Security"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Log into Account Console",
+      "desc": "As an account admin, access the account console."
+    },
+    {
+      "title": "Navigate to Settings",
+      "desc": "Click on the Settings option in the account console."
+    },
+    {
+      "title": "Enable Partner-Powered Features",
+      "desc": "Select the option to enable or disable partner-powered AI features."
+    },
+    {
+      "title": "Adjust Workspace Settings",
+      "desc": "Workspace admins can toggle partner-powered AI features in workspace settings."
+    },
+    {
+      "title": "Monitor Compliance",
+      "desc": "Ensure compliance standards are met for feature availability."
     }
   ],
-  "key_takeaway": "Genie Code now uses models served through OpenAI on Databricks, in addition to models served through Azure OpenAI and Anthropic on Databricks, when partner powered AI features are enabled.",
+  "key_takeaway": "Genie Code's integration with OpenAI models significantly enhances its AI capabilities, providing users with advanced tools for efficient code development.",
   "note_id": "2026-06-11-genie-code-now-uses-models-served-through-openai-on-databricks",
   "category": "platform"
 }

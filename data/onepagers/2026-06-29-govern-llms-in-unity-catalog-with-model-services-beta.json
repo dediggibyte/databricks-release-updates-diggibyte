@@ -1,28 +1,75 @@
 {
-  "product": "Govern LLMs in Unity Catalog with model services (Beta)",
-  "tagline": "You can now govern Databricks hosted LLMs in Unity Catalog using model services, currently in Beta.",
+  "product": "Govern LLMs in Unity Catalog with Model Services",
+  "tagline": "Centralized governance for LLM endpoints across workspaces.",
   "updated": "Jun 29, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/model-services",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#govern-llms-in-unity-catalog-with-model-services-beta",
-  "what_it_does": "You can now govern Databricks hosted LLMs in Unity Catalog using model services, currently in Beta. A model service is a Unity Catalog securable that represents a governed LLM endpoint, so you can define an endpoint once and share it across workspaces using Unity Catalog privileges, instead of duplicating endpoints per workspace. Databricks provides ready to use model services in the system.ai schema for Databricks hosted foundation models, and you can create your own with the Unity AI Gateway UI, Catalog Explorer, or the Unity Catalog REST API.",
-  "why_it_matters": "You can now govern Databricks hosted LLMs in Unity Catalog using model services, currently in Beta.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This feature allows users to govern Databricks-hosted LLMs through model services in Unity Catalog, enabling centralized management of LLM endpoints. Model services serve as securable objects that define, share, and govern access to LLMs across multiple workspaces. Users can create and manage these services using the Unity AI Gateway UI, Catalog Explorer, or REST API, and can query them from both inside and outside Databricks.",
+  "why_it_matters": "By centralizing the governance of LLMs, organizations can reduce duplication of effort and streamline access management across workspaces, enhancing productivity and governance. This feature allows for better tracking of usage and costs associated with LLMs, which is crucial for budgeting and resource allocation.",
+  "capabilities": [
+    {
+      "title": "Centralized Governance",
+      "desc": "Govern access to LLMs centrally using Unity Catalog privileges."
+    },
+    {
+      "title": "Ready-to-Use Model Services",
+      "desc": "Access system-provided model services for Databricks-hosted foundation models."
+    },
+    {
+      "title": "Cross-Workspace Querying",
+      "desc": "Query model services from any workspace attached to the same metastore."
+    },
+    {
+      "title": "Standard Privilege Model",
+      "desc": "Utilize Unity Catalog's standard privilege model for managing access."
+    }
+  ],
+  "prerequisites": [
+    "Account admin access to control feature access from the account console.",
+    "Unity Catalog must be enabled for your Databricks workspace."
+  ],
+  "use_cases": [
+    "Centralized management of LLM endpoints across multiple teams.",
+    "Tracking usage and costs of LLM services for budgeting.",
+    "Simplifying access control for LLMs in large organizations."
+  ],
+  "limitations": [
+    "Provisioned throughput models and external model providers are not supported.",
+    "Creating and managing model services with Terraform or SQL is not available.",
+    "Discovering model services requires more than just the 'BROWSE' privilege.",
+    "Lineage and global search for model services are not available."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "Model Services",
+    "Unity AI Gateway",
+    "Databricks-hosted LLMs"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Account Console",
+      "desc": "Navigate to the account console to manage Databricks previews."
+    },
+    {
+      "title": "Create Model Service",
+      "desc": "Use the Unity AI Gateway UI or Catalog Explorer to create a model service."
+    },
+    {
+      "title": "Define Access Privileges",
+      "desc": "Assign Unity Catalog privileges to govern access to the model service."
+    },
+    {
+      "title": "Query Model Service",
+      "desc": "Invoke the model service using its fully qualified name."
+    },
+    {
+      "title": "Monitor Usage",
+      "desc": "Track usage and costs through Unity Catalog system tables."
     }
   ],
-  "key_takeaway": "You can now govern Databricks hosted LLMs in Unity Catalog using model services, currently in Beta.",
+  "key_takeaway": "Govern LLMs centrally in Unity Catalog to enhance productivity and streamline access management across workspaces.",
   "note_id": "2026-06-29-govern-llms-in-unity-catalog-with-model-services-beta",
   "category": "platform"
 }

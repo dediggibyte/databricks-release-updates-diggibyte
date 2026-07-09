@@ -1,28 +1,74 @@
 {
-  "product": "Converting a partitioned table to liquid clustering is generally available",
-  "tagline": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ...",
+  "product": "Liquid Clustering Conversion",
+  "tagline": "Convert partitioned Delta Lake tables to liquid clustering with minimal downtime.",
   "updated": "Jun 12, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/tables/clustering#convert-partitioned",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#converting-a-partitioned-table-to-liquid-clustering-is-generally-available",
-  "what_it_does": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY. Conversion minimizes reader and writer downtime and supports both external and managed tables.",
-  "why_it_matters": "Conversion minimizes reader and writer downtime and supports both external and managed tables.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This feature allows users to convert existing partitioned Delta Lake tables to liquid clustering using the `ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY` command. It minimizes reader and writer downtime during the conversion process and supports both external and managed tables. Liquid clustering optimizes query performance by automatically organizing data based on clustering keys, making it easier to adapt to changing analytic needs.",
+  "why_it_matters": "This update enhances data management efficiency and query performance, particularly for organizations dealing with high cardinality columns and heavy data skew. By simplifying the data layout and reducing maintenance efforts, businesses can achieve better performance and lower operational costs, ultimately improving productivity and responsiveness to changing data access patterns.",
+  "capabilities": [
+    {
+      "title": "Minimized Downtime",
+      "desc": "Conversion minimizes reader and writer downtime during the transition."
+    },
+    {
+      "title": "Flexible Clustering Keys",
+      "desc": "Allows redefining clustering keys without rewriting existing data."
+    },
+    {
+      "title": "Performance Optimization",
+      "desc": "Improves query performance by automatically organizing data based on clustering keys."
+    },
+    {
+      "title": "Support for Streaming",
+      "desc": "Liquid clustering applies to both streaming tables and materialized views."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 18.1 or above for conversion.",
+    "Existing Delta Lake table must be partitioned."
+  ],
+  "use_cases": [
+    "Optimizing queries on high cardinality columns.",
+    "Managing tables with heavy data skew.",
+    "Supporting fast-growing tables with concurrent write requirements.",
+    "Adapting to varied or changing access patterns."
+  ],
+  "limitations": [
+    "Streaming tables and materialized views in Lakeflow Spark Declarative Pipelines are not supported.",
+    "Tables using Delta Sharing with partition filtering are not supported."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Delta Lake Table",
+    "Liquid Clustering",
+    "Query Optimization",
+    "Data Management"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Run Conversion Command",
+      "desc": "Use `ALTER TABLE <table_name> REPLACE PARTITIONED BY WITH CLUSTER BY (<clustering_columns>)`."
+    },
+    {
+      "title": "Optimize Table",
+      "desc": "Run `OPTIMIZE <table_name>` to apply clustering after conversion."
+    },
+    {
+      "title": "Verify Conversion",
+      "desc": "Run `DESCRIBE EXTENDED <table_name>` to check new clustering columns."
+    },
+    {
+      "title": "Handle Concurrent Workloads",
+      "desc": "Ensure Databricks Runtime 15.4 LTS or above for concurrent writes during conversion."
+    },
+    {
+      "title": "Rollback if Necessary",
+      "desc": "Use `RESTORE` to revert to the previous version if needed."
     }
   ],
-  "key_takeaway": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ...",
+  "key_takeaway": "The ability to convert partitioned tables to liquid clustering enhances performance and simplifies data management.",
   "note_id": "2026-06-12-converting-a-partitioned-table-to-liquid-clustering-is-generally-available",
   "category": "platform"
 }

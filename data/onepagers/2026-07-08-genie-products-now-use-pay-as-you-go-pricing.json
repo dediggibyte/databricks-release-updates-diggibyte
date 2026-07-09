@@ -1,28 +1,76 @@
 {
-  "product": "Genie products now use pay-as-you-go pricing",
-  "tagline": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large…",
+  "product": "Genie Products",
+  "tagline": "Introducing pay-as-you-go pricing with free monthly usage.",
   "updated": "Jul 8, 2026",
-  "status_label": "Update",
-  "status": "changed",
+  "status_label": "GA",
+  "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/genie/budgets",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing",
-  "what_it_does": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language model (LLM) usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free amount is billed in DBUs, reflecting the underlying LLM models and agents that power each Genie session. To monitor and control Genie spend for your account, see Manage budgets and cost controls for Genie.",
-  "why_it_matters": "To monitor and control Genie spend for your account, see Manage budgets and cost controls for Genie.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Starting July 8, 2026, Genie products, including Genie Agents, Genie Code, and Genie One, will be billed on a pay-as-you-go basis, with each user receiving 150 DBUs of free large language model (LLM) usage monthly. Usage beyond this free allowance will incur charges based on the underlying LLM usage tracked through Unity AI Gateway. Account admins can set budgets to monitor and control Genie spending across users and workspaces.",
+  "why_it_matters": "This pricing model allows organizations to better manage costs associated with using Genie products, providing flexibility and scalability in budgeting for AI workloads. By offering a free monthly allowance, businesses can experiment with Genie products without immediate financial commitment, fostering innovation while maintaining cost control.",
+  "capabilities": [
+    {
+      "title": "Free Monthly Usage",
+      "desc": "Each user receives 150 DBUs of free LLM usage every month."
+    },
+    {
+      "title": "Budget Management",
+      "desc": "Admins can create budgets to track and control Genie spending for users and workspaces."
+    },
+    {
+      "title": "Usage Tracking",
+      "desc": "Genie usage is monitored through Unity AI Gateway, enabling detailed cost analysis."
+    },
+    {
+      "title": "Alerts and Controls",
+      "desc": "Budgets can trigger alerts or block usage when spending thresholds are reached."
+    }
+  ],
+  "prerequisites": [
+    "Account admin privileges are required to create and manage budgets."
+  ],
+  "use_cases": [
+    "Organizations wanting to control AI spending while leveraging Genie products.",
+    "Teams experimenting with LLM capabilities without upfront costs.",
+    "Admins needing to set spending limits for different user groups.",
+    "Businesses requiring detailed tracking of AI usage and costs."
+  ],
+  "limitations": [
+    "Budgets cannot remove a user's free monthly usage.",
+    "Databricks service principals do not receive free monthly usage.",
+    "Budgets track LLM usage only; compute for queries is billed separately.",
+    "There may be a delay between usage and alert notifications.",
+    "A small amount of spend may occur beyond budget thresholds due to active requests."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity AI Gateway",
+    "Genie Products",
+    "Budgets Management",
+    "Usage Tracking"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Account Console",
+      "desc": "Log in to the account console and navigate to the Usage section."
+    },
+    {
+      "title": "Create Budget",
+      "desc": "Click on the Budgets tab and select Create budget."
+    },
+    {
+      "title": "Set Budget Scope",
+      "desc": "Define the budget's scope by selecting workspaces and setting resource tags."
+    },
+    {
+      "title": "Configure Thresholds",
+      "desc": "Set shared and per-user thresholds for budget limits."
+    },
+    {
+      "title": "Finalize Budget",
+      "desc": "Review and create the budget to start tracking Genie usage."
     }
   ],
-  "key_takeaway": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large…",
+  "key_takeaway": "Genie products now offer a flexible pay-as-you-go pricing model, enhancing cost control and enabling organizations to leverage AI capabilities effectively.",
   "note_id": "2026-07-08-genie-products-now-use-pay-as-you-go-pricing",
   "category": "platform"
 }

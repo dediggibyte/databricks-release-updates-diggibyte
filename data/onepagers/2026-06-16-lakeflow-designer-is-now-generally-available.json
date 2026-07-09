@@ -1,45 +1,71 @@
 {
-  "product": "Lakeflow Designer is now generally available",
-  "tagline": "Lakeflow Designer is now generally available.",
+  "product": "Lakeflow Designer",
+  "tagline": "A visual, no-code experience for data transformation.",
   "updated": "Jun 16, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/designer/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakeflow-designer-is-now-generally-available",
-  "what_it_does": "Lakeflow Designer is now generally available. Lakeflow Designer is a visual, no code experience for preparing and transforming data on a drag and drop canvas, with all workflows backed by production ready code governed by Unity Catalog. Lakeflow Designer lets analysts build, preview, and schedule data transformation workflows using built in operators or natural language.",
-  "why_it_matters": "Lakeflow Designer is a visual, no code experience for preparing and transforming data on a drag and drop canvas, with all workflows backed by production ready code governed by Unity Catalog.",
+  "what_it_does": "Lakeflow Designer is a visual, no-code, AI-native tool for data preparation and analytics, allowing users to create workflows through a drag-and-drop interface and natural language. These workflows, known as visual data preps, are supported by production-ready code and governed by Unity Catalog, ensuring a seamless transition from prototype to production. Users can utilize built-in operators or define their own custom operators to enhance functionality.",
+  "why_it_matters": "This release empowers data analysts to efficiently prepare and transform data without needing extensive coding skills, thereby increasing productivity and reducing time to insights. By leveraging a governed environment, organizations can ensure compliance and data integrity, which is critical for decision-making and operational efficiency.",
   "capabilities": [
     {
-      "title": "What is Lakeflow Designer?",
-      "desc": "What is Lakeflow Designer?"
+      "title": "Visual Data Preps",
+      "desc": "Create and manage data transformation workflows using a drag-and-drop interface."
     },
     {
-      "title": "Learn the concepts of Lakeflow",
-      "desc": "Learn the concepts of Lakeflow Designer."
+      "title": "Built-in Operators",
+      "desc": "Utilize a variety of pre-defined operators to streamline data preparation tasks."
     },
     {
-      "title": "Create a visual data prep",
-      "desc": "Create a visual data prep in Lakeflow Designer"
+      "title": "User-defined Operators",
+      "desc": "Develop custom operators tailored to specific business needs and workflows."
     },
     {
-      "title": "Learn how to create a",
-      "desc": "Learn how to create a visual data prep in Lakeflow Designer."
+      "title": "Natural Language Processing",
+      "desc": "Leverage natural language to simplify the creation of data transformation tasks."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
+  "prerequisites": [
+    "Databricks workspace with Unity Catalog enabled.",
+    "Compliance security profile may be required for some features."
+  ],
+  "use_cases": [
+    "Data analysts preparing datasets for reporting.",
+    "Business users transforming data without coding.",
+    "Creating custom data transformation workflows for specific analytics needs."
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Lakeflow Designer Interface",
+    "Data Ingestion",
+    "Visual Data Prep Creation",
+    "Built-in and User-defined Operators",
+    "Unity Catalog Governance"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Lakeflow Designer",
+      "desc": "Navigate to Lakeflow Designer within your Databricks workspace."
+    },
+    {
+      "title": "Create a Visual Data Prep",
+      "desc": "Use the drag-and-drop interface to build your data transformation workflow."
+    },
+    {
+      "title": "Ingest Data",
+      "desc": "Import data into your visual data prep using the provided ingestion tools."
+    },
+    {
+      "title": "Utilize Built-in Operators",
+      "desc": "Incorporate built-in operators to enhance your data transformation process."
+    },
+    {
+      "title": "Define Custom Operators",
+      "desc": "Create user-defined operators to meet specific transformation requirements."
     }
   ],
-  "key_takeaway": "Lakeflow Designer is now generally available.",
+  "key_takeaway": "Lakeflow Designer's GA release enhances data transformation capabilities for analysts, promoting efficiency and compliance.",
   "note_id": "2026-06-16-lakeflow-designer-is-now-generally-available",
   "category": "platform"
 }

@@ -1,48 +1,77 @@
 {
-  "product": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent…",
-  "tagline": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
+  "product": "Agent Bricks Supervisor Agent",
+  "tagline": "Now supports Unity Catalog volumes as subagent tools.",
   "updated": "Jun 11, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
-  "what_it_does": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
-  "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "what_it_does": "The Supervisor Agent now allows the integration of Unity Catalog volumes as subagent tools, enhancing its capability to orchestrate complex tasks across various AI agents and tools. This integration facilitates better data management and access control, enabling users to leverage Unity Catalog's features within multi-agent systems. The Supervisor Agent coordinates interactions among agents, task delegation, and result synthesis, improving overall system performance.",
+  "why_it_matters": "This update significantly enhances the functionality of the Supervisor Agent, allowing organizations to utilize Unity Catalog volumes for more efficient data handling and access management. By integrating these volumes, businesses can streamline workflows, improve data governance, and enhance the quality of insights derived from AI agents. This is particularly beneficial for teams involved in data analysis, customer service automation, and operational efficiency.",
   "capabilities": [
     {
-      "title": "Serverless compute available (enabled by",
-      "desc": "Serverless compute available (enabled by default in workspaces with Unity Catalog in a supported region)."
+      "title": "Unity Catalog Integration",
+      "desc": "Supports Unity Catalog volumes as subagent tools for improved data management."
     },
     {
-      "title": "Unity Catalog enabled. See Enable",
-      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+      "title": "AI Orchestration",
+      "desc": "Coordinates multiple AI agents to complete complex tasks effectively."
     },
     {
-      "title": "Access to Model Serving",
-      "desc": "Access to Model Serving."
+      "title": "Natural Language Feedback",
+      "desc": "Improves agent coordination based on feedback from subject matter experts."
     },
     {
-      "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or…"
+      "title": "Access Control",
+      "desc": "Built-in access controls ensure users only access authorized subagents and data."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [
-    "Provide market analysis",
-    "usage data."
+  "prerequisites": [
+    "Workspace with serverless compute enabled.",
+    "Unity Catalog must be enabled.",
+    "Access to Model Serving is required.",
+    "A serverless usage policy with a nonzero budget is necessary.",
+    "Agents or tools must be ready for use."
   ],
-  "limitations": [],
+  "use_cases": [
+    "Market analysis by searching across research reports and usage data.",
+    "Automating ticket backlogs for internal process inquiries.",
+    "Enhancing customer service through automated responses to FAQs.",
+    "Coordinating complex tasks across specialized domains."
+  ],
+  "limitations": [
+    "Executing arbitrary code in an agent tool can expose sensitive information.",
+    "End users must have explicit access to each subagent to interact with it."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "Supervisor Agent",
+    "AI Agents",
+    "Data Governance"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create Supervisor Agent",
+      "desc": "Navigate to Agents and select Create Agent, then choose Supervisor Agent."
+    },
+    {
+      "title": "Configure Subagents",
+      "desc": "Add Unity Catalog volumes and other tools as subagents in the configuration."
+    },
+    {
+      "title": "Manage Permissions",
+      "desc": "Set explicit permissions for end users to access each subagent."
+    },
+    {
+      "title": "Test Supervisor Agent",
+      "desc": "Interact with the supervisor to evaluate its coordination and responses."
+    },
+    {
+      "title": "Gather Feedback",
+      "desc": "Collect feedback from subject matter experts to improve the supervisor's performance."
     }
   ],
-  "key_takeaway": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
+  "key_takeaway": "The Supervisor Agent's support for Unity Catalog volumes enhances data orchestration capabilities, driving efficiency and governance in multi-agent systems.",
   "note_id": "2026-06-11-40db4b89",
   "category": "platform"
 }

@@ -1,44 +1,76 @@
 {
-  "product": "Lakehouse Real-Time (Beta)",
-  "tagline": "Lakehouse Real Time (Lakehouse//RT) is now in Beta.",
+  "product": "Lakehouse Real-Time",
+  "tagline": "Now in Beta for low-latency analytics.",
   "updated": "Jun 30, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakehouse-real-time-beta",
-  "what_it_does": "Lakehouse Real Time (Lakehouse//RT) is now in Beta. Lakehouse//RT is a serverless SQL warehouse type built for low latency, high concurrency workloads, delivering sub second SQL read queries against Unity Catalog tables. Use it to serve analytical data to applications, run operational analytics, and power dashboards for hundreds to thousands of concurrent users.",
-  "why_it_matters": "Lakehouse//RT is a serverless SQL warehouse type built for low latency, high concurrency workloads, delivering sub second SQL read queries against Unity Catalog tables.",
+  "what_it_does": "Lakehouse Real-Time (Lakehouse//RT) is a serverless SQL warehouse designed for low-latency, high-concurrency workloads, enabling sub-second SQL read queries against Unity Catalog tables. It supports Delta Lake and Apache Iceberg formats, allowing users to serve analytical data to applications, run operational analytics, and power dashboards for hundreds to thousands of concurrent users. Users can create and manage Lakehouse//RT similarly to other SQL warehouses, with specific permissions assigned to users.",
+  "why_it_matters": "This feature significantly enhances the ability to deliver real-time analytics, improving decision-making speed and operational efficiency. Organizations can leverage Lakehouse//RT to support high-demand applications and BI dashboards, ultimately driving better insights and responsiveness to business needs. The serverless nature reduces infrastructure management overhead, allowing teams to focus on data insights rather than system maintenance.",
   "capabilities": [
     {
-      "title": "Databricks SQL Connector for Python",
-      "desc": "Databricks SQL Connector for Python: Set usekernel=True."
+      "title": "Sub-Second Query Performance",
+      "desc": "Delivers sub-second latency on SQL read queries for high-concurrency scenarios."
     },
     {
-      "title": "Databricks SQL Driver for Node.js",
-      "desc": "Databricks SQL Driver for Node.js: Set useKernel: true."
+      "title": "Serverless Architecture",
+      "desc": "Eliminates the need for infrastructure management, allowing for automatic scaling."
     },
     {
-      "title": "JDBC: Set UseThriftClient=0 in the",
-      "desc": "JDBC: Set UseThriftClient=0 in the connection URL."
+      "title": "Unity Catalog Integration",
+      "desc": "Queries data exclusively from Unity Catalog, ensuring optimized performance with managed tables."
+    },
+    {
+      "title": "Monitoring and Management",
+      "desc": "Provides comprehensive monitoring tools for query history and performance metrics."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [
-    "high concurrency use cases",
-    "running operational analytics"
+  "prerequisites": [
+    "Must be in a supported region.",
+    "Lakehouse//RT Beta must be enabled in your workspace."
   ],
-  "limitations": [],
+  "use_cases": [
+    "Serving real-time analytics to applications.",
+    "Running operational analytics for immediate insights.",
+    "Powering BI dashboards for high user concurrency.",
+    "Executing low-latency queries on large datasets."
+  ],
+  "limitations": [
+    "Does not support write operations or DDL commands.",
+    "Only ANSI-compliant read queries are supported.",
+    "Certain table types and SQL functions are not supported.",
+    "Legacy Thrift protocol connections are not allowed."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Ingestion",
+    "Unity Catalog",
+    "Lakehouse Real-Time",
+    "BI Dashboards"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Lakehouse//RT",
+      "desc": "Workspace admins can enable the Lakehouse//RT Beta in the workspace menu under Previews."
+    },
+    {
+      "title": "Create SQL Warehouse",
+      "desc": "Navigate to Compute > SQL Warehouses and select 'Create SQL Warehouse'."
+    },
+    {
+      "title": "Select Real-Time Type",
+      "desc": "Choose 'Real-Time' as the warehouse type during creation."
+    },
+    {
+      "title": "Assign Permissions",
+      "desc": "Grant appropriate permissions to users and groups for warehouse access."
+    },
+    {
+      "title": "Monitor Activity",
+      "desc": "Use the monitoring page to track query throughput and performance."
     }
   ],
-  "key_takeaway": "Lakehouse Real Time (Lakehouse//RT) is now in Beta.",
+  "key_takeaway": "Lakehouse Real-Time empowers organizations to achieve real-time analytics with sub-second query performance, enhancing decision-making and operational efficiency.",
   "note_id": "2026-06-30-lakehouse-real-time-beta",
   "category": "platform"
 }

@@ -1,45 +1,73 @@
 {
-  "product": "AUTO CDC flows for streaming tables in Databricks SQL are generally available",
-  "tagline": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available.",
+  "product": "AUTO CDC for Streaming Tables",
+  "tagline": "Streamline change data capture with automatic handling of out-of-order records.",
   "updated": "Jun 15, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-cdc-flows-for-streaming-tables-in-databricks-sql-are-generally-available",
-  "what_it_does": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available. Use AUTO CDC to process change data capture (CDC) records from a source into a streaming table, automatically handling out of order records as SCD type 1 or SCD type 2 without the complex logic that MERGE INTO requires. FLOW AUTO CDC, generally available.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "The `FLOW AUTO CDC` clause allows users to create streaming tables in Databricks SQL that automatically process change data capture (CDC) records from a source. It simplifies the handling of out-of-order records and supports both slowly changing dimensions (SCD) type 1 and type 2 without the complexity of `MERGE INTO`. Users must set the `pipelines.channel` table property to 'PREVIEW' to utilize this feature.",
+  "why_it_matters": "This update significantly reduces the complexity and potential errors associated with processing CDC records, enhancing data accuracy and operational efficiency. It benefits data engineers and analysts by simplifying workflows, improving data freshness, and enabling more reliable historical tracking, which is crucial for analytics and reporting.",
   "capabilities": [
     {
-      "title": "Specify the complete list of",
-      "desc": "Specify the complete list of columns to include: COLUMNS (userId, name, city)."
+      "title": "Automatic Out-of-Order Handling",
+      "desc": "Automatically manages out-of-order records, reducing the need for complex logic."
     },
     {
-      "title": "Specify a list of columns",
-      "desc": "Specify a list of columns to exclude: COLUMNS  EXCEPT (operation, sequenceNum)"
+      "title": "Supports SCD Types",
+      "desc": "Allows for both SCD type 1 (direct updates) and SCD type 2 (history tracking) configurations."
     },
     {
-      "title": "Specify the complete list of",
-      "desc": "Specify the complete list of columns to track: COLUMNS (userId, name, city)."
+      "title": "Flexible CDC Processing",
+      "desc": "Enables users to specify keys, sequence columns, and conditions for delete and truncate operations."
     },
     {
-      "title": "Specify a list of columns",
-      "desc": "Specify a list of columns to be excluded from tracking: COLUMNS  EXCEPT (operation, sequenceNum)"
+      "title": "Enhanced History Tracking",
+      "desc": "Provides options to track history on specific columns, improving data lineage and audit capabilities."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Databricks Runtime 17.3 or above",
+    "Set the `pipelines.channel` table property to 'PREVIEW'"
+  ],
+  "use_cases": [
+    "Real-time analytics on changing datasets",
+    "Maintaining historical records for compliance and reporting",
+    "Simplifying ETL processes for CDC data"
+  ],
+  "limitations": [
+    "Requires streaming sources; static sources may lead to errors.",
+    "The `APPLY AS TRUNCATE WHEN` clause is only supported for SCD type 1."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Source",
+    "Streaming Table",
+    "AUTO CDC Processing",
+    "Delta Lake"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Set Table Property",
+      "desc": "Set the `pipelines.channel` property to 'PREVIEW' on the streaming table."
+    },
+    {
+      "title": "Create Streaming Table",
+      "desc": "Use the `CREATE OR REFRESH STREAMING TABLE` statement with the `FLOW AUTO CDC` clause."
+    },
+    {
+      "title": "Define Keys and Sequence",
+      "desc": "Specify the keys for identifying records and the sequence column for ordering."
+    },
+    {
+      "title": "Configure SCD Type",
+      "desc": "Choose between SCD type 1 or type 2 for storing records."
+    },
+    {
+      "title": "Implement History Tracking",
+      "desc": "Optionally track history on specific columns as needed."
     }
   ],
-  "key_takeaway": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available.",
+  "key_takeaway": "The AUTO CDC feature simplifies change data capture in Databricks SQL, enhancing data processing efficiency and accuracy.",
   "note_id": "2026-06-15-auto-cdc-flows-for-streaming-tables-in-databricks-sql-are-generally-available",
   "category": "platform"
 }

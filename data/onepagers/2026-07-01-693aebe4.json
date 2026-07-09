@@ -1,32 +1,63 @@
 {
-  "product": "Google Gemini 3.1 Flash Image and Gemini 3 Pro Image now available as…",
-  "tagline": "Model Serving now supports Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as Databricks hosted models.",
+  "product": "Google Gemini Models",
+  "tagline": "Now available as Databricks-hosted models for enhanced accessibility.",
   "updated": "Jul 1, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-31-flash-image-and-gemini-3-pro-image-now-available-as-databricks-hosted-models",
-  "what_it_does": "Model Serving now supports Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as Databricks hosted models. You can access these models using Foundation Model APIs. Customers are responsible for ensuring their compliance with applicable terms.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [
-    "| Model | Terms",
-    "Copyright (c) Meta Platforms",
-    "Inc."
+  "what_it_does": "Databricks Model Serving now supports Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as Databricks-hosted models. Users can access these models through the Foundation Model APIs, enabling integration into various applications. This update enhances the range of available models for machine learning tasks within the Databricks environment.",
+  "why_it_matters": "This release allows organizations to leverage advanced AI capabilities from Google Gemini models directly within Databricks, improving productivity and innovation in data-driven applications. It also simplifies compliance with model usage policies, ensuring that businesses can utilize these models responsibly and effectively.",
+  "capabilities": [
+    {
+      "title": "Access to Gemini Models",
+      "desc": "Users can now utilize Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as hosted models."
+    },
+    {
+      "title": "Foundation Model APIs Integration",
+      "desc": "Seamless integration with Foundation Model APIs for easy access and deployment."
+    },
+    {
+      "title": "Compliance Management",
+      "desc": "Customers are responsible for adhering to applicable model terms and usage policies."
+    },
+    {
+      "title": "Enhanced Model Variety",
+      "desc": "Expands the selection of available models for diverse machine learning applications."
+    }
   ],
+  "prerequisites": [],
+  "use_cases": [],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Workspace",
+    "Model Serving",
+    "Foundation Model APIs",
+    "Google Gemini Models"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Model Serving",
+      "desc": "Navigate to the Model Serving section in Databricks."
+    },
+    {
+      "title": "Select Gemini Model",
+      "desc": "Choose either the Gemini 3.1 Flash Image or Gemini 3 Pro Image."
+    },
+    {
+      "title": "Integrate with APIs",
+      "desc": "Utilize Foundation Model APIs to access the selected model."
+    },
+    {
+      "title": "Ensure Compliance",
+      "desc": "Review and comply with the applicable terms and policies for model usage."
+    },
+    {
+      "title": "Deploy in Applications",
+      "desc": "Integrate the model into your data applications for enhanced AI capabilities."
     }
   ],
-  "key_takeaway": "Model Serving now supports Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as Databricks hosted models.",
+  "key_takeaway": "Google Gemini 3.1 and Pro Images are now available as Databricks-hosted models, enhancing AI capabilities for users.",
   "note_id": "2026-07-01-693aebe4",
   "category": "platform"
 }

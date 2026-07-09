@@ -1,28 +1,75 @@
 {
-  "product": "Mission Critical add-on is now in Public Preview",
-  "tagline": "The Mission Critical workspace add on is now in Public Preview.",
+  "product": "Mission Critical Add-on",
+  "tagline": "Now in Public Preview for enhanced security and disaster recovery.",
   "updated": "Jun 12, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/admin/mission-critical",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#mission-critical-add-on-is-now-in-public-preview",
-  "what_it_does": "The Mission Critical workspace add on is now in Public Preview. The add on unlocks managed disaster recovery and the existing Enhanced Security and Compliance (ESC) capabilities for a single compute rate, and is enabled per workspace from the new Add ons tab in the account console. Access to the Mission Critical add on is gated.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "The Mission Critical workspace add-on integrates managed disaster recovery (DR) with Enhanced Security and Compliance (ESC) features, allowing users to enable these capabilities at a single compute rate. It is activated per workspace through the Add-ons tab in the account console, and users must ensure Managed DR is enabled to utilize its full functionality. The add-on is designed for workspaces on the Enterprise plan and requires account admin privileges for activation.",
+  "why_it_matters": "This add-on is crucial for organizations that prioritize data security and compliance, providing a streamlined approach to disaster recovery and enhanced security features without incurring additional costs for ESC. It enables businesses to maintain operational continuity and safeguard sensitive data, thereby reducing risk and enhancing governance.",
+  "capabilities": [
+    {
+      "title": "Managed Disaster Recovery",
+      "desc": "Provides a comprehensive disaster recovery solution to ensure business continuity."
+    },
+    {
+      "title": "Enhanced Security and Compliance",
+      "desc": "Includes features for compliance security profiles and enhanced security monitoring."
+    },
+    {
+      "title": "Automatic Cluster Updates",
+      "desc": "Facilitates automatic updates for clusters to maintain security and performance."
+    },
+    {
+      "title": "Enhanced Security Monitoring",
+      "desc": "Offers advanced monitoring capabilities for classic compute environments."
+    }
+  ],
+  "prerequisites": [
+    "Workspace on the Enterprise plan",
+    "Account admin role required to enable the add-on"
+  ],
+  "use_cases": [
+    "Organizations needing robust disaster recovery solutions.",
+    "Companies requiring enhanced security for sensitive data.",
+    "Businesses aiming to streamline compliance processes."
+  ],
+  "limitations": [
+    "Managed DR is in Gated Public Preview; must be enabled before using Mission Critical.",
+    "Cannot disable Mission Critical if any failover group is active.",
+    "Compliance security profile settings are permanent once enabled."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Account Console",
+    "Workspace",
+    "Mission Critical Add-on",
+    "Managed Disaster Recovery",
+    "Enhanced Security and Compliance"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Account Console",
+      "desc": "Log in to the account console and navigate to Workspaces."
+    },
+    {
+      "title": "Select Workspace",
+      "desc": "Choose the workspace where you want to enable the add-on."
+    },
+    {
+      "title": "Enable Add-on",
+      "desc": "Click on the Add-ons tab and toggle the Mission Critical option."
+    },
+    {
+      "title": "Confirm Changes",
+      "desc": "Confirm the activation of the Mission Critical add-on."
+    },
+    {
+      "title": "Configure Features",
+      "desc": "Set up relevant features like Managed DR and ESC settings."
     }
   ],
-  "key_takeaway": "The Mission Critical workspace add on is now in Public Preview.",
+  "key_takeaway": "The Mission Critical add-on enhances data security and disaster recovery capabilities for enterprise workspaces, now available in Public Preview.",
   "note_id": "2026-06-12-mission-critical-add-on-is-now-in-public-preview",
   "category": "platform"
 }

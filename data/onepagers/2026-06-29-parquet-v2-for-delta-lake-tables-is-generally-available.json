@@ -1,30 +1,77 @@
 {
-  "product": "Parquet v2 for Delta Lake tables is generally available",
-  "tagline": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
+  "product": "Parquet v2 for Delta Lake",
+  "tagline": "Enhanced performance and reduced storage for Delta Lake tables.",
   "updated": "Jun 29, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#parquet-v2-for-delta-lake-tables-is-generally-available",
-  "what_it_does": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above. Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes. To use, set the delta.parquet.format.version table property to 2.12.0 or enable automatic upgrades.",
-  "why_it_matters": "Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
+  "what_it_does": "Parquet v2 introduces advanced encodings, v2 data page headers, and `INT64` timestamps for Delta Lake tables, significantly improving query performance and reducing storage requirements. Users can activate this feature by setting the `delta.parquet.format.version` table property to `2.12.0` or by enabling automatic upgrades. This functionality is supported in Databricks Runtime 18.1 and above.",
+  "why_it_matters": "The introduction of Parquet v2 allows organizations to optimize their data storage and enhance query performance, which can lead to reduced costs and improved operational efficiency. This is particularly beneficial for data-intensive applications and analytics workloads, enabling faster insights and better resource utilization.",
+  "capabilities": [
+    {
+      "title": "Advanced Data Encoding",
+      "desc": "Utilizes advanced encodings to enhance data compression and performance."
+    },
+    {
+      "title": "Improved Query Performance",
+      "desc": "Reduces query execution time through optimized data page headers."
+    },
+    {
+      "title": "Automatic Upgrades",
+      "desc": "Enables seamless upgrades to new features without manual intervention."
+    },
+    {
+      "title": "Compatibility Verification",
+      "desc": "Ensures workload compatibility before enabling new features on existing tables."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 18.1 or above",
+    "Unity Catalog managed tables in Delta Lake or Apache Iceberg formats",
+    "Serverless compute must be available in your region"
+  ],
+  "use_cases": [
+    "Optimizing storage costs for large datasets.",
+    "Enhancing performance for data analytics applications.",
+    "Seamlessly upgrading existing Delta Lake tables to leverage new features.",
+    "Improving data governance and management with automatic compatibility checks."
+  ],
   "limitations": [
-    "External tables are typically accessed by file path, bypassing Unity Catalog, and with unverified workloads from external clients. Unity Catalog cannot reliably track these access patterns, so external tables are excluded from automatic upgrades. See Work with external tables."
+    "Tables shared via Delta Lake Sharing are excluded from automatic upgrades.",
+    "No batch rollback mechanism for turning off features across all tables.",
+    "Materialized views and streaming tables are not supported.",
+    "Path-based access workloads are not tracked by automatic upgrades."
   ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Runtime",
+    "Delta Lake",
+    "Unity Catalog",
+    "Automatic Upgrades"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Set Parquet Version",
+      "desc": "Configure the `delta.parquet.format.version` to `2.12.0`."
+    },
+    {
+      "title": "Enable Automatic Upgrades",
+      "desc": "Activate automatic upgrades for new schemas to utilize Parquet v2 features."
+    },
+    {
+      "title": "Monitor Table Compatibility",
+      "desc": "Check table access patterns to ensure compatibility with automatic upgrades."
+    },
+    {
+      "title": "Review Upgrade History",
+      "desc": "Use the Catalog Explorer to verify if automatic upgrades have been applied."
+    },
+    {
+      "title": "Manage Features",
+      "desc": "Utilize SQL commands to turn off features if necessary."
     }
   ],
-  "key_takeaway": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
+  "key_takeaway": "Parquet v2 for Delta Lake tables enhances performance and reduces storage costs, enabling organizations to optimize their data management strategies.",
   "note_id": "2026-06-29-parquet-v2-for-delta-lake-tables-is-generally-available",
   "category": "platform"
 }

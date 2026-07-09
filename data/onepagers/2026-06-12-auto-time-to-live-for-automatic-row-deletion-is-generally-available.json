@@ -1,37 +1,76 @@
 {
-  "product": "Auto time-to-live for automatic row deletion is generally available",
-  "tagline": "Auto time to live (auto TTL) is now generally available.",
+  "product": "Auto Time-to-Live for Row Deletion",
+  "tagline": "Automate data lifecycle management with configurable row expiration.",
   "updated": "Jun 12, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/tables/operations/auto-ttl",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-time-to-live-for-automatic-row-deletion-is-generally-available",
-  "what_it_does": "Auto time to live (auto TTL) is now generally available. Auto TTL automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a DATE or TIMESTAMP column. Auto time to live (Auto TTL) automatically deletes rows from Unity Catalog managed tables after a configurable time period based on the value in a timestamp column.",
-  "why_it_matters": "The following are two examples for how to use auto time to live: You might want to remove data older than 1 year to keep storage costs low.",
+  "what_it_does": "Auto time-to-live (auto-TTL) automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a specified timestamp column and a defined expiration period in days. The system performs background operations such as DELETE, PURGE, and VACUUM to manage the removal of expired rows and clear them from storage. This feature helps maintain data hygiene and optimize storage costs by ensuring that outdated data is automatically purged.",
+  "why_it_matters": "This feature significantly enhances data management efficiency by automating the deletion of stale data, which can reduce storage costs and improve query performance. Organizations can benefit from streamlined data lifecycle management, ensuring compliance with data retention policies while minimizing manual intervention. Use cases include managing data retention for regulatory compliance and optimizing storage for analytical workloads.",
   "capabilities": [
     {
-      "title": "Turning off predictive optimization on",
-      "desc": "Turning off predictive optimization on a table with auto time-to-live enabled prevents auto time-to-live from running. You must…"
+      "title": "Configurable Expiration Period",
+      "desc": "Users can define a specific number of days after which rows are eligible for deletion based on a timestamp column."
     },
     {
-      "title": "Databricks Runtime 17.2 and below",
-      "desc": "Databricks Runtime 17.2 and below can read and write to tables with auto time-to-live."
+      "title": "Background Deletion Operations",
+      "desc": "Databricks automatically executes DELETE, PURGE, and VACUUM commands to manage expired rows without user intervention."
+    },
+    {
+      "title": "Support for Multiple Table Types",
+      "desc": "Auto-TTL is compatible with Unity Catalog managed Delta Lake tables, Apache Iceberg tables, and streaming tables."
+    },
+    {
+      "title": "Monitoring and Alerts",
+      "desc": "Users can monitor auto-TTL operations and set alerts for failures using system tables."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Predictive optimization must be enabled.",
+    "User must have MODIFY permissions on the table.",
+    "Databricks Runtime 17.3 or above is required."
+  ],
+  "use_cases": [
+    "Automatically delete data older than a specified period to reduce storage costs.",
+    "Manage data retention for compliance with data governance policies.",
+    "Remove data marked for deletion by other business processes."
+  ],
+  "limitations": [
+    "Exact deletion timing is not guaranteed and may vary based on system load.",
+    "Auto time-to-live is not supported on materialized views.",
+    "Modifying auto time-to-live on streaming tables requires updating the pipeline code."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "Delta Lake",
+    "Apache Iceberg",
+    "Streaming Tables",
+    "Predictive Optimization"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Predictive Optimization",
+      "desc": "Turn on predictive optimization for Unity Catalog managed tables."
+    },
+    {
+      "title": "Set Auto-TTL Policy",
+      "desc": "Use SQL commands to define an expiration period and timestamp column for the table."
+    },
+    {
+      "title": "Monitor Deletion Operations",
+      "desc": "Query system tables to verify auto-TTL events and monitor performance."
+    },
+    {
+      "title": "Set Alerts for Failures",
+      "desc": "Create alerts in Databricks SQL to notify users of any auto-TTL operation failures."
+    },
+    {
+      "title": "Review Table Properties",
+      "desc": "Use DESCRIBE TABLE EXTENDED to confirm that auto-TTL is configured correctly."
     }
   ],
-  "key_takeaway": "Auto time to live (auto TTL) is now generally available.",
+  "key_takeaway": "Auto time-to-live automates data deletion, optimizing storage and ensuring compliance with retention policies.",
   "note_id": "2026-06-12-auto-time-to-live-for-automatic-row-deletion-is-generally-available",
   "category": "platform"
 }

@@ -1,28 +1,68 @@
 {
-  "product": "AI Runtime CLI (Beta)",
-  "tagline": "The AI Runtime CLI (air) is now in Beta.",
+  "product": "AI Runtime CLI",
+  "tagline": "Submit and manage distributed training workloads effortlessly.",
   "updated": "Jun 12, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/cli/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-runtime-cli-beta",
-  "what_it_does": "The AI Runtime CLI (air) is now in Beta. Use the air command line interface to submit and manage distributed training workloads on AI Runtime serverless GPU compute from your local machine, without opening a notebook. Beta The AI Runtime CLI is in Beta.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [],
+  "what_it_does": "The AI Runtime CLI (`air`) allows users to submit and manage distributed training workloads on the AI Runtime serverless GPU compute platform directly from their local machines. It utilizes YAML-based job configurations for easy source control integration and supports both workspace-based and git-based workflows. This CLI is particularly useful for long-running or multi-node distributed training jobs that require persistence beyond interactive sessions.",
+  "why_it_matters": "This update enhances productivity by enabling data scientists and machine learning engineers to manage GPU training workloads without the need for a notebook interface, streamlining the workflow and reducing the time to deployment. It also facilitates better version control and collaboration through YAML configurations, which can be easily integrated into existing CI/CD pipelines.",
+  "capabilities": [
+    {
+      "title": "YAML Job Configuration",
+      "desc": "Define training jobs declaratively in YAML for easy version control."
+    },
+    {
+      "title": "Integration with MLflow",
+      "desc": "Track and manage training runs seamlessly using MLflow."
+    },
+    {
+      "title": "Multi-Node Support",
+      "desc": "Run long-running and distributed training jobs across multiple nodes."
+    },
+    {
+      "title": "Local Submission",
+      "desc": "Submit GPU workloads directly from your laptop without opening a notebook."
+    }
+  ],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "Submitting GPU training jobs from local development environments.",
+    "Managing long-running training tasks that require persistence.",
+    "Collaborating on training job configurations using source control.",
+    "Running multi-node distributed training workloads."
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Local Machine",
+    "AI Runtime CLI",
+    "AI Runtime Serverless GPU",
+    "MLflow Tracking"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Install the CLI",
+      "desc": "Follow the installation guide to set up the AI Runtime CLI on your machine."
+    },
+    {
+      "title": "Configure YAML Jobs",
+      "desc": "Create YAML configuration files for your training jobs."
+    },
+    {
+      "title": "Submit Workloads",
+      "desc": "Use the `air` command to submit your training jobs."
+    },
+    {
+      "title": "Track Training Runs",
+      "desc": "Monitor and manage your training runs through MLflow."
+    },
+    {
+      "title": "Use Custom Docker Images",
+      "desc": "Integrate custom Docker images for your training environments."
     }
   ],
-  "key_takeaway": "The AI Runtime CLI (air) is now in Beta.",
+  "key_takeaway": "The AI Runtime CLI empowers users to efficiently manage distributed GPU training workloads directly from their local environments, enhancing productivity and collaboration.",
   "note_id": "2026-06-12-ai-runtime-cli-beta",
   "category": "platform"
 }

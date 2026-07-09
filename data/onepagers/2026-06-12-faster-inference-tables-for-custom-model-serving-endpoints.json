@@ -1,45 +1,78 @@
 {
-  "product": "Faster inference tables for custom model serving endpoints",
-  "tagline": "Inference tables for custom model serving endpoints now ingest through endpoint telemetry.",
+  "product": "Faster Inference Tables for Custom Model Serving Endpoints",
+  "tagline": "Enhanced telemetry for real-time data ingestion in model serving.",
   "updated": "Jun 12, 2026",
-  "status_label": "Update",
-  "status": "changed",
+  "status_label": "GA",
+  "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#faster-inference-tables-for-custom-model-serving-endpoints",
-  "what_it_does": "Inference tables for custom model serving endpoints now ingest through endpoint telemetry. Request and response payloads are delivered to a Unity Catalog inference table view within seconds, with configurable sampling. Existing inference tables are not affected.",
-  "why_it_matters": "To do this with the API: Enable telemetry using the API Bash curl X POST H \"Authorization: Bearer <your token \" \\ https://<workspace url /api/2.0/serving endpoints \\ d '{ \"name\": \"my custom logging endpoint\", \"config\": { \"served entities\": [ { \"name\": \"my model\", \"entity name\": \"my model\", \"entity version\": \"1\", \"workload size\": \"Small\", \"scale to zero enabled\": true } ] }, \"telemetry config\": { \"table names\": { \"logs table\": \"my catalog.observability.custom endpoint logs\", \"metrics table\": \"my catalog.observability.custom endpoint metrics\", \"traces table\": \"my catalog.observability.custom endpoint spans\" } } }' note Updating triggers a new deployment.",
+  "what_it_does": "Inference tables for custom model serving endpoints now utilize endpoint telemetry to quickly ingest request and response payloads into Unity Catalog tables. This feature allows for configurable sampling and ensures that existing inference tables remain unaffected. The telemetry data can be used for root cause analysis, monitoring endpoint health, and compliance reporting through standard SQL queries.",
+  "why_it_matters": "This update significantly improves the speed and efficiency of data ingestion for model serving, enabling organizations to gain real-time insights into model performance and usage. By leveraging telemetry data, data teams can enhance monitoring, improve compliance, and optimize model performance, ultimately driving better business decisions and outcomes.",
   "capabilities": [
     {
-      "title": "us-east-1",
-      "desc": "us-east-1"
+      "title": "Real-time Data Ingestion",
+      "desc": "Telemetry data is ingested into Unity Catalog tables within seconds."
     },
     {
-      "title": "us-east-2",
-      "desc": "us-east-2"
+      "title": "Configurable Sampling",
+      "desc": "Users can configure sampling options for telemetry data collection."
     },
     {
-      "title": "us-west-2",
-      "desc": "us-west-2"
+      "title": "Root Cause Analysis",
+      "desc": "Persisted telemetry data aids in performing root cause analysis and monitoring."
     },
     {
-      "title": "eu-central-1",
-      "desc": "eu-central-1"
+      "title": "Compliance Support",
+      "desc": "Standard SQL queries can be used to meet compliance requirements."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Workspace must be enabled for Unity Catalog.",
+    "Permissions for USE CATALOG, USE SCHEMA, CREATE TABLE, and MODIFY on the destination Unity Catalog.",
+    "An existing custom model serving endpoint or permissions to create one.",
+    "Workspace must be in a supported region."
+  ],
+  "use_cases": [
+    "Monitoring model performance in real-time.",
+    "Conducting root cause analysis for inference failures.",
+    "Ensuring compliance with data governance standards.",
+    "Optimizing model serving based on telemetry insights."
+  ],
+  "limitations": [
+    "Schema evolution on the target table is not supported.",
+    "Only managed Delta tables are supported; external storage is not.",
+    "The table location must be in the same region as the workspace.",
+    "Only ASCII letters, digits, and underscores are supported in table names."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Custom Model Serving Endpoint",
+    "AI Gateway",
+    "Telemetry Data Ingestion",
+    "Unity Catalog"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Instrument Model Code",
+      "desc": "Add logging to your model to capture telemetry data."
+    },
+    {
+      "title": "Prepare Unity Catalog",
+      "desc": "Ensure a catalog and schema are ready to receive telemetry data."
+    },
+    {
+      "title": "Enable Telemetry",
+      "desc": "Select 'Enable inference tables and telemetry' in the endpoint UI."
+    },
+    {
+      "title": "Verify Data Flow",
+      "desc": "Check the Unity Catalog tables to ensure data is being ingested."
+    },
+    {
+      "title": "Query Telemetry Data",
+      "desc": "Use SQL to query the telemetry data for insights."
     }
   ],
-  "key_takeaway": "Inference tables for custom model serving endpoints now ingest through endpoint telemetry.",
+  "key_takeaway": "The new inference tables enhance real-time data ingestion and monitoring capabilities for custom model serving, driving better insights and compliance.",
   "note_id": "2026-06-12-faster-inference-tables-for-custom-model-serving-endpoints",
   "category": "platform"
 }

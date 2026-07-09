@@ -1,28 +1,75 @@
 {
-  "product": "Genie Code Chat/Agent mode selector removed",
-  "tagline": "The Chat/Agent mode selector has been removed from the Genie Code pane.",
+  "product": "Genie Code",
+  "tagline": "Agent mode is now the exclusive operational mode.",
   "updated": "Jun 29, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#modes",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-chatagent-mode-selector-removed",
-  "what_it_does": "The Chat/Agent mode selector has been removed from the Genie Code pane. Genie Code now runs exclusively in Agent mode. If you prefer a conversational response without autonomous task execution (what was previously called Chat mode), include that instruction in your prompt.",
-  "why_it_matters": "| Agent mode Genie Code runs in Agent mode, which automates multi step workflows, plans solutions, retrieves relevant assets, runs code, uses cell outputs to improve results, and fixes errors automatically.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "Genie Code now operates solely in Agent mode, which automates multi-step workflows, retrieves relevant assets, executes code, and improves results based on outputs. Users can still request conversational responses by specifying their preferences in prompts. This change simplifies the user experience by removing the Chat mode selector.",
+  "why_it_matters": "This update enhances productivity by streamlining the interaction model for developers, allowing them to focus on code generation and optimization without toggling between modes. It benefits teams looking for efficient code assistance and automation in their workflows, ultimately reducing development time and improving code quality.",
+  "capabilities": [
+    {
+      "title": "Automated Workflows",
+      "desc": "Genie Code automates multi-step workflows and executes code based on user prompts."
+    },
+    {
+      "title": "Contextual Responses",
+      "desc": "Users can receive detailed explanations by including specific instructions in their prompts."
+    },
+    {
+      "title": "Multi-thread Support",
+      "desc": "Users can manage multiple tasks simultaneously through tabbed threads in the Genie Code pane."
+    },
+    {
+      "title": "Approval Management",
+      "desc": "Genie Code requests user approval for tool actions, enhancing control over automated tasks."
+    }
+  ],
+  "prerequisites": [
+    "Partner-powered AI features enabled for both account and workspace.",
+    "Workspace must be in a supported region."
+  ],
+  "use_cases": [
+    "Automating data science workflows.",
+    "Generating and optimizing code in Databricks notebooks.",
+    "Debugging code and providing quick fixes.",
+    "Retrieving relevant documentation to support coding tasks."
+  ],
+  "limitations": [
+    "Genie Code's agentic capabilities require partner-powered AI features; otherwise, it operates with limited functionality.",
+    "The auto-approve feature is not a security boundary and should be used cautiously."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "User Interface",
+    "Genie Code Pane",
+    "Agent Mode Execution",
+    "Code Generation",
+    "Approval Management"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Open Genie Code Pane",
+      "desc": "Click the Genie Code icon in the upper-right corner of the page."
+    },
+    {
+      "title": "Enter Prompt",
+      "desc": "Type your request in the text box and press Enter."
+    },
+    {
+      "title": "Specify Instructions",
+      "desc": "Include specific instructions in your prompt for conversational responses."
+    },
+    {
+      "title": "Manage Threads",
+      "desc": "Use tabs to switch between active threads or start new ones."
+    },
+    {
+      "title": "Set Approval Preferences",
+      "desc": "Adjust approval settings in Genie Code settings for tool actions."
     }
   ],
-  "key_takeaway": "The Chat/Agent mode selector has been removed from the Genie Code pane.",
+  "key_takeaway": "Genie Code's exclusive shift to Agent mode simplifies user interactions, enhancing automation and productivity for developers.",
   "note_id": "2026-06-29-genie-code-chat-agent-mode-selector-removed",
   "category": "platform"
 }

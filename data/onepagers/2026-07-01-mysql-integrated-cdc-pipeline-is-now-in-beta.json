@@ -1,45 +1,74 @@
 {
-  "product": "MySQL integrated CDC pipeline is now in Beta",
-  "tagline": "The integrated CDC pipeline for MySQL is now in Beta.",
+  "product": "MySQL Integrated CDC Pipeline",
+  "tagline": "Simplified change data capture for MySQL in Databricks.",
   "updated": "Jul 1, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mysql-integrated-cdc-pipeline-is-now-in-beta",
-  "what_it_does": "The integrated CDC pipeline for MySQL is now in Beta. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway based architecture, an integrated CDC pipeline requires no separate ingestion gateway.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "The integrated CDC pipeline for MySQL allows users to ingest change data directly into Databricks using a single pipeline, which combines both extraction and application stages. This approach eliminates the need for a separate ingestion gateway, simplifying the setup process. The pipeline supports scheduled execution and auto full refresh, enhancing data management capabilities.",
+  "why_it_matters": "This update streamlines the data ingestion process from MySQL, reducing operational complexity and setup time. By consolidating the pipeline architecture, organizations can achieve faster data updates and better resource utilization, ultimately leading to improved decision-making and analytics capabilities.",
   "capabilities": [
     {
-      "title": "CREATE CONNECTION on the metastore",
-      "desc": "CREATE CONNECTION on the metastore (if creating a new Unity Catalog connection), or USE CONNECTION on an existing connection."
+      "title": "Unified Pipeline Architecture",
+      "desc": "Runs both extraction and application in a single pipeline, eliminating the need for a separate ingestion gateway."
     },
     {
-      "title": "USE CATALOG on the destination",
-      "desc": "USE CATALOG on the destination catalog."
+      "title": "Scheduled Execution",
+      "desc": "Supports triggered execution, allowing users to schedule data ingestion at regular intervals."
     },
     {
-      "title": "USE SCHEMA and CREATE TABLE",
-      "desc": "USE SCHEMA and CREATE TABLE on the destination schema."
+      "title": "Auto Full Refresh",
+      "desc": "Automatically supports full refreshes, a feature not available in the standard gateway-based architecture."
     },
     {
-      "title": "CREATE VOLUME on the destination",
-      "desc": "CREATE VOLUME on the destination schema, or on the schema specified in datastagingoptions. A staging volume is required even if…"
+      "title": "Exactly-Once Semantics",
+      "desc": "Ensures data integrity with exactly-once processing during ingestion."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Workspace must be enabled for Unity Catalog.",
+    "User must have necessary privileges on the metastore and target catalog/schema.",
+    "MySQL source setup must be completed."
+  ],
+  "use_cases": [
+    "Organizations needing simplified MySQL data ingestion.",
+    "Data teams requiring scheduled updates for analytics.",
+    "Use cases involving auto full refresh for data accuracy."
+  ],
+  "limitations": [
+    "Continuous execution is not supported; only scheduled execution is available.",
+    "Serverless compute is not supported; classic compute is required."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog Connection",
+    "Integrated CDC Pipeline",
+    "Data Staging Volume",
+    "Destination Streaming Tables"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create Unity Catalog Connection",
+      "desc": "Establish a connection to MySQL in Unity Catalog."
+    },
+    {
+      "title": "Define Pipeline Resource",
+      "desc": "Create the integrated CDC pipeline resource using YAML or API."
+    },
+    {
+      "title": "Schedule Pipeline Execution",
+      "desc": "Set up a Lakeflow Jobs task to trigger the pipeline on a schedule."
+    },
+    {
+      "title": "Deploy Pipeline",
+      "desc": "Use Databricks CLI to deploy and run the pipeline."
+    },
+    {
+      "title": "Monitor Pipeline Updates",
+      "desc": "Check for successful execution and manage any queued updates."
     }
   ],
-  "key_takeaway": "The integrated CDC pipeline for MySQL is now in Beta.",
+  "key_takeaway": "The MySQL integrated CDC pipeline simplifies data ingestion, enabling efficient and reliable change data capture directly into Databricks.",
   "note_id": "2026-07-01-mysql-integrated-cdc-pipeline-is-now-in-beta",
   "category": "platform"
 }

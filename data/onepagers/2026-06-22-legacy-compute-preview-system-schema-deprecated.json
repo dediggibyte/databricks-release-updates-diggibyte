@@ -1,28 +1,73 @@
 {
-  "product": "Legacy compute_preview system schema deprecated",
-  "tagline": "The legacy compute preview system schema is deprecated and will be removed from the system catalog.",
+  "product": "Legacy Compute Preview System Schema Deprecation",
+  "tagline": "Transitioning to the new system.compute schema for enhanced data management.",
   "updated": "Jun 22, 2026",
-  "status_label": "Update",
+  "status_label": "GA",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#legacy-compute_preview-system-schema-deprecated",
-  "what_it_does": "The legacy compute preview system schema is deprecated and will be removed from the system catalog. Use the system.compute schema instead. For a list of current system schemas and tables, see System tables reference.",
-  "why_it_matters": "Use them to monitor costs, audit security events, track compute and job performance, and observe data and AI workloads.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "The legacy `compute_preview` system schema has been deprecated and will be removed from the `system` catalog, urging users to transition to the `system.compute` schema. This change is part of Databricks' ongoing efforts to streamline system table management and improve operational data accessibility. System tables are utilized for monitoring costs, auditing security events, and tracking compute performance across the Databricks environment.",
+  "why_it_matters": "This update is crucial for maintaining an organized and efficient data management system, reducing potential confusion from deprecated schemas. By consolidating to the `system.compute` schema, organizations can enhance their operational oversight, ensuring better governance and compliance while optimizing resource usage.",
+  "capabilities": [
+    {
+      "title": "Enhanced Data Monitoring",
+      "desc": "Utilize system tables to monitor costs and performance metrics effectively."
+    },
+    {
+      "title": "Improved Security Auditing",
+      "desc": "Audit security events through accessible system tables for better compliance."
+    },
+    {
+      "title": "Streamlined Schema Management",
+      "desc": "Transitioning to a single schema simplifies data management and reduces errors."
+    },
+    {
+      "title": "Historical Observability",
+      "desc": "Access historical data for comprehensive insights into operational activities."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must be enabled for Unity Catalog.",
+    "Metastore must be on Unity Catalog Privilege Model Version 1.0."
+  ],
+  "use_cases": [
+    "Monitoring compute resource usage over time.",
+    "Auditing and tracking security events across workspaces.",
+    "Analyzing billing and usage data for cost optimization."
+  ],
+  "limitations": [
+    "Only a subset of system tables is available in AWS GovCloud.",
+    "System tables are read-only and cannot be modified."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "System Catalog",
+    "System Tables",
+    "Operational Data Store"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Identify Legacy Schema Usage",
+      "desc": "Review existing queries and applications that utilize the `compute_preview` schema."
+    },
+    {
+      "title": "Update Queries",
+      "desc": "Modify queries to reference the new `system.compute` schema."
+    },
+    {
+      "title": "Test Functionality",
+      "desc": "Ensure that all updated queries function correctly with the new schema."
+    },
+    {
+      "title": "Monitor Performance",
+      "desc": "Track performance metrics post-transition to ensure no degradation."
+    },
+    {
+      "title": "Decommission Legacy Schema",
+      "desc": "Remove references to the `compute_preview` schema once all dependencies are updated."
     }
   ],
-  "key_takeaway": "The legacy compute preview system schema is deprecated and will be removed from the system catalog.",
+  "key_takeaway": "Transitioning from the deprecated `compute_preview` schema to `system.compute` enhances data management and operational efficiency.",
   "note_id": "2026-06-22-legacy-compute-preview-system-schema-deprecated",
   "category": "platform"
 }

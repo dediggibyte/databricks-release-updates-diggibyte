@@ -1,28 +1,71 @@
 {
-  "product": "Schedule deferred policy enforcement for all-purpose compute",
-  "tagline": "When you enforce compute policy compliance on out of compliance all purpose compute, you can now schedule the configuration update to apply the next time the compute terminates or restarts, instead…",
+  "product": "Schedule Deferred Policy Enforcement",
+  "tagline": "Enhance compute policy management without interrupting workloads.",
   "updated": "Jun 10, 2026",
-  "status_label": "Update",
-  "status": "changed",
+  "status_label": "GA",
+  "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/admin/clusters/policies#compliance",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#schedule-deferred-policy-enforcement-for-all-purpose-compute",
-  "what_it_does": "When you enforce compute policy compliance on out of compliance all purpose compute, you can now schedule the configuration update to apply the next time the compute terminates or restarts, instead of restarting it immediately. Enforce on next restart avoids interrupting running workloads, while Restart and enforce applies the update right away. Workspace admins can cancel a scheduled enforcement for a single compute resource or for an entire policy.",
-  "why_it_matters": "Control cost by limiting per cluster maximum cost (by setting limits on attributes whose values contribute to hourly price).",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "This update allows workspace admins to schedule the enforcement of compute policy compliance for out-of-compliance all-purpose compute resources to occur at the next termination or restart, rather than immediately. This feature helps avoid disruptions to running workloads while ensuring compliance with defined policies. Admins can also cancel scheduled enforcements for individual compute resources or entire policies.",
+  "why_it_matters": "By enabling deferred enforcement, organizations can maintain operational continuity and minimize downtime, which is crucial for productivity and cost management. This feature benefits workspace admins who need to ensure compliance without interrupting user activities, thus enhancing governance and reducing operational risks.",
+  "capabilities": [
+    {
+      "title": "Deferred Enforcement Scheduling",
+      "desc": "Admins can now schedule policy compliance updates to occur at the next compute restart."
+    },
+    {
+      "title": "Immediate Enforcement Option",
+      "desc": "Admins can choose to apply policy updates immediately, restarting the compute resource."
+    },
+    {
+      "title": "Cancellation of Scheduled Enforcement",
+      "desc": "Workspace admins can cancel pending enforcement for specific compute resources or entire policies."
+    },
+    {
+      "title": "Compliance Monitoring",
+      "desc": "Admins can view compliance status and manage enforcement directly from the policy interface."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin permissions are required to schedule or cancel deferred enforcement."
+  ],
+  "use_cases": [
+    "Scheduling compliance updates during off-peak hours to minimize disruption.",
+    "Ensuring compliance for compute resources used in critical business applications.",
+    "Managing policy updates without interrupting ongoing data processing tasks."
+  ],
+  "limitations": [
+    "Deferred enforcement is only applicable to all-purpose compute resources; jobs compute is enforced immediately."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Workspace Admin Interface",
+    "Compute Policies",
+    "Policy Compliance Enforcement",
+    "All-Purpose Compute Resources"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Policies",
+      "desc": "Navigate to the Policies tab under the Compute section in the Databricks workspace."
+    },
+    {
+      "title": "Select Policy",
+      "desc": "Choose the policy you wish to enforce compliance for."
+    },
+    {
+      "title": "Enforce Compliance",
+      "desc": "Click 'Enforce all' and select 'Enforce on next restart' to schedule the update."
+    },
+    {
+      "title": "Monitor Compliance",
+      "desc": "Check the compliance status of compute resources in the policy overview."
+    },
+    {
+      "title": "Cancel Enforcement if Needed",
+      "desc": "Use the kebab menu to cancel any scheduled enforcement for specific resources."
     }
   ],
-  "key_takeaway": "When you enforce compute policy compliance on out of compliance all purpose compute, you can now schedule the configuration update to apply the next time the compute terminates or restarts, instead…",
+  "key_takeaway": "The ability to schedule deferred policy enforcement enhances operational efficiency by allowing compliance updates without interrupting ongoing workloads.",
   "note_id": "2026-06-10-schedule-deferred-policy-enforcement-for-all-purpose-compute",
   "category": "platform"
 }

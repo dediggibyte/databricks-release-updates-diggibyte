@@ -1,45 +1,69 @@
 {
-  "product": "Managed Iceberg materialized views are in Public Preview",
-  "tagline": "You can now create a materialized view that is compatible with external Iceberg readers.",
+  "product": "Managed Iceberg Materialized Views",
+  "tagline": "Now in Public Preview for external Iceberg compatibility.",
   "updated": "Jul 7, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/iceberg/#materialized-views",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
-  "what_it_does": "You can now create a materialized view that is compatible with external Iceberg readers. This feature is in Public Preview. To enable it, reach out to your Databricks account team.",
-  "why_it_matters": "Liquid clustering improves query performance.",
+  "what_it_does": "Databricks now supports the creation of materialized views that are compatible with external Iceberg readers, allowing users to leverage Iceberg's capabilities for analytics workloads. This feature enables users to create materialized views using the `USING ICEBERG` syntax, which can be read by external systems but not written to. The materialized views are managed by Unity Catalog, ensuring lifecycle management and integration with other Databricks features.",
+  "why_it_matters": "This update enhances interoperability with external systems, allowing organizations to utilize Iceberg's advanced features while maintaining data integrity and performance. It benefits data engineers and analysts by providing a seamless way to access and analyze data across different platforms, ultimately improving productivity and decision-making processes.",
   "capabilities": [
     {
-      "title": "Partition evolution is supported on",
-      "desc": "Partition evolution is supported on managed Iceberg tables only when interacting from external Iceberg engines."
+      "title": "External Compatibility",
+      "desc": "Materialized views can be read by external Iceberg readers, enhancing data accessibility."
     },
     {
-      "title": "Foreign Iceberg tables don't support",
-      "desc": "Foreign Iceberg tables don't support partition evolution."
+      "title": "Unity Catalog Management",
+      "desc": "Lifecycle tasks for materialized views are managed by Unity Catalog, ensuring efficient data governance."
     },
     {
-      "title": "Partitioning by BINARY type isn't",
-      "desc": "Partitioning by BINARY type isn't supported. Views aren't accessible from external Iceberg engines."
+      "title": "Incremental Refresh Support",
+      "desc": "Materialized views support incremental refresh, keeping results up to date as source data changes."
     },
     {
-      "title": "Fixed(L)",
-      "desc": "Fixed(L)"
+      "title": "SQL Syntax Integration",
+      "desc": "Users can create materialized views using standard SQL syntax with `USING ICEBERG`."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Workspace with Unity Catalog enabled.",
+    "Databricks Runtime 16.4 LTS or above."
+  ],
+  "use_cases": [
+    "Data analysis using external Iceberg engines.",
+    "Integration of Iceberg materialized views in multi-platform data workflows.",
+    "Real-time analytics with up-to-date materialized views."
+  ],
+  "limitations": [
+    "External Iceberg readers can only read materialized views; they cannot write to them.",
+    "Materialized views are subject to the limitations of managed Iceberg tables."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "Managed Iceberg Tables",
+    "Materialized Views",
+    "External Iceberg Readers"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Feature",
+      "desc": "Contact your Databricks account team to enable managed Iceberg materialized views."
+    },
+    {
+      "title": "Create Materialized View",
+      "desc": "Use the `CREATE MATERIALIZED VIEW <mv_name> USING ICEBERG AS SELECT ...` syntax."
+    },
+    {
+      "title": "Repair Table",
+      "desc": "Run `REPAIR TABLE <mv_name> SYNC METADATA` after creation."
+    },
+    {
+      "title": "Access from External Readers",
+      "desc": "Configure external systems to read the materialized view using the Iceberg REST Catalog API."
     }
   ],
-  "key_takeaway": "You can now create a materialized view that is compatible with external Iceberg readers.",
+  "key_takeaway": "Managed Iceberg materialized views in Public Preview enhance data accessibility and interoperability with external systems.",
   "note_id": "2026-07-07-managed-iceberg-materialized-views-are-in-public-preview",
   "category": "platform"
 }

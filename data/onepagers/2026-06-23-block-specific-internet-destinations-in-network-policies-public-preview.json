@@ -1,37 +1,74 @@
 {
-  "product": "Block specific internet destinations in network policies (Public Preview)",
-  "tagline": "You can now block internet destinations from serverless workloads through the network policies REST API.",
+  "product": "Block Specific Internet Destinations",
+  "tagline": "Enhance security by blocking unwanted internet access from serverless workloads.",
   "updated": "Jun 23, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies#block",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#block-specific-internet-destinations-in-network-policies-public-preview",
-  "what_it_does": "You can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. This page explains how to configure and manage network policies to control outbound network connections from your serverless workloads in Databricks.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "This feature allows users to block specific internet destinations from serverless workloads via the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode, providing a lightweight alternative to restricted access mode for blocking known-bad domains. The API requires an account admin OAuth token for configuration, and blocked destinations take precedence over allowed destinations.",
+  "why_it_matters": "By enabling the blocking of specific internet destinations, organizations can enhance their security posture, reducing the risk of exposure to malicious domains. This feature is particularly beneficial for compliance and governance, allowing data and platform leaders to enforce stricter network controls without overhauling existing policies. It supports better risk management and can lead to improved operational efficiency.",
   "capabilities": [
     {
-      "title": "If your notebook does not",
-      "desc": "If your notebook does not interact with Spark, you can terminate then reattach serverless compute to refresh the network policy."
+      "title": "Block Internet Destinations",
+      "desc": "Users can specify fully qualified domain names (FQDNs) to block, enhancing security against known threats."
     },
     {
-      "title": "If your notebook interacts with",
-      "desc": "If your notebook interacts with Spark, your serverless resource refreshes and automatically detects the change. Most changes…"
+      "title": "API Management",
+      "desc": "Configuration is done through a REST API, requiring OAuth tokens for secure access."
+    },
+    {
+      "title": "Policy Enforcement",
+      "desc": "Blocked destinations are enforced regardless of the overall network access mode, ensuring consistent security."
+    },
+    {
+      "title": "Logging Denials",
+      "desc": "Denials of access to blocked destinations are logged for auditing and compliance purposes."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Databricks workspace must be on the Enterprise tier.",
+    "Permissions for managing network policies are restricted to account admins."
+  ],
+  "use_cases": [
+    "Blocking access to known malicious domains.",
+    "Enforcing compliance with corporate security policies.",
+    "Preventing data exfiltration through unwanted internet access."
+  ],
+  "limitations": [
+    "IP ranges and storage destinations cannot be blocked.",
+    "The maximum number of supported blocked destinations is not specified.",
+    "Blocked destinations cannot be subdomains of allowed destinations."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Workspace",
+    "Network Policies",
+    "Serverless Workloads",
+    "API Management"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Retrieve Network Policy",
+      "desc": "Use the GET request to retrieve your current network policy."
+    },
+    {
+      "title": "Edit Policy JSON",
+      "desc": "Add blocked internet destinations to the retrieved policy JSON."
+    },
+    {
+      "title": "Submit Updated Policy",
+      "desc": "Use a PUT request to submit the updated network policy."
+    },
+    {
+      "title": "Verify Policy Enforcement",
+      "desc": "Test access to blocked domains to ensure enforcement is active."
+    },
+    {
+      "title": "Monitor Denial Logs",
+      "desc": "Check the system.access.outbound_network table for logged denials."
     }
   ],
-  "key_takeaway": "You can now block internet destinations from serverless workloads through the network policies REST API.",
+  "key_takeaway": "The ability to block specific internet destinations enhances security for serverless workloads, allowing for more granular control over outbound network access.",
   "note_id": "2026-06-23-block-specific-internet-destinations-in-network-policies-public-preview",
   "category": "platform"
 }

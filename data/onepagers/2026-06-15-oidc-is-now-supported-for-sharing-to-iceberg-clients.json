@@ -1,45 +1,72 @@
 {
-  "product": "OIDC is now supported for sharing to Iceberg clients",
-  "tagline": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "product": "OIDC Support for Iceberg Clients",
+  "tagline": "Enhancing secure data sharing with OpenID Connect federation.",
   "updated": "Jun 15, 2026",
-  "status_label": "Update",
-  "status": "changed",
+  "status_label": "GA",
+  "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
-  "what_it_does": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient. This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
-  "why_it_matters": "This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
+  "what_it_does": "Databricks now supports OpenID Connect (OIDC) federation for sharing data with Iceberg clients, allowing them to read OpenSharing shares securely. This mechanism uses JSON Web Tokens (JWTs) issued by the recipient's identity provider (IdP) for authentication, enabling fine-grained access control and support for Multi-Factor Authentication (MFA). The OIDC federation allows data providers to manage access without needing to issue long-lived bearer tokens, thus enhancing security and compliance.",
+  "why_it_matters": "This update significantly improves the security and flexibility of data sharing across platforms, particularly for organizations using Iceberg clients like Snowflake or OSS Spark. By leveraging OIDC, businesses can enforce stricter access controls and reduce the risk associated with credential management, ultimately leading to enhanced data governance and compliance. It also streamlines the process for data providers, allowing them to share data securely with external partners or internal departments without compromising security.",
   "capabilities": [
     {
-      "title": "This is useful for sharing",
-      "desc": "This is useful for sharing data within large organizations where different departments do not have direct Databricks access but…"
+      "title": "OIDC Federation Support",
+      "desc": "Enables authentication using JWTs from the recipient's IdP for secure data access."
     },
     {
-      "title": "This approach allows the provider",
-      "desc": "This approach allows the provider to manage access on behalf of the recipient."
+      "title": "Fine-Grained Access Control",
+      "desc": "Allows data providers to define precise access policies based on user roles and identities."
     },
     {
-      "title": "Security policies, such as MFA",
-      "desc": "Security policies, such as MFA and role-based access control, are enforced by the provider's IdP. External Identity Provider…"
+      "title": "Multi-Factor Authentication",
+      "desc": "Supports MFA through the recipient's IdP, enhancing security during data access."
     },
     {
-      "title": "The provider sets up the",
-      "desc": "The provider sets up the sharing policy to trust the recipient's IdP."
+      "title": "User-to-Machine and Machine-to-Machine Authentication",
+      "desc": "Facilitates both U2M and M2M authentication flows for diverse data-sharing scenarios."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
+  "prerequisites": [
+    "CREATE RECIPIENT privilege for the Unity Catalog metastore.",
+    "Recipient must be created in a Databricks workspace with the Unity Catalog attached.",
+    "Databricks Runtime 11.3 LTS or above is required for creating recipients via notebooks."
+  ],
+  "use_cases": [
+    "Sharing data with external partners using Iceberg clients.",
+    "Internal data sharing within large organizations using a common IdP.",
+    "Automated data access for background services via M2M authentication.",
+    "User access to shared data through BI tools like Power BI or Tableau."
+  ],
   "limitations": [],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Provider",
+    "OIDC Identity Provider",
+    "OpenSharing Service",
+    "Iceberg Client"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Create Open OIDC Federation Recipient",
+      "desc": "In Databricks, navigate to Catalog and create a new recipient with OIDC Federation as the authentication method."
+    },
+    {
+      "title": "Configure OIDC Federation Policy",
+      "desc": "Add a policy specifying the issuer URL and claims for the recipient's IdP."
+    },
+    {
+      "title": "Grant Access to Shares",
+      "desc": "Use Catalog Explorer or SQL commands to grant the recipient access to the desired data shares."
+    },
+    {
+      "title": "Validate JWT Tokens",
+      "desc": "Ensure that the JWT tokens are validated against the recipient's configured federation policy."
+    },
+    {
+      "title": "Monitor Access and Security",
+      "desc": "Regularly review access logs and security policies to maintain compliance."
     }
   ],
-  "key_takeaway": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "key_takeaway": "The introduction of OIDC support for Iceberg clients enhances secure data sharing capabilities, allowing organizations to leverage existing identity management systems for improved governance.",
   "note_id": "2026-06-15-oidc-is-now-supported-for-sharing-to-iceberg-clients",
   "category": "platform"
 }

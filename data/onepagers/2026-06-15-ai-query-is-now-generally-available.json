@@ -1,31 +1,76 @@
 {
-  "product": "ai_query is now generally available",
-  "tagline": "The ai query function is now generally available.",
+  "product": "ai_query",
+  "tagline": "General-purpose AI function for querying models.",
   "updated": "Jun 15, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-query",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_query-is-now-generally-available",
-  "what_it_does": "The ai query function is now generally available. This general purpose AI Function lets you query any supported AI model directly from SQL or Python. ai query is a general purpose AI Function that lets you query any supported AI model directly from SQL or Python.",
-  "why_it_matters": "These endpoints are fully managed and scale automatically without provisioning or configuration.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [
-    "Handle errors using failOnError",
-    "Structured outputs on Databricks for how to specify structured output for your query responses."
+  "what_it_does": "`ai_query` is a versatile AI function that allows users to query any supported AI model directly from SQL or Python. It provides full control over the model, prompt, and parameters, distinguishing it from task-specific AI functions. This function is designed for use with Databricks-hosted models, provisioned throughput models, and custom or external models, enabling flexible querying for various use cases.",
+  "why_it_matters": "The availability of `ai_query` empowers data teams to leverage AI models more effectively, enhancing productivity and flexibility in data processing tasks. By allowing precise control over model parameters and prompts, organizations can optimize their AI workflows for better performance and tailored outputs, ultimately driving more insightful data-driven decisions.",
+  "capabilities": [
+    {
+      "title": "Flexible Model Querying",
+      "desc": "Query any supported AI model with customizable prompts and parameters."
+    },
+    {
+      "title": "Batch Inference Support",
+      "desc": "Optimized for high-throughput batch workloads, enhancing processing efficiency."
+    },
+    {
+      "title": "Integration with Unity AI Gateway",
+      "desc": "Automatically routes requests through Unity AI Gateway for usage tracking."
+    },
+    {
+      "title": "Support for Custom Models",
+      "desc": "Allows querying of custom and external models for tailored AI solutions."
+    }
   ],
-  "limitations": [],
+  "prerequisites": [
+    "Databricks Runtime 18.2 or above is required.",
+    "Serverless compute is required; not supported on classic compute clusters.",
+    "Not available on Pro or Classic SQL warehouses."
+  ],
+  "use_cases": [
+    "Control over model parameters for specific outputs.",
+    "Querying custom or fine-tuned models.",
+    "High-throughput batch processing for large datasets.",
+    "Automated data extraction from unstructured data."
+  ],
+  "limitations": [
+    "Not supported on classic compute clusters.",
+    "Requires Databricks Runtime 18.2 or higher."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Data Ingestion",
+    "Data Processing",
+    "AI Query Execution",
+    "Model Serving",
+    "Output Generation"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Serverless Compute",
+      "desc": "Ensure your Databricks workspace is configured for serverless compute."
+    },
+    {
+      "title": "Check Runtime Version",
+      "desc": "Verify that your Databricks Runtime is version 18.2 or above."
+    },
+    {
+      "title": "Select Supported Models",
+      "desc": "Choose from Databricks-hosted or provisioned throughput models for optimal performance."
+    },
+    {
+      "title": "Use SQL or Python",
+      "desc": "Implement `ai_query` in your SQL queries or Python scripts as needed."
+    },
+    {
+      "title": "Monitor Usage",
+      "desc": "Utilize Unity AI Gateway for tracking and optimizing your AI queries."
     }
   ],
-  "key_takeaway": "The ai query function is now generally available.",
+  "key_takeaway": "`ai_query` is now generally available, enabling flexible and powerful querying of AI models directly from SQL or Python, enhancing data processing capabilities.",
   "note_id": "2026-06-15-ai-query-is-now-generally-available",
   "category": "platform"
 }

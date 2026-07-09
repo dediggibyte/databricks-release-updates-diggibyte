@@ -1,37 +1,73 @@
 {
-  "product": "Data Classification is now available by default for some workspaces with the…",
-  "tagline": "Data Classification is now available by default for workspaces with the compliance security profile enabled, and either HIPAA, HITRUST, PCI DSS, or FedRAMP Moderate controls or no specific…",
+  "product": "Data Classification",
+  "tagline": "Now available by default for compliance-focused workspaces.",
   "updated": "Jun 23, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#data-classification-is-now-available-by-default-for-some-workspaces-with-the-compliance-security-profile-enabled",
-  "what_it_does": "Data Classification is now available by default for workspaces with the compliance security profile enabled, and either HIPAA, HITRUST, PCI DSS, or FedRAMP Moderate controls or no specific compliance standard selected. This page describes the compliance security profile, its compliance controls, and supported features. To enable the compliance security profile, see Configure enhanced security and compliance settings.",
-  "why_it_matters": "| Feature | Status | Compute | Notes | | | | | | | Custom Agents: On behalf of user authorization | Public Preview | Standard and serverless | HIPAA only | | Agent Mode in Genie Agents | Public Preview | Standard and serverless | HIPAA only | | AI Runtime | Public Preview | Serverless only | | | ai\\ forecast() | Public Preview | Standard and serverless | HIPAA only | | Anomaly detection | Public Preview | Serverless only | | | Custom classifiers | Beta | Serverless only | | | Dashboards in Git folder | Public Preview | Standard and serverless | | | Data governance hub | Private Preview | Standard and serverless | | | Databricks Add in for Excel | Public Preview | Standard and serverless | | | Databricks managed MCP servers | Public Preview | Serverless only | | | Exclusive access | Private Preview | Standard and serverless | | | External MCP servers | Public Preview | Serverless only | | | Genie app for Slack | Public Preview | Standard and serverless | | | Genie app in Microsoft Teams | Beta | Standard and serverless | | | Google Drive connector (standard) | Beta | Standard and serverless | | | High memory for serverless compute notebook tasks | Public Preview | Serverless only | | | Lakeflow Connect SQL Server | Public Preview | Standard and serverless | | | Private connectivity to AWS S3 | Public Preview | Serverless only | | | Read Excel files | Beta | Standard and serverless | | | Secret paths in environment variables | Public Preview | Standard and serverless | | | Serverless forecasting | Public Preview | Serverless only | | | Serverless forecasting Python SDK | Private Preview | Serverless only | | | SharePoint connector (managed) | Beta | Standard and serverless | | | SharePoint connector (standard) | Beta | Standard and serverless | | | System tables that are in Public Preview | Public Preview | Standard and serverless | | | Unity Catalog access requests | Public Preview | Standard and serverless | | | User authorization for Databricks Apps | Public Preview | Standard and serverless | | | User defined functions in Unity Catalog | Public Preview | Standard and serverless | | | Workspace level SCIM provisioning | Public Preview | Standard and serverless | Legacy feature.",
+  "what_it_does": "Data Classification is now automatically enabled for Databricks workspaces that have the compliance security profile activated, specifically for those adhering to HIPAA, HITRUST, PCI-DSS, or FedRAMP Moderate standards, or for those without a specific compliance standard. This feature enhances data governance by allowing users to classify sensitive data effectively, ensuring compliance with regulatory requirements. The compliance security profile also includes additional monitoring and security controls to protect regulated data.",
+  "why_it_matters": "This update significantly enhances data governance capabilities for organizations that must comply with stringent regulatory standards, thereby reducing the risk of non-compliance and potential penalties. By automating data classification, businesses can improve their operational efficiency and focus on core activities rather than manual compliance checks, ultimately leading to better data management and security.",
   "capabilities": [
     {
-      "title": "A CIS Level 1 hardened",
-      "desc": "A CIS Level 1 hardened image"
+      "title": "Automatic Data Classification",
+      "desc": "Data Classification is enabled by default for compliance security profile workspaces."
     },
     {
-      "title": "FIPS 140 validated encryption modules",
-      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+      "title": "Enhanced Security Monitoring",
+      "desc": "Includes monitoring agents that generate reviewable logs for compliance tracking."
+    },
+    {
+      "title": "Hardened Compute Environment",
+      "desc": "Utilizes a CIS Level 1 hardened image and FIPS 140 validated encryption modules."
+    },
+    {
+      "title": "Compliance Support",
+      "desc": "Supports various compliance standards including HIPAA, PCI-DSS, and FedRAMP."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Compliance security profile must be enabled.",
+    "Workspace must be configured for HIPAA, HITRUST, PCI-DSS, or FedRAMP Moderate standards."
+  ],
+  "use_cases": [
+    "Organizations processing PHI data under HIPAA.",
+    "Businesses needing to comply with PCI-DSS regulations.",
+    "Companies managing sensitive data under FedRAMP standards."
+  ],
+  "limitations": [
+    "Certain features may not be available on AWS GovCloud.",
+    "Account-level Genie One does not aggregate data from compliance-enabled workspaces."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Databricks Workspace",
+    "Compliance Security Profile",
+    "Data Classification",
+    "Enhanced Security Monitoring"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Enable Compliance Profile",
+      "desc": "Configure the compliance security profile in your Databricks workspace."
+    },
+    {
+      "title": "Select Compliance Standard",
+      "desc": "Choose the appropriate compliance standard (e.g., HIPAA, PCI-DSS)."
+    },
+    {
+      "title": "Review Security Features",
+      "desc": "Understand the enhanced security features provided by the compliance profile."
+    },
+    {
+      "title": "Monitor Data Classification",
+      "desc": "Utilize the automatic data classification feature to manage sensitive data."
+    },
+    {
+      "title": "Ensure Compliance",
+      "desc": "Regularly verify compliance with applicable laws and regulations."
     }
   ],
-  "key_takeaway": "Data Classification is now available by default for workspaces with the compliance security profile enabled, and either HIPAA, HITRUST, PCI DSS, or FedRAMP Moderate controls or no specific…",
+  "key_takeaway": "Data Classification is now automatically available for compliance-focused workspaces, enhancing data governance and regulatory compliance.",
   "note_id": "2026-06-23-15bf481a",
   "category": "platform"
 }

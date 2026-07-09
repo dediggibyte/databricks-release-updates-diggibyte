@@ -1,28 +1,73 @@
 {
-  "product": "ABAC GRANT policies for models (Beta)",
-  "tagline": "ABAC GRANT policies are now in Beta.",
+  "product": "ABAC GRANT Policies for Models",
+  "tagline": "Dynamic access control for ML models in Unity Catalog.",
   "updated": "Jun 11, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/grant-policies",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#abac-grant-policies-for-models-beta",
-  "what_it_does": "ABAC GRANT policies are now in Beta. GRANT policies extend attribute based access control to dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. In Beta, a GRANT policy can grant the EXECUTE privilege on models, attached at the catalog or schema level.",
-  "why_it_matters": "GRANT policies extend attribute based access control to dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually.",
-  "capabilities": [],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "what_it_does": "ABAC GRANT policies enable dynamic granting of Unity Catalog privileges based on the governed tags of securable objects, specifically allowing the `EXECUTE` privilege on models at the catalog or schema level. This feature supports both customer-registered MLflow models and Databricks-hosted foundation models. The policies evaluate conditions against tags each time access is checked, streamlining access management for models.",
+  "why_it_matters": "This update enhances data governance by simplifying access control for machine learning models, reducing administrative overhead and potential errors associated with direct grants. Organizations can ensure that only authorized users can execute models based on dynamic conditions, improving security and compliance while fostering collaboration among data scientists and analysts.",
+  "capabilities": [
+    {
+      "title": "Dynamic Privilege Granting",
+      "desc": "GRANT policies dynamically assign privileges based on matching governed tags."
+    },
+    {
+      "title": "Support for Multiple Model Types",
+      "desc": "Policies apply to both customer-registered MLflow models and Databricks-hosted foundation models."
+    },
+    {
+      "title": "Catalog and Schema Level Attachment",
+      "desc": "GRANT policies can be attached at the catalog or schema level, simplifying management."
+    },
+    {
+      "title": "Inline Condition Expressions",
+      "desc": "Conditions for granting access can be expressed inline without the need for user-defined functions."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 18.3 or above is required for creating GRANT policies with SQL.",
+    "Users must have MANAGE permissions on the catalog or schema where the policy is attached."
+  ],
+  "use_cases": [
+    "Granting access to ML models based on their lifecycle stage (e.g., production, development).",
+    "Automatically managing access to new foundation models as they are added to the system.",
+    "Simplifying access control for teams by reducing the need for multiple direct GRANT statements."
+  ],
+  "limitations": [
+    "Currently, only the EXECUTE privilege on models is supported in Beta.",
+    "GRANT policies can only be attached at the catalog or schema level, not at the individual model level."
+  ],
   "architecture": [
-    "Databricks Platform",
-    "Platform"
+    "Unity Catalog",
+    "ABAC Framework",
+    "GRANT Policies",
+    "Securable Objects"
   ],
   "steps": [
     {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
+      "title": "Access Catalog Explorer",
+      "desc": "Navigate to the Catalog section in your Databricks workspace."
+    },
+    {
+      "title": "Select Catalog or Schema",
+      "desc": "Choose the catalog or schema where you want to attach the GRANT policy."
+    },
+    {
+      "title": "Create New Policy",
+      "desc": "Click on the Policies tab and select New policy."
+    },
+    {
+      "title": "Define Policy Conditions",
+      "desc": "Specify the principals, scope, and conditions for the policy."
+    },
+    {
+      "title": "Review and Create",
+      "desc": "Review the SQL statement generated and click Create policy."
     }
   ],
-  "key_takeaway": "ABAC GRANT policies are now in Beta.",
+  "key_takeaway": "ABAC GRANT policies streamline access control for machine learning models, enhancing security and governance in Databricks.",
   "note_id": "2026-06-11-abac-grant-policies-for-models-beta",
   "category": "platform"
 }
