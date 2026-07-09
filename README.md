@@ -1,9 +1,9 @@
 # Databricks Updates Agent
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![Pipeline](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml)
-[![Email digest](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml)
-[![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)](https://dediggibyte.github.io/databricks-updates-agent/)
+[![Pipeline](https://github.com/dediggibyte/databricks-release-updates-diggibyte/actions/workflows/weekly.yml/badge.svg)](https://github.com/dediggibyte/databricks-release-updates-diggibyte/actions/workflows/weekly.yml)
+[![Email digest](https://github.com/dediggibyte/databricks-release-updates-diggibyte/actions/workflows/notify.yml/badge.svg)](https://github.com/dediggibyte/databricks-release-updates-diggibyte/actions/workflows/notify.yml)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)](https://dediggibyte.github.io/databricks-release-updates-diggibyte/)
 
 **Automatically turns Databricks release notes into executive one-pagers — technical and business — published to GitHub Pages and emailed to the team weekly.**
 
@@ -13,7 +13,7 @@ The pipeline runs **every day** (and redeploys on every merge to `main`), can
 **backfill any past release notes** on demand, and mails a **weekly digest**
 every Tuesday with links to the published gallery — never more often.
 
-![One-pager + gallery](docs/preview.png)
+![Gallery + one-pager](docs/preview.png)
 
 ---
 
@@ -32,8 +32,8 @@ every Tuesday with links to the published gallery — never more often.
 ## Quick Start
 
 ```bash
-git clone https://github.com/dediggibyte/databricks-updates-agent.git
-cd databricks-updates-agent
+git clone https://github.com/dediggibyte/databricks-release-updates-diggibyte.git
+cd databricks-release-updates-diggibyte
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
 python -m playwright install chromium          # only needed for live fetch
