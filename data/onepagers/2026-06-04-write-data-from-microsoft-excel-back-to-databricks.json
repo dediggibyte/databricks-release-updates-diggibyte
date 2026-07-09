@@ -1,0 +1,33 @@
+{
+  "product": "Write data from Microsoft Excel back to Databricks ​",
+  "tagline": "June 4, 2026 Use the Databricks Excel Add in to write data from Microsoft Excel back to a Unity Catalog table.",
+  "updated": "Jun 4, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#write-data-from-microsoft-excel-back-to-databricks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#write-data-from-microsoft-excel-back-to-databricks",
+  "what_it_does": "June 4, 2026 Use the Databricks Excel Add in to write data from Microsoft Excel back to a Unity Catalog table. Create a new table or overwrite an existing table in Databricks without leaving Excel.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 4, 2026 Use",
+      "desc": "June 4, 2026 Use the Databricks Excel Add in to write data from Microsoft Excel back to a Unity Catalog table."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 4, 2026 Use the Databricks Excel Add in to write data from Microsoft Excel back to a Unity Catalog table.",
+  "note_id": "2026-06-04-write-data-from-microsoft-excel-back-to-databricks",
+  "category": "platform"
+}

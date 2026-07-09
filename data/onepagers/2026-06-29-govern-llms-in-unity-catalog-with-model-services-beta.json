@@ -1,0 +1,33 @@
+{
+  "product": "Govern LLMs in Unity Catalog with model services (Beta) ​",
+  "tagline": "June 29, 2026 You can now govern Databricks hosted LLMs in Unity Catalog using model services , currently in Beta.",
+  "updated": "Jun 29, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#govern-llms-in-unity-catalog-with-model-services-beta",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#govern-llms-in-unity-catalog-with-model-services-beta",
+  "what_it_does": "June 29, 2026 You can now govern Databricks hosted LLMs in Unity Catalog using model services , currently in Beta. A model service is a Unity Catalog securable that represents a governed LLM endpoint, so you can define an endpoint once and share it across workspaces using Unity Catalog privileges, instead of duplicating endpoints per workspace.",
+  "why_it_matters": "June 29, 2026 You can now govern Databricks hosted LLMs in Unity Catalog using model services , currently in Beta.",
+  "capabilities": [
+    {
+      "title": "June 29, 2026 You",
+      "desc": "June 29, 2026 You can now govern Databricks hosted LLMs in Unity Catalog using model services , currently in Beta."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 29, 2026 You can now govern Databricks hosted LLMs in Unity Catalog using model services , currently in Beta.",
+  "note_id": "2026-06-29-govern-llms-in-unity-catalog-with-model-services-beta",
+  "category": "platform"
+}

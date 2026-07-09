@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-02-managed-rabbitmq-connector-beta",
+  "title": "Managed RabbitMQ connector (Beta) ​",
+  "date": "2026-06-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-rabbitmq-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 2, 2026**\n\nThe managed RabbitMQ connector in Lakeflow Connect is now available in Beta. The connector allows you to stream messages from RabbitMQ classic queues into streaming tables in Unity Catalog. See [RabbitMQ connector](/aws/en/ingestion/lakeflow-connect/rabbitmq).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.523159Z"
+}

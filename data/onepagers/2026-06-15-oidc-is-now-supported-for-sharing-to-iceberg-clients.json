@@ -1,0 +1,33 @@
+{
+  "product": "OIDC is now supported for sharing to Iceberg clients ​",
+  "tagline": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "updated": "Jun 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
+  "what_it_does": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see [Read data shared using Open ID Connect (OIDC) federation from an Iceberg client](/aws/en/opensharing/sharing over oidc iceberg) and [Share with Iceberg recipient](/aws/en/opensharing/create recipient oidc fed share to iceberg).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 15, 2026 You",
+      "desc": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured w"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "note_id": "2026-06-15-oidc-is-now-supported-for-sharing-to-iceberg-clients",
+  "category": "platform"
+}

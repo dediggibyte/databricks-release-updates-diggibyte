@@ -1,0 +1,33 @@
+{
+  "product": "ai_classify is now generally available ​",
+  "tagline": "June 11, 2026 The ai classify function is now generally available.",
+  "updated": "Jun 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
+  "what_it_does": "June 11, 2026 The ai classify function is now generally available. This function classifies text content according to custom labels you provide, with support for label descriptions, global instructions, and multi label classification.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 11, 2026 The",
+      "desc": "June 11, 2026 The ai classify function is now generally available."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 11, 2026 The ai classify function is now generally available.",
+  "note_id": "2026-06-11-ai-classify-is-now-generally-available",
+  "category": "platform"
+}

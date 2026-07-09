@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-22-legacy-compute-preview-system-schema-deprecated",
+  "title": "Legacy compute_preview system schema deprecated ​",
+  "date": "2026-06-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#legacy-compute_preview-system-schema-deprecated",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 22, 2026**\n\nThe legacy `compute_preview` system schema is deprecated and will be removed from the `system` catalog. Use the `system.compute` schema instead. For a list of current system schemas and tables, see [System tables reference](/aws/en/admin/system-tables/).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.447939Z"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "Enable access requests across your Unity Catalog metastore (Public Preview) ​",
+  "tagline": "June 22, 2026 You can now enable access requests at the Unity Catalog metastore level.",
+  "updated": "Jun 22, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#enable-access-requests-across-your-unity-catalog-metastore-public-preview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#enable-access-requests-across-your-unity-catalog-metastore-public-preview",
+  "what_it_does": "June 22, 2026 You can now enable access requests at the Unity Catalog metastore level. This feature also lets you set a metastore level destination that's inherited by all catalogs, schemas, and other objects without their own destination.",
+  "why_it_matters": "See [Manage access requests](/aws/en/data governance/unity catalog/manage privileges/access request destinations).",
+  "capabilities": [
+    {
+      "title": "June 22, 2026 You",
+      "desc": "June 22, 2026 You can now enable access requests at the Unity Catalog metastore level."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 22, 2026 You can now enable access requests at the Unity Catalog metastore level.",
+  "note_id": "2026-06-22-enable-access-requests-across-your-unity-catalog-metastore-public-preview",
+  "category": "platform"
+}

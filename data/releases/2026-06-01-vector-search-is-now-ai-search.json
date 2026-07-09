@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-01-vector-search-is-now-ai-search",
+  "title": "Vector Search is now AI Search ​",
+  "date": "2026-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#vector-search-is-now-ai-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 1, 2026**\n\nVector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. See [Databricks AI Search](/aws/en/ai-search/ai-search).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.543849Z"
+}

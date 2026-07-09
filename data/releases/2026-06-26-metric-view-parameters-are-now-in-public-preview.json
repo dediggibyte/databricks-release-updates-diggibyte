@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-26-metric-view-parameters-are-now-in-public-preview",
+  "title": "Metric view parameters are now in Public Preview ​",
+  "date": "2026-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#metric-view-parameters-are-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 26, 2026**\n\nYou can now define parameters in metric views to bind values at query time, serving many query variants from a single definition instead of maintaining a separate metric view per variant. See [Use parameters with metric views](/aws/en/business-semantics/metric-views/use-parameters).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.431536Z"
+}

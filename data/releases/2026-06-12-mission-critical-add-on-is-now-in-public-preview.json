@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-12-mission-critical-add-on-is-now-in-public-preview",
+  "title": "Mission Critical add-on is now in Public Preview ​",
+  "date": "2026-06-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#mission-critical-add-on-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 12, 2026**\n\nThe [Mission Critical workspace add-on](/aws/en/admin/mission-critical) is now in Public Preview. The add-on unlocks managed disaster recovery and the existing Enhanced Security and Compliance (ESC) capabilities for a single compute rate, and is enabled per workspace from the new **Add-ons** tab in the account console.\n\nAccess to the Mission Critical add-on is gated. Contact your Databricks account team to enable the add-on on your account.",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.477086Z"
+}

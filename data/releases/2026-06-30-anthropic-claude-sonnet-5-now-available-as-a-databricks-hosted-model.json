@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-30-anthropic-claude-sonnet-5-now-available-as-a-databricks-hosted-model",
+  "title": "Anthropic Claude Sonnet 5 now available as a Databricks-hosted model ​",
+  "date": "2026-06-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#anthropic-claude-sonnet-5-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 30, 2026**\n\nModel Serving now supports Anthropic [Claude Sonnet 5](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-5) as a Databricks-hosted model. Designed for coding, agentic workflows, and professional work at scale, Claude Sonnet 5 delivers near-Opus-level intelligence with Sonnet's cost efficiency and speed. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis/).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.413785Z"
+}

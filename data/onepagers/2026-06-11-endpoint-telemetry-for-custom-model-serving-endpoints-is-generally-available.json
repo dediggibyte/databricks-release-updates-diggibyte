@@ -1,0 +1,33 @@
+{
+  "product": "Endpoint telemetry for custom model serving endpoints is generally available ​",
+  "tagline": "June 11, 2026 Endpoint telemetry for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) is now [generally available](/aws/en/release notes/release types).",
+  "updated": "Jun 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
+  "what_it_does": "June 11, 2026 Endpoint telemetry for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) is now [generally available](/aws/en/release notes/release types). Configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your endpoints to Unity Catalog tables.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 11, 2026 Endpoint",
+      "desc": "June 11, 2026 Endpoint telemetry for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) is now"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 11, 2026 Endpoint telemetry for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) is now [generally available](/aws/en/release notes/release types).",
+  "note_id": "2026-06-11-endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
+  "category": "platform"
+}

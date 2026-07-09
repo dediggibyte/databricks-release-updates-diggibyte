@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-08-aha-connector-beta",
+  "title": "Aha! connector (Beta) ​",
+  "date": "2026-06-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#aha-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 8, 2026**\n\nLakeflow Connect now supports a managed connector for ingestion from Aha!. See [Aha! connector](/aws/en/ingestion/lakeflow-connect/aha).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.507286Z"
+}

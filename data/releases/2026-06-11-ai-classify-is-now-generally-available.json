@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-11-ai-classify-is-now-generally-available",
+  "title": "ai_classify is now generally available ​",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 11, 2026**\n\nThe `ai_classify` function is now generally available. This function classifies text content according to custom labels you provide, with support for label descriptions, global instructions, and multi-label classification. See [`ai_classify` function](/aws/en/sql/language-manual/functions/ai_classify).\n\nFor a no-code UI to build, validate, and iterate on classification agents, see [Classification](/aws/en/agents/agent-bricks/classification).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.488777Z"
+}

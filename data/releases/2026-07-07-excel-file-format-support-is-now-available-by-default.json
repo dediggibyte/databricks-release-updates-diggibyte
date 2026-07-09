@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-07-excel-file-format-support-is-now-available-by-default",
+  "title": "Excel file format support is now available by default ​",
+  "date": "2026-07-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#excel-file-format-support-is-now-available-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 7, 2026**\n\nExcel file format support is now available by default for all workspaces. You can ingest, parse, and query `.xls`, `.xlsx`, and `.xlsm` files directly using built-in support, without external libraries or manual conversions. See [Read and stream Excel files](/aws/en/query/formats/excel).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.424335Z"
+}

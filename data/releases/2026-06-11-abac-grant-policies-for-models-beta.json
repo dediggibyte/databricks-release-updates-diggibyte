@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-11-abac-grant-policies-for-models-beta",
+  "title": "ABAC GRANT policies for models (Beta) ​",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#abac-grant-policies-for-models-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 11, 2026**\n\nABAC GRANT policies are now in Beta. GRANT policies extend [attribute-based access control](/aws/en/data-governance/unity-catalog/abac/) to dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. In Beta, a GRANT policy can grant the `EXECUTE` privilege on models, attached at the catalog or schema level. Both customer-registered MLflow models and Databricks-hosted foundation models in `system.ai` are supported. See [ABAC GRANT policies for models (Beta)](/aws/en/data-governance/unity-catalog/abac/grant-policies).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.485982Z"
+}

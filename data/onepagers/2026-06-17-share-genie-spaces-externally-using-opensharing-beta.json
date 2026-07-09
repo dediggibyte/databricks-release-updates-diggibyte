@@ -1,0 +1,33 @@
+{
+  "product": "Share Genie Spaces externally using OpenSharing (Beta) ​",
+  "tagline": "June 17, 2026 Providers can now share a Genie Space with users outside their organization using OpenSharing.",
+  "updated": "Jun 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-genie-spaces-externally-using-opensharing-beta",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-genie-spaces-externally-using-opensharing-beta",
+  "what_it_does": "June 17, 2026 Providers can now share a Genie Space with users outside their organization using OpenSharing. Databricks creates a point in time snapshot of the space's data assets and instructions.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 17, 2026 Providers",
+      "desc": "June 17, 2026 Providers can now share a Genie Space with users outside their organization using OpenSharing."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 17, 2026 Providers can now share a Genie Space with users outside their organization using OpenSharing.",
+  "note_id": "2026-06-17-share-genie-spaces-externally-using-opensharing-beta",
+  "category": "platform"
+}

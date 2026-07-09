@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-16-improved-workspace-files-read-performance",
+  "title": "Improved workspace files read performance ​",
+  "date": "2026-06-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#improved-workspace-files-read-performance",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 16, 2026**\n\nFor serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefetched in the background. Workloads that read many files, such as `find`, `grep`, Python imports, and Git operations, run much faster. See [What are workspace files?](/aws/en/files/workspace).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.482179Z"
+}

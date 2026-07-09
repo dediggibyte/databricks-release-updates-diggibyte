@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-10-databricks-genie-app-in-microsoft-teams-beta",
+  "title": "Databricks Genie app in Microsoft Teams (Beta) ​",
+  "date": "2026-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-genie-app-in-microsoft-teams-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 10, 2026**\n\nThe Databricks Genie app in Microsoft Teams is now available in Beta. The app brings Genie into Microsoft Teams so users can ask data questions and get answers without leaving Microsoft Teams. Chat with the app in a direct message or mention `@Databricks Genie` in a channel or group chat, and answers route through Genie or a pinned Genie Space. See [Databricks Genie app in Microsoft Teams](/aws/en/integrations/msft-teams).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.492167Z"
+}

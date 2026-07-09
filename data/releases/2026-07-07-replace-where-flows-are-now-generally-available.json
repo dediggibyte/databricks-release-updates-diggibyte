@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-07-replace-where-flows-are-now-generally-available",
+  "title": "REPLACE WHERE flows are now generally available ​",
+  "date": "2026-07-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#replace-where-flows-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 7, 2026**\n\n`REPLACE WHERE` flows for pipelines and standalone streaming tables are now generally available. Use them to replace only rows matching a predicate on each refresh, without reprocessing the full table history. See [Batch processing with REPLACE WHERE flows](/aws/en/ldp/flows-replace-where).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.423219Z"
+}

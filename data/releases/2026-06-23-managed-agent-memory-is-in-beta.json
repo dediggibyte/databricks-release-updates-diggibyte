@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-23-managed-agent-memory-is-in-beta",
+  "title": "Managed agent memory is in Beta ​",
+  "date": "2026-06-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-agent-memory-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 23, 2026**\n\nManaged agent memory gives your AI agents long-term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you. Memory is stored in Unity Catalog memory stores, governed as Unity Catalog securables and accessed through the Unity Catalog REST API. See [Managed agent memory](/aws/en/agents/agent-memory/managed-memory).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.441709Z"
+}

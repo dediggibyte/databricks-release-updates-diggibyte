@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-30-run-a-subset-of-job-tasks-with-their-dependencies",
+  "title": "Run a subset of job tasks with their dependencies ​",
+  "date": "2026-06-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#run-a-subset-of-job-tasks-with-their-dependencies",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 30, 2026**\n\nWhen you run a subset of a job's tasks, you can now expand your selection to include each task's dependencies. Add the `+` modifier to a task key to also run its upstream tasks (`+my_task`), its downstream tasks (`my_task+`), or both (`+my_task+`). Start a partial run from the UI, the REST API, the Databricks CLI, the SDKs, or Declarative Automation Bundles. See [Run a subset of tasks and their dependencies](/aws/en/jobs/run-now#run-task-subset).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.415635Z"
+}

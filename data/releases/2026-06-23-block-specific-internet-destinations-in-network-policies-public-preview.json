@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-23-block-specific-internet-destinations-in-network-policies-public-preview",
+  "title": "Block specific internet destinations in network policies (Public Preview) ​",
+  "date": "2026-06-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#block-specific-internet-destinations-in-network-policies-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 23, 2026**\n\nYou can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. See [Block internet destinations](/aws/en/security/network/serverless-network-security/manage-network-policies#block).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.439335Z"
+}

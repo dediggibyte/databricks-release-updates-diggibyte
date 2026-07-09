@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-20-netskope-logs-managed-ingestion-connector-beta",
+  "title": "Netskope Logs managed ingestion connector (Beta) ​",
+  "date": "2026-06-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#netskope-logs-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 20, 2026**\n\nThe Netskope Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest event and alert logs from Netskope into Databricks. See [Netskope Logs connector](/aws/en/ingestion/lakeflow-connect/netskope-logs).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.449028Z"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "Standard performance mode is now supported for materialized view or streaming ta",
+  "tagline": "July 6, 2026 Materialized view and streaming table refreshes that are orchestrated through a [SQL task](/aws/en/ldp/dbsql/schedule refreshes sql task) in a Lakeflow job now respect the job's Performan",
+  "updated": "Jul 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#standard-performance-mode-is-now-supported-for-materialized-view-or-streaming-table-refreshes-in-jobs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#standard-performance-mode-is-now-supported-for-materialized-view-or-streaming-table-refreshes-in-jobs",
+  "what_it_does": "July 6, 2026 Materialized view and streaming table refreshes that are orchestrated through a [SQL task](/aws/en/ldp/dbsql/schedule refreshes sql task) in a Lakeflow job now respect the job's Performance optimized setting. When the setting is turned off, the refresh uses standard performance mode, which consumes fewer DBUs.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "July 6, 2026 Materialized",
+      "desc": "July 6, 2026 Materialized view and streaming table refreshes that are orchestrated through a [SQL task](/aws/en/ldp/dbsql/schedule"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "July 6, 2026 Materialized view and streaming table refreshes that are orchestrated through a [SQL task](/aws/en/ldp/dbsql/schedule refreshes sql task) in a Lakeflow job now respect the job's Performan",
+  "note_id": "2026-07-06-20466c75",
+  "category": "platform"
+}

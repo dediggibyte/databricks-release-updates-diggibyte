@@ -1,0 +1,33 @@
+{
+  "product": "Managed Iceberg materialized views are in Public Preview ​",
+  "tagline": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.",
+  "updated": "Jul 7, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
+  "what_it_does": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers. This feature is in [Public Preview](/aws/en/release notes/release types).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "July 7, 2026 You",
+      "desc": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.",
+  "note_id": "2026-07-07-managed-iceberg-materialized-views-are-in-public-preview",
+  "category": "platform"
+}

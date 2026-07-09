@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-08-ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
+  "title": "AI Search supports selected text columns, sorting, and aggregations (Beta) ​",
+  "date": "2026-06-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 8, 2026**\n\nAI Search now supports query-time options for full-text and hybrid queries in Beta. You can limit keyword matching to selected text columns, sort results by columns indexed for sorting, and return aggregate counts for values and ranges. For details, see [Search selected text columns, sort results, and return aggregations (Beta)](/aws/en/ai-search/query-ai-search#search-sort-facet-results).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.508113Z"
+}

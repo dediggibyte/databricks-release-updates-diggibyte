@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-18-salesforce-marketing-cloud-managed-ingestion-connector-beta",
+  "title": "Salesforce Marketing Cloud managed ingestion connector (Beta) ​",
+  "date": "2026-06-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#salesforce-marketing-cloud-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 18, 2026**\n\nThe Salesforce Marketing Cloud connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest marketing data, including campaigns, journeys, email engagement events, and data extensions, from Salesforce Marketing Cloud into Databricks. See [Salesforce Marketing Cloud connector](/aws/en/ingestion/lakeflow-connect/sfmc-overview).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.450261Z"
+}

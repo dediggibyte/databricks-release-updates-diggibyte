@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-02-pendo-connector-beta",
+  "title": "Pendo connector (Beta) ​",
+  "date": "2026-06-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#pendo-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 2, 2026**\n\nLakeflow Connect now supports a managed connector for ingestion from Pendo. See [Pendo connector](/aws/en/ingestion/lakeflow-connect/pendo-overview).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.521183Z"
+}

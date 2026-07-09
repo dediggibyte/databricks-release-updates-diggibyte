@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-06-private-link-for-account-level-resources-beta",
+  "title": "Private Link for account-level resources (Beta) ​",
+  "date": "2026-07-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-link-for-account-level-resources-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 6, 2026**\n\nYou can now use Private Link to privately connect to Databricks account-level resources, such as the account console, through a VPC interface endpoint instead of the public internet. See [Configure inbound Private Link for account-level resources](/aws/en/security/network/front-end/front-end-private-connect-account).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.426337Z"
+}

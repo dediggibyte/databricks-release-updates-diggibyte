@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-11-ai-extract-is-now-generally-available",
+  "title": "ai_extract is now generally available ​",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_extract-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 11, 2026**\n\nThe `ai_extract` function is now generally available. This function extracts structured data from text and documents according to a schema you provide, supporting nested objects, arrays, type validation, citations, and confidence scores. See [`ai_extract` function](/aws/en/sql/language-manual/functions/ai_extract).\n\nFor a no-code UI to build, validate, and iterate on extraction agents, see [Information Extraction](/aws/en/agents/agent-bricks/info-extraction).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.487307Z"
+}

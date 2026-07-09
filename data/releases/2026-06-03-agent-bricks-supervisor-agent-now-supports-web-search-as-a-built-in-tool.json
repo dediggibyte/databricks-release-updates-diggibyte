@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-03-agent-bricks-supervisor-agent-now-supports-web-search-as-a-built-in-tool",
+  "title": "Agent Bricks Supervisor Agent now supports web search as a built-in tool ​",
+  "date": "2026-06-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-web-search-as-a-built-in-tool",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 3, 2026**\n\nYou can now enable web search on your Supervisor Agent to answer questions that require current information from the public web. The supervisor returns a synthesized answer with source citations. Web search is also available as a `web_search` tool in the [Supervisor API](/aws/en/agents/agent-bricks/supervisor-api). See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.520369Z"
+}

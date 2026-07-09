@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-10-schedule-deferred-policy-enforcement-for-all-purpose-compute",
+  "title": "Schedule deferred policy enforcement for all-purpose compute ​",
+  "date": "2026-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#schedule-deferred-policy-enforcement-for-all-purpose-compute",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 10, 2026**\n\nWhen you enforce compute policy compliance on out-of-compliance all-purpose compute, you can now schedule the configuration update to apply the next time the compute terminates or restarts, instead of restarting it immediately. **Enforce on next restart** avoids interrupting running workloads, while **Restart and enforce** applies the update right away. Workspace admins can cancel a scheduled enforcement for a single compute resource or for an entire policy. See [Enforce policy compliance](/aws/en/admin/clusters/policies#compliance).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.490990Z"
+}

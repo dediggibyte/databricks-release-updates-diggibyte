@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-09-anthropic-claude-fable-5-now-available-as-a-databricks-hosted-model",
+  "title": "Anthropic Claude Fable 5 now available as a Databricks-hosted model ​",
+  "date": "2026-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#anthropic-claude-fable-5-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 9, 2026**\n\nDatabricks Model Serving now supports Anthropic [Claude Fable 5](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-fable-5) as a Databricks-hosted model. Claude Fable 5 is built for autonomous knowledge work and coding, designed to handle long-running, complex, and asynchronous tasks with less need for human intervention.\n\nTo access this model, use [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis/#token-foundation-apis).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.497749Z"
+}

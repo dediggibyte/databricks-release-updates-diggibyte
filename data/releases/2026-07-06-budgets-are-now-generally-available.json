@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-06-budgets-are-now-generally-available",
+  "title": "Budgets are now generally available ​",
+  "date": "2026-07-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#budgets-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 6, 2026**\n\nBudgets, including budgets for Unity AI Gateway, are now generally available.\n\nBudgets let admins define spending thresholds. For requests managed through Unity AI Gateway, including [Genie](/aws/en/genie/) interactions, admins can set additional per-user thresholds and overrides, with configurable actions such as email alerting and usage blocking.\n\nSee [Create and monitor budgets](/aws/en/admin/account-settings/budgets) and [Manage budgets for Unity AI Gateway](/aws/en/ai-gateway/budgets).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.427826Z"
+}

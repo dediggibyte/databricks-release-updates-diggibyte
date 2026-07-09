@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-16-connect-genie-to-microsoft-copilot-cowork-beta",
+  "title": "Connect Genie to Microsoft Copilot Cowork (Beta) ​",
+  "date": "2026-06-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#connect-genie-to-microsoft-copilot-cowork-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 16, 2026**\n\nYou can now connect Genie to Microsoft Copilot Cowork through the Genie managed MCP server, so users can ask natural-language questions about their Databricks data without leaving Copilot Cowork. See [Genie plugin for Microsoft Copilot Cowork](/aws/en/integrations/msft-cowork).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.459760Z"
+}

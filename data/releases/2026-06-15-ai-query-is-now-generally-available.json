@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-15-ai-query-is-now-generally-available",
+  "title": "ai_query is now generally available ​",
+  "date": "2026-06-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_query-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 15, 2026**\n\nThe `ai_query` function is now generally available. This general-purpose AI Function lets you query any supported AI model directly from SQL or Python. See [Use `ai_query`](/aws/en/large-language-models/ai-query).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.466957Z"
+}

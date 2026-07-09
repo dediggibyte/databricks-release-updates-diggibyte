@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-04-improved-workspace-file-write-performance-on-classic-compute",
+  "title": "Improved workspace file write performance on classic compute ​",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#improved-workspace-file-write-performance-on-classic-compute",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 4, 2026**\n\nWorkspace file operations on classic compute now use asynchronous flushing by default for Databricks Runtime 17.1 and above. File writes, deletes, and metadata operations are batched and flushed in the background, reducing latency for workloads that write many files, such as Git operations. See [What are workspace files?](/aws/en/files/workspace).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.513637Z"
+}

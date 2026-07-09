@@ -1,0 +1,33 @@
+{
+  "product": "Use OAuth to authenticate Databricks connections in Power Platform ​",
+  "tagline": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
+  "updated": "Jun 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
+  "what_it_does": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). See [Create a Databricks connection on Microsoft Power Platform](/aws/en/integrations/msft power platform/setup).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 15, 2026 You",
+      "desc": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to pers"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
+  "note_id": "2026-06-15-use-oauth-to-authenticate-databricks-connections-in-power-platform",
+  "category": "platform"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-09-databricks-genie-app-for-slack-public-preview",
+  "title": "Databricks Genie app for Slack (Public Preview) ​",
+  "date": "2026-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-genie-app-for-slack-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 9, 2026**\n\nThe Databricks Genie app for Slack is now available in Public Preview. The app brings Genie into Slack so users can get answers to data questions without leaving Slack. Send a direct message to the app or mention `@Genie` in a channel or group DM, and answers route through Genie or a specific Genie Space that a channel owner has pinned. See [Databricks Genie app for Slack](/aws/en/genie-one/genie-slack).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.500075Z"
+}

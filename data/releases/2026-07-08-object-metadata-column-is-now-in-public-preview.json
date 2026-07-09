@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-08-object-metadata-column-is-now-in-public-preview",
+  "title": "Object metadata column is now in Public Preview ​",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#object-metadata-column-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 8, 2026**\n\nThe `_object_metadata` column is now in Public Preview. The `_object_metadata` column is a hidden metadata column that exposes object-level properties for objects in cloud storage, including MIME type, ETag, user-defined key-value metadata, system-defined metadata, and object tags. It is available starting from Databricks Runtime 18.1.\n\nSee [Object metadata column](/aws/en/ingestion/object-metadata-column).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.422145Z"
+}

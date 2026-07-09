@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-10-delta-sharing-is-now-opensharing",
+  "title": "Delta Sharing is now OpenSharing ​",
+  "date": "2026-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#delta-sharing-is-now-opensharing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 10, 2026**\n\nFollowing the release of open-source OpenSharing, Delta Sharing is now OpenSharing. OpenSharing is the new open standard for sharing data and AI assets across platforms and organizations, available both on GitHub and natively on Databricks. See [What is OpenSharing?](/aws/en/opensharing/) and [opensharing.io](https://opensharing.io) for more.",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.494498Z"
+}

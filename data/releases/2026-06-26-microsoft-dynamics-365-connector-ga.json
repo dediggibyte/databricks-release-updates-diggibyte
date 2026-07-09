@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-26-microsoft-dynamics-365-connector-ga",
+  "title": "Microsoft Dynamics 365 connector (GA) ​",
+  "date": "2026-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#microsoft-dynamics-365-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 26, 2026**\n\nThe managed Microsoft Dynamics 365 connector in Lakeflow Connect is now generally available. The connector allows you to ingest CRM and ERP data from Dynamics 365 into Databricks using Azure Synapse Link. See [Microsoft Dynamics 365 connector](/aws/en/ingestion/lakeflow-connect/d365).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.430521Z"
+}

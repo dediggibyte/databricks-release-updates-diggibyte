@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-12-email-notifications-for-expiring-service-principal-tokens-beta",
+  "title": "Email notifications for expiring service principal tokens (Beta) ​",
+  "date": "2026-06-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#email-notifications-for-expiring-service-principal-tokens-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 12, 2026**\n\nDatabricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring. This feature is in Beta. Notifications are sent for tokens with a lifetime greater than seven days that have been used at least once. No configuration is required. See [Monitor and revoke personal access tokens](/aws/en/admin/access-control/tokens).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.474517Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-04-genie-code-now-supports-auto-approve-for-tool-actions",
+  "title": "Genie Code now supports auto-approve for tool actions ​",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-supports-auto-approve-for-tool-actions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 4, 2026**\n\nGenie Code now offers an auto-approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request. An AI classifier reviews each action and blocks risky ones. Auto-approve is a productivity feature, not a security boundary. Databricks recommends keeping it off when working with production data or shared resources. See [Approve tool actions](/aws/en/genie-code/use-genie-code#approve-tools).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.517080Z"
+}

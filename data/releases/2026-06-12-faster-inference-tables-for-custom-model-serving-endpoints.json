@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-12-faster-inference-tables-for-custom-model-serving-endpoints",
+  "title": "Faster inference tables for custom model serving endpoints ​",
+  "date": "2026-06-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#faster-inference-tables-for-custom-model-serving-endpoints",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 12, 2026**\n\nInference tables for [custom model serving endpoints](/aws/en/machine-learning/model-serving/custom-models) now ingest through endpoint telemetry. Request and response payloads are delivered to a Unity Catalog inference table view within seconds, with configurable sampling. Existing inference tables are not affected. Enable inference tables and telemetry together in the AI Gateway section of the endpoint UI. See [Persist custom model serving data to Unity Catalog](/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.473618Z"
+}

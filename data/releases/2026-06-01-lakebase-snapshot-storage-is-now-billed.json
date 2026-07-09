@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-01-lakebase-snapshot-storage-is-now-billed",
+  "title": "Lakebase snapshot storage is now billed ​",
+  "date": "2026-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-snapshot-storage-is-now-billed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 1, 2026**\n\nStarting June 1, 2026, snapshot storage is billable for Lakebase Autoscaling. Snapshot storage size is shown on the **Backup & Restore** page. For pricing details, see the [Lakebase pricing page](https://www.databricks.com/product/pricing/lakebase). To learn about managing snapshots, see [Snapshots](/aws/en/oltp/projects/snapshots).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.543050Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-02-lakeflow-connect-row-filtering-is-now-generally-available",
+  "title": "Lakeflow Connect row filtering is now generally available ​",
+  "date": "2026-07-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-connect-row-filtering-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 2, 2026**\n\nRow filtering in Lakeflow Connect is now generally available. Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL `WHERE` clause, improving performance and minimizing data duplication. Row filtering applies during both the initial load and subsequent incremental updates, and is supported for SaaS connectors including Google Analytics, Salesforce, and ServiceNow, as well as all query-based connectors.\n\nSee [Select rows to ingest](/aws/en/ingestion/lakeflow-connect/row-filtering).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.431105Z"
+}

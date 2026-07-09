@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-17-comments-on-foreign-tables-beta",
+  "title": "Comments on foreign tables (Beta) ​",
+  "date": "2026-06-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#comments-on-foreign-tables-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 17, 2026**\n\nSyncing comments on foreign tables is now in [Beta](/aws/en/release-notes/release-types). Lakehouse Federation can sync table and column comments from supported external data sources to foreign tables in Unity Catalog. Synced comments appear in table metadata, including Catalog Explorer, `DESCRIBE`, and `DESCRIBE EXTENDED` output.\n\nSee [Comments on foreign tables](/aws/en/query-federation/foreign-table-comments).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.457202Z"
+}

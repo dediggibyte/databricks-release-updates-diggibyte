@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-09-reorganized-lakeflow-spark-declarative-pipelines-documentation",
+  "title": "Reorganized Lakeflow Spark Declarative Pipelines documentation ​",
+  "date": "2026-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#reorganized-lakeflow-spark-declarative-pipelines-documentation",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 9, 2026**\n\nThe Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [Concepts](/aws/en/ldp/concepts/).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.502166Z"
+}

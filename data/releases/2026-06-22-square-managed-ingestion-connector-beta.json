@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-22-square-managed-ingestion-connector-beta",
+  "title": "Square managed ingestion connector (Beta) ​",
+  "date": "2026-06-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#square-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 22, 2026**\n\nThe Square connector in Lakeflow Connect is now available in Beta. The connector ingests point-of-sale data such as payments, orders, customers, catalog items, and inventory from Square into Databricks. See [Square connector](/aws/en/ingestion/lakeflow-connect/square).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.440477Z"
+}

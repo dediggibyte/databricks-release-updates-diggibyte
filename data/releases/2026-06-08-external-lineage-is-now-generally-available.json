@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-08-external-lineage-is-now-generally-available",
+  "title": "External lineage is now generally available ​",
+  "date": "2026-06-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#external-lineage-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 8, 2026**\n\nExternal lineage (formerly Bring Your Own Lineage) in Unity Catalog is now generally available. You can register assets that live outside Databricks, such as Salesforce or MySQL sources and Tableau or Power BI dashboards, so that a single lineage graph spans your full data flow. As part of this release, [Lakeflow Connect](/aws/en/ingestion/lakeflow-connect/) managed ingestion pipelines now automatically record source lineage from source tables to their destination tables in Unity Catalog. See [External lineage](/aws/en/data-governance/unity-catalog/external-lineage) and [Track source data lineage for managed ingestion pipelines](/aws/en/ingestion/lakeflow-connect/source-lineage).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.506454Z"
+}

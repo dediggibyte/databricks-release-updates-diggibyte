@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-11-genie-code-now-uses-models-served-through-openai-on-databricks",
+  "title": "Genie Code now uses models served through OpenAI on Databricks ​",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-uses-models-served-through-openai-on-databricks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 11, 2026**\n\n[Genie Code](/aws/en/genie-code/) now uses models served through OpenAI on Databricks, in addition to models served through Azure OpenAI and Anthropic on Databricks, when [partner-powered AI features](/aws/en/databricks-ai/partner-powered) are enabled. For the model provider used by each feature, see [Partner-powered AI features](/aws/en/databricks-ai/partner-powered).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.484546Z"
+}

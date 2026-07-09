@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-05-foundation-model-unity-catalog-permissions-is-generally-available",
+  "title": "Foundation model Unity Catalog permissions is generally available ​",
+  "date": "2026-06-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#foundation-model-unity-catalog-permissions-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 5, 2026**\n\n[Foundation model Unity Catalog permissions](/aws/en/machine-learning/foundation-model-apis/model-uc-permissions) is now [generally available](/aws/en/release-notes/release-types). This feature requires enablement by your Databricks account team.\n\nAccount admins can use Unity Catalog permissions on the `system.ai` schema to control which Databricks-hosted foundation models your organization can access. Permissions are enforced across pay-per-token, provisioned throughput, and batch inference (AI Functions) workloads.",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.509406Z"
+}

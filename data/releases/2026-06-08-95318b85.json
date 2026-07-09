@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-08-95318b85",
+  "title": "Inbound Private Link for performance-intensive services is now generally available ​",
+  "date": "2026-06-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#inbound-private-link-for-performance-intensive-services-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 8, 2026**\n\nInbound Private Link for performance-intensive services, such as Lakebase Autoscaling and Zerobus Ingest, is now generally available. See [Configure inbound PrivateLink for performance-intensive services](/aws/en/security/network/front-end/service-direct-privatelink).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.505121Z"
+}

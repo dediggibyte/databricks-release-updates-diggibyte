@@ -1,0 +1,33 @@
+{
+  "product": "Use Universal Commits to purchase Marketplace partner products ​",
+  "tagline": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
+  "updated": "Jun 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
+  "what_it_does": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace. See [Databricks Marketplace Universal Commit Drawdown program](/aws/en/marketplace/ drawdown program).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 15, 2026 You",
+      "desc": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databr"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
+  "note_id": "2026-06-15-use-universal-commits-to-purchase-marketplace-partner-products",
+  "category": "platform"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-07-01-693aebe4",
+  "title": "Google Gemini 3.1 Flash Image and Gemini 3 Pro Image now available as Databricks-hosted models ​",
+  "date": "2026-07-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-31-flash-image-and-gemini-3-pro-image-now-available-as-databricks-hosted-models",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**July 1, 2026**\n\nModel Serving now supports Google [Gemini 3.1 Flash Image](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-1-flash-image) and [Gemini 3 Pro Image](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-pro-image) as Databricks-hosted models. You can access these models using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis/).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:52.432363Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-29-genie-code-chat-agent-mode-selector-removed",
+  "title": "Genie Code Chat/Agent mode selector removed ​",
+  "date": "2026-06-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-chatagent-mode-selector-removed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**June 29, 2026**\n\nThe Chat/Agent mode selector has been removed from the Genie Code pane. Genie Code now runs exclusively in Agent mode. If you prefer a conversational response without autonomous task execution (what was previously called Chat mode), include that instruction in your prompt. For example: \"Just explain this to me, don't run any code.\"\n\nSee [Agent mode](/aws/en/genie-code/use-genie-code#modes).",
+  "source": "archive",
+  "fetched_at": "2026-07-09T10:37:50.429356Z"
+}

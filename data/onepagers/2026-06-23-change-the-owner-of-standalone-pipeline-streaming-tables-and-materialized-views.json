@@ -1,0 +1,33 @@
+{
+  "product": "Change the owner of standalone pipeline streaming tables and materialized views ",
+  "tagline": "June 23, 2026 You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created ",
+  "updated": "Jun 23, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
+  "what_it_does": "June 23, 2026 You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks SQL. See [Use ALTER statements with pipeline datasets](/aws/en/ldp/using alter sql).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "June 23, 2026 You",
+      "desc": "June 23, 2026 You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "June 23, 2026 You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created ",
+  "note_id": "2026-06-23-change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
+  "category": "platform"
+}
