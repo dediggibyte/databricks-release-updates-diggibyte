@@ -1,22 +1,46 @@
 {
   "product": "Lakeflow Connect row filtering is now generally available ​",
-  "tagline": "July 2, 2026 Row filtering in Lakeflow Connect is now generally available.",
+  "tagline": "Row filtering in Lakeflow Connect is now generally available.",
   "updated": "Jul 2, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-connect-row-filtering-is-now-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-connect-row-filtering-is-now-generally-available",
-  "what_it_does": "July 2, 2026 Row filtering in Lakeflow Connect is now generally available. Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL WHERE clause, improving performance and minimizing data duplication.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "Row filtering in Lakeflow Connect is now generally available. Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL WHERE clause, improving performance and minimizing data duplication. Row filtering applies during both the initial load and subsequent incremental updates, and is supported for SaaS connectors including Google Analytics, Salesforce, and ServiceNow, as well as all query based connectors.",
+  "why_it_matters": "Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL WHERE clause, improving performance and minimizing data duplication.",
   "capabilities": [
     {
-      "title": "July 2, 2026 Row",
-      "desc": "July 2, 2026 Row filtering in Lakeflow Connect is now generally available."
+      "title": "You define a row filter",
+      "desc": "You define a row filter per source object (table, stream, or object) as a boolean expression over that object's columns."
+    },
+    {
+      "title": "The filter is applied during",
+      "desc": "The filter is applied during the initial load and on every subsequent incremental update, so the target stays consistent with the "
+    },
+    {
+      "title": "Because filtering happens before transfer",
+      "desc": "Because filtering happens before transfer, it reduces data movement, storage, and downstream compute compared with ingesting every"
+    },
+    {
+      "title": "Google Analytics",
+      "desc": "Google Analytics"
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "A Lakeflow Connect ingestion pipeline on a supported connector.",
+    "Unity Catalog enabled for the destination catalog and schema.",
+    "Permission to edit the ingestion pipeline definition."
+  ],
+  "use_cases": [
+    "Ingest only rows for a specific region, business unit, or active-record flag.",
+    "Exclude test or archived records from a SaaS system.",
+    "Reduce cost and duplication for very large source tables."
+  ],
+  "limitations": [
+    "Filters reference only columns available on the source object; joins across objects are not supported in a filter.",
+    "Changing a filter after the initial load can require a full refresh of the affected object to remain consistent.",
+    "Non-deterministic source functions are not supported inside a filter."
+  ],
   "architecture": [
     "Databricks Platform",
     "Platform"
@@ -27,7 +51,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 2, 2026 Row filtering in Lakeflow Connect is now generally available.",
+  "key_takeaway": "Row filtering in Lakeflow Connect is now generally available.",
   "note_id": "2026-07-02-lakeflow-connect-row-filtering-is-now-generally-available",
   "category": "platform"
 }

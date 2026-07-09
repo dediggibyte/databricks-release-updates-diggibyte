@@ -1,19 +1,14 @@
 {
   "product": "Token auto-scoping for personal access tokens is now generally available ​",
-  "tagline": "June 18, 2026 Token auto scoping is now generally available.",
+  "tagline": "Token auto scoping is now generally available.",
   "updated": "Jun 18, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#token-auto-scoping-for-personal-access-tokens-is-now-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/auth/pat#autoscoping",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#token-auto-scoping-for-personal-access-tokens-is-now-generally-available",
-  "what_it_does": "June 18, 2026 Token auto scoping is now generally available. Auto scoping automatically applies the principle of least privilege to personal access tokens (PATs) by observing which API endpoints a token uses and narrowing its permissions to only those APIs.",
+  "what_it_does": "Token auto scoping is now generally available. Auto scoping automatically applies the principle of least privilege to personal access tokens (PATs) by observing which API endpoints a token uses and narrowing its permissions to only those APIs. Auto scoping is on by default for new long lived tokens (30 days or longer) and applies to existing tokens with all APIs access based on historical usage.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 18, 2026 Token",
-      "desc": "June 18, 2026 Token auto scoping is now generally available."
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 18, 2026 Token auto scoping is now generally available.",
+  "key_takeaway": "Token auto scoping is now generally available.",
   "note_id": "2026-06-18-token-auto-scoping-for-personal-access-tokens-is-now-generally-available",
   "category": "platform"
 }

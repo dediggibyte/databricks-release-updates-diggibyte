@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 23, 2026**\n\nYou can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. See [Block internet destinations](/aws/en/security/network/serverless-network-security/manage-network-policies#block).",
+  "ref_links": [
+    {
+      "text": "Block internet destinations",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies#block"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.439335Z"
+  "fetched_at": "2026-07-09T11:18:36.466897Z"
 }

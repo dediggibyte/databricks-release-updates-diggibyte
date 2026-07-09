@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 15, 2026**\n\nYou can now use up to 10% of your Universal Commits to purchase eligible third-party partner products through Databricks Marketplace. See [Databricks Marketplace Universal Commit Drawdown program](/aws/en/marketplace/#drawdown-program).",
+  "ref_links": [
+    {
+      "text": "Databricks Marketplace Universal Commit Drawdown program",
+      "url": "https://docs.databricks.com/aws/en/marketplace/#drawdown-program"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.465837Z"
+  "fetched_at": "2026-07-09T11:18:36.499993Z"
 }

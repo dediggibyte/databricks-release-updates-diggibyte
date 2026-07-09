@@ -1,17 +1,29 @@
 {
   "product": "Genie Spaces is now Genie Agents ​",
-  "tagline": "July 8, 2026 Genie Spaces are now called Genie Agents.",
+  "tagline": "Genie Spaces are now called Genie Agents.",
   "updated": "Jul 8, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
-  "what_it_does": "July 8, 2026 Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. On this page Last updated on Jul 8, 2026 A Genie Agent is a domain specific natural language chat interface in Databricks where users ask questions of their data and get back SQL queries, results tables, and visualizations.",
+  "why_it_matters": "For agent authors​ + Tune Genie Agent quality + Add metrics, business rules, and verified answers to improve response quality.",
   "capabilities": [
     {
-      "title": "July 8, 2026 Genie",
-      "desc": "July 8, 2026 Genie Spaces are now called Genie Agents."
+      "title": "Genie Agents concepts",
+      "desc": "Genie Agents concepts"
+    },
+    {
+      "title": "Learn what Genie Agents are",
+      "desc": "Learn what Genie Agents are, how they generate responses, and how data access works."
+    },
+    {
+      "title": "Create and manage a Genie",
+      "desc": "Create and manage a Genie Agent"
+    },
+    {
+      "title": "Create a Genie Agent and",
+      "desc": "Create a Genie Agent and configure datasets, SQL queries, and instructions."
     }
   ],
   "prerequisites": [],
@@ -27,7 +39,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 8, 2026 Genie Spaces are now called Genie Agents.",
+  "key_takeaway": "Genie Spaces are now called Genie Agents.",
   "note_id": "2026-07-08-genie-spaces-is-now-genie-agents",
   "category": "platform"
 }

@@ -6,6 +6,20 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 15, 2026**\n\nProviders can now use OpenSharing SecureConnect to share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist. Recipients access the shares using their existing OpenSharing setup. See [Share data behind a firewall with SecureConnect](/aws/en/opensharing/secureconnect-provider) and [OpenSharing recipient firewall configuration for SecureConnect](/aws/en/opensharing/secureconnect-recipient).\n\nSecureConnect is also available for clean rooms. See [Enable SecureConnect for a clean room](/aws/en/clean-rooms/manage-clean-room#secureconnect).",
+  "ref_links": [
+    {
+      "text": "Share data behind a firewall with SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-provider"
+    },
+    {
+      "text": "OpenSharing recipient firewall configuration for SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-recipient"
+    },
+    {
+      "text": "Enable SecureConnect for a clean room",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/manage-clean-room#secureconnect"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.468434Z"
+  "fetched_at": "2026-07-09T11:18:36.503308Z"
 }

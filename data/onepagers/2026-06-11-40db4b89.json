@@ -1,21 +1,36 @@
 {
   "product": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent too",
-  "tagline": "June 11, 2026 You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
+  "tagline": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
   "updated": "Jun 11, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
-  "what_it_does": "June 11, 2026 You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. See [Use Supervisor Agent to create a coordinated multi agent system](/aws/en/agents/agent bricks/multi agent supervisor).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. On this page Last updated on Jul 8, 2026 This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
   "capabilities": [
     {
-      "title": "June 11, 2026 You",
-      "desc": "June 11, 2026 You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent."
+      "title": "Serverless compute available (enabled by",
+      "desc": "Serverless compute available (enabled by default in workspaces with Unity Catalog in a supported region)."
+    },
+    {
+      "title": "Unity Catalog enabled. See Enable",
+      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+    },
+    {
+      "title": "Access to Model Serving",
+      "desc": "Access to Model Serving."
+    },
+    {
+      "title": "Access to a serverless usage",
+      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or to"
     }
   ],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "Provide market analysis",
+    "usage data."
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +42,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 11, 2026 You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
+  "key_takeaway": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
   "note_id": "2026-06-11-40db4b89",
   "category": "platform"
 }

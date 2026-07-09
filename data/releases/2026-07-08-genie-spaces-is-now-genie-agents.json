@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**July 8, 2026**\n\nGenie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. For more information, see [Genie Agents](/aws/en/genie/).",
+  "ref_links": [
+    {
+      "text": "Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:52.417640Z"
+  "fetched_at": "2026-07-09T11:18:38.474156Z"
 }

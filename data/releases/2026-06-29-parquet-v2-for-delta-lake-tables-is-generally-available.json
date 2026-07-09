@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 29, 2026**\n\nParquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above. Parquet v2 uses advanced encodings, v2 data page headers, and `INT64` timestamps to improve query performance and reduce table sizes. To use, set the `delta.parquet.format.version` table property to `2.12.0` or enable automatic upgrades. See [Parquet v2](/aws/en/tables/features/parquet-v2) and [Automatic upgrades](/aws/en/tables/automatic-upgrades).",
+  "ref_links": [
+    {
+      "text": "Parquet v2",
+      "url": "https://docs.databricks.com/aws/en/tables/features/parquet-v2"
+    },
+    {
+      "text": "Automatic upgrades",
+      "url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.428071Z"
+  "fetched_at": "2026-07-09T11:18:36.452486Z"
 }

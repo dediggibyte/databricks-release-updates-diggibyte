@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 17, 2026**\n\nOmnigent is now available in Beta. Omnigent is a coding agent meta-harness that wraps coding agents such as Claude Code and Codex with a common platform: a web UI, persistent and shareable sessions, team collaboration, mobile access, contextual policies, and deployment infrastructure. Swap one line of configuration to switch runtimes while your tools, policies, and prompts stay the same.\n\nSee [Omnigent on Databricks](/aws/en/omnigent/).",
+  "ref_links": [
+    {
+      "text": "Omnigent on Databricks",
+      "url": "https://docs.databricks.com/aws/en/omnigent/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.455672Z"
+  "fetched_at": "2026-07-09T11:18:36.487509Z"
 }

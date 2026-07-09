@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 29, 2026**\n\nYou can now bring your own Docker container image to AI Runtime CLI (`air`) workloads. This feature is in [Beta](/aws/en/release-notes/release-types). Use a custom image when you need specific system library versions, complex dependencies, or a reproducible environment. See [Use custom Docker images](/aws/en/machine-learning/ai-runtime/cli/docker-images).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Use custom Docker images",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/cli/docker-images"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.426357Z"
+  "fetched_at": "2026-07-09T11:18:36.450401Z"
 }

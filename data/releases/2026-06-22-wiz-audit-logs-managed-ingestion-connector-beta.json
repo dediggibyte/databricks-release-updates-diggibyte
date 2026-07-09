@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 22, 2026**\n\nThe Wiz Audit Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest audit log entries, issues, and vulnerability findings from Wiz into Databricks. See [Wiz Audit Logs connector](/aws/en/ingestion/lakeflow-connect/wiz-audit-logs).",
+  "ref_links": [
+    {
+      "text": "Wiz Audit Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/wiz-audit-logs"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.442834Z"
+  "fetched_at": "2026-07-09T11:18:36.471335Z"
 }

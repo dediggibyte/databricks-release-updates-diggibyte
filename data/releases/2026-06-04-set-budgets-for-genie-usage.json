@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 4, 2026**\n\nOn **July 8, 2026 at 00:00 UTC**, Genie products will move to a pay-as-you-go pricing model. Each user receives 150 DBUs of free LLM usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free allowance is billed in DBUs. For more information, see the [release note](/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing).\n\nTo prepare, account admins can now create budgets to monitor and control spending on Genie usage. Scope a budget to Genie to track spend across your account, workspaces, user groups, or individual users, configure email alerts, and set per-user spending limits. See [Manage budgets and cost controls for Genie](/aws/en/genie/budgets).",
+  "ref_links": [
+    {
+      "text": "release note",
+      "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing"
+    },
+    {
+      "text": "Manage budgets and cost controls for Genie",
+      "url": "https://docs.databricks.com/aws/en/genie/budgets"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.516226Z"
+  "fetched_at": "2026-07-09T11:18:36.565455Z"
 }

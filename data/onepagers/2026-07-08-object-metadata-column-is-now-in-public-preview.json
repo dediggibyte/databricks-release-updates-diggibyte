@@ -1,19 +1,14 @@
 {
   "product": "Object metadata column is now in Public Preview ​",
-  "tagline": "July 8, 2026 The object metadata column is now in Public Preview.",
+  "tagline": "The object metadata column is now in Public Preview.",
   "updated": "Jul 8, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#object-metadata-column-is-now-in-public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/object-metadata-column",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#object-metadata-column-is-now-in-public-preview",
-  "what_it_does": "July 8, 2026 The object metadata column is now in Public Preview. The object metadata column is a hidden metadata column that exposes object level properties for objects in cloud storage, including MIME type, ETag, user defined key value metadata, system defined metadata, and object tags.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "July 8, 2026 The",
-      "desc": "July 8, 2026 The object metadata column is now in Public Preview."
-    }
-  ],
+  "what_it_does": "The object metadata column is now in Public Preview. The object metadata column is a hidden metadata column that exposes object level properties for objects in cloud storage, including MIME type, ETag, user defined key value metadata, system defined metadata, and object tags. It is available starting from Databricks Runtime 18.1.",
+  "why_it_matters": "Selecting any field from object metadata triggers up to two additional cloud API calls per file, so queries over a large number of small files may experience some latency increase.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 8, 2026 The object metadata column is now in Public Preview.",
+  "key_takeaway": "The object metadata column is now in Public Preview.",
   "note_id": "2026-07-08-object-metadata-column-is-now-in-public-preview",
   "category": "platform"
 }

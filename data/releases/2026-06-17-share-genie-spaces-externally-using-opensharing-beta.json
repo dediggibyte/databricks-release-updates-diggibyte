@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 17, 2026**\n\nProviders can now share a Genie Space with users outside their organization using OpenSharing. Databricks creates a point-in-time snapshot of the space's data assets and instructions. Recipients can mount the share to create a local Genie Space. See [Share a Genie Agent using OpenSharing](/aws/en/opensharing/share-genie-space).",
+  "ref_links": [
+    {
+      "text": "Share a Genie Agent using OpenSharing",
+      "url": "https://docs.databricks.com/aws/en/opensharing/share-genie-space"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.454542Z"
+  "fetched_at": "2026-07-09T11:18:36.486067Z"
 }

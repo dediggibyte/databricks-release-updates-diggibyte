@@ -1,19 +1,14 @@
 {
   "product": "AI Search supports selected text columns, sorting, and aggregations (Beta) ​",
-  "tagline": "June 8, 2026 AI Search now supports query time options for full text and hybrid queries in Beta.",
+  "tagline": "AI Search now supports query time options for full text and hybrid queries in Beta.",
   "updated": "Jun 8, 2026",
   "status_label": "Beta",
   "status": "beta",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/query-ai-search#search-sort-facet-results",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
-  "what_it_does": "June 8, 2026 AI Search now supports query time options for full text and hybrid queries in Beta. You can limit keyword matching to selected text columns, sort results by columns indexed for sorting, and return aggregate counts for values and ranges.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 8, 2026 AI",
-      "desc": "June 8, 2026 AI Search now supports query time options for full text and hybrid queries in Beta."
-    }
-  ],
+  "what_it_does": "AI Search now supports query time options for full text and hybrid queries in Beta. You can limit keyword matching to selected text columns, sort results by columns indexed for sorting, and return aggregate counts for values and ranges. For details, see Search selected text columns, sort results, and return aggregations (Beta).",
+  "why_it_matters": "In addition to improved security and access management, using service principals can improve performance by up to 100 msec per query.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 8, 2026 AI Search now supports query time options for full text and hybrid queries in Beta.",
+  "key_takeaway": "AI Search now supports query time options for full text and hybrid queries in Beta.",
   "note_id": "2026-06-08-ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
   "category": "platform"
 }

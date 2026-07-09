@@ -1,21 +1,38 @@
 {
   "product": "Standalone pipeline materialized views support expectations ​",
-  "tagline": "June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.",
+  "tagline": "You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.",
   "updated": "Jun 23, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#standalone-pipeline-materialized-views-support-expectations",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/expectations",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#standalone-pipeline-materialized-views-support-expectations",
-  "what_it_does": "June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint.",
+  "what_it_does": "You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint. Streaming tables created in Databricks SQL already support expectations.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
   "capabilities": [
     {
-      "title": "June 23, 2026 You",
-      "desc": "June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expec"
+      "title": "No expectations are defined on",
+      "desc": "No expectations are defined on a query."
+    },
+    {
+      "title": "A flow uses an operator",
+      "desc": "A flow uses an operator that does not support expectations."
+    },
+    {
+      "title": "The flow type, such as",
+      "desc": "The flow type, such as sinks, does not support expectations."
+    },
+    {
+      "title": "There are no updates to",
+      "desc": "There are no updates to the associated streaming table or materialized view for a given flow run."
     }
   ],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "For advanced use cases",
+    "recommended best practices",
+    "see Expectation recommendations",
+    "advanced patterns."
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +44,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.",
+  "key_takeaway": "You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.",
   "note_id": "2026-06-23-standalone-pipeline-materialized-views-support-expectations",
   "category": "platform"
 }

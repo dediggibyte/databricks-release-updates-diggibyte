@@ -1,19 +1,14 @@
 {
   "product": "Email notifications for expiring service principal tokens (Beta) ​",
-  "tagline": "June 12, 2026 Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring.",
+  "tagline": "Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring.",
   "updated": "Jun 12, 2026",
   "status_label": "Beta",
   "status": "beta",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#email-notifications-for-expiring-service-principal-tokens-beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/access-control/tokens",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#email-notifications-for-expiring-service-principal-tokens-beta",
-  "what_it_does": "June 12, 2026 Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring. This feature is in Beta.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 12, 2026 Databricks",
-      "desc": "June 12, 2026 Databricks now automatically sends email notifications to workspace admins when a service principal token is within "
-    }
-  ],
+  "what_it_does": "Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring. This feature is in Beta. Notifications are sent for tokens with a lifetime greater than seven days that have been used at least once.",
+  "why_it_matters": "Databricks recommends you minimize your personal access token exposure with the following steps: 1.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 12, 2026 Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring.",
+  "key_takeaway": "Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring.",
   "note_id": "2026-06-12-email-notifications-for-expiring-service-principal-tokens-beta",
   "category": "platform"
 }

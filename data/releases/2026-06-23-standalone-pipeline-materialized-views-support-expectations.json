@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 23, 2026**\n\nYou can now add data quality expectations to materialized views created in Databricks SQL using the `CONSTRAINT expectation_name EXPECT (expectation_expr)` clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint. Streaming tables created in Databricks SQL already support expectations. See [Manage data quality with pipeline expectations](/aws/en/ldp/expectations).",
+  "ref_links": [
+    {
+      "text": "Manage data quality with pipeline expectations",
+      "url": "https://docs.databricks.com/aws/en/ldp/expectations"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.437241Z"
+  "fetched_at": "2026-07-09T11:18:36.464278Z"
 }

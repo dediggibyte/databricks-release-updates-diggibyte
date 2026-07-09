@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 5, 2026**\n\nThe managed SharePoint connector in Lakeflow Connect now supports structured file ingestion (CSV, JSON, XML, Excel, Parquet, Avro, ORC), file metadata ingestion, file filters, schema evolution modes, and schema hints. These capabilities replace the previous unstructured-only ingestion approach with a unified managed file source API. See [SharePoint connector](/aws/en/ingestion/lakeflow-connect/sharepoint).",
+  "ref_links": [
+    {
+      "text": "SharePoint connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sharepoint"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.510344Z"
+  "fetched_at": "2026-07-09T11:18:36.557859Z"
 }

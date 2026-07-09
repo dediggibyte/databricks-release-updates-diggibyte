@@ -1,22 +1,19 @@
 {
   "product": "Parquet v2 for Delta Lake tables is generally available ​",
-  "tagline": "June 29, 2026 Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
+  "tagline": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
   "updated": "Jun 29, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#parquet-v2-for-delta-lake-tables-is-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#parquet-v2-for-delta-lake-tables-is-generally-available",
-  "what_it_does": "June 29, 2026 Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above. Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes.",
+  "what_it_does": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above. Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes. To use, set the delta.parquet.format.version table property to 2.12.0 or enable automatic upgrades.",
   "why_it_matters": "Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes.",
-  "capabilities": [
-    {
-      "title": "June 29, 2026 Parquet",
-      "desc": "June 29, 2026 Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above."
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
-  "limitations": [],
+  "limitations": [
+    "External tables are typically accessed by file path, bypassing Unity Catalog, and with unverified workloads from external clients. Unity Catalog cannot reliably track these access patterns, so external tables are excluded from automatic upgrades. See Work with external tables."
+  ],
   "architecture": [
     "Databricks Platform",
     "Platform"
@@ -27,7 +24,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 29, 2026 Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
+  "key_takeaway": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above.",
   "note_id": "2026-06-29-parquet-v2-for-delta-lake-tables-is-generally-available",
   "category": "platform"
 }

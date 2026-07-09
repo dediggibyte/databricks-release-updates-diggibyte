@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jun 12, 2026</span>
           </div>
           <h1 class="title">Faster inference tables for custom model serving endpoints ​</h1>
-<p class="tagline">June 12, 2026 Inference tables for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) now ingest through endpoint telemetry.</p>        </div>
+<p class="tagline">Inference tables for custom model serving endpoints now ingest through endpoint telemetry.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--flow-400);">
             <span class="bdot" style="background:var(--flow-400);"></span>Update
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/june#faster-inference-tables-for-custom-model-serving-endpoints" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,11 +122,11 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">June 12, 2026 Inference tables for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) now ingest through endpoint telemetry. Request and response payloads are delivered to a Unity Catalog inference table view within seconds, with configurable sampling.</p>
+            <p class="p">Inference tables for custom model serving endpoints now ingest through endpoint telemetry. Request and response payloads are delivered to a Unity Catalog inference table view within seconds, with configurable sampling. Existing inference tables are not affected.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">Reduces operational overhead and unlocks new capabilities for data teams on Databricks.</p>
+            <p class="p">To do this with the API: Enable telemetry using the API Bash curl X POST H "Authorization: Bearer <your token " \ https://<workspace url /api/2.0/serving endpoints \ d '{ "name": "my custom logging endpoint", "config": { "served entities": [ { "name": "my model", "entity name": "my model", "entity version": "1", "workload size": "Small", "scale to zero enabled": true } ] }, "telemetry config": { "table names": { "logs table": "my catalog.observability.custom endpoint logs", "metrics table": "my catalog.observability.custom endpoint metrics", "traces table": "my catalog.observability.custom endpoint spans" } } }' note Updating triggers a new deployment.</p>
           </div>
         </div>
         <div class="well">
@@ -134,7 +134,19 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">June 12, 2026 Inference</div><div class="cd">June 12, 2026 Inference tables for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) now inge</div></div>
+              <div><div class="ct">us-east-1</div><div class="cd">us-east-1</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">us-east-2</div><div class="cd">us-east-2</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">us-west-2</div><div class="cd">us-west-2</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">eu-central-1</div><div class="cd">eu-central-1</div></div>
             </div>
           </div>
         </div>
@@ -172,7 +184,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">June 12, 2026 Inference tables for [custom model serving endpoints](/aws/en/machine learning/model serving/custom models) now ingest through endpoint telemetry.</div>
+          <div class="tt">Inference tables for custom model serving endpoints now ingest through endpoint telemetry.</div>
         </div>
       </div>
 

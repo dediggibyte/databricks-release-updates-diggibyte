@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 16, 2026**\n\nLakeflow Designer is now generally available. Lakeflow Designer is a visual, no-code experience for preparing and transforming data on a drag-and-drop canvas, with all workflows backed by production-ready code governed by Unity Catalog. Lakeflow Designer lets analysts build, preview, and schedule data transformation workflows using built-in operators or natural language.\n\nSee [Lakeflow Designer](/aws/en/designer/).\n\nLakeflow Designer is coming soon to workspaces with the compliance security profile enabled.",
+  "ref_links": [
+    {
+      "text": "Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.458600Z"
+  "fetched_at": "2026-07-09T11:18:36.491309Z"
 }

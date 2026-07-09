@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 12, 2026**\n\nAuto time-to-live (auto-TTL) is now generally available. Auto-TTL automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a `DATE` or `TIMESTAMP` column. See [Automatic row deletion with auto time-to-live](/aws/en/tables/operations/auto-ttl).",
+  "ref_links": [
+    {
+      "text": "Automatic row deletion with auto time-to-live",
+      "url": "https://docs.databricks.com/aws/en/tables/operations/auto-ttl"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.479850Z"
+  "fetched_at": "2026-07-09T11:18:36.517963Z"
 }

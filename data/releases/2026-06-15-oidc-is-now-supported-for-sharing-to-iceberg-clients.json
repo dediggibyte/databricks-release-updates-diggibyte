@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 15, 2026**\n\nYou can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see [Read data shared using Open ID Connect (OIDC) federation from an Iceberg client](/aws/en/opensharing/sharing-over-oidc-iceberg) and [Share with Iceberg recipient](/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg).",
+  "ref_links": [
+    {
+      "text": "Read data shared using Open ID Connect (OIDC) federation from an Iceberg client",
+      "url": "https://docs.databricks.com/aws/en/opensharing/sharing-over-oidc-iceberg"
+    },
+    {
+      "text": "Share with Iceberg recipient",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.469554Z"
+  "fetched_at": "2026-07-09T11:18:36.504751Z"
 }

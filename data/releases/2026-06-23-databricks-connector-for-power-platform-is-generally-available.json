@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 23, 2026**\n\nThe Databricks connector for Microsoft Power Platform is now [generally available](/aws/en/release-notes/release-types). See [Databricks and Microsoft Power Platform integration](/aws/en/integrations/msft-power-platform/).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Databricks and Microsoft Power Platform integration",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.433902Z"
+  "fetched_at": "2026-07-09T11:18:36.459700Z"
 }

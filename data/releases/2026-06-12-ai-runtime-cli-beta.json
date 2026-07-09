@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 12, 2026**\n\nThe AI Runtime CLI (`air`) is now in [Beta](/aws/en/release-notes/release-types). Use the `air` command-line interface to submit and manage distributed training workloads on AI Runtime serverless GPU compute from your local machine, without opening a notebook. See [AI Runtime CLI](/aws/en/machine-learning/ai-runtime/cli/).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "AI Runtime CLI",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/cli/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.478520Z"
+  "fetched_at": "2026-07-09T11:18:36.516290Z"
 }

@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 22, 2026**\n\nThe [Discover page](/aws/en/discover/discover-page) is now in Public Preview. Discover is a curated browsing experience that helps users find data assets governed by Unity Catalog without requiring deep knowledge of catalog hierarchies. Use *domains* and *subdomains* to organize tables, dashboards, and Genie Spaces by business area, highlight key assets with custom curation, and explore AI-recommended assets.",
+  "ref_links": [
+    {
+      "text": "Discover page",
+      "url": "https://docs.databricks.com/aws/en/discover/discover-page"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.445574Z"
+  "fetched_at": "2026-07-09T11:18:36.474705Z"
 }

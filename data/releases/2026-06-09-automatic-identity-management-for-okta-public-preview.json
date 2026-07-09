@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 9, 2026**\n\nAutomatic identity management now supports Okta in Public Preview. You can sync users and groups from Okta into Databricks without configuring SCIM provisioning. When enabled, you can search for Okta users and groups in identity federated workspaces and add them to your workspace. Databricks uses Okta as the source of record, so changes to group memberships in Okta are respected in Databricks.\n\nSee [Configure Okta for automatic identity management](/aws/en/admin/users-groups/automatic-identity-management/okta).",
+  "ref_links": [
+    {
+      "text": "Configure Okta for automatic identity management",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management/okta"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.496669Z"
+  "fetched_at": "2026-07-09T11:18:36.539688Z"
 }

@@ -1,21 +1,21 @@
 {
   "product": "Use Universal Commits to purchase Marketplace partner products ​",
-  "tagline": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
+  "tagline": "You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
   "updated": "Jun 15, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
+  "docs_url": "https://docs.databricks.com/aws/en/marketplace/#drawdown-program",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
-  "what_it_does": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace. See [Databricks Marketplace Universal Commit Drawdown program](/aws/en/marketplace/ drawdown program).",
+  "what_it_does": "You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace. On this page Last updated on Jun 25, 2026 Databricks Marketplace is an open exchange where data providers, software vendors, and technology partners publish offerings that Databricks customers can discover, evaluate, and connect with directly from their workspace. Listings include datasets, AI models, notebooks, apps, and Model Context Protocol (MCP) servers.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 15, 2026 You",
-      "desc": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databr"
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "In addition to datasets",
+    "you can also share Databricks notebooks",
+    "machine learning models",
+    "MCP servers to demonstrate use cases"
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +27,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 15, 2026 You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
+  "key_takeaway": "You can now use up to 10% of your Universal Commits to purchase eligible third party partner products through Databricks Marketplace.",
   "note_id": "2026-06-15-use-universal-commits-to-purchase-marketplace-partner-products",
   "category": "platform"
 }

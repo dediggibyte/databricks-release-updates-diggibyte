@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 16, 2026**\n\nYou can now discover, install, and run third-party data and AI applications from Databricks Marketplace directly in your own Unity Catalog-governed workspace. The provider's code stays closed-source, and you authorize any external access the app needs when you install it. Open Marketplace and filter by the **Apps** category to get started. See [Get access to third-party apps](/aws/en/marketplace/get-started-consumer#third-party-apps).",
+  "ref_links": [
+    {
+      "text": "Get access to third-party apps",
+      "url": "https://docs.databricks.com/aws/en/marketplace/get-started-consumer#third-party-apps"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.460923Z"
+  "fetched_at": "2026-07-09T11:18:36.494419Z"
 }

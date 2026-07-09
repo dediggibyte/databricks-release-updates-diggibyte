@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**July 6, 2026**\n\nMaterialized view and streaming table refreshes that are orchestrated through a [SQL task](/aws/en/ldp/dbsql/schedule-refreshes#sql-task) in a Lakeflow job now respect the job's **Performance optimized** setting. When the setting is turned off, the refresh uses standard performance mode, which consumes fewer DBUs.\n\nFor more about performance modes for scheduled refreshes, see [Select a performance mode for scheduled refreshes](/aws/en/ldp/dbsql/schedule-refreshes#performance-mode).",
+  "ref_links": [
+    {
+      "text": "SQL task",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes#sql-task"
+    },
+    {
+      "text": "Select a performance mode for scheduled refreshes",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes#performance-mode"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:52.429056Z"
+  "fetched_at": "2026-07-09T11:18:38.488683Z"
 }

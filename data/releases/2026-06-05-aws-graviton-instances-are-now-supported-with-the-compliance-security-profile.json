@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 5, 2026**\n\nAWS Graviton instance types are now supported with the [compliance security profile](/aws/en/security/privacy/security-profile) for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud. For the instance types supported by each compliance standard, see [Supported instance types](/aws/en/security/privacy/enhanced-security-compliance#supported-instance-types).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Supported instance types",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/enhanced-security-compliance#supported-instance-types"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.512761Z"
+  "fetched_at": "2026-07-09T11:18:36.560851Z"
 }

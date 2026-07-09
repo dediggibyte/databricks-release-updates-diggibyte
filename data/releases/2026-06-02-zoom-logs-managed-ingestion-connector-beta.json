@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 2, 2026**\n\nThe Zoom Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest user sign-in/sign-out activity logs and admin operation logs from Zoom into Databricks. See [Zoom Logs connector](/aws/en/ingestion/lakeflow-connect/zoom-logs).",
+  "ref_links": [
+    {
+      "text": "Zoom Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zoom-logs"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.522118Z"
+  "fetched_at": "2026-07-09T11:18:36.573279Z"
 }

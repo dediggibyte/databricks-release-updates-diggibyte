@@ -1,19 +1,14 @@
 {
   "product": "Netskope Logs managed ingestion connector (Beta) ​",
-  "tagline": "June 20, 2026 The Netskope Logs connector in Lakeflow Connect is now available in Beta.",
+  "tagline": "The Netskope Logs connector in Lakeflow Connect is now available in Beta.",
   "updated": "Jun 20, 2026",
   "status_label": "Beta",
   "status": "beta",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#netskope-logs-managed-ingestion-connector-beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/netskope-logs",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#netskope-logs-managed-ingestion-connector-beta",
-  "what_it_does": "June 20, 2026 The Netskope Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest event and alert logs from Netskope into Databricks.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 20, 2026 The",
-      "desc": "June 20, 2026 The Netskope Logs connector in Lakeflow Connect is now available in Beta."
-    }
-  ],
+  "what_it_does": "The Netskope Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest event and alert logs from Netskope into Databricks. On this page Last updated on Jun 23, 2026 Beta This feature is in Beta.",
+  "why_it_matters": "Feature availability​ | Feature | Availability | | | | | UI based pipeline authoring | Supported | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Incremental ingestion | Supported | | Unity Catalog governance | Supported | | Orchestration using Databricks Workflows | Supported | | SCD type 2 | Not supported Netskope event and alert logs are append only.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 20, 2026 The Netskope Logs connector in Lakeflow Connect is now available in Beta.",
+  "key_takeaway": "The Netskope Logs connector in Lakeflow Connect is now available in Beta.",
   "note_id": "2026-06-20-netskope-logs-managed-ingestion-connector-beta",
   "category": "platform"
 }

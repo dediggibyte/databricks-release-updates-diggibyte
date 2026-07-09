@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 30, 2026**\n\nLakebase Autoscaling is now available in `ap-northeast-1` (Asia Pacific - Tokyo). For all supported regions, see [Region availability](/aws/en/oltp/projects/manage-projects#availability). To get started, see [Get a Postgres database](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Region availability",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#availability"
+    },
+    {
+      "text": "Get a Postgres database",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.418392Z"
+  "fetched_at": "2026-07-09T11:18:36.440846Z"
 }

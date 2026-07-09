@@ -1,19 +1,14 @@
 {
   "product": "Managed RabbitMQ connector (Beta) ​",
-  "tagline": "June 2, 2026 The managed RabbitMQ connector in Lakeflow Connect is now available in Beta.",
+  "tagline": "The managed RabbitMQ connector in Lakeflow Connect is now available in Beta.",
   "updated": "Jun 2, 2026",
   "status_label": "Beta",
   "status": "beta",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-rabbitmq-connector-beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/rabbitmq",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-rabbitmq-connector-beta",
-  "what_it_does": "June 2, 2026 The managed RabbitMQ connector in Lakeflow Connect is now available in Beta. The connector allows you to stream messages from RabbitMQ classic queues into streaming tables in Unity Catalog.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 2, 2026 The",
-      "desc": "June 2, 2026 The managed RabbitMQ connector in Lakeflow Connect is now available in Beta."
-    }
-  ],
+  "what_it_does": "The managed RabbitMQ connector in Lakeflow Connect is now available in Beta. The connector allows you to stream messages from RabbitMQ classic queues into streaming tables in Unity Catalog. On this page Last updated on Jun 9, 2026 Beta This feature is in Beta.",
+  "why_it_matters": "| Feature availability​ | Feature | Availability | | | | | UI based pipeline authoring | Not supported (Beta) | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Continuous streaming ingestion | Supported | | Unity Catalog governance | Supported | | Orchestration using Databricks Workflows | Not supported | | SCD type 2 | Not supported | | Column selection and deselection | Not supported (Beta) | | Row filtering | Not supported | Authentication methods​ | Authentication method | Availability | | | | | Username and password | Supported | | Service Credential | Not supported | | OAuth U2M | Not supported | | OAuth M2M | Not supported |",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 2, 2026 The managed RabbitMQ connector in Lakeflow Connect is now available in Beta.",
+  "key_takeaway": "The managed RabbitMQ connector in Lakeflow Connect is now available in Beta.",
   "note_id": "2026-06-02-managed-rabbitmq-connector-beta",
   "category": "platform"
 }

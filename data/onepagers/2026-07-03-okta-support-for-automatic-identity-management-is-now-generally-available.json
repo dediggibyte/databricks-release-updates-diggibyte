@@ -1,19 +1,14 @@
 {
   "product": "Okta support for automatic identity management is now generally available ​",
-  "tagline": "July 3, 2026 Okta support for automatic identity management is now generally available.",
+  "tagline": "Okta support for automatic identity management is now generally available.",
   "updated": "Jul 3, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#okta-support-for-automatic-identity-management-is-now-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management/okta",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#okta-support-for-automatic-identity-management-is-now-generally-available",
-  "what_it_does": "July 3, 2026 Okta support for automatic identity management is now generally available. Automatic identity management lets you sync users and groups from Okta into Databricks without SCIM provisioning.",
+  "what_it_does": "Okta support for automatic identity management is now generally available. Automatic identity management lets you sync users and groups from Okta into Databricks without SCIM provisioning. When enabled, you can search for users and groups directly in identity federated workspaces and add them to your workspace, and Databricks uses Okta as the source of record for group memberships.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "July 3, 2026 Okta",
-      "desc": "July 3, 2026 Okta support for automatic identity management is now generally available."
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 3, 2026 Okta support for automatic identity management is now generally available.",
+  "key_takeaway": "Okta support for automatic identity management is now generally available.",
   "note_id": "2026-07-03-okta-support-for-automatic-identity-management-is-now-generally-available",
   "category": "platform"
 }

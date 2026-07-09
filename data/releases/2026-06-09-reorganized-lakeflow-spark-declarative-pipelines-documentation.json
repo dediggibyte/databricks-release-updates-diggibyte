@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 9, 2026**\n\nThe Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [Concepts](/aws/en/ldp/concepts/).",
+  "ref_links": [
+    {
+      "text": "Concepts",
+      "url": "https://docs.databricks.com/aws/en/ldp/concepts/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.502166Z"
+  "fetched_at": "2026-07-09T11:18:36.546686Z"
 }

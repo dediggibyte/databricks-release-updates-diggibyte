@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 22, 2026**\n\nYou can now enable access requests at the Unity Catalog metastore level. This feature also lets you set a metastore-level destination that's inherited by all catalogs, schemas, and other objects without their own destination. By enabling metastore-level access requests, users can request access to objects even when no destination is explicitly configured. See [Manage access requests](/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations).",
+  "ref_links": [
+    {
+      "text": "Manage access requests",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.446647Z"
+  "fetched_at": "2026-07-09T11:18:36.476031Z"
 }

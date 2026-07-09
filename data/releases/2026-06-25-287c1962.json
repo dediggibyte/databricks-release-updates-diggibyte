@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 25, 2026**\n\nSolution Accelerators are no longer a separate listing type in Databricks Marketplace. The content is unchanged, but they are now categorized as apps (interactive applications) or notebooks (code-based accelerators). See [What is Databricks Marketplace?](/aws/en/marketplace/).",
+  "ref_links": [
+    {
+      "text": "What is Databricks Marketplace?",
+      "url": "https://docs.databricks.com/aws/en/marketplace/"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.432588Z"
+  "fetched_at": "2026-07-09T11:18:36.458135Z"
 }

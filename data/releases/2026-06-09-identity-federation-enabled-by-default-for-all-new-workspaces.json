@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 9, 2026**\n\nOver the next couple of weeks, identity federation is being enabled by default for all new Databricks workspaces, including workspaces that are not attached to a Unity Catalog metastore. This change does not affect existing workspaces. See [Identity federation](/aws/en/admin/users-groups/#enable-identity-federation).",
+  "ref_links": [
+    {
+      "text": "Identity federation",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/#enable-identity-federation"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.498744Z"
+  "fetched_at": "2026-07-09T11:18:36.542510Z"
 }

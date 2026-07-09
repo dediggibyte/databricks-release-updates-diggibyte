@@ -1,17 +1,21 @@
 {
   "product": "Install third-party apps from Databricks Marketplace ​",
-  "tagline": "June 16, 2026 You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "tagline": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
   "updated": "Jun 16, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#install-third-party-apps-from-databricks-marketplace",
+  "docs_url": "https://docs.databricks.com/aws/en/marketplace/get-started-consumer#third-party-apps",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#install-third-party-apps-from-databricks-marketplace",
-  "what_it_does": "June 16, 2026 You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace. The provider's code stays closed source, and you authorize any external access the app needs when you install it.",
-  "why_it_matters": "June 16, 2026 You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "what_it_does": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace. The provider's code stays closed source, and you authorize any external access the app needs when you install it. Open Marketplace and filter by the Apps category to get started.",
+  "why_it_matters": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
   "capabilities": [
     {
-      "title": "June 16, 2026 You",
-      "desc": "June 16, 2026 You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in "
+      "title": "CREATE CATALOG and USE PROVIDER",
+      "desc": "CREATE CATALOG and USE PROVIDER permissions on the Unity Catalog metastore."
+    },
+    {
+      "title": "Metastore admin role",
+      "desc": "Metastore admin role."
     }
   ],
   "prerequisites": [],
@@ -27,7 +31,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 16, 2026 You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
+  "key_takeaway": "You can now discover, install, and run third party data and AI applications from Databricks Marketplace directly in your own Unity Catalog governed workspace.",
   "note_id": "2026-06-16-install-third-party-apps-from-databricks-marketplace",
   "category": "platform"
 }

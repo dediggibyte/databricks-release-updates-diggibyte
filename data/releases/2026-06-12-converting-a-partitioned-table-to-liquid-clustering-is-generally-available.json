@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 12, 2026**\n\nYou can now convert an existing partitioned Delta Lake table to liquid clustering with `ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY`. Conversion minimizes reader and writer downtime and supports both external and managed tables. This feature is generally available in Databricks Runtime 18.1 and above. See [Convert a partitioned table to liquid clustering](/aws/en/tables/clustering#convert-partitioned).",
+  "ref_links": [
+    {
+      "text": "Convert a partitioned table to liquid clustering",
+      "url": "https://docs.databricks.com/aws/en/tables/clustering#convert-partitioned"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.481001Z"
+  "fetched_at": "2026-07-09T11:18:36.519442Z"
 }

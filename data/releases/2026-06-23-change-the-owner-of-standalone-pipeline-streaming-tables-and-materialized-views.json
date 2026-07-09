@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 23, 2026**\n\nYou can now use `ALTER STREAMING TABLE` and `ALTER MATERIALIZED VIEW` with `SET OWNER TO` to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks SQL. See [Use `ALTER` statements with pipeline datasets](/aws/en/ldp/using-alter-sql).",
+  "ref_links": [
+    {
+      "text": "Use ALTER statements with pipeline datasets",
+      "url": "https://docs.databricks.com/aws/en/ldp/using-alter-sql"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.435578Z"
+  "fetched_at": "2026-07-09T11:18:36.462455Z"
 }

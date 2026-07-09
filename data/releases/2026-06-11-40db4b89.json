@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 11, 2026**\n\nYou can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.489882Z"
+  "fetched_at": "2026-07-09T11:18:36.531150Z"
 }

@@ -1,17 +1,29 @@
 {
   "product": "OIDC is now supported for sharing to Iceberg clients ​",
-  "tagline": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "tagline": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
   "updated": "Jun 15, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
-  "what_it_does": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see [Read data shared using Open ID Connect (OIDC) federation from an Iceberg client](/aws/en/opensharing/sharing over oidc iceberg) and [Share with Iceberg recipient](/aws/en/opensharing/create recipient oidc fed share to iceberg).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient. On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
+  "why_it_matters": "On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
   "capabilities": [
     {
-      "title": "June 15, 2026 You",
-      "desc": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured w"
+      "title": "This is useful for sharing",
+      "desc": "This is useful for sharing data within large organizations where different departments do not have direct Databricks access but sh"
+    },
+    {
+      "title": "This approach allows the provider",
+      "desc": "This approach allows the provider to manage access on behalf of the recipient."
+    },
+    {
+      "title": "Security policies, such as MFA",
+      "desc": "Security policies, such as MFA and role-based access control, are enforced by the provider's IdP. External Identity Provider (Reci"
+    },
+    {
+      "title": "The provider sets up the",
+      "desc": "The provider sets up the sharing policy to trust the recipient's IdP."
     }
   ],
   "prerequisites": [],
@@ -27,7 +39,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
+  "key_takeaway": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
   "note_id": "2026-06-15-oidc-is-now-supported-for-sharing-to-iceberg-clients",
   "category": "platform"
 }

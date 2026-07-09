@@ -1,21 +1,23 @@
 {
   "product": "Vector Search is now AI Search ​",
-  "tagline": "June 1, 2026 Vector Search has been renamed to AI Search.",
+  "tagline": "Vector Search has been renamed to AI Search.",
   "updated": "Jun 1, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#vector-search-is-now-ai-search",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/ai-search",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#vector-search-is-now-ai-search",
-  "what_it_does": "June 1, 2026 Vector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "Vector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. On this page Last updated on Jun 25, 2026 Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
+  "why_it_matters": "On this page Last updated on Jun 25, 2026 Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
   "capabilities": [
     {
-      "title": "June 1, 2026 Vector",
-      "desc": "June 1, 2026 Vector Search has been renamed to AI Search."
+      "title": "With standard endpoints, you can",
+      "desc": "With standard endpoints, you can use high QPS to support high sustained throughput. See Scale AI Search endpoint throughput with h"
     }
   ],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "For production use cases"
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +29,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 1, 2026 Vector Search has been renamed to AI Search.",
+  "key_takeaway": "Vector Search has been renamed to AI Search.",
   "note_id": "2026-06-01-vector-search-is-now-ai-search",
   "category": "platform"
 }

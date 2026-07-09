@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 8, 2026**\n\nInbound Private Link for performance-intensive services, such as Lakebase Autoscaling and Zerobus Ingest, is now generally available. See [Configure inbound PrivateLink for performance-intensive services](/aws/en/security/network/front-end/service-direct-privatelink).",
+  "ref_links": [
+    {
+      "text": "Configure inbound PrivateLink for performance-intensive services",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/service-direct-privatelink"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.505121Z"
+  "fetched_at": "2026-07-09T11:18:36.550857Z"
 }

@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 8, 2026**\n\nLakeflow Connect now supports a managed connector for ingestion from Aha!. See [Aha! connector](/aws/en/ingestion/lakeflow-connect/aha).",
+  "ref_links": [
+    {
+      "text": "Aha! connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/aha"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.507286Z"
+  "fetched_at": "2026-07-09T11:18:36.553696Z"
 }

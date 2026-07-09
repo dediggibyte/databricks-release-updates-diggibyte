@@ -1,17 +1,21 @@
 {
   "product": "Use OAuth to authenticate Databricks connections in Power Platform ​",
-  "tagline": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
+  "tagline": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
   "updated": "Jun 15, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/setup",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
-  "what_it_does": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). See [Create a Databricks connection on Microsoft Power Platform](/aws/en/integrations/msft power platform/setup).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). On this page Last updated on Jul 2, 2026 This page explains how to connect to Databricks from Microsoft Power Platform by creating a Databricks connection. You can use your Databricks data to create Power canvas apps, Power Automate flows, and Copilot Studio agents.",
+  "why_it_matters": "Limitations​ The Power Platform connector does not support government clouds.",
   "capabilities": [
     {
-      "title": "June 15, 2026 You",
-      "desc": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to pers"
+      "title": "If you are using OAuth",
+      "desc": "If you are using OAuth, select AWS OAuth Connection."
+    },
+    {
+      "title": "If you are using PAT",
+      "desc": "If you are using PAT, for API Key, enter your PAT in the format of Bearer <personal-access-token>. For Server Hostname, enter the "
     }
   ],
   "prerequisites": [],
@@ -27,7 +31,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 15, 2026 You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
+  "key_takeaway": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
   "note_id": "2026-06-15-use-oauth-to-authenticate-databricks-connections-in-power-platform",
   "category": "platform"
 }

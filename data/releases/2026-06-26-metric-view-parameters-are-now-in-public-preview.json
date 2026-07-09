@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 26, 2026**\n\nYou can now define parameters in metric views to bind values at query time, serving many query variants from a single definition instead of maintaining a separate metric view per variant. See [Use parameters with metric views](/aws/en/business-semantics/metric-views/use-parameters).",
+  "ref_links": [
+    {
+      "text": "Use parameters with metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views/use-parameters"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.431536Z"
+  "fetched_at": "2026-07-09T11:18:36.456864Z"
 }

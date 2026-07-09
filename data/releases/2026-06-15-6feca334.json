@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 15, 2026**\n\nDatabricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.\n\nFor release notes, see [Databricks Runtime 19 (Beta)](/aws/en/release-notes/runtime/19) and [Databricks Runtime 19 for Machine Learning (Beta)](/aws/en/release-notes/runtime/19ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19 (Beta)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    },
+    {
+      "text": "Databricks Runtime 19 for Machine Learning (Beta)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19ml"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.462084Z"
+  "fetched_at": "2026-07-09T11:18:36.495909Z"
 }

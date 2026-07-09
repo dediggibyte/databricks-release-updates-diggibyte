@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 23, 2026**\n\n[Data Classification](/aws/en/data-governance/unity-catalog/data-classification) is now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled, and either HIPAA, HITRUST, PCI-DSS, or FedRAMP Moderate controls or no specific compliance standard selected.",
+  "ref_links": [
+    {
+      "text": "Data Classification",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.438357Z"
+  "fetched_at": "2026-07-09T11:18:36.465662Z"
 }

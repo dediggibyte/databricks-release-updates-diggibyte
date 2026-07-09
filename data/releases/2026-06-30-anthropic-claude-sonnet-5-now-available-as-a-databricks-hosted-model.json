@@ -6,6 +6,20 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 30, 2026**\n\nModel Serving now supports Anthropic [Claude Sonnet 5](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-5) as a Databricks-hosted model. Designed for coding, agentic workflows, and professional work at scale, Claude Sonnet 5 delivers near-Opus-level intelligence with Sonnet's cost efficiency and speed. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis/).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "Claude Sonnet 5",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-5"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.413785Z"
+  "fetched_at": "2026-07-09T11:18:36.435046Z"
 }

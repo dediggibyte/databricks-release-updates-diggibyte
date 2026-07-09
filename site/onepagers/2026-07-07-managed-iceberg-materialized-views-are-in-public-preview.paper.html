@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jul 7, 2026</span>
           </div>
           <h1 class="title">Managed Iceberg materialized views are in Public Preview ​</h1>
-<p class="tagline">July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.</p>        </div>
+<p class="tagline">You can now create a materialized view that is compatible with external Iceberg readers.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--info-400);">
             <span class="bdot" style="background:var(--info-400);"></span>Public Preview
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/iceberg/#materialized-views" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,11 +122,11 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers. This feature is in [Public Preview](/aws/en/release notes/release types).</p>
+            <p class="p">You can now create a materialized view that is compatible with external Iceberg readers. This feature is in Public Preview. To enable it, reach out to your Databricks account team.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">Reduces operational overhead and unlocks new capabilities for data teams on Databricks.</p>
+            <p class="p">Liquid clustering improves query performance.</p>
           </div>
         </div>
         <div class="well">
@@ -134,7 +134,19 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">July 7, 2026 You</div><div class="cd">July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.</div></div>
+              <div><div class="ct">Partition evolution is supported on</div><div class="cd">Partition evolution is supported on managed Iceberg tables only when interacting from external Iceberg engines.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Foreign Iceberg tables don't support</div><div class="cd">Foreign Iceberg tables don't support partition evolution.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Partitioning by BINARY type isn't</div><div class="cd">Partitioning by BINARY type isn't supported. Views aren't accessible from external Iceberg engines.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Fixed(L)</div><div class="cd">Fixed(L)</div></div>
             </div>
           </div>
         </div>
@@ -172,7 +184,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.</div>
+          <div class="tt">You can now create a materialized view that is compatible with external Iceberg readers.</div>
         </div>
       </div>
 

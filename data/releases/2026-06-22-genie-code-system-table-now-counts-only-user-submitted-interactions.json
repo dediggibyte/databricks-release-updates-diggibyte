@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 22, 2026**\n\nThe [Genie Code system table](/aws/en/admin/system-tables/assistant) (`system.access.assistant_events`) now records only user-submitted Genie Code interactions, such as side-panel chat, agent mode, and the inline assistant (`%assistant`). Background and automated requests, such as autocomplete (ghost text), quick-fix suggestions, and automatic renaming, are no longer logged as events.\n\nThis change took effect on May 7, 2026 and corrects earlier behavior that counted these background requests. Event counts recorded before this date can appear higher than actual user activity, so a decrease in daily events around this time is expected and does not indicate a drop in usage.",
+  "ref_links": [
+    {
+      "text": "Genie Code system table",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/assistant"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.444242Z"
+  "fetched_at": "2026-07-09T11:18:36.473096Z"
 }

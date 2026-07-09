@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 18, 2026**\n\nLakebase Autoscaling now supports Postgres 18. Postgres 17 remains the default version. To use Postgres 18, select it when creating a new project. For a full list of supported versions, see [Postgres compatibility](/aws/en/oltp/projects/compatibility).",
+  "ref_links": [
+    {
+      "text": "Postgres compatibility",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/compatibility"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.452368Z"
+  "fetched_at": "2026-07-09T11:18:36.483197Z"
 }

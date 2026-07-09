@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jun 15, 2026</span>
           </div>
           <h1 class="title">OIDC is now supported for sharing to Iceberg clients ​</h1>
-<p class="tagline">June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.</p>        </div>
+<p class="tagline">You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--flow-400);">
             <span class="bdot" style="background:var(--flow-400);"></span>Update
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,11 +122,11 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see [Read data shared using Open ID Connect (OIDC) federation from an Iceberg client](/aws/en/opensharing/sharing over oidc iceberg) and [Share with Iceberg recipient](/aws/en/opensharing/create recipient oidc fed share to iceberg).</p>
+            <p class="p">You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient. On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">Reduces operational overhead and unlocks new capabilities for data teams on Databricks.</p>
+            <p class="p">On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.</p>
           </div>
         </div>
         <div class="well">
@@ -134,7 +134,19 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">June 15, 2026 You</div><div class="cd">June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured w</div></div>
+              <div><div class="ct">This is useful for sharing</div><div class="cd">This is useful for sharing data within large organizations where different departments do not have direct Databricks access but sh</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">This approach allows the provider</div><div class="cd">This approach allows the provider to manage access on behalf of the recipient.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Security policies, such as MFA</div><div class="cd">Security policies, such as MFA and role-based access control, are enforced by the provider's IdP. External Identity Provider (Reci</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">The provider sets up the</div><div class="cd">The provider sets up the sharing policy to trust the recipient's IdP.</div></div>
             </div>
           </div>
         </div>
@@ -172,7 +184,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">June 15, 2026 You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.</div>
+          <div class="tt">You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.</div>
         </div>
       </div>
 

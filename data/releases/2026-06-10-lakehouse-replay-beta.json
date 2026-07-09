@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 10, 2026**\n\nLakehouse Replay is now available in Beta. Lakehouse Replay automatically replays a sampled set of read-only serverless workloads from your workspace against upcoming Databricks Runtime releases to detect and fix regressions before they reach production. It requires no setup, configuration, or maintenance. Your data never leaves your workspace, and you are not billed for the compute used to run the replay.\n\nWorkspace admins can control the enablement of this feature from the workspace **Previews** page. See [Lakehouse Replay](/aws/en/compute/serverless/lakehouse-replay).",
+  "ref_links": [
+    {
+      "text": "Lakehouse Replay",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/lakehouse-replay"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.493302Z"
+  "fetched_at": "2026-07-09T11:18:36.535691Z"
 }

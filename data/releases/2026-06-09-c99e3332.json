@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 9, 2026**\n\nThe `@dp.update_flow` decorator in Lakeflow Spark Declarative Pipelines lets you add an update flow that writes to a sink in update output mode, emitting only the rows that change in each batch. Unlike append flows, update flows support stateful aggregations without requiring a watermark. See [update\\_flow](/aws/en/ldp/developer/ldp-python-ref-update-flow), [generally available](/aws/en/release-notes/release-types).",
+  "ref_links": [
+    {
+      "text": "update_flow",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-update-flow"
+    },
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.501268Z"
+  "fetched_at": "2026-07-09T11:18:36.545535Z"
 }

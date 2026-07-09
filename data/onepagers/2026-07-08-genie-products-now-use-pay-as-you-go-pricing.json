@@ -1,19 +1,14 @@
 {
   "product": "Genie products now use pay-as-you-go pricing ​",
-  "tagline": "July 8, 2026 Starting July 8, 2026 at 00:00 UTC, Genie products, including [Genie Agents](/aws/en/genie/), [Genie Code](/aws/en/genie code/), and [Genie One](/aws/en/genie one/), are billed following ",
+  "tagline": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language ",
   "updated": "Jul 8, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/budgets",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing",
-  "what_it_does": "July 8, 2026 Starting July 8, 2026 at 00:00 UTC, Genie products, including [Genie Agents](/aws/en/genie/), [Genie Code](/aws/en/genie code/), and [Genie One](/aws/en/genie one/), are billed following a pay as you go pricing model that includes 150 DBUs of free large language model (LLM) usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free amount is billed in DBUs, reflecting the underlying LLM models and agents that power each Genie session.",
-  "why_it_matters": "To monitor and control Genie spend for your account, see [Manage budgets and cost controls for Genie](/aws/en/genie/budgets).",
-  "capabilities": [
-    {
-      "title": "July 8, 2026 Starting",
-      "desc": "July 8, 2026 Starting July 8, 2026 at 00:00 UTC, Genie products, including [Genie Agents](/aws/en/genie/), [Genie Code](/aws/en/ge"
-    }
-  ],
+  "what_it_does": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language model (LLM) usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free amount is billed in DBUs, reflecting the underlying LLM models and agents that power each Genie session. To monitor and control Genie spend for your account, see Manage budgets and cost controls for Genie.",
+  "why_it_matters": "To monitor and control Genie spend for your account, see Manage budgets and cost controls for Genie.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 8, 2026 Starting July 8, 2026 at 00:00 UTC, Genie products, including [Genie Agents](/aws/en/genie/), [Genie Code](/aws/en/genie code/), and [Genie One](/aws/en/genie one/), are billed following ",
+  "key_takeaway": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language ",
   "note_id": "2026-07-08-genie-products-now-use-pay-as-you-go-pricing",
   "category": "platform"
 }

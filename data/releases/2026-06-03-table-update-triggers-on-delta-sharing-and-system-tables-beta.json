@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 3, 2026**\n\nTable update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a system table. This feature supports Databricks-to-Databricks Delta Sharing only. See [Add a trigger to OpenSharing and system tables](/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys).",
+  "ref_links": [
+    {
+      "text": "Add a trigger to OpenSharing and system tables",
+      "url": "https://docs.databricks.com/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.519166Z"
+  "fetched_at": "2026-07-09T11:18:36.569474Z"
 }

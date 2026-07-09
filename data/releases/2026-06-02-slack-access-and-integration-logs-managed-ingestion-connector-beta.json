@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 2, 2026**\n\nThe Slack Access and Integration Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest workspace access logs and app integration change logs from Slack into Databricks. See [Slack Access and Integration Logs connector](/aws/en/ingestion/lakeflow-connect/slack-access-integration-logs).",
+  "ref_links": [
+    {
+      "text": "Slack Access and Integration Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/slack-access-integration-logs"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.524060Z"
+  "fetched_at": "2026-07-09T11:18:36.575820Z"
 }

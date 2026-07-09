@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 26, 2026**\n\nThe managed Microsoft Dynamics 365 connector in Lakeflow Connect is now generally available. The connector allows you to ingest CRM and ERP data from Dynamics 365 into Databricks using Azure Synapse Link. See [Microsoft Dynamics 365 connector](/aws/en/ingestion/lakeflow-connect/d365).",
+  "ref_links": [
+    {
+      "text": "Microsoft Dynamics 365 connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/d365"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.430521Z"
+  "fetched_at": "2026-07-09T11:18:36.455607Z"
 }

@@ -1,19 +1,14 @@
 {
   "product": "Budgets are now generally available ​",
-  "tagline": "July 6, 2026 Budgets, including budgets for Unity AI Gateway, are now generally available.",
+  "tagline": "Budgets, including budgets for Unity AI Gateway, are now generally available.",
   "updated": "Jul 6, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#budgets-are-now-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/budgets",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#budgets-are-now-generally-available",
-  "what_it_does": "July 6, 2026 Budgets, including budgets for Unity AI Gateway, are now generally available. Budgets let admins define spending thresholds.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "July 6, 2026 Budgets,",
-      "desc": "July 6, 2026 Budgets, including budgets for Unity AI Gateway, are now generally available."
-    }
-  ],
+  "what_it_does": "Budgets, including budgets for Unity AI Gateway, are now generally available. Budgets let admins define spending thresholds. For requests managed through Unity AI Gateway, including Genie interactions, admins can set additional per user thresholds and overrides, with configurable actions such as email alerting and usage blocking.",
+  "why_it_matters": "To set budgets for Genie specifically, see Manage budgets and cost controls for Genie.",
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 6, 2026 Budgets, including budgets for Unity AI Gateway, are now generally available.",
+  "key_takeaway": "Budgets, including budgets for Unity AI Gateway, are now generally available.",
   "note_id": "2026-07-06-budgets-are-now-generally-available",
   "category": "platform"
 }

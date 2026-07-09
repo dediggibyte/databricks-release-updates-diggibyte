@@ -1,17 +1,29 @@
 {
   "product": "Databricks connector for Power Platform is generally available ​",
-  "tagline": "June 23, 2026 The Databricks connector for Microsoft Power Platform is now [generally available](/aws/en/release notes/release types).",
+  "tagline": "The Databricks connector for Microsoft Power Platform is now generally available.",
   "updated": "Jun 23, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
-  "what_it_does": "June 23, 2026 The Databricks connector for Microsoft Power Platform is now [generally available](/aws/en/release notes/release types). See [Databricks and Microsoft Power Platform integration](/aws/en/integrations/msft power platform/).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "The Databricks connector for Microsoft Power Platform is now generally available. On this page Last updated on Jul 8, 2026 The Databricks connector for Microsoft Power Platform enables you to build low code applications, workflows, and agents using your Databricks data. Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
+  "why_it_matters": "Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
   "capabilities": [
     {
-      "title": "June 23, 2026 The",
-      "desc": "June 23, 2026 The Databricks connector for Microsoft Power Platform is now [generally available](/aws/en/release notes/release typ"
+      "title": "Create a Databricks connection",
+      "desc": "Create a Databricks connection"
+    },
+    {
+      "title": "Set up the Databricks connector",
+      "desc": "Set up the Databricks connector on Microsoft Power Platform by creating a connection."
+    },
+    {
+      "title": "Use Databricks data on Power",
+      "desc": "Use Databricks data on Power Platform"
+    },
+    {
+      "title": "Build Power canvas apps, Power",
+      "desc": "Build Power canvas apps, Power Automate flows, and Copilot Studio agents using your Databricks data and Genie Agents."
     }
   ],
   "prerequisites": [],
@@ -27,7 +39,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 23, 2026 The Databricks connector for Microsoft Power Platform is now [generally available](/aws/en/release notes/release types).",
+  "key_takeaway": "The Databricks connector for Microsoft Power Platform is now generally available.",
   "note_id": "2026-06-23-databricks-connector-for-power-platform-is-generally-available",
   "category": "platform"
 }

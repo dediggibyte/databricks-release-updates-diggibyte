@@ -6,6 +6,20 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 15, 2026**\n\nThe `FLOW AUTO CDC` clause for [CREATE STREAMING TABLE](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table) in Databricks SQL is now generally available. Use `AUTO CDC` to process change data capture (CDC) records from a source into a streaming table, automatically handling out-of-order records as SCD type 1 or SCD type 2 without the complex logic that `MERGE INTO` requires. See [CREATE STREAMING TABLE ... FLOW AUTO CDC](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc), [generally available](/aws/en/release-notes/release-types).",
+  "ref_links": [
+    {
+      "text": "CREATE STREAMING TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table"
+    },
+    {
+      "text": "CREATE STREAMING TABLE ... FLOW AUTO CDC",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc"
+    },
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.472488Z"
+  "fetched_at": "2026-07-09T11:18:36.508671Z"
 }

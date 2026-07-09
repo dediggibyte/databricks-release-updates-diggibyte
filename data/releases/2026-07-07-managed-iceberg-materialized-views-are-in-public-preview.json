@@ -6,6 +6,16 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**July 7, 2026**\n\nYou can now create a materialized view that is compatible with external Iceberg readers. This feature is in [Public Preview](/aws/en/release-notes/release-types). To enable it, reach out to your Databricks account team. See [Create a materialized view compatible with external Iceberg readers](/aws/en/iceberg/#materialized-views).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Create a materialized view compatible with external Iceberg readers",
+      "url": "https://docs.databricks.com/aws/en/iceberg/#materialized-views"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:52.425335Z"
+  "fetched_at": "2026-07-09T11:18:38.483973Z"
 }

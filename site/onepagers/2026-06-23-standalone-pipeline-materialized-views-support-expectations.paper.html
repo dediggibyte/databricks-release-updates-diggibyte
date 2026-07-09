@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jun 23, 2026</span>
           </div>
           <h1 class="title">Standalone pipeline materialized views support expectations ​</h1>
-<p class="tagline">June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.</p>        </div>
+<p class="tagline">You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--flow-400);">
             <span class="bdot" style="background:var(--flow-400);"></span>Update
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/june#standalone-pipeline-materialized-views-support-expectations" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/ldp/expectations" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,7 +122,7 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint.</p>
+            <p class="p">You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint. Streaming tables created in Databricks SQL already support expectations.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
@@ -134,13 +134,32 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">June 23, 2026 You</div><div class="cd">June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expec</div></div>
+              <div><div class="ct">No expectations are defined on</div><div class="cd">No expectations are defined on a query.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">A flow uses an operator</div><div class="cd">A flow uses an operator that does not support expectations.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">The flow type, such as</div><div class="cd">The flow type, such as sinks, does not support expectations.</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">There are no updates to</div><div class="cd">There are no updates to the associated streaming table or materialized view for a given flow run.</div></div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- ROW B: prerequisites | use cases | limitations -->
+      <div class="grid-3">
+        <div class="well">
+          <div class="label sec-label" style="margin-bottom:12px;">Recommended use cases</div>
+          <div class="chips">
+<span class="chip">For advanced use cases</span><span class="chip">recommended best practices</span><span class="chip">see Expectation recommendations</span><span class="chip">advanced patterns.</span>          </div>
+        </div>
+      </div>
 
       <!-- ARCHITECTURE -->
       <div class="well mt18" style="background:var(--well);">
@@ -172,7 +191,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">June 23, 2026 You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.</div>
+          <div class="tt">You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.</div>
         </div>
       </div>
 

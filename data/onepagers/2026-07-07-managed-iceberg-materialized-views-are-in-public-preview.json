@@ -1,17 +1,29 @@
 {
   "product": "Managed Iceberg materialized views are in Public Preview ​",
-  "tagline": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.",
+  "tagline": "You can now create a materialized view that is compatible with external Iceberg readers.",
   "updated": "Jul 7, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/iceberg/#materialized-views",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
-  "what_it_does": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers. This feature is in [Public Preview](/aws/en/release notes/release types).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "You can now create a materialized view that is compatible with external Iceberg readers. This feature is in Public Preview. To enable it, reach out to your Databricks account team.",
+  "why_it_matters": "Liquid clustering improves query performance.",
   "capabilities": [
     {
-      "title": "July 7, 2026 You",
-      "desc": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers."
+      "title": "Partition evolution is supported on",
+      "desc": "Partition evolution is supported on managed Iceberg tables only when interacting from external Iceberg engines."
+    },
+    {
+      "title": "Foreign Iceberg tables don't support",
+      "desc": "Foreign Iceberg tables don't support partition evolution."
+    },
+    {
+      "title": "Partitioning by BINARY type isn't",
+      "desc": "Partitioning by BINARY type isn't supported. Views aren't accessible from external Iceberg engines."
+    },
+    {
+      "title": "Fixed(L)",
+      "desc": "Fixed(L)"
     }
   ],
   "prerequisites": [],
@@ -27,7 +39,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "July 7, 2026 You can now create a materialized view that is compatible with external Iceberg readers.",
+  "key_takeaway": "You can now create a materialized view that is compatible with external Iceberg readers.",
   "note_id": "2026-07-07-managed-iceberg-materialized-views-are-in-public-preview",
   "category": "platform"
 }

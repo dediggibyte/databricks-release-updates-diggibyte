@@ -1,21 +1,21 @@
 {
   "product": "Reorganized Lakeflow Spark Declarative Pipelines documentation ​",
-  "tagline": "June 9, 2026 The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [Concepts](/aws/en/ldp/concepts/).",
+  "tagline": "The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under Concepts.",
   "updated": "Jun 9, 2026",
   "status_label": "Update",
   "status": "changed",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#reorganized-lakeflow-spark-declarative-pipelines-documentation",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/concepts/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#reorganized-lakeflow-spark-declarative-pipelines-documentation",
-  "what_it_does": "June 9, 2026 The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [Concepts](/aws/en/ldp/concepts/).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 9, 2026 The",
-      "desc": "June 9, 2026 The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [C"
-    }
-  ],
+  "what_it_does": "The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under Concepts. On this page Last updated on Jun 26, 2026 Lakeflow Spark Declarative Pipelines (SDP) is a declarative framework for building batch and streaming data pipelines in SQL and Python. Its core concepts are pipelines, flows, streaming tables, materialized views, and sinks, which work together to process data with automatic orchestration and incremental updates.",
+  "why_it_matters": "Lakeflow SDP extends and is interoperable with Apache Spark Declarative Pipelines, while running on the performance optimized Databricks Runtime, and the Lakeflow Spark Declarative Pipelines flows API uses the same DataFrame API as Apache Spark and Structured Streaming.",
+  "capabilities": [],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "Azure ADLS Gen2",
+    "Google Cloud Storage)",
+    "message buses (Apache Kafka",
+    "Amazon Kinesis"
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +27,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 9, 2026 The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under [Concepts](/aws/en/ldp/concepts/).",
+  "key_takeaway": "The Lakeflow Spark Declarative Pipelines documentation is reorganized: all conceptual topics are now grouped under Concepts.",
   "note_id": "2026-06-09-reorganized-lakeflow-spark-declarative-pipelines-documentation",
   "category": "platform"
 }

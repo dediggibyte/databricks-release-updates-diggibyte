@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 8, 2026**\n\nThe Zoho Books connector in Lakeflow Connect is now available in Beta. The connector ingests accounting data such as invoices, bills, contacts, and bank transactions from Zoho Books into Databricks. See [Zoho Books connector](/aws/en/ingestion/lakeflow-connect/zoho-books).",
+  "ref_links": [
+    {
+      "text": "Zoho Books connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zoho-books"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.504117Z"
+  "fetched_at": "2026-07-09T11:18:36.549558Z"
 }

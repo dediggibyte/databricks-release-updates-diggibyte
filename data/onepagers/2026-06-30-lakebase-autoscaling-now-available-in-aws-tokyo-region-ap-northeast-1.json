@@ -1,17 +1,29 @@
 {
   "product": "Lakebase Autoscaling now available in AWS Tokyo region (ap-northeast-1) ​",
-  "tagline": "June 30, 2026 Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "tagline": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
   "updated": "Jun 30, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/get-started",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
-  "what_it_does": "June 30, 2026 Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo). For all supported regions, see [Region availability](/aws/en/oltp/projects/manage projects availability).",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "what_it_does": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo). For all supported regions, see Region availability. To get started, see Get a Postgres database.",
+  "why_it_matters": "The compute for the production branch has scale to zero enabled by default with a 24 hour inactivity timeout, but you can configure this setting if needed.",
   "capabilities": [
     {
-      "title": "June 30, 2026 Lakebase",
-      "desc": "June 30, 2026 Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo)."
+      "title": "Build an app",
+      "desc": "Build an app"
+    },
+    {
+      "title": "Deploy a Databricks App with",
+      "desc": "Deploy a Databricks App with automatic Lakebase connection."
+    },
+    {
+      "title": "Register in Unity Catalog",
+      "desc": "Register in Unity Catalog"
+    },
+    {
+      "title": "Unified governance, lineage, and cross-source",
+      "desc": "Unified governance, lineage, and cross-source queries."
     }
   ],
   "prerequisites": [],
@@ -27,7 +39,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 30, 2026 Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "key_takeaway": "Lakebase Autoscaling is now available in ap northeast 1 (Asia Pacific Tokyo).",
   "note_id": "2026-06-30-lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
   "category": "platform"
 }

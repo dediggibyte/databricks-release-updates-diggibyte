@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 22, 2026**\n\nThe Square connector in Lakeflow Connect is now available in Beta. The connector ingests point-of-sale data such as payments, orders, customers, catalog items, and inventory from Square into Databricks. See [Square connector](/aws/en/ingestion/lakeflow-connect/square).",
+  "ref_links": [
+    {
+      "text": "Square connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/square"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.440477Z"
+  "fetched_at": "2026-07-09T11:18:36.468260Z"
 }

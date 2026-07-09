@@ -1,21 +1,19 @@
 {
   "product": "ai_query is now generally available ​",
-  "tagline": "June 15, 2026 The ai query function is now generally available.",
+  "tagline": "The ai query function is now generally available.",
   "updated": "Jun 15, 2026",
   "status_label": "GA",
   "status": "ga",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_query-is-now-generally-available",
+  "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-query",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_query-is-now-generally-available",
-  "what_it_does": "June 15, 2026 The ai query function is now generally available. This general purpose AI Function lets you query any supported AI model directly from SQL or Python.",
-  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 15, 2026 The",
-      "desc": "June 15, 2026 The ai query function is now generally available."
-    }
-  ],
+  "what_it_does": "The ai query function is now generally available. This general purpose AI Function lets you query any supported AI model directly from SQL or Python. On this page Last updated on Jul 1, 2026 ai query is a general purpose AI Function that lets you query any supported AI model directly from SQL or Python.",
+  "why_it_matters": "These endpoints are fully managed and scale automatically without provisioning or configuration.",
+  "capabilities": [],
   "prerequisites": [],
-  "use_cases": [],
+  "use_cases": [
+    "Handle errors using failOnError",
+    "Structured outputs on Databricks for how to specify structured output for your query responses."
+  ],
   "limitations": [],
   "architecture": [
     "Databricks Platform",
@@ -27,7 +25,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 15, 2026 The ai query function is now generally available.",
+  "key_takeaway": "The ai query function is now generally available.",
   "note_id": "2026-06-15-ai-query-is-now-generally-available",
   "category": "platform"
 }

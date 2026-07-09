@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jul 7, 2026</span>
           </div>
           <h1 class="title">REPLACE WHERE flows are now generally available ​</h1>
-<p class="tagline">July 7, 2026 REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.</p>        </div>
+<p class="tagline">REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--ok-400);">
             <span class="bdot" style="background:var(--ok-400);"></span>GA
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/july#replace-where-flows-are-now-generally-available" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/ldp/flows-replace-where" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,11 +122,11 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">July 7, 2026 REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available. Use them to replace only rows matching a predicate on each refresh, without reprocessing the full table history.</p>
+            <p class="p">REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available. Use them to replace only rows matching a predicate on each refresh, without reprocessing the full table history. On this page Last updated on Jul 7, 2026 REPLACE WHERE flows in Lakeflow Spark Declarative Pipelines recompute and overwrite a targeted subset of a table without reprocessing your entire table history.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">Reduces operational overhead and unlocks new capabilities for data teams on Databricks.</p>
+            <p class="p">Example: Initial historical load​ To perform a one time backfill of historical data when first setting up a pipeline: Python pipeline id = "<pipeline id " overrides = [ { "flow name": "orders enriched", "predicate override": "date BETWEEN '2020 01 01' AND '2024 12 31'", } ] resp = start update with replace where( pipeline id=pipeline id, replace where overrides=overrides, ) print(resp) Example: Correct a column for a specific period​ After updating a column definition, backfill the change for a targeted historical range: Python pipeline id = "<pipeline id " overrides = [ { "flow name": "orders enriched", "predicate override": "date = date add(current date(), 30)", } ] resp = start update with replace where( pipeline id=pipeline id, replace where overrides=overrides, refresh selection=["orders enriched"], ) print(resp) Combine multiple dimensions in a single predicate override: Python overrides = [ { "flow name": "orders enriched", "predicate override": "date = date add(current date(), 30) AND region = 'asia'", } ] Helper function: start update with replace where Use the pipeline update API from a notebook to submit predicate overrides: Python from databricks.sdk import WorkspaceClient from databricks.sdk.service.pipelines import StartUpdateResponse def start update with replace where( pipeline id: str, replace where overrides: list[dict], refresh selection: list[str] = None, ) StartUpdateResponse: """Start a pipeline update with REPLACE WHERE predicate overrides.""" client = WorkspaceClient() body = { "pipeline id": pipeline id, "cause": "JOB TASK", "update cause details": { "job details": {"performance target": "PERFORMANCE"} }, "replace where overrides": replace where overrides, } if refresh selection: body["refresh selection"] = refresh selection res = client.api client.do( "POST", f"/api/2.0/pipelines/{pipeline id}/updates", body=body, headers={"Accept": "application/json", "Content Type": "application/json"}, ) return StartUpdateResponse.from dict(res) DML statements​ Run DML statements directly on the target table from outside the pipeline to perform initial loads or corrections, such as loading from a legacy table: SQL INSERT INTO orders enriched SELECT FROM orders enriched legacy WHERE date < '2025 01 01'; Rows inserted through DML are not subject to the REPLACE WHERE predicate and persist across scheduled refreshes unless they fall within the predicate range of a future run.</p>
           </div>
         </div>
         <div class="well">
@@ -134,7 +134,15 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">July 7, 2026 REPLACE</div><div class="cd">July 7, 2026 REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.</div></div>
+              <div><div class="ct">Target tables with longer retention</div><div class="cd">Target tables with longer retention than the source</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Preventing recomputation when a dimension</div><div class="cd">Preventing recomputation when a dimension table changes</div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Schema evolution without recomputing entire</div><div class="cd">Schema evolution without recomputing entire history</div></div>
             </div>
           </div>
         </div>
@@ -172,7 +180,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">July 7, 2026 REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.</div>
+          <div class="tt">REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available.</div>
         </div>
       </div>
 

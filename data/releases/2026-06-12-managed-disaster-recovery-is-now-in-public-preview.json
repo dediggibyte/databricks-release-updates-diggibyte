@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 12, 2026**\n\nManaged disaster recovery (DR) is now in Public Preview. Managed DR replicates your Unity Catalog metadata, managed table data, and workspace assets to a secondary region, and provides a stable URL that survives failover so downstream clients do not need to be reconfigured. You configure and operate managed DR from the new **Resilience** section of the account console.\n\nAccess to managed disaster recovery is currently gated. Contact your Databricks account team to enable managed DR on your account. See [Managed disaster recovery](/aws/en/admin/managed-disaster-recovery).",
+  "ref_links": [
+    {
+      "text": "Managed disaster recovery",
+      "url": "https://docs.databricks.com/aws/en/admin/managed-disaster-recovery"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.475910Z"
+  "fetched_at": "2026-07-09T11:18:36.512841Z"
 }

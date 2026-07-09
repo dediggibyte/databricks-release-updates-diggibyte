@@ -6,6 +6,20 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 11, 2026**\n\nEndpoint telemetry for [custom model serving endpoints](/aws/en/machine-learning/model-serving/custom-models) is now [generally available](/aws/en/release-notes/release-types). Configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your endpoints to Unity Catalog tables. See [Persist custom model serving data to Unity Catalog](/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs).",
+  "ref_links": [
+    {
+      "text": "custom model serving endpoints",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-models"
+    },
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Persist custom model serving data to Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.483411Z"
+  "fetched_at": "2026-07-09T11:18:36.522705Z"
 }

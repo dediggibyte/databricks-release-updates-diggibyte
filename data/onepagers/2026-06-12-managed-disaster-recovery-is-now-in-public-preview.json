@@ -1,19 +1,14 @@
 {
   "product": "Managed disaster recovery is now in Public Preview ​",
-  "tagline": "June 12, 2026 Managed disaster recovery (DR) is now in Public Preview.",
+  "tagline": "Managed disaster recovery (DR) is now in Public Preview.",
   "updated": "Jun 12, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
-  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-disaster-recovery-is-now-in-public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/managed-disaster-recovery",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-disaster-recovery-is-now-in-public-preview",
-  "what_it_does": "June 12, 2026 Managed disaster recovery (DR) is now in Public Preview. Managed DR replicates your Unity Catalog metadata, managed table data, and workspace assets to a secondary region, and provides a stable URL that survives failover so downstream clients do not need to be reconfigured.",
+  "what_it_does": "Managed disaster recovery (DR) is now in Public Preview. Managed DR replicates your Unity Catalog metadata, managed table data, and workspace assets to a secondary region, and provides a stable URL that survives failover so downstream clients do not need to be reconfigured. You configure and operate managed DR from the new Resilience section of the account console.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 12, 2026 Managed",
-      "desc": "June 12, 2026 Managed disaster recovery (DR) is now in Public Preview."
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 12, 2026 Managed disaster recovery (DR) is now in Public Preview.",
+  "key_takeaway": "Managed disaster recovery (DR) is now in Public Preview.",
   "note_id": "2026-06-12-managed-disaster-recovery-is-now-in-public-preview",
   "category": "platform"
 }

@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 2, 2026**\n\nLakeflow Connect now supports a managed connector for ingestion from Pendo. See [Pendo connector](/aws/en/ingestion/lakeflow-connect/pendo-overview).",
+  "ref_links": [
+    {
+      "text": "Pendo connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/pendo-overview"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.521183Z"
+  "fetched_at": "2026-07-09T11:18:36.572101Z"
 }

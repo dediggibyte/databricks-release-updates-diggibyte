@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 10, 2026**\n\nLakeflow Connect now supports a managed connector for ingestion from Zip. See [Zip connector](/aws/en/ingestion/lakeflow-connect/zip).",
+  "ref_links": [
+    {
+      "text": "Zip connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zip"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.495417Z"
+  "fetched_at": "2026-07-09T11:18:36.538252Z"
 }

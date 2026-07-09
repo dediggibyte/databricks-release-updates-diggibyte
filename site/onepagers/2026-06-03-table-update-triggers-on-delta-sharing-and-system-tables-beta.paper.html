@@ -109,12 +109,12 @@
             <span class="label" style="color:var(--c-text-2)">Platform · Updated Jun 3, 2026</span>
           </div>
           <h1 class="title">Table update triggers on Delta Sharing and system tables (Beta) ​</h1>
-<p class="tagline">June 3, 2026 Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.</p>        </div>
+<p class="tagline">Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.</p>        </div>
         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
           <span class="badge" style="color:var(--warn-400);">
             <span class="bdot" style="background:var(--warn-400);"></span>Beta
           </span>
-<a class="rail-link" href="https://docs.databricks.com/aws/en/release-notes/product/2026/june#table-update-triggers-on-delta-sharing-and-system-tables-beta" target="_blank" rel="noopener">docs ↗</a>        </div>
+<a class="rail-link" href="https://docs.databricks.com/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys" target="_blank" rel="noopener">docs ↗</a>        </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
@@ -122,11 +122,11 @@
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
-            <p class="p">June 3, 2026 Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a system table.</p>
+            <p class="p">Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a system table. This feature supports Databricks to Databricks Delta Sharing only.</p>
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">Reduces operational overhead and unlocks new capabilities for data teams on Databricks.</p>
+            <p class="p">Table update triggers do not incur additional costs other than cloud provider costs associated with listing tables and reading updates from the storage location.</p>
           </div>
         </div>
         <div class="well">
@@ -134,13 +134,29 @@
           <div class="caps">
             <div class="cap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">June 3, 2026 Table</div><div class="cd">June 3, 2026 Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in additi</div></div>
+              <div><div class="ct">Table Update Triggers on OpenSharing</div><div class="cd">Table Update Triggers on OpenSharing (Recipient): A workspace-level beta, enabled in the recipient workspace where the trigger is </div></div>
+            </div>
+            <div class="cap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <div><div class="ct">Table Update Triggers on OpenSharing</div><div class="cd">Table Update Triggers on OpenSharing (Provider): An account-level beta, enabled in the provider account that owns the shared data.</div></div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- ROW B: prerequisites | use cases | limitations -->
+      <div class="grid-3">
+        <div class="callout warn">
+          <div class="label" style="color:var(--warn-400); margin-bottom:12px;">Limitations · remember</div>
+          <div class="checklist">
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Views that use readfiles (they can read from a supported table that reads files, but cannot directly use readfiles).</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Views that depend on tables that are not in Unity Catalog.</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Views that depend on federated tables. Creation of triggers for views containing unsupported dependencies still succeed, but no job runs are triggered when an unsupported dependency is updated. Table update triggers monitor changes to the dependent tables of a view and considers the view updated if any of the dependent tables is updated. It is possible for a job run to be triggered for data changes that are filtered out by the view definition. Source tables for a view are counted towards the limit of 10 tables per trigger.</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">For example, if a view depends on 11 tables, it is not possible to use it in a table update trigger. Similarly a trigger with two views, each of which depends on 6 tables, counts as 12 tables. There is a separate limit of 10 dependent views per monitored view.</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">For example, if a view depends on 11 other views, it is not possible to use it in a table update trigger, even if this does not break the 10 tables per trigger rule.</span></div>
+          </div>
+        </div>
+      </div>
 
       <!-- ARCHITECTURE -->
       <div class="well mt18" style="background:var(--well);">
@@ -172,7 +188,7 @@
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
-          <div class="tt">June 3, 2026 Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.</div>
+          <div class="tt">Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.</div>
         </div>
       </div>
 

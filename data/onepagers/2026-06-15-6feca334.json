@@ -1,19 +1,14 @@
 {
   "product": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are in Beta",
-  "tagline": "June 15, 2026 Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.",
+  "tagline": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.",
   "updated": "Jun 15, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-in-beta",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-in-beta",
-  "what_it_does": "June 15, 2026 Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0. For release notes, see [Databricks Runtime 19 (Beta)](/aws/en/release notes/runtime/19) and [Databricks Runtime 19 for Machine Learning (Beta)](/aws/en/release notes/runtime/19ml).",
+  "what_it_does": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0. For release notes, see Databricks Runtime 19 (Beta) and Databricks Runtime 19 for Machine Learning (Beta).",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
-  "capabilities": [
-    {
-      "title": "June 15, 2026 Databricks",
-      "desc": "June 15, 2026 Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0."
-    }
-  ],
+  "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
   "limitations": [],
@@ -27,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "June 15, 2026 Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.",
+  "key_takeaway": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.",
   "note_id": "2026-06-15-6feca334",
   "category": "platform"
 }

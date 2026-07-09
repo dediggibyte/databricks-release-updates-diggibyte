@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 1, 2026**\n\nVector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. See [Databricks AI Search](/aws/en/ai-search/ai-search).",
+  "ref_links": [
+    {
+      "text": "Databricks AI Search",
+      "url": "https://docs.databricks.com/aws/en/ai-search/ai-search"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.543849Z"
+  "fetched_at": "2026-07-09T11:18:36.595392Z"
 }

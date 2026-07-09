@@ -6,6 +6,12 @@
   "cloud": "aws",
   "category": "platform",
   "body": "**June 3, 2026**\n\nFull page Genie Code is now available in Beta. The full page experience is a command center for Genie Code, where the active thread is shown prominently, surfacing assets like notebooks and files alongside it as tabs when needed. You can run multiple threads in parallel, switch between them easily, and easily personalize Genie Code with skills, instructions, and MCP servers. See [Full page Genie Code](/aws/en/genie-code/full-page).",
+  "ref_links": [
+    {
+      "text": "Full page Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code/full-page"
+    }
+  ],
   "source": "archive",
-  "fetched_at": "2026-07-09T10:37:50.518126Z"
+  "fetched_at": "2026-07-09T11:18:36.567984Z"
 }
