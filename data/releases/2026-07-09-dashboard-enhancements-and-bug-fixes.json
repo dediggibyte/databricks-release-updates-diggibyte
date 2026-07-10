@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-09-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Import BI files is generally available**: Importing Power BI and Tableau reports as AI/BI dashboards with Genie Code is now generally available. You can also start an import directly from the dashboard list page. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Dashboard Ask Genie is generally available**: The **Ask Genie** button on published dashboards is now generally available. See [Genie Agents with dashboards](/aws/en/dashboards/genie-spaces).\n* **Ask Genie handles partially supported datasets**: When only some datasets in a dashboard use unsupported SQL expressions, Ask Genie now answers from the supported datasets instead of failing. See  [Incompatible SQL expressions](/aws/en/dashboards/genie-spaces#sql-expressions).\n* **English names for choropleth regions**: Choropleth maps now support English region names from the `name_en` column as the identifier for admin-0 (country) boundaries. See [Region](/aws/en/dashboards/manage/visualizations/maps#region).\n* **Hide pivot table column headers**: Authors can now hide the column header in a pivot table. See [Value-level settings](/aws/en/dashboards/manage/visualizations/tables#value-level-settings).\n* **Genie Code on by default for compliance security profile**: For workspaces with a compliance security profile (CSP), Genie Code for dashboard authoring is now turned on by default and runs on Databricks-hosted models. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **Empty multi-select filter defaults in Genie Code**: Genie Code can now use an empty multi-select (\"All\") default for parameter filters instead of requiring a single default value.\n* **Cluster-by and partition-by for local metric views**: Local metric views now support cluster-by and partition-by configuration in the UI and YAML. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Apply filters fix**: Fixed a bug where the apply button on filters cleared the text input instead of applying the filter.\n* **Dashboard import fix**: Fixed a bug where importing a dashboard failed if it contained a bookmark that referenced a deleted widget.",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Genie Agents with dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces"
+    },
+    {
+      "text": "Incompatible SQL expressions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#sql-expressions"
+    },
+    {
+      "text": "Region",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps#region"
+    },
+    {
+      "text": "Value-level settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#value-level-settings"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-10T10:27:56.619132Z"
+}

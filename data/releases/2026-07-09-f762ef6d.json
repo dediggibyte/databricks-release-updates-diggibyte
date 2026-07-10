@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-09-f762ef6d",
+  "title": "Databricks SQL alerts are now available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-sql-alerts-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL alerts now support all compliance security profile standards that Databricks supports, and are available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nUse Databricks SQL alerts to monitor data and KPIs by running queries on a schedule, evaluating conditions, and notifying recipients when the conditions are met.\n\nSee [Databricks SQL alerts](/aws/en/sql/user/alerts).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Databricks SQL alerts",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-10T10:27:56.621272Z"
+}

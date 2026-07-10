@@ -1,0 +1,24 @@
+{
+  "product": "OpenAI GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna now available as…",
+  "tagline": "Model Serving now supports OpenAI GPT 5.6 Sol, GPT 5.6 Terra, and GPT 5.6 Luna as Databricks hosted models.",
+  "updated": "Jul 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#openai-gpt-56-sol-gpt-56-terra-and-gpt-56-luna-now-available-as-databricks-hosted-models",
+  "what_it_does": "Model Serving now supports OpenAI GPT 5.6 Sol, GPT 5.6 Terra, and GPT 5.6 Luna as Databricks hosted models. You can access these models using Foundation Model APIs pay per token. Customers are responsible for ensuring their compliance with applicable terms.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable terms.",
+  "plain_summary": "Model Serving now supports OpenAI GPT 5.6 Sol, GPT 5.6 Terra, and GPT 5.6 Luna as Databricks hosted models. You can access these models using Foundation Model APIs pay per token.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports OpenAI GPT 5.6 Sol, GPT 5.6 Terra, and GPT 5.6 Luna as Databricks hosted models.",
+  "note_id": "2026-07-09-1b655e2d",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-09-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Spaces renamed to Genie Agents**: Genie Spaces are now called Genie Agents.\n* **SQL expressions grouped with example SQL**: In the authoring experience, SQL expressions are now grouped with example SQL queries so you can define and manage both in one place. See [Define SQL expressions](/aws/en/genie/tune-quality#sql-expressions).\n* **Consistent Genie Agent experience in Genie One**: In Genie One, a Genie Agent now opens as a chat if you have viewing rights only, or in the Analytics and AI workspace UI if you have authoring privileges. See [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Define SQL expressions",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#sql-expressions"
+    },
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-10T10:27:56.615867Z"
+}

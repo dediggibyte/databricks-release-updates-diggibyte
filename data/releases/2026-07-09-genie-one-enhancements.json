@@ -1,0 +1,33 @@
+{
+  "id": "2026-07-09-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Document citations**: Documents now show citations that link content back to the data and sources Genie One used to generate the document. See [View citations](/aws/en/genie-one/documents#citations).\n* **Document version history**: Documents now keep a version history so you can review earlier versions. See [View version history](/aws/en/genie-one/documents#version-history).\n* **Open document links in soft tabs**: Documents now support soft tabs, so you can open links without leaving the document. See [Open links in soft tabs](/aws/en/genie-one/documents#soft-tabs).\n* **GitHub MCP (Beta)**: The GitHub MCP connection for Genie One is now in Beta. See [GitHub](/aws/en/genie-one/external-sources#github).\n* **Genie One MCP App (Beta)**: The Genie One MCP App adds rich UI interactions from third-party agents, including interactive visualizations and Genie Ontology citations. See [Genie One MCP server](/aws/en/agents/mcp/genie-mcp).\n* **Certified visualizations**: SQL charts and visualizations that Genie One inserts are now read-only and appear as certified visuals.\n* **Scheduled tasks shared with you**: A new modal and listing page show the scheduled tasks that others have shared with you.",
+  "ref_links": [
+    {
+      "text": "View citations",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents#citations"
+    },
+    {
+      "text": "View version history",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents#version-history"
+    },
+    {
+      "text": "Open links in soft tabs",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents#soft-tabs"
+    },
+    {
+      "text": "GitHub",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources#github"
+    },
+    {
+      "text": "Genie One MCP server",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp/genie-mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-10T10:27:56.613674Z"
+}

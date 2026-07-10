@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-09-front-end-private-link-for-account-level-genie-one-beta",
+  "title": "Front-end Private Link for account-level Genie One (Beta)",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#front-end-private-link-for-account-level-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure front-end Private Link for account-level Genie One. Turn on the **Front-end Private Link for Custom URLs and Account** preview to get started. See [Configure inbound Private Link for account-level resources](/aws/en/security/network/front-end/front-end-private-connect-account).",
+  "ref_links": [
+    {
+      "text": "Configure inbound Private Link for account-level resources",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect-account"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-10T10:27:56.614541Z"
+}

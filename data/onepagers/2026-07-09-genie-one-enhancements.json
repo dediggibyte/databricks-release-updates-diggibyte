@@ -1,0 +1,53 @@
+{
+  "product": "Genie One Enhancements",
+  "tagline": "New features for improved document management and interactivity.",
+  "updated": "Jul 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp/genie-mcp",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "The Genie One enhancements introduce several new features, including document citations that link back to data sources, a version history for documents, and support for opening links in soft tabs. Additionally, the GitHub MCP connection and the Genie One MCP App are now in Beta, providing rich UI interactions and certified visualizations. These features enhance the usability and functionality of Genie One for data-driven decision-making.",
+  "why_it_matters": "These enhancements significantly improve the user experience by providing transparency in data sourcing and version control, which is crucial for governance and compliance. The ability to open links in soft tabs increases productivity by allowing users to navigate without losing their current context. Overall, these updates empower users to leverage data insights more effectively and efficiently.",
+  "plain_summary": "Genie One now offers enhanced document management features and improved interactivity.",
+  "capabilities": [
+    {
+      "title": "Document Citations",
+      "desc": "Documents now include citations linking back to the data sources used for generation."
+    },
+    {
+      "title": "Version History",
+      "desc": "Users can now review earlier versions of documents through a version history feature."
+    },
+    {
+      "title": "Soft Tab Links",
+      "desc": "Links within documents can now be opened in soft tabs, maintaining the user's current view."
+    },
+    {
+      "title": "Certified Visualizations",
+      "desc": "SQL charts and visualizations inserted by Genie One are now read-only and marked as certified."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin access to enable Managed MCP Servers feature."
+  ],
+  "use_cases": [
+    "Improving document traceability and accountability in data reporting.",
+    "Facilitating collaboration through shared scheduled tasks.",
+    "Enhancing user engagement with interactive visualizations in data queries."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Genie One MCP Server",
+    "Managed MCP Servers",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Enable Managed MCP Servers",
+      "desc": "As a workspace admin, go to the Previews page and enable the Managed MCP Servers feature."
+    }
+  ],
+  "key_takeaway": "The new Genie One enhancements provide critical features that enhance document management and user interactivity, driving better data insights.",
+  "note_id": "2026-07-09-genie-one-enhancements",
+  "category": "platform"
+}

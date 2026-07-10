@@ -1,0 +1,53 @@
+{
+  "product": "Dashboard Enhancements",
+  "tagline": "New features and bug fixes for improved dashboard functionality.",
+  "updated": "Jul 9, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "This release introduces several enhancements to dashboards, including the general availability of importing Power BI and Tableau reports, and the Ask Genie feature for querying data. Additionally, it improves functionality by allowing the handling of partially supported datasets and enabling English names for choropleth regions. Local metric views are now supported with cluster-by and partition-by configurations, enhancing the dashboard's data modeling capabilities.",
+  "why_it_matters": "These updates significantly enhance user experience and productivity by streamlining the import of BI reports and improving data accessibility through natural language queries. Organizations can leverage these features to create more dynamic dashboards, reduce the time spent on data preparation, and enable non-technical users to interact with data more effectively.",
+  "plain_summary": "Dashboards now have new features for importing BI reports and improved querying capabilities.",
+  "capabilities": [
+    {
+      "title": "Import BI Files",
+      "desc": "Users can now import Power BI and Tableau reports as AI/BI dashboards."
+    },
+    {
+      "title": "Ask Genie Availability",
+      "desc": "The Ask Genie feature is now generally available for published dashboards."
+    },
+    {
+      "title": "Choropleth Map Support",
+      "desc": "Choropleth maps can now use English names for region identifiers."
+    },
+    {
+      "title": "Local Metric Views Enhancements",
+      "desc": "Local metric views now support cluster-by and partition-by configurations."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must have the Dashboard Local Metric Views preview enabled.",
+    "User must have CAN USE permissions on a SQL warehouse."
+  ],
+  "use_cases": [
+    "Prototyping and iterating metric definitions.",
+    "Creating dashboard-specific metrics without Unity Catalog access.",
+    "Testing metrics before promoting them to Unity Catalog."
+  ],
+  "limitations": [
+    "Local metric views do not support IDENTIFIER or value parameters.",
+    "Local metric views cannot convert existing SQL datasets."
+  ],
+  "architecture": [
+    "Dashboard Interface",
+    "Genie Code",
+    "Local Metric Views",
+    "Data Sources"
+  ],
+  "steps": [],
+  "key_takeaway": "The latest dashboard enhancements improve usability and data interaction, empowering users to create more effective visualizations.",
+  "note_id": "2026-07-09-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Front-end Private Link for account-level Genie One (Beta)",
+  "tagline": "You can now configure front end Private Link for account level Genie One.",
+  "updated": "Jul 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect-account",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#front-end-private-link-for-account-level-genie-one-beta",
+  "what_it_does": "You can now configure front end Private Link for account level Genie One. Turn on the Front end Private Link for Custom URLs and Account preview to get started. Preview Inbound Private Link for account level resources is in Beta.",
+  "why_it_matters": "In the Security groups section, select a security group that allows inbound traffic on port 443 from the IP ranges that need to access the account level resources.",
+  "plain_summary": "You can now configure front end Private Link for account level Genie One. Turn on the Front end Private Link for Custom URLs and Account preview to get started.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now configure front end Private Link for account level Genie One.",
+  "note_id": "2026-07-09-front-end-private-link-for-account-level-genie-one-beta",
+  "category": "platform"
+}

@@ -1,0 +1,65 @@
+{
+  "product": "Databricks SQL Alerts",
+  "tagline": "Now available by default for compliance security profiles.",
+  "updated": "Jul 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/alerts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-sql-alerts-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Databricks SQL alerts allow users to run queries on a scheduled basis and notify them when specific conditions are met based on the query results. This feature supports all compliance security profile standards and provides a history of alert evaluations. Users can create alerts to monitor business KPIs, data quality, cost trends, and operational issues across their Databricks workloads.",
+  "why_it_matters": "This update enhances governance and compliance by ensuring that alerts are automatically available for workspaces with compliance security profiles, thus improving monitoring capabilities and reducing the risk of missed critical data events. It benefits data teams by streamlining alert management and enabling proactive responses to data quality and operational issues.",
+  "plain_summary": "Databricks SQL alerts are now automatically available for workspaces with compliance security profiles, enhancing monitoring capabilities.",
+  "capabilities": [
+    {
+      "title": "Scheduled Query Monitoring",
+      "desc": "Run queries on a schedule to monitor data and KPIs."
+    },
+    {
+      "title": "Alert History Tracking",
+      "desc": "View past evaluations of alerts to assess performance."
+    },
+    {
+      "title": "Integration with Unity Catalog",
+      "desc": "Monitor governed business metrics using Unity Catalog metric views."
+    },
+    {
+      "title": "Cost and Usage Alerts",
+      "desc": "Build alerts on system tables to track unexpected spending."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must have the compliance security profile enabled."
+  ],
+  "use_cases": [
+    "Monitor business metrics and KPIs.",
+    "Detect data quality issues and anomalies.",
+    "Track usage and cost trends.",
+    "Audit access and security events."
+  ],
+  "limitations": [
+    "Existing saved SQL queries cannot be reused for alerts; each alert must own its query definition."
+  ],
+  "architecture": [
+    "Databricks SQL",
+    "Alerts Engine",
+    "Unity Catalog",
+    "Compliance Security Profile"
+  ],
+  "steps": [
+    {
+      "title": "Create an Alert",
+      "desc": "Use the alert editor to define and schedule a new alert."
+    },
+    {
+      "title": "Manage Alerts",
+      "desc": "Access the alert listing page to share and track alerts."
+    },
+    {
+      "title": "Run Alerts as Tasks",
+      "desc": "Integrate alerts into Lakeflow Jobs for automated condition checks."
+    }
+  ],
+  "key_takeaway": "Databricks SQL alerts are now automatically enabled for compliance security profiles, enhancing data monitoring and governance.",
+  "note_id": "2026-07-09-f762ef6d",
+  "category": "platform"
+}
