@@ -1,0 +1,50 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improved management APIs and context handling for better chatbot integration.",
+  "updated": "Mar 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/conversation-api",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-improvements",
+  "what_it_does": "The Genie Agent management APIs, including CreateSpace, UpdateSpace, GenieGetSpace, GenieListSpaces, and GenieTrashSpace, are now generally available, enabling programmatic management of Genie Agents. Additionally, the maximum instruction length issue in the CreateSpace and UpdateSpace APIs has been resolved. Genie now enhances context handling by better identifying relevant previous messages, and it improves the accuracy of top-X answers when results contain ties.",
+  "why_it_matters": "These enhancements allow businesses to more effectively integrate Genie Agents into their applications, improving user experience and reducing errors in data querying. The availability of management APIs streamlines CI/CD workflows, making it easier for teams to deploy and manage agents, ultimately leading to increased productivity and better decision-making capabilities.",
+  "plain_summary": "Genie Agent now has improved APIs and better context handling for enhanced chatbot performance.",
+  "capabilities": [
+    {
+      "title": "General Availability of Management APIs",
+      "desc": "APIs for creating, updating, and managing Genie Agents are now generally available."
+    },
+    {
+      "title": "Instruction Length Fix",
+      "desc": "Resolved a bug that limited the maximum instruction length in CreateSpace and UpdateSpace APIs."
+    },
+    {
+      "title": "Enhanced Context Handling",
+      "desc": "Genie now better retains relevant previous messages to improve context in conversations."
+    },
+    {
+      "title": "Improved Answer Accuracy",
+      "desc": "Genie provides more accurate responses for top-X questions when results include ties."
+    }
+  ],
+  "prerequisites": [
+    "Access to a Databricks workspace with the Databricks SQL entitlement.",
+    "At least CAN USE privileges on a SQL pro or serverless SQL warehouse."
+  ],
+  "use_cases": [
+    "Integrating Genie Agents into customer support chatbots.",
+    "Automating data querying processes in business intelligence applications.",
+    "Enhancing user interaction in AI-driven applications."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Genie Agent Management APIs",
+    "Conversation APIs",
+    "CI/CD Workflows"
+  ],
+  "steps": [],
+  "key_takeaway": "The enhancements to Genie Agent APIs significantly improve chatbot integration and management capabilities.",
+  "note_id": "2026-03-12-genie-agent-formerly-genie-space-enhancements-and-improvements",
+  "category": "platform"
+}

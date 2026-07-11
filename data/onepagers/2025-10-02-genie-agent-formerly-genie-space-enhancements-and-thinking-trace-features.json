@@ -1,0 +1,39 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features for improved data interaction and insights.",
+  "updated": "Oct 2, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-agent-formerly-genie-space-enhancements-and-thinking-trace-features",
+  "what_it_does": "The Genie Agent now allows users to add tables and metric views to spaces for integrated analysis. It improves benchmark scoring by treating extra rows or columns in outputs as incorrect. Additionally, each response from Genie includes detailed thinking steps that clarify how prompts were interpreted, along with relevant tables and example SQL statements used in the response.",
+  "why_it_matters": "These enhancements significantly improve the usability and accuracy of data interactions for business users, enabling more precise analysis and decision-making. By providing clear insights into how responses are generated, organizations can foster greater trust in AI-driven outputs, ultimately leading to better data-driven strategies and outcomes.",
+  "plain_summary": "Genie Agent now offers enhanced data analysis features and clearer response explanations.",
+  "capabilities": [
+    {
+      "title": "Integrated Analysis",
+      "desc": "Users can now add tables and metric views to a space for comprehensive data analysis."
+    },
+    {
+      "title": "Improved Benchmark Scoring",
+      "desc": "Benchmarks now accurately assess outputs by treating extra rows or columns as incorrect."
+    },
+    {
+      "title": "Detailed Thinking Steps",
+      "desc": "Responses now include thinking steps that explain how prompts were interpreted and the SQL used."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent Interface",
+    "Natural Language Processing",
+    "Data Query Execution",
+    "Response Generation"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent's enhancements empower users with better tools for data analysis and understanding, driving more effective decision-making.",
+  "note_id": "2025-10-02-genie-agent-formerly-genie-space-enhancements-and-thinking-trace-features",
+  "category": "platform"
+}

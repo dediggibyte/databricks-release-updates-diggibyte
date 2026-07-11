@@ -1,0 +1,48 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features and improvements for Genie Agent users.",
+  "updated": "Mar 19, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#share-conversation",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes-4",
+  "what_it_does": "The Genie Agent now includes Inspect in Public Preview, which enhances SQL accuracy by reviewing and refining generated queries. Agent mode has expanded availability, allowing more accounts to utilize multi-step reasoning for complex queries. Additionally, Genie Agent mode is now regionally available in Australia, New Zealand, and Japan. New APIs for benchmarking are in Beta, and users can share conversations with customizable privacy settings.",
+  "why_it_matters": "These enhancements improve the accuracy and usability of the Genie Agent, enabling users to derive insights from data more effectively. The expanded availability and sharing features foster collaboration and accessibility, while the benchmarking APIs provide valuable performance metrics. This ultimately drives productivity and informed decision-making across organizations.",
+  "plain_summary": "Genie Agent has new features that improve data querying and sharing capabilities.",
+  "capabilities": [
+    {
+      "title": "Inspect Mode",
+      "desc": "Automatically improves SQL accuracy by refining generated queries."
+    },
+    {
+      "title": "Expanded Agent Mode",
+      "desc": "Now available to more accounts, enhancing complex query capabilities."
+    },
+    {
+      "title": "Regional Availability",
+      "desc": "Genie Agent mode is now accessible in Australia, New Zealand, and Japan."
+    },
+    {
+      "title": "Conversation Sharing",
+      "desc": "Users can share conversations with customizable privacy settings."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Improving SQL query accuracy for business intelligence.",
+    "Enabling complex data analysis through multi-step reasoning.",
+    "Facilitating collaboration by sharing insights among team members.",
+    "Benchmarking performance of data queries for optimization."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent Interface",
+    "Natural Language Processing",
+    "SQL Generation",
+    "Data Visualization"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements significantly improve data querying accuracy and collaboration features, empowering users to make better data-driven decisions.",
+  "note_id": "2026-03-19-genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

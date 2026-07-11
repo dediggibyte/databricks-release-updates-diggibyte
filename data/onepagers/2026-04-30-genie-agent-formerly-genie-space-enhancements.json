@@ -1,0 +1,79 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features for improved file handling and monitoring.",
+  "updated": "Apr 30, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/file-upload",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-4",
+  "what_it_does": "The Genie Agent now includes a Weekly Digest section in the Monitoring tab, providing insights into user interactions and feedback. Additionally, users can upload PDF files directly into a Genie Agent for natural language analysis, alongside existing Unity Catalog tables. This allows for immediate querying of uploaded data without manual import processes. The feature supports up to 25 files per conversation, with specific size and page limitations for PDFs.",
+  "why_it_matters": "These enhancements significantly improve user experience by enabling quick data validation and analysis without the need for complex data preparation. The ability to upload and analyze PDF files expands the types of data users can interact with, fostering productivity and more informed decision-making. The Weekly Digest feature enhances monitoring capabilities, allowing teams to identify trends and issues efficiently.",
+  "plain_summary": "Genie Agent now allows PDF uploads for analysis and includes a new Weekly Digest feature for monitoring user activity.",
+  "capabilities": [
+    {
+      "title": "Weekly Digest",
+      "desc": "The Monitoring tab now features a Weekly Digest section summarizing user interactions and feedback."
+    },
+    {
+      "title": "PDF File Uploads",
+      "desc": "Users can upload PDF files directly to Genie Agents for natural language analysis."
+    },
+    {
+      "title": "Immediate Querying",
+      "desc": "Uploaded files can be queried immediately without manual data import or transformation."
+    },
+    {
+      "title": "Integration with Unity Catalog",
+      "desc": "Uploaded data can be analyzed alongside existing Unity Catalog tables."
+    }
+  ],
+  "prerequisites": [
+    "Genie Agents must be enabled in your workspace.",
+    "A workspace admin must enable the preview from the Previews page.",
+    "To upload PDFs, the 'Upload Local PDFs to Genie Agents' toggle must be enabled.",
+    "Partner-Powered AI features must be enabled."
+  ],
+  "use_cases": [
+    "Quick data validation using uploaded files.",
+    "Lightweight analysis of external datasets.",
+    "Monitoring user interactions and feedback trends.",
+    "Integrating various data sources for comprehensive analysis."
+  ],
+  "limitations": [
+    "PDF uploads are limited to 20 MB and 20 pages.",
+    "PDF uploads are not supported in compliance security profile workspaces.",
+    "Only the user who uploaded the file can access it.",
+    "New chat threads do not retain context from previously uploaded PDFs."
+  ],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "Unity Catalog",
+    "Data Storage"
+  ],
+  "steps": [
+    {
+      "title": "Enable Genie Agents",
+      "desc": "Ensure Genie Agents are enabled in your workspace."
+    },
+    {
+      "title": "Set Up Admin Controls",
+      "desc": "Workspace admin must enable the necessary preview features."
+    },
+    {
+      "title": "Upload PDF Files",
+      "desc": "Drag and drop PDF files into the Genie Agent chat for analysis."
+    },
+    {
+      "title": "Access Monitoring Tab",
+      "desc": "Navigate to the Monitoring tab to view the Weekly Digest."
+    },
+    {
+      "title": "Query Uploaded Data",
+      "desc": "Ask questions about the uploaded PDF and other data in the Genie Agent."
+    }
+  ],
+  "key_takeaway": "The Genie Agent enhancements streamline data analysis and improve monitoring capabilities, empowering users to work more efficiently.",
+  "note_id": "2026-04-30-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

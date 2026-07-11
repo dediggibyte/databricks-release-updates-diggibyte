@@ -1,0 +1,70 @@
+{
+  "product": "Real-time Mode in Spark Declarative Pipelines",
+  "tagline": "Achieve low-latency operational streaming with the new update_flow API.",
+  "updated": "May 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-update-flow",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#real-time-mode-in-spark-declarative-pipelines-on-lakeflow-and-the-update_flow-api-are-now-available-public-preview",
+  "what_it_does": "The new real-time mode in Spark Declarative Pipelines allows users to achieve end-to-end latency as low as five milliseconds for operational streaming workloads. It utilizes the `@dp.update_flow` decorator, which enables writing to sinks in update output mode, emitting only changed rows. This mode supports stateful aggregations without the need for watermarks, enhancing the efficiency of data processing in real-time applications.",
+  "why_it_matters": "This update significantly improves the performance of real-time data processing, enabling businesses to implement immediate decision-making capabilities such as fraud detection and personalized recommendations. By reducing latency, organizations can enhance user experiences and operational efficiency, ultimately leading to better customer satisfaction and competitive advantage.",
+  "plain_summary": "You can now process streaming data in real-time with very low latency using the new update_flow API.",
+  "capabilities": [
+    {
+      "title": "Real-time Processing",
+      "desc": "Achieve end-to-end latency as low as five milliseconds for streaming workloads."
+    },
+    {
+      "title": "Stateful Aggregations",
+      "desc": "Support stateful aggregations without requiring a watermark."
+    },
+    {
+      "title": "Update Output Mode",
+      "desc": "Emit only the rows that changed in each batch to optimize data flow."
+    },
+    {
+      "title": "Flexible Configuration",
+      "desc": "Customize flows with optional Spark configurations for enhanced performance."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Fraud detection in financial transactions.",
+    "Real-time personalization for e-commerce platforms.",
+    "Instant decision-making in customer service applications."
+  ],
+  "limitations": [
+    "Delta table sinks are not supported as targets for update flows."
+  ],
+  "architecture": [
+    "Lakeflow",
+    "Spark Declarative Pipelines",
+    "Update Flow API",
+    "Real-time Mode"
+  ],
+  "steps": [
+    {
+      "title": "Create Sink",
+      "desc": "Define a sink using the dp.create_sink method."
+    },
+    {
+      "title": "Define Update Flow",
+      "desc": "Use the @dp.update_flow decorator to create an update flow targeting the defined sink."
+    },
+    {
+      "title": "Configure Spark Settings",
+      "desc": "Optionally set Spark configurations for real-time processing."
+    },
+    {
+      "title": "Implement Streaming Query",
+      "desc": "Return a streaming DataFrame from a user-defined query within the update flow function."
+    },
+    {
+      "title": "Run the Flow",
+      "desc": "Execute the flow to start processing data in real-time."
+    }
+  ],
+  "key_takeaway": "The introduction of real-time mode in Spark Declarative Pipelines enables ultra-low latency processing for critical business applications.",
+  "note_id": "2026-05-27-d1d1230f",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-28-spark-declarative-pipelines-on-lakeflow-updates-are-retained-for-60-days",
+  "title": "Spark Declarative Pipelines on Lakeflow updates are retained for 60 days",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#spark-declarative-pipelines-on-lakeflow-updates-are-retained-for-60-days",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Spark Declarative Pipelines on Lakeflow update history is now retained for 60 days, up from 30 days. The extended retention applies to updates shown in the pipeline UI and returned by the [Pipelines REST API](https://docs.databricks.com/api/workspace/pipelines).",
+  "ref_links": [
+    {
+      "text": "Pipelines REST API",
+      "url": "https://docs.databricks.com/api/workspace/pipelines"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.508580Z"
+}

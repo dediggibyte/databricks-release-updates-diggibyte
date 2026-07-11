@@ -1,0 +1,73 @@
+{
+  "product": "Connect Genie Agents to Microsoft Copilot Studio",
+  "tagline": "Integrate Databricks Genie Agents with Microsoft Copilot Studio for enhanced data interaction.",
+  "updated": "Nov 14, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/copilot-studio",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#connect-genie-agents-to-microsoft-copilot-studio-public-preview",
+  "what_it_does": "This update allows users to connect Databricks Genie Agents as tools within Microsoft Copilot Studio, enabling natural language interactions with Databricks data. Users must enable the Managed MCP Servers preview in their workspace and can configure Genie Agents to respond to queries in Copilot Studio. The integration supports the use of Genie Agents as both tools and knowledge sources for custom agents.",
+  "why_it_matters": "This integration enhances productivity by allowing business teams to leverage Databricks data through natural language queries in Microsoft Copilot Studio, streamlining data access and insights. It empowers users to create more interactive and intelligent applications, ultimately driving better decision-making and efficiency.",
+  "plain_summary": "You can now connect Databricks Genie Agents to Microsoft Copilot Studio for easier data access using natural language.",
+  "capabilities": [
+    {
+      "title": "Genie Agent Integration",
+      "desc": "Connect Genie Agents as tools in Copilot Studio for natural language data interactions."
+    },
+    {
+      "title": "Knowledge Source Utilization",
+      "desc": "Use Databricks data as a knowledge source for building custom agents in Copilot Studio."
+    },
+    {
+      "title": "Managed MCP Servers Preview",
+      "desc": "Enable the Managed MCP Servers preview to utilize Genie Agents in your workspace."
+    },
+    {
+      "title": "Generative AI Orchestration",
+      "desc": "Utilize generative AI orchestration for enhanced agent responses in Copilot Studio."
+    }
+  ],
+  "prerequisites": [
+    "Create a connection to Databricks on Microsoft Power Platform.",
+    "Enable the Managed MCP Servers preview in your workspace."
+  ],
+  "use_cases": [
+    "Business teams querying data using natural language.",
+    "Creating interactive applications that leverage Databricks insights.",
+    "Building custom agents that utilize Databricks data for enhanced decision-making."
+  ],
+  "limitations": [
+    "Genie Agents in Copilot Studio support up to five questions per minute due to API rate limits."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Managed MCP Servers",
+    "Microsoft Copilot Studio",
+    "Genie Agents"
+  ],
+  "steps": [
+    {
+      "title": "Enable Managed MCP Servers",
+      "desc": "Activate the Managed MCP Servers preview in your workspace."
+    },
+    {
+      "title": "Create or Select Agent",
+      "desc": "In Copilot Studio, create a new agent or select an existing one."
+    },
+    {
+      "title": "Add Genie Agent Tool",
+      "desc": "Add your Genie Agent as a tool in the agent configuration."
+    },
+    {
+      "title": "Configure Agent Settings",
+      "desc": "Set the agent's model and provide instructions for its behavior."
+    },
+    {
+      "title": "Publish Agent",
+      "desc": "Click 'Publish' to make your Genie-enabled agent available."
+    }
+  ],
+  "key_takeaway": "The integration of Databricks Genie Agents with Microsoft Copilot Studio enhances data accessibility and interaction through natural language processing.",
+  "note_id": "2025-11-14-connect-genie-agents-to-microsoft-copilot-studio-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,72 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow Sinks",
+  "tagline": "The sink API for Spark Declarative Pipelines is now generally available, enabling seamless data integration.",
+  "updated": "May 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/ldp-sinks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-sinks-are-now-generally-available",
+  "what_it_does": "The Spark Declarative Pipelines sink API allows users to write transformed data from pipelines to various external targets, including Delta tables, Apache Kafka topics, and Azure Event Hubs. This functionality supports both Unity Catalog managed and external tables, as well as custom Python data sources. Users can create sinks using the `create_sink()` function and stream data using append flows.",
+  "why_it_matters": "This update enhances data integration capabilities, allowing organizations to efficiently stream processed data to multiple external systems. By leveraging the sink API, businesses can improve their data workflows, reduce latency in data processing, and enable real-time analytics, ultimately driving better decision-making and operational efficiency.",
+  "plain_summary": "Users can now write transformed data from Spark pipelines to various external targets using the new sink API.",
+  "capabilities": [
+    {
+      "title": "Multiple Sink Types",
+      "desc": "Supports Delta tables, Apache Kafka, Azure Event Hubs, and custom Python data sources."
+    },
+    {
+      "title": "Append Flow Processing",
+      "desc": "Allows streaming of transformed data records to sinks using append flows."
+    },
+    {
+      "title": "Custom Sink Creation",
+      "desc": "Enables users to create custom sinks using Python for tailored data integration."
+    },
+    {
+      "title": "Unity Catalog Integration",
+      "desc": "Facilitates writing to Unity Catalog managed and external tables."
+    }
+  ],
+  "prerequisites": [
+    "Python API is required to use the sink functionality.",
+    "A pipeline must be set up to process streaming event data."
+  ],
+  "use_cases": [
+    "Streaming data from event sources to Delta tables for analytics.",
+    "Integrating real-time data with Apache Kafka for event-driven architectures.",
+    "Sending processed data to Azure Event Hubs for further processing."
+  ],
+  "limitations": [
+    "Only the Python API is supported; SQL is not available.",
+    "Only streaming queries can be used; batch queries are not supported.",
+    "Pipeline expectations are not supported.",
+    "Full refresh updates do not clean up previously computed results in sinks."
+  ],
+  "architecture": [
+    "Data Ingestion",
+    "Data Transformation",
+    "Sink Creation",
+    "Data Streaming"
+  ],
+  "steps": [
+    {
+      "title": "Create Sink",
+      "desc": "Use the `create_sink()` function to define your sink."
+    },
+    {
+      "title": "Define Append Flow",
+      "desc": "Set up an append flow to specify how data will be written to the sink."
+    },
+    {
+      "title": "Configure Sink Options",
+      "desc": "Provide necessary options for the sink, such as table names or connection details."
+    },
+    {
+      "title": "Stream Data",
+      "desc": "Begin streaming processed records to the sink using the defined flow."
+    }
+  ],
+  "key_takeaway": "The general availability of the Spark Declarative Pipelines sink API significantly enhances data integration capabilities for real-time analytics.",
+  "note_id": "2026-05-15-spark-declarative-pipelines-on-lakeflow-sinks-are-now-generally-available",
+  "category": "platform"
+}

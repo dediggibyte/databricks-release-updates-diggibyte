@@ -1,0 +1,75 @@
+{
+  "product": "Spark Declarative Pipelines",
+  "tagline": "Pipeline parameters are now in Beta, enhancing flexibility and reusability.",
+  "updated": "May 26, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/parameters",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-parameters-are-now-in-beta",
+  "what_it_does": "Pipeline parameters allow users to define key-value pairs at the pipeline level, enabling the reuse of the same pipeline source code across different environments or datasets. Users can declare default parameter values in pipeline settings and override them at runtime, referencing these parameters in SQL source code using named parameter syntax. This feature supports SQL source code only, while Python source code can utilize the Configuration field for parameterization.",
+  "why_it_matters": "This update significantly enhances the flexibility and efficiency of data pipelines, allowing organizations to streamline their data processing workflows across various environments without duplicating code. By enabling parameterization, teams can reduce operational overhead, improve productivity, and ensure consistent data transformations, which is crucial for maintaining data integrity and governance.",
+  "plain_summary": "You can now use parameters in Spark Declarative Pipelines to make your data processing more flexible and efficient.",
+  "capabilities": [
+    {
+      "title": "Parameter Definition",
+      "desc": "Define default parameter values in pipeline settings for reuse across different runs."
+    },
+    {
+      "title": "Runtime Overrides",
+      "desc": "Override parameter values at runtime for specific updates without changing saved defaults."
+    },
+    {
+      "title": "SQL Integration",
+      "desc": "Reference parameters directly in SQL source code using named parameter syntax."
+    },
+    {
+      "title": "Job Parameter Pushdown",
+      "desc": "Automatically push job parameters down to pipeline tasks for dynamic execution."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin access to control feature visibility.",
+    "Familiarity with SQL and pipeline configuration."
+  ],
+  "use_cases": [
+    "Running the same transformations on different datasets (e.g., dev and prod).",
+    "Dynamic ingestion from various source paths based on runtime parameters.",
+    "Creating materialized views with flexible date ranges."
+  ],
+  "limitations": [
+    "Named parameters are only supported in SQL source code, not in Python.",
+    "Pipelines can only run one update at a time, limiting concurrency.",
+    "Date filters in SQL can trigger full refreshes if not managed properly."
+  ],
+  "architecture": [
+    "Lakeflow",
+    "Pipeline Configuration",
+    "SQL Source Code",
+    "Job Parameter Management"
+  ],
+  "steps": [
+    {
+      "title": "Access Pipeline Settings",
+      "desc": "Navigate to Jobs and Pipelines in the sidebar and select your pipeline."
+    },
+    {
+      "title": "Edit Parameters",
+      "desc": "In the pipeline settings sidebar, find the Parameters section and click Edit."
+    },
+    {
+      "title": "Define Key-Value Pairs",
+      "desc": "Add Key and Value entries for your parameters and click Save."
+    },
+    {
+      "title": "Reference in SQL",
+      "desc": "Use the defined parameters in your SQL source code with the named parameter syntax."
+    },
+    {
+      "title": "Override at Runtime",
+      "desc": "Use the Run with different settings option to override parameters for a specific update."
+    }
+  ],
+  "key_takeaway": "The introduction of pipeline parameters in Beta enhances the flexibility and reusability of Spark Declarative Pipelines, enabling more efficient data processing workflows.",
+  "note_id": "2026-05-26-spark-declarative-pipelines-on-lakeflow-parameters-are-now-in-beta",
+  "category": "platform"
+}

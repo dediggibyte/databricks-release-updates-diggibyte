@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-09-a8173e71",
+  "title": "ForEachBatch for Spark Declarative Pipelines on Lakeflow is available (Public Preview)",
+  "date": "2025-12-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#foreachbatch-for-spark-declarative-pipelines-on-lakeflow-is-available-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now process streams in Spark Declarative Pipelines on Lakeflow as a series of micro-batches in Python, using a ForEachBatch sink. The ForEachBatch sink is available in public preview.\n\nSee [Use ForEachBatch to write to arbitrary data sinks in pipelines](/aws/en/ldp/for-each-batch).",
+  "ref_links": [
+    {
+      "text": "Use ForEachBatch to write to arbitrary data sinks in pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/for-each-batch"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.865026Z"
+}

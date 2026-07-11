@@ -1,0 +1,70 @@
+{
+  "product": "Lakeflow Spark Declarative Pipelines",
+  "tagline": "Enhanced control over pipeline execution identity.",
+  "updated": "Aug 18, 2025",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#set-the-run-as-user",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#set-the-run-as-user-for-spark-declarative-pipelines-on-lakeflow",
+  "what_it_does": "This update allows users to set a run-as identity for Spark Declarative Pipelines, enabling the use of service principals instead of user accounts for executing pipeline updates and managing table ownership. This feature enhances security and reliability, especially when the original pipeline owner is no longer available. Users can configure this setting through the pipeline monitoring page or editor, ensuring that the pipeline continues to function seamlessly.",
+  "why_it_matters": "By allowing the use of service principals as run-as identities, organizations can improve the security and stability of their automated workloads. This change mitigates risks associated with user account deactivation and ensures that pipelines remain operational, which is crucial for maintaining data accessibility and governance. It also aligns with best practices for managing automated processes in a cloud environment.",
+  "plain_summary": "You can now set a service principal as the identity for running Spark pipelines, improving security and reliability.",
+  "capabilities": [
+    {
+      "title": "Service Principal Support",
+      "desc": "Pipelines can now run under a service principal, enhancing security."
+    },
+    {
+      "title": "Ownership Management",
+      "desc": "Easily change the ownership of tables created by the pipeline."
+    },
+    {
+      "title": "Permission Control",
+      "desc": "Manage permissions for the run-as user to ensure proper access."
+    },
+    {
+      "title": "User Deactivation Recovery",
+      "desc": "Recover pipeline functionality when the original owner is deactivated."
+    }
+  ],
+  "prerequisites": [
+    "CAN_MANAGE permissions on the pipeline",
+    "CAN_USE role on the service principal if applicable",
+    "Workspace access permission for the run-as user"
+  ],
+  "use_cases": [
+    "Automated workloads requiring stable identities.",
+    "Recovery of pipelines after user deactivation.",
+    "Best practices for managing data access in cloud environments."
+  ],
+  "limitations": [
+    "The run-as change can interrupt an active update.",
+    "Insufficient permissions on the service principal can cause update failures."
+  ],
+  "architecture": [
+    "Lakeflow Pipelines",
+    "Service Principal Management",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Access Pipeline Settings",
+      "desc": "Open the pipeline monitoring page and select the pipeline."
+    },
+    {
+      "title": "Edit Run-As User",
+      "desc": "Click on Settings and then Edit next to Run as."
+    },
+    {
+      "title": "Select Identity",
+      "desc": "Choose either your own account or a service principal."
+    },
+    {
+      "title": "Save Changes",
+      "desc": "Click Save to apply the new run-as identity."
+    }
+  ],
+  "key_takeaway": "The ability to set a service principal as the run-as user for pipelines enhances security and operational reliability.",
+  "note_id": "2025-08-18-set-the-run-as-user-for-spark-declarative-pipelines-on-lakeflow",
+  "category": "platform"
+}

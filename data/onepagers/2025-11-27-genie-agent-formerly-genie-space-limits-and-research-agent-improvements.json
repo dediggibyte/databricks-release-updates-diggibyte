@@ -1,0 +1,42 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhancements to Genie Agent limits and Research Agent functionality.",
+  "updated": "Nov 27, 2025",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-agent-formerly-genie-space-limits-and-research-agent-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-agent-formerly-genie-space-limits-and-research-agent-improvements",
+  "what_it_does": "The Genie Agent now supports an increased limit of 200 for SQL snippets and JOIN relationships, enhancing the complexity of queries users can construct. The Research Agent has been improved with starter questions to facilitate data exploration for users. Additionally, Genie provides auto-suggested benchmarks tailored to the context of the space, aiding in the creation of evaluation sets. Lastly, an issue with knowledge store permissions has been fixed, allowing users with CAN EDIT permissions to manage column descriptions and entity matching effectively.",
+  "why_it_matters": "These enhancements significantly improve user experience and productivity by allowing for more complex data queries and easier exploration of data insights. The auto-suggested benchmarks streamline the evaluation process, reducing the time needed to set up analyses. Fixing the permissions issue ensures that users can fully utilize the Genie knowledge store, thereby enhancing governance and collaboration within teams.",
+  "plain_summary": "Genie Agent now has higher limits for SQL snippets, improved exploration tools, and fixed permissions for better data management.",
+  "capabilities": [
+    {
+      "title": "Increased SQL Limits",
+      "desc": "The limit for SQL snippets and JOIN relationships has been raised to 200."
+    },
+    {
+      "title": "Starter Questions",
+      "desc": "Research Agent now offers starter questions to assist users in data exploration."
+    },
+    {
+      "title": "Auto-Suggested Benchmarks",
+      "desc": "Genie automatically suggests benchmarks based on the context of the space."
+    },
+    {
+      "title": "Fixed Permissions",
+      "desc": "Resolved issues with knowledge store permissions for users with CAN EDIT access."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Research Agent",
+    "Knowledge Store"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent update enhances data exploration capabilities and improves user management of knowledge stores.",
+  "note_id": "2025-11-27-genie-agent-formerly-genie-space-limits-and-research-agent-improvements",
+  "category": "platform"
+}

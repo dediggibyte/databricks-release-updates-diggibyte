@@ -1,0 +1,38 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improvements and bug fixes for Genie Agent functionality.",
+  "updated": "May 28, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes-1",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes-1",
+  "what_it_does": "The Genie Agent now includes agent mode thinking traces that provide definitions for the answers generated, enhancing clarity and understanding. A bug fix ensures that conversations shared via the MCP respect the default sharing settings, allowing for better compliance with user preferences. Additionally, a UI fix resolves an issue where the option to share with account users was not visible, although the functionality was already operational through the SDK and REST API.",
+  "why_it_matters": "These enhancements improve user experience by providing clearer insights into how answers are generated, ensuring that sharing settings align with user expectations, and enhancing the overall usability of the sharing features. This leads to increased productivity and better collaboration among users.",
+  "plain_summary": "Genie Agent has improved features for sharing conversations and better clarity on how answers are generated.",
+  "capabilities": [
+    {
+      "title": "Agent Mode Thinking Traces",
+      "desc": "Provides definitions for answers to enhance understanding."
+    },
+    {
+      "title": "MCP Conversation Sharing Fix",
+      "desc": "Conversations now respect default sharing settings."
+    },
+    {
+      "title": "Share Modal UI Fix",
+      "desc": "Resolves visibility issues in the share modal for account users."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "MCP",
+    "User Interface"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements improve clarity and usability, fostering better collaboration and understanding among users.",
+  "note_id": "2026-05-28-genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

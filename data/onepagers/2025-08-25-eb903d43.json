@@ -1,0 +1,43 @@
+{
+  "product": "Automatic Liquid Clustering",
+  "tagline": "Enhance query performance with intelligent clustering.",
+  "updated": "Aug 25, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-sql-ref-create-streaming-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#automatic-liquid-clustering-is-now-available-for-spark-declarative-pipelines-on-lakeflow",
+  "what_it_does": "Automatic liquid clustering allows users to optimize query performance by using the `CLUSTER BY AUTO` syntax in Spark Declarative Pipelines on Lakeflow. This feature enables Databricks to intelligently select clustering keys based on the data characteristics, improving the efficiency of data retrieval. It is particularly beneficial for streaming tables, which support incremental data processing and can be refreshed on demand or via scheduling.",
+  "why_it_matters": "This update significantly enhances query performance, reducing latency and improving resource utilization, which can lead to cost savings. Data engineers and analysts will benefit from faster query responses, enabling more efficient data exploration and analysis. The automatic selection of clustering keys also simplifies the data management process, allowing teams to focus on insights rather than manual optimization.",
+  "plain_summary": "You can now automatically optimize data clustering in Spark Declarative Pipelines to improve query performance.",
+  "capabilities": [
+    {
+      "title": "Automatic Clustering",
+      "desc": "Databricks automatically selects the best clustering keys to optimize performance."
+    },
+    {
+      "title": "Streaming Table Support",
+      "desc": "Enhances streaming tables with automatic clustering for better incremental data processing."
+    },
+    {
+      "title": "Improved Query Performance",
+      "desc": "Reduces query latency and improves resource efficiency through intelligent clustering."
+    },
+    {
+      "title": "Simplified Data Management",
+      "desc": "Eliminates the need for manual clustering key selection, streamlining data operations."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Lakeflow",
+    "Spark Declarative Pipelines",
+    "Streaming Tables",
+    "Automatic Liquid Clustering"
+  ],
+  "steps": [],
+  "key_takeaway": "Automatic liquid clustering optimizes query performance in Spark Declarative Pipelines, enhancing data processing efficiency.",
+  "note_id": "2025-08-25-eb903d43",
+  "category": "platform"
+}

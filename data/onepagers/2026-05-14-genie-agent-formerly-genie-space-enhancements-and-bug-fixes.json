@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improved capabilities and bug fixes for Genie Agents.",
+  "updated": "May 14, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor#usage-trends",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes-3",
+  "what_it_does": "The Genie Agent now allows users to create API instructions with a character limit increased from 20,000 to 40,000. Users can also stop reasoning in Agent mode to get immediate answers and request reviews on conversations. Additionally, conversation history issues have been resolved, and Genie Code responses now include citation links for better monitoring and context tracking.",
+  "why_it_matters": "These enhancements improve user experience by allowing for more extensive queries, facilitating quicker access to answers, and enabling better oversight of conversation quality. This leads to increased productivity for data teams and business users, as they can refine the agent's responses based on real-time feedback and usage trends.",
+  "plain_summary": "Genie Agent has been upgraded with higher API limits, new review features, and bug fixes to enhance user interaction.",
+  "capabilities": [
+    {
+      "title": "Increased API Limits",
+      "desc": "The character limit for query text in the create API has been raised to 40,000."
+    },
+    {
+      "title": "Immediate Answers in Agent Mode",
+      "desc": "Users can now click 'Answer now' to receive immediate responses while in Agent mode."
+    },
+    {
+      "title": "Request Review Feature",
+      "desc": "Users can request reviews on conversations held in Agent mode for better oversight."
+    },
+    {
+      "title": "Citation Links in Responses",
+      "desc": "Genie Code responses now include citation links to relevant conversations for easier tracking."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "API Layer",
+    "Monitoring Tools"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements streamline user interactions and improve monitoring capabilities, driving better data-driven decision-making.",
+  "note_id": "2026-05-14-genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features and fixes for improved visualization and automation.",
+  "updated": "Jun 11, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "what_it_does": "The Genie Agent now allows users to save visualizations directly to dashboards, reference previous visualizations in follow-up prompts, and export metric views using Genie Code. Additionally, common questions defined by authors are prioritized on the chat page, and Genie Agents can be deployed as Declarative Automation Bundles (DABs). This enhances user interaction and automation capabilities within the platform.",
+  "why_it_matters": "These enhancements streamline the workflow for data analysts and business users by enabling easier access to visualizations and improving the efficiency of metric tracking. The ability to save and reference visualizations enhances productivity, while DAB support facilitates better resource management and deployment, ultimately leading to cost savings and improved governance.",
+  "plain_summary": "Genie Agent now supports saving visualizations to dashboards and referencing previous prompts, along with other enhancements.",
+  "capabilities": [
+    {
+      "title": "Save Visualizations",
+      "desc": "Users can now save outputs from Genie Agent visualizations to dashboards."
+    },
+    {
+      "title": "Reference Previous Visualizations",
+      "desc": "Users can select and reference visualizations from earlier prompts in new queries."
+    },
+    {
+      "title": "Export Metric Views",
+      "desc": "Genie Code can be used to refine metric view definitions when exporting from Genie Agent."
+    },
+    {
+      "title": "DABs Support",
+      "desc": "Genie Agents can now be defined and deployed as Declarative Automation Bundles."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "Dashboards",
+    "Declarative Automation Bundles"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements significantly improve user experience and operational efficiency in data visualization and automation.",
+  "note_id": "2026-06-11-genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

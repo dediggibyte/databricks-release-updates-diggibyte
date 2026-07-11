@@ -1,0 +1,73 @@
+{
+  "product": "Spark Declarative Pipelines Migration",
+  "tagline": "Transition from legacy to default publishing mode for enhanced flexibility.",
+  "updated": "Jun 23, 2025",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/migrate-to-dpm",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#migrate-spark-declarative-pipelines-on-lakeflow-pipelines-from-legacy-publishing-mode",
+  "what_it_does": "The migration from legacy publishing mode to the default publishing mode allows Spark Declarative Pipelines on Lakeflow to publish to multiple catalogs and schemas, enhancing flexibility in data management. This update simplifies the syntax for working with tables and views within the pipeline and is intended to replace the deprecated legacy mode. Migration affects only the metadata of the pipeline and does not involve any data movement or modification.",
+  "why_it_matters": "This migration is crucial for organizations looking to optimize their data workflows, as it enables more complex data architectures and reduces the limitations imposed by the legacy mode. By allowing multiple catalogs and schemas, businesses can improve data accessibility and governance, ultimately enhancing productivity and reducing operational risks.",
+  "plain_summary": "You can now migrate your Spark Declarative Pipelines to a new mode that supports multiple catalogs and schemas.",
+  "capabilities": [
+    {
+      "title": "Multiple Catalogs Support",
+      "desc": "The default publishing mode allows a single pipeline to write to multiple catalogs and schemas."
+    },
+    {
+      "title": "Simplified Syntax",
+      "desc": "The new mode includes a simplified syntax for working with tables and views."
+    },
+    {
+      "title": "Metadata Migration Only",
+      "desc": "Migration affects only the metadata and does not read, move, or write to datasets."
+    },
+    {
+      "title": "Backward Compatibility",
+      "desc": "The default publishing mode is generally backward compatible with the legacy mode."
+    }
+  ],
+  "prerequisites": [
+    "Databricks CLI version v0.230.0 or above is required."
+  ],
+  "use_cases": [
+    "Organizations needing to manage complex data workflows across multiple schemas.",
+    "Teams looking to enhance data governance and accessibility.",
+    "Data engineers migrating existing pipelines to modern standards."
+  ],
+  "limitations": [
+    "Migration is not supported using Declarative Automation Bundles.",
+    "Once migrated, pipelines cannot revert to the legacy publishing mode.",
+    "Materialized views and streaming tables cannot be moved across schemas after creation."
+  ],
+  "architecture": [
+    "Lakeflow Pipelines",
+    "Default Publishing Mode",
+    "Data Management Layer"
+  ],
+  "steps": [
+    {
+      "title": "Access Pipelines",
+      "desc": "Click **Jobs & Pipelines** from the left sidebar in your workspace."
+    },
+    {
+      "title": "Select Pipeline",
+      "desc": "Click the name of the pipeline you want to migrate."
+    },
+    {
+      "title": "Pause Updates",
+      "desc": "Pause updates and ensure any running pipeline stops."
+    },
+    {
+      "title": "Configure Migration",
+      "desc": "Add the configuration `pipelines.enableDPMForExistingPipeline` set to `true`."
+    },
+    {
+      "title": "Start Update",
+      "desc": "Start a manual update and let it complete."
+    }
+  ],
+  "key_takeaway": "Migrating to the default publishing mode enhances flexibility and supports complex data architectures.",
+  "note_id": "2025-06-23-f9303d1e",
+  "category": "platform"
+}

@@ -1,0 +1,68 @@
+{
+  "product": "SharePoint Connector in Lakeflow Connect",
+  "tagline": "Ingest files and structured data from SharePoint into Databricks.",
+  "updated": "Jul 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sharepoint",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#sharepoint-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "what_it_does": "The SharePoint connector in Lakeflow Connect enables users to ingest unstructured files as binary data and parse structured formats like CSV, JSON, XML, and Excel into Delta tables. It supports incremental ingestion and schema evolution, allowing for flexible data management. Users can authenticate using various OAuth methods, and workspace admins can manage access to this feature.",
+  "why_it_matters": "This feature enhances data ingestion capabilities for organizations using SharePoint, allowing for seamless integration of data into Databricks for analysis and transformation. It improves productivity by enabling users to automate data workflows and ensures governance through Unity Catalog support. This is particularly beneficial for data teams looking to streamline their data pipelines and enhance data accessibility.",
+  "plain_summary": "You can now easily bring data from SharePoint into Databricks for analysis.",
+  "capabilities": [
+    {
+      "title": "File Ingestion",
+      "desc": "Ingest unstructured files and parse structured formats into Delta tables."
+    },
+    {
+      "title": "Incremental Ingestion",
+      "desc": "Supports incremental data updates to keep your datasets current."
+    },
+    {
+      "title": "Schema Evolution",
+      "desc": "Allows for schema changes during data ingestion, configurable via schema evolution mode."
+    },
+    {
+      "title": "OAuth Authentication",
+      "desc": "Supports multiple OAuth authentication methods for secure access."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin access to configure SharePoint authentication.",
+    "Knowledge of the chosen authentication method for connection setup.",
+    "Understanding of user personas for pipeline creation."
+  ],
+  "use_cases": [
+    "Automating data ingestion from SharePoint for reporting.",
+    "Transforming SharePoint data for analytics in Databricks.",
+    "Integrating SharePoint files into data pipelines for downstream processing."
+  ],
+  "limitations": [
+    "UI-based pipeline authoring is not supported.",
+    "Basic authentication methods (username/password, API key, service account JSON key) are not supported.",
+    "SCD type 2 is not supported."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "SharePoint Connector",
+    "Delta Tables",
+    "Databricks Workflows"
+  ],
+  "steps": [
+    {
+      "title": "Configure Authentication",
+      "desc": "Set up SharePoint authentication based on your chosen method."
+    },
+    {
+      "title": "Create Connection",
+      "desc": "Use Catalog Explorer to create a connection to SharePoint."
+    },
+    {
+      "title": "Create Pipeline",
+      "desc": "Non-admin users can create a pipeline using the established connection."
+    }
+  ],
+  "key_takeaway": "The SharePoint connector in Lakeflow Connect is now generally available, enabling efficient data ingestion from SharePoint into Databricks.",
+  "note_id": "2026-07-10-sharepoint-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "category": "platform"
+}

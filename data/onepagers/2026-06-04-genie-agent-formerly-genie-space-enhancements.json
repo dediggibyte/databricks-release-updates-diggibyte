@@ -1,0 +1,66 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features and improvements for Genie Agents to enhance user experience and management.",
+  "updated": "Jun 4, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/embed",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-2",
+  "what_it_does": "The Genie Agent now includes prompt monitoring for Genie Chat, a confirmation dialog for knowledge store edits, the ability to delete conversations by users with appropriate permissions, and the capability to embed the Genie Agent as an iframe in external applications. These enhancements improve monitoring, user management, and integration with other tools.",
+  "why_it_matters": "These updates streamline user interactions with Genie Agents, enhance data governance through better management of knowledge store edits, and facilitate integration into existing workflows, ultimately improving productivity and user satisfaction.",
+  "plain_summary": "Genie Agents have new features for monitoring, editing, and embedding that improve user experience and management.",
+  "capabilities": [
+    {
+      "title": "Genie Chat Monitoring",
+      "desc": "Prompts and responses from Genie Chat can now be monitored when sharing is enabled."
+    },
+    {
+      "title": "Knowledge Store Edit Confirmation",
+      "desc": "A confirmation dialog appears before removing tables with knowledge store edits."
+    },
+    {
+      "title": "Conversation Deletion",
+      "desc": "Users with CAN MANAGE permission can delete other users' conversations from the UI."
+    },
+    {
+      "title": "Iframe Embedding",
+      "desc": "Genie Agents can now be embedded as iframes in external applications, allowing seamless integration."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin must configure allowed embedding surfaces.",
+    "Agent author must have at least CAN MANAGE permission on the Genie Agent.",
+    "End users must have explicit access to the Genie Agent and underlying data assets."
+  ],
+  "use_cases": [
+    "Integrating Genie Agents into internal tools for enhanced user interaction.",
+    "Monitoring Genie Chat interactions for better insights.",
+    "Managing knowledge store edits with confirmation to prevent accidental deletions."
+  ],
+  "limitations": [
+    "Embedded users can send prompts but cannot edit the agent configuration.",
+    "Only trusted domains should be added to the allowed embedding surfaces list."
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Embedding Configuration",
+    "External Application"
+  ],
+  "steps": [
+    {
+      "title": "Configure Embedding Surfaces",
+      "desc": "A workspace admin must configure allowed embedding surfaces in Genie access management settings."
+    },
+    {
+      "title": "Generate Iframe Code",
+      "desc": "Agent authors can generate the iframe embed code from the Genie Agent's Share dialog."
+    },
+    {
+      "title": "Add Iframe to Application",
+      "desc": "Paste the generated iframe code into your external website or application."
+    }
+  ],
+  "key_takeaway": "The Genie Agent enhancements improve user management, monitoring, and integration capabilities, making it easier to leverage AI in various applications.",
+  "note_id": "2026-06-04-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

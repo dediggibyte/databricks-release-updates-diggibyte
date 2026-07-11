@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-10-google-drive-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "title": "Google Drive connector in Lakeflow Connect will soon be generally available",
+  "date": "2026-07-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#google-drive-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Google Drive connector in Lakeflow Connect will soon be generally available. You can ingest files from Google Drive into Databricks for transformation, analysis, and downstream pipelines.\n\nSee [Google Drive connector](/aws/en/ingestion/lakeflow-connect/google-drive).",
+  "ref_links": [
+    {
+      "text": "Google Drive connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.211250Z"
+}

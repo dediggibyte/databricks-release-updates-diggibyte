@@ -1,0 +1,51 @@
+{
+  "product": "ForEachBatch for Spark Declarative Pipelines",
+  "tagline": "Now available in public preview for processing streams as micro-batches.",
+  "updated": "Dec 9, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/for-each-batch",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#foreachbatch-for-spark-declarative-pipelines-on-lakeflow-is-available-public-preview",
+  "what_it_does": "The ForEachBatch sink allows users to process streams in Spark Declarative Pipelines as a series of micro-batches using Python. It enables the application of custom logic to each micro-batch, such as merging data into external tables or writing to unsupported destinations. The sink supports Unity Catalog features and requires users to manage downstream data resets during full refreshes.",
+  "why_it_matters": "This update enhances the flexibility and capability of data pipelines, allowing organizations to handle complex data transformations and integrations with external systems. It benefits data engineers and analysts by enabling more sophisticated data processing workflows, ultimately improving data accuracy and operational efficiency.",
+  "plain_summary": "You can now use ForEachBatch to process streaming data in micro-batches with custom Python logic.",
+  "capabilities": [
+    {
+      "title": "Custom Logic Processing",
+      "desc": "Apply arbitrary actions to each micro-batch using Python code."
+    },
+    {
+      "title": "Full Refresh Management",
+      "desc": "Manage checkpoints and data resets during full refresh scenarios."
+    },
+    {
+      "title": "Unity Catalog Integration",
+      "desc": "Utilize Unity Catalog features for reading and writing data."
+    },
+    {
+      "title": "Event Logging",
+      "desc": "Track the creation and usage of each ForEachBatch sink in the event log."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Merging or upserting into Delta Lake tables.",
+    "Writing to multiple or unsupported destinations.",
+    "Applying advanced transformations using Python libraries."
+  ],
+  "limitations": [
+    "No automatic data cleanup for ForEachBatch outputs.",
+    "Metrics may be incomplete or unusual due to the flexibility of ForEachBatch.",
+    "Requires serialization of user-defined functions for Databricks Connect compatibility.",
+    "Custom logic must avoid using non-serializable resources."
+  ],
+  "architecture": [
+    "Lakeflow Pipelines",
+    "ForEachBatch Sink",
+    "Unity Catalog"
+  ],
+  "steps": [],
+  "key_takeaway": "ForEachBatch enhances Spark Declarative Pipelines by enabling flexible micro-batch processing with custom logic.",
+  "note_id": "2025-12-09-a8173e71",
+  "category": "platform"
+}

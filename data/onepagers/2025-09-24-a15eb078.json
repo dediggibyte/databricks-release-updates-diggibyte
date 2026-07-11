@@ -1,0 +1,75 @@
+{
+  "product": "Spark Declarative Pipelines Migration",
+  "tagline": "Migration from legacy publishing mode to default publishing mode is now generally available.",
+  "updated": "Sep 24, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/migrate-to-dpm",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#migrate-spark-declarative-pipelines-on-lakeflow-pipelines-from-legacy-publishing-mode-is-generally-available",
+  "what_it_does": "The migration allows Spark Declarative Pipelines on Lakeflow to transition from a legacy publishing mode, which restricted publishing to a single catalog and schema, to a default publishing mode that supports multiple catalogs and schemas. This new mode simplifies syntax for table and view management within pipelines and is designed to enhance flexibility and usability. The migration process affects only the metadata of the pipeline and does not impact existing datasets.",
+  "why_it_matters": "This update significantly enhances the capabilities of data teams by allowing them to manage multiple catalogs and schemas within a single pipeline, improving operational efficiency and reducing complexity. It enables better data governance and organization, which can lead to increased productivity and reduced costs associated with data management. Organizations can leverage this feature to streamline their data workflows and improve collaboration across teams.",
+  "plain_summary": "You can now migrate your Spark Declarative Pipelines to a more flexible publishing mode that supports multiple catalogs and schemas.",
+  "capabilities": [
+    {
+      "title": "Multiple Catalogs Support",
+      "desc": "The default publishing mode allows a single pipeline to publish to multiple catalogs and schemas."
+    },
+    {
+      "title": "Simplified Syntax",
+      "desc": "The new mode includes a simplified syntax for managing tables and views within the pipeline."
+    },
+    {
+      "title": "Backward Compatibility",
+      "desc": "Most pipelines will not require changes to migrate, ensuring a smoother transition."
+    },
+    {
+      "title": "Metadata-Only Migration",
+      "desc": "The migration process only affects the pipeline's metadata without altering any datasets."
+    }
+  ],
+  "prerequisites": [
+    "Databricks CLI version v0.230.0 or above is required."
+  ],
+  "use_cases": [
+    "Organizations needing to manage multiple data catalogs efficiently.",
+    "Data teams looking to simplify their pipeline syntax and management.",
+    "Companies aiming to enhance data governance and compliance.",
+    "Teams requiring backward compatibility during migration to minimize disruptions."
+  ],
+  "limitations": [
+    "Migration is not supported using Declarative Automation Bundles.",
+    "Once migrated, pipelines cannot revert to the legacy publishing mode.",
+    "Materialized views and streaming tables cannot be moved across schemas after creation."
+  ],
+  "architecture": [
+    "Lakeflow Pipelines",
+    "Default Publishing Mode",
+    "Metadata Management",
+    "Catalog and Schema Management"
+  ],
+  "steps": [
+    {
+      "title": "Access Pipeline Settings",
+      "desc": "Click 'Jobs & Pipelines' from the left sidebar and select the pipeline to migrate."
+    },
+    {
+      "title": "Pause Updates",
+      "desc": "Pause updates and ensure any running pipeline has stopped."
+    },
+    {
+      "title": "Configure Migration",
+      "desc": "Add the configuration 'pipelines.enableDPMForExistingPipeline' and set it to 'true'."
+    },
+    {
+      "title": "Start Manual Update",
+      "desc": "Initiate a manual update and allow it to complete."
+    },
+    {
+      "title": "Remove Migration Config",
+      "desc": "Optionally remove the migration configuration after the update."
+    }
+  ],
+  "key_takeaway": "The migration to the default publishing mode enhances flexibility and efficiency for managing Spark Declarative Pipelines.",
+  "note_id": "2025-09-24-a15eb078",
+  "category": "platform"
+}

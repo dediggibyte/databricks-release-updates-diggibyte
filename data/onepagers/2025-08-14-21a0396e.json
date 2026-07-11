@@ -1,0 +1,70 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "New ETL pipeline creation template in workspace bundles.",
+  "updated": "Aug 14, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/bundles/workspace-author#etl",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#spark-declarative-pipelines-on-lakeflow-template-in-bundles-in-the-workspace-public-preview",
+  "what_it_does": "The Spark Declarative Pipelines on Lakeflow template allows users to create ETL pipelines within bundles directly in the Databricks workspace. Users can select this template when creating a new bundle, which simplifies the process of defining data transformations and workflows. The template supports configurations such as default catalogs and schemas, and it integrates with the Lakeflow Pipelines Editor for enhanced functionality.",
+  "why_it_matters": "This update streamlines the ETL pipeline creation process, enabling data engineers to quickly set up and manage data workflows without extensive coding. By leveraging templates, organizations can reduce development time and improve consistency across projects, leading to enhanced productivity and faster time-to-insight.",
+  "plain_summary": "You can now easily create ETL pipelines in Databricks using a new template in workspace bundles.",
+  "capabilities": [
+    {
+      "title": "ETL Pipeline Creation",
+      "desc": "Users can create ETL pipelines using a predefined template in the workspace."
+    },
+    {
+      "title": "Customizable Configurations",
+      "desc": "The template allows for configuration of catalogs, schemas, and programming languages."
+    },
+    {
+      "title": "Integration with Lakeflow",
+      "desc": "Supports the Lakeflow Pipelines Editor for enhanced pipeline management."
+    },
+    {
+      "title": "Direct Bundle Management",
+      "desc": "Bundles can be created and modified directly within the Databricks workspace."
+    }
+  ],
+  "prerequisites": [
+    "Lakeflow Pipelines Editor must be enabled in the workspace."
+  ],
+  "use_cases": [
+    "Rapid development of ETL workflows.",
+    "Standardization of data transformation processes.",
+    "Collaboration among data engineers using shared templates."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Declarative Automation Bundles",
+    "Lakeflow Pipelines Editor",
+    "ETL Pipeline Management"
+  ],
+  "steps": [
+    {
+      "title": "Navigate to Git Folder",
+      "desc": "Go to the Git folder where you want to create your bundle."
+    },
+    {
+      "title": "Create a Bundle",
+      "desc": "Click the Create button and select Bundle."
+    },
+    {
+      "title": "Select Template",
+      "desc": "Choose the Lakeflow Spark Declarative Pipelines template."
+    },
+    {
+      "title": "Configure Bundle",
+      "desc": "Set the required configurations for the pipeline."
+    },
+    {
+      "title": "Create and Deploy",
+      "desc": "Finalize the setup by clicking Create and deploy."
+    }
+  ],
+  "key_takeaway": "The new Spark Declarative Pipelines template simplifies ETL pipeline creation, enhancing productivity and consistency in data workflows.",
+  "note_id": "2025-08-14-21a0396e",
+  "category": "platform"
+}

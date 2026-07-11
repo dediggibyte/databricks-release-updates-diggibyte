@@ -1,0 +1,59 @@
+{
+  "product": "MATCH_RECOGNIZE",
+  "tagline": "Now in Beta for advanced row pattern recognition.",
+  "updated": "Jun 30, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-match-recognize",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#match_recognize-is-now-in-beta",
+  "what_it_does": "The MATCH_RECOGNIZE clause allows users to identify and filter patterns in ordered rows of a dataset. It supports partitioning and ordering of data, enabling complex pattern matching such as detecting trends or sessionizing events. Users can specify measures and define patterns to extract meaningful insights from their data. This feature is available in Databricks SQL and Databricks Runtime 19.0 and above.",
+  "why_it_matters": "This capability enhances data analysis by enabling users to detect complex patterns and trends in their datasets, which can lead to better decision-making and insights. It is particularly beneficial for financial analysts, data scientists, and business intelligence teams who need to identify patterns such as price movements or user behavior over time. By streamlining the process of pattern recognition, organizations can improve productivity and reduce the time spent on data analysis.",
+  "plain_summary": "Databricks now supports a powerful SQL feature for recognizing patterns in data.",
+  "capabilities": [
+    {
+      "title": "Pattern Matching",
+      "desc": "Identify specific patterns in ordered data sequences."
+    },
+    {
+      "title": "Partitioning Support",
+      "desc": "Allows partitioning of data for targeted pattern analysis."
+    },
+    {
+      "title": "Custom Measures",
+      "desc": "Define custom measures to summarize results from matches."
+    },
+    {
+      "title": "Sessionization",
+      "desc": "Collapse event streams into sessions based on defined time gaps."
+    }
+  ],
+  "prerequisites": [
+    "Databricks SQL or Databricks Runtime 19.0 and above",
+    "Workspace admin access to enable the feature"
+  ],
+  "use_cases": [
+    "Detecting consecutive price increases or decreases in financial data.",
+    "Identifying V-shaped or W-shaped price movements.",
+    "Sessionizing user event streams for better analysis of user behavior.",
+    "Analyzing time series data for trends and anomalies."
+  ],
+  "limitations": [
+    "Currently only supports SKIP PAST LAST ROW for AFTER MATCH clause.",
+    "Empty matches are not produced in this release."
+  ],
+  "architecture": [
+    "Databricks SQL",
+    "Databricks Runtime",
+    "Data Lake",
+    "Data Warehouse"
+  ],
+  "steps": [
+    {
+      "title": "Enable Feature",
+      "desc": "Workspace admins must enable the Match Recognize preview in workspace settings."
+    }
+  ],
+  "key_takeaway": "MATCH_RECOGNIZE in Beta empowers users to perform advanced pattern recognition in their data analysis workflows.",
+  "note_id": "2026-06-30-match-recognize-is-now-in-beta",
+  "category": "platform"
+}

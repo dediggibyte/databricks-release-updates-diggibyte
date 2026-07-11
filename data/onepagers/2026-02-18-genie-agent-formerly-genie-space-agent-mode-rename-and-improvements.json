@@ -1,0 +1,77 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhanced Agent mode for improved data insights.",
+  "updated": "Feb 18, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/agent-mode",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-agent-mode-rename-and-improvements",
+  "what_it_does": "Agent mode, previously known as Research Agent, allows users to obtain answers to complex questions through multi-step reasoning and hypothesis testing. It creates structured research plans, executes multiple SQL queries, and iteratively refines its approach based on results until it delivers a comprehensive report with visualizations and citations. This mode is designed to handle both straightforward and complex exploratory questions effectively.",
+  "why_it_matters": "The improvements in Agent mode enhance the speed and conciseness of responses, enabling users to gain insights more efficiently. This is particularly beneficial for data analysts and business leaders who need to make informed decisions quickly based on complex data queries. The ability to generate detailed reports with visualizations supports better communication of findings across teams.",
+  "plain_summary": "Genie Agent's Research Agent has been renamed to Agent mode and now provides faster, more concise responses to complex questions.",
+  "capabilities": [
+    {
+      "title": "Research Plans Creation",
+      "desc": "Agent mode develops structured approaches and hypotheses for answering complex questions."
+    },
+    {
+      "title": "Multi-Query Execution",
+      "desc": "It runs multiple SQL queries to gather evidence from various perspectives."
+    },
+    {
+      "title": "Iterative Learning",
+      "desc": "Agent mode continuously refines its reasoning based on discovered results."
+    },
+    {
+      "title": "Comprehensive Reporting",
+      "desc": "It delivers detailed reports with citations, visualizations, and supporting tables."
+    }
+  ],
+  "prerequisites": [
+    "A well-prepared Genie Agent is required for optimal performance.",
+    "Workspace must meet specific regional availability criteria."
+  ],
+  "use_cases": [
+    "Analyzing top-selling products for a quarter.",
+    "Identifying profitable customer segments.",
+    "Investigating revenue spikes during specific periods.",
+    "Reducing order cancellations during peak seasons.",
+    "Understanding factors contributing to customer churn."
+  ],
+  "limitations": [
+    "Agent mode is not available through the API.",
+    "It requires a Genie Agent context to function effectively."
+  ],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "Agent Mode",
+    "SQL Query Execution",
+    "Reporting"
+  ],
+  "steps": [
+    {
+      "title": "Open Genie Agent",
+      "desc": "Start by opening a Genie Agent in your workspace."
+    },
+    {
+      "title": "Select Agent Mode",
+      "desc": "Click the Agent mode icon in the chat box."
+    },
+    {
+      "title": "Enter Your Question",
+      "desc": "Type your question and send the prompt to initiate research."
+    },
+    {
+      "title": "Review Generated Report",
+      "desc": "After processing, review the comprehensive report with findings."
+    },
+    {
+      "title": "Export Report",
+      "desc": "Download the report as a PDF for sharing or offline review."
+    }
+  ],
+  "key_takeaway": "The renaming and enhancements of Agent mode streamline the process of obtaining data insights, making it faster and more efficient for users.",
+  "note_id": "2026-02-18-genie-agent-formerly-genie-space-agent-mode-rename-and-improvements",
+  "category": "platform"
+}

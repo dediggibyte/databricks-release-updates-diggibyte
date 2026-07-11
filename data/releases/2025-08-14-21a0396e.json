@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-14-21a0396e",
+  "title": "Spark Declarative Pipelines on Lakeflow template in bundles in the workspace (Public Preview)",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#spark-declarative-pipelines-on-lakeflow-template-in-bundles-in-the-workspace-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now easily create an ETL pipeline in a bundle in the workspace using the new Spark Declarative Pipelines on Lakeflow template project.\n\nSee [New ETL pipeline](/aws/en/dev-tools/bundles/workspace-author#etl).",
+  "ref_links": [
+    {
+      "text": "New ETL pipeline",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/workspace-author#etl"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:50.056918Z"
+}

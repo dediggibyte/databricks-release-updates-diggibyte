@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improved functionality and bug fixes for Genie Agents.",
+  "updated": "May 21, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor#benchmarks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-bug-fixes-2",
+  "what_it_does": "Genie Agents, previously known as Genie Spaces, have undergone several enhancements including the renaming of 'Dimensions' to 'Fields' in metric views and SQL expressions. Additionally, benchmarks now support agent mode, allowing for multi-step reasoning in evaluations. A bug fix resolves an issue where descriptions were not displayed in empty chats, and the context window is now closed by default in new threads.",
+  "why_it_matters": "These updates enhance the usability and accuracy of Genie Agents, making it easier for users to interact with data and receive relevant insights. The improved benchmarks and response accuracy will lead to better decision-making and increased productivity for data teams and business users alike.",
+  "plain_summary": "Genie Agents have been improved with new features and bug fixes to enhance user experience and accuracy.",
+  "capabilities": [
+    {
+      "title": "Renamed Metrics",
+      "desc": "The term 'Dimensions' has been replaced with 'Fields' in the user interface."
+    },
+    {
+      "title": "Agent Mode for Benchmarks",
+      "desc": "Benchmarks now support agent mode, enabling multi-step reasoning for more accurate evaluations."
+    },
+    {
+      "title": "Bug Fix for Descriptions",
+      "desc": "Resolved an issue where descriptions were not shown in empty chat sessions."
+    },
+    {
+      "title": "Default Context Window",
+      "desc": "The context window is now closed by default when starting a new Genie Agent thread."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Benchmarks",
+    "User Interface",
+    "SQL Expressions"
+  ],
+  "steps": [],
+  "key_takeaway": "The enhancements to Genie Agents improve user interaction and data accuracy, driving better insights and productivity.",
+  "note_id": "2026-05-21-genie-agent-formerly-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,76 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhanced UI and permission management for Genie Agents.",
+  "updated": "Mar 20, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-agent-formerly-genie-space-redesign-and-permission-management",
+  "what_it_does": "The Genie Agent has been redesigned with a new user interface that enhances the authoring and chat experience. Users with CAN EDIT permissions can now view the source SQL for answers, aiding in instruction refinement. Additionally, table selection is restricted based on user permissions, ensuring that only authorized users can access specific Unity Catalog objects. The SQL matching capabilities have also been improved, allowing Genie to better utilize example SQL statements in responses.",
+  "why_it_matters": "This update improves user experience and governance by ensuring that only authorized users can access and refine data queries, thereby enhancing data security and compliance. The improved UI and SQL matching capabilities increase productivity for data analysts and business users, allowing for more effective data-driven decision-making.",
+  "plain_summary": "Genie Agent has a new look and better permission controls for users.",
+  "capabilities": [
+    {
+      "title": "Redesigned UI",
+      "desc": "The new interface offers more space for conversations and a streamlined layout for instructions."
+    },
+    {
+      "title": "Permission Management",
+      "desc": "Users with CAN EDIT permissions can now view source SQL to help refine instructions."
+    },
+    {
+      "title": "Restricted Table Access",
+      "desc": "Users must have SELECT privileges on Unity Catalog objects to return results."
+    },
+    {
+      "title": "Enhanced SQL Matching",
+      "desc": "Genie can better utilize example SQL statements when user prompts are similar."
+    }
+  ],
+  "prerequisites": [
+    "Unity Catalog must be enabled and data registered.",
+    "Users need CAN USE permission on a pro or serverless SQL warehouse.",
+    "Users must have SELECT privileges on data used in the agent.",
+    "Users need at least CAN EDIT permissions to create or edit Genie Agents."
+  ],
+  "use_cases": [
+    "Business users querying data through natural language.",
+    "Data analysts refining instructions based on SQL outputs.",
+    "Organizations ensuring data governance through restricted access."
+  ],
+  "limitations": [
+    "Each Genie Agent can support up to 10,000 conversations and messages.",
+    "Only up to 30 tables or views can be added to a Genie Agent."
+  ],
+  "architecture": [
+    "Genie Agent UI",
+    "Unity Catalog",
+    "SQL Warehouse",
+    "Data Sources"
+  ],
+  "steps": [
+    {
+      "title": "Access Genie Agents",
+      "desc": "Click 'Genie Agents' in the sidebar."
+    },
+    {
+      "title": "Create New Agent",
+      "desc": "Click 'New' in the upper-right corner and select data sources."
+    },
+    {
+      "title": "Configure Permissions",
+      "desc": "Ensure users have the necessary permissions for data access."
+    },
+    {
+      "title": "Add Example Queries",
+      "desc": "Include example SQL queries to improve response accuracy."
+    },
+    {
+      "title": "Share Agent",
+      "desc": "Use the share feature to distribute the agent to other users."
+    }
+  ],
+  "key_takeaway": "The Genie Agent's redesign and enhanced permission management streamline user interactions and improve data governance.",
+  "note_id": "2025-03-20-genie-agent-formerly-genie-space-redesign-and-permission-management",
+  "category": "platform"
+}

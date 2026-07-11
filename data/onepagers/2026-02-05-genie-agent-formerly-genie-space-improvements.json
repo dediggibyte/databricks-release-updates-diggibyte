@@ -1,0 +1,38 @@
+{
+  "product": "Genie Agent Improvements",
+  "tagline": "Enhanced usability and functionality for Genie Agents.",
+  "updated": "Feb 5, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-improvements",
+  "what_it_does": "Genie Agents now feature embedded compute credentials for all users, enhancing security and ease of access. The Configure tab has been improved with paginated column lists, making it easier to navigate tables with numerous columns. Additionally, a new tag search functionality allows users to efficiently locate Genie Agents by their assigned tags.",
+  "why_it_matters": "These improvements streamline user experience and enhance security, which can lead to increased productivity and reduced administrative overhead. The ability to quickly find and manage Genie Agents through tags can significantly improve workflow efficiency for data teams.",
+  "plain_summary": "Genie Agents now have better usability and security features.",
+  "capabilities": [
+    {
+      "title": "Embedded Compute Credentials",
+      "desc": "Compute credentials are now automatically embedded for all users when the attached warehouse is changed."
+    },
+    {
+      "title": "Paginated Column Lists",
+      "desc": "Column lists in the Configure tab are paginated for improved navigation and usability."
+    },
+    {
+      "title": "Tag Search Functionality",
+      "desc": "Users can now search for Genie Agents by their assigned tags, enhancing discoverability."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Compute Warehouse",
+    "User Interface"
+  ],
+  "steps": [],
+  "key_takeaway": "The latest improvements to Genie Agents enhance usability and security, making it easier for users to manage and access their data resources.",
+  "note_id": "2026-02-05-genie-agent-formerly-genie-space-improvements",
+  "category": "platform"
+}

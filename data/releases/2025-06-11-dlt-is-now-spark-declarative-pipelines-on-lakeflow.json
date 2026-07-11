@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-dlt-is-now-spark-declarative-pipelines-on-lakeflow",
+  "title": "DLT is now Spark Declarative Pipelines on Lakeflow",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#dlt-is-now-spark-declarative-pipelines-on-lakeflow",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The product known as DLT is now Spark Declarative Pipelines on Lakeflow. No migration is required to use Spark Declarative Pipelines on Lakeflow. See [Spark Declarative Pipelines](/aws/en/ldp).",
+  "ref_links": [
+    {
+      "text": "Spark Declarative Pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:50.164913Z"
+}

@@ -1,0 +1,78 @@
+{
+  "product": "Share Genie Agents externally using OpenSharing",
+  "tagline": "Enable external collaboration by sharing Genie Agents with users outside your organization.",
+  "updated": "Jun 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/share-genie-space",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-genie-agents-externally-using-opensharing-beta",
+  "what_it_does": "OpenSharing allows providers to share a Genie Agent with external users by creating a point-in-time snapshot of the agent's data assets and instructions. Recipients can then mount this share to create a local Genie Agent that is pre-loaded with the shared data and instructions. This feature requires specific permissions and setup, including enabling the Genie Agent Sharing preview and having the appropriate access rights on the Unity Catalog metastore.",
+  "why_it_matters": "This capability enhances collaboration and data sharing across organizational boundaries, enabling teams to leverage shared resources effectively. By allowing external users to access Genie Agents, organizations can foster partnerships, streamline workflows, and improve productivity without compromising data governance.",
+  "plain_summary": "You can now share Genie Agents with users outside your organization using OpenSharing.",
+  "capabilities": [
+    {
+      "title": "External Sharing",
+      "desc": "Share Genie Agents with users outside your organization."
+    },
+    {
+      "title": "Point-in-Time Snapshots",
+      "desc": "Creates a snapshot of the Genie Agent's data and instructions at the time of sharing."
+    },
+    {
+      "title": "Recipient Management",
+      "desc": "Manage and add recipients after the initial share is created."
+    },
+    {
+      "title": "Read-Only Access",
+      "desc": "Recipients receive read-only access to the shared Genie Agent's assets."
+    }
+  ],
+  "prerequisites": [
+    "Genie Agent Sharing preview enabled at the account level.",
+    "OpenSharing set up for your account.",
+    "CREATE SHARE privilege on the Unity Catalog metastore.",
+    "CAN EDIT or higher on the Genie Agent.",
+    "SELECT privilege on all data assets in the agent."
+  ],
+  "use_cases": [
+    "Collaborating with external partners on data projects.",
+    "Sharing data insights with clients or stakeholders.",
+    "Providing training materials or examples to external teams."
+  ],
+  "limitations": [
+    "The share captures a snapshot and does not update with changes to the agent.",
+    "The Genie Agent configuration must be less than 256 KB when compressed.",
+    "Genie Agents with metric views cannot be shared."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Genie Agent",
+    "OpenSharing",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Select Genie Agent",
+      "desc": "Go to the Genie Agent you want to share in your Databricks workspace."
+    },
+    {
+      "title": "Initiate Sharing",
+      "desc": "Click 'Share' and then the 'External' tab."
+    },
+    {
+      "title": "Choose Recipients",
+      "desc": "Select recipients to share the agent with or create new ones."
+    },
+    {
+      "title": "Complete Sharing",
+      "desc": "Click 'Share' to export the snapshot of the Genie Agent."
+    },
+    {
+      "title": "Manage Recipients",
+      "desc": "Add more recipients later if needed by repeating the sharing process."
+    }
+  ],
+  "key_takeaway": "The new OpenSharing feature allows organizations to share Genie Agents externally, enhancing collaboration and data accessibility.",
+  "note_id": "2026-06-17-share-genie-agents-externally-using-opensharing-beta",
+  "category": "platform"
+}

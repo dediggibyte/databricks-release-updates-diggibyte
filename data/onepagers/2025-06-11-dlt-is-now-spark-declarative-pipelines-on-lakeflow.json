@@ -1,0 +1,44 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "The evolution of DLT into a robust framework for data pipelines.",
+  "updated": "Jun 11, 2025",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#dlt-is-now-spark-declarative-pipelines-on-lakeflow",
+  "what_it_does": "Lakeflow Spark Declarative Pipelines (SDP) is a framework designed for creating both batch and streaming data pipelines using SQL and Python. It extends Apache Spark Declarative Pipelines and operates on the optimized Databricks Runtime, enabling efficient data ingestion from various sources like cloud storage and message buses. Users can develop, configure, and monitor pipelines, facilitating incremental transformations and data flows.",
+  "why_it_matters": "This update enhances data engineering capabilities by providing a more powerful and flexible framework for building data pipelines, which can lead to improved performance and reduced operational complexity. Organizations can benefit from streamlined data ingestion and transformation processes, ultimately driving better insights and decision-making.",
+  "plain_summary": "The DLT product has been rebranded as Spark Declarative Pipelines on Lakeflow, offering enhanced capabilities for data pipelines.",
+  "capabilities": [
+    {
+      "title": "Batch and Streaming Support",
+      "desc": "Create both batch and streaming data pipelines using SQL and Python."
+    },
+    {
+      "title": "Interoperability with Apache Spark",
+      "desc": "Seamlessly extend and integrate with existing Apache Spark Declarative Pipelines."
+    },
+    {
+      "title": "Data Ingestion from Multiple Sources",
+      "desc": "Ingest data from various sources including cloud storage and message buses."
+    },
+    {
+      "title": "Pipeline Monitoring",
+      "desc": "Monitor and troubleshoot pipeline queries effectively."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Data Sources",
+    "Lakeflow Spark Declarative Pipelines",
+    "Databricks Runtime",
+    "Data Transformation",
+    "Data Storage"
+  ],
+  "steps": [],
+  "key_takeaway": "The transition from DLT to Spark Declarative Pipelines on Lakeflow marks a significant enhancement in data pipeline capabilities.",
+  "note_id": "2025-06-11-dlt-is-now-spark-declarative-pipelines-on-lakeflow",
+  "category": "platform"
+}

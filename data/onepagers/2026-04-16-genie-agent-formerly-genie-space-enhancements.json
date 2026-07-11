@@ -1,0 +1,38 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New API features for enhanced interaction and performance.",
+  "updated": "Apr 16, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/api/workspace/genie/createmessagecomment",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-5",
+  "what_it_does": "Users can now access reasoning traces through the API via the `GenieQueryAttachments` field in the `GenieMessage` object. Additionally, users can add and list comments on messages using the API, enhancing collaboration. The maximum token limit for Agent mode conversations has been increased, allowing for better context retention in longer interactions.",
+  "why_it_matters": "These enhancements improve user experience by facilitating better communication and collaboration through comments, while the increased token limit enhances the performance of multi-turn conversations, making the platform more efficient and effective for users.",
+  "plain_summary": "Genie Agent now allows users to add comments and access reasoning traces via API, with improved conversation capabilities.",
+  "capabilities": [
+    {
+      "title": "Reasoning Traces API",
+      "desc": "Access Genie’s reasoning traces using the `GenieQueryAttachments` field."
+    },
+    {
+      "title": "Message Comments API",
+      "desc": "Add and list comments on messages through the API."
+    },
+    {
+      "title": "Increased Token Limit",
+      "desc": "The token limit for Agent mode conversations has been increased."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "API Layer",
+    "User Interaction"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements significantly improve user interaction capabilities and performance.",
+  "note_id": "2026-04-16-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

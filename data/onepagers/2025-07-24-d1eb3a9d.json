@@ -1,0 +1,75 @@
+{
+  "product": "Lakeflow Pipelines",
+  "tagline": "Moving tables between Spark Declarative Pipelines is now generally available.",
+  "updated": "Jul 24, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/move-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#moving-tables-between-spark-declarative-pipelines-on-lakeflow-pipelines-is-now-ga",
+  "what_it_does": "This update allows users to move streaming tables and materialized views between Spark Declarative Pipelines in Lakeflow, enabling the destination pipeline to manage the table instead of the source. It supports various scenarios such as splitting large pipelines, merging multiple pipelines, and changing refresh frequencies. The feature requires specific Databricks Runtime versions and shared metastores between workspaces for cross-workspace moves.",
+  "why_it_matters": "This capability enhances flexibility in data pipeline management, allowing organizations to optimize their ETL processes by reorganizing tables without the need for extensive rewrites. It can lead to improved performance, reduced operational complexity, and better resource utilization, ultimately driving productivity and cost efficiency.",
+  "plain_summary": "You can now easily move tables between different data pipelines in Lakeflow.",
+  "capabilities": [
+    {
+      "title": "Move Tables Between Pipelines",
+      "desc": "Users can transfer tables from one pipeline to another, allowing for better organization and management."
+    },
+    {
+      "title": "Support for Multiple Scenarios",
+      "desc": "Facilitates splitting, merging, and adjusting refresh frequencies of pipelines."
+    },
+    {
+      "title": "Cross-Workspace Table Movement",
+      "desc": "Enables moving tables across different workspaces that share a metastore."
+    },
+    {
+      "title": "Default Publishing Mode Requirement",
+      "desc": "The destination pipeline must use the default publishing mode for successful table transfers."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 16.3 or above for ALTER command; 17.2 for cross-workspace moves.",
+    "Both pipelines must share a metastore.",
+    "User must be the owner of both source and destination pipelines."
+  ],
+  "use_cases": [
+    "Reorganizing ETL processes for better performance.",
+    "Merging data from multiple pipelines into a single pipeline.",
+    "Adjusting table refresh frequencies based on data needs."
+  ],
+  "limitations": [
+    "Standalone materialized views and streaming tables cannot be moved.",
+    "Append once flows are not supported and must be removed from the destination pipeline.",
+    "Private tables or views cannot be moved."
+  ],
+  "architecture": [
+    "Unity Catalog",
+    "Lakeflow Pipelines",
+    "Spark Declarative Pipelines"
+  ],
+  "steps": [
+    {
+      "title": "Stop Source Pipeline",
+      "desc": "Ensure the source pipeline is not running before moving tables."
+    },
+    {
+      "title": "Remove Table Definition",
+      "desc": "Delete the table's definition from the source pipeline's code."
+    },
+    {
+      "title": "Run ALTER Command",
+      "desc": "Execute the SQL command to reassign the table to the destination pipeline."
+    },
+    {
+      "title": "Add Table Definition to Destination",
+      "desc": "Insert the table's definition into the destination pipeline's code."
+    },
+    {
+      "title": "Run Both Pipelines",
+      "desc": "Start both pipelines to ensure the destination pipeline updates the table."
+    }
+  ],
+  "key_takeaway": "The ability to move tables between pipelines enhances data management flexibility and operational efficiency.",
+  "note_id": "2025-07-24-d1eb3a9d",
+  "category": "platform"
+}

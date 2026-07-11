@@ -1,0 +1,33 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow environment versions (Beta)",
+  "tagline": "Environment versions for Spark Declarative Pipelines on Lakeflow are now in Beta.",
+  "updated": "May 14, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/environment-versions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-environment-versions-beta",
+  "what_it_does": "Environment versions for Spark Declarative Pipelines on Lakeflow are now in Beta. Configure an environment version on a pipeline to pin the Python language version and set of preinstalled libraries, decoupling your pipeline's Python runtime from Databricks Runtime upgrades. Beta Environment versions for Lakeflow Spark Declarative Pipelines (SDP) are in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Environment versions for Spark Declarative Pipelines on Lakeflow are now in Beta. Configure an environment version on a pipeline to pin the Python language version and set of preinstalled libraries, decoupling your pipeline's Python runtime from Databricks…",
+  "capabilities": [
+    {
+      "title": "glob: include: ../src/mypipeline/transformations/",
+      "desc": "glob: include: ../src/mypipeline/transformations/"
+    },
+    {
+      "title": "--editable ${workspace.filepath}",
+      "desc": "--editable ${workspace.filepath}"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Environment versions for Spark Declarative Pipelines on Lakeflow are now in Beta.",
+  "note_id": "2026-05-14-spark-declarative-pipelines-on-lakeflow-environment-versions-beta",
+  "category": "platform"
+}

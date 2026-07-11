@@ -1,0 +1,53 @@
+{
+  "product": "Genie Agent and Databricks Assistant on AWS GovCloud",
+  "tagline": "Now generally available for secure cloud solutions in compliance with U.S. regulations.",
+  "updated": "Jan 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/gov-cloud",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-and-databricks-assistant-on-databricks-on-aws-govcloud-ga",
+  "what_it_does": "Genie Agent and Databricks Assistant are now fully operational on Databricks on AWS GovCloud, providing U.S. government customers with a compliant platform that adheres to FedRAMP High and DoD IL5 standards. This offering includes enhanced security features such as a compliance security profile, which enforces specific instance types and monitoring capabilities. The service is exclusively operated by U.S. citizens and ensures that customer data remains within U.S. government cloud regions.",
+  "why_it_matters": "This update is crucial for U.S. government agencies and contractors needing a secure and compliant data analytics platform. By leveraging Genie and Databricks Assistant, organizations can enhance their data-driven decision-making while ensuring adherence to stringent regulatory requirements, ultimately improving operational efficiency and reducing compliance risks.",
+  "plain_summary": "Genie Agent and Databricks Assistant are now available on Databricks for AWS GovCloud, ensuring compliance with U.S. government regulations.",
+  "capabilities": [
+    {
+      "title": "Compliance Security Profile",
+      "desc": "Automatically enforces security measures to meet FedRAMP High compliance."
+    },
+    {
+      "title": "U.S. Data Residency",
+      "desc": "Ensures all customer data is stored and processed within U.S. government cloud regions."
+    },
+    {
+      "title": "Single Sign-On Support",
+      "desc": "Requires SSO authentication for secure access to the platform."
+    },
+    {
+      "title": "Enhanced Monitoring",
+      "desc": "Includes automatic cluster updates and security monitoring features."
+    }
+  ],
+  "prerequisites": [
+    "Single sign-on authentication must be configured.",
+    "PrivateLink must be set up for back-end and front-end connections."
+  ],
+  "use_cases": [
+    "Data analytics for U.S. government agencies.",
+    "Secure data processing for contractors working with federal projects.",
+    "Compliance reporting and monitoring for sensitive data operations."
+  ],
+  "limitations": [
+    "Certain features like in-product messaging and Databricks Marketplace are unavailable.",
+    "Fleet instances are not supported in AWS GovCloud."
+  ],
+  "architecture": [
+    "Databricks on AWS GovCloud",
+    "Compliance Security Profile",
+    "Genie Agent",
+    "Databricks Assistant"
+  ],
+  "steps": [],
+  "key_takeaway": "The availability of Genie Agent and Databricks Assistant on AWS GovCloud enhances secure data analytics capabilities for U.S. government entities.",
+  "note_id": "2026-01-15-7d642c4c",
+  "category": "platform"
+}

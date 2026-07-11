@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhanced PDF exports, citation features, and improved accuracy.",
+  "updated": "Jan 8, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-pdf-export-citations-and-accuracy-improvements",
+  "what_it_does": "The Genie Agent now allows users to export reports as PDF files, enhancing the sharing and presentation of insights. It includes citations for SQL examples used in analyses, improving transparency and trust in the results. Additionally, currency formatting has been refined to prevent misinterpretations, and the handling of question types has been improved for more accurate responses. These updates aim to enhance user experience and data accuracy.",
+  "why_it_matters": "These enhancements significantly improve the usability and reliability of the Genie Agent, making it easier for business users to generate and share insights. By providing accurate citations and better formatting, organizations can ensure that data-driven decisions are based on trustworthy information. This leads to increased productivity and confidence in analytics, ultimately driving better business outcomes.",
+  "plain_summary": "Genie Agent now supports PDF exports, includes SQL citations, and has improved accuracy in handling questions.",
+  "capabilities": [
+    {
+      "title": "PDF Export",
+      "desc": "Users can now export Genie Research Agent reports as PDF files."
+    },
+    {
+      "title": "SQL Citations",
+      "desc": "Genie's analysis steps now include citations for the SQL examples used."
+    },
+    {
+      "title": "Currency Formatting",
+      "desc": "Numeric columns in table results now follow improved currency formatting rules."
+    },
+    {
+      "title": "Question Type Handling",
+      "desc": "Genie categorizes common question types more accurately for better context application."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent UI",
+    "Natural Language Processing",
+    "SQL Query Generation",
+    "Data Visualization"
+  ],
+  "steps": [],
+  "key_takeaway": "The latest updates to Genie Agent enhance report sharing, improve data accuracy, and increase user trust in analytics.",
+  "note_id": "2026-01-08-genie-agent-formerly-genie-space-pdf-export-citations-and-accuracy-improvements",
+  "category": "platform"
+}

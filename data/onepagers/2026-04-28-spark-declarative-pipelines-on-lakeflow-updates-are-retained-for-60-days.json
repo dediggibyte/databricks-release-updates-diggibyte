@@ -1,0 +1,43 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "Update history retention extended to 60 days.",
+  "updated": "Apr 28, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/api/workspace/pipelines",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#spark-declarative-pipelines-on-lakeflow-updates-are-retained-for-60-days",
+  "what_it_does": "The update history for Spark Declarative Pipelines on Lakeflow is now retained for 60 days, allowing users to view and access updates in the pipeline UI and through the Pipelines REST API. This change enhances the ability to track changes and manage pipeline versions over a longer period. Users can now more effectively monitor and audit their data processing workflows.",
+  "why_it_matters": "This extended retention period improves governance and operational efficiency by allowing data engineers and platform leaders to better track changes and troubleshoot issues over a longer timeframe. It supports compliance and auditing requirements, ultimately leading to enhanced data reliability and trustworthiness.",
+  "plain_summary": "You can now see updates to Spark Declarative Pipelines for 60 days instead of 30.",
+  "capabilities": [
+    {
+      "title": "Pipeline Management",
+      "desc": "Create, edit, delete, and start pipelines using the API."
+    },
+    {
+      "title": "Task Orchestration",
+      "desc": "Manage task orchestration and cluster management automatically."
+    },
+    {
+      "title": "Data Quality Enforcement",
+      "desc": "Define expectations for data quality and handle records that fail those expectations."
+    },
+    {
+      "title": "Monitoring and Error Handling",
+      "desc": "Monitor pipeline execution and manage error handling effectively."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Lakeflow",
+    "Spark Declarative Pipelines",
+    "Pipelines REST API",
+    "Data Processing Workflows"
+  ],
+  "steps": [],
+  "key_takeaway": "The retention period for update history in Spark Declarative Pipelines has been extended to enhance tracking and governance.",
+  "note_id": "2026-04-28-spark-declarative-pipelines-on-lakeflow-updates-are-retained-for-60-days",
+  "category": "platform"
+}

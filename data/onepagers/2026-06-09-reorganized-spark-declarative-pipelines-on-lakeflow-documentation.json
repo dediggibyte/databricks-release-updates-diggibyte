@@ -1,0 +1,43 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "Documentation has been reorganized for better clarity and access.",
+  "updated": "Jun 9, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/concepts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#reorganized-spark-declarative-pipelines-on-lakeflow-documentation",
+  "what_it_does": "The documentation for Spark Declarative Pipelines on Lakeflow has been reorganized to group all conceptual topics under a dedicated 'Concepts' section. This restructuring aims to enhance user navigation and understanding of key components such as pipelines, flows, streaming tables, and materialized views. The documentation supports both batch and streaming data processing, emphasizing automatic orchestration and incremental updates.",
+  "why_it_matters": "This update improves the accessibility of critical information for data engineers and analysts, facilitating quicker onboarding and more efficient use of Lakeflow's capabilities. By providing clearer guidance, organizations can enhance productivity and reduce the time spent on troubleshooting and implementation, ultimately leading to more effective data pipeline management.",
+  "plain_summary": "The documentation for Spark Declarative Pipelines on Lakeflow has been reorganized for easier navigation.",
+  "capabilities": [
+    {
+      "title": "Automatic Orchestration",
+      "desc": "Pipelines automatically manage the execution order and parallelism of processing steps."
+    },
+    {
+      "title": "Declarative Processing",
+      "desc": "Users can define processing logic in a simplified manner, reducing the need for extensive manual coding."
+    },
+    {
+      "title": "Incremental Processing",
+      "desc": "The engine updates materialized views by processing only new or changed data."
+    },
+    {
+      "title": "Data Quality Management",
+      "desc": "Users can define expectations to validate data as it flows through the pipeline."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Lakeflow Pipelines",
+    "Streaming Tables",
+    "Materialized Views",
+    "Data Sources"
+  ],
+  "steps": [],
+  "key_takeaway": "The reorganization of the documentation enhances user experience and supports efficient data pipeline development.",
+  "note_id": "2026-06-09-reorganized-spark-declarative-pipelines-on-lakeflow-documentation",
+  "category": "platform"
+}

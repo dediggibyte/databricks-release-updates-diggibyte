@@ -1,0 +1,71 @@
+{
+  "product": "Lakebase Autoscaling",
+  "tagline": "Update notifications now posted 3 days in advance.",
+  "updated": "Jul 10, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/updates",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebase-autoscaling-update-notifications-now-post-3-days-in-advance",
+  "what_it_does": "Lakebase Autoscaling now provides notifications for planned updates at least 3 days in advance, reducing the previous notification period of 7 days. This allows users to prepare for updates that include Postgres upgrades, security patches, and other enhancements. Updates are applied during a user-defined window, and the compute is prewarmed to maintain performance during restarts.",
+  "why_it_matters": "This change enhances operational efficiency by allowing teams to better plan for updates, minimizing disruption and ensuring that systems are kept secure and up-to-date. It benefits data engineers and platform managers by providing more timely information about necessary updates, which can improve overall system reliability and performance.",
+  "plain_summary": "Lakebase now notifies users about upcoming updates just 3 days in advance instead of 7.",
+  "capabilities": [
+    {
+      "title": "Shortened Notification Window",
+      "desc": "Users receive update notifications 3 days in advance, allowing for better planning."
+    },
+    {
+      "title": "Prewarming Cache",
+      "desc": "Lakebase prewarms the compute's cache during updates to maintain performance."
+    },
+    {
+      "title": "User-defined Update Windows",
+      "desc": "Users can specify a preferred day and hour for updates to minimize disruption."
+    },
+    {
+      "title": "Automatic Connection Handling",
+      "desc": "Most Postgres drivers automatically manage brief connection interruptions during updates."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Planning for scheduled updates to minimize downtime.",
+    "Ensuring timely application of security patches.",
+    "Managing Postgres upgrades without significant disruption."
+  ],
+  "limitations": [
+    "Computes in a transition state during an update are not updated.",
+    "If a compute is excluded from an update, it will receive the missed update with the next scheduled update."
+  ],
+  "architecture": [
+    "Lakebase App",
+    "Project Settings",
+    "Compute Management",
+    "Update Notification System"
+  ],
+  "steps": [
+    {
+      "title": "Access Lakebase App",
+      "desc": "Navigate to the Lakebase App from the apps switcher in your workspace."
+    },
+    {
+      "title": "Select Project",
+      "desc": "Choose the project you want to manage updates for."
+    },
+    {
+      "title": "Open Settings",
+      "desc": "Click on Settings and then select Updates."
+    },
+    {
+      "title": "Choose Update Window",
+      "desc": "Specify a day of the week and an hour for updates."
+    },
+    {
+      "title": "Check Upcoming Updates",
+      "desc": "Review your project's settings for any upcoming updates."
+    }
+  ],
+  "key_takeaway": "Lakebase now provides update notifications 3 days in advance, improving planning and system reliability.",
+  "note_id": "2026-07-10-lakebase-autoscaling-update-notifications-now-post-3-days-in-advance",
+  "category": "platform"
+}

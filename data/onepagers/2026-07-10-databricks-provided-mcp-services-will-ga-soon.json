@@ -1,0 +1,56 @@
+{
+  "product": "Databricks-provided MCP Services",
+  "tagline": "General availability of MCP Services for seamless integration with popular SaaS applications.",
+  "updated": "Jul 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-framework/mcp-services",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-provided-mcp-services-will-ga-soon",
+  "what_it_does": "Databricks-provided MCP Services allow users to connect to popular SaaS applications like Slack, GitHub, and Google Drive with both read and write operations enabled by default. These services are registered as Unity Catalog securables, allowing for governance and access control through Unity AI Gateway. Admins can manage access and apply service policies to restrict tool usage and monitor activity effectively.",
+  "why_it_matters": "This update enhances productivity by enabling seamless integration with widely-used SaaS tools without the need for complex setup, thus reducing time to value. It also strengthens governance and security by leveraging Unity Catalog's capabilities, ensuring that data access is controlled and monitored, which is crucial for compliance and risk management.",
+  "plain_summary": "Databricks is launching MCP Services that allow easy connections to popular SaaS applications for data operations.",
+  "capabilities": [
+    {
+      "title": "Seamless SaaS Integration",
+      "desc": "Connect to popular tools like Slack and GitHub without any setup."
+    },
+    {
+      "title": "Governance and Security",
+      "desc": "Manage access and apply service policies through Unity Catalog."
+    },
+    {
+      "title": "Built-in Service Policies",
+      "desc": "Utilize pre-configured policies to control write operations and tool access."
+    },
+    {
+      "title": "Audit and Monitoring",
+      "desc": "Track usage and activity through detailed logging of every invocation."
+    }
+  ],
+  "prerequisites": [
+    "A workspace enabled for Unity Catalog.",
+    "Unity AI Gateway Beta and Managed MCP Servers preview enabled for your account.",
+    "A workspace in a region where Model Serving is supported."
+  ],
+  "use_cases": [
+    "Integrating data workflows with Slack for real-time collaboration.",
+    "Automating code deployments through GitHub integration.",
+    "Managing documents and files using Google Drive directly from Databricks."
+  ],
+  "limitations": [
+    "SQL DDL for MCP Services is not available; management must be done via UI or REST API.",
+    "Only external MCP servers can be registered as your own MCP Service.",
+    "Exclusion patterns for tool selection are not supported.",
+    "Unity Catalog Global Search does not surface MCP Services."
+  ],
+  "architecture": [
+    "Unity Catalog",
+    "Unity AI Gateway",
+    "MCP Services",
+    "External SaaS Tools"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks-provided MCP Services enable easy and secure connections to essential SaaS applications, enhancing data governance and operational efficiency.",
+  "note_id": "2026-07-10-databricks-provided-mcp-services-will-ga-soon",
+  "category": "platform"
+}

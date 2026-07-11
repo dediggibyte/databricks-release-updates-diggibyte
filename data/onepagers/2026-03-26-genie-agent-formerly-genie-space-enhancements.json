@@ -1,0 +1,58 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Expanded sharing and SQL download capabilities.",
+  "updated": "Mar 26, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up#share",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-8",
+  "what_it_does": "Genie Agents, previously known as Genie Spaces, now allow sharing with all account users through a new share modal. Additionally, the APIs for downloading full query results have been updated to respect workspace-level settings for SQL downloads. This enhances the usability and accessibility of Genie Agents for data queries.",
+  "why_it_matters": "These enhancements improve collaboration across teams by allowing broader access to Genie Agents, which can lead to increased productivity and better data-driven decision-making. The respect for SQL download settings also ensures compliance with organizational data governance policies.",
+  "plain_summary": "You can now share Genie Agents with all users in your account and download SQL query results according to workspace settings.",
+  "capabilities": [
+    {
+      "title": "Share with All Users",
+      "desc": "The share modal now includes an option to share your Genie Agent with all account users."
+    },
+    {
+      "title": "SQL Download Settings",
+      "desc": "APIs for downloading full query results now adhere to workspace-level SQL download settings."
+    }
+  ],
+  "prerequisites": [
+    "Unity Catalog must be enabled and data registered.",
+    "Users must have Databricks SQL workspace entitlement.",
+    "CAN USE permission on a pro or serverless SQL warehouse is required."
+  ],
+  "use_cases": [
+    "Business users querying data through natural language.",
+    "Data analysts configuring agents for specific data sets.",
+    "Teams collaborating on data insights using shared agents."
+  ],
+  "limitations": [
+    "Each Genie Agent can support up to 10,000 conversations.",
+    "Each conversation can include up to 10,000 messages."
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Unity Catalog",
+    "SQL Warehouse"
+  ],
+  "steps": [
+    {
+      "title": "Access Genie Agents",
+      "desc": "Click 'Genie Agents' in the sidebar."
+    },
+    {
+      "title": "Create New Agent",
+      "desc": "Click 'New' in the upper-right corner and choose data sources."
+    },
+    {
+      "title": "Share Agent",
+      "desc": "Use the share modal to select 'All account users' and set permissions."
+    }
+  ],
+  "key_takeaway": "The Genie Agent enhancements facilitate easier sharing and compliance with SQL download settings, fostering better collaboration and data governance.",
+  "note_id": "2026-03-26-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,74 @@
+{
+  "product": "Default Python Package Repositories for Spark Declarative Pipelines",
+  "tagline": "Workspace admins can now set default package repositories for easier package management.",
+  "updated": "Feb 11, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-python-packages",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#configure-default-python-package-repositories-for-spark-declarative-pipelines-on-lakeflow-public-preview",
+  "what_it_does": "Workspace admins can configure private or authenticated Python package repositories as the default pip configuration for notebooks, jobs, and Lakeflow Spark Declarative Pipelines. This allows users to install packages from internal repositories without needing to specify `index-url` or `extra-index-url` in their code. The configuration utilizes Databricks secrets for secure storage of repository URLs and credentials, ensuring that sensitive information is managed appropriately.",
+  "why_it_matters": "This update streamlines the package installation process for users, reducing the complexity of managing dependencies and enhancing productivity. By allowing the use of internal repositories, organizations can improve governance and security while potentially lowering costs associated with external package management. It also facilitates compliance with internal policies regarding software usage.",
+  "plain_summary": "Workspace admins can now set default Python package repositories for easier package management in Spark Declarative Pipelines.",
+  "capabilities": [
+    {
+      "title": "Default Package Configuration",
+      "desc": "Admins can set default Python package repositories for all users in the workspace."
+    },
+    {
+      "title": "Secure Credential Management",
+      "desc": "Utilizes Databricks secrets to securely store repository URLs and credentials."
+    },
+    {
+      "title": "Simplified Package Installation",
+      "desc": "Users can install packages without specifying repository URLs in their code."
+    },
+    {
+      "title": "Flexible Setup Options",
+      "desc": "Configuration can be done via the admin settings page, CLI, or REST API."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin privileges are required to configure default repositories.",
+    "Databricks secrets must be set up for secure credential management."
+  ],
+  "use_cases": [
+    "Organizations needing to manage internal Python packages securely.",
+    "Teams looking to streamline the setup of development environments.",
+    "Projects requiring compliance with internal software usage policies."
+  ],
+  "limitations": [
+    "If `index-url` or `extra-index-url` are specified in code, they will override workspace defaults.",
+    "Changes to secrets may require reattaching compute resources or restarting jobs."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Admin Settings",
+    "Databricks Secrets",
+    "Lakeflow Spark Declarative Pipelines"
+  ],
+  "steps": [
+    {
+      "title": "Log in to Databricks",
+      "desc": "As a workspace administrator, log in to the Databricks workspace."
+    },
+    {
+      "title": "Access Settings",
+      "desc": "Click your username and select Settings."
+    },
+    {
+      "title": "Manage Package Repositories",
+      "desc": "Click on the Compute tab and manage Default Package Repositories."
+    },
+    {
+      "title": "Add Repository URLs",
+      "desc": "Add or remove index URLs and SSL certificates as needed."
+    },
+    {
+      "title": "Save Changes",
+      "desc": "Click Save to apply your changes."
+    }
+  ],
+  "key_takeaway": "Admins can now easily configure default Python package repositories, enhancing security and simplifying package management for users.",
+  "note_id": "2026-02-11-79f9b438",
+  "category": "platform"
+}

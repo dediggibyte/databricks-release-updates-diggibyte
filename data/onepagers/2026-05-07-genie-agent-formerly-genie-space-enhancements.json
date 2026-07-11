@@ -1,0 +1,63 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New features for improved embedding and monitoring capabilities.",
+  "updated": "May 7, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/embed",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-3",
+  "what_it_does": "The Genie Agent now allows users to export context as a metric view, enabling centralized business semantics definition. Additionally, iframe monitoring has been introduced to log messages from embedded Genie One spaces, enhancing oversight. For compliance-focused customers, embedding Genie Agents as iframes is now possible, allowing interaction within external applications while maintaining security protocols.",
+  "why_it_matters": "These enhancements improve operational efficiency by allowing seamless integration of Genie Agents into existing workflows, thereby reducing the need to switch between applications. The ability to export metrics and monitor interactions enhances data governance and compliance, which is crucial for organizations managing sensitive information.",
+  "plain_summary": "Genie Agents can now be embedded in external applications with new monitoring and export features.",
+  "capabilities": [
+    {
+      "title": "Export as Metric View",
+      "desc": "Users can export the context from a Genie Agent as a metric view for centralized business semantics."
+    },
+    {
+      "title": "Iframe Monitoring",
+      "desc": "Messages from iframe-embedded Genie One spaces are now logged in the Monitoring tab."
+    },
+    {
+      "title": "Compliance Iframe Embed",
+      "desc": "Customers with compliance profiles can embed Genie Agents as iframes in external applications."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin must configure allowed embedding surfaces.",
+    "Agent author must have at least CAN MANAGE permission on the Genie Agent.",
+    "End users must have explicit access to the Genie Agent and underlying data assets."
+  ],
+  "use_cases": [
+    "Integrating Genie Agents into internal dashboards for seamless user experience.",
+    "Monitoring user interactions with Genie Agents for compliance and performance insights.",
+    "Providing access to Genie functionalities within existing enterprise applications."
+  ],
+  "limitations": [
+    "Embedded users can send prompts but cannot edit the agent configuration.",
+    "Users not signed in to Databricks must authenticate to interact with the embedded agent."
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Iframe Embed",
+    "Monitoring Tab",
+    "Data Access Management"
+  ],
+  "steps": [
+    {
+      "title": "Configure Embedding Surfaces",
+      "desc": "A workspace admin must configure allowed embedding surfaces in Genie access management settings."
+    },
+    {
+      "title": "Generate Iframe Code",
+      "desc": "Agent authors can generate the iframe embed code from the Genie Agent's Share dialog."
+    },
+    {
+      "title": "Add Iframe to Application",
+      "desc": "Paste the generated iframe code into the external website or application."
+    }
+  ],
+  "key_takeaway": "The Genie Agent enhancements streamline integration and monitoring, supporting better compliance and user experience.",
+  "note_id": "2026-05-07-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

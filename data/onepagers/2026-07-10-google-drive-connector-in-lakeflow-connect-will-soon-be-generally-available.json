@@ -1,0 +1,71 @@
+{
+  "product": "Google Drive Connector in Lakeflow Connect",
+  "tagline": "Ingest files from Google Drive for enhanced data processing.",
+  "updated": "Jul 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#google-drive-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "what_it_does": "The Google Drive connector in Lakeflow Connect enables users to ingest files from Google Drive into Databricks, supporting various formats such as CSV, JSON, XML, and Excel. It allows for the ingestion of unstructured files as binary data, parsing structured formats into Delta tables, and capturing file metadata without loading the file contents. This feature is managed and can be controlled by workspace admins through the Previews page.",
+  "why_it_matters": "This update enhances data ingestion capabilities, allowing organizations to streamline their data workflows by easily integrating Google Drive files into Databricks for analysis and transformation. It benefits data teams by reducing the time and complexity involved in data preparation, ultimately leading to improved productivity and faster insights.",
+  "plain_summary": "You can now easily ingest files from Google Drive into Databricks for analysis.",
+  "capabilities": [
+    {
+      "title": "Managed Ingestion",
+      "desc": "Ingest files from Google Drive with a managed connector for easier data handling."
+    },
+    {
+      "title": "Support for Multiple Formats",
+      "desc": "Parse various structured formats like CSV and JSON into Delta tables."
+    },
+    {
+      "title": "File Metadata Capture",
+      "desc": "Capture file metadata without loading the actual file contents."
+    },
+    {
+      "title": "User Role Flexibility",
+      "desc": "Administrators can set up connections for non-admin users to create ingestion pipelines."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admins must enable the feature from the Previews page.",
+    "OAuth 2.0 must be configured for authentication."
+  ],
+  "use_cases": [
+    "Ingesting marketing data stored in Google Drive for analysis.",
+    "Transforming CSV files from Google Drive into Delta tables for reporting.",
+    "Automating data pipelines that require regular updates from Google Drive."
+  ],
+  "limitations": [
+    "SCD type 2 is not supported.",
+    "API-based column selection and deselection is not supported.",
+    "API-based row filtering is not supported."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "Google Drive Connector",
+    "Delta Tables",
+    "Databricks Workflows"
+  ],
+  "steps": [
+    {
+      "title": "Configure OAuth 2.0",
+      "desc": "Set up OAuth 2.0 for authentication to Google Drive."
+    },
+    {
+      "title": "Create Unity Catalog Connection",
+      "desc": "Establish a Unity Catalog connection for managed ingestion."
+    },
+    {
+      "title": "Use Catalog Explorer",
+      "desc": "Create a connection to Google Drive for non-administrators."
+    },
+    {
+      "title": "Create Ingestion Pipeline",
+      "desc": "Non-administrators can use the interface to create a pipeline from the connection."
+    }
+  ],
+  "key_takeaway": "The Google Drive connector in Lakeflow Connect is now generally available, simplifying data ingestion from Google Drive into Databricks.",
+  "note_id": "2026-07-10-google-drive-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "category": "platform"
+}

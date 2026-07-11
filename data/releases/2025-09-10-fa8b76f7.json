@@ -1,0 +1,25 @@
+{
+  "id": "2025-09-10-fa8b76f7",
+  "title": "Python custom data sources can be used with Spark Declarative Pipelines on Lakeflow",
+  "date": "2025-09-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#python-custom-data-sources-can-be-used-with-spark-declarative-pipelines-on-lakeflow",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can use Python custom data sources and sinks in your pipeline definitions in Spark Declarative Pipelines on Lakeflow.\n\nFor information about Python custom data sources, see the following:\n\n* [Load data from a Python custom data source](/aws/en/ldp/load#python-data-source).\n* [Create a sink](/aws/en/ldp/ldp-sinks#ldp-sink-configure).\n* [PySpark custom data sources](/aws/en/pyspark/datasources).",
+  "ref_links": [
+    {
+      "text": "Load data from a Python custom data source",
+      "url": "https://docs.databricks.com/aws/en/ldp/load#python-data-source"
+    },
+    {
+      "text": "Create a sink",
+      "url": "https://docs.databricks.com/aws/en/ldp/ldp-sinks#ldp-sink-configure"
+    },
+    {
+      "text": "PySpark custom data sources",
+      "url": "https://docs.databricks.com/aws/en/pyspark/datasources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:50.016332Z"
+}

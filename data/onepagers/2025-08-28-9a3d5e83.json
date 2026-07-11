@@ -1,0 +1,74 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "Migration from legacy publishing mode to default mode is now generally available.",
+  "updated": "Aug 28, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/migrate-to-dpm",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#migrate-spark-declarative-pipelines-on-lakeflow-from-legacy-publishing-mode-is-now-ga",
+  "what_it_does": "The migration from the legacy publishing mode to the default publishing mode allows Spark Declarative Pipelines to publish to multiple catalogs and schemas instead of being limited to a single catalog and schema. The default mode features a simplified syntax for managing tables and views, enhancing usability. Migration only affects the metadata of the pipeline and does not involve any data movement or dataset modifications. The legacy mode is deprecated, and users are encouraged to transition to the default mode for improved functionality.",
+  "why_it_matters": "This update significantly enhances the flexibility and scalability of data pipelines, allowing organizations to manage their data more effectively across multiple catalogs and schemas. By simplifying the publishing process, teams can increase productivity and reduce the complexity of their data workflows. The transition to the default mode also aligns with best practices, ensuring that users benefit from the latest features and optimizations.",
+  "plain_summary": "You can now migrate your Spark Declarative Pipelines to a more flexible publishing mode that supports multiple catalogs and schemas.",
+  "capabilities": [
+    {
+      "title": "Multiple Catalogs Support",
+      "desc": "The default publishing mode allows a single pipeline to write to multiple catalogs and schemas."
+    },
+    {
+      "title": "Simplified Syntax",
+      "desc": "The new mode includes a simplified syntax for working with tables and views within the pipeline."
+    },
+    {
+      "title": "Metadata-Only Migration",
+      "desc": "Migration affects only the metadata of the pipeline, ensuring no data is read, moved, or written."
+    },
+    {
+      "title": "Backward Compatibility",
+      "desc": "The default publishing mode is generally backward compatible with the legacy mode, minimizing required changes."
+    }
+  ],
+  "prerequisites": [
+    "Databricks CLI version v0.230.0 or above is required."
+  ],
+  "use_cases": [
+    "Organizations needing to manage data across multiple catalogs and schemas.",
+    "Teams looking to simplify their data pipeline syntax and management.",
+    "Data engineers migrating existing pipelines to leverage new features."
+  ],
+  "limitations": [
+    "Migration is not supported using Declarative Automation Bundles.",
+    "Once migrated, pipelines cannot revert to the legacy publishing mode.",
+    "Materialized views and streaming tables cannot be moved across schemas after creation."
+  ],
+  "architecture": [
+    "Lakeflow",
+    "Spark Declarative Pipelines",
+    "Default Publishing Mode",
+    "Databricks CLI"
+  ],
+  "steps": [
+    {
+      "title": "Access Pipeline Settings",
+      "desc": "Click 'Jobs & Pipelines' from the left sidebar and select the pipeline to migrate."
+    },
+    {
+      "title": "Pause Updates",
+      "desc": "Pause updates and ensure any running pipeline has stopped."
+    },
+    {
+      "title": "Prepare Pipeline Code",
+      "desc": "Optionally prepare any code that might need changes for compatibility."
+    },
+    {
+      "title": "Enable Default Mode",
+      "desc": "Add the configuration 'pipelines.enableDPMForExistingPipeline' and set it to 'true'."
+    },
+    {
+      "title": "Start Migration",
+      "desc": "Start a manual update and let it complete to enable the default publishing mode."
+    }
+  ],
+  "key_takeaway": "The migration to the default publishing mode enhances flexibility and usability for Spark Declarative Pipelines, enabling better data management across multiple catalogs and schemas.",
+  "note_id": "2025-08-28-9a3d5e83",
+  "category": "platform"
+}

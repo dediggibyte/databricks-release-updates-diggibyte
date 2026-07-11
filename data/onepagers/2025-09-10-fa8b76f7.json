@@ -1,0 +1,71 @@
+{
+  "product": "Python Custom Data Sources for Spark Declarative Pipelines",
+  "tagline": "Enhance your data pipelines with custom Python data sources and sinks.",
+  "updated": "Sep 10, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/pyspark/datasources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#python-custom-data-sources-can-be-used-with-spark-declarative-pipelines-on-lakeflow",
+  "what_it_does": "This update allows users to integrate Python custom data sources and sinks into Spark Declarative Pipelines on Lakeflow, enabling the creation of reusable data sources that can connect to various data systems. Users can implement custom data sources by subclassing the PySpark DataSource class and defining methods for reading and writing data. The feature supports batch and streaming data processing, enhancing the flexibility of data ingestion and output in Spark applications.",
+  "why_it_matters": "By enabling the use of custom Python data sources, organizations can streamline their data workflows, reduce the need for complex ETL processes, and leverage existing Python libraries for data manipulation. This capability enhances productivity for data engineers and data scientists, allowing them to focus on building robust data solutions rather than dealing with data integration challenges. It also supports a wider range of data sources, improving data accessibility and insights.",
+  "plain_summary": "You can now use custom Python data sources in your Spark pipelines on Lakeflow.",
+  "capabilities": [
+    {
+      "title": "Custom Data Source Integration",
+      "desc": "Integrate Python custom data sources and sinks into Spark Declarative Pipelines."
+    },
+    {
+      "title": "Batch and Streaming Support",
+      "desc": "Supports both batch and streaming data processing for flexible data handling."
+    },
+    {
+      "title": "Reusable Data Sources",
+      "desc": "Create reusable data sources that can connect to various data systems."
+    },
+    {
+      "title": "Enhanced Data Manipulation",
+      "desc": "Utilize Python libraries for advanced data manipulation and processing."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 15.4 LTS or above",
+    "Serverless environment version 2"
+  ],
+  "use_cases": [
+    "Building custom data ingestion pipelines from various sources.",
+    "Creating reusable data sources for testing and development.",
+    "Integrating with third-party APIs for real-time data processing.",
+    "Generating synthetic data for testing purposes."
+  ],
+  "limitations": [
+    "User-defined data sources must be serializable as dictionaries.",
+    "Only string fields are supported in certain examples."
+  ],
+  "architecture": [
+    "Lakeflow",
+    "Spark Declarative Pipelines",
+    "Python Custom Data Sources",
+    "Data Processing Layer"
+  ],
+  "steps": [
+    {
+      "title": "Implement Data Source",
+      "desc": "Create a subclass of the DataSource class to define your custom data source."
+    },
+    {
+      "title": "Register Data Source",
+      "desc": "Register your custom data source with the Spark session."
+    },
+    {
+      "title": "Load Data Source",
+      "desc": "Use the Spark read method to load data from your custom data source."
+    },
+    {
+      "title": "Define Schema",
+      "desc": "Specify the schema for the data source to ensure proper data handling."
+    }
+  ],
+  "key_takeaway": "The ability to use Python custom data sources in Spark Declarative Pipelines significantly enhances data integration and processing capabilities.",
+  "note_id": "2025-09-10-fa8b76f7",
+  "category": "platform"
+}

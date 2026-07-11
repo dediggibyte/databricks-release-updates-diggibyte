@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-17-share-genie-agents-externally-using-opensharing-beta",
+  "title": "Share Genie Agents externally using OpenSharing (Beta)",
+  "date": "2026-06-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-genie-agents-externally-using-opensharing-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Providers can now share a Genie Agent with users outside their organization using OpenSharing. Databricks creates a point-in-time snapshot of the space's data assets and instructions. Recipients can mount the share to create a local Genie Agent. See [Share a Genie Agent using OpenSharing](/aws/en/opensharing/share-genie-space).",
+  "ref_links": [
+    {
+      "text": "Share a Genie Agent using OpenSharing",
+      "url": "https://docs.databricks.com/aws/en/opensharing/share-genie-space"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.290963Z"
+}

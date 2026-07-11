@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improved user experience and functionality for data querying.",
+  "updated": "Feb 26, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-improvements-1",
+  "what_it_does": "Genie Agent now features metric view display names for query results, automatic JOIN relationships when creating or updating agents via API, a new Context tab for consumers to access space descriptions and FAQs, and enhanced Agent mode capabilities including in-line thinking traces and parallel query execution for faster results.",
+  "why_it_matters": "These enhancements streamline data querying for business users, reduce the need for technical expertise, and improve the overall efficiency of data interactions, leading to quicker insights and better decision-making capabilities.",
+  "plain_summary": "Genie Agent has been upgraded to make data querying easier and faster for users.",
+  "capabilities": [
+    {
+      "title": "Metric View Display Names",
+      "desc": "Genie now uses metric view display names and formats for clearer query result tables."
+    },
+    {
+      "title": "Automatic JOIN Relationships",
+      "desc": "The API now automatically creates JOIN relationships based on defined primary and foreign keys."
+    },
+    {
+      "title": "Context Tab for Consumers",
+      "desc": "A new Context tab allows users with appropriate permissions to view space descriptions and common questions."
+    },
+    {
+      "title": "Parallel Queries in Agent Mode",
+      "desc": "Agent mode now supports running queries in parallel, significantly speeding up response times."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Data Query Interface",
+    "Natural Language Processing",
+    "Generative AI Integration"
+  ],
+  "steps": [],
+  "key_takeaway": "The latest Genie Agent enhancements empower users to interact with data more intuitively and efficiently.",
+  "note_id": "2026-02-26-genie-agent-formerly-genie-space-enhancements-and-improvements",
+  "category": "platform"
+}

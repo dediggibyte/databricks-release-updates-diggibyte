@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-14-connect-genie-agents-to-microsoft-copilot-studio-public-preview",
+  "title": "Connect Genie Agents to Microsoft Copilot Studio (Public Preview)",
+  "date": "2025-11-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#connect-genie-agents-to-microsoft-copilot-studio-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Connecting Databricks Genie Agents as tools in Microsoft Copilot Studio agents is in Public Preview. To use this feature, enable the Managed MCP Servers preview in your workspace and add your Genie Agent as a tool when configuring a Copilot Studio agent. See [Use Databricks data in Microsoft Copilot Studio](/aws/en/integrations/msft-power-platform/copilot-studio).",
+  "ref_links": [
+    {
+      "text": "Use Databricks data in Microsoft Copilot Studio",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/copilot-studio"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.898225Z"
+}

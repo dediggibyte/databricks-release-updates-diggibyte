@@ -1,0 +1,76 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhanced features for data interaction and management.",
+  "updated": "Jan 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up#manage-data",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-sample-data-research-agent-and-space-manager-improvements",
+  "what_it_does": "The Genie Agent, previously known as Genie Space, now includes a sample data tab for context, text answer summaries in the API, and curated starter questions for Research Agent mode. Additionally, space managers can manage user feedback and re-run queries with their credentials, while the maximum character limit for example SQL titles has been increased to 1024 characters.",
+  "why_it_matters": "These updates enhance user experience by providing clearer context and improved interaction with data, ultimately leading to better decision-making. The ability to manage feedback and run queries with different credentials increases productivity and collaboration among data teams.",
+  "plain_summary": "Genie Agent now has improved features for managing data and user interactions.",
+  "capabilities": [
+    {
+      "title": "Sample Data Tab",
+      "desc": "Users can view sample data to understand the context behind a Genie Agent."
+    },
+    {
+      "title": "Text Answer Summaries",
+      "desc": "The API now returns text answer summaries for enhanced clarity."
+    },
+    {
+      "title": "Research Agent Starter Questions",
+      "desc": "Curated starter questions are available to guide users in Research Agent mode."
+    },
+    {
+      "title": "Space Manager Feedback Management",
+      "desc": "Space managers can update user feedback and re-run queries using their own credentials."
+    }
+  ],
+  "prerequisites": [
+    "Unity Catalog must be enabled and data registered.",
+    "Users need CAN USE permission on a pro or serverless SQL warehouse.",
+    "Users must have SELECT privileges on the data used in the agent."
+  ],
+  "use_cases": [
+    "Data analysts can create Genie Agents to facilitate data queries for business users.",
+    "Space managers can utilize feedback management to improve agent responses.",
+    "Business users can leverage starter questions to efficiently interact with data."
+  ],
+  "limitations": [
+    "Each Genie Agent can support up to 10,000 conversations.",
+    "Each conversation can include up to 10,000 messages.",
+    "Users must have appropriate permissions to access Genie Agents."
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Unity Catalog",
+    "SQL Warehouse",
+    "Data Sources"
+  ],
+  "steps": [
+    {
+      "title": "Create Genie Agent",
+      "desc": "Click 'Genie Agents' in the sidebar and select 'New' to start."
+    },
+    {
+      "title": "Add Data Sources",
+      "desc": "Choose the data sources to include in your Genie Agent."
+    },
+    {
+      "title": "Configure Settings",
+      "desc": "Customize the agent settings including title and default warehouse."
+    },
+    {
+      "title": "Review Suggested Queries",
+      "desc": "Review and accept or reject suggested queries for the agent."
+    },
+    {
+      "title": "Share Agent",
+      "desc": "Share the Genie Agent with users by setting appropriate permissions."
+    }
+  ],
+  "key_takeaway": "The Genie Agent enhancements improve data interaction and management, fostering better collaboration and decision-making.",
+  "note_id": "2026-01-15-988d4964",
+  "category": "platform"
+}

@@ -1,0 +1,48 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New visualizations, improved query handling, and enhanced user experience.",
+  "updated": "Feb 12, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/concepts#inspect-mode",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-and-improvements-2",
+  "what_it_does": "Genie Agents now support heatmap and sankey visualizations, enabling users to generate insightful data representations. Query tagging for benchmarks helps differentiate between user-generated queries and benchmark queries in history. The feature also includes auto-generated space titles based on selected tables and persistent knowledge store suggestions, which enhance user navigation. Additionally, the Inspect feature in Beta improves SQL accuracy by reviewing and refining generated queries.",
+  "why_it_matters": "These enhancements significantly improve the usability and accuracy of data interactions for business teams, allowing for better data-driven decision-making. The ability to visualize data and differentiate query types streamlines analysis and reporting processes, ultimately leading to increased productivity and more informed business strategies.",
+  "plain_summary": "Genie Agents now offer new visualizations and improved query handling features to enhance user experience.",
+  "capabilities": [
+    {
+      "title": "Heatmap and Sankey Visualizations",
+      "desc": "Users can now create heatmap and sankey visualizations for better data insights."
+    },
+    {
+      "title": "Query Tagging",
+      "desc": "Genie tags queries from benchmarks in history, helping to distinguish them from end-user queries."
+    },
+    {
+      "title": "Auto-Generated Space Titles",
+      "desc": "Space titles are now automatically generated based on the context of selected tables."
+    },
+    {
+      "title": "Inspect Feature",
+      "desc": "The Inspect feature in Beta enhances SQL accuracy by reviewing and refining generated queries."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Sales managers can visualize sales trends using heatmaps.",
+    "Analysts can differentiate between benchmark and user queries for better reporting.",
+    "Data teams can leverage auto-generated titles for quicker context understanding.",
+    "Users can ensure query accuracy for complex data analyses using the Inspect feature."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Knowledge Store",
+    "Unity Catalog",
+    "SQL Warehouse"
+  ],
+  "steps": [],
+  "key_takeaway": "The enhancements to Genie Agents empower users with better visualization tools and improved query accuracy, driving more effective data analysis.",
+  "note_id": "2026-02-12-genie-agent-formerly-genie-space-enhancements-and-improvements",
+  "category": "platform"
+}

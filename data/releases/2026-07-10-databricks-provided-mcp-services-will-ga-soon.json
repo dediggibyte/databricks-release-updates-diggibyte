@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-10-databricks-provided-mcp-services-will-ga-soon",
+  "title": "Databricks-provided MCP Services will GA soon",
+  "date": "2026-07-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-provided-mcp-services-will-ga-soon",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks-provided MCP Services for SaaS applications such as Slack, GitHub, Atlassian, and Google Drive will soon be generally available, with both read and write operations enabled by default. Admins and users can disable MCP Services and individual tools in [Unity AI Gateway](/aws/en/ai-gateway).\n\nSee [Connect agents to third-party tools with MCP Services](/aws/en/agents/agent-framework/mcp-services).",
+  "ref_links": [
+    {
+      "text": "Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "Connect agents to third-party tools with MCP Services",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/mcp-services"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.209397Z"
+}

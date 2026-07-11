@@ -1,0 +1,43 @@
+{
+  "product": "Regional Model Hosting for Genie Agents",
+  "tagline": "Genie Agents now utilize regionally hosted models in Japan and Korea.",
+  "updated": "Feb 2, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/resources/designated-services#ds-availability",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#regional-model-hosting-for-genie-agents-in-japan-and-korea",
+  "what_it_does": "Genie Agents in the `ap-northeast-1` (Tokyo) and `ap-northeast-2` (Seoul) regions now leverage models that are hosted locally, eliminating the need for cross-Geo processing. This enhancement allows for more efficient processing of user requests within these regions. Users can access Genie Agents without the latency and complexity associated with cross-Geo data handling.",
+  "why_it_matters": "This update significantly improves performance and responsiveness for users in Japan and Korea, as it reduces latency and simplifies compliance with local data residency regulations. Businesses can now utilize Genie Agents more effectively, enhancing productivity and user experience while ensuring data governance.",
+  "plain_summary": "Genie Agents can now use models hosted in Japan and Korea, improving performance and compliance.",
+  "capabilities": [
+    {
+      "title": "Local Model Hosting",
+      "desc": "Genie Agents utilize models hosted in the same region, enhancing processing speed."
+    },
+    {
+      "title": "Reduced Latency",
+      "desc": "Eliminates delays associated with cross-Geo processing for users in Japan and Korea."
+    },
+    {
+      "title": "Simplified Compliance",
+      "desc": "Helps businesses meet local data residency requirements more easily."
+    },
+    {
+      "title": "Enhanced User Experience",
+      "desc": "Improves the overall interaction quality with Genie Agents for regional users."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agents",
+    "Regional Model Hosting",
+    "Data Processing",
+    "User Interaction"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Agents now operate with regionally hosted models in Japan and Korea, enhancing performance and compliance.",
+  "note_id": "2026-02-02-regional-model-hosting-for-genie-agents-in-japan-and-korea",
+  "category": "platform"
+}

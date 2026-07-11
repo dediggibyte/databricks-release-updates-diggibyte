@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New capabilities and improvements for enhanced data interaction.",
+  "updated": "Jul 2, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-chats",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements",
+  "what_it_does": "Genie Agent now supports a generally available Agent mode that utilizes multi-step reasoning to answer complex questions with detailed reports, including citations and visualizations. Users can retrieve visualization results via API and upload local files for analysis, enhancing the interactivity of data exploration. Additionally, the chat history feature has been expanded to allow unlimited past conversations, improving user experience and context retention.",
+  "why_it_matters": "These enhancements significantly improve the usability and functionality of Genie Agents, enabling business users to derive insights from data more effectively without needing technical expertise. The ability to analyze local files and access visualizations through API increases productivity and supports more complex data inquiries, which can lead to better decision-making and strategic planning.",
+  "plain_summary": "Genie Agents now offer enhanced capabilities for data analysis and interaction, including unlimited chat history and the ability to upload local files.",
+  "capabilities": [
+    {
+      "title": "Agent Mode GA",
+      "desc": "Agent mode is now generally available, allowing for complex question answering with detailed reports."
+    },
+    {
+      "title": "API Visualization Retrieval",
+      "desc": "Users can retrieve visualization results from Genie Agents using the API."
+    },
+    {
+      "title": "Local File Upload",
+      "desc": "Users can upload local Excel and CSV files for ad-hoc analysis within Agent Mode."
+    },
+    {
+      "title": "Unlimited Chat History",
+      "desc": "Chat history is no longer capped, allowing users to access all past conversations."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "Data Sources",
+    "Visualization Engine"
+  ],
+  "steps": [],
+  "key_takeaway": "The enhancements to Genie Agents empower users with more robust tools for data exploration and analysis.",
+  "note_id": "2026-07-02-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhanced lineage and entity matching capabilities.",
+  "updated": "Jan 22, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-lineage-and-entity-matching-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-lineage-and-entity-matching-improvements",
+  "what_it_does": "Genie Agents are now integrated with Unity Catalog, allowing users to visualize and track lineage effectively. This integration enhances data governance by providing a clear view of data flow and transformations. Additionally, users can perform bulk actions for entity matching, including adding, removing, and refreshing entities, streamlining the management of data relationships.",
+  "why_it_matters": "These improvements significantly enhance data governance and operational efficiency for organizations. By enabling lineage tracking within Unity Catalog, data teams can ensure compliance and better understand data usage. The bulk actions for entity matching reduce manual effort, allowing teams to focus on strategic tasks rather than repetitive data management.",
+  "plain_summary": "Genie Agents now support lineage tracking in Unity Catalog and allow bulk actions for entity matching.",
+  "capabilities": [
+    {
+      "title": "Unity Catalog Lineage",
+      "desc": "Genie Agents are now discoverable in Unity Catalog lineage."
+    },
+    {
+      "title": "Bulk Actions for Entity Matching",
+      "desc": "Users can perform bulk actions such as add, remove, and refresh for entity matching."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent",
+    "Unity Catalog"
+  ],
+  "steps": [],
+  "key_takeaway": "The integration of Genie Agents with Unity Catalog enhances data lineage visibility and simplifies entity management.",
+  "note_id": "2026-01-22-genie-agent-formerly-genie-space-lineage-and-entity-matching-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,74 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "New authoring skills for Genie Agents improve usability and accuracy.",
+  "updated": "Jun 25, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor#debug-with-genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-1",
+  "what_it_does": "The Genie Agent now includes enhanced authoring skills that allow users to create and maintain agents more effectively. Users can test agents with real-world questions, review generated SQL and visualizations, and provide feedback to improve accuracy. Additionally, the system supports monitoring agent usage and user feedback to refine responses over time.",
+  "why_it_matters": "These enhancements enable data teams to create more accurate and responsive Genie Agents, leading to improved user satisfaction and productivity. By allowing for real-time feedback and adjustments, organizations can ensure their agents remain relevant and effective as business needs evolve, ultimately driving better decision-making.",
+  "plain_summary": "Genie Agents now have improved tools for creation and maintenance, making them more accurate and user-friendly.",
+  "capabilities": [
+    {
+      "title": "Testing with Real Questions",
+      "desc": "Users can interact with the Genie Agent by asking realistic questions to evaluate its performance."
+    },
+    {
+      "title": "Response Feedback Mechanism",
+      "desc": "Users can provide feedback on responses, allowing for continuous improvement of the agent's accuracy."
+    },
+    {
+      "title": "SQL Query Review and Editing",
+      "desc": "Authors can review and edit generated SQL queries to correct inaccuracies and save improvements."
+    },
+    {
+      "title": "Usage Monitoring",
+      "desc": "The Monitor tab allows users to track agent performance, user interactions, and feedback trends."
+    }
+  ],
+  "prerequisites": [
+    "Users must have appropriate permissions (e.g., CAN MANAGE, CAN EDIT) to access all features.",
+    "Genie Code must be enabled for debugging and context updates."
+  ],
+  "use_cases": [
+    "Data teams can refine agents based on user feedback to improve accuracy.",
+    "Business users can interact with agents to obtain insights from data without needing technical expertise.",
+    "Organizations can monitor agent performance over time to identify areas for improvement."
+  ],
+  "limitations": [
+    "Responses may vary due to the non-deterministic nature of large language models.",
+    "Conversations created before enabling Genie Chat Sharing remain private."
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Genie Code",
+    "Monitoring Interface",
+    "User Feedback Loop"
+  ],
+  "steps": [
+    {
+      "title": "Create a Genie Agent",
+      "desc": "Follow the setup instructions to create a new Genie Agent."
+    },
+    {
+      "title": "Test the Agent",
+      "desc": "Use realistic questions to evaluate the agent's responses."
+    },
+    {
+      "title": "Provide Feedback",
+      "desc": "Respond to agent outputs to flag inaccuracies and suggest corrections."
+    },
+    {
+      "title": "Review SQL Queries",
+      "desc": "Inspect and edit generated SQL queries as needed for accuracy."
+    },
+    {
+      "title": "Monitor Usage",
+      "desc": "Utilize the Monitor tab to track interactions and feedback trends."
+    }
+  ],
+  "key_takeaway": "The enhancements to Genie Agents empower users to create more accurate and responsive data-driven solutions.",
+  "note_id": "2026-06-25-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

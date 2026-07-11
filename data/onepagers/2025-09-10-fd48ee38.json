@@ -1,0 +1,66 @@
+{
+  "product": "Spark Declarative Pipelines on Lakeflow",
+  "tagline": "Now supports stream progress metrics in Public Preview.",
+  "updated": "Sep 10, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/monitor-event-logs#stream-progress",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#spark-declarative-pipelines-on-lakeflow-now-supports-stream-progress-metrics-in-public-preview",
+  "what_it_does": "The update enables users to query the event log for metrics related to the progress of streaming pipelines. This includes tracking pipeline updates, monitoring data quality, and understanding data lineage through detailed event logs. Users can access this information via the pipeline monitoring UI, REST API, or direct SQL queries. The event log captures various metrics, including the number of output rows and data quality checks.",
+  "why_it_matters": "This enhancement allows data engineers and platform leaders to gain real-time insights into the performance and health of their streaming data pipelines. By monitoring progress metrics, organizations can improve operational efficiency, reduce downtime, and ensure data quality, ultimately leading to better decision-making and resource allocation.",
+  "plain_summary": "You can now track the progress of streaming pipelines more effectively with new metrics.",
+  "capabilities": [
+    {
+      "title": "Event Log Querying",
+      "desc": "Users can directly query the event log to retrieve detailed metrics about pipeline progress."
+    },
+    {
+      "title": "Custom Event Actions",
+      "desc": "Define custom actions triggered by specific events logged in the pipeline."
+    },
+    {
+      "title": "Data Quality Monitoring",
+      "desc": "Metrics on data quality, such as passed and failed records, are now available for analysis."
+    },
+    {
+      "title": "Streaming Query Support",
+      "desc": "Views created over event logs support streaming queries, enhancing real-time data processing."
+    }
+  ],
+  "prerequisites": [
+    "Pipelines must be configured with Unity Catalog.",
+    "Users need sufficient privileges to access the event log."
+  ],
+  "use_cases": [
+    "Monitoring real-time data pipeline performance.",
+    "Debugging issues with incremental refresh in materialized views.",
+    "Tracking data quality metrics for compliance and governance."
+  ],
+  "limitations": [
+    "Event log metrics may not be available for all data sets.",
+    "Deleting the event log can cause pipeline failures in future runs."
+  ],
+  "architecture": [
+    "Lakeflow",
+    "Event Log",
+    "Unity Catalog",
+    "Streaming Queries"
+  ],
+  "steps": [
+    {
+      "title": "Access Event Log",
+      "desc": "Use the pipeline ID to query the event log with the event_log function."
+    },
+    {
+      "title": "Create Event Log View",
+      "desc": "Create a view over the event log table for easier querying."
+    },
+    {
+      "title": "Define Event Hooks",
+      "desc": "Set up event hooks to trigger actions based on logged events."
+    }
+  ],
+  "key_takeaway": "The new support for stream progress metrics enhances monitoring capabilities for Spark Declarative Pipelines on Lakeflow.",
+  "note_id": "2025-09-10-fd48ee38",
+  "category": "platform"
+}

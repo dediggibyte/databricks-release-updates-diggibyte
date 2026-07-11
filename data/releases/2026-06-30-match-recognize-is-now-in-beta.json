@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-30-match-recognize-is-now-in-beta",
+  "title": "MATCH_RECOGNIZE is now in Beta",
+  "date": "2026-06-30",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#match_recognize-is-now-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL and Databricks Runtime now support the SQL:2016 `MATCH_RECOGNIZE` clause for row pattern recognition. Enable the **Match Recognize** preview in [workspace preview settings](/aws/en/admin/workspace-settings/manage-previews). See [MATCH\\_RECOGNIZE clause](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-match-recognize).",
+  "ref_links": [
+    {
+      "text": "workspace preview settings",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "MATCH_RECOGNIZE clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-match-recognize"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.256777Z"
+}

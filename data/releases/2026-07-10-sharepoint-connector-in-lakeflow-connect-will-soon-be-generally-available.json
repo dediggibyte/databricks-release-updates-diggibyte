@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-10-sharepoint-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "title": "SharePoint connector in Lakeflow Connect will soon be generally available",
+  "date": "2026-07-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#sharepoint-connector-in-lakeflow-connect-will-soon-be-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The SharePoint connector in Lakeflow Connect will soon be generally available. You can ingest files and structured data from SharePoint sites into Databricks for transformation, analysis, and downstream pipelines.\n\nSee [SharePoint connector](/aws/en/ingestion/lakeflow-connect/sharepoint).",
+  "ref_links": [
+    {
+      "text": "SharePoint connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sharepoint"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-11T08:52:49.210445Z"
+}

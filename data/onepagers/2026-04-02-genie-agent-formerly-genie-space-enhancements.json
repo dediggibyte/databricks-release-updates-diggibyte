@@ -1,0 +1,50 @@
+{
+  "product": "Genie Agent Enhancements",
+  "tagline": "Improved user experience and API capabilities for Genie Agents.",
+  "updated": "Apr 2, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/conversation-api",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-7",
+  "what_it_does": "The Genie Agent now allows space authors to set user-friendly display names for table and view columns, enhancing the clarity of query results and CSV downloads. The Genie Conversation API is now generally available, enabling programmatic interactions with Genie Agents for starting conversations, sending questions, and retrieving results. Additionally, visualizations in Genie Agent mode can utilize workspace-level themes, and repeated prompts are cached to improve response times.",
+  "why_it_matters": "These enhancements significantly improve the usability and functionality of Genie Agents, making it easier for users to interact with data through natural language queries. The availability of the Conversation API allows businesses to integrate Genie Agents into their applications, streamlining workflows and enhancing productivity. The caching of prompts reduces latency, leading to faster response times and a better user experience.",
+  "plain_summary": "Genie Agents now have enhanced features for easier data interaction and improved performance.",
+  "capabilities": [
+    {
+      "title": "User-Friendly Column Names",
+      "desc": "Space authors can set display names for table and view columns, improving query result clarity."
+    },
+    {
+      "title": "Genie Conversation API GA",
+      "desc": "The Genie Conversation API is now generally available for programmatic interactions with Genie Agents."
+    },
+    {
+      "title": "Workspace Themes in Agent Mode",
+      "desc": "Visualizations in Genie Agent mode can now use themes defined at the workspace level."
+    },
+    {
+      "title": "Prompt Caching",
+      "desc": "Genie Agent mode now caches repeated prompts to reduce response latency."
+    }
+  ],
+  "prerequisites": [
+    "Access to a Databricks workspace with the Databricks SQL entitlement.",
+    "At least CAN USE privileges on a SQL pro or serverless SQL warehouse."
+  ],
+  "use_cases": [
+    "Integrating Genie Agents into chatbots for enhanced customer support.",
+    "Automating data queries in applications using the Genie Conversation API.",
+    "Creating user-friendly data exploration tools with custom column names."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Genie Agents API",
+    "Conversation APIs",
+    "Management APIs"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent enhancements provide significant usability improvements and new capabilities for integrating natural language data querying into applications.",
+  "note_id": "2026-04-02-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

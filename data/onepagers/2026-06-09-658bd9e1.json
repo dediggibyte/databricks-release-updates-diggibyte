@@ -1,0 +1,70 @@
+{
+  "product": "Update Flow API for Spark Declarative Pipelines",
+  "tagline": "Now generally available for enhanced data processing.",
+  "updated": "Jun 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-update-flow",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#the-update_flow-api-for-spark-declarative-pipelines-on-lakeflow-is-generally-available",
+  "what_it_does": "The `@dp.update_flow` decorator allows users to create update flows that write to sinks in update output mode, emitting only the rows that change in each batch. This feature supports stateful aggregations without requiring a watermark, making it distinct from append flows. Update flows are specifically designed to target sinks, although they do not support Delta tables as targets.",
+  "why_it_matters": "This update enhances data processing efficiency by enabling real-time updates and reducing unnecessary data writes, which can lead to cost savings and improved performance. Organizations can leverage this capability for more responsive data pipelines, particularly in scenarios requiring stateful processing.",
+  "plain_summary": "The update flow API allows for efficient real-time data updates in Spark pipelines.",
+  "capabilities": [
+    {
+      "title": "Stateful Aggregations",
+      "desc": "Supports stateful aggregations without the need for watermarks."
+    },
+    {
+      "title": "Selective Data Emission",
+      "desc": "Emits only changed rows in each batch, optimizing data flow."
+    },
+    {
+      "title": "Custom Sink Targeting",
+      "desc": "Allows targeting of various sinks for data output, excluding Delta tables."
+    },
+    {
+      "title": "Flexible Configuration",
+      "desc": "Offers optional parameters for flow name, comments, and Spark configurations."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Real-time data processing for event counts.",
+    "Streaming analytics with stateful aggregations.",
+    "Efficient data updates in data lakes."
+  ],
+  "limitations": [
+    "Delta tables are not supported as targets for update flows."
+  ],
+  "architecture": [
+    "Data Ingestion",
+    "Streaming Processing",
+    "Update Flow API",
+    "Data Sink"
+  ],
+  "steps": [
+    {
+      "title": "Create Sink",
+      "desc": "Use `dp.create_sink` to define the target sink for the update flow."
+    },
+    {
+      "title": "Define Update Flow",
+      "desc": "Apply the `@dp.update_flow` decorator to a function that returns a streaming DataFrame."
+    },
+    {
+      "title": "Configure Parameters",
+      "desc": "Set optional parameters like flow name and Spark configurations as needed."
+    },
+    {
+      "title": "Implement Logic",
+      "desc": "Write the logic for data processing within the decorated function."
+    },
+    {
+      "title": "Run the Flow",
+      "desc": "Execute the flow to start processing and emitting updates."
+    }
+  ],
+  "key_takeaway": "The update flow API enables efficient real-time updates in Spark pipelines, enhancing data processing capabilities.",
+  "note_id": "2026-06-09-658bd9e1",
+  "category": "platform"
+}

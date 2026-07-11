@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agent",
+  "tagline": "Enhancements to API and user experience for improved functionality.",
+  "updated": "Jan 29, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-api-and-user-experience-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-api-and-user-experience-improvements",
+  "what_it_does": "The Genie Agent API now includes a new endpoint that allows users to download full query results up to approximately 1 GB. Additionally, issues with chart generation from prompts have been fixed, enabling seamless visualization creation. Error messages are now displayed in a collapsible modal, enhancing readability, and users receive warnings about catalog permissions before SQL execution, preventing runtime errors.",
+  "why_it_matters": "These improvements enhance user productivity by streamlining data retrieval and visualization processes, reducing frustration from error messages, and ensuring users are informed about permission issues upfront. This leads to a more efficient workflow and better user experience, ultimately supporting data-driven decision-making.",
+  "plain_summary": "The Genie Agent has improved its API and user experience with better data downloads, chart generation, and error handling.",
+  "capabilities": [
+    {
+      "title": "Full Query Result Downloads",
+      "desc": "A new API endpoint allows downloading complete result sets up to about 1 GB."
+    },
+    {
+      "title": "Fixed Chart Generation",
+      "desc": "Resolved issues with generating charts directly from prompts."
+    },
+    {
+      "title": "Collapsible Error Messages",
+      "desc": "Errors are now displayed in a collapsible modal for better readability."
+    },
+    {
+      "title": "Catalog Permission Warnings",
+      "desc": "Users receive warnings about missing permissions on attached tables before SQL execution."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Genie Agent API",
+    "User Interface",
+    "Data Query Execution",
+    "Error Handling"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie Agent's API enhancements significantly improve user experience and data handling capabilities.",
+  "note_id": "2026-01-29-genie-agent-formerly-genie-space-api-and-user-experience-improvements",
+  "category": "platform"
+}
