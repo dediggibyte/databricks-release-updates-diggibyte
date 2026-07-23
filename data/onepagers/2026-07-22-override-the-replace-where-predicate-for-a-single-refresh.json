@@ -1,0 +1,73 @@
+{
+  "product": "Streaming Table Refresh Override",
+  "tagline": "Enhance your data refresh capabilities with targeted overrides.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-refresh-full",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#override-the-replace-where-predicate-for-a-single-refresh",
+  "what_it_does": "This update allows users to override the defined `REPLACE WHERE` predicate for a standalone streaming table during a single refresh by adding a `WHERE` clause to the `REFRESH STREAMING TABLE` command. This override is temporary and only affects the current refresh, leaving the table's original definition intact. It is specifically designed for standalone streaming tables that were created with a `FLOW REPLACE WHERE` clause, enabling one-time backfills or corrections without altering the table's ongoing behavior.",
+  "why_it_matters": "This feature significantly improves data management flexibility, allowing data engineers to perform targeted updates and corrections efficiently. By enabling one-time overrides, organizations can ensure data accuracy and integrity without the risk of permanently changing the underlying table definitions. This capability is particularly beneficial for scenarios involving data corrections, backfills, or adjustments in real-time analytics, ultimately enhancing operational productivity and data governance.",
+  "plain_summary": "You can now temporarily change how data is refreshed in streaming tables for specific updates without altering the table's setup.",
+  "capabilities": [
+    {
+      "title": "Temporary Predicate Override",
+      "desc": "Allows overriding the `REPLACE WHERE` predicate for a single refresh operation."
+    },
+    {
+      "title": "One-Time Backfills",
+      "desc": "Facilitates one-time data corrections without changing the table's definition."
+    },
+    {
+      "title": "Synchronous and Asynchronous Refresh",
+      "desc": "Supports both synchronous and asynchronous refresh operations for flexibility."
+    },
+    {
+      "title": "Integration with Lakeflow",
+      "desc": "Utilizes serverless Lakeflow pipelines for efficient data refresh processes."
+    }
+  ],
+  "prerequisites": [
+    "The streaming table must be created with a `FLOW REPLACE WHERE` clause."
+  ],
+  "use_cases": [
+    "Correcting erroneous data in real-time analytics.",
+    "Performing one-time data backfills for historical accuracy.",
+    "Adjusting data refresh behavior for specific reporting needs."
+  ],
+  "limitations": [
+    "The `WHERE` clause override is only applicable to standalone streaming tables.",
+    "Using `WHERE` on other types of streaming tables or materialized views will result in an error."
+  ],
+  "architecture": [
+    "Data Ingestion",
+    "Streaming Table",
+    "Lakeflow Pipeline",
+    "Data Refresh"
+  ],
+  "steps": [
+    {
+      "title": "Identify Streaming Table",
+      "desc": "Determine the standalone streaming table that requires a refresh."
+    },
+    {
+      "title": "Construct REFRESH Command",
+      "desc": "Use the `REFRESH STREAMING TABLE` command with the desired `WHERE` clause."
+    },
+    {
+      "title": "Execute Command",
+      "desc": "Run the command to refresh the table with the overridden predicate."
+    },
+    {
+      "title": "Monitor Refresh Status",
+      "desc": "Use `DESCRIBE EXTENDED` to track the status of the refresh operation."
+    },
+    {
+      "title": "Verify Data Accuracy",
+      "desc": "Check the refreshed data to ensure the override was applied correctly."
+    }
+  ],
+  "key_takeaway": "The ability to override refresh predicates for streaming tables enhances data accuracy and operational flexibility.",
+  "note_id": "2026-07-22-override-the-replace-where-predicate-for-a-single-refresh",
+  "category": "platform"
+}

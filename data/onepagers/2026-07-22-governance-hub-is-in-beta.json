@@ -1,0 +1,65 @@
+{
+  "product": "Governance Hub",
+  "tagline": "Centralized governance monitoring for Databricks accounts.",
+  "updated": "Jul 22, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/governance-hub",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#governance-hub-is-in-beta",
+  "what_it_does": "Governance Hub is a centralized UI that provides account-level monitoring of data health, AI usage, and cost drivers within Databricks. It includes three main pages: Data, AI, and Cost, which offer insights into data access, AI spend, and overall Databricks costs. The feature respects existing user permissions, ensuring that users only see information they are authorized to access.",
+  "why_it_matters": "This update enhances governance capabilities by providing a unified view of critical metrics, enabling organizations to optimize data usage, manage AI costs, and improve overall data health. By centralizing these insights, account admins can make informed decisions that drive efficiency and cost savings.",
+  "plain_summary": "Governance Hub is a new tool that helps monitor and manage data and AI usage across your Databricks account.",
+  "capabilities": [
+    {
+      "title": "Data Overview",
+      "desc": "Provides insights into data access, asset usage, and data quality monitoring."
+    },
+    {
+      "title": "AI Usage Insights",
+      "desc": "Tracks AI spend, token usage, and user activity for better budget management."
+    },
+    {
+      "title": "Cost Management",
+      "desc": "Offers an overview of Databricks spending, including cost drivers and recommendations."
+    },
+    {
+      "title": "Permission Respect",
+      "desc": "Ensures users only see data based on their existing permissions."
+    }
+  ],
+  "prerequisites": [
+    "Account admin access is required to enable Governance Hub.",
+    "Data may take up to a day to load after enabling the feature."
+  ],
+  "use_cases": [
+    "Monitoring data health and quality across the organization.",
+    "Tracking and managing AI usage and associated costs.",
+    "Identifying cost drivers to optimize Databricks spending.",
+    "Ensuring compliance with data governance policies."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Account Console",
+    "Governance Hub",
+    "Data Page",
+    "AI Page",
+    "Cost Page"
+  ],
+  "steps": [
+    {
+      "title": "Enable Governance Hub",
+      "desc": "Account admins can enable Governance Hub from the account console Previews page."
+    },
+    {
+      "title": "Access Account Console",
+      "desc": "Open the account console by selecting Manage account or using the direct URL."
+    },
+    {
+      "title": "Navigate to Governance Hub",
+      "desc": "Find the Data, AI, and Cost pages under Governance in the left sidebar."
+    }
+  ],
+  "key_takeaway": "Governance Hub provides a centralized interface for monitoring and managing governance across Databricks accounts, enhancing data oversight and cost management.",
+  "note_id": "2026-07-22-governance-hub-is-in-beta",
+  "category": "platform"
+}

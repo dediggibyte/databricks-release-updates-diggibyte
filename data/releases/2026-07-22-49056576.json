@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-22-49056576",
+  "title": "Variant will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#variant-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Variant will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in July 2026.\n\nUse Variant to ingest semi-structured data from streaming sources (Kinesis, Event Hub), REST APIs, and schemaless databases, while maintaining high-performance query access.\n\nSee [Variant type support for Apache Iceberg and Delta Lake](/aws/en/tables/features/variant).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Variant type support for Apache Iceberg and Delta Lake",
+      "url": "https://docs.databricks.com/aws/en/tables/features/variant"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-23T09:29:23.347398Z"
+}

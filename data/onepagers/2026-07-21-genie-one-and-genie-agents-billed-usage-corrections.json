@@ -1,0 +1,50 @@
+{
+  "product": "Genie One and Genie Agents",
+  "tagline": "Billing corrections for Genie usage to ensure accurate cost representation.",
+  "updated": "Jul 21, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor-cost",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-billed-usage-corrections",
+  "what_it_does": "Starting July 21, 2026, Databricks has implemented a correction in the billing system to ensure that usage of Genie One and Genie Agents is accurately reflected as free. This involves updating the `system.billing.usage` table to negate any previously recorded billed usage for these services, resulting in an aggregated billable usage of zero. Additionally, costs associated with Genie One and Genie Agents will be excluded from budget enforcement, potentially allowing users who were previously over budget to fall back under their thresholds.",
+  "why_it_matters": "This update is crucial for organizations leveraging Genie One and Genie Agents, as it ensures accurate billing and budget management, preventing unexpected charges. By correcting the billing records, businesses can better manage their costs and budgets, leading to improved financial oversight and resource allocation. This change is particularly beneficial for teams that rely on these services for data processing and analysis without incurring additional costs.",
+  "plain_summary": "Genie One and Genie Agents usage will now be correctly billed as free, helping users manage their budgets more effectively.",
+  "capabilities": [
+    {
+      "title": "Accurate Billing Records",
+      "desc": "Usage of Genie One and Genie Agents will be recorded as free, correcting any previous billed amounts."
+    },
+    {
+      "title": "Budget Management",
+      "desc": "Costs for Genie One and Genie Agents will be excluded from budget calculations, potentially allowing users to remain under budget."
+    },
+    {
+      "title": "System Table Updates",
+      "desc": "The `system.billing.usage` table will reflect these corrections, ensuring accurate data for analysis."
+    },
+    {
+      "title": "Promotional Pricing Awareness",
+      "desc": "Users can understand how promotional pricing affects their usage and costs during the promotional period."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Organizations managing budgets for data processing services.",
+    "Teams utilizing Genie One and Genie Agents for analytics without incurring costs.",
+    "Financial analysts needing accurate billing data for reporting."
+  ],
+  "limitations": [
+    "This is a one-time adjustment; future usage will not be automatically corrected.",
+    "Genie Code usage and billing remain unaffected by this correction."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Genie One",
+    "Genie Agents",
+    "Billing System"
+  ],
+  "steps": [],
+  "key_takeaway": "The billing for Genie One and Genie Agents has been corrected to reflect free usage, enhancing budget management for users.",
+  "note_id": "2026-07-21-genie-one-and-genie-agents-billed-usage-corrections",
+  "category": "platform"
+}

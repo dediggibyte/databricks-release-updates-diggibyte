@@ -1,0 +1,55 @@
+{
+  "product": "Transactions",
+  "tagline": "Now generally available for Unity Catalog managed Delta tables.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/transactions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#transactions-are-now-generally-available",
+  "what_it_does": "Transactions enable users to group multiple SQL statements across one or more Unity Catalog managed Delta tables into a single atomic operation using either `BEGIN ATOMIC ... END;` or `BEGIN TRANSACTION; ... COMMIT;` syntax. This ensures that all changes either succeed together or roll back together, maintaining data consistency. Transactions support ACID properties, allowing for reliable operations in data warehousing workloads.",
+  "why_it_matters": "The general availability of transactions enhances data integrity and consistency, which is crucial for mission-critical applications. This feature allows data teams to execute complex operations with confidence, reducing the risk of data corruption and improving overall productivity. Organizations can now streamline their data workflows, ensuring that all related changes are committed or reverted as a single unit.",
+  "plain_summary": "You can now use transactions with Delta tables to ensure all related SQL operations succeed or fail together.",
+  "capabilities": [
+    {
+      "title": "Atomic Transactions",
+      "desc": "Group multiple SQL statements into a single atomic operation."
+    },
+    {
+      "title": "ACID Compliance",
+      "desc": "Ensure data integrity with atomicity, consistency, isolation, and durability."
+    },
+    {
+      "title": "Support for Stored Procedures",
+      "desc": "Use transactions within stored procedures for complex data operations."
+    },
+    {
+      "title": "Non-Transactional Reads",
+      "desc": "Read from non-transactional sources using hints for flexibility."
+    }
+  ],
+  "prerequisites": [
+    "Tables must be Unity Catalog managed (Delta Lake or Iceberg).",
+    "Catalog commits must be enabled on participating tables.",
+    "Use Databricks Runtime 18.0 or above for non-interactive transactions.",
+    "Use Databricks Runtime 18.1 or above for transactions on OpenSharing shared assets."
+  ],
+  "use_cases": [
+    "Coordinating complex data updates across multiple tables.",
+    "Implementing mission-critical data warehousing workloads.",
+    "Ensuring data consistency in multi-step data processing tasks."
+  ],
+  "limitations": [
+    "Interactive transactions may experience conflicts that require explicit rollback.",
+    "Transactions on Iceberg tables remain in Private Preview."
+  ],
+  "architecture": [
+    "SQL Editor",
+    "Databricks Runtime",
+    "Unity Catalog",
+    "Delta Lake"
+  ],
+  "steps": [],
+  "key_takeaway": "Transactions are now generally available, providing robust data consistency and integrity for Delta tables.",
+  "note_id": "2026-07-22-transactions-are-now-generally-available",
+  "category": "platform"
+}

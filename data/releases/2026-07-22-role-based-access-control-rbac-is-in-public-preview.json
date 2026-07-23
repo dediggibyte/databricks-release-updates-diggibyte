@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-22-role-based-access-control-rbac-is-in-public-preview",
+  "title": "Role-based access control (RBAC) is in Public Preview",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#role-based-access-control-rbac-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Role-based access control (RBAC) is now in Public Preview. RBAC lets users assume a role in Databricks using only that role's permissions for the duration of the session instead of their own accumulated permissions. This enables exclusive access. Users must actively assume a role to reach sensitive data, which prevents them from accessing it as their own identity and from mixing data across use cases, clinical trials, projects, or clients.\n\nTo enable RBAC, an account admin turns on the preview at the account level. Workspace admins then enable it in each workspace.\n\nSee [Role-based access control (RBAC)](/aws/en/security/auth/rbac).",
+  "ref_links": [
+    {
+      "text": "Role-based access control (RBAC)",
+      "url": "https://docs.databricks.com/aws/en/security/auth/rbac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-23T09:29:23.349109Z"
+}

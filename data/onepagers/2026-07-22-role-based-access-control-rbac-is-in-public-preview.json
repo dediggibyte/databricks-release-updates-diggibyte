@@ -1,0 +1,59 @@
+{
+  "product": "Role-based Access Control (RBAC)",
+  "tagline": "RBAC is now available in Public Preview, enhancing data access security.",
+  "updated": "Jul 22, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/rbac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#role-based-access-control-rbac-is-in-public-preview",
+  "what_it_does": "Role-based access control (RBAC) allows users to assume a specific role in Databricks, using only that role's permissions for the duration of their session. This mechanism enables exclusive access to sensitive data, preventing users from accessing it through their own identity and avoiding data mixing across different projects or clients. Users can assume roles via the Workspace UI, CLI, API, or third-party BI tools, and all actions taken while in a role are attributed to that role.",
+  "why_it_matters": "Implementing RBAC significantly enhances data governance and security by ensuring that users only access data relevant to their roles, thereby reducing the risk of data breaches and compliance issues. This feature is particularly beneficial for organizations handling sensitive information, as it allows for stricter control over who can access what data, improving overall data management and operational efficiency.",
+  "plain_summary": "RBAC allows users to access data based on specific roles, enhancing security and data governance.",
+  "capabilities": [
+    {
+      "title": "Exclusive Access",
+      "desc": "Users must actively assume a role to access sensitive data, preventing unauthorized access."
+    },
+    {
+      "title": "Role Switching",
+      "desc": "Users can switch roles through various methods, including the UI, CLI, and API."
+    },
+    {
+      "title": "Audit Logging",
+      "desc": "All actions taken as a role are logged, providing clear accountability for data access."
+    },
+    {
+      "title": "Group Management",
+      "desc": "Roles are implemented as groups, allowing for flexible permission management."
+    }
+  ],
+  "prerequisites": [
+    "Account admin must enable the RBAC preview at the account level.",
+    "Workspace admins must enable RBAC in each workspace."
+  ],
+  "use_cases": [
+    "Managing access to sensitive data in clinical trials.",
+    "Separating data access for different client projects.",
+    "Implementing strict data governance in compliance-heavy industries."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Account",
+    "Workspace",
+    "Role Management",
+    "Data Access Control"
+  ],
+  "steps": [
+    {
+      "title": "Enable Preview",
+      "desc": "Account admin enables the RBAC preview at the account level."
+    },
+    {
+      "title": "Enable in Workspace",
+      "desc": "Workspace admins enable RBAC in each individual workspace."
+    }
+  ],
+  "key_takeaway": "RBAC enhances data security by allowing users to access only the data relevant to their assigned roles.",
+  "note_id": "2026-07-22-role-based-access-control-rbac-is-in-public-preview",
+  "category": "platform"
+}

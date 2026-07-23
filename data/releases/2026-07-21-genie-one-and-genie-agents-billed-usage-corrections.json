@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-21-genie-one-and-genie-agents-billed-usage-corrections",
+  "title": "Genie One and Genie Agents billed usage corrections",
+  "date": "2026-07-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-billed-usage-corrections",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One and Genie Agents usage is free through July 31, 2026.\n\nBeginning July 21, 2026, Databricks is applying a correction so that Genie One and Genie Agents usage is properly reflected as free across your billing data and budgets:\n\n* **System tables**: Correction records land in `system.billing.usage` that negate prior Genie One and Genie Agents billed usage, so that aggregated billable usage is zero. See [Record type reference](/aws/en/admin/system-tables/billing#record-type) and [Monitor and understand your Genie cost](/aws/en/genie/monitor-cost).\n* **Budgets**: Genie One and Genie Agents costs are netted out of budget enforcement. As a result, spend shown in the budget UI will drop slightly. In some cases, a user who was previously over their budget threshold may fall back under it once their Genie One and Genie Agents costs are netted out.\n\nThis is a one-time adjustment. Genie Code usage and billing are unaffected.",
+  "ref_links": [
+    {
+      "text": "Record type reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/billing#record-type"
+    },
+    {
+      "text": "Monitor and understand your Genie cost",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor-cost"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-23T09:29:23.354784Z"
+}

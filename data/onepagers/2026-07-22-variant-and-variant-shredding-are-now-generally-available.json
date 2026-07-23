@@ -1,0 +1,50 @@
+{
+  "product": "Variant and Variant Shredding",
+  "tagline": "Flexible data type for semi-structured data now generally available.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#variant-and-variant-shredding-are-now-generally-available",
+  "what_it_does": "Variant is a flexible data type designed for semi-structured data, enabling efficient ingestion from sources like Kinesis, Event Hub, REST APIs, and schemaless databases. With the introduction of Variant shredding, which is automatically enabled in Databricks Runtime 17.3 and above, users can achieve structured-like query performance. For optimal performance, Databricks recommends using Runtime 18.1 or higher, which enhances variant statistics collection and data skipping capabilities.",
+  "why_it_matters": "The availability of Variant and Variant shredding significantly improves the performance and efficiency of querying semi-structured data, which is crucial for organizations dealing with diverse data sources. This enhancement allows data teams to streamline their workflows, reduce query times, and ultimately lower operational costs while ensuring compliance with data governance standards.",
+  "plain_summary": "Variant and Variant shredding are now available for better handling of semi-structured data.",
+  "capabilities": [
+    {
+      "title": "Flexible Data Ingestion",
+      "desc": "Supports ingestion from various sources like streaming services and REST APIs."
+    },
+    {
+      "title": "Automatic Shredding",
+      "desc": "Variant shredding is automatically enabled for new tables with VARIANT columns."
+    },
+    {
+      "title": "Enhanced Query Performance",
+      "desc": "Delivers structured-like query performance through optimized statistics collection."
+    },
+    {
+      "title": "Compliance Ready",
+      "desc": "Variant is compatible with workspaces using the compliance security profile."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 17.3 or above for Variant shredding.",
+    "Databricks Runtime 18.1 or above for optimal performance."
+  ],
+  "use_cases": [
+    "Ingesting semi-structured data from Kinesis or Event Hub.",
+    "Querying data from REST APIs efficiently.",
+    "Processing data from schemaless databases."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Data Ingestion Layer",
+    "Variant Data Type",
+    "Query Optimization Layer",
+    "Compliance Security Profile"
+  ],
+  "steps": [],
+  "key_takeaway": "The introduction of Variant and Variant shredding enhances the ability to efficiently manage and query semi-structured data.",
+  "note_id": "2026-07-22-variant-and-variant-shredding-are-now-generally-available",
+  "category": "platform"
+}

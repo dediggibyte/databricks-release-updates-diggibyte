@@ -1,0 +1,64 @@
+{
+  "product": "Variant Data Type",
+  "tagline": "Enhanced support for semi-structured data in compliance workspaces.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/variant",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#variant-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "The `VARIANT` data type allows for the storage and querying of semi-structured data from various sources, including streaming services and REST APIs. It is supported in all Apache Iceberg v3 tables and can be enabled in Delta Lake tables with specific commands. Users must operate on Databricks Runtime 15.4 LTS or higher to utilize this feature effectively.",
+  "why_it_matters": "This update enhances the ability of organizations to ingest and analyze semi-structured data, which is increasingly vital for real-time analytics and data-driven decision-making. By making `VARIANT` available by default in compliance-focused workspaces, it streamlines the process for data engineers and analysts, improving productivity and enabling more robust data governance.",
+  "plain_summary": "The `VARIANT` data type will be available by default for workspaces with compliance security profiles, simplifying the handling of semi-structured data.",
+  "capabilities": [
+    {
+      "title": "Semi-Structured Data Support",
+      "desc": "Easily ingest and query semi-structured data from various sources."
+    },
+    {
+      "title": "Apache Iceberg Compatibility",
+      "desc": "All Apache Iceberg v3 tables support the `VARIANT` data type."
+    },
+    {
+      "title": "Delta Lake Integration",
+      "desc": "Enable `VARIANT` support in Delta Lake tables with specific SQL commands."
+    },
+    {
+      "title": "High-Performance Queries",
+      "desc": "Maintain high-performance query access for semi-structured data."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 15.4 LTS or above is required."
+  ],
+  "use_cases": [
+    "Ingesting data from streaming sources like Kinesis or Event Hub.",
+    "Storing data from REST APIs in a flexible format.",
+    "Handling schemaless data from NoSQL databases."
+  ],
+  "limitations": [
+    "Variant columns cannot be used to partition a table.",
+    "Variant columns cannot be clustering keys.",
+    "Cannot use `GROUP BY` or `ORDER BY` with variant columns.",
+    "Cannot call `DISTINCT` on a variant column.",
+    "SQL set operators like `INTERSECT`, `UNION`, and `EXCEPT` are not supported with variant columns."
+  ],
+  "architecture": [
+    "Data Ingestion",
+    "Data Storage",
+    "Data Processing",
+    "Data Querying"
+  ],
+  "steps": [
+    {
+      "title": "Create Table",
+      "desc": "Use SQL to create a new table with a `VARIANT` column."
+    },
+    {
+      "title": "Enable Variant Support",
+      "desc": "Alter existing tables to enable `VARIANT` support."
+    }
+  ],
+  "key_takeaway": "The `VARIANT` data type will soon be the default option for compliance workspaces, enhancing the handling of semi-structured data.",
+  "note_id": "2026-07-22-49056576",
+  "category": "platform"
+}

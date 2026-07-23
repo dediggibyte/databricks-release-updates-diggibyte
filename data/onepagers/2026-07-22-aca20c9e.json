@@ -1,0 +1,50 @@
+{
+  "product": "Email Notifications for Service Principal Tokens",
+  "tagline": "Automatic alerts for expiring service principal tokens are now available.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/access-control/tokens#service-principal-token-expiration-notifications",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#email-notifications-for-expiring-service-principal-tokens-are-now-generally-available",
+  "what_it_does": "Databricks now automatically sends email notifications to workspace admins when a service principal token is set to expire within seven days. This feature applies only to tokens that have a lifetime longer than seven days and have been used at least once. No configuration is required for this functionality, making it seamless for administrators to stay informed about token expirations.",
+  "why_it_matters": "This update enhances security and operational efficiency by ensuring that workspace admins are promptly notified of expiring tokens, reducing the risk of service disruptions. It helps maintain continuous access to Databricks services and supports compliance with security policies by encouraging timely token management.",
+  "plain_summary": "Workspace admins will now receive email alerts when service principal tokens are about to expire.",
+  "capabilities": [
+    {
+      "title": "Automatic Email Alerts",
+      "desc": "Admins receive notifications for expiring service principal tokens automatically."
+    },
+    {
+      "title": "No Configuration Required",
+      "desc": "The notification feature works out-of-the-box without any setup needed."
+    },
+    {
+      "title": "Token Usage Monitoring",
+      "desc": "Notifications are sent only for tokens that have been used at least once."
+    },
+    {
+      "title": "Lifetime Management",
+      "desc": "Alerts are triggered for tokens with a lifetime longer than seven days."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Ensuring timely renewal of service principal tokens to avoid service interruptions.",
+    "Improving compliance with security policies by managing token lifetimes effectively.",
+    "Facilitating better governance of service principal access in Databricks."
+  ],
+  "limitations": [
+    "Notifications are only sent to workspace admins.",
+    "Only tokens with a lifetime longer than seven days are eligible for notifications.",
+    "Notifications are sent only for tokens that have been used at least once."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Service Principal Management",
+    "Token Expiration Notifications"
+  ],
+  "steps": [],
+  "key_takeaway": "Email notifications for expiring service principal tokens empower admins to manage token lifecycles effectively, enhancing security and operational continuity.",
+  "note_id": "2026-07-22-aca20c9e",
+  "category": "platform"
+}

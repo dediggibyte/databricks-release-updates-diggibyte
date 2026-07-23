@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-22-transactions-are-now-generally-available",
+  "title": "Transactions are now generally available",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#transactions-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Transactions that write to Unity Catalog managed Delta tables are now generally available. Group multiple SQL statements across one or more tables into a single atomic transaction using `BEGIN ATOMIC ... END;` or `BEGIN TRANSACTION; ... COMMIT;` syntax. All changes succeed together or roll back together, ensuring data consistency across your operations. Transactions require [catalog commits](/aws/en/tables/features/catalog-commits) enabled on participating tables. Transactions that write to Unity Catalog managed Iceberg tables remain in Private Preview.\n\nSee [Transactions](/aws/en/transactions).",
+  "ref_links": [
+    {
+      "text": "catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    },
+    {
+      "text": "Transactions",
+      "url": "https://docs.databricks.com/aws/en/transactions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-23T09:29:23.349910Z"
+}
