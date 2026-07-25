@@ -1,0 +1,75 @@
+{
+  "product": "Git CLI Commands in Git Folders",
+  "tagline": "Now in Public Preview for enhanced Git operations within Databricks.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/repos/git-operations-with-repos#use-git-cli",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#git-cli-commands-in-git-folders-are-now-in-public-preview",
+  "what_it_does": "Git CLI commands are now accessible within Git folders created in Databricks, allowing users to execute standard Git operations such as `git stash`, interactive rebase, and manage Git submodules directly from a Databricks terminal. This feature requires serverless compute and is controlled by workspace admins through the Previews page. It supports operations on repositories that exceed standard size limits, enhancing flexibility for developers.",
+  "why_it_matters": "This update significantly improves developer productivity by enabling seamless integration of Git operations within the Databricks environment, reducing context switching and streamlining workflows. Teams can leverage advanced Git features without leaving the platform, which enhances collaboration and version control practices, ultimately leading to faster development cycles and better code quality.",
+  "plain_summary": "You can now use standard Git commands directly in Databricks Git folders.",
+  "capabilities": [
+    {
+      "title": "Standard Git Commands",
+      "desc": "Run commands like `git stash`, `git pull`, and `git rebase` directly from the Databricks terminal."
+    },
+    {
+      "title": "Pre-commit Hooks",
+      "desc": "Integrate linting and code scanning through pre-commit hooks for better code quality."
+    },
+    {
+      "title": "Support for Large Repositories",
+      "desc": "Work with repositories that exceed the standard size limits of 2 GB memory and 4 GB disk."
+    },
+    {
+      "title": "Git Submodules and LFS",
+      "desc": "Manage Git submodules and utilize Large File Storage (LFS) within Databricks."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must have Git credentials configured.",
+    "Serverless compute must be enabled for Git CLI access."
+  ],
+  "use_cases": [
+    "Developers needing to manage large repositories directly within Databricks.",
+    "Teams requiring integration of Git operations with Databricks workflows.",
+    "Users wanting to utilize advanced Git features without leaving the Databricks environment."
+  ],
+  "limitations": [
+    "Remote URL allowlists are ignored for Git folders with CLI support.",
+    "The Repos API is not supported for Git folders with CLI access.",
+    "You cannot enable Git CLI access for existing Git folders."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Git Folder Creation",
+    "Web Terminal Access",
+    "Git CLI Operations"
+  ],
+  "steps": [
+    {
+      "title": "Create Git Folder",
+      "desc": "Use the Databricks UI to create a Git folder and enable Git CLI support."
+    },
+    {
+      "title": "Clone Repository",
+      "desc": "Clone a remote repository into your workspace using the Git folder."
+    },
+    {
+      "title": "Run Git Commands",
+      "desc": "Access the web terminal to execute standard Git commands."
+    },
+    {
+      "title": "Manage Branches",
+      "desc": "Create, switch, and merge branches using the Git dialog."
+    },
+    {
+      "title": "Resolve Conflicts",
+      "desc": "Use the Git folders UI to manage and resolve merge conflicts."
+    }
+  ],
+  "key_takeaway": "The introduction of Git CLI commands in Databricks Git folders enhances developer workflows by integrating powerful Git functionalities directly into the platform.",
+  "note_id": "2026-07-24-git-cli-commands-in-git-folders-are-now-in-public-preview",
+  "category": "platform"
+}

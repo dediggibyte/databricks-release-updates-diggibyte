@@ -1,0 +1,42 @@
+{
+  "product": "Databricks Runtime Maintenance Updates",
+  "tagline": "Latest updates for improved performance and security.",
+  "updated": "Jul 24, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#18",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-maintenance-updates-0724",
+  "what_it_does": "The latest maintenance updates for Databricks Runtime versions include essential bug fixes, security patches, and performance enhancements. These updates apply to multiple supported versions, including Databricks Runtime 18 LTS, 18.2, 18.1, and earlier LTS versions down to 13.3. Users are encouraged to review the specific updates for each version to understand the improvements made.",
+  "why_it_matters": "Regular maintenance updates are crucial for maintaining the security and performance of data processing workloads. By applying these updates, organizations can mitigate risks associated with vulnerabilities, enhance system stability, and ensure optimal performance, ultimately leading to improved productivity and reduced operational costs.",
+  "plain_summary": "New maintenance updates are now available for Databricks Runtime, enhancing security and performance.",
+  "capabilities": [
+    {
+      "title": "Bug Fixes",
+      "desc": "Addresses known issues to improve system reliability."
+    },
+    {
+      "title": "Security Patches",
+      "desc": "Includes updates to protect against vulnerabilities."
+    },
+    {
+      "title": "Performance Improvements",
+      "desc": "Enhances the efficiency of data processing tasks."
+    },
+    {
+      "title": "Support for Multiple Versions",
+      "desc": "Updates are available for various supported Databricks Runtime versions."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Runtime",
+    "Databricks Workspace",
+    "Data Processing Workloads"
+  ],
+  "steps": [],
+  "key_takeaway": "Stay updated with the latest Databricks Runtime maintenance updates to enhance security and performance.",
+  "note_id": "2026-07-24-databricks-runtime-maintenance-updates-07-24",
+  "category": "platform"
+}

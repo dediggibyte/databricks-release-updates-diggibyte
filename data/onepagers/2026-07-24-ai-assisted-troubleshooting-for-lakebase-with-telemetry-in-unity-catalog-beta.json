@@ -1,0 +1,80 @@
+{
+  "product": "AI-assisted troubleshooting for Lakebase",
+  "tagline": "Enhancing database issue resolution with AI-driven insights and conversational tools.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/ai-assisted-troubleshooting",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai-assisted-troubleshooting-for-lakebase-with-telemetry-in-unity-catalog-beta",
+  "what_it_does": "AI-assisted troubleshooting in Lakebase utilizes telemetry data captured in Unity Catalog to automatically identify database issues and provide early warnings through Insights. Users can interactively investigate problems using Genie, which allows for conversational queries and step-by-step resolutions. This feature captures various Postgres diagnostics, including active sessions, query plans, and schema changes, and presents them in a user-friendly manner.",
+  "why_it_matters": "This update significantly reduces the need for deep Postgres expertise, enabling faster issue resolution and improved database performance. By automating the detection of issues and providing actionable insights, organizations can enhance operational efficiency, minimize downtime, and optimize resource utilization, ultimately leading to cost savings and improved productivity.",
+  "plain_summary": "Lakebase now helps users identify and fix database issues using AI-driven insights and a conversational interface.",
+  "capabilities": [
+    {
+      "title": "Automated Insights",
+      "desc": "Insights automatically detects database issues and provides severity ratings and recommendations."
+    },
+    {
+      "title": "Conversational Troubleshooting",
+      "desc": "Genie allows users to ask questions about specific problems and guides them through the investigation process."
+    },
+    {
+      "title": "Telemetry Data Capture",
+      "desc": "Captures critical Postgres diagnostics and exports them to Delta tables in Unity Catalog for easy access."
+    },
+    {
+      "title": "Unified Observability",
+      "desc": "Combines insights and troubleshooting in a single interface, allowing seamless navigation between findings and actions."
+    }
+  ],
+  "prerequisites": [
+    "A Lakebase Autoscaling project.",
+    "A Unity Catalog catalog and schema to receive telemetry.",
+    "A running compute instance.",
+    "A decision on the identity that runs the telemetry export."
+  ],
+  "use_cases": [
+    "Diagnosing slow queries without needing deep database knowledge.",
+    "Proactively monitoring database health and performance.",
+    "Investigating specific issues interactively with guided troubleshooting.",
+    "Tracking resource usage and performance metrics for optimization."
+  ],
+  "limitations": [
+    "Available only on AWS and Azure.",
+    "COPY operations are not captured in query plan history.",
+    "Queries inside PL/pgSQL functions are not captured unless run as top-level statements.",
+    "Branches and endpoints are referenced by internal ID, not display names."
+  ],
+  "architecture": [
+    "Lakebase",
+    "Telemetry Exporter",
+    "Unity Catalog",
+    "Insights",
+    "Genie"
+  ],
+  "steps": [
+    {
+      "title": "Set Up Observability",
+      "desc": "Create an observability configuration to send telemetry to Unity Catalog."
+    },
+    {
+      "title": "Enable Insights",
+      "desc": "Turn on Insights to start receiving automated alerts about database issues."
+    },
+    {
+      "title": "Use Genie for Troubleshooting",
+      "desc": "Open Genie and describe any database problem to receive step-by-step guidance."
+    },
+    {
+      "title": "Query Telemetry Data",
+      "desc": "Access captured telemetry data in Unity Catalog for deeper analysis."
+    },
+    {
+      "title": "Monitor Performance",
+      "desc": "Utilize the Lakebase UI to track ongoing performance and resource usage."
+    }
+  ],
+  "key_takeaway": "AI-assisted troubleshooting in Lakebase simplifies database management by providing automated insights and conversational problem-solving tools.",
+  "note_id": "2026-07-24-ai-assisted-troubleshooting-for-lakebase-with-telemetry-in-unity-catalog-beta",
+  "category": "platform"
+}

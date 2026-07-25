@@ -1,0 +1,57 @@
+{
+  "id": "2026-07-24-lakeflow-designer-summer-release",
+  "title": "Lakeflow Designer Summer Release",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-designer-summer-release",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakeflow Designer Summer Release adds new operators, expands the Output and Join operators, and improves the canvas editing experience. The following updates are now available:\n\n* **Prepare operator**: Use the new Prepare operator for common data-cleansing tasks, including changing text case and data types, replacing values, and applying formulas. See [Prepare](/aws/en/designer/built-in-operators#prepare).\n* **Enter Data operator**: Manually create tabular data in a spreadsheet-style editor. See [Enter Data](/aws/en/designer/built-in-operators#enter-data).\n* **Select operator**: Use the new Select operator to choose which columns to keep, rename columns, and reorder them in the output. See [Select](/aws/en/designer/built-in-operators#select).\n* **Visualization operator**: Create and view visualizations directly on the canvas. See [Visualization](/aws/en/designer/built-in-operators#visualization).\n* **Improved Output operator**: The Output operator now supports inserting or appending data in Unity Catalog tables, publishing results as materialized views, and writing CSV, Excel, or JSON files to Unity Catalog volumes. See [Output](/aws/en/designer/built-in-operators#output).\n* **Split Join outputs**: The Join operator now provides three outputs by default: unmatched left rows, matched rows, and unmatched right rows. This makes it easier to branch a workflow based on join results. See [Join](/aws/en/designer/built-in-operators#join).\n* **Case-sensitive joins**: The Join operator now includes a **Match case** option and matches string keys case-insensitively by default.\n* **Matched and unmatched Filter outputs**: The Filter operator now provides separate outputs for matching and non-matching rows, so you can branch data based on whether it meets the filter conditions. See [Filter](/aws/en/designer/built-in-operators#filter).\n* **Improved date filtering**: The Filter operator's date picker now supports navigating across years as well as months.\n* **Additional AI functions**: The AI Function operator now supports `ai_query`, `ai_parse_document`, `ai_forecast`, and `ai_prep_search`. See [AI Function](/aws/en/designer/built-in-operators#ai-function).\n* **Folder and volume inputs**: The Source operator can now target an entire Unity Catalog volume or folder path instead of an individual file. See [Source](/aws/en/designer/built-in-operators#source).\n* **Metric view sources**: Use Unity Catalog metric views as source nodes in Lakeflow Designer. See [Source](/aws/en/designer/built-in-operators#source).\n* **Inline Note editing**: The Note operator now supports inline rich-text editing directly on the canvas, including headings, text styling, links, images, and tables. See [Note](/aws/en/designer/built-in-operators#note).\n* **Easier node connections**: Redesigned node ports provide larger connection targets and clearer visual cues, making operators easier to connect.\n* **Clearer operator configuration cues**: Unconfigured operators now have a dashed border, and required input ports that aren't connected are highlighted in yellow.\n* **Table of contents panel**: Find and navigate to any operator using the new searchable table of contents in the left sidebar. Select an operator to focus it on the canvas, then expand the **Generated code** section to view its underlying code.\n* **Command palette**: Press Cmd+Shift+P on macOS or Ctrl+Shift+P on Windows to quickly access editor actions.\n* **Visual data prep listing page**: Find all of your visual data prep files from a dedicated **Visual data prep** page in the sidebar. The page includes a getting-started video banner to help you start using Lakeflow Designer.\n* **Improved caching**: On all-purpose compute, downstream operators can reuse cached upstream results, reducing repeated work for long-running steps such as AI functions.\n* **Large-canvas performance**: Scrolling and panning are more responsive on canvases with more than 200 operators.\n* **Serverless environment selection**: When working with visual data prep files, you can now choose the serverless environment used for both interactive runs and scheduled jobs.\n* **Improved scheduled-job readability**: Scheduled visual data prep runs now display each operator as an individual node in the Jobs task graph instead of showing raw Python code.\n* **Declarative Automation Bundles support**: Deploy and run visual data prep files with Declarative Automation Bundles by configuring them as notebook tasks and referencing the file path in `notebook_task.notebook_path`. See [Move a visual data prep file to production](/aws/en/designer/production).",
+  "ref_links": [
+    {
+      "text": "Prepare",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#prepare"
+    },
+    {
+      "text": "Enter Data",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#enter-data"
+    },
+    {
+      "text": "Select",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#select"
+    },
+    {
+      "text": "Visualization",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#visualization"
+    },
+    {
+      "text": "Output",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#output"
+    },
+    {
+      "text": "Join",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#join"
+    },
+    {
+      "text": "Filter",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#filter"
+    },
+    {
+      "text": "AI Function",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#ai-function"
+    },
+    {
+      "text": "Source",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#source"
+    },
+    {
+      "text": "Note",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#note"
+    },
+    {
+      "text": "Move a visual data prep file to production",
+      "url": "https://docs.databricks.com/aws/en/designer/production"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-25T09:05:29.662556Z"
+}

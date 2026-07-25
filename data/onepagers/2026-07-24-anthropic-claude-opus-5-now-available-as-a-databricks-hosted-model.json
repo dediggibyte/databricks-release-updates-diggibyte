@@ -1,0 +1,33 @@
+{
+  "product": "Anthropic Claude Opus 5 now available as a Databricks-hosted model",
+  "tagline": "Databricks Model Serving now supports Anthropic Claude Opus 5 as a Databricks hosted model.",
+  "updated": "Jul 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-vision-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-claude-opus-5-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Databricks Model Serving now supports Anthropic Claude Opus 5 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models In this article, you learn how to write query requests for foundation models optimized for vision tasks, and served by Unity AI Gateway. prompt Genie Code (Agent mode) can do this for you.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Databricks Model Serving now supports Anthropic Claude Opus 5 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models",
+  "capabilities": [
+    {
+      "title": "Query reasoning models",
+      "desc": "Query reasoning models"
+    },
+    {
+      "title": "Query vision models",
+      "desc": "Query vision models"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks Model Serving now supports Anthropic Claude Opus 5 as a Databricks hosted model.",
+  "note_id": "2026-07-24-anthropic-claude-opus-5-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

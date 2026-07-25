@@ -1,0 +1,42 @@
+{
+  "product": "Governed Tags System Table",
+  "tagline": "New capabilities for managing governed tags in your account.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/governed-tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#governed-tags-system-table-is-in-beta",
+  "what_it_does": "The governed tags system table provides a comprehensive record of all governed tag keys in your account, including both customer-created and system-generated tags. It allows users to programmatically access the current snapshot of governed tag definitions, including those that have been deleted. The table schema includes fields such as account ID, tag ID, tag key, deletion timestamp, and change timestamp, enabling detailed tracking and management of governed tags.",
+  "why_it_matters": "This update enhances governance and compliance by providing a clear overview of all governed tags, which is crucial for organizations that need to manage data access and ensure proper tagging practices. By programmatically accessing this information, data teams can improve productivity and reduce the risk of mismanagement of data assets. This is particularly beneficial for organizations operating in regulated industries where data governance is critical.",
+  "plain_summary": "A new system table for governed tags is now available in Beta, allowing better management and visibility of tags in your account.",
+  "capabilities": [
+    {
+      "title": "Comprehensive Tag Records",
+      "desc": "The table records all governed tag keys, including deleted ones."
+    },
+    {
+      "title": "Programmatic Access",
+      "desc": "Users can programmatically query the table to retrieve governed tag information."
+    },
+    {
+      "title": "Detailed Schema",
+      "desc": "The schema includes essential fields for tracking tag changes and deletions."
+    },
+    {
+      "title": "Integration with Column Tags",
+      "desc": "Facilitates identification of governed tag assignments in Unity Catalog."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Data Governance Layer",
+    "Tag Management",
+    "System Tables"
+  ],
+  "steps": [],
+  "key_takeaway": "The governed tags system table in Beta provides essential capabilities for managing and tracking governed tags effectively.",
+  "note_id": "2026-07-24-governed-tags-system-table-is-in-beta",
+  "category": "platform"
+}

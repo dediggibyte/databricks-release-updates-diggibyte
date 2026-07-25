@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-24-git-cli-commands-in-git-folders-are-now-in-public-preview",
+  "title": "Git CLI commands in Git folders are now in Public Preview",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#git-cli-commands-in-git-folders-are-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Git CLI commands in Git folders are now in [Public Preview](/aws/en/release-notes/release-types). Git folders that you create from the UI automatically get Git CLI access when your workspace is eligible, so you can run standard Git commands such as `git stash`, interactive rebase, pre-commit hooks, Git submodules, and Large File Storage (LFS) directly from a Databricks terminal. Workspace admins can control access to this feature from the **Previews** page. See [Use Git CLI commands](/aws/en/repos/git-operations-with-repos#use-git-cli).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Use Git CLI commands",
+      "url": "https://docs.databricks.com/aws/en/repos/git-operations-with-repos#use-git-cli"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-25T09:05:29.663311Z"
+}

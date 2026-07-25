@@ -1,0 +1,48 @@
+{
+  "product": "Lakeflow Designer",
+  "tagline": "Summer Release introduces new operators and enhanced editing features.",
+  "updated": "Jul 24, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/production",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-designer-summer-release",
+  "what_it_does": "The Lakeflow Designer Summer Release adds several new operators including Prepare, Enter Data, and Select, which facilitate data preparation tasks such as cleansing, manual data entry, and column manipulation. It enhances existing operators like Output and Join, allowing for more flexible data handling and improved workflow branching. Additionally, the user interface has been upgraded for better canvas editing, including inline note editing and a searchable table of contents for easier navigation.",
+  "why_it_matters": "These updates significantly streamline the data preparation process, enabling users to perform complex data transformations more efficiently. By improving usability and adding powerful new features, organizations can enhance productivity, reduce time to insights, and support more sophisticated data workflows, ultimately driving better business decisions.",
+  "plain_summary": "The latest Lakeflow Designer release adds new data preparation tools and improves the editing experience.",
+  "capabilities": [
+    {
+      "title": "Prepare Operator",
+      "desc": "Facilitates common data-cleansing tasks such as changing text case and applying formulas."
+    },
+    {
+      "title": "Visualization Operator",
+      "desc": "Allows users to create and view visualizations directly on the canvas."
+    },
+    {
+      "title": "Improved Output Operator",
+      "desc": "Supports inserting data into Unity Catalog tables and publishing results as materialized views."
+    },
+    {
+      "title": "Enhanced Join Operator",
+      "desc": "Now provides multiple outputs and case-sensitive join options for better data handling."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Data cleansing and transformation for analytics.",
+    "Manual data entry for quick prototyping.",
+    "Creating visual reports directly from data workflows.",
+    "Branching workflows based on join results."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Lakeflow Designer",
+    "Data Preparation",
+    "Unity Catalog",
+    "Visualization"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakeflow Designer Summer Release enhances data preparation capabilities with new operators and improved user experience.",
+  "note_id": "2026-07-24-lakeflow-designer-summer-release",
+  "category": "platform"
+}

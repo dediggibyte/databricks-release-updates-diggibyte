@@ -1,0 +1,76 @@
+{
+  "product": "Agentic Code Converter",
+  "tagline": "Now in Beta for SQL migration projects.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/migration/agentic-code-converter",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#agentic-code-converter-is-in-beta",
+  "what_it_does": "The agentic code converter utilizes Genie Code to transform legacy SQL dialects, including T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata, into ANSI SQL suitable for Databricks. It operates within a migration project framework, where it analyzes source scripts, validates their syntax and semantic intent, and iteratively corrects errors before saving the results. This tool is designed to streamline the migration of workloads from traditional data warehouses to Databricks.",
+  "why_it_matters": "This feature significantly reduces the complexity and time required for organizations to migrate legacy SQL workloads to Databricks, enhancing productivity and minimizing migration risks. By automating the conversion process, teams can focus on higher-value tasks rather than manual code rewriting, ultimately leading to cost savings and improved operational efficiency.",
+  "plain_summary": "The agentic code converter helps convert old SQL code to a format that works with Databricks.",
+  "capabilities": [
+    {
+      "title": "Multi-Dialect Support",
+      "desc": "Converts SQL from various legacy dialects to ANSI SQL."
+    },
+    {
+      "title": "Error Correction",
+      "desc": "Iteratively fixes syntax and semantic errors during conversion."
+    },
+    {
+      "title": "Migration Project Management",
+      "desc": "Organizes and tracks SQL migration efforts within a dedicated project."
+    },
+    {
+      "title": "Custom Skills",
+      "desc": "Allows users to create custom rules for specific conversion needs."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin must enable the agentic code converter from the Previews page.",
+    "Existing SQL files must be accessible in the workspace.",
+    "Workspace must meet Genie Code requirements."
+  ],
+  "use_cases": [
+    "Migrating legacy SQL workloads to Databricks.",
+    "Converting SQL scripts from multiple sources in one project.",
+    "Validating and correcting SQL syntax during migration."
+  ],
+  "limitations": [
+    "A batch can contain a maximum of 300 files.",
+    "A script can contain a maximum of 1,000 lines.",
+    "Teradata BTEQ scripts are not yet supported."
+  ],
+  "architecture": [
+    "Workspace",
+    "Migration Project",
+    "Genie Code",
+    "ANSI SQL Output"
+  ],
+  "steps": [
+    {
+      "title": "Upload Source Files",
+      "desc": "Use the workspace file browser or Databricks CLI to upload SQL files."
+    },
+    {
+      "title": "Create Migration Project",
+      "desc": "Set up a migration project to manage the conversion process."
+    },
+    {
+      "title": "Add Files to Project",
+      "desc": "Select and add the SQL files or folders to the migration project."
+    },
+    {
+      "title": "Run the Conversion",
+      "desc": "Select files and initiate the conversion process."
+    },
+    {
+      "title": "Review Conversion Results",
+      "desc": "Check the converted files for accuracy and make necessary adjustments."
+    }
+  ],
+  "key_takeaway": "The agentic code converter simplifies the migration of legacy SQL to Databricks, enhancing efficiency and reducing manual effort.",
+  "note_id": "2026-07-16-agentic-code-converter-is-in-beta",
+  "category": "platform"
+}
