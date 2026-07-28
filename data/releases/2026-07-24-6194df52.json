@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-6194df52",
+  "title": "Diagnose and fix Lakebase issues with Genie, using telemetry in Unity Catalog (Beta)",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#diagnose-and-fix-lakebase-issues-with-genie-using-telemetry-in-unity-catalog-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase adds AI-assisted troubleshooting: database issues and early warnings are surfaced to you with [Insights](/aws/en/oltp/projects/observability-ai-insights), and you can then investigate and fix them conversationally with [Genie](/aws/en/oltp/projects/observability-genie). Both draw on database telemetry captured to Unity Catalog. See [AI-assisted troubleshooting](/aws/en/oltp/projects/ai-assisted-troubleshooting).",
+  "ref_links": [
+    {
+      "text": "Insights",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/observability-ai-insights"
+    },
+    {
+      "text": "Genie",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/observability-genie"
+    },
+    {
+      "text": "AI-assisted troubleshooting",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/ai-assisted-troubleshooting"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-28T09:40:49.640697Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-26-unit-testing-for-pipelines-beta",
+  "title": "Unit testing for pipelines (Beta)",
+  "date": "2026-07-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#unit-testing-for-pipelines-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now write and run Python unit tests for your Spark Declarative Pipelines on Lakeflow transformation logic directly in the Lakeflow Pipelines Editor. Validate Python and SQL transformations against mock data using catalog-table redirection, including Auto CDC, streaming tables, expectations, and append flows. Test edge cases and iterate using mock inputs for supported table-identifier operations; review the isolation limitations before running tests. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [Unit testing for pipelines](/aws/en/ldp/unit-testing).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Unit testing for pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/unit-testing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-28T09:40:49.635971Z"
+}

@@ -1,0 +1,74 @@
+{
+  "product": "Dedicated Group Clusters",
+  "tagline": "Enhanced security and efficiency for collaborative workloads.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/group-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#dedicated-group-clusters-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Dedicated group clusters allow users to share compute resources securely while running workloads that require specific languages and APIs not supported by standard access mode. When users connect to these clusters, their permissions are automatically adjusted to match the group's permissions, ensuring secure collaboration. This feature requires Unity Catalog and Databricks Runtime 15.4 or higher, and it streamlines the management of shared resources within a group setting.",
+  "why_it_matters": "This update enhances operational efficiency and security for teams working with sensitive data or specialized workloads. By enabling dedicated group clusters by default for compliance-focused workspaces, organizations can ensure better governance and risk management while fostering collaboration among data scientists and analysts. This is particularly beneficial for teams using machine learning and advanced analytics, as it simplifies resource sharing without compromising security.",
+  "plain_summary": "Dedicated group clusters will be the default setting for compliant workspaces, allowing secure sharing of compute resources.",
+  "capabilities": [
+    {
+      "title": "Secure Resource Sharing",
+      "desc": "Users can securely share compute resources while running specialized workloads."
+    },
+    {
+      "title": "Permission Down-Scoping",
+      "desc": "User permissions are automatically adjusted to match the group's permissions during cluster sessions."
+    },
+    {
+      "title": "Support for Advanced Workloads",
+      "desc": "Supports languages and APIs such as Databricks Runtime for ML and RDD APIs that standard access mode does not."
+    },
+    {
+      "title": "Audit Logging",
+      "desc": "Records user and group identities for actions performed on group clusters for compliance and auditing."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must be enabled for Unity Catalog.",
+    "Must use Databricks Runtime 15.4 or above.",
+    "Assigned group must have CAN MANAGE permissions on a workspace folder."
+  ],
+  "use_cases": [
+    "Data science teams collaborating on machine learning projects.",
+    "Analysts sharing compute resources for data processing tasks.",
+    "Research groups working with sensitive datasets requiring strict access controls."
+  ],
+  "limitations": [
+    "Jobs created using the API and SDK cannot be assigned group access.",
+    "Lineage system tables do not record identity metadata for workloads on group clusters.",
+    "The %run command uses user permissions instead of group permissions.",
+    "Creating and accessing model serving endpoints is not supported.",
+    "File and folder deletion is not supported in group clusters."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Unity Catalog",
+    "Dedicated Group Clusters",
+    "Compute Resources"
+  ],
+  "steps": [
+    {
+      "title": "Create Compute Resource",
+      "desc": "In your Databricks workspace, go to Compute and click Create compute."
+    },
+    {
+      "title": "Select Access Mode",
+      "desc": "Expand the Advanced section and select Dedicated from the Access mode dropdown."
+    },
+    {
+      "title": "Assign Group",
+      "desc": "In the Single user or group field, select the group you want assigned to this resource."
+    },
+    {
+      "title": "Configure Settings",
+      "desc": "Set the desired compute settings and click Create."
+    }
+  ],
+  "key_takeaway": "Dedicated group clusters enhance security and collaboration for teams by allowing shared compute resources with tailored permissions.",
+  "note_id": "2026-07-24-ff1e038f",
+  "category": "platform"
+}

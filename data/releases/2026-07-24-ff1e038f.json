@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-24-ff1e038f",
+  "title": "Dedicated group clusters will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#dedicated-group-clusters-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Dedicated group clusters will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in September 2026.\n\nYou can assign a compute resource to a group using the **Dedicated** access mode, letting group members share compute while securely running languages and workloads not supported by standard access mode, such as Databricks Runtime for ML, RDD APIs, and R. When a user connects to a group cluster, their permissions down-scope to the group's permissions for the cluster session.\n\nSee [Dedicated compute group access](/aws/en/compute/group-access).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Dedicated compute group access",
+      "url": "https://docs.databricks.com/aws/en/compute/group-access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-28T09:40:49.637177Z"
+}

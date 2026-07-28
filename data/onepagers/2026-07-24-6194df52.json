@@ -1,0 +1,80 @@
+{
+  "product": "Lakebase AI-Assisted Troubleshooting",
+  "tagline": "Diagnose and resolve database issues using Genie and telemetry insights.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/ai-assisted-troubleshooting",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#diagnose-and-fix-lakebase-issues-with-genie-using-telemetry-in-unity-catalog-beta",
+  "what_it_does": "Lakebase introduces AI-assisted troubleshooting capabilities that leverage database telemetry captured in Unity Catalog. The feature includes Insights, which automatically detects potential issues and provides early warnings, and Genie, which allows users to investigate specific problems conversationally. This integration simplifies the troubleshooting process by providing actionable insights without requiring deep Postgres expertise.",
+  "why_it_matters": "This update enhances operational efficiency by enabling faster diagnosis and resolution of database issues, reducing downtime and reliance on specialized database knowledge. It empowers data teams to proactively manage database performance, ultimately leading to improved application reliability and user satisfaction.",
+  "plain_summary": "Lakebase now helps users diagnose and fix database issues more easily with AI-driven insights and conversational troubleshooting.",
+  "capabilities": [
+    {
+      "title": "AI-Driven Insights",
+      "desc": "Automatically detects database issues and provides early warnings to prevent performance degradation."
+    },
+    {
+      "title": "Conversational Troubleshooting",
+      "desc": "Users can interact with Genie to investigate issues in their own words and receive guided solutions."
+    },
+    {
+      "title": "Telemetry Export to Unity Catalog",
+      "desc": "Captures detailed Postgres diagnostics and stores them as Delta tables for easy querying and analysis."
+    },
+    {
+      "title": "Proactive Monitoring",
+      "desc": "Insights run in the background to catch issues before they impact performance."
+    }
+  ],
+  "prerequisites": [
+    "A Lakebase Autoscaling project.",
+    "A Unity Catalog catalog and schema for telemetry storage.",
+    "A running compute instance.",
+    "A decision on the identity that runs the telemetry export."
+  ],
+  "use_cases": [
+    "Diagnosing slow queries and performance bottlenecks.",
+    "Investigating failed schema changes.",
+    "Monitoring database resource usage and capacity issues.",
+    "Proactively identifying potential database problems before they affect users."
+  ],
+  "limitations": [
+    "Available only on AWS and Azure.",
+    "COPY operations are not captured in query plan history.",
+    "PL/pgSQL function queries are not captured unless they run as top-level statements.",
+    "Telemetry may not propagate automatically to existing computes."
+  ],
+  "architecture": [
+    "Lakebase",
+    "Telemetry Exporter",
+    "Unity Catalog",
+    "Insights",
+    "Genie"
+  ],
+  "steps": [
+    {
+      "title": "Set Up Observability",
+      "desc": "Create an observability configuration to send telemetry to Unity Catalog."
+    },
+    {
+      "title": "Enable Insights",
+      "desc": "Turn on Insights to start receiving automatic issue detection."
+    },
+    {
+      "title": "Use Genie for Troubleshooting",
+      "desc": "Open Genie and describe any database issue to initiate a conversational investigation."
+    },
+    {
+      "title": "Query Telemetry Data",
+      "desc": "Access raw telemetry data stored in Unity Catalog for deeper analysis."
+    },
+    {
+      "title": "Monitor Performance",
+      "desc": "Regularly check Insights findings to track database health and performance."
+    }
+  ],
+  "key_takeaway": "Lakebase's new AI-assisted troubleshooting features streamline database issue resolution, enhancing operational efficiency and user experience.",
+  "note_id": "2026-07-24-6194df52",
+  "category": "platform"
+}

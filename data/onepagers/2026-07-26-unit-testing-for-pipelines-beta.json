@@ -1,0 +1,75 @@
+{
+  "product": "Unit Testing for Pipelines",
+  "tagline": "Enhance your Spark Declarative Pipelines with robust unit testing capabilities.",
+  "updated": "Jul 26, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/unit-testing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#unit-testing-for-pipelines-beta",
+  "what_it_does": "This feature allows users to write and execute Python unit tests for Spark Declarative Pipelines directly within the Lakeflow Pipelines Editor. It supports validation of Python and SQL transformation logic against mock data, enabling testing of edge cases and proprietary pipeline APIs such as Auto CDC and streaming tables. The framework provides isolated test execution by redirecting table operations to a temporary test schema, ensuring that production data remains unaffected during testing.",
+  "why_it_matters": "By enabling unit testing, data teams can significantly improve the reliability and quality of their data transformations, reducing the risk of errors in production. This leads to enhanced productivity as teams can validate changes before deployment, ensuring that business logic is correctly implemented. Ultimately, this feature supports better governance and data quality, which are critical for organizations relying on accurate data insights.",
+  "plain_summary": "You can now test your data transformation logic in Lakeflow Pipelines to ensure it works correctly before going live.",
+  "capabilities": [
+    {
+      "title": "Isolated Test Execution",
+      "desc": "Tests run in a temporary schema, preventing any impact on production data."
+    },
+    {
+      "title": "Flexible Test Scope",
+      "desc": "Allows testing of individual tables, chains of dependent tables, or entire pipelines."
+    },
+    {
+      "title": "Result Validation",
+      "desc": "Utilizes standard pytest assertions to verify the correctness of test outputs."
+    },
+    {
+      "title": "Mock Data Support",
+      "desc": "Facilitates the creation of mock data for testing various scenarios and edge cases."
+    }
+  ],
+  "prerequisites": [
+    "Pipeline Owner permission",
+    "USE CATALOG and CREATE SCHEMA privileges on the pipeline's default catalog",
+    "Pipeline must be configured in triggered (non-continuous) mode",
+    "Pipeline must be on the PREVIEW channel"
+  ],
+  "use_cases": [
+    "Validating new transformation logic before production deployment.",
+    "Testing Auto CDC specifications to ensure correct processing of change events.",
+    "Verifying data quality rules and expectations.",
+    "Testing data flows across dependent tables in a pipeline."
+  ],
+  "limitations": [
+    "Test isolation is only effective for table operations referenced by name.",
+    "Concurrent execution of tests and pipeline updates is unsupported.",
+    "Governance and DDL operations are not allowed during tests.",
+    "Temporary schemas may remain after abnormal test termination."
+  ],
+  "architecture": [
+    "Lakeflow Pipelines Editor",
+    "Unit Testing Framework",
+    "Temporary Test Schema",
+    "SparkSession"
+  ],
+  "steps": [
+    {
+      "title": "Update Pipeline Settings",
+      "desc": "Configure the pipeline to run on the PREVIEW channel in triggered mode."
+    },
+    {
+      "title": "Create a Test File",
+      "desc": "In the Lakeflow Pipelines Editor, create a test file to begin writing tests."
+    },
+    {
+      "title": "Generate Tests",
+      "desc": "Use Genie Code to generate test scaffolding or write your own test code."
+    },
+    {
+      "title": "Run Tests",
+      "desc": "Execute tests from the Lakeflow Pipelines Editor and review results."
+    }
+  ],
+  "key_takeaway": "Unit testing for pipelines empowers data teams to validate transformations, enhancing data quality and reducing production risks.",
+  "note_id": "2026-07-26-unit-testing-for-pipelines-beta",
+  "category": "platform"
+}
