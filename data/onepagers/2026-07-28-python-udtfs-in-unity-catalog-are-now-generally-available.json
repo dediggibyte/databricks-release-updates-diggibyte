@@ -1,0 +1,62 @@
+{
+  "product": "Python UDTFs in Unity Catalog",
+  "tagline": "User-defined table functions are now generally available for enhanced data processing.",
+  "updated": "Jul 28, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/udf/udtf-unity-catalog",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#python-udtfs-in-unity-catalog-are-now-generally-available",
+  "what_it_does": "Python user-defined table functions (UDTFs) in Unity Catalog allow users to register functions that return tables instead of single values, enabling complex data transformations and integrations directly within SQL queries. These functions can be invoked in the `FROM` clause of SQL statements and can accept both scalar and table arguments. UDTFs are supported on various compute types, including serverless and classic compute environments.",
+  "why_it_matters": "This feature enhances data processing capabilities by allowing users to create more complex and flexible SQL queries, which can lead to improved data insights and operational efficiency. Organizations can leverage UDTFs to integrate external data sources, perform advanced transformations, and enrich datasets, ultimately driving better decision-making and reducing time-to-insight.",
+  "plain_summary": "Python user-defined table functions are now available in Unity Catalog, allowing for more complex SQL queries.",
+  "capabilities": [
+    {
+      "title": "Table Function Registration",
+      "desc": "Register UDTFs as governed objects in Unity Catalog for consistent access control."
+    },
+    {
+      "title": "Dynamic Output Schema",
+      "desc": "Create polymorphic UDTFs that determine their output schema at query time."
+    },
+    {
+      "title": "Stateful Operations",
+      "desc": "Implement stateful processing across rows using the `eval()` and `terminate()` methods."
+    },
+    {
+      "title": "Environment Isolation",
+      "desc": "Control execution environments with strict isolation for UDTFs that modify global state."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 17.1 or above for classic compute.",
+    "Serverless compute support for UDTFs."
+  ],
+  "use_cases": [
+    "Transforming complex data structures into tabular formats.",
+    "Integrating external APIs into SQL workflows.",
+    "Implementing custom data generation logic.",
+    "Processing data requiring stateful operations."
+  ],
+  "limitations": [
+    "Polymorphic UDTFs require Databricks Runtime 18.1 and above.",
+    "Strict isolation may increase resource usage."
+  ],
+  "architecture": [
+    "Unity Catalog",
+    "SQL Warehouse",
+    "Serverless Compute"
+  ],
+  "steps": [
+    {
+      "title": "Create UDTF",
+      "desc": "Use SQL DDL to create a governed UDTF in Unity Catalog."
+    },
+    {
+      "title": "Invoke UDTF",
+      "desc": "Call the UDTF in a SQL statement's FROM clause."
+    }
+  ],
+  "key_takeaway": "Python UDTFs in Unity Catalog empower users to perform complex data transformations directly within SQL, enhancing data processing capabilities.",
+  "note_id": "2026-07-28-python-udtfs-in-unity-catalog-are-now-generally-available",
+  "category": "platform"
+}

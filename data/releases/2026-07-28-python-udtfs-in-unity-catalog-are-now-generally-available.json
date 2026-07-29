@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-28-python-udtfs-in-unity-catalog-are-now-generally-available",
+  "title": "Python UDTFs in Unity Catalog are now generally available",
+  "date": "2026-07-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#python-udtfs-in-unity-catalog-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Registering Python user-defined table functions (UDTFs) in Unity Catalog is now generally available in Databricks Runtime 18. A Unity Catalog Python UDTF is a governed function that returns a table, invoked in the `FROM` clause of a SQL statement to return multiple rows and columns. Unity Catalog Python UDTFs run on serverless compute, classic compute with standard access mode, and SQL warehouses.\n\nSee [Python user-defined table functions (UDTFs) in Unity Catalog](/aws/en/udf/udtf-unity-catalog) and [Databricks Runtime 18 LTS](/aws/en/release-notes/runtime/18).",
+  "ref_links": [
+    {
+      "text": "Python user-defined table functions (UDTFs) in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/udf/udtf-unity-catalog"
+    },
+    {
+      "text": "Databricks Runtime 18 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-29T09:43:18.515828Z"
+}
