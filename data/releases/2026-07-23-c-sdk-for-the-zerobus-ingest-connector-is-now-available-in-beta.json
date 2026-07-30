@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-23-c-sdk-for-the-zerobus-ingest-connector-is-now-available-in-beta",
+  "title": "C++ SDK for the Zerobus Ingest connector is now available in Beta",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#c-sdk-for-the-zerobus-ingest-connector-is-now-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A C++ SDK for the Zerobus Ingest connector in Lakeflow Connect is now available in Beta. The SDK provides a high-throughput gRPC client for ingesting records directly into Unity Catalog Delta tables, with support for JSON and Protocol Buffers. See [Use the Zerobus Ingest connector](/aws/en/ingestion/zerobus-ingest).",
+  "ref_links": [
+    {
+      "text": "Use the Zerobus Ingest connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-30T09:35:17.966068Z"
+}

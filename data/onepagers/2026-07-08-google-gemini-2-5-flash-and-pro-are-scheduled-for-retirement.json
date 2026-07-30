@@ -1,0 +1,42 @@
+{
+  "product": "Google Gemini 2.5 Retirement",
+  "tagline": "Transitioning to newer models for enhanced performance.",
+  "updated": "Jul 8, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-25-flash-and-pro-are-scheduled-for-retirement",
+  "what_it_does": "Google Gemini 2.5 Flash and Pro models will be retired on October 2, 2026, as part of Databricks' model lifecycle management. Users currently utilizing these models will need to transition to the recommended replacements, Gemini 3.1 Pro or Gemini 3.5 Flash. The retirement process involves notifying users of the deprecation and providing a transition period for migration. After the retirement date, any workloads relying on the retired models will cease to function.",
+  "why_it_matters": "This retirement is crucial for maintaining access to state-of-the-art AI capabilities, ensuring users benefit from the latest advancements in model performance and efficiency. Transitioning to newer models can enhance productivity and reduce operational risks associated with using outdated technology. Organizations that adapt promptly will avoid disruptions in their workflows and maintain competitive advantages in their AI applications.",
+  "plain_summary": "Google Gemini 2.5 Flash and Pro models will be retired, requiring users to switch to newer versions.",
+  "capabilities": [
+    {
+      "title": "Model Lifecycle Management",
+      "desc": "Databricks manages models through updates, deprecation, and retirement to ensure users access the latest technology."
+    },
+    {
+      "title": "Migration Guidance",
+      "desc": "Users are provided with recommended replacement models and migration timelines to facilitate smooth transitions."
+    },
+    {
+      "title": "Deprecation Notifications",
+      "desc": "Users receive warnings in the Databricks UI when models are deprecated, along with documentation updates."
+    },
+    {
+      "title": "Support for New Workloads",
+      "desc": "The retirement of older models encourages the adoption of newer models that support advanced workloads."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Foundation Model APIs",
+    "Model Management",
+    "Model Retirement Process"
+  ],
+  "steps": [],
+  "key_takeaway": "Transitioning from Google Gemini 2.5 models to newer versions is essential for continued access to advanced AI capabilities.",
+  "note_id": "2026-07-08-google-gemini-2-5-flash-and-pro-are-scheduled-for-retirement",
+  "category": "platform"
+}

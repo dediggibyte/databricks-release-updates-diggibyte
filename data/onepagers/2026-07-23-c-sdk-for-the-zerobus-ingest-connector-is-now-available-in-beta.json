@@ -1,0 +1,77 @@
+{
+  "product": "C++ SDK for Zerobus Ingest Connector",
+  "tagline": "Now in Beta, enabling high-throughput data ingestion.",
+  "updated": "Jul 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#c-sdk-for-the-zerobus-ingest-connector-is-now-available-in-beta",
+  "what_it_does": "The C++ SDK for the Zerobus Ingest connector allows users to ingest records directly into Unity Catalog Delta tables using a high-throughput gRPC client. It supports multiple data formats including JSON and Protocol Buffers, catering to various ingestion needs. The SDK is designed for high-volume applications, leveraging persistent connections to optimize performance. Additionally, it integrates seamlessly with existing Databricks infrastructure, facilitating efficient data workflows.",
+  "why_it_matters": "This SDK significantly enhances data ingestion capabilities for organizations, allowing them to handle large volumes of data efficiently and in real-time. By supporting multiple data formats and high-throughput ingestion, businesses can improve their data processing speed and reduce latency, leading to better decision-making and operational efficiency. This is particularly beneficial for industries reliant on real-time data analytics and monitoring.",
+  "plain_summary": "A new C++ SDK for the Zerobus Ingest connector is now available, enabling efficient data ingestion into Databricks.",
+  "capabilities": [
+    {
+      "title": "High-Throughput Ingestion",
+      "desc": "Utilizes gRPC for persistent connections, optimizing data ingestion speeds."
+    },
+    {
+      "title": "Multiple Data Formats",
+      "desc": "Supports JSON, Protocol Buffers, and Apache Arrow Flight for flexible data handling."
+    },
+    {
+      "title": "Integration with Unity Catalog",
+      "desc": "Directly ingests records into Unity Catalog Delta tables for streamlined data management."
+    },
+    {
+      "title": "OpenTelemetry Support",
+      "desc": "Ingests OpenTelemetry data without custom libraries, simplifying monitoring setups."
+    }
+  ],
+  "prerequisites": [
+    "C++ development environment set up.",
+    "Access to Databricks workspace with Zerobus Ingest connector enabled.",
+    "Knowledge of gRPC and data formats like JSON and Protocol Buffers."
+  ],
+  "use_cases": [
+    "Real-time data ingestion from IoT devices.",
+    "High-volume data processing for analytics applications.",
+    "Integration of telemetry data into data lakes.",
+    "Batch processing of data using Apache Arrow Flight."
+  ],
+  "limitations": [
+    "Currently in Beta, may have limited support and features.",
+    "Concurrency quotas apply due to persistent connections in gRPC.",
+    "Not all features may be available in all regions."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "Zerobus Ingest Connector",
+    "gRPC Client",
+    "Unity Catalog Delta Tables"
+  ],
+  "steps": [
+    {
+      "title": "Set Up Environment",
+      "desc": "Ensure a C++ development environment is ready for SDK integration."
+    },
+    {
+      "title": "Obtain Workspace URL",
+      "desc": "Get your Databricks workspace URL and Zerobus Ingest endpoint."
+    },
+    {
+      "title": "Create Target Table",
+      "desc": "Define the Delta table schema in Unity Catalog for data ingestion."
+    },
+    {
+      "title": "Implement SDK Client",
+      "desc": "Use the C++ SDK to write a client for data ingestion."
+    },
+    {
+      "title": "Test Ingestion",
+      "desc": "Run tests to validate data ingestion into the target Delta table."
+    }
+  ],
+  "key_takeaway": "The C++ SDK for the Zerobus Ingest connector empowers organizations to efficiently ingest large volumes of data into Databricks, enhancing real-time analytics capabilities.",
+  "note_id": "2026-07-23-c-sdk-for-the-zerobus-ingest-connector-is-now-available-in-beta",
+  "category": "platform"
+}
