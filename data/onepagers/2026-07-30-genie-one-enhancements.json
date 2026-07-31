@@ -1,0 +1,29 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Run a scheduled task on demand: When you author a scheduled task, you can now select Run now to run it immediately.",
+  "updated": "Jul 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile-admin#workspace-url-sign-in",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Run a scheduled task on demand: When you author a scheduled task, you can now select Run now to run it immediately. Rename a conversation: You can now rename a conversation by clicking its title in the chat header and editing it inline. Enter a workspace URL when signing in to the Genie mobile app: You can now enter your workspace URL manually when you sign in to the Genie mobile app.",
+  "why_it_matters": "This page is for IT and security teams preparing to roll out the Databricks Genie mobile app in their organization.",
+  "plain_summary": "Run a scheduled task on demand: When you author a scheduled task, you can now select Run now to run it immediately. Rename a conversation: You can now rename a conversation by clicking its title in the chat header and editing it inline.",
+  "capabilities": [
+    {
+      "title": "Without unified login, users must",
+      "desc": "Without unified login, users must sign in to the account and then sign in again to each target workspace."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Run a scheduled task on demand: When you author a scheduled task, you can now select Run now to run it immediately.",
+  "note_id": "2026-07-30-genie-one-enhancements",
+  "category": "platform"
+}

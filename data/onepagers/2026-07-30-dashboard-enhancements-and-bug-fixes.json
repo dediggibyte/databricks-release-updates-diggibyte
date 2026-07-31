@@ -1,0 +1,33 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Dashboard relationships from imported BI files: When you import a Power BI or Tableau file with Genie Code, migration tooling now creates dashboard relationships where it detects them in the source…",
+  "updated": "Jul 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/full-page",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Dashboard relationships from imported BI files: When you import a Power BI or Tableau file with Genie Code, migration tooling now creates dashboard relationships where it detects them in the source file. Customize date picker quick select options with Genie Code: You can now ask Genie Code for dashboard authoring to customize the quick select options in a date range picker filter, such as keeping only day based ranges. For an example prompt, see Optional: Customize the date picker quick select options with Genie Code.",
+  "why_it_matters": "The check validates business definitions, grain, attribution, population, time window, units, scale, and category values to improve the accuracy and consistency of metrics.",
+  "plain_summary": "Dashboard relationships from imported BI files: When you import a Power BI or Tableau file with Genie Code, migration tooling now creates dashboard relationships where it detects them in the source file. Customize date picker quick select options with Genie…",
+  "capabilities": [
+    {
+      "title": "To switch threads, click any",
+      "desc": "To switch threads, click any entry. You can switch while Genie Code is still working, whether it is running in the thread or…"
+    },
+    {
+      "title": "To manage a thread, hover",
+      "desc": "To manage a thread, hover over it and click the  kebab menu. You can share, make a copy, rename, or delete the thread. Thread…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Dashboard relationships from imported BI files: When you import a Power BI or Tableau file with Genie Code, migration tooling now creates dashboard relationships where it detects them in the source…",
+  "note_id": "2026-07-30-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

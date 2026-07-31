@@ -1,0 +1,49 @@
+{
+  "id": "2026-07-30-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-07-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard relationships from imported BI files**: When you import a Power BI or Tableau file with Genie Code, migration tooling now creates dashboard relationships where it detects them in the source file. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Customize date picker quick-select options with Genie Code**: You can now ask Genie Code for dashboard authoring to customize the quick-select options in a date range picker filter, such as keeping only day-based ranges. For an example prompt, see [Optional: Customize the date picker quick-select options with Genie Code](/aws/en/dashboards/tutorials/create-dashboard#customize-date-picker).\n* **Full undo and redo in Genie Code**: Genie Code for dashboard authoring now supports full undo and redo. Each Genie Code response is a single step that you can undo as a unit, including restoring an emptied dashboard. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **Semantic validation for AI-authored metrics**: Genie Code for dashboard authoring now automatically runs a semantic validation check after it creates a widget. The check validates business definitions, grain, attribution, population, time window, units, scale, and category values to improve the accuracy and consistency of metrics.\n* **Low-code filters on measures**: Local metric views now provide a low-code option for adding filters to measures. See [Step 3: Define a filter](/aws/en/uc-semantics/metric-views/create#define-filters).\n* **Improved low-code UI for imported metric views**: Metric views imported from Unity Catalog now use an improved low-code UI for extensions and modifications. See [Extend a Unity Catalog metric view](/aws/en/dashboards/manage/data-modeling/local-metric-views#extend-a-uc-metric-view).\n* **Metric view display names on dashboard widgets**: Dashboard widgets now show the display name defined for each field in a local metric view instead of the literal field name. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Cross-filtering includes the facet field**: Cross-filtering on a faceted chart now includes the facet field as part of the filter. See [Apply cross-filtering](/aws/en/dashboards/manage/filters#cross-filter).\n* **Applied filters in email attachments**: Dashboard authors can now include the applied filters as a separate tabular attachment in email subscriptions. See [Email attachments](/aws/en/dashboards/share/schedule-subscribe#email-attachments).\n* **Warehouse picker for full-page Genie Code**: The warehouse picker now appears for full-page Genie Code. See [Full page Genie Code](/aws/en/genie-code/full-page).\n* **Dark mode scrollbar fix**: Fixed a bug where the filter drop-down scrollbar did not appear in dark mode.\n* **Line chart tooltip fix**: Fixed a bug where tooltips did not appear on line charts.",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Optional: Customize the date picker quick-select options with Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/tutorials/create-dashboard#customize-date-picker"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Step 3: Define a filter",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/create#define-filters"
+    },
+    {
+      "text": "Extend a Unity Catalog metric view",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views#extend-a-uc-metric-view"
+    },
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "Apply cross-filtering",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#cross-filter"
+    },
+    {
+      "text": "Email attachments",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#email-attachments"
+    },
+    {
+      "text": "Full page Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code/full-page"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-31T09:50:04.458534Z"
+}

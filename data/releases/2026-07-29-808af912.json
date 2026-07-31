@@ -1,0 +1,29 @@
+{
+  "id": "2026-07-29-808af912",
+  "title": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing tables",
+  "date": "2026-07-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-upgrades-begin-rolling-out-row-tracking-and-checkpoint-v2-to-existing-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Automatic upgrades](/aws/en/tables/automatic-upgrades) begin rolling out [row tracking](/aws/en/tables/features/row-tracking) and [Checkpoint V2](/aws/en/tables/features/checkpoint-v2) to existing Unity Catalog managed tables, not just new tables. This rollout is gradual, so these features will be available to different customers at different times.\n\nAutomatic upgrades turn on a feature only after the observation window verifies that every client accessing a table supports it. To track which features are available for automatic upgrades, see [Supported features](/aws/en/tables/automatic-upgrades#supported-features).",
+  "ref_links": [
+    {
+      "text": "Automatic upgrades",
+      "url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades"
+    },
+    {
+      "text": "row tracking",
+      "url": "https://docs.databricks.com/aws/en/tables/features/row-tracking"
+    },
+    {
+      "text": "Checkpoint V2",
+      "url": "https://docs.databricks.com/aws/en/tables/features/checkpoint-v2"
+    },
+    {
+      "text": "Supported features",
+      "url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades#supported-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-31T09:50:04.462333Z"
+}

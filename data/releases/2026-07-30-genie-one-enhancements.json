@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-30-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-07-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Run a scheduled task on demand**: When you author a scheduled task, you can now select **Run now** to run it immediately. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).\n* **Rename a conversation**: You can now rename a conversation by clicking its title in the chat header and editing it inline.\n* **Enter a workspace URL when signing in to the Genie mobile app**: You can now enter your workspace URL manually when you sign in to the Genie mobile app. This helps you sign in when automatic workspace discovery or the default sign-in flow doesn't work in your environment. See [Sign in with a workspace URL](/aws/en/genie-one/mobile-admin#workspace-url-sign-in).",
+  "ref_links": [
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    },
+    {
+      "text": "Sign in with a workspace URL",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile-admin#workspace-url-sign-in"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-31T09:50:04.461223Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-30-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-07-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Chat sharing (GA)**: Sharing an individual Genie Agent conversation is now generally available. See [Share a conversation](/aws/en/genie-agents/talk-to-genie#share-conversation).\n* **Download visualizations on Private Link (Beta)**: You can now download visualization results through the Genie Conversation API on Private Link workspaces in supported regions. See  [Retrieve visualization results (Beta)](/aws/en/genie-agents/conversation-api#get-visualization).\n* **File upload fix**: Fixed a bug where the option to upload CSV and Excel files to a Genie Agent from Genie One was removed.",
+  "ref_links": [
+    {
+      "text": "Share a conversation",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/talk-to-genie#share-conversation"
+    },
+    {
+      "text": "Retrieve visualization results (Beta)",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api#get-visualization"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-31T09:50:04.459968Z"
+}

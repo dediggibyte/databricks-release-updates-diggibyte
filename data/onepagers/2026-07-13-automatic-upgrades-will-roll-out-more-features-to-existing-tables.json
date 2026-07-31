@@ -1,0 +1,24 @@
+{
+  "product": "Automatic upgrades will roll out more features to existing tables",
+  "tagline": "Automatic upgrades apply recommended features to your Unity Catalog managed tables after verifying workload compatibility.",
+  "updated": "Jul 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades#supported-features",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#automatic-upgrades-will-roll-out-more-features-to-existing-tables",
+  "what_it_does": "Automatic upgrades apply recommended features to your Unity Catalog managed tables after verifying workload compatibility. Databricks is expanding the features that automatic upgrades apply to existing tables. Starting in July 2026, automatic upgrades will roll out row tracking and Checkpoint V2 to existing tables.",
+  "why_it_matters": "Automatic upgrades provide the following benefits: Reduce the administrative effort necessary to validate individual compatibility requirements for each table and feature combination in your workspaces.",
+  "plain_summary": "Automatic upgrades apply recommended features to your Unity Catalog managed tables after verifying workload compatibility. Databricks is expanding the features that automatic upgrades apply to existing tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Automatic upgrades apply recommended features to your Unity Catalog managed tables after verifying workload compatibility.",
+  "note_id": "2026-07-13-automatic-upgrades-will-roll-out-more-features-to-existing-tables",
+  "category": "platform"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2026-07-13-automatic-upgrades-will-roll-out-more-features-to-existing-tables",
+  "title": "Automatic upgrades will roll out more features to existing tables",
+  "date": "2026-07-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#automatic-upgrades-will-roll-out-more-features-to-existing-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Automatic upgrades](/aws/en/tables/automatic-upgrades) apply recommended features to your Unity Catalog managed tables after verifying workload compatibility. Databricks is expanding the features that automatic upgrades apply to existing tables.\n\nStarting in July 2026, automatic upgrades will roll out [row tracking](/aws/en/tables/features/row-tracking) and [Checkpoint V2](/aws/en/tables/features/checkpoint-v2) to existing tables. This rollout is gradual, so these features will be available to different customers at different times.\n\nIn August 2026, automatic upgrades will roll out [catalog commits](/aws/en/tables/features/catalog-commits) and [deletion vectors](/aws/en/tables/features/deletion-vectors) to existing tables.\n\nAutomatic upgrades turn on a feature only after the observation window verifies that every client accessing a table supports it. To track which features are available for automatic upgrades, see [Supported features](/aws/en/tables/automatic-upgrades#supported-features).",
+  "ref_links": [
+    {
+      "text": "Automatic upgrades",
+      "url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades"
+    },
+    {
+      "text": "row tracking",
+      "url": "https://docs.databricks.com/aws/en/tables/features/row-tracking"
+    },
+    {
+      "text": "Checkpoint V2",
+      "url": "https://docs.databricks.com/aws/en/tables/features/checkpoint-v2"
+    },
+    {
+      "text": "catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    },
+    {
+      "text": "deletion vectors",
+      "url": "https://docs.databricks.com/aws/en/tables/features/deletion-vectors"
+    },
+    {
+      "text": "Supported features",
+      "url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades#supported-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-31T09:50:04.527520Z"
+}

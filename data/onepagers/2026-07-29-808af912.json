@@ -1,0 +1,24 @@
+{
+  "product": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to…",
+  "tagline": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing Unity Catalog managed tables, not just new tables.",
+  "updated": "Jul 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/automatic-upgrades#supported-features",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-upgrades-begin-rolling-out-row-tracking-and-checkpoint-v2-to-existing-tables",
+  "what_it_does": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing Unity Catalog managed tables, not just new tables. This rollout is gradual, so these features will be available to different customers at different times. Automatic upgrades turn on a feature only after the observation window verifies that every client accessing a table supports it.",
+  "why_it_matters": "Automatic upgrades provide the following benefits: Reduce the administrative effort necessary to validate individual compatibility requirements for each table and feature combination in your workspaces.",
+  "plain_summary": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing Unity Catalog managed tables, not just new tables. This rollout is gradual, so these features will be available to different customers at different times.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing Unity Catalog managed tables, not just new tables.",
+  "note_id": "2026-07-29-808af912",
+  "category": "platform"
+}
