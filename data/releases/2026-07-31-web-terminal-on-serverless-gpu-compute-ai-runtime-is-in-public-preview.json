@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
+  "title": "Web terminal on serverless GPU compute (AI Runtime) is in Public Preview",
+  "date": "2026-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in [Public Preview](/aws/en/release-notes/release-types). Use it to run shell commands, monitor GPU usage with `nvidia-smi`, install libraries, and manage files directly on the compute. This requires serverless GPU environment version 5 or above. See [Run shell commands in Databricks web terminal](/aws/en/compute/web-terminal).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Run shell commands in Databricks web terminal",
+      "url": "https://docs.databricks.com/aws/en/compute/web-terminal"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-01T09:11:22.715783Z"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Web terminal on serverless GPU compute (AI Runtime) is in Public Preview",
+  "tagline": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview.",
+  "updated": "Jul 31, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/web-terminal",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
+  "what_it_does": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview. Use it to run shell commands, monitor GPU usage with nvidia smi, install libraries, and manage files directly on the compute. This requires serverless GPU environment version 5 or above.",
+  "why_it_matters": "If other web services are launched on port 7681, compute users might be exposed to potential security exploits.",
+  "plain_summary": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview. Use it to run shell commands, monitor GPU usage with nvidia smi, install libraries, and manage files directly on the compute.",
+  "capabilities": [
+    {
+      "title": "Jobs compute",
+      "desc": "Jobs compute"
+    },
+    {
+      "title": "Compute launched with the DISABLEWEBTERMINAL=true",
+      "desc": "Compute launched with the DISABLEWEBTERMINAL=true environment variable set."
+    },
+    {
+      "title": "Standard compute on Databricks Runtime",
+      "desc": "Standard compute on Databricks Runtime version below 15.1."
+    },
+    {
+      "title": "Standard compute with ARM instance",
+      "desc": "Standard compute with ARM instance types on Databricks Runtime below 16.4."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview.",
+  "note_id": "2026-07-31-web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
+  "category": "platform"
+}

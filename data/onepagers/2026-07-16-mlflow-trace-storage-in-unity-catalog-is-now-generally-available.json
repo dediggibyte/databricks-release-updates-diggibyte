@@ -1,0 +1,24 @@
+{
+  "product": "MLflow trace storage in Unity Catalog is now generally available",
+  "tagline": "MLflow trace storage in Unity Catalog tables is now generally available.",
+  "updated": "Jul 16, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/observe-with-traces/query-dbsql",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mlflow-trace-storage-in-unity-catalog-is-now-generally-available",
+  "what_it_does": "MLflow trace storage in Unity Catalog tables is now generally available. Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL, Genie, AI/BI dashboards, and any Spark based tool. To view traces, point an MLflow experiment at a Unity Catalog trace location.",
+  "why_it_matters": "Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL, Genie, AI/BI dashboards, and any Spark based tool.",
+  "plain_summary": "MLflow trace storage in Unity Catalog tables is now generally available. Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "MLflow trace storage in Unity Catalog tables is now generally available.",
+  "note_id": "2026-07-16-mlflow-trace-storage-in-unity-catalog-is-now-generally-available",
+  "category": "platform"
+}

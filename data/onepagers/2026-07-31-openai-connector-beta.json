@@ -1,0 +1,24 @@
+{
+  "product": "OpenAI connector (Beta)",
+  "tagline": "The OpenAI connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Jul 31, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/openai",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#openai-connector-beta",
+  "what_it_does": "The OpenAI connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector uses the OpenAI Organization Admin API to ingest organization administration data, such as users, projects, API keys, usage, costs, and audit logs, from OpenAI into Databricks.",
+  "why_it_matters": "The connector uses the OpenAI Organization Admin API to ingest organization administration data, such as users, projects, API keys, usage, costs, and audit logs, from OpenAI into Databricks.",
+  "plain_summary": "The OpenAI connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The OpenAI connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-07-31-openai-connector-beta",
+  "category": "platform"
+}
