@@ -1,0 +1,33 @@
+{
+  "id": "2026-07-29-upcoming-general-availability-of-unity-ai-gateway",
+  "title": "Upcoming general availability of Unity AI Gateway",
+  "date": "2026-07-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-general-availability-of-unity-ai-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity AI Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon. Built on Unity Catalog, Unity AI Gateway extends governance to the runtime interactions between models, agents, MCP servers, and tools. You can control which AI services teams use, route and manage AI traffic, and monitor usage from one control plane.\n\nThe following capabilities will be generally available. Model, MCP, and model provider services are Unity Catalog securables that you govern with the same privileges as tables and volumes:\n\n* Model services route requests to pay-per-token and external models with traffic splitting and fallback, and you can share them across workspaces. See [Model services in Unity Catalog](/aws/en/ai-gateway/model-services).\n* MCP services register external or Databricks-provided MCP servers, so you can govern agent access with grants and tool selection. See [Connect agents to third-party tools with MCP Services](/aws/en/agents/mcp-tools/mcp-services).\n* Model provider services represent external model providers such as OpenAI, Anthropic, and Amazon Bedrock, with centrally managed credentials. See [Model provider services in Unity Catalog](/aws/en/ai-gateway/model-provider-services).\n* Budgets monitor and control monthly Unity AI Gateway spend with per-user thresholds and hard caps. See [Manage budgets for Unity AI Gateway](/aws/en/ai-gateway/budgets).\n\nSee [AI governance with Unity AI Gateway](/aws/en/ai-gateway).",
+  "ref_links": [
+    {
+      "text": "Model services in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/model-services"
+    },
+    {
+      "text": "Connect agents to third-party tools with MCP Services",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/mcp-services"
+    },
+    {
+      "text": "Model provider services in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/model-provider-services"
+    },
+    {
+      "text": "Manage budgets for Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/budgets"
+    },
+    {
+      "text": "AI governance with Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.795183Z"
+}

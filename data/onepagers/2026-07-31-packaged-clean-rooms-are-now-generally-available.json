@@ -1,0 +1,24 @@
+{
+  "product": "Packaged clean rooms are now generally available",
+  "tagline": "Packaged clean rooms are now generally available.",
+  "updated": "Jul 31, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/clean-rooms/packaged-clean-rooms",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#packaged-clean-rooms-are-now-generally-available",
+  "what_it_does": "Packaged clean rooms are now generally available. In a packaged clean room, a provider supplies notebooks, JARs, and data that a consumer runs against their own data without seeing the provider's code or data assets. This page describes packaged clean rooms, a provider consumer collaboration model for Databricks clean rooms.",
+  "why_it_matters": "How packaged clean rooms differ from approval based clean rooms The following table compares the capabilities of each collaborator in a packaged clean room with those in an approval based clean room: ←✕ Security and trust model Because the consumer cannot inspect the provider's notebook or JAR code, the consumer must trust that the provider's code behaves as described, similar to using a private library.",
+  "plain_summary": "Packaged clean rooms are now generally available. In a packaged clean room, a provider supplies notebooks, JARs, and data that a consumer runs against their own data without seeing the provider's code or data assets.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Packaged clean rooms are now generally available.",
+  "note_id": "2026-07-31-packaged-clean-rooms-are-now-generally-available",
+  "category": "platform"
+}

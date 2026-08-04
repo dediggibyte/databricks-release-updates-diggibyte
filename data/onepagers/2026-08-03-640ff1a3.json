@@ -1,0 +1,24 @@
+{
+  "product": "Refresh materialized views and streaming tables without exempting the pipeline…",
+  "tagline": "You can now refresh a pipeline managed materialized view or streaming table even when the pipeline owner or run as identity is subject to an attribute based access control (ABAC) policy.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/requirements#materialized-views-and-streaming-tables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#refresh-materialized-views-and-streaming-tables-without-exempting-the-pipeline-owner-from-abac-policies",
+  "what_it_does": "You can now refresh a pipeline managed materialized view or streaming table even when the pipeline owner or run as identity is subject to an attribute based access control (ABAC) policy. Previously, refreshing a materialized view or streaming table managed by a pipeline required the pipeline owner or run as identity to be exempt from any applicable ABAC policy. That limitation has been removed.",
+  "why_it_matters": "Governed tags requirement ABAC policies use governed tags, not ungoverned tags.",
+  "plain_summary": "You can now refresh a pipeline managed materialized view or streaming table even when the pipeline owner or run as identity is subject to an attribute based access control (ABAC) policy. Previously, refreshing a materialized view or streaming table managed…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now refresh a pipeline managed materialized view or streaming table even when the pipeline owner or run as identity is subject to an attribute based access control (ABAC) policy.",
+  "note_id": "2026-08-03-640ff1a3",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-31-packaged-clean-rooms-are-now-generally-available",
+  "title": "Packaged clean rooms are now generally available",
+  "date": "2026-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#packaged-clean-rooms-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Packaged clean rooms are now generally available. In a packaged clean room, a provider supplies notebooks, JARs, and data that a consumer runs against their own data without seeing the provider's code or data assets. See [Packaged clean rooms](/aws/en/clean-rooms/packaged-clean-rooms).",
+  "ref_links": [
+    {
+      "text": "Packaged clean rooms",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/packaged-clean-rooms"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.785960Z"
+}

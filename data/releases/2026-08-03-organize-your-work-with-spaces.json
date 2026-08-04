@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-03-organize-your-work-with-spaces",
+  "title": "Organize your work with spaces",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#organize-your-work-with-spaces",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use spaces to organize your work in the Databricks editor. Each space lets you focus on a specific folder or project while preserving your open tabs, so you can easily pick up where you left off.\n\nSee [Organize your work with spaces](/aws/en/notebooks/spaces).",
+  "ref_links": [
+    {
+      "text": "Organize your work with spaces",
+      "url": "https://docs.databricks.com/aws/en/notebooks/spaces"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.779650Z"
+}

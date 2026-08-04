@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-03-filter-updates-for-the-databricks-excel-add-in",
+  "title": "Filter updates for the Databricks Excel Add-in",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#filter-updates-for-the-databricks-excel-add-in",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Excel Add-in now supports cascading filters and case-insensitive string matching. Additionally, the `LIKE`, `NOT LIKE`, `IN`, and `NOT IN` filters are no longer available in the filters list.\n\nSee [Filter imported data](/aws/en/integrations/excel-query#filters).",
+  "ref_links": [
+    {
+      "text": "Filter imported data",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel-query#filters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.782611Z"
+}

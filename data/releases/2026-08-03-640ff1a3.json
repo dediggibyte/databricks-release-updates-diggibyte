@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-640ff1a3",
+  "title": "Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policies",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#refresh-materialized-views-and-streaming-tables-without-exempting-the-pipeline-owner-from-abac-policies",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now refresh a pipeline-managed materialized view or streaming table even when the pipeline owner or [run-as identity](/aws/en/ldp/configure-pipeline#set-run-as) is subject to an attribute-based access control (ABAC) policy.\n\nPreviously, refreshing a materialized view or streaming table managed by a pipeline required the pipeline owner or run-as identity to be exempt from any applicable ABAC policy. That limitation has been removed.\n\nWhen a pipeline refreshes a materialized view or streaming table, policies are evaluated using the pipeline owner's or run-as identity. If you don't want the persisted data to be masked or filtered, add the pipeline owner or run-as identity to the `EXCEPT` clause of ABAC policies associated with all the tables being read during the pipeline refresh. Use the `TO` clause to specify which users and groups receive masked or filtered data.\n\nSee [ABAC policies on materialized views and streaming tables](/aws/en/data-governance/unity-catalog/abac/requirements#materialized-views-and-streaming-tables).",
+  "ref_links": [
+    {
+      "text": "run-as identity",
+      "url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#set-run-as"
+    },
+    {
+      "text": "ABAC policies on materialized views and streaming tables",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/requirements#materialized-views-and-streaming-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.783736Z"
+}

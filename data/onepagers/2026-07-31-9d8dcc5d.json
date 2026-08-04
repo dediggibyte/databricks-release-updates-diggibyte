@@ -1,0 +1,33 @@
+{
+  "product": "Databricks Apps will soon be turned on for workspaces with the compliance…",
+  "tagline": "Starting in early September 2026, Databricks Apps will be automatically on for workspaces with the compliance security profile enabled.",
+  "updated": "Jul 31, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-apps-will-soon-be-turned-on-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting in early September 2026, Databricks Apps will be automatically on for workspaces with the compliance security profile enabled. This page describes the compliance security profile, its compliance controls, and supported features. To enable the compliance security profile, see Configure enhanced security and compliance settings.",
+  "why_it_matters": "Starting in early September 2026, Databricks Apps will be automatically on for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting in early September 2026, Databricks Apps will be automatically on for workspaces with the compliance security profile enabled.",
+  "capabilities": [
+    {
+      "title": "A CIS Level 1 hardened",
+      "desc": "A CIS Level 1 hardened image"
+    },
+    {
+      "title": "FIPS 140 validated encryption modules",
+      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in early September 2026, Databricks Apps will be automatically on for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-07-31-9d8dcc5d",
+  "category": "platform"
+}

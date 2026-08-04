@@ -1,0 +1,24 @@
+{
+  "product": "Genie One and Genie Agents free usage extended through January 31, 2027",
+  "tagline": "Free usage of Genie One and Genie Agents is extended through January 31, 2027.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor-cost",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-and-genie-agents-free-usage-extended-through-january-31-2027",
+  "what_it_does": "Free usage of Genie One and Genie Agents is extended through January 31, 2027. This promotion was previously set to end on July 31, 2026. Budget controls do not apply during the promotional period.",
+  "why_it_matters": "This article explains how Genie usage appears in the Databricks billing system tables, how to query and analyze your Genie costs, and how promotional pricing is reflected in your usage data.",
+  "plain_summary": "Free usage of Genie One and Genie Agents is extended through January 31, 2027. This promotion was previously set to end on July 31, 2026.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Free usage of Genie One and Genie Agents is extended through January 31, 2027.",
+  "note_id": "2026-08-03-genie-one-and-genie-agents-free-usage-extended-through-january-31-2027",
+  "category": "platform"
+}

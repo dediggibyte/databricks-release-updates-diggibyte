@@ -1,0 +1,29 @@
+{
+  "product": "Filter updates for the Databricks Excel Add-in",
+  "tagline": "The Databricks Excel Add in now supports cascading filters and case insensitive string matching.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/excel-query#filters",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#filter-updates-for-the-databricks-excel-add-in",
+  "what_it_does": "The Databricks Excel Add in now supports cascading filters and case insensitive string matching. Additionally, the LIKE, NOT LIKE, IN, and NOT IN filters are no longer available in the filters list. Preview This feature is in Public Preview.",
+  "why_it_matters": "The Databricks Excel Add in connects your Databricks workspace to Microsoft Excel, bringing governed Lakehouse data directly into your spreadsheets to help you move from data to decisions faster.",
+  "plain_summary": "The Databricks Excel Add in now supports cascading filters and case insensitive string matching. Additionally, the LIKE, NOT LIKE, IN, and NOT IN filters are no longer available in the filters list.",
+  "capabilities": [
+    {
+      "title": "Click Catalog explorer to view",
+      "desc": "Click  Catalog explorer to view your schemas and tables. To use a query from your Databricks workspace or an existing query in…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Excel Add in now supports cascading filters and case insensitive string matching.",
+  "note_id": "2026-08-03-filter-updates-for-the-databricks-excel-add-in",
+  "category": "platform"
+}

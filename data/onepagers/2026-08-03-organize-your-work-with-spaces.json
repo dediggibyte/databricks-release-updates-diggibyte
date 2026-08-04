@@ -1,0 +1,24 @@
+{
+  "product": "Organize your work with spaces",
+  "tagline": "You can now use spaces to organize your work in the Databricks editor.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/spaces",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#organize-your-work-with-spaces",
+  "what_it_does": "You can now use spaces to organize your work in the Databricks editor. Each space lets you focus on a specific folder or project while preserving your open tabs, so you can easily pick up where you left off. Spaces are an organizational tool you can use to group your work, focusing the editor window on a single folder or set of open tabs.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now use spaces to organize your work in the Databricks editor. Each space lets you focus on a specific folder or project while preserving your open tabs, so you can easily pick up where you left off.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use spaces to organize your work in the Databricks editor.",
+  "note_id": "2026-08-03-organize-your-work-with-spaces",
+  "category": "platform"
+}

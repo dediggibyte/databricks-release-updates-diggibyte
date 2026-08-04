@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code is now available on HIPAA compliance security profile workspaces…",
+  "tagline": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner powered AI features disabled.",
+  "updated": "Jul 30, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-is-now-available-on-hipaa-compliance-security-profile-workspaces-with-partner-powered-ai-features-disabled",
+  "what_it_does": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner powered AI features disabled. On these workspaces, Genie Code is served by Databricks hosted models rather than partner powered models. For the full list of AI assistive features affected by the partner powered AI features setting and the hosting provider used by each, see Partner powered AI features.",
+  "why_it_matters": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner powered AI features disabled.",
+  "plain_summary": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner powered AI features disabled. On these workspaces, Genie Code is served by Databricks hosted models rather…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner powered AI features disabled.",
+  "note_id": "2026-07-30-1daf2b05",
+  "category": "platform"
+}

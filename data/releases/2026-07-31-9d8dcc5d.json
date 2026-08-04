@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-9d8dcc5d",
+  "title": "Databricks Apps will soon be turned on for workspaces with the compliance security profile enabled",
+  "date": "2026-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-apps-will-soon-be-turned-on-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in early September 2026, [Databricks Apps](/aws/en/dev-tools/databricks-apps) will be automatically on for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nSee [Databricks Apps](/aws/en/dev-tools/databricks-apps).",
+  "ref_links": [
+    {
+      "text": "Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-04T09:42:47.784559Z"
+}
