@@ -1,0 +1,24 @@
+{
+  "product": "MANAGE no longer requires USE CATALOG or USE SCHEMA on the same object",
+  "tagline": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-usage-requirements",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "what_it_does": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted. This change makes MANAGE behave more consistently with object ownership. Previously, MANAGE on a catalog or schema took effect only if you also held the appropriate usage privileges on that object.",
+  "why_it_matters": "Securable objects In Unity Catalog, data and metadata live in a top level container called a metastore.",
+  "plain_summary": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted. This change makes MANAGE behave more consistently with object ownership.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted.",
+  "note_id": "2026-08-03-manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "category": "platform"
+}

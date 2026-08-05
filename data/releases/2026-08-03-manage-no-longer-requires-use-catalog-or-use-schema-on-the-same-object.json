@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "title": "MANAGE no longer requires USE CATALOG or USE SCHEMA on the same object",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [`MANAGE` privilege](/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-privilege) no longer requires a [usage privilege](/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-usage-requirements) (`USE CATALOG` or `USE SCHEMA`) on the object where `MANAGE` is granted. This change makes `MANAGE` behave more consistently with object ownership.\n\nPreviously, `MANAGE` on a catalog or schema took effect only if you also held the appropriate usage privileges on that object. You still need usage privileges on any parent containers:\n\n* `MANAGE` on a catalog requires no usage privileges.\n* `MANAGE` on a schema requires `USE CATALOG` on the parent catalog, but no longer requires `USE SCHEMA` on the schema.\n* `MANAGE` on a table, view, volume, or function is unchanged. It still requires `USE CATALOG` on the parent catalog and `USE SCHEMA` on the parent schema.\n\nAll other privileges are unaffected and still require usage privileges as prerequisites, even for users with `MANAGE`. For example, querying a table still requires `SELECT` on the table, plus `USE CATALOG` and `USE SCHEMA` on the parent catalog and schema.\n\nIf you granted `MANAGE` broadly without also granting the corresponding usage privileges, those grants are now active, and holders can manage the object. Databricks recommends auditing existing `MANAGE` grants to confirm they reflect your intended access.\n\nSee [Usage privilege requirements for `MANAGE`](/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-usage-requirements).",
+  "ref_links": [
+    {
+      "text": "MANAGE privilege",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-privilege"
+    },
+    {
+      "text": "usage privilege",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#manage-usage-requirements"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-05T09:41:27.273537Z"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "Full page Genie Code is now generally available",
+  "tagline": "Full page Genie Code is now generally available.",
+  "updated": "Aug 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/full-page",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#full-page-genie-code-is-now-generally-available",
+  "what_it_does": "Full page Genie Code is now generally available. Full page Genie Code is a command center experience where the active chat is shown prominently, notebooks and files open as tabs alongside it, and you can run multiple chats in parallel. Start work directly from Genie Code, and personalize how it works with skills, instructions, and MCP servers.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Full page Genie Code is now generally available. Full page Genie Code is a command center experience where the active chat is shown prominently, notebooks and files open as tabs alongside it, and you can run multiple chats in parallel.",
+  "capabilities": [
+    {
+      "title": "To switch threads, click any",
+      "desc": "To switch threads, click any entry. You can switch while Genie Code is still working, whether it is running in the thread or…"
+    },
+    {
+      "title": "To manage a thread, hover",
+      "desc": "To manage a thread, hover over it and click the  kebab menu. You can share, make a copy, rename, or delete the thread. Thread…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Full page Genie Code is now generally available.",
+  "note_id": "2026-08-04-full-page-genie-code-is-now-generally-available",
+  "category": "platform"
+}

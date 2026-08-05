@@ -1,0 +1,24 @@
+{
+  "product": "Google Drive connector (GA)",
+  "tagline": "The Google Drive connector in Lakeflow Connect is now Generally Available.",
+  "updated": "Aug 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connector-ga",
+  "what_it_does": "The Google Drive connector in Lakeflow Connect is now Generally Available. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Google Drive connector in Lakeflow Connect is now Generally Available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Google Drive connector in Lakeflow Connect is now Generally Available.",
+  "note_id": "2026-08-04-google-drive-connector-ga",
+  "category": "platform"
+}

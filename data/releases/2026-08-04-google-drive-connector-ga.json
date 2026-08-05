@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-google-drive-connector-ga",
+  "title": "Google Drive connector (GA)",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Google Drive connector in Lakeflow Connect is now Generally Available. See [Google Drive connector](/aws/en/ingestion/lakeflow-connect/google-drive).",
+  "ref_links": [
+    {
+      "text": "Google Drive connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-05T09:41:27.266440Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-04-unity-ai-gateway-is-now-generally-available",
+  "title": "Unity AI Gateway is now generally available",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-ai-gateway-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity AI Gateway is now generally available. Unity AI Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity AI Gateway you can:\n\n* Control which AI services teams can use.\n* Route and manage AI traffic across providers.\n* Govern MCP servers to control access and costs.\n* Monitor usage, cost, access, and lineage from one place.\n\nSome capabilities, including service policies and agent services, remain in Beta.\n\nSee [AI governance with Unity AI Gateway](/aws/en/ai-gateway) and [AI governance guide](/aws/en/ai-gateway/ai-governance).",
+  "ref_links": [
+    {
+      "text": "AI governance with Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "AI governance guide",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/ai-governance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-05T09:41:27.264527Z"
+}

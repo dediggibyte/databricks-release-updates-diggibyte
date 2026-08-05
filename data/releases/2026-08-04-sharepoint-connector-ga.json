@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-sharepoint-connector-ga",
+  "title": "SharePoint connector (GA)",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharepoint-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The SharePoint connector in Lakeflow Connect is now Generally Available. See [SharePoint connector](/aws/en/ingestion/lakeflow-connect/sharepoint).",
+  "ref_links": [
+    {
+      "text": "SharePoint connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sharepoint"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-05T09:41:27.265248Z"
+}

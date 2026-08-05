@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-pagerduty-connector-beta",
+  "title": "PagerDuty connector (Beta)",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#pagerduty-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed PagerDuty connector in Lakeflow Connect is now available in Beta. The connector ingests incident, on-call, service, and audit data from PagerDuty into Databricks. See [PagerDuty connector](/aws/en/ingestion/lakeflow-connect/pagerduty).",
+  "ref_links": [
+    {
+      "text": "PagerDuty connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/pagerduty"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-05T09:41:27.265840Z"
+}
