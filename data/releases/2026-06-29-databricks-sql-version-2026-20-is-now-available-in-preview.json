@@ -1,0 +1,37 @@
+{
+  "id": "2026-06-29-databricks-sql-version-2026-20-is-now-available-in-preview",
+  "title": "Databricks SQL version 2026.20 is now available in Preview",
+  "date": "2026-06-29",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202620-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.20 is now available in the `Preview` channel. Review the following section to learn about new features, behavioral changes, and bug fixes.\n\n#### New IP address functions\n\nA set of SQL functions is now available for working with IPv4 and IPv6 addresses and CIDR blocks, including `ip_host`, `ip_cidr`, `ip_version`, `ip_prefix_length`, `ip_network`, `ip_network_last`, `ip_cidr_contains`, `ip_as_binary`, and `ip_as_string`, along with `try_*` variants for null-safe behavior. See [`ip_host` function](/aws/en/sql/language-manual/functions/ip_host).\n\n#### NEAREST BY join type\n\n`NEAREST BY` is now a supported SQL join type for top-K nearest-neighbor queries. See [NEAREST BY clause](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-nearest-by).\n\n#### DESCRIBE TABLE PARTITION support for v2 catalog tables\n\n`DESCRIBE TABLE ... PARTITION` is now supported for v2 catalog tables. Previously, this syntax was available only for v1 tables. See [DESCRIBE TABLE](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table).\n\n#### QUALIFY clause\n\nSQL queries now support a `QUALIFY` clause, which lets you filter on window function results directly in the query. Previously, this required wrapping the query in a subquery. See [Window functions](/aws/en/sql/language-manual/sql-ref-window-functions).\n\n#### DESCRIBE EXTENDED AS JSON includes predictive optimization results\n\n`DESCRIBE EXTENDED AS JSON` now includes predictive optimization evaluation results in its output. Previously, this information wasn't returned in the JSON output. See [DESCRIBE TABLE](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table).\n\n#### MERGE WITH SCHEMA EVOLUTION fixes\n\n[`MERGE WITH SCHEMA EVOLUTION`](/aws/en/sql/language-manual/delta-merge-into) now works correctly when the statement includes `WHEN MATCHED THEN DELETE` or references nested columns by alias. Previously, these combinations could fail or silently produce incorrect results.\n\n#### Metric view window measures respect filters\n\nWindow measures in [metric views](/aws/en/uc-semantics/metric-views) now return correct results when queries use `GROUP BY`, `IN` or `BETWEEN` filters, or mixed predicates on the window's order column. Previously, these filter patterns could produce incorrect results.\n\n#### Foreign catalog table permissions preserved on refresh\n\nUnity Catalog now preserves table-level permissions on foreign catalog tables, such as Snowflake connection tables, when it refreshes foreign table metadata. Previously, permissions could be removed during a metadata refresh, causing queries to fail with `INSUFFICIENT_PERMISSIONS` errors.\n\n#### Fix for LEFT OUTER JOIN LATERAL with EXPLODE\n\nA bug that produced incorrect null values in `LEFT OUTER JOIN LATERAL` expressions containing `EXPLODE` is now fixed. Queries that use this construct now return correct results.\n\n#### Fix for aggregate queries with partial or final aggregation\n\nA bug that caused aggregate queries using partial merge or final aggregation execution to fail because of missing required input attributes is now fixed. Affected queries now run correctly.\n\n#### Deferred duplicate field ID errors in Parquet\n\nPhoton now defers duplicate `field_id` errors in Parquet schema resolution until the affected field is accessed. Queries that don't reference the duplicate field now succeed instead of failing during schema resolution.\n\n#### Improved filter estimation in the query optimizer\n\nThe query optimizer now more accurately estimates how much data a filter removes. Previously, inaccurate estimates could cause Databricks to load large tables fully into memory during joins, leading to out-of-memory errors.\n\n#### Faster queries with multiple COUNT(DISTINCT) expressions\n\nQueries with multiple `COUNT(DISTINCT)` expressions run faster because Databricks now reduces the data earlier in the execution plan instead of expanding it first.",
+  "ref_links": [
+    {
+      "text": "ip_host function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ip_host"
+    },
+    {
+      "text": "NEAREST BY clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-nearest-by"
+    },
+    {
+      "text": "DESCRIBE TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table"
+    },
+    {
+      "text": "Window functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-window-functions"
+    },
+    {
+      "text": "MERGE WITH SCHEMA EVOLUTION",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/delta-merge-into"
+    },
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-06T09:44:21.215154Z"
+}

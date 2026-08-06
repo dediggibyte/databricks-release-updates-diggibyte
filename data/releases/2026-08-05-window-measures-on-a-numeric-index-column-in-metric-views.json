@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-05-window-measures-on-a-numeric-index-column-in-metric-views",
+  "title": "Window measures on a numeric index column in metric views",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#window-measures-on-a-numeric-index-column-in-metric-views",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Window measures in [metric views](/aws/en/uc-semantics/metric-views) support a unitless numeric `offset` and numeric `trailing` and `leading` ranges on a consecutive integer `order` column. Use a numeric index to compare along a business period that is not a calendar date, such as a fiscal week or a 4-4-5 accounting period. See [Window measures on a numeric index column](/aws/en/uc-semantics/metric-views/advanced-techniques#numeric-index).",
+  "ref_links": [
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views"
+    },
+    {
+      "text": "Window measures on a numeric index column",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/advanced-techniques#numeric-index"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-06T09:44:21.066286Z"
+}

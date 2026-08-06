@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-05-genie-one-is-now-available-in-google-sheets",
+  "title": "Genie One is now available in Google Sheets",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-google-sheets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use [Genie One](/aws/en/genie-one) directly in the *Databricks Connector for Google Sheets*. Query your governed Databricks data in natural language and import the results into Google Sheets as native rows and columns. See [Use Genie in Google Sheets](/aws/en/integrations/google-sheets/genie).",
+  "ref_links": [
+    {
+      "text": "Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one"
+    },
+    {
+      "text": "Use Genie in Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-06T09:44:21.067291Z"
+}

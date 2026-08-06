@@ -1,0 +1,24 @@
+{
+  "product": "Genie One is now available in Microsoft Excel",
+  "tagline": "You can now use Genie One directly in the Databricks Excel Add in.",
+  "updated": "Aug 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/excel-genie",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-microsoft-excel",
+  "what_it_does": "You can now use Genie One directly in the Databricks Excel Add in. Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns. Preview This feature is in Public Preview.",
+  "why_it_matters": "Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns.",
+  "plain_summary": "You can now use Genie One directly in the Databricks Excel Add in. Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use Genie One directly in the Databricks Excel Add in.",
+  "note_id": "2026-08-05-genie-one-is-now-available-in-microsoft-excel",
+  "category": "platform"
+}

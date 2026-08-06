@@ -1,0 +1,33 @@
+{
+  "product": "Sharing Delta tables with Iceberg reads enabled is now generally available",
+  "tagline": "Sharing Delta tables with Iceberg reads enabled is now generally available.",
+  "updated": "Aug 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing#delta-matrix",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-iceberg-reads-enabled-is-now-generally-available",
+  "what_it_does": "Sharing Delta tables with Iceberg reads enabled is now generally available. OpenSharing is the secure data sharing platform in Databricks that lets you share data and AI assets with users outside your organization, regardless of whether they use Databricks. OpenSharing is also the basis for Databricks Marketplace, an open forum for exchanging data products, and Clean Rooms, a secure and privacy protecting environment where multiple parties can work together on sensitive enterprise data.",
+  "why_it_matters": "OpenSharing is the secure data sharing platform in Databricks that lets you share data and AI assets with users outside your organization, regardless of whether they use Databricks.",
+  "plain_summary": "Sharing Delta tables with Iceberg reads enabled is now generally available.",
+  "capabilities": [
+    {
+      "title": "In the bearer token flow",
+      "desc": "In the bearer token flow, the recipient provides the credential whenever they access the data in their tool of choice, including…"
+    },
+    {
+      "title": "In the OIDC token federation",
+      "desc": "In the OIDC token federation flow, the recipient or the recipient's client app accesses the data using their own identity…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing Delta tables with Iceberg reads enabled is now generally available.",
+  "note_id": "2026-08-04-sharing-delta-tables-with-iceberg-reads-enabled-is-now-generally-available",
+  "category": "platform"
+}

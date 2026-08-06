@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-04-662d28a8",
+  "title": "Sharing Delta tables with deletion vectors and column mapping is now generally available",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-deletion-vectors-and-column-mapping-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sharing Delta tables with [deletion vectors](/aws/en/tables/features/deletion-vectors) or [column mapping](/aws/en/tables/features/column-mapping) enabled is now generally available. See [Add tables with deletion vectors or column mapping to a share](/aws/en/opensharing/create-share#deletion-vectors).",
+  "ref_links": [
+    {
+      "text": "deletion vectors",
+      "url": "https://docs.databricks.com/aws/en/tables/features/deletion-vectors"
+    },
+    {
+      "text": "column mapping",
+      "url": "https://docs.databricks.com/aws/en/tables/features/column-mapping"
+    },
+    {
+      "text": "Add tables with deletion vectors or column mapping to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#deletion-vectors"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-06T09:44:21.071091Z"
+}

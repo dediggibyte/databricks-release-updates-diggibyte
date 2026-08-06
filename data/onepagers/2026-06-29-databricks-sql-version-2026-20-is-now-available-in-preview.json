@@ -1,0 +1,41 @@
+{
+  "product": "Databricks SQL version 2026.20 is now available in Preview",
+  "tagline": "Databricks SQL version 2026.20 is now available in the Preview channel.",
+  "updated": "Jun 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202620-is-now-available-in-preview",
+  "what_it_does": "Databricks SQL version 2026.20 is now available in the Preview channel. Review the following section to learn about new features, behavioral changes, and bug fixes. New IP address functions A set of SQL functions is now available for working with IPv4 and IPv6 addresses and CIDR blocks, including ip host, ip cidr, ip version, ip prefix length, ip network, ip network last, ip cidr contains, ip as binary, and ip as string, along with try variants for null safe behavior.",
+  "why_it_matters": "Improved filter estimation in the query optimizer The query optimizer now more accurately estimates how much data a filter removes.",
+  "plain_summary": "Databricks SQL version 2026.20 is now available in the Preview channel. Review the following section to learn about new features, behavioral changes, and bug fixes.",
+  "capabilities": [
+    {
+      "title": "Create a metric view",
+      "desc": "Create a metric view"
+    },
+    {
+      "title": "Define metric views using SQL",
+      "desc": "Define metric views using SQL DDL or the Catalog Explorer UI, with built-in YAML validation."
+    },
+    {
+      "title": "Query metric views",
+      "desc": "Query metric views"
+    },
+    {
+      "title": "Query metric views from SQL",
+      "desc": "Query metric views from SQL editors, notebooks, dashboards, Genie Agents, and alerts."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks SQL version 2026.20 is now available in the Preview channel.",
+  "note_id": "2026-06-29-databricks-sql-version-2026-20-is-now-available-in-preview",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Sharing Delta tables with deletion vectors and column mapping is now generally…",
+  "tagline": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available.",
+  "updated": "Aug 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-share#deletion-vectors",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-deletion-vectors-and-column-mapping-is-now-generally-available",
+  "what_it_does": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available. This page explains how to create shares for OpenSharing. A share is a securable object in Unity Catalog that you use for sharing the following data assets with one or more recipients: Tables and table partitions Streaming tables Managed Iceberg tables Foreign Iceberg tables Foreign schemas and tables Views, including dynamic views that restrict access at the row and column level Materialized views Volumes Python UDFs Notebooks AI models Genie Agents FeatureSpecs If you share an entire schema (database), the recipient can access all of the tables, streaming tables, views, materialized views, models, and volumes in the schema at the moment you share it, along with any data and AI assets added to the schema in the future.",
+  "why_it_matters": "A share is a securable object in Unity Catalog that you use for sharing the following data assets with one or more recipients: Tables and table partitions Streaming tables Managed Iceberg tables Foreign Iceberg tables Foreign schemas and tables Views, including dynamic views that restrict access at the row and column level Materialized views Volumes Python UDFs Notebooks AI models Genie Agents FeatureSpecs If you share an entire schema (database), the recipient can access all of the tables, streaming tables, views, materialized views, models, and volumes in the schema at the moment you share it, along with any data and AI assets added to the schema in the future.",
+  "plain_summary": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available.",
+  "note_id": "2026-08-04-662d28a8",
+  "category": "platform"
+}
