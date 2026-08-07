@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-06-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Markdown tables in Agent mode APIs (Beta)**: In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability. See [Parse the report](/aws/en/genie-agents/api#report).\n* **Longer agent descriptions**: Genie Agents now show more of an agent's description by default, so you can see the purpose of each agent at a glance.\n* **Comment on answers from Genie One**: You can now add text comments to Genie Agent answers from Genie One.\n* **Conversation mode in list APIs**: The list conversations APIs now include a field that indicates whether a conversation was sent in Agent mode or Chat mode.\n* **Download CSV in embedded agents**: In embedded Genie Agents, download CSV actions now run inside the iframe instead of sending you to a separate page.\n* **Agent thumbnail fix**: Fixed a bug where Genie Agent thumbnails appeared too small in Genie One.\n* **Agent mode benchmark results fix**: Fixed a bug where agent mode benchmark results appeared as chat mode results.\n* **Benchmark error messages**: [Benchmark runs](/aws/en/genie-agents/monitor#access-benchmark-evaluations) now show a descriptive error message when a transient issue interrupts a run. Previously, these runs returned empty results with no explanation.",
+  "ref_links": [
+    {
+      "text": "Parse the report",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/api#report"
+    },
+    {
+      "text": "Benchmark runs",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/monitor#access-benchmark-evaluations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-07T08:19:00.047651Z"
+}

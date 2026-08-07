@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code web search is in Beta",
+  "tagline": "Genie Code can now search the public web to answer questions that need current information.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#web-search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-web-search-is-in-beta",
+  "what_it_does": "Genie Code can now search the public web to answer questions that need current information. Web search is disabled by default during the beta for eligible workspaces and must be turned on from the Previews page. Genie Code helps developers generate, optimize, explain, and fix code in Databricks notebooks, the SQL editor, jobs, AI/BI dashboards, and the file editor.",
+  "why_it_matters": "The settings pane includes the following: ←✕ Agent mode Genie Code runs in Agent mode, which automates multi step workflows, plans solutions, retrieves relevant assets, runs code, uses cell outputs to improve results, and fixes errors automatically.",
+  "plain_summary": "Genie Code can now search the public web to answer questions that need current information. Web search is disabled by default during the beta for eligible workspaces and must be turned on from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code can now search the public web to answer questions that need current information.",
+  "note_id": "2026-08-06-genie-code-web-search-is-in-beta",
+  "category": "platform"
+}

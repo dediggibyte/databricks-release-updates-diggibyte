@@ -1,0 +1,33 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Rich text in widget titles and descriptions: Visualization widget titles and descriptions now support rich text formatting.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#view-run-history",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Rich text in widget titles and descriptions: Visualization widget titles and descriptions now support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or enter Markdown text directly. Hide pivot table column headers: Dashboard authors can now hide the column header in a pivot table.",
+  "why_it_matters": "Scheduling dashboard updates ensures that your dashboards display up to date information and improves performance for end users.",
+  "plain_summary": "Rich text in widget titles and descriptions: Visualization widget titles and descriptions now support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or enter…",
+  "capabilities": [
+    {
+      "title": "Include pages: Select which dashboard",
+      "desc": "Include pages: Select which dashboard pages to include as PDF attachments. Pages are attached in the selected order."
+    },
+    {
+      "title": "Include data: Select widgets to",
+      "desc": "Include data: Select widgets to include as data attachments and choose an export format (CSV, TSV, or Excel)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Rich text in widget titles and descriptions: Visualization widget titles and descriptions now support rich text formatting.",
+  "note_id": "2026-08-06-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Upload PDF files to a conversation (Beta): You can now upload PDF files to a Genie One conversation alongside CSV and Excel files.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Upload PDF files to a conversation (Beta): You can now upload PDF files to a Genie One conversation alongside CSV and Excel files. Genie One parses PDFs asynchronously. Mention workspace users in document comments: In a document, you can now mention workspace users in a comment.",
+  "why_it_matters": "This generates more accurate responses and reduces latency by reducing the amount of data Genie One needs to crawl and query.",
+  "plain_summary": "Upload PDF files to a conversation (Beta): You can now upload PDF files to a Genie One conversation alongside CSV and Excel files. Genie One parses PDFs asynchronously.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Upload PDF files to a conversation (Beta): You can now upload PDF files to a Genie One conversation alongside CSV and Excel files.",
+  "note_id": "2026-08-06-genie-one-enhancements",
+  "category": "platform"
+}

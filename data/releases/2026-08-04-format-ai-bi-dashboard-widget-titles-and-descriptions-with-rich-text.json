@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-format-ai-bi-dashboard-widget-titles-and-descriptions-with-rich-text",
+  "title": "Format AI/BI dashboard widget titles and descriptions with rich text",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#format-aibi-dashboard-widget-titles-and-descriptions-with-rich-text",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly.\n\nSee [Format widget titles and descriptions](/aws/en/dashboards/manage/visualizations#format-widget-titles).",
+  "ref_links": [
+    {
+      "text": "Format widget titles and descriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#format-widget-titles"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-07T08:19:00.054724Z"
+}

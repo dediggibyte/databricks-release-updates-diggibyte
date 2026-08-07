@@ -1,0 +1,41 @@
+{
+  "product": "Format AI/BI dashboard widget titles and descriptions with rich text",
+  "tagline": "Visualization widget titles and descriptions support rich text formatting.",
+  "updated": "Aug 4, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#format-widget-titles",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#format-aibi-dashboard-widget-titles-and-descriptions-with-rich-text",
+  "what_it_does": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly. Visualization widgets render your dashboard datasets as charts.",
+  "why_it_matters": "Scale function: Choose Linear or Log (Symmetric).",
+  "plain_summary": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly.",
+  "capabilities": [
+    {
+      "title": "Alphabetical: Sort category names alphabetically",
+      "desc": "Alphabetical: Sort category names alphabetically"
+    },
+    {
+      "title": "By field: Sort by a",
+      "desc": "By field: Sort by a measure field value in ascending or descending order. After selecting the sort direction, choose which field…"
+    },
+    {
+      "title": "Y axis: Sort by the",
+      "desc": "Y axis: Sort by the measure field displayed on the Y axis"
+    },
+    {
+      "title": "Field: Sort by any other",
+      "desc": "Field: Sort by any other measure field in the dataset, even if it's not displayed on the chart. Select the field from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Visualization widget titles and descriptions support rich text formatting.",
+  "note_id": "2026-08-04-format-ai-bi-dashboard-widget-titles-and-descriptions-with-rich-text",
+  "category": "platform"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-06-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Rich text in widget titles and descriptions**: Visualization widget titles and descriptions now support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or enter Markdown text directly. See [Format widget titles and descriptions](/aws/en/dashboards/manage/visualizations#format-widget-titles).\n* **Hide pivot table column headers**: Dashboard authors can now hide the column header in a pivot table. See [Value-level settings](/aws/en/dashboards/manage/visualizations/tables#pivot-value-settings).\n* **Schedule run history**: Dashboard authors can now see the run history for a schedule, including the run ID, start and end times, and status for each of the five most recent runs. See [View schedule run history](/aws/en/dashboards/share/schedule-subscribe#view-run-history).\n* **Pivot table grand totals fix**: Fixed a bug where grand totals and expand and collapse controls did not appear on pivot tables.",
+  "ref_links": [
+    {
+      "text": "Format widget titles and descriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#format-widget-titles"
+    },
+    {
+      "text": "Value-level settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-value-settings"
+    },
+    {
+      "text": "View schedule run history",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#view-run-history"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-07T08:19:00.046212Z"
+}

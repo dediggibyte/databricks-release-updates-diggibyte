@@ -1,0 +1,41 @@
+{
+  "product": "Genie Agents enhancements and bug fixes",
+  "tagline": "Markdown tables in Agent mode APIs (Beta): In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/monitor#access-benchmark-evaluations",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "Markdown tables in Agent mode APIs (Beta): In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability. Longer agent descriptions: Genie Agents now show more of an agent's description by default, so you can see the purpose of each agent at a glance. Comment on answers from Genie One: You can now add text comments to Genie Agent answers from Genie One.",
+  "why_it_matters": "Markdown tables in Agent mode APIs (Beta): In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability.",
+  "plain_summary": "Markdown tables in Agent mode APIs (Beta): In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability. Longer agent descriptions: Genie Agents now show more of an agent's…",
+  "capabilities": [
+    {
+      "title": "Click Submit and try again",
+      "desc": "Click Submit and try again to regenerate the response using the provided feedback."
+    },
+    {
+      "title": "Click Submit to send the",
+      "desc": "Click Submit to send the feedback without regenerating the response. Request review: Flags the response for manual review. Users…"
+    },
+    {
+      "title": "Copy CSV: Copy the response",
+      "desc": "Copy CSV: Copy the response CSV to your clipboard."
+    },
+    {
+      "title": "Add as instruction: For interactions",
+      "desc": "Add as instruction: For interactions that might be useful for teaching Genie how to answer similar questions, click Add as…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Markdown tables in Agent mode APIs (Beta): In the Agent mode APIs, table visualizations now return as markdown instead of table visualization attachments, which improves readability.",
+  "note_id": "2026-08-06-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}

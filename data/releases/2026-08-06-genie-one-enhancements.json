@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-06-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Upload PDF files to a conversation (Beta)**: You can now upload PDF files to a Genie One conversation alongside CSV and Excel files. Genie One parses PDFs asynchronously. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).\n* **Mention workspace users in document comments**: In a document, you can now mention workspace users in a comment.\n* **Genie Ontology enabled by default (Public Preview)**: The ontology is a unified context layer that gives Genie a business-aware map of your organization. It is now enabled by default. See [Genie Ontology](/aws/en/genie-one/chat#ontology).",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-07T08:19:00.048647Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-06-genie-code-web-search-is-in-beta",
+  "title": "Genie Code web search is in Beta",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-web-search-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code can now search the public web to answer questions that need current information. Web search is disabled by default during the beta for eligible workspaces and must be turned on from the **Previews** page. See [Search the web](/aws/en/genie-code/use-genie-code#web-search).",
+  "ref_links": [
+    {
+      "text": "Search the web",
+      "url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#web-search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-07T08:19:00.049797Z"
+}

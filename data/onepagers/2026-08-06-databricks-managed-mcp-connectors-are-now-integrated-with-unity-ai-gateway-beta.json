@@ -1,0 +1,41 @@
+{
+  "product": "Databricks-managed MCP connectors are now integrated with Unity AI Gateway…",
+  "tagline": "All Databricks managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-managed-mcp-connectors-are-now-integrated-with-unity-ai-gateway-beta",
+  "what_it_does": "All Databricks managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway. This brings Databricks managed connectors under Unity AI Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools. Users must reauthenticate their connectors to continue using them with Genie One and Genie Code.",
+  "why_it_matters": "This brings Databricks managed connectors under Unity AI Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.",
+  "plain_summary": "All Databricks managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway. This brings Databricks managed connectors under Unity AI Gateway, enabling centralized governance, access controls, and visibility alongside your other…",
+  "capabilities": [
+    {
+      "title": "AI governance guide",
+      "desc": "AI governance guide"
+    },
+    {
+      "title": "An end-to-end path for administrators",
+      "desc": "An end-to-end path for administrators to govern access to AI assets, traffic and cost, and the content of requests and responses."
+    },
+    {
+      "title": "Tutorial: Govern a coding agent's",
+      "desc": "Tutorial: Govern a coding agent's GitHub MCP access"
+    },
+    {
+      "title": "Restrict a coding agent's access",
+      "desc": "Restrict a coding agent's access to GitHub MCP tools using Unity Catalog permissions and a built-in service policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "All Databricks managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway.",
+  "note_id": "2026-08-06-databricks-managed-mcp-connectors-are-now-integrated-with-unity-ai-gateway-beta",
+  "category": "platform"
+}
