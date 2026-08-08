@@ -1,0 +1,33 @@
+{
+  "product": "Moonshot AI Kimi K3 now available as a Databricks-hosted model",
+  "tagline": "Model Serving now supports Kimi K3 as a Databricks hosted model.",
+  "updated": "Aug 6, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now supports Kimi K3 as a Databricks hosted model. This 2.8 trillion parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long horizon coding, knowledge work, and reasoning. You can access this model using Foundation Model APIs.",
+  "why_it_matters": "For production workloads, Databricks recommends priority pay per token, also referred to as priority mode, for latency sensitive workloads that need more consistent performance under load.",
+  "plain_summary": "Model Serving now supports Kimi K3 as a Databricks hosted model. This 2.8 trillion parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long horizon coding, knowledge work…",
+  "capabilities": [
+    {
+      "title": "Pay-per-token regions",
+      "desc": "Pay-per-token regions."
+    },
+    {
+      "title": "Provisioned throughput regions",
+      "desc": "Provisioned throughput regions."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports Kimi K3 as a Databricks hosted model.",
+  "note_id": "2026-08-06-moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

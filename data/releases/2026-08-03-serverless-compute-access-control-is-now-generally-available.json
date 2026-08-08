@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-03-serverless-compute-access-control-is-now-generally-available",
+  "title": "Serverless compute access control is now generally available",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#serverless-compute-access-control-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless compute access control is now generally available. Workspace admins can govern who runs serverless workloads through two built-in serverless compute objects: Default Interactive Compute (governs access to notebooks and Databricks Connect) and Default Automated Compute (governs access to jobs and Spark Declarative Pipelines on Lakeflow). All workspace users have **Can Use** on both objects by default, so existing workloads continue to run without changes.\n\nSee [Serverless compute access control](/aws/en/compute/serverless/access-control).",
+  "ref_links": [
+    {
+      "text": "Serverless compute access control",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/access-control"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.294209Z"
+}

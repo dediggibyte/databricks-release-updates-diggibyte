@@ -1,0 +1,41 @@
+{
+  "product": "Search and replace text across files",
+  "tagline": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane.",
+  "updated": "Aug 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor#multi-file-search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#search-and-replace-text-across-files",
+  "what_it_does": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane. The Databricks notebook and file editor provides keyboard shortcuts, code suggestions and autocomplete, variable inspection, and code folding to help you write and navigate code. When you use the notebook or the file editor, Genie Code is available to help you generate, explain, and debug code.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane.",
+  "capabilities": [
+    {
+      "title": "On macOS, hold down the",
+      "desc": "On macOS, hold down the Cmd key and click in each location to add a cursor."
+    },
+    {
+      "title": "On Windows, hold down the",
+      "desc": "On Windows, hold down the Ctrl key and click in each location to add a cursor."
+    },
+    {
+      "title": "On macOS, press Option and",
+      "desc": "On macOS, press Option and drag to the lower right to capture one or more columns."
+    },
+    {
+      "title": "On Windows, press Alt and",
+      "desc": "On Windows, press Alt and drag to the lower right to capture one or more columns."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane.",
+  "note_id": "2026-08-05-search-and-replace-text-across-files",
+  "category": "platform"
+}

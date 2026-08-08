@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-05-jar-tasks-on-serverless-compute-are-now-generally-available",
+  "title": "JAR tasks on serverless compute are now generally available",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#jar-tasks-on-serverless-compute-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters. See [Create and run JARs on serverless compute](/aws/en/jobs/how-to/use-jars-in-workflows).",
+  "ref_links": [
+    {
+      "text": "Create and run JARs on serverless compute",
+      "url": "https://docs.databricks.com/aws/en/jobs/how-to/use-jars-in-workflows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.277633Z"
+}

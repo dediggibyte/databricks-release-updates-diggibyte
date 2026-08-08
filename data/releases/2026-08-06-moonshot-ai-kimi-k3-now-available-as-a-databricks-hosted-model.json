@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-06-moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
+  "title": "Moonshot AI Kimi K3 now available as a Databricks-hosted model",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving now supports [Kimi K3](/aws/en/machine-learning/foundation-model-apis/supported-models#kimi-k3) as a Databricks-hosted model. This 2.8-trillion-parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long-horizon coding, knowledge work, and reasoning. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).",
+  "ref_links": [
+    {
+      "text": "Kimi K3",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#kimi-k3"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.276326Z"
+}

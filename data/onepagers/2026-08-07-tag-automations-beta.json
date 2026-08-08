@@ -1,0 +1,24 @@
+{
+  "product": "Tag automations (Beta)",
+  "tagline": "Tag automations are now in Beta.",
+  "updated": "Aug 7, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/governed-tags/automate-tag-assignment",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tag-automations-beta",
+  "what_it_does": "Tag automations are now in Beta. A tag automation assigns or removes governed tags on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change. Use them to certify trusted data, deprecate stale data, roll up column sensitivity to a table level tier, flag assets that are missing required tags, and clean up outdated tags.",
+  "why_it_matters": "A tag automation assigns or removes governed tags on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change.",
+  "plain_summary": "Tag automations are now in Beta. A tag automation assigns or removes governed tags on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Tag automations are now in Beta.",
+  "note_id": "2026-08-07-tag-automations-beta",
+  "category": "platform"
+}

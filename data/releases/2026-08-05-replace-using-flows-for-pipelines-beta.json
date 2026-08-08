@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-05-replace-using-flows-for-pipelines-beta",
+  "title": "REPLACE USING flows for pipelines (Beta)",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-pipelines-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "REPLACE USING flows are now available in Lakeflow pipelines in [Beta](/aws/en/release-notes/release-types).\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A `SEQUENCE BY` column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee [Partial snapshot replacement with REPLACE USING flows](/aws/en/ldp/flows-replace-using).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Partial snapshot replacement with REPLACE USING flows",
+      "url": "https://docs.databricks.com/aws/en/ldp/flows-replace-using"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.278638Z"
+}

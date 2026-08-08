@@ -1,0 +1,33 @@
+{
+  "product": "Change data feed on materialized views (Beta)",
+  "tagline": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above.",
+  "updated": "Aug 7, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/cdc-advanced#cdf-from-mv",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#change-data-feed-on-materialized-views-beta",
+  "what_it_does": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above. Use this to replicate materialized view changes to destinations outside Databricks, or to keep a history of materialized view changes for auditing and reporting. Materialized views use automatic change data feed, so the change data feed is available for any materialized view with row tracking enabled, without configuring each materialized view.",
+  "why_it_matters": "For an introduction to the AUTO CDC APIs, see The AUTO CDC APIs: Simplify change data capture with pipelines.",
+  "plain_summary": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above. Use this to replicate materialized view changes to destinations outside Databricks, or to keep a…",
+  "capabilities": [
+    {
+      "title": "For a materialized view created",
+      "desc": "For a materialized view created in a pipeline, set pipelines.externalMetadata.enabled in the pipeline configuration:"
+    },
+    {
+      "title": "For a standalone materialized view",
+      "desc": "For a standalone materialized view, run the following command once on each materialized view. This command requires the external…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above.",
+  "note_id": "2026-08-07-change-data-feed-on-materialized-views-beta",
+  "category": "platform"
+}

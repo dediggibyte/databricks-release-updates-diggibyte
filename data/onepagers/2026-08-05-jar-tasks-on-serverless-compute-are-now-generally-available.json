@@ -1,0 +1,24 @@
+{
+  "product": "JAR tasks on serverless compute are now generally available",
+  "tagline": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters.",
+  "updated": "Aug 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/how-to/use-jars-in-workflows",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#jar-tasks-on-serverless-compute-are-now-generally-available",
+  "what_it_does": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters. important Databricks strongly recommends Declarative Automation Bundles instead of building and deploying JARs manually as described on this page. Declarative Automation Bundles makes it easy to create a project from a template that has the correct Scala, JDK, and Databricks Connect versions already configured for serverless, and also enables simple deployment of the JAR to the Databricks workspace.",
+  "why_it_matters": "Credentials, lineage, and governance are handled for you.",
+  "plain_summary": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters.",
+  "note_id": "2026-08-05-jar-tasks-on-serverless-compute-are-now-generally-available",
+  "category": "platform"
+}

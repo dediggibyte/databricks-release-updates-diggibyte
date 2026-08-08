@@ -1,0 +1,33 @@
+{
+  "product": "ai_search function (Beta)",
+  "tagline": "The ai search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources.",
+  "updated": "Aug 7, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_search-function-beta",
+  "what_it_does": "The ai search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources. Given a natural language query, the function generates optimized search queries, retrieves and deduplicates results across sources, reranks them by relevance, and returns the most relevant documents. By default, it also synthesizes a grounded natural language answer over those documents.",
+  "why_it_matters": "Use ai search to enrich operational data with relevant context at scale, build batch retrieval augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system.",
+  "plain_summary": "The ai search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources. Given a natural language query, the function generates optimized search queries, retrieves and deduplicates results across sources, reranks…",
+  "capabilities": [
+    {
+      "title": "'version': The function version to",
+      "desc": "'version': The function version to use."
+    },
+    {
+      "title": "'generateanswer': 'true' (default) or 'false'",
+      "desc": "'generateanswer': 'true' (default) or 'false'. When 'true', the function synthesizes a grounded natural-language answer from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The ai search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources.",
+  "note_id": "2026-08-07-ai-search-function-beta",
+  "category": "platform"
+}

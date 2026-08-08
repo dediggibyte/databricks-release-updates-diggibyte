@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-tag-automations-beta",
+  "title": "Tag automations (Beta)",
+  "date": "2026-08-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tag-automations-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Tag automations are now in [Beta](/aws/en/release-notes/release-types). A tag automation assigns or removes [governed tags](/aws/en/admin/governed-tags) on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change. Use them to certify trusted data, deprecate stale data, roll up column sensitivity to a table-level tier, flag assets that are missing required tags, and clean up outdated tags.\n\nYou can build an automation by describing your rule to Genie in natural language, or by filling in the scope, conditions, and action yourself. Saving an automation starts a dry run, which records the assets it would match without assigning any tags.\n\nSee [Automate tag assignment](/aws/en/admin/governed-tags/automate-tag-assignment).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    },
+    {
+      "text": "Automate tag assignment",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags/automate-tag-assignment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.265990Z"
+}

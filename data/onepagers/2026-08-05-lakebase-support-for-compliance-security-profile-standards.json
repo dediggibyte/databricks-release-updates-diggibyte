@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase support for compliance security profile standards",
+  "tagline": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security…",
+  "updated": "Aug 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakebase-support-for-compliance-security-profile-standards",
+  "what_it_does": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard. Lakebase Postgres provides data protection features to help secure your databases and control access to critical data. These features enable you to protect production environments and establish secure network connectivity between your applications and databases.",
+  "why_it_matters": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard.",
+  "plain_summary": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security…",
+  "note_id": "2026-08-05-lakebase-support-for-compliance-security-profile-standards",
+  "category": "platform"
+}

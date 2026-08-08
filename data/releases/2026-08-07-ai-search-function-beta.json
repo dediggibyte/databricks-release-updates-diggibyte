@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-ai-search-function-beta",
+  "title": "ai_search function (Beta)",
+  "date": "2026-08-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_search-function-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_search()` SQL function retrieves information from one or more [AI Search indexes](/aws/en/ai-search/ai-search) configured as knowledge sources. Given a natural-language query, the function generates optimized search queries, retrieves and deduplicates results across sources, reranks them by relevance, and returns the most relevant documents. By default, it also synthesizes a grounded natural-language answer over those documents.\n\nUse `ai_search` to enrich operational data with relevant context at scale, build batch retrieval-augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [`ai_search` function](/aws/en/sql/language-manual/functions/ai_search).",
+  "ref_links": [
+    {
+      "text": "AI Search indexes",
+      "url": "https://docs.databricks.com/aws/en/ai-search/ai-search"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "ai_search function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.268478Z"
+}

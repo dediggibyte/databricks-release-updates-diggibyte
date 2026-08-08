@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-07-change-data-feed-on-materialized-views-beta",
+  "title": "Change data feed on materialized views (Beta)",
+  "date": "2026-08-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#change-data-feed-on-materialized-views-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above. Use this to replicate materialized view changes to destinations outside Databricks, or to keep a history of materialized view changes for auditing and reporting. Materialized views use automatic change data feed, so the change data feed is available for any materialized view with row tracking enabled, without configuring each materialized view. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [Read a change data feed from a materialized view](/aws/en/ldp/cdc-advanced#cdf-from-mv).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Read a change data feed from a materialized view",
+      "url": "https://docs.databricks.com/aws/en/ldp/cdc-advanced#cdf-from-mv"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.267012Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-05-search-and-replace-text-across-files",
+  "title": "Search and replace text across files",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#search-and-replace-text-across-files",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the **Search** pane. See [Search and replace across files](/aws/en/notebooks/notebook-editor#multi-file-search).",
+  "ref_links": [
+    {
+      "text": "Search and replace across files",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor#multi-file-search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-08T07:53:26.280367Z"
+}
