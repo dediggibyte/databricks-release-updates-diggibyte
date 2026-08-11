@@ -1,0 +1,24 @@
+{
+  "product": "Alert system tables are in Public Preview",
+  "tagline": "The system.alert schema is in Public Preview.",
+  "updated": "Aug 10, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/alerts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#alert-system-tables-are-in-public-preview",
+  "what_it_does": "The system.alert schema is in Public Preview. This schema contains the alerts table, which records the configuration of every alert, and the alert evaluation history table, which records one row per alert evaluation. Use these tables to audit alert definitions, analyze evaluation trends, and monitor alert workloads at scale.",
+  "why_it_matters": "Use these tables to audit alert definitions, analyze evaluation trends, and monitor alert workloads at scale.",
+  "plain_summary": "The system.alert schema is in Public Preview. This schema contains the alerts table, which records the configuration of every alert, and the alert evaluation history table, which records one row per alert evaluation.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The system.alert schema is in Public Preview.",
+  "note_id": "2026-08-10-alert-system-tables-are-in-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "Orchestrate continuous pipelines with continuous jobs",
+  "tagline": "You can now run a continuous Lakeflow pipeline with a continuous job.",
+  "updated": "Aug 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/pipeline#continuous-pipeline",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#orchestrate-continuous-pipelines-with-continuous-jobs",
+  "what_it_does": "You can now run a continuous Lakeflow pipeline with a continuous job. When a continuous job orchestrates a pipeline, the job determines the execution mode, and the pipeline can use job level features such as serverless Standard performance mode and additional notification destinations. Databricks recommends this pattern over the pipeline's built in continuous setting, which is not being removed.",
+  "why_it_matters": "When a continuous job orchestrates a pipeline, the job determines the execution mode, and the pipeline can use job level features such as serverless Standard performance mode and additional notification destinations.",
+  "plain_summary": "You can now run a continuous Lakeflow pipeline with a continuous job. When a continuous job orchestrates a pipeline, the job determines the execution mode, and the pipeline can use job level features such as serverless Standard performance mode and…",
+  "capabilities": [
+    {
+      "title": "youremail@example.com",
+      "desc": "youremail@example.com"
+    },
+    {
+      "title": "taskkey: refreshpipeline",
+      "desc": "taskkey: refreshpipeline"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now run a continuous Lakeflow pipeline with a continuous job.",
+  "note_id": "2026-08-10-orchestrate-continuous-pipelines-with-continuous-jobs",
+  "category": "platform"
+}
