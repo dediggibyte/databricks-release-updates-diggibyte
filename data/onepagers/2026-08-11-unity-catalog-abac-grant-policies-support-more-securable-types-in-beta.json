@@ -1,0 +1,24 @@
+{
+  "product": "Unity Catalog ABAC GRANT policies support more securable types in Beta",
+  "tagline": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition.",
+  "updated": "Aug 11, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/grant-policies",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-abac-grant-policies-support-more-securable-types-in-beta",
+  "what_it_does": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. These policies were previously only available for models, but now also support model services, model provider services, Model Context Protocol (MCP) services, agent services, and skills. All supported types are in Beta.",
+  "why_it_matters": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition.",
+  "plain_summary": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. These policies were previously only available for models, but now also support model services, model provider services, Model Context Protocol…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition.",
+  "note_id": "2026-08-11-unity-catalog-abac-grant-policies-support-more-securable-types-in-beta",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-10-read-metadata-privilege-is-ga",
+  "title": "READ METADATA privilege is GA",
+  "date": "2026-08-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#read-metadata-privilege-is-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [`READ METADATA` privilege](/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata) is now generally available in Unity Catalog.\n\n`READ METADATA` provides read-only visibility into the same metadata available to the object's owner or a user with `MANAGE`, including security-sensitive information that `BROWSE` doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and SREs.\n\nYou can grant `READ METADATA` on a range of object types. For the full list of applicable object types, see [READ METADATA](/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata).\n\nSee [READ METADATA](/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata).",
+  "ref_links": [
+    {
+      "text": "READ METADATA privilege",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-12T08:23:48.717314Z"
+}

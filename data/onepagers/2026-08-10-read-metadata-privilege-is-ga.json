@@ -1,0 +1,24 @@
+{
+  "product": "READ METADATA privilege is GA",
+  "tagline": "The READ METADATA privilege is now generally available in Unity Catalog.",
+  "updated": "Aug 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#read-metadata-privilege-is-ga",
+  "what_it_does": "The READ METADATA privilege is now generally available in Unity Catalog. READ METADATA provides read only visibility into the same metadata available to the object's owner or a user with MANAGE, including security sensitive information that BROWSE doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and SREs.",
+  "why_it_matters": "READ METADATA provides read only visibility into the same metadata available to the object's owner or a user with MANAGE, including security sensitive information that BROWSE doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies.",
+  "plain_summary": "The READ METADATA privilege is now generally available in Unity Catalog. READ METADATA provides read only visibility into the same metadata available to the object's owner or a user with MANAGE, including security sensitive information that BROWSE doesn't…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The READ METADATA privilege is now generally available in Unity Catalog.",
+  "note_id": "2026-08-10-read-metadata-privilege-is-ga",
+  "category": "platform"
+}

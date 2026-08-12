@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-netsuite-connector-ga",
+  "title": "NetSuite connector (GA)",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#netsuite-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed NetSuite connector in Lakeflow Connect is now generally available. The connector allows you to ingest ERP and financial data from Oracle NetSuite into Databricks. See [NetSuite connector](/aws/en/ingestion/lakeflow-connect/netsuite).",
+  "ref_links": [
+    {
+      "text": "NetSuite connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/netsuite"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-12T08:23:48.739374Z"
+}
