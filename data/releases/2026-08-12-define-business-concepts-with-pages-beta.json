@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-define-business-concepts-with-pages-beta",
+  "title": "Define business concepts with Pages (Beta)",
+  "date": "2026-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#define-business-concepts-with-pages-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition. Part of [Unity Catalog semantics](/aws/en/uc-semantics), Pages form the human-modeled layer of the [Genie Ontology](/aws/en/genie-one/chat#ontology) that Genie One draws on to ground its answers. See [Pages](/aws/en/uc-semantics/pages).",
+  "ref_links": [
+    {
+      "text": "Unity Catalog semantics",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics"
+    },
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology"
+    },
+    {
+      "text": "Pages",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/pages"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-13T08:26:13.516956Z"
+}

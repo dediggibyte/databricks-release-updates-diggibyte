@@ -1,0 +1,24 @@
+{
+  "product": "Gmail connector in Lakeflow Connect (Beta)",
+  "tagline": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/gmail",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#gmail-connector-in-lakeflow-connect-beta",
+  "what_it_does": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect. The connector ingests messages, labels, drafts, filters, and profile data using a Google service account, and syncs the messages and message labels tables incrementally through the Gmail History API. This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect. The connector ingests messages, labels, drafts, filters, and profile data using a Google service account, and syncs the messages and message…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect.",
+  "note_id": "2026-08-13-gmail-connector-in-lakeflow-connect-beta",
+  "category": "platform"
+}

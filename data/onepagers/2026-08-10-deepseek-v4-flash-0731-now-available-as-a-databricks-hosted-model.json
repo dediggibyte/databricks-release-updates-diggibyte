@@ -1,0 +1,24 @@
+{
+  "product": "DeepSeek V4 Flash (0731) now available as a Databricks-hosted model",
+  "tagline": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks hosted model in the us west 2 region.",
+  "updated": "Aug 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-flash-0731-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks hosted model in the us west 2 region. This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost efficient reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.",
+  "why_it_matters": "This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost efficient reasoning, coding, and agentic tool use.",
+  "plain_summary": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks hosted model in the us west 2 region. This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost efficient…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks hosted model in the us west 2 region.",
+  "note_id": "2026-08-10-deepseek-v4-flash-0731-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

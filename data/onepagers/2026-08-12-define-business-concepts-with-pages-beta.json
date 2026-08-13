@@ -1,0 +1,24 @@
+{
+  "product": "Define business concepts with Pages (Beta)",
+  "tagline": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition.",
+  "updated": "Aug 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/pages",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#define-business-concepts-with-pages-beta",
+  "what_it_does": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition. Part of Unity Catalog semantics, Pages form the human modeled layer of the Genie Ontology that Genie One draws on to ground its answers. Beta This feature is in Beta.",
+  "why_it_matters": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition.",
+  "plain_summary": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition. Part of Unity Catalog semantics, Pages form the human modeled layer of the Genie Ontology that Genie One draws on to ground its answers.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition.",
+  "note_id": "2026-08-12-define-business-concepts-with-pages-beta",
+  "category": "platform"
+}

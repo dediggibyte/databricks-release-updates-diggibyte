@@ -1,0 +1,24 @@
+{
+  "product": "Notion connector (Beta)",
+  "tagline": "The managed Notion connector in Lakeflow Connect is now available in Beta.",
+  "updated": "Aug 10, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/notion",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#notion-connector-beta",
+  "what_it_does": "The managed Notion connector in Lakeflow Connect is now available in Beta. The connector ingests pages, data sources, databases, blocks, comments, and users from Notion into Databricks. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Notion connector in Lakeflow Connect is now available in Beta. The connector ingests pages, data sources, databases, blocks, comments, and users from Notion into Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Notion connector in Lakeflow Connect is now available in Beta.",
+  "note_id": "2026-08-10-notion-connector-beta",
+  "category": "platform"
+}

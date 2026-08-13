@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-12-google-search-console-connector-is-available-in-beta",
+  "title": "Google Search Console connector is available in Beta",
+  "date": "2026-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-search-console-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Google Search Console connector](/aws/en/ingestion/lakeflow-connect/google-search-console) is now available in Beta in Databricks Lakeflow Connect. Use it to ingest search performance data, site metadata, and sitemap information from Google Search Console into Databricks.\n\nThe connector supports daily and hourly search analytics dimensions (date, country, device, page, query), as well as verified sites and submitted sitemaps. Incremental ingestion is supported for all search analytics tables.",
+  "ref_links": [
+    {
+      "text": "Google Search Console connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-search-console"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-13T08:26:13.517709Z"
+}
