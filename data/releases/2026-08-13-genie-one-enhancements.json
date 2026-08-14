@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-13-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Ontology snippets now available to all customers (Public Preview)**: Ontology snippets in the Genie Ontology are now available to all customers. Customers no longer need to request access. See [Genie Ontology](/aws/en/genie-one/chat#ontology).\n* **Workspace instructions (GA)**: Workspace-level instructions for chat in Genie One are now generally available. See [Add workspace instructions for chat](/aws/en/genie-one/chat#workspace-instructions).\n* **Upload images and Word documents**: Genie One now supports uploading images (PNG, JPG, and JPEG) and Word (`.docx`) files to a conversation, in addition to CSV and Excel files. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).\n* **MCP writes (Beta)**: Genie One now supports MCP writes, so connected MCP tools can perform write actions. See [Connect to external tools and sources](/aws/en/genie-one/external-sources).\n* **PDF attachments for scheduled tasks**: Scheduled tasks can now send their results as a PDF email attachment. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).\n* **Updated Genie Agents terminology**: References to \"Genie spaces\" that remained in the Genie One interface now use the current Genie Agents terminology.",
+  "ref_links": [
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology"
+    },
+    {
+      "text": "Add workspace instructions for chat",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#workspace-instructions"
+    },
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Connect to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    },
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.307858Z"
+}

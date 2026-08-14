@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Remove duplicate subscribers: Dashboard authors can now remove duplicate subscribers from a dashboard schedule.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Remove duplicate subscribers: Dashboard authors can now remove duplicate subscribers from a dashboard schedule. Import BI filters fix: Fixed a bug where some filters were not created when importing Power BI and Tableau reports with Genie Code (/importBI). Reversed y axis tooltip order fix: Fixed a bug where tooltips for line and area charts with a reversed y axis listed their series in the wrong order.",
+  "why_it_matters": "Promoted metric views are reusable across dashboards, Genie Agents, and notebooks, and get full Unity Catalog governance: access controls, lineage, and discoverability.",
+  "plain_summary": "Remove duplicate subscribers: Dashboard authors can now remove duplicate subscribers from a dashboard schedule. Import BI filters fix: Fixed a bug where some filters were not created when importing Power BI and Tableau reports with Genie Code (/importBI).",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Remove duplicate subscribers: Dashboard authors can now remove duplicate subscribers from a dashboard schedule.",
+  "note_id": "2026-08-13-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

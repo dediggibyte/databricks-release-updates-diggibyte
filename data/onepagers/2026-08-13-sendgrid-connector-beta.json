@@ -1,0 +1,24 @@
+{
+  "product": "SendGrid connector (Beta)",
+  "tagline": "The SendGrid connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sendgrid",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sendgrid-connector-beta",
+  "what_it_does": "The SendGrid connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector ingests the SendGrid subuser directory and IP access management activity for the parent account and each subuser into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The SendGrid connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The SendGrid connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-08-13-sendgrid-connector-beta",
+  "category": "platform"
+}

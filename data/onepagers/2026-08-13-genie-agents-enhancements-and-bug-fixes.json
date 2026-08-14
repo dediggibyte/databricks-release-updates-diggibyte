@@ -1,0 +1,26 @@
+{
+  "product": "Genie Agents enhancements and bug fixes",
+  "tagline": "Content search for attached volumes (Beta): For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "Content search for attached volumes (Beta): For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes. Content search indexes and prepares your files for the Genie Agent. Analyze files in volumes without Unity AI Gateway (Beta): Analyzing files in volumes no longer requires Unity AI Gateway to be enabled.",
+  "why_it_matters": "Content search for attached volumes (Beta): For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes.",
+  "plain_summary": "Content search for attached volumes (Beta): For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes. Content search indexes and prepares your files for the Genie Agent.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use OAuth for users (OAuth U2M)."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Content search for attached volumes (Beta): For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes.",
+  "note_id": "2026-08-13-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}

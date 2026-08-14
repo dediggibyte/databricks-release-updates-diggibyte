@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-13-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Content search for attached volumes (Beta)**: For better latency and accuracy when answering questions across larger volumes, you can now optionally enable content search on attached volumes. Content search indexes and prepares your files for the Genie Agent. See [Enable content search for attached volumes](/aws/en/genie-agents/volumes#content-search).\n* **Analyze files in volumes without Unity AI Gateway (Beta)**: Analyzing files in volumes no longer requires Unity AI Gateway to be enabled. See [Analyze files in volumes with a Genie Agent](/aws/en/genie-agents/volumes).\n* **Send a prompt with an uploaded file**: Uploading a file to a conversation no longer automatically sends a message. You can now send a prompt along with the uploaded file. See [Upload a file to a Genie Agent](/aws/en/genie-agents/file-upload).\n* **Conversation list API matches monitoring sources**: The conversation list API now returns conversations from the public API, Genie One, and embedded Genie, so the conversations it returns match the history shown on the monitoring page. See [Use the Genie Agents API](/aws/en/genie-agents/conversation-api).\n* **Conversation timestamps in the API**: The public Genie Agents API now returns `create_time` and `update_time` for a Genie space. `GET` requests to list or get spaces return the same last-modified information shown in the Genie Agent UI. See [Use the Genie Agents API](/aws/en/genie-agents/conversation-api).\n* **Metric view synonyms fix**: Fixed a bug where synonyms defined in a metric view were not used as context for the agent.\n* **Table access error message**: Simplified the error message shown when a user does not have access to one or more tables attached to a Genie Agent.",
+  "ref_links": [
+    {
+      "text": "Enable content search for attached volumes",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#content-search"
+    },
+    {
+      "text": "Analyze files in volumes with a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/file-upload"
+    },
+    {
+      "text": "Use the Genie Agents API",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.305806Z"
+}

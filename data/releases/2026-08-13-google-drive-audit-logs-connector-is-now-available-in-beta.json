@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-13-google-drive-audit-logs-connector-is-now-available-in-beta",
+  "title": "Google Drive Audit Logs connector is now available in Beta",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-audit-logs-connector-is-now-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed Google Drive Audit Logs connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest Google Drive audit activity events such as file views, edits, downloads, and sharing changes from Google Workspace into Databricks. See [Google Drive Audit Logs connector](/aws/en/ingestion/lakeflow-connect/google-drive-audit-logs).",
+  "ref_links": [
+    {
+      "text": "Google Drive Audit Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive-audit-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.313691Z"
+}

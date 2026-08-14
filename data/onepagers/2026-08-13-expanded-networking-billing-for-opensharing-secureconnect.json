@@ -1,0 +1,27 @@
+{
+  "product": "Expanded networking billing for OpenSharing SecureConnect",
+  "tagline": "Databricks will be expanding networking billing for OpenSharing SecureConnect.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://www.databricks.com/product/pricing/data-transfer-connectivity",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#expanded-networking-billing-for-opensharing-secureconnect",
+  "what_it_does": "Databricks will be expanding networking billing for OpenSharing SecureConnect. Today, data providers are billed for data transfer (egress) when recipients access shared data through SecureConnect. Additional charge types and access scenarios, including charges billed to recipients, are planned.",
+  "why_it_matters": "Databricks will be expanding networking billing for OpenSharing SecureConnect.",
+  "plain_summary": "Databricks will be expanding networking billing for OpenSharing SecureConnect. Today, data providers are billed for data transfer (egress) when recipients access shared data through SecureConnect.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "in certain high throughput use cases",
+    "applications."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks will be expanding networking billing for OpenSharing SecureConnect.",
+  "note_id": "2026-08-13-expanded-networking-billing-for-opensharing-secureconnect",
+  "category": "platform"
+}

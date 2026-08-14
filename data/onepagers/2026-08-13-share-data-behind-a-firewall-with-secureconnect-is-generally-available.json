@@ -1,0 +1,24 @@
+{
+  "product": "Share data behind a firewall with SecureConnect is generally available",
+  "tagline": "OpenSharing SecureConnect is now generally available.",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-recipient",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-data-behind-a-firewall-with-secureconnect-is-generally-available",
+  "what_it_does": "OpenSharing SecureConnect is now generally available. Providers can share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist, and recipients access the shares using their existing OpenSharing setup. Databricks is expanding SecureConnect networking billing to more charge types and access scenarios, including charges for recipients.",
+  "why_it_matters": "OpenSharing SecureConnect is now generally available.",
+  "plain_summary": "OpenSharing SecureConnect is now generally available. Providers can share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist, and recipients access the shares using their existing OpenSharing…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing SecureConnect is now generally available.",
+  "note_id": "2026-08-13-share-data-behind-a-firewall-with-secureconnect-is-generally-available",
+  "category": "platform"
+}

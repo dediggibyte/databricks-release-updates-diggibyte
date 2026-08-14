@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-13-expanded-networking-billing-for-opensharing-secureconnect",
+  "title": "Expanded networking billing for OpenSharing SecureConnect",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#expanded-networking-billing-for-opensharing-secureconnect",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks will be expanding networking billing for OpenSharing SecureConnect. Today, data providers are billed for data transfer (egress) when recipients access shared data through SecureConnect. Additional charge types and access scenarios, including charges billed to recipients, are planned.\n\nThe following table summarizes the planned charges, who is billed, and how each applies across access scenarios:\n\nCharge type\n\nStatus\n\nCross-region or cross-cloud\n\nSame-region (classic or open recipient)\n\nSame-region (serverless recipient)\n\nData transfer\n\nAvailable today\n\nBill to provider\n\nNot applicable ¹\n\nNot applicable ¹\n\nPrivate Connectivity ²\n\nComing soon\n\nBill to provider\n\nBill to provider\n\nBill to recipient\n\nPublic Connectivity\n\nComing soon\n\nBill to recipient\n\nNot applicable ³\n\nNot applicable ⁴\n\n¹ Data transfer (egress) does not apply when the recipient is in the same region as the provider.² Applies only if the provider configures private connectivity by attaching a network connectivity configuration (NCC) to the metastore.³ Databricks does not bill this charge. If recipients on classic compute or open recipients reach storage over the public network, their own cloud provider might bill them for network address translation (NAT) directly.⁴ Same-region serverless recipients read from storage directly rather than through the managed proxy.\n\nFor rates, see [Data transfer and connectivity pricing](https://www.databricks.com/product/pricing/data-transfer-connectivity), or contact your Databricks account team.",
+  "ref_links": [
+    {
+      "text": "Data transfer and connectivity pricing",
+      "url": "https://www.databricks.com/product/pricing/data-transfer-connectivity"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.301817Z"
+}

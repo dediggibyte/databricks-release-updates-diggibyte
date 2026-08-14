@@ -1,0 +1,24 @@
+{
+  "product": "SQL alert task in Lakeflow Jobs is now available by default for workspaces…",
+  "tagline": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile…",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/alert",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sql-alert-task-in-lakeflow-jobs-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile enabled. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.",
+  "why_it_matters": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile enabled. Use the task to evaluate a Databricks SQL alert as…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile…",
+  "note_id": "2026-08-13-e00401ee",
+  "category": "platform"
+}

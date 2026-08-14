@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-13-share-data-behind-a-firewall-with-secureconnect-is-generally-available",
+  "title": "Share data behind a firewall with SecureConnect is generally available",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-data-behind-a-firewall-with-secureconnect-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OpenSharing SecureConnect is now [generally available](/aws/en/release-notes/release-types). Providers can share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist, and recipients access the shares using their existing OpenSharing setup. See [Share data behind a firewall with SecureConnect](/aws/en/opensharing/secureconnect-provider) and [OpenSharing recipient firewall configuration for SecureConnect](/aws/en/opensharing/secureconnect-recipient).\n\nDatabricks is expanding SecureConnect networking billing to more charge types and access scenarios, including charges for recipients. See [Expanded networking billing for OpenSharing SecureConnect](/aws/en/release-notes/whats-coming#secureconnect-billing).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Share data behind a firewall with SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-provider"
+    },
+    {
+      "text": "OpenSharing recipient firewall configuration for SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-recipient"
+    },
+    {
+      "text": "Expanded networking billing for OpenSharing SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#secureconnect-billing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.311346Z"
+}

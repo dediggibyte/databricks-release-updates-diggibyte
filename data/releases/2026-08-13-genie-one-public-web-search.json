@@ -1,0 +1,12 @@
+{
+  "id": "2026-08-13-genie-one-public-web-search",
+  "title": "Genie One public web search",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-public-web-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Search the public web (Beta)**: Genie One can now search the public web to answer questions that need current information, such as recent release notes, third-party documentation, or news. It searches automatically based on your request and cites the sources it uses, with each source shown in the response as a link you can open.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.308498Z"
+}

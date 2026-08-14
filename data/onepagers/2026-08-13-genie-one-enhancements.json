@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Ontology snippets now available to all customers (Public Preview): Ontology snippets in the Genie Ontology are now available to all customers.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Ontology snippets now available to all customers (Public Preview): Ontology snippets in the Genie Ontology are now available to all customers. Customers no longer need to request access. Workspace instructions (GA): Workspace level instructions for chat in Genie One are now generally available.",
+  "why_it_matters": "This generates more accurate responses and reduces latency by reducing the amount of data Genie One needs to crawl and query.",
+  "plain_summary": "Ontology snippets now available to all customers (Public Preview): Ontology snippets in the Genie Ontology are now available to all customers. Customers no longer need to request access.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Ontology snippets now available to all customers (Public Preview): Ontology snippets in the Genie Ontology are now available to all customers.",
+  "note_id": "2026-08-13-genie-one-enhancements",
+  "category": "platform"
+}

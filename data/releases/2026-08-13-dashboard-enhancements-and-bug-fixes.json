@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-13-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Remove duplicate subscribers**: Dashboard authors can now remove duplicate subscribers from a dashboard schedule. See [Manage scheduled dashboard updates and subscriptions](/aws/en/dashboards/share/schedule-subscribe).\n* **Import BI filters fix**: Fixed a bug where some filters were not created when importing Power BI and Tableau reports with Genie Code (`/importBI`). See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Reversed y-axis tooltip order fix**: Fixed a bug where tooltips for line and area charts with a reversed y-axis listed their series in the wrong order.\n* **Duplicate schedule emails fix**: Fixed a bug where dashboard schedules could send duplicate emails to the same subscriber.\n* **Pivot table None transform fix**: Fixed a bug where the None transform on pivot table values produced empty values.",
+  "ref_links": [
+    {
+      "text": "Manage scheduled dashboard updates and subscriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe"
+    },
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.303642Z"
+}

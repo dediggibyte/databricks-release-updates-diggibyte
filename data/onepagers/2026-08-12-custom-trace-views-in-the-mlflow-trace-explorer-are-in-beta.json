@@ -1,0 +1,24 @@
+{
+  "product": "Custom trace views in the MLflow trace explorer are in Beta",
+  "tagline": "You can now build custom trace views in the Databricks MLflow trace explorer.",
+  "updated": "Aug 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/observe-with-traces/custom-trace-view",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
+  "what_it_does": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review workflow. note This feature is in Beta.",
+  "why_it_matters": "Display components When you describe a layout, Genie assembles it from a set of display components: Stat card: Displays a single metric or value, such as latency, token count, or a computed score.",
+  "plain_summary": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now build custom trace views in the Databricks MLflow trace explorer.",
+  "note_id": "2026-08-12-custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
+  "category": "platform"
+}

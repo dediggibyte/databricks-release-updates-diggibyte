@@ -1,0 +1,24 @@
+{
+  "product": "Genie One public web search",
+  "tagline": "Search the public web (Beta): Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-public-web-search",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-public-web-search",
+  "what_it_does": "Search the public web (Beta): Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news. It searches automatically based on your request and cites the sources it uses, with each source shown in the response as a link you can open.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Search the public web (Beta): Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news. It searches automatically based on your request and cites the sources…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Search the public web (Beta): Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news.",
+  "note_id": "2026-08-13-genie-one-public-web-search",
+  "category": "platform"
+}

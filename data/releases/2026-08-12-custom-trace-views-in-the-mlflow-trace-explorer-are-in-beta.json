@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-12-custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
+  "title": "Custom trace views in the MLflow trace explorer are in Beta",
+  "date": "2026-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review workflow. See [Build a custom trace view](/aws/en/mlflow3/genai/tracing/observe-with-traces/custom-trace-view).",
+  "ref_links": [
+    {
+      "text": "Build a custom trace view",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/observe-with-traces/custom-trace-view"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-14T08:21:43.315744Z"
+}
