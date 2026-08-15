@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-14-workiva-connector-beta",
+  "title": "Workiva connector (Beta)",
+  "date": "2026-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#workiva-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Workiva connector is now available in Lakeflow Connect in [Beta](/aws/en/release-notes/release-types). Workspace admins can control access to this feature from the **Previews** page.\n\nThe connector ingests audit activity, users, and roles from your Workiva organization into Databricks. Authentication uses Workiva OAuth2 client credentials.\n\nSee [Workiva connector](/aws/en/ingestion/lakeflow-connect/workiva).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Workiva connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/workiva"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-15T07:36:24.491968Z"
+}

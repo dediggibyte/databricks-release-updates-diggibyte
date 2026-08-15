@@ -1,0 +1,24 @@
+{
+  "product": "OpenSharing SecureConnect will be available by default for all accounts",
+  "tagline": "OpenSharing SecureConnect is generally available and available by default for accounts on the Premium plan.",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#opensharing-secureconnect-will-be-available-by-default-for-all-accounts",
+  "what_it_does": "OpenSharing SecureConnect is generally available and available by default for accounts on the Premium plan. For accounts on the Enterprise plan, Databricks will enable it automatically in mid September 2026, and by early 2027 for the rest. Until it is available for your account, an account admin on the provider side can turn on the OpenSharing SecureConnect preview from the Previews page in the account console.",
+  "why_it_matters": "OpenSharing SecureConnect is generally available and available by default for accounts on the Premium plan.",
+  "plain_summary": "OpenSharing SecureConnect is generally available and available by default for accounts on the Premium plan. For accounts on the Enterprise plan, Databricks will enable it automatically in mid September 2026, and by early 2027 for the rest.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing SecureConnect is generally available and available by default for accounts on the Premium plan.",
+  "note_id": "2026-08-13-opensharing-secureconnect-will-be-available-by-default-for-all-accounts",
+  "category": "platform"
+}

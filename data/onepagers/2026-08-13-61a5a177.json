@@ -1,0 +1,24 @@
+{
+  "product": "Sharing tables backed by default storage will be enabled by default for all…",
+  "tagline": "OpenSharing support for tables backed by default storage is generally available and on by default for most accounts.",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#sharing-tables-backed-by-default-storage-will-be-enabled-by-default-for-all-accounts",
+  "what_it_does": "OpenSharing support for tables backed by default storage is generally available and on by default for most accounts. For most Enterprise or Premium tier accounts, Databricks will enable it automatically in mid September 2026, and by early 2027 for the rest. Until it is enabled for your account, an account admin can turn on the OpenSharing for Default Storage – Expanded Access feature from the Previews page in the account console.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "OpenSharing support for tables backed by default storage is generally available and on by default for most accounts. For most Enterprise or Premium tier accounts, Databricks will enable it automatically in mid September 2026, and by early 2027 for the rest.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing support for tables backed by default storage is generally available and on by default for most accounts.",
+  "note_id": "2026-08-13-61a5a177",
+  "category": "platform"
+}

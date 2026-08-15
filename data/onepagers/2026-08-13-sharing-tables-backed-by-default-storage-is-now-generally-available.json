@@ -1,0 +1,24 @@
+{
+  "product": "Sharing tables backed by default storage is now generally available",
+  "tagline": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis.",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-share",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-tables-backed-by-default-storage-is-now-generally-available",
+  "what_it_does": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that use classic compute. If the feature is not yet on by default for your account, an account admin can enable it in the account console.",
+  "why_it_matters": "A share is a securable object in Unity Catalog that you use for sharing the following data assets with one or more recipients: Tables and table partitions Streaming tables Managed Iceberg tables Foreign Iceberg tables Foreign schemas and tables Views, including dynamic views that restrict access at the row and column level Materialized views Volumes Python UDFs Notebooks AI models Genie Agents FeatureSpecs If you share an entire schema (database), the recipient can access all of the tables, streaming tables, views, materialized views, models, and volumes in the schema at the moment you share it, along with any data and AI assets added to the schema in the future.",
+  "plain_summary": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis.",
+  "note_id": "2026-08-13-sharing-tables-backed-by-default-storage-is-now-generally-available",
+  "category": "platform"
+}

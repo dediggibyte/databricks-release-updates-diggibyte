@@ -1,0 +1,24 @@
+{
+  "product": "Tags page in Governance Hub (Beta)",
+  "tagline": "The Tags page in Governance Hub is now in Beta.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/governance-hub/tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tags-page-in-governance-hub-beta",
+  "what_it_does": "The Tags page in Governance Hub is now in Beta. The Tags page provides a centralized view of how tags are applied across your account. It summarizes governed tag usage, shows recent tag assignments and their sources, and surfaces recommendations to fix invalid tag values and add tags to important assets that are missing them.",
+  "why_it_matters": "The Tags page in Governance Hub is now in Beta.",
+  "plain_summary": "The Tags page in Governance Hub is now in Beta. The Tags page provides a centralized view of how tags are applied across your account.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Tags page in Governance Hub is now in Beta.",
+  "note_id": "2026-08-13-tags-page-in-governance-hub-beta",
+  "category": "platform"
+}

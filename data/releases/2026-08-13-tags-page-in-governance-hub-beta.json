@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-tags-page-in-governance-hub-beta",
+  "title": "Tags page in Governance Hub (Beta)",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tags-page-in-governance-hub-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Tags** page in [Governance Hub](/aws/en/admin/governance-hub) is now in [Beta](/aws/en/release-notes/release-types). The Tags page provides a centralized view of how tags are applied across your account. It summarizes governed tag usage, shows recent tag assignments and their sources, and surfaces recommendations to fix invalid tag values and add tags to important assets that are missing them.\n\nAccount admins can enable Governance Hub from the account console **Previews** page. See [Tags overview](/aws/en/admin/governance-hub/tags).",
+  "ref_links": [
+    {
+      "text": "Governance Hub",
+      "url": "https://docs.databricks.com/aws/en/admin/governance-hub"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Tags overview",
+      "url": "https://docs.databricks.com/aws/en/admin/governance-hub/tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-15T07:36:24.509378Z"
+}

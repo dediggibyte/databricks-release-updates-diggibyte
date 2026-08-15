@@ -1,0 +1,24 @@
+{
+  "product": "Amplitude connector (Beta)",
+  "tagline": "The Amplitude connector in Lakeflow Connect is now in Beta.",
+  "updated": "Aug 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/amplitude-overview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#amplitude-connector-beta",
+  "what_it_does": "The Amplitude connector in Lakeflow Connect is now in Beta. Ingest product analytics event data along with event, cohort, and annotation metadata from Amplitude. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Amplitude connector in Lakeflow Connect is now in Beta. Ingest product analytics event data along with event, cohort, and annotation metadata from Amplitude.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Amplitude connector in Lakeflow Connect is now in Beta.",
+  "note_id": "2026-08-12-amplitude-connector-beta",
+  "category": "platform"
+}

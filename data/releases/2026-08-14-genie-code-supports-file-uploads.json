@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-14-genie-code-supports-file-uploads",
+  "title": "Genie Code supports file uploads",
+  "date": "2026-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-supports-file-uploads",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now upload files to Genie Code to use as context for the current chat. See [Attach files](/aws/en/genie-code/use-genie-code#attach-files).",
+  "ref_links": [
+    {
+      "text": "Attach files",
+      "url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#attach-files"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-15T07:36:24.492724Z"
+}

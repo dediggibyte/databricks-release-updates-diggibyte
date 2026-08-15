@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code supports file uploads",
+  "tagline": "You can now upload files to Genie Code to use as context for the current chat.",
+  "updated": "Aug 14, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#attach-files",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-supports-file-uploads",
+  "what_it_does": "You can now upload files to Genie Code to use as context for the current chat. Genie Code helps developers generate, optimize, explain, and fix code in Databricks notebooks, the SQL editor, jobs, AI/BI dashboards, and the file editor. To learn how Genie Code helps with code, see Get coding help from Genie Code.",
+  "why_it_matters": "The settings pane includes the following: ←✕ Agent mode Genie Code runs in Agent mode, which automates multi step workflows, plans solutions, retrieves relevant assets, runs code, uses cell outputs to improve results, and fixes errors automatically.",
+  "plain_summary": "You can now upload files to Genie Code to use as context for the current chat.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now upload files to Genie Code to use as context for the current chat.",
+  "note_id": "2026-08-14-genie-code-supports-file-uploads",
+  "category": "platform"
+}

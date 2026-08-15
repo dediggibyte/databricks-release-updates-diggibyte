@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-opensharing-secureconnect-will-be-available-by-default-for-all-accounts",
+  "title": "OpenSharing SecureConnect will be available by default for all accounts",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#opensharing-secureconnect-will-be-available-by-default-for-all-accounts",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OpenSharing SecureConnect is [generally available](/aws/en/release-notes/release-types) and available by default for accounts on the Premium plan. For accounts on the Enterprise plan, Databricks will enable it automatically in mid-September 2026, and by early 2027 for the rest.\n\nUntil it is available for your account, an account admin on the provider side can turn on the **OpenSharing SecureConnect** preview from the **Previews** page in the account console. See [Share data behind a firewall with SecureConnect](/aws/en/opensharing/secureconnect-provider) and [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Share data behind a firewall with SecureConnect",
+      "url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-provider"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-15T07:36:24.498221Z"
+}

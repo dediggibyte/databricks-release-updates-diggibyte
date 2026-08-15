@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-13-sharing-tables-backed-by-default-storage-is-now-generally-available",
+  "title": "Sharing tables backed by default storage is now generally available",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-tables-backed-by-default-storage-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OpenSharing support for tables backed by [default storage](/aws/en/storage/default-storage) is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that use classic compute. If the feature is not yet on by default for your account, an account admin can enable it in the account console.\n\nFor more details about the feature, see [Limitations](/aws/en/storage/default-storage#limitations) and [Create shares for OpenSharing](/aws/en/opensharing/create-share). For more details about enablement, see [Sharing tables backed by default storage will be enabled by default for all accounts](/aws/en/release-notes/whats-coming#default-storage-expanded-access-default).",
+  "ref_links": [
+    {
+      "text": "default storage",
+      "url": "https://docs.databricks.com/aws/en/storage/default-storage"
+    },
+    {
+      "text": "Limitations",
+      "url": "https://docs.databricks.com/aws/en/storage/default-storage#limitations"
+    },
+    {
+      "text": "Create shares for OpenSharing",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share"
+    },
+    {
+      "text": "Sharing tables backed by default storage will be enabled by default for all accounts",
+      "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#default-storage-expanded-access-default"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-15T07:36:24.511078Z"
+}
