@@ -1,0 +1,24 @@
+{
+  "product": "REPLACE USING flows for standalone streaming tables (Beta)",
+  "tagline": "REPLACE USING flows are now available for standalone streaming tables in Beta.",
+  "updated": "Aug 11, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/dbsql/streaming#replace-using",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-standalone-streaming-tables-beta",
+  "what_it_does": "REPLACE USING flows are now available for standalone streaming tables in Beta. Use a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged.",
+  "why_it_matters": "AUTO CDC simplifies CDC by automatically handling out of order records.",
+  "plain_summary": "REPLACE USING flows are now available for standalone streaming tables in Beta. Use a REPLACE USING flow when your source is a series of partial snapshots keyed by column.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "REPLACE USING flows are now available for standalone streaming tables in Beta.",
+  "note_id": "2026-08-11-replace-using-flows-for-standalone-streaming-tables-beta",
+  "category": "platform"
+}

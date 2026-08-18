@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-17-base-environments-are-now-supported-on-classic-compute-beta",
+  "title": "Base environments are now supported on classic compute (Beta)",
+  "date": "2026-08-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#base-environments-are-now-supported-on-classic-compute-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See [Manage dependencies using environments](/aws/en/compute/environments-mode).",
+  "ref_links": [
+    {
+      "text": "Manage dependencies using environments",
+      "url": "https://docs.databricks.com/aws/en/compute/environments-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-18T07:44:24.479124Z"
+}

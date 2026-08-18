@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-environment-variables-for-serverless-jobs-are-in-beta",
+  "title": "Environment variables for serverless jobs are in Beta",
+  "date": "2026-08-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#environment-variables-for-serverless-jobs-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Environment variables for serverless Lakeflow Jobs tasks are in [Beta](/aws/en/release-notes/release-types). You can define named environment variable entries at the job level and select one for each task to pass deployment-specific configuration to your application code. A workspace admin must enable the preview from the workspace **Previews** page. See [Configure environment variables for serverless jobs](/aws/en/jobs/environment-variables).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Configure environment variables for serverless jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/environment-variables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-18T07:44:24.540832Z"
+}

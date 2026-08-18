@@ -1,0 +1,33 @@
+{
+  "product": "Base environments are now supported on classic compute (Beta)",
+  "tagline": "You can now use base environments to manage Python dependencies on classic compute.",
+  "updated": "Aug 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/environments-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#base-environments-are-now-supported-on-classic-compute-beta",
+  "what_it_does": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks provided environments or custom workspace level environments. Beta This feature is in Beta.",
+  "why_it_matters": "And because Databricks caches base environments, dependencies don't resolve and install at startup, so compute starts faster and avoids failures from package resolution, repository availability, or network reliability.",
+  "plain_summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks provided environments or custom workspace level environments.",
+  "capabilities": [
+    {
+      "title": "Previous versions of Standard and",
+      "desc": "Previous versions of Standard and ML environments."
+    },
+    {
+      "title": "Custom: Specify a custom environment",
+      "desc": "Custom: Specify a custom environment using a YAML file. Workspace environments: Lists all compatible base environments…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use base environments to manage Python dependencies on classic compute.",
+  "note_id": "2026-08-17-base-environments-are-now-supported-on-classic-compute-beta",
+  "category": "platform"
+}

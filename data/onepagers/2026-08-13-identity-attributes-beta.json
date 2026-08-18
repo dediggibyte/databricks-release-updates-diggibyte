@@ -1,0 +1,24 @@
+{
+  "product": "Identity attributes (Beta)",
+  "tagline": "Identity attributes are in Beta.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/users-groups/identity-attributes",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-beta",
+  "what_it_does": "Identity attributes are in Beta. Databricks can store nine IdP sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column masking policies. Account admins provision these attributes from their identity provider using automatic identity management or account SCIM 2.1, and use the Identity Attribute Control List to govern which attributes can be written.",
+  "why_it_matters": "Databricks can store nine IdP sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column masking policies.",
+  "plain_summary": "Identity attributes are in Beta. Databricks can store nine IdP sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column masking policies.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Identity attributes are in Beta.",
+  "note_id": "2026-08-13-identity-attributes-beta",
+  "category": "platform"
+}

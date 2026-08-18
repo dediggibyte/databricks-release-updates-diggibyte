@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-17-upcoming-deprecation-of-the-data-quality-monitoring-root-cause-analysis-column",
+  "title": "Upcoming deprecation of the data quality monitoring root_cause_analysis column",
+  "date": "2026-08-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-deprecation-of-the-data-quality-monitoring-root_cause_analysis-column",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `root_cause_analysis` column in the data quality monitoring results system table is being deprecated.\n\nDeprecation begins August 18, 2026, and rolls out gradually across regions over the following several days. Until the rollout reaches your workspace, you might still be able to query `root_cause_analysis`. After deprecation completes, the column is no longer populated.\n\nFor the affected column, see [Data quality monitoring results system table reference](/aws/en/admin/system-tables/data-quality-monitoring) and [Review anomaly detection logged results](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection/results).",
+  "ref_links": [
+    {
+      "text": "Data quality monitoring results system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/data-quality-monitoring"
+    },
+    {
+      "text": "Review anomaly detection logged results",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection/results"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-18T07:44:24.477422Z"
+}

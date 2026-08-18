@@ -1,0 +1,24 @@
+{
+  "product": "Sharing managed Iceberg tables is now generally available",
+  "tagline": "Sharing managed Iceberg tables in Databricks to Databricks sharing and open sharing is now generally available.",
+  "updated": "Aug 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#managed-iceberg",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-managed-iceberg-tables-is-now-generally-available",
+  "what_it_does": "Sharing managed Iceberg tables in Databricks to Databricks sharing and open sharing is now generally available. Providers can now also share managed Iceberg tables to external Iceberg clients. This page describes how to read data shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "why_it_matters": "This page describes how to read data shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "plain_summary": "Sharing managed Iceberg tables in Databricks to Databricks sharing and open sharing is now generally available. Providers can now also share managed Iceberg tables to external Iceberg clients.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing managed Iceberg tables in Databricks to Databricks sharing and open sharing is now generally available.",
+  "note_id": "2026-08-14-sharing-managed-iceberg-tables-is-now-generally-available",
+  "category": "platform"
+}

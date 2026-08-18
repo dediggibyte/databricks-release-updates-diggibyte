@@ -1,0 +1,24 @@
+{
+  "product": "Environment variables for serverless jobs are in Beta",
+  "tagline": "Environment variables for serverless Lakeflow Jobs tasks are in Beta.",
+  "updated": "Aug 3, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/environment-variables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#environment-variables-for-serverless-jobs-are-in-beta",
+  "what_it_does": "Environment variables for serverless Lakeflow Jobs tasks are in Beta. You can define named environment variable entries at the job level and select one for each task to pass deployment specific configuration to your application code. A workspace admin must enable the preview from the workspace Previews page.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Environment variables for serverless Lakeflow Jobs tasks are in Beta. You can define named environment variable entries at the job level and select one for each task to pass deployment specific configuration to your application code.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Environment variables for serverless Lakeflow Jobs tasks are in Beta.",
+  "note_id": "2026-08-03-environment-variables-for-serverless-jobs-are-in-beta",
+  "category": "platform"
+}

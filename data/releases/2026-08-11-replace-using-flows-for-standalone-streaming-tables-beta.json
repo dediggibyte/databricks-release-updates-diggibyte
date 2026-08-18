@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-11-replace-using-flows-for-standalone-streaming-tables-beta",
+  "title": "REPLACE USING flows for standalone streaming tables (Beta)",
+  "date": "2026-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-standalone-streaming-tables-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "REPLACE USING flows are now available for standalone streaming tables in [Beta](/aws/en/release-notes/release-types).\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A `SEQUENCE BY` column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee [Apply partial snapshot replacement with REPLACE USING flows](/aws/en/ldp/dbsql/streaming#replace-using).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Apply partial snapshot replacement with REPLACE USING flows",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/streaming#replace-using"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-18T07:44:24.507262Z"
+}

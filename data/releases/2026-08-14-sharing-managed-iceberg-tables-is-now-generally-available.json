@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-14-sharing-managed-iceberg-tables-is-now-generally-available",
+  "title": "Sharing managed Iceberg tables is now generally available",
+  "date": "2026-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-managed-iceberg-tables-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sharing [managed Iceberg tables](/aws/en/tables/managed) in Databricks-to-Databricks sharing and open sharing is now generally available. Providers can now also share managed Iceberg tables to external Iceberg clients. See [Add managed Iceberg tables to a share](/aws/en/opensharing/create-share#managed-iceberg) and [Read shared managed Iceberg tables](/aws/en/opensharing/read-data-databricks#managed-iceberg).",
+  "ref_links": [
+    {
+      "text": "managed Iceberg tables",
+      "url": "https://docs.databricks.com/aws/en/tables/managed"
+    },
+    {
+      "text": "Add managed Iceberg tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#managed-iceberg"
+    },
+    {
+      "text": "Read shared managed Iceberg tables",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#managed-iceberg"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-18T07:44:24.481286Z"
+}
