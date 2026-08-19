@@ -1,0 +1,24 @@
+{
+  "product": "Identity attributes in ABAC column mask policies (Beta)",
+  "tagline": "Identity attributes are in Beta.",
+  "updated": "Aug 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/users-groups/identity-attributes",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-in-abac-column-mask-policies-beta",
+  "what_it_does": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as department or country, in addition to group membership. The has identity attribute value and has identity attribute tag match functions are supported in the WHEN clause of column mask policies.",
+  "why_it_matters": "Overview Identity attributes are nine IdP sourced fields that Databricks stores on an account user: title, userType, locality, region, country, costCenter, organization, division, and department.",
+  "plain_summary": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as department or country, in addition to group membership.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Identity attributes are in Beta.",
+  "note_id": "2026-08-17-identity-attributes-in-abac-column-mask-policies-beta",
+  "category": "platform"
+}

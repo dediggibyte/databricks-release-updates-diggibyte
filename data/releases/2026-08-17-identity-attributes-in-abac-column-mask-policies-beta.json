@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-17-identity-attributes-in-abac-column-mask-policies-beta",
+  "title": "Identity attributes in ABAC column mask policies (Beta)",
+  "date": "2026-08-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-in-abac-column-mask-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as `department` or `country`, in addition to group membership. The `has_identity_attribute_value` and `has_identity_attribute_tag_match` functions are supported in the `WHEN` clause of column mask policies.\n\nSee [identity attributes](/aws/en/admin/users-groups/identity-attributes).",
+  "ref_links": [
+    {
+      "text": "identity attributes",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/identity-attributes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-19T07:45:36.055309Z"
+}
