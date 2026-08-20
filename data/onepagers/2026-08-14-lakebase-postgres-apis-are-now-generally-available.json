@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Postgres APIs are now generally available",
+  "tagline": "Programmatic management of Lakebase Postgres is now generally available through the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go).",
+  "updated": "Aug 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/api-usage",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakebase-postgres-apis-are-now-generally-available",
+  "what_it_does": "Programmatic management of Lakebase Postgres is now generally available through the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go). These interfaces support operations for projects, branches, endpoints, databases, roles, credentials, synced tables, and catalogs. This page provides an overview of the Lakebase Autoscaling API, including authentication, available endpoints, and common patterns for working with the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Programmatic management of Lakebase Postgres is now generally available through the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go). These interfaces support operations for projects, branches, endpoints, databases, roles, credentials, synced…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Programmatic management of Lakebase Postgres is now generally available through the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go).",
+  "note_id": "2026-08-14-lakebase-postgres-apis-are-now-generally-available",
+  "category": "platform"
+}

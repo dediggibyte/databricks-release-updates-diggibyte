@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-19-choose-an-effort-level-in-genie-code",
+  "title": "Choose an effort level in Genie Code",
+  "date": "2026-08-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#choose-an-effort-level-in-genie-code",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set the effort level for Genie Code to balance response quality and cost. **Auto** (default) gives you the highest quality responses. For simpler tasks, select **Low** to use a faster, lower-cost model. See [Select a level of effort](/aws/en/genie-code/use-genie-code#choose-effort).",
+  "ref_links": [
+    {
+      "text": "Select a level of effort",
+      "url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#choose-effort"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-20T07:47:34.095405Z"
+}

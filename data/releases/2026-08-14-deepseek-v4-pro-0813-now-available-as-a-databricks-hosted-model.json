@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-14-deepseek-v4-pro-0813-now-available-as-a-databricks-hosted-model",
+  "title": "DeepSeek V4 Pro (0813) now available as a Databricks-hosted model",
+  "date": "2026-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-pro-0813-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving now supports [DeepSeek V4 Pro (0813)](/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-pro-0813) as a Databricks-hosted model in the `us-west-2` region. This large mixture-of-experts language model supports reasoning and function calling for complex coding and agentic workflows. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).",
+  "ref_links": [
+    {
+      "text": "DeepSeek V4 Pro (0813)",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-pro-0813"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-20T07:47:34.105609Z"
+}

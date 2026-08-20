@@ -1,0 +1,33 @@
+{
+  "product": "DeepSeek V4 Pro (0813) now available as a Databricks-hosted model",
+  "tagline": "Model Serving now supports DeepSeek V4 Pro (0813) as a Databricks hosted model in the us west 2 region.",
+  "updated": "Aug 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-pro-0813-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now supports DeepSeek V4 Pro (0813) as a Databricks hosted model in the us west 2 region. This large mixture of experts language model supports reasoning and function calling for complex coding and agentic workflows. You can access this model using Foundation Model APIs.",
+  "why_it_matters": "For production workloads, Databricks recommends priority pay per token, also referred to as priority mode, for latency sensitive workloads that need more consistent performance under load.",
+  "plain_summary": "Model Serving now supports DeepSeek V4 Pro (0813) as a Databricks hosted model in the us west 2 region. This large mixture of experts language model supports reasoning and function calling for complex coding and agentic workflows.",
+  "capabilities": [
+    {
+      "title": "Pay-per-token regions",
+      "desc": "Pay-per-token regions."
+    },
+    {
+      "title": "Provisioned throughput regions",
+      "desc": "Provisioned throughput regions."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports DeepSeek V4 Pro (0813) as a Databricks hosted model in the us west 2 region.",
+  "note_id": "2026-08-14-deepseek-v4-pro-0813-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

@@ -1,0 +1,29 @@
+{
+  "product": "Role-based access control (RBAC) will soon be available by default for…",
+  "tagline": "Role based access control (RBAC) will be available by default for workspaces with the compliance security profile enabled in mid September 2026.",
+  "updated": "Aug 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/rbac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#role-based-access-control-rbac-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Role based access control (RBAC) will be available by default for workspaces with the compliance security profile enabled in mid September 2026. RBAC lets users assume a role in Databricks. When a user assumes a role, only that role's permissions apply, rather than the user's accumulated permissions.",
+  "why_it_matters": "Role based access control (RBAC) will be available by default for workspaces with the compliance security profile enabled in mid September 2026.",
+  "plain_summary": "Role based access control (RBAC) will be available by default for workspaces with the compliance security profile enabled in mid September 2026. RBAC lets users assume a role in Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "from mixing data across use cases",
+    "clinical trials",
+    "projects",
+    "or clients."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Role based access control (RBAC) will be available by default for workspaces with the compliance security profile enabled in mid September 2026.",
+  "note_id": "2026-08-19-ff1ebb4a",
+  "category": "platform"
+}
