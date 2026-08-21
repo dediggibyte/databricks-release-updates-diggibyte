@@ -1,0 +1,41 @@
+{
+  "product": "Write data back to Databricks from Google Sheets",
+  "tagline": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table.",
+  "updated": "Aug 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/google-sheets/write-back",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#write-data-back-to-databricks-from-google-sheets",
+  "what_it_does": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets. The Databricks Connector for Google Sheets lets you write data from Google Sheets back to a Unity Catalog table.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets.",
+  "capabilities": [
+    {
+      "title": "To create a new table",
+      "desc": "To create a new table, you must have the following privileges:"
+    },
+    {
+      "title": "USE CATALOG on the catalog",
+      "desc": "USE CATALOG on the catalog"
+    },
+    {
+      "title": "USE SCHEMA on the schema",
+      "desc": "USE SCHEMA on the schema"
+    },
+    {
+      "title": "CREATE TABLE on the schema",
+      "desc": "CREATE TABLE on the schema"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table.",
+  "note_id": "2026-08-20-write-data-back-to-databricks-from-google-sheets",
+  "category": "platform"
+}

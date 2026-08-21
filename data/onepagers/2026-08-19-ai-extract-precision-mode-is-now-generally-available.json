@@ -1,0 +1,43 @@
+{
+  "product": "ai_extract precision mode is now generally available",
+  "tagline": "You can now use ai extract precision mode for advanced extraction workloads, including multi page documents, schemas with 50 or more fields, many extracted items per document, and complex…",
+  "updated": "Aug 19, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_extract-precision-mode-is-now-generally-available",
+  "what_it_does": "You can now use ai extract precision mode for advanced extraction workloads, including multi page documents, schemas with 50 or more fields, many extracted items per document, and complex conditional field logic. Applies to: Databricks SQL Databricks Runtime The ai extract() function extracts structured data from text and documents according to a schema you provide. You can use simple field names for basic extraction, or define complex schemas with nested objects, arrays, type validation, and field descriptions for business documents like invoices, contracts, and financial filings.",
+  "why_it_matters": "Customers are responsible for ensuring compliance with applicable model licenses.",
+  "plain_summary": "You can now use ai extract precision mode for advanced extraction workloads, including multi page documents, schemas with 50 or more fields, many extracted items per document, and complex conditional field logic.",
+  "capabilities": [
+    {
+      "title": "See regional support for aiextract",
+      "desc": "See regional support for aiextract for the appropriate compliance standard."
+    },
+    {
+      "title": "See Manage Databricks previews for",
+      "desc": "See Manage Databricks previews for how to enable it on your workspace. This function is not available on Pro or Classic SQL…"
+    },
+    {
+      "title": "Raw text as a STRING",
+      "desc": "Raw text as a STRING"
+    },
+    {
+      "title": "A VARIANT produced by another",
+      "desc": "A VARIANT produced by another AI function (such as aiparsedocument)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "error."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use ai extract precision mode for advanced extraction workloads, including multi page documents, schemas with 50 or more fields, many extracted items per document, and complex…",
+  "note_id": "2026-08-19-ai-extract-precision-mode-is-now-generally-available",
+  "category": "platform"
+}

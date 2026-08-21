@@ -1,0 +1,29 @@
+{
+  "product": "Zerobus Ingest is now enabled by default for workspaces with the compliance…",
+  "tagline": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/zerobus-overview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-is-now-enabled-by-default-for-workspaces-with-the-compliance-security-profile",
+  "what_it_does": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled. Zerobus Ingest is a push based ingestion API that writes data directly into Unity Catalog Delta tables. It is a serverless connector that automatically scales to handle incoming connections.",
+  "why_it_matters": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [
+    {
+      "title": "Note: If your client round-robins",
+      "desc": "Note: If your client round-robins messages to different streams, ordering will no longer be guaranteed."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-08-06-f5756024",
+  "category": "platform"
+}

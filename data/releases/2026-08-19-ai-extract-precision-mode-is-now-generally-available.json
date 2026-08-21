@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-19-ai-extract-precision-mode-is-now-generally-available",
+  "title": "ai_extract precision mode is now generally available",
+  "date": "2026-08-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_extract-precision-mode-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use `ai_extract` precision mode for advanced extraction workloads, including multi-page documents, schemas with 50 or more fields, many extracted items per document, and complex conditional field logic. See [`ai_extract` function](/aws/en/sql/language-manual/functions/ai_extract).",
+  "ref_links": [
+    {
+      "text": "ai_extract function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-21T07:49:42.801104Z"
+}

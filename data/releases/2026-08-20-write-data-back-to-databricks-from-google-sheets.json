@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-20-write-data-back-to-databricks-from-google-sheets",
+  "title": "Write data back to Databricks from Google Sheets",
+  "date": "2026-08-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#write-data-back-to-databricks-from-google-sheets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets. See [Write data back to Databricks from Google Sheets](/aws/en/integrations/google-sheets/write-back).",
+  "ref_links": [
+    {
+      "text": "Write data back to Databricks from Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/write-back"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-21T07:49:42.797049Z"
+}
