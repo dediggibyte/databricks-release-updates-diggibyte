@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-08-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Scheduled task consistency**: Scheduled tasks now look up past runs to keep run-to-run outputs consistent. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).\n* **Export documents to PDF**: You can now export Genie One documents to PDF. See [Documents in Genie One](/aws/en/genie-one/documents).\n* **Genie mobile (Public Preview)**: Enhancements to the Genie mobile app:\n  + **Switch workspaces without signing out**: You can now switch between workspaces from within the app instead of signing out and back in. See [Switch workspaces](/aws/en/genie-one/mobile#switch-workspaces).\n  + **Sign in behind account-level IP access lists**: If you were blocked at mobile sign-in by an account-level IP access list, you can now sign in. If your workspace is restricted to your corporate network, off-network devices still need to reach it through that network, such as with a VPN or a managed device.",
+  "ref_links": [
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    },
+    {
+      "text": "Documents in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents"
+    },
+    {
+      "text": "Switch workspaces",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile#switch-workspaces"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.467070Z"
+}

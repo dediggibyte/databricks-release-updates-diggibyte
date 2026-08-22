@@ -1,0 +1,33 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Scheduled task consistency: Scheduled tasks now look up past runs to keep run to run outputs consistent.",
+  "updated": "Aug 20, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile#switch-workspaces",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Scheduled task consistency: Scheduled tasks now look up past runs to keep run to run outputs consistent. Export documents to PDF: You can now export Genie One documents to PDF. Genie mobile (Public Preview): Enhancements to the Genie mobile app: + Switch workspaces without signing out: You can now switch between workspaces from within the app instead of signing out and back in.",
+  "why_it_matters": "For IT and security teams, see Administer the Genie mobile app for configuration guidance, network security requirements, authentication setup, and Mobile Device Management (MDM) deployment.",
+  "plain_summary": "Scheduled task consistency: Scheduled tasks now look up past runs to keep run to run outputs consistent. Export documents to PDF: You can now export Genie One documents to PDF.",
+  "capabilities": [
+    {
+      "title": "Switch workspaces without signing out",
+      "desc": "Switch workspaces without signing out: You can now switch between workspaces from within the app instead of signing out and back…"
+    },
+    {
+      "title": "Sign in behind account-level IP",
+      "desc": "Sign in behind account-level IP access lists: If you were blocked at mobile sign-in by an account-level IP access list, you can…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Scheduled task consistency: Scheduled tasks now look up past runs to keep run to run outputs consistent.",
+  "note_id": "2026-08-20-genie-one-enhancements",
+  "category": "platform"
+}

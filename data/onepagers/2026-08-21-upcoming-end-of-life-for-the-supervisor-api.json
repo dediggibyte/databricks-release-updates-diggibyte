@@ -1,0 +1,33 @@
+{
+  "product": "Upcoming end of life for the Supervisor API",
+  "tagline": "The Supervisor API (Beta) reaches end of life on September 30, 2026.",
+  "updated": "Aug 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/supervisor-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-end-of-life-for-the-supervisor-api",
+  "what_it_does": "The Supervisor API (Beta) reaches end of life on September 30, 2026. After that date, the API is no longer available. Databricks recommends migrating to custom agents on Databricks Apps.",
+  "why_it_matters": "The Supervisor API simplifies building custom agents on Databricks with support for background mode for long running tasks.",
+  "plain_summary": "The Supervisor API (Beta) reaches end of life on September 30, 2026. After that date, the API is no longer available.",
+  "capabilities": [
+    {
+      "title": "Because the Supervisor API runs",
+      "desc": "Because the Supervisor API runs through Unity AI Gateway, AI Gateway features such as inference tables, rate limits, and…"
+    },
+    {
+      "title": "Stores traces from the Supervisor",
+      "desc": "Stores traces from the Supervisor API agent loop in Unity Catalog tables. A Databricks workspace in a supported region. Unity…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Supervisor API (Beta) reaches end of life on September 30, 2026.",
+  "note_id": "2026-08-21-upcoming-end-of-life-for-the-supervisor-api",
+  "category": "platform"
+}

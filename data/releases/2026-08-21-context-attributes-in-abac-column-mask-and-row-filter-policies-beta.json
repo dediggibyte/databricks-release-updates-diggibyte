@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-21-context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
+  "title": "Context attributes in ABAC column mask and row filter policies (Beta)",
+  "date": "2026-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Context attributes for attribute-based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (`request.client_id`) and whether the request runs on behalf of a user (`request.is_on_behalf_of`). The `has_context_attribute` and `has_context_attribute_value` functions are supported in the `WHEN` clause of row filter and column mask policies.\n\nA common use is to restrict the data an agent reads on a user's behalf when it connects through a registered OAuth application, while the user can still read the full data when they query it directly in the workspace.\n\nSee [Context attribute functions (Beta)](/aws/en/data-governance/unity-catalog/abac/core-concepts#context-attribute-functions).",
+  "ref_links": [
+    {
+      "text": "Context attribute functions (Beta)",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/core-concepts#context-attribute-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.460024Z"
+}

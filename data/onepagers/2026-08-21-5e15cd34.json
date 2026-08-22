@@ -1,0 +1,24 @@
+{
+  "product": "Default Python package repositories are GA for Lakeflow pipelines and classic…",
+  "tagline": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API.",
+  "updated": "Aug 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#default-python-package-repositories-are-ga-for-lakeflow-pipelines-and-classic-compute",
+  "what_it_does": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API. Workspace admins can set private or authenticated registries as the workspace default for these workloads. Preview Configuring default Python package repositories for Databricks Apps is in Beta.",
+  "why_it_matters": "This configuration leverages Databricks secrets to securely store and manage repository URLs and credentials.",
+  "plain_summary": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API. Workspace admins can set private or authenticated registries as the workspace default for these workloads.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API.",
+  "note_id": "2026-08-21-5e15cd34",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-21-5e15cd34",
+  "title": "Default Python package repositories are GA for Lakeflow pipelines and classic compute",
+  "date": "2026-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#default-python-package-repositories-are-ga-for-lakeflow-pipelines-and-classic-compute",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API. Workspace admins can set private or authenticated registries as the workspace default for these workloads. See [Configure default package repositories](/aws/en/admin/workspace-settings/default-package-repositories).",
+  "ref_links": [
+    {
+      "text": "Configure default package repositories",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.458541Z"
+}

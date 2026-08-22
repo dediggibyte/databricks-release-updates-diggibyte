@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Import from Power BI and Tableau: Importing reports and data models from Power BI and Tableau with Genie Code (/importBI) is now generally available.",
+  "updated": "Aug 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent#prompts-layout",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Import from Power BI and Tableau: Importing reports and data models from Power BI and Tableau with Genie Code (/importBI) is now generally available. Larger Excel downloads: You can now download up to 1 million rows from a dashboard widget to Excel (.xlsx), up from 100,000. Multi select and move widgets: Dashboard authors can now select multiple widgets and move them together on the canvas by holding Cmd or Ctrl while clicking.",
+  "why_it_matters": "+ Improved layout placement: Genie Code now places widgets in appropriate locations instead of leaving large gaps in the dashboard layout.",
+  "plain_summary": "Import from Power BI and Tableau: Importing reports and data models from Power BI and Tableau with Genie Code (/importBI) is now generally available. Larger Excel downloads: You can now download up to 1 million rows from a dashboard widget to Excel (.xlsx)…",
+  "capabilities": [
+    {
+      "title": "Undo and redo: You can",
+      "desc": "Undo and redo: You can now undo and redo edits made by Genie Code. See Use Genie Code for dashboard authoring."
+    },
+    {
+      "title": "Materialize datasets: Genie Code can",
+      "desc": "Materialize datasets: Genie Code can now optionally materialize datasets."
+    },
+    {
+      "title": "Manage email schedules: You can",
+      "desc": "Manage email schedules: You can now manage dashboard email schedules directly from Genie Code."
+    },
+    {
+      "title": "Set a schedule's tabular attachment",
+      "desc": "Set a schedule's tabular attachment: Genie Code can now set a schedule's tabular attachment, so a scheduled email includes…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Import from Power BI and Tableau: Importing reports and data models from Power BI and Tableau with Genie Code (/importBI) is now generally available.",
+  "note_id": "2026-08-20-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

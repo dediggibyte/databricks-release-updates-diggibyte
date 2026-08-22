@@ -1,0 +1,57 @@
+{
+  "id": "2026-08-20-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-08-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Import from Power BI and Tableau**: Importing reports and data models from Power BI and Tableau with Genie Code (`/importBI`) is now generally available. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Larger Excel downloads**: You can now download up to 1 million rows from a dashboard widget to Excel (`.xlsx`), up from 100,000. See [Download results](/aws/en/dashboards/manage#downloads).\n* **Multi-select and move widgets**: Dashboard authors can now select multiple widgets and move them together on the canvas by holding Cmd or Ctrl while clicking. See [Keyboard shortcuts](/aws/en/dashboards/manage#keyboard-shortcuts).\n* **Full-width tables in text widgets**: Markdown tables in text widgets now use the full width of the widget instead of a fixed width.\n* **Hide the sparkline and date labels on counters**: You can now hide the sparkline and date labels on counter widgets. See [Hide date labels and the sparkline](/aws/en/dashboards/manage/visualizations/types#hide-sparkline).\n* **Consistent colors across widgets**: Charts that color by a categorical field now use the same color for the same value across every widget on a dashboard. See [Consistent colors across widgets](/aws/en/dashboards/manage/visualizations#color-consistency).\n* **Duplicate subscriber prevention in the API**: Dashboard subscription APIs now prevent duplicate recipients from being added.\n* **Unsubscribe removes duplicate subscriptions**: Unsubscribing from a schedule by email or from the dashboard now removes all duplicate subscriptions for that recipient. See [Manage scheduled dashboard updates and subscriptions](/aws/en/dashboards/share/schedule-subscribe).\n* **Local metric views**: Local metric views are now generally available. Define fields, measures, and join relationships directly in an AI/BI dashboard with a visual interface, without first publishing them to Unity Catalog. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Low-code UI for Unity Catalog metric views in dashboards**: When you add a Unity Catalog metric view to a dashboard, it now uses the same low-code UI as local metric views, replacing the legacy UI. You can edit the metric view in Unity Catalog, or extend it locally to add dashboard-specific measures and fields. Unity Catalog metric views that use parameters can't be extended. See [Extend a Unity Catalog metric view](/aws/en/dashboards/manage/data-modeling/local-metric-views#extend-a-uc-metric-view).\n* **Genie Code for dashboard authoring**: New authoring capabilities and fixes for Genie Code:\n  + **Undo and redo**: You can now undo and redo edits made by Genie Code. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n  + **Materialize datasets**: Genie Code can now optionally materialize datasets.\n  + **Manage email schedules**: You can now manage dashboard email schedules directly from Genie Code.\n  + **Set a schedule's tabular attachment**: Genie Code can now set a schedule's tabular attachment, so a scheduled email includes widget data. See [Email attachments](/aws/en/dashboards/share/schedule-subscribe#email-attachments).\n  + **Improved layout placement**: Genie Code now places widgets in appropriate locations instead of leaving large gaps in the dashboard layout. See [Dashboard layout and organization](/aws/en/dashboards/manage/dashboard-agent#prompts-layout).\n  + **Visualization title fix**: Fixed a bug where visualization title text overlapped the action icons in a Genie Code chat response.\n* **Choropleth map fix**: Fixed a bug that caused choropleth maps to crash when filtered results returned no data.\n* **Waterfall cross-filtering fix**: Fixed a bug where waterfall charts did not trigger cross-filtering.",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Download results",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#downloads"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#keyboard-shortcuts"
+    },
+    {
+      "text": "Hide date labels and the sparkline",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#hide-sparkline"
+    },
+    {
+      "text": "Consistent colors across widgets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#color-consistency"
+    },
+    {
+      "text": "Manage scheduled dashboard updates and subscriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe"
+    },
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "Extend a Unity Catalog metric view",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views#extend-a-uc-metric-view"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Email attachments",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#email-attachments"
+    },
+    {
+      "text": "Dashboard layout and organization",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent#prompts-layout"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.465361Z"
+}

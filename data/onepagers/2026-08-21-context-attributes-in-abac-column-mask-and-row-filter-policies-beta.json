@@ -1,0 +1,39 @@
+{
+  "product": "Context attributes in ABAC column mask and row filter policies (Beta)",
+  "tagline": "Context attributes for attribute based access control (ABAC) policies are in Beta.",
+  "updated": "Aug 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/core-concepts#context-attribute-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
+  "what_it_does": "Context attributes for attribute based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (request.client id) and whether the request runs on behalf of a user (request.is on behalf of). The has context attribute and has context attribute value functions are supported in the WHEN clause of row filter and column mask policies.",
+  "why_it_matters": "Attribute based access control (ABAC) is an access control model that uses governed tags and policies to grant permissions based on object attributes rather than per object grants.",
+  "plain_summary": "Context attributes for attribute based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (request.client id) and whether the…",
+  "capabilities": [
+    {
+      "title": "For row filter and column",
+      "desc": "For row filter and column mask policies, supported policy scopes are CATALOG, SCHEMA, or TABLE. For GRANT policies (Beta)…"
+    },
+    {
+      "title": "Tables, including streaming tables and",
+      "desc": "Tables, including streaming tables and materialized views, are the only supported securable type for row filter and column mask…"
+    },
+    {
+      "title": "A policy attached at a",
+      "desc": "A policy attached at a catalog evaluates against all tables in that catalog. A policy attached at a schema evaluates against all…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "For a sales catalog"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Context attributes for attribute based access control (ABAC) policies are in Beta.",
+  "note_id": "2026-08-21-context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Performance mode now applies to materialized view and streaming table…",
+  "tagline": "The job level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks.",
+  "updated": "Aug 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes#performance-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#performance-mode-now-applies-to-materialized-view-and-streaming-table-refreshes-from-dbt-tasks",
+  "what_it_does": "The job level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance optimized mode for faster startup. Previously, dbt tasks always ran refreshes in Performance optimized mode.",
+  "why_it_matters": "The job level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks.",
+  "plain_summary": "The job level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance optimized mode for faster startup.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The job level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks.",
+  "note_id": "2026-08-20-3a90fb16",
+  "category": "platform"
+}

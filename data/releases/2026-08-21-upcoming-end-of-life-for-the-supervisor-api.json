@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-21-upcoming-end-of-life-for-the-supervisor-api",
+  "title": "Upcoming end of life for the Supervisor API",
+  "date": "2026-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-end-of-life-for-the-supervisor-api",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Supervisor API (Beta) reaches end of life on September 30, 2026. After that date, the API is no longer available.\n\nDatabricks recommends migrating to [custom agents on Databricks Apps](/aws/en/agents/custom-agents/author-agent).\n\nSee [Supervisor API (Beta) (deprecated)](/aws/en/agents/agent-bricks/supervisor-api).",
+  "ref_links": [
+    {
+      "text": "custom agents on Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/agents/custom-agents/author-agent"
+    },
+    {
+      "text": "Supervisor API (Beta) (deprecated)",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/supervisor-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.456276Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-21-44bad7c0",
+  "title": "Consumer access to query Unity AI Gateway services will become generally available",
+  "date": "2026-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#consumer-access-to-query-unity-ai-gateway-services-will-become-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Querying Unity AI Gateway model services and model provider services with **Consumer access** is currently opt-in through the **Consumer access to Unity AI Gateway** [Public Preview](/aws/en/release-notes/release-types). When this capability becomes generally available, consumer access users will be able to query these services without the preview enabled. This can increase model traffic from consumer users, including traffic to model provider services that route to external providers.\n\nBefore this change, account admins should set budgets and rate limits, or disable direct model access, for consumer access users so these controls are in effect when the capability becomes generally available. See [Manage budgets for Unity AI Gateway](/aws/en/ai-gateway/budgets), [Apply rate limits to model and MCP services](/aws/en/ai-gateway/rate-limits), and [Manage entitlements](/aws/en/security/auth/entitlements).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Manage budgets for Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/budgets"
+    },
+    {
+      "text": "Apply rate limits to model and MCP services",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/rate-limits"
+    },
+    {
+      "text": "Manage entitlements",
+      "url": "https://docs.databricks.com/aws/en/security/auth/entitlements"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.457800Z"
+}

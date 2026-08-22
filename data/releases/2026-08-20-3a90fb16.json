@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-20-3a90fb16",
+  "title": "Performance mode now applies to materialized view and streaming table refreshes from dbt tasks",
+  "date": "2026-08-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#performance-mode-now-applies-to-materialized-view-and-streaming-table-refreshes-from-dbt-tasks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The job-level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance-optimized mode for faster startup. Previously, dbt tasks always ran refreshes in Performance-optimized mode.\n\nStandard mode can increase refresh startup latency from under a minute to four to six minutes in exchange for lower compute costs. This change affects only refreshes that materialize as an materialized view or streaming table, so most dbt projects, which create regular tables, are unaffected.\n\nSee [Select a performance mode for scheduled refreshes](/aws/en/ldp/dbsql/schedule-refreshes#performance-mode).",
+  "ref_links": [
+    {
+      "text": "Select a performance mode for scheduled refreshes",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes#performance-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-22T07:37:18.467920Z"
+}
