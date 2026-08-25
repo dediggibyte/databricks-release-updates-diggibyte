@@ -1,0 +1,24 @@
+{
+  "product": "The INSERT, UPDATE, and DELETE privileges are in Beta",
+  "tagline": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/fine-grained-dml-privileges",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-insert-update-and-delete-privileges-are-in-beta",
+  "what_it_does": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog. These privileges are least privilege alternatives to MODIFY that let you grant write access to a table's data without also granting the ability to change its schema or other metadata. The privileges require Databricks Runtime 18.1 or above.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog. These privileges are least privilege alternatives to MODIFY that let you grant write access to a table's data without also granting the ability to change its schema or other metadata.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog.",
+  "note_id": "2026-08-24-the-insert-update-and-delete-privileges-are-in-beta",
+  "category": "platform"
+}

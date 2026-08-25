@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-15-manage-lakebase-from-the-lakebase-app",
+  "title": "Manage Lakebase from the Lakebase App",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#manage-lakebase-from-the-lakebase-app",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now managed through the Lakebase App, accessed from the apps switcher in the Databricks UI. This replaces the previous workflow of navigating to the Compute tab in the Lakehouse UI.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:30.233629Z"
+}

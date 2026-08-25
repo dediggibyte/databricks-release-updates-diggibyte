@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-24-postgres-minor-version-updates",
+  "title": "Postgres minor version updates",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#postgres-minor-version-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase updated its supported Postgres versions to 16.15, 17.11, and 18.6. These minor releases bring you the latest upstream Postgres fixes and security patches. When a new minor version is available, Lakebase applies it the next time your compute restarts. See [Manage updates](/aws/en/oltp/projects/updates).",
+  "ref_links": [
+    {
+      "text": "Manage updates",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/updates"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:29.412516Z"
+}

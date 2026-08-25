@@ -1,0 +1,30 @@
+{
+  "product": "Connect to the Databricks Genie app in Microsoft Teams with your workspace URL…",
+  "tagline": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-teams",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#connect-to-the-databricks-genie-app-in-microsoft-teams-with-your-workspace-url-public-preview",
+  "what_it_does": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account. Beta This feature is in Beta. Account admins can manage access to this feature from the account console Previews page.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use case specific answers."
+  ],
+  "limitations": [
+    "Visualizing charts",
+    "Sending Databricks notifications to Teams",
+    "Triggering actions in Databricks from Teams"
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account.",
+  "note_id": "2026-08-24-6931a2a7",
+  "category": "platform"
+}

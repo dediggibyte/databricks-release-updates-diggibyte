@@ -1,0 +1,27 @@
+{
+  "product": "New Lakebase instances now scale to zero by default",
+  "tagline": "New Lakebase instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects.",
+  "updated": "May 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#defaults",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#new-lakebase-instances-now-scale-to-zero-by-default",
+  "what_it_does": "New Lakebase instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects. To learn more about scale to zero, see Scale to zero. To configure scale to zero, see Configure scale to zero.",
+  "why_it_matters": "New Lakebase instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects.",
+  "plain_summary": "New Lakebase instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects. To learn more about scale to zero, see Scale to zero.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "analytics",
+    "reporting queries"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New Lakebase instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects.",
+  "note_id": "2026-05-13-new-lakebase-instances-now-scale-to-zero-by-default",
+  "category": "platform"
+}

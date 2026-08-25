@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-18-lakebase-metrics-dashboard",
+  "title": "Lakebase metrics dashboard",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-metrics-dashboard",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase (Public Preview) now includes a **Metrics** dashboard for monitoring system and database metrics. See [Metrics](/aws/en/oltp/projects/metrics).",
+  "ref_links": [
+    {
+      "text": "Metrics",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/metrics"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:30.257696Z"
+}

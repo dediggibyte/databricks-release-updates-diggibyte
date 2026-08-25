@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase updates: OAuth role management, budget policies and tags, and…",
+  "tagline": "Lakebase now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL.",
+  "updated": "Mar 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-cdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-updates-oauth-role-management-budget-policies-and-tags-and-lakehouse-sync",
+  "what_it_does": "Lakebase now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL. Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost attribution and tracking. Lakehouse sync (Beta): Continuously replicate Lakebase Postgres tables to Unity Catalog Delta tables using CDC.",
+  "why_it_matters": "Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost attribution and tracking.",
+  "plain_summary": "Lakebase now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL. Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost attribution and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL.",
+  "note_id": "2026-03-12-ec9936b2",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase: Customer-managed keys",
+  "tagline": "You can now manage encrypted Lakebase project data using a customer managed key (CMK) from your own cloud KMS.",
+  "updated": "Apr 14, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/customer-managed-keys",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-customer-managed-keys",
+  "what_it_does": "You can now manage encrypted Lakebase project data using a customer managed key (CMK) from your own cloud KMS. This gives your organization full control over encryption and helps meet regulatory and compliance requirements. Customer managed keys (CMK) let you encrypt Lakebase Autoscaling project data at rest (stored data) using a key that your organization owns and manages in your cloud key management service (KMS).",
+  "why_it_matters": "This gives your organization full control over encryption and helps meet regulatory and compliance requirements.",
+  "plain_summary": "You can now manage encrypted Lakebase project data using a customer managed key (CMK) from your own cloud KMS. This gives your organization full control over encryption and helps meet regulatory and compliance requirements.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now manage encrypted Lakebase project data using a customer managed key (CMK) from your own cloud KMS.",
+  "note_id": "2026-04-14-lakebase-customer-managed-keys",
+  "category": "platform"
+}

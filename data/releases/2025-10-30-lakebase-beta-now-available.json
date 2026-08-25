@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-30-lakebase-beta-now-available",
+  "title": "Lakebase (Beta) now available",
+  "date": "2025-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-beta-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase (Beta) is now available on AWS as a new app in the app switcher, separate from the existing Lakebase Public Preview. This new version introduces autoscaling, scale-to-zero, database branching, instant restore, and project-based organization with a redesigned UI.\n\nSee [Get started with Lakebase Postgres (Beta)](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Get started with Lakebase Postgres (Beta)",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:30.343434Z"
+}

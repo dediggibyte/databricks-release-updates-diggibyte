@@ -1,0 +1,24 @@
+{
+  "product": "New Lakebase instances include autoscaling by default",
+  "tagline": "New Lakebase instances are now created with autoscaling compute, scale to zero, branching, and instant restore by default.",
+  "updated": "Mar 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/autoscaling",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#new-lakebase-instances-include-autoscaling-by-default",
+  "what_it_does": "New Lakebase instances are now created with autoscaling compute, scale to zero, branching, and instant restore by default. This applies when you create instances using the UI, Database instance API, Terraform, or SDKs. Autoscaling dynamically adjusts the amount of compute resources allocated to your Lakebase computes in response to current workload demands.",
+  "why_it_matters": "New Lakebase instances are now created with autoscaling compute, scale to zero, branching, and instant restore by default.",
+  "plain_summary": "New Lakebase instances are now created with autoscaling compute, scale to zero, branching, and instant restore by default. This applies when you create instances using the UI, Database instance API, Terraform, or SDKs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New Lakebase instances are now created with autoscaling compute, scale to zero, branching, and instant restore by default.",
+  "note_id": "2026-03-12-new-lakebase-instances-include-autoscaling-by-default",
+  "category": "platform"
+}

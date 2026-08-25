@@ -1,0 +1,24 @@
+{
+  "product": "Postgres minor version updates",
+  "tagline": "Lakebase updated its supported Postgres versions to 16.15, 17.11, and 18.6.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/updates",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#postgres-minor-version-updates",
+  "what_it_does": "Lakebase updated its supported Postgres versions to 16.15, 17.11, and 18.6. These minor releases bring you the latest upstream Postgres fixes and security patches. When a new minor version is available, Lakebase applies it the next time your compute restarts.",
+  "why_it_matters": "These minor releases bring you the latest upstream Postgres fixes and security patches.",
+  "plain_summary": "Lakebase updated its supported Postgres versions to 16.15, 17.11, and 18.6. These minor releases bring you the latest upstream Postgres fixes and security patches.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase updated its supported Postgres versions to 16.15, 17.11, and 18.6.",
+  "note_id": "2026-08-24-postgres-minor-version-updates",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Lakebase now available in AWS Tokyo region (ap-northeast-1)",
+  "tagline": "Lakebase is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "updated": "Jun 30, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/get-started",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-available-in-aws-tokyo-region-ap-northeast-1",
+  "what_it_does": "Lakebase is now available in ap northeast 1 (Asia Pacific Tokyo). For all supported regions, see Region availability. To get started, see Get a Postgres database.",
+  "why_it_matters": "The compute for the production branch has scale to zero enabled by default with a 24 hour inactivity timeout, but you can configure this setting if needed.",
+  "plain_summary": "Lakebase is now available in ap northeast 1 (Asia Pacific Tokyo). For all supported regions, see Region availability.",
+  "capabilities": [
+    {
+      "title": "Build an app",
+      "desc": "Build an app"
+    },
+    {
+      "title": "Deploy a Databricks App with",
+      "desc": "Deploy a Databricks App with automatic Lakebase connection."
+    },
+    {
+      "title": "Register in Unity Catalog",
+      "desc": "Register in Unity Catalog"
+    },
+    {
+      "title": "Unified governance, lineage, and cross-source",
+      "desc": "Unified governance, lineage, and cross-source queries."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now available in ap northeast 1 (Asia Pacific Tokyo).",
+  "note_id": "2026-06-30-lakebase-now-available-in-aws-tokyo-region-ap-northeast-1",
+  "category": "platform"
+}

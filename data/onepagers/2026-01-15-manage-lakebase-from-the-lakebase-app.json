@@ -1,0 +1,24 @@
+{
+  "product": "Manage Lakebase from the Lakebase App",
+  "tagline": "Lakebase is now managed through the Lakebase App, accessed from the apps switcher in the Databricks UI.",
+  "updated": "Jan 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#manage-lakebase-from-the-lakebase-app",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#manage-lakebase-from-the-lakebase-app",
+  "what_it_does": "Lakebase is now managed through the Lakebase App, accessed from the apps switcher in the Databricks UI. This replaces the previous workflow of navigating to the Compute tab in the Lakehouse UI.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Lakebase is now managed through the Lakebase App, accessed from the apps switcher in the Databricks UI. This replaces the previous workflow of navigating to the Compute tab in the Lakehouse UI.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now managed through the Lakebase App, accessed from the apps switcher in the Databricks UI.",
+  "note_id": "2026-01-15-manage-lakebase-from-the-lakebase-app",
+  "category": "platform"
+}

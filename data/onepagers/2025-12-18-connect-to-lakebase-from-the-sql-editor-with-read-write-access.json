@@ -1,0 +1,24 @@
+{
+  "product": "Connect to Lakebase from the SQL editor with read-write access",
+  "tagline": "Lakebase (Public Preview) now supports direct connections from the SQL editor with full read write access.",
+  "updated": "Dec 18, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/query-sql-editor",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#connect-to-lakebase-from-the-sql-editor-with-read-write-access",
+  "what_it_does": "Lakebase (Public Preview) now supports direct connections from the SQL editor with full read write access. This page describes how to query databases in your Lakebase project from the SQL editor in the analytics and AI workspace using two different connection methods. The SQL editor in the workspace is a collaborative SQL workspace where you can author queries, find data catalogs, create visualizations, and share results with colleagues.",
+  "why_it_matters": "Unity Catalog registration: Register your database in Unity Catalog to enable federated queries, unified governance, and cross source analytics.",
+  "plain_summary": "Lakebase (Public Preview) now supports direct connections from the SQL editor with full read write access.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase (Public Preview) now supports direct connections from the SQL editor with full read write access.",
+  "note_id": "2025-12-18-connect-to-lakebase-from-the-sql-editor-with-read-write-access",
+  "category": "platform"
+}

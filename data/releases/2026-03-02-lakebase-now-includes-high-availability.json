@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-02-lakebase-now-includes-high-availability",
+  "title": "Lakebase now includes high availability",
+  "date": "2026-03-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-includes-high-availability",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase now includes high availability. High availability provides automatic failover from your primary compute instance to secondary compute instances distributed across availability zones, with no connection string changes required.\n\nSee [High availability](/aws/en/oltp/projects/high-availability).",
+  "ref_links": [
+    {
+      "text": "High availability",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/high-availability"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:30.100558Z"
+}

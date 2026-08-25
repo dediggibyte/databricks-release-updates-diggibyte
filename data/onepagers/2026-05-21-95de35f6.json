@@ -1,0 +1,24 @@
+{
+  "product": "Postgres password authentication is now disabled by default for new Lakebase…",
+  "tagline": "New Lakebase projects now have native Postgres password authentication disabled by default.",
+  "updated": "May 21, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/manage-roles#block-connections",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#postgres-password-authentication-is-now-disabled-by-default-for-new-lakebase-projects",
+  "what_it_does": "New Lakebase projects now have native Postgres password authentication disabled by default. Existing projects are unaffected. To allow native Postgres roles to connect with static passwords, enable password connections in project settings.",
+  "why_it_matters": "The Lakebase App generates a secure password automatically.",
+  "plain_summary": "New Lakebase projects now have native Postgres password authentication disabled by default. Existing projects are unaffected.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New Lakebase projects now have native Postgres password authentication disabled by default.",
+  "note_id": "2026-05-21-95de35f6",
+  "category": "platform"
+}

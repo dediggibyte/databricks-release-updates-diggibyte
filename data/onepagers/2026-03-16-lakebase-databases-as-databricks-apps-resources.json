@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase databases as Databricks Apps resources",
+  "tagline": "You can now add Lakebase databases as resources for your Databricks app.",
+  "updated": "Mar 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/lakebase",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-databases-as-databricks-apps-resources",
+  "what_it_does": "You can now add Lakebase databases as resources for your Databricks app. Add Lakebase databases as Databricks Apps resources to persist data across deployments. These PostgreSQL backed resources let your app create and manage schemas and tables that retain state.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now add Lakebase databases as resources for your Databricks app.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now add Lakebase databases as resources for your Databricks app.",
+  "note_id": "2026-03-16-lakebase-databases-as-databricks-apps-resources",
+  "category": "platform"
+}

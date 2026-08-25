@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-30-lakebase-now-available-in-aws-tokyo-region-ap-northeast-1",
+  "title": "Lakebase now available in AWS Tokyo region (ap-northeast-1)",
+  "date": "2026-06-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-available-in-aws-tokyo-region-ap-northeast-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now available in `ap-northeast-1` (Asia Pacific - Tokyo). For all supported regions, see [Region availability](/aws/en/oltp/projects/manage-projects#availability). To get started, see [Get a Postgres database](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Region availability",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#availability"
+    },
+    {
+      "text": "Get a Postgres database",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:29.646338Z"
+}

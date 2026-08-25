@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase metrics dashboard",
+  "tagline": "Lakebase (Public Preview) now includes a Metrics dashboard for monitoring system and database metrics.",
+  "updated": "Dec 18, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/metrics",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-metrics-dashboard",
+  "what_it_does": "Lakebase (Public Preview) now includes a Metrics dashboard for monitoring system and database metrics. The Metrics dashboard in the Lakebase UI provides graphs for monitoring system and database metrics. You can access the Metrics dashboard from the sidebar in the Lakebase App.",
+  "why_it_matters": "Observable metrics include RAM usage, CPU usage, connection counts, database size, deadlocks, row operations, replication delays, cache performance, and working set size.",
+  "plain_summary": "Lakebase (Public Preview) now includes a Metrics dashboard for monitoring system and database metrics.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase (Public Preview) now includes a Metrics dashboard for monitoring system and database metrics.",
+  "note_id": "2025-12-18-lakebase-metrics-dashboard",
+  "category": "platform"
+}

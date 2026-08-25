@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase ACL support",
+  "tagline": "Lakebase (Public Preview) now supports Access Control Lists (ACLs).",
+  "updated": "Dec 17, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/manage-project-permissions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-acl-support",
+  "what_it_does": "Lakebase (Public Preview) now supports Access Control Lists (ACLs). Grant CAN CREATE or CAN MANAGE permissions to control who can access and manage project resources. Manage permissions from project settings in the Lakebase App.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Lakebase (Public Preview) now supports Access Control Lists (ACLs). Grant CAN CREATE or CAN MANAGE permissions to control who can access and manage project resources.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase (Public Preview) now supports Access Control Lists (ACLs).",
+  "note_id": "2025-12-17-lakebase-acl-support",
+  "category": "platform"
+}

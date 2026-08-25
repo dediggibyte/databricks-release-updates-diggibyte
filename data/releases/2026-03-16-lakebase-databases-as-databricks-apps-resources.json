@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-16-lakebase-databases-as-databricks-apps-resources",
+  "title": "Lakebase databases as Databricks Apps resources",
+  "date": "2026-03-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-databases-as-databricks-apps-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add Lakebase databases as resources for your Databricks app. See [Add a Lakebase resource to a Databricks app](/aws/en/dev-tools/databricks-apps/lakebase).",
+  "ref_links": [
+    {
+      "text": "Add a Lakebase resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/lakebase"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-25T07:50:30.051239Z"
+}
