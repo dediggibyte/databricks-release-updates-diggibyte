@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-24-9ae419bc",
+  "title": "Secrets in Unity Catalog will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#secrets-in-unity-catalog-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Secrets in Unity Catalog will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in late September 2026.\n\nStore, govern, and access secrets as securable objects in Unity Catalog. A Unity Catalog secret uses the three-level namespace (`catalog.schema.secret`) and is governed by Unity Catalog privileges, so you can apply the same access controls and auditing that you use for other data assets.\n\nSee [Secrets in Unity Catalog](/aws/en/security/secrets/unity-catalog-secrets).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Secrets in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/security/secrets/unity-catalog-secrets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-26T07:52:00.527686Z"
+}

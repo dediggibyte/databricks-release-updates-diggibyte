@@ -1,0 +1,24 @@
+{
+  "product": "The Genie One desktop app for macOS is in Beta",
+  "tagline": "The Genie One desktop app is now in Beta.",
+  "updated": "Aug 25, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/desktop",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-genie-one-desktop-app-for-macos-is-in-beta",
+  "what_it_does": "The Genie One desktop app is now in Beta. The native macOS app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie One desktop app is now in Beta. The native macOS app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One desktop app is now in Beta.",
+  "note_id": "2026-08-25-the-genie-one-desktop-app-for-macos-is-in-beta",
+  "category": "platform"
+}

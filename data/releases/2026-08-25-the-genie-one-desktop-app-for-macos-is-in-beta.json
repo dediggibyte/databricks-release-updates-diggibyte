@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-25-the-genie-one-desktop-app-for-macos-is-in-beta",
+  "title": "The Genie One desktop app for macOS is in Beta",
+  "date": "2026-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-genie-one-desktop-app-for-macos-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One desktop app is now in [Beta](/aws/en/release-notes/release-types). The native macOS app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. See [Use Genie One on desktop](/aws/en/genie-one/desktop).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Use Genie One on desktop",
+      "url": "https://docs.databricks.com/aws/en/genie-one/desktop"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-26T07:52:00.526325Z"
+}
