@@ -1,0 +1,41 @@
+{
+  "product": "Genie Code is now available in the Lakebase project UI",
+  "tagline": "A new Genie entry in the Lakebase project sidebar opens Genie Code, the agentic Databricks assistant, scoped to your Lakebase project.",
+  "updated": "Aug 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#genie-code-is-now-available-in-the-lakebase-project-ui",
+  "what_it_does": "A new Genie entry in the Lakebase project sidebar opens Genie Code, the agentic Databricks assistant, scoped to your Lakebase project. Ask it in natural language to run multi step data and AI tasks: explore your databases and tables, investigate and debug issues, and create and populate tables. It's the same Genie Code you use elsewhere in Databricks, here working on your Lakebase project, and it's now available for all Lakebase projects.",
+  "why_it_matters": "Account admins can manage budgets and cost controls for Genie.",
+  "plain_summary": "A new Genie entry in the Lakebase project sidebar opens Genie Code, the agentic Databricks assistant, scoped to your Lakebase project. Ask it in natural language to run multi step data and AI tasks: explore your databases and tables, investigate and debug…",
+  "capabilities": [
+    {
+      "title": "Data science and ML in",
+      "desc": "Data science and ML in notebooks"
+    },
+    {
+      "title": "Genie Code is integrated with",
+      "desc": "Genie Code is integrated with Databricks notebooks and optimized to automate exploratory data analysis and model training."
+    },
+    {
+      "title": "Pipeline development in Lakeflow",
+      "desc": "Pipeline development in Lakeflow"
+    },
+    {
+      "title": "Genie Code has data engineering",
+      "desc": "Genie Code has data engineering capabilities that make it easy to automate ETL workloads and build Lakeflow Spark Declarative…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "A new Genie entry in the Lakebase project sidebar opens Genie Code, the agentic Databricks assistant, scoped to your Lakebase project.",
+  "note_id": "2026-08-24-genie-code-is-now-available-in-the-lakebase-project-ui",
+  "category": "platform"
+}

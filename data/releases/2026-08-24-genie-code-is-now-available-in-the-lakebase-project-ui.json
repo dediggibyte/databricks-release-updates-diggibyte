@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-24-genie-code-is-now-available-in-the-lakebase-project-ui",
+  "title": "Genie Code is now available in the Lakebase project UI",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#genie-code-is-now-available-in-the-lakebase-project-ui",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A new Genie entry in the Lakebase project sidebar opens Genie Code, the agentic Databricks assistant, scoped to your Lakebase project. Ask it in natural language to run multi-step data and AI tasks: explore your databases and tables, investigate and debug issues, and create and populate tables. It's the same Genie Code you use elsewhere in Databricks, here working on your Lakebase project, and it's now available for all Lakebase projects. See [Genie Code](/aws/en/genie-code).",
+  "ref_links": [
+    {
+      "text": "Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.734975Z"
+}

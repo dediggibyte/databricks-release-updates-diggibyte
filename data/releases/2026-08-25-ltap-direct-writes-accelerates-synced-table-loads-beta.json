@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-25-ltap-direct-writes-accelerates-synced-table-loads-beta",
+  "title": "LTAP Direct Writes accelerates synced table loads (Beta)",
+  "date": "2026-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#ltap-direct-writes-accelerates-synced-table-loads-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "LTAP Direct Writes speeds up how synced tables load into Lakebase. When you create a synced table, Lakebase loads a full copy of your Unity Catalog data into your Postgres branch. LTAP Direct Writes accelerates that initial load and full refreshes by writing directly to the storage layer instead of through your compute endpoint, so large loads finish faster without competing with your queries. It requires a project running Postgres 17, and a workspace admin enables it from the Previews page. See [Serve lakehouse data with synced tables](/aws/en/oltp/projects/sync-tables).",
+  "ref_links": [
+    {
+      "text": "Serve lakehouse data with synced tables",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/sync-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.730140Z"
+}

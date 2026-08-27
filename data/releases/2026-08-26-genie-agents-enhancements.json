@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-26-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-08-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Download visualizations API**: Retrieving visualization results through the Genie Conversation API is now generally available. See  [Retrieve visualization results](/aws/en/genie-agents/conversation-api#get-visualization).",
+  "ref_links": [
+    {
+      "text": "Retrieve visualization results",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api#get-visualization"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.726798Z"
+}

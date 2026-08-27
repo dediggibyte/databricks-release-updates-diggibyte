@@ -1,0 +1,24 @@
+{
+  "product": "Query text is now masked by default in system tables and APIs",
+  "tagline": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places: statement text in system.query.history returns <REDACTED .",
+  "updated": "Aug 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/audit-logs#request-params-masking",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#query-text-is-now-masked-by-default-in-system-tables-and-apis",
+  "what_it_does": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places: statement text in system.query.history returns <REDACTED . query text in the Query History API and the List Queries API returns <REDACTED . Keys in request params in system.access.audit that contain SQL definitions are omitted.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places: statement text in system.query.history returns <REDACTED . query text in the Query History API and the List Queries API returns <REDACTED .",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places: statement text in system.query.history returns <REDACTED .",
+  "note_id": "2026-08-26-query-text-is-now-masked-by-default-in-system-tables-and-apis",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-15-lakebase-now-provides-a-service-level-agreement-sla",
+  "title": "Lakebase now provides a service level agreement (SLA)",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-provides-a-service-level-agreement-sla",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase now provides a Service Level Agreement (SLA), with Monthly Uptime Percentage commitments for endpoints in zone-redundant high availability mode and for single-compute endpoints. For details, see [Lakebase SLA](https://www.databricks.com/legal/sla/lakebase-sla).",
+  "ref_links": [
+    {
+      "text": "Lakebase SLA",
+      "url": "https://www.databricks.com/legal/sla/lakebase-sla"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.873988Z"
+}

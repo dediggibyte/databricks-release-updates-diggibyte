@@ -1,0 +1,37 @@
+{
+  "product": "ai_prep_search supports plain text and markdown input (Beta)",
+  "tagline": "The ai prep search() SQL function now accepts plain text and markdown STRING content in addition to the structured VARIANT output of ai parse document.",
+  "updated": "Aug 25, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_prep_search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_prep_search-supports-plain-text-and-markdown-input-beta",
+  "what_it_does": "The ai prep search() SQL function now accepts plain text and markdown STRING content in addition to the structured VARIANT output of ai parse document. You can now chunk and prepare text that you already have as a string for AI Search indexing and retrieval augmented generation (RAG) pipelines, without first running it through document parsing. Applies to: Databricks SQL Databricks Runtime Beta This feature is in Beta.",
+  "why_it_matters": "Databricks might upgrade the supported or default version to reflect improved representations based on ongoing research.",
+  "plain_summary": "The ai prep search() SQL function now accepts plain text and markdown STRING content in addition to the structured VARIANT output of ai parse document. You can now chunk and prepare text that you already have as a string for AI Search indexing and retrieval…",
+  "capabilities": [
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'version': The version of the",
+      "desc": "'version': The version of the output schema to use."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The ai prep search() SQL function now accepts plain text and markdown STRING content in addition to the structured VARIANT output of ai parse document.",
+  "note_id": "2026-08-25-ai-prep-search-supports-plain-text-and-markdown-input-beta",
+  "category": "platform"
+}

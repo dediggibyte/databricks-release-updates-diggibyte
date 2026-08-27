@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase now provides a service level agreement (SLA)",
+  "tagline": "Lakebase now provides a Service Level Agreement (SLA), with Monthly Uptime Percentage commitments for endpoints in zone redundant high availability mode and for single compute endpoints.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://www.databricks.com/legal/sla/lakebase-sla",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-provides-a-service-level-agreement-sla",
+  "what_it_does": "Lakebase now provides a Service Level Agreement (SLA), with Monthly Uptime Percentage commitments for endpoints in zone redundant high availability mode and for single compute endpoints. For details, see Lakebase SLA. Lakebase SLA This Databricks Lakebase Service Level Agreement (“Lakebase SLA”) governs the availability of Lakebase Postgres (as described in the Documentation) on Databricks Platform Services.",
+  "why_it_matters": "Lakebase SLA This Databricks Lakebase Service Level Agreement (“Lakebase SLA”) governs the availability of Lakebase Postgres (as described in the Documentation) on Databricks Platform Services.",
+  "plain_summary": "Lakebase now provides a Service Level Agreement (SLA), with Monthly Uptime Percentage commitments for endpoints in zone redundant high availability mode and for single compute endpoints. For details, see Lakebase SLA.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase now provides a Service Level Agreement (SLA), with Monthly Uptime Percentage commitments for endpoints in zone redundant high availability mode and for single compute endpoints.",
+  "note_id": "2026-07-15-lakebase-now-provides-a-service-level-agreement-sla",
+  "category": "platform"
+}

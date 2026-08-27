@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-26-query-text-is-now-masked-by-default-in-system-tables-and-apis",
+  "title": "Query text is now masked by default in system tables and APIs",
+  "date": "2026-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#query-text-is-now-masked-by-default-in-system-tables-and-apis",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places:\n\n* `statement_text` in `system.query.history` returns `<REDACTED>`.\n* `query_text` in the Query History API and the List Queries API returns `<REDACTED>`.\n* Keys in `request_params` in `system.access.audit` that contain SQL definitions are omitted.\n\nAccount admins and members of the `databricks_pii_access` account group can read unmasked query text. To grant access, an account admin creates the group and adds members. See [Access masked statement text](/aws/en/admin/system-tables/query-history#statement-text-masking) and [Access masked request parameters](/aws/en/admin/system-tables/audit-logs#request-params-masking).",
+  "ref_links": [
+    {
+      "text": "Access masked statement text",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history#statement-text-masking"
+    },
+    {
+      "text": "Access masked request parameters",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/audit-logs#request-params-masking"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.728489Z"
+}

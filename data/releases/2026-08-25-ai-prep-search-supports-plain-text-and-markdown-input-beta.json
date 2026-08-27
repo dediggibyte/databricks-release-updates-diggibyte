@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-25-ai-prep-search-supports-plain-text-and-markdown-input-beta",
+  "title": "ai_prep_search supports plain text and markdown input (Beta)",
+  "date": "2026-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_prep_search-supports-plain-text-and-markdown-input-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_prep_search()` SQL function now accepts plain text and markdown `STRING` content in addition to the structured `VARIANT` output of [`ai_parse_document`](/aws/en/sql/language-manual/functions/ai_parse_document). You can now chunk and prepare text that you already have as a string for AI Search indexing and retrieval-augmented generation (RAG) pipelines, without first running it through document parsing.\n\nSee [`ai_prep_search` function](/aws/en/sql/language-manual/functions/ai_prep_search).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    },
+    {
+      "text": "ai_prep_search function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_prep_search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.731821Z"
+}

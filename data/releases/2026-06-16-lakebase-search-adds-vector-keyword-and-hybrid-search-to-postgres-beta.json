@@ -1,0 +1,29 @@
+{
+  "id": "2026-06-16-lakebase-search-adds-vector-keyword-and-hybrid-search-to-postgres-beta",
+  "title": "Lakebase Search adds vector, keyword, and hybrid search to Postgres (Beta)",
+  "date": "2026-06-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-adds-vector-keyword-and-hybrid-search-to-postgres-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Search brings scalable vector and keyword search to Lakebase projects through two new Postgres extensions, so you can run semantic and exact-term search in a single database without a separate search stack:\n\n* [**`lakebase_vector`**](/aws/en/oltp/projects/lakebase-vector) adds the `lakebase_ann` index type for approximate nearest-neighbor vector search. It is drop-in compatible with pgvector, using the same types, operators, and query syntax, and scales to over 1 billion vectors on a single index with builds up to 50-100x faster than HNSW.\n* [**`lakebase_text`**](/aws/en/oltp/projects/lakebase-text) adds the `lakebase_bm25` index type for BM25 full-text search. It works with standard `tsvector` types and operators, adding BM25 ranking and top-K pushdown that PostgreSQL's native GIN index does not provide.\n\nIndexes are storage-backed, so they are available immediately after scale-to-zero without warmup. Combine both extensions for hybrid search that returns semantic and exact-term matches in one ranked list. To get started, enable Lakebase Search in your project settings, then install the extensions. See [Lakebase Search](/aws/en/oltp/projects/lakebase-search), or read the [announcement blog post](https://www.databricks.com/blog/announcing-lakebase-search-agent-native-retrieval-built-lakebase-postgres).",
+  "ref_links": [
+    {
+      "text": "lakebase_vector",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-vector"
+    },
+    {
+      "text": "lakebase_text",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-text"
+    },
+    {
+      "text": "Lakebase Search",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-search"
+    },
+    {
+      "text": "announcement blog post",
+      "url": "https://www.databricks.com/blog/announcing-lakebase-search-agent-native-retrieval-built-lakebase-postgres"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-27T18:11:46.961616Z"
+}

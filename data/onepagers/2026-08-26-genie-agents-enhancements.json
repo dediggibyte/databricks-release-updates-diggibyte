@@ -1,0 +1,26 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Download visualizations API: Retrieving visualization results through the Genie Conversation API is now generally available.",
+  "updated": "Aug 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api#get-visualization",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "Download visualizations API: Retrieving visualization results through the Genie Conversation API is now generally available. Integrate Genie Agents into your own chatbot, agent, or application with the Genie Agents API. The API provides Conversation APIs for stateful natural language data querying (with follow up questions and history) and Management APIs for CI/CD workflows that create, configure, and deploy Genie Agents across workspaces.",
+  "why_it_matters": "Replace the placeholders with your values: POST /api/2.0/genie/spaces Host: <DATABRICKS INSTANCE Authorization: Bearer <your authentication token { \"description\": \"Space for analyzing sales performance and trends\", \"parent path\": \"/Workspace/Users/<username \", \"serialized space\": \"{\\\"version\\\":1,\\\"config\\\":{\\\"sample questions\\\":[{\\\"id\\\":\\\"a1b2c3d4e5f6\\\",\\\"question\\\":[\\\"What were total sales last month?\\\"]},{\\\"id\\\":\\\"b2c3d4e5f6g7\\\",\\\"question\\\":[\\\"Show top 10 customers by revenue\\\"]},{\\\"id\\\":\\\"c3d4e5f6g7h8\\\",\\\"question\\\":[\\\"Compare sales by region for Q1 vs Q2\\\"]}]},\\\"data sources\\\":{\\\"tables\\\":[{\\\"identifier\\\":\\\"sales.analytics.orders\\\",\\\"description\\\":[\\\"Transactional order data including order date, amount, and customer information\\\"],\\\"column configs\\\":[{\\\"column name\\\":\\\"order date\\\",\\\"get example values\\\":true},{\\\"column name\\\":\\\"status\\\",\\\"get example values\\\":true,\\\"build value dictionary\\\":true},{\\\"column name\\\":\\\"region\\\",\\\"get example values\\\":true,\\\"build value dictionary\\\":true}]},{\\\"identifier\\\":\\\"sales.analytics.customers\\\"},{\\\"identifier\\\":\\\"sales.analytics.products\\\"}]},\\\"instructions\\\":{\\\"text instructions\\\":[{\\\"id\\\":\\\"01f0b37c378e1c91\\\",\\\"content\\\":[\\\"When calculating revenue, sum the order amount column.",
+  "plain_summary": "Download visualizations API: Retrieving visualization results through the Genie Conversation API is now generally available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use OAuth for users (OAuth U2M)."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Download visualizations API: Retrieving visualization results through the Genie Conversation API is now generally available.",
+  "note_id": "2026-08-26-genie-agents-enhancements",
+  "category": "platform"
+}

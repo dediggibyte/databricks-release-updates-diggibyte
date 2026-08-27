@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase now supports PCI-DSS and HITRUST",
+  "tagline": "Lakebase is now PCI DSS and HITRUST compliant for workspaces with the compliance security profile enabled.",
+  "updated": "Aug 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-supports-pci-dss-and-hitrust",
+  "what_it_does": "Lakebase is now PCI DSS and HITRUST compliant for workspaces with the compliance security profile enabled. On AWS, this support is limited to the us east 1 region. On Azure, all regions where Lakebase is available are supported.",
+  "why_it_matters": "Lakebase is now PCI DSS and HITRUST compliant for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Lakebase is now PCI DSS and HITRUST compliant for workspaces with the compliance security profile enabled. On AWS, this support is limited to the us east 1 region.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now PCI DSS and HITRUST compliant for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-08-10-lakebase-now-supports-pci-dss-and-hitrust",
+  "category": "platform"
+}

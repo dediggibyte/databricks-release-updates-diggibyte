@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Search adds vector, keyword, and hybrid search to Postgres (Beta)",
+  "tagline": "Lakebase Search brings scalable vector and keyword search to Lakebase projects through two new Postgres extensions, so you can run semantic and exact term search in a single database without a…",
+  "updated": "Jun 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-adds-vector-keyword-and-hybrid-search-to-postgres-beta",
+  "what_it_does": "Lakebase Search brings scalable vector and keyword search to Lakebase projects through two new Postgres extensions, so you can run semantic and exact term search in a single database without a separate search stack: lakebase vector adds the lakebase ann index type for approximate nearest neighbor vector search. It is drop in compatible with pgvector, using the same types, operators, and query syntax, and scales to over 1 billion vectors on a single index with builds up to 50 100x faster than HNSW. lakebase text adds the lakebase bm25 index type for BM25 full text search.",
+  "why_it_matters": "It is drop in compatible with pgvector, using the same types, operators, and query syntax, and scales to over 1 billion vectors on a single index with builds up to 50 100x faster than HNSW.",
+  "plain_summary": "Lakebase Search brings scalable vector and keyword search to Lakebase projects through two new Postgres extensions, so you can run semantic and exact term search in a single database without a separate search stack: lakebase vector adds the lakebase ann…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase Search brings scalable vector and keyword search to Lakebase projects through two new Postgres extensions, so you can run semantic and exact term search in a single database without a…",
+  "note_id": "2026-06-16-lakebase-search-adds-vector-keyword-and-hybrid-search-to-postgres-beta",
+  "category": "platform"
+}

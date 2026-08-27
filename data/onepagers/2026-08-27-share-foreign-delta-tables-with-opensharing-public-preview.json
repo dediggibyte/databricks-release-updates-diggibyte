@@ -1,0 +1,24 @@
+{
+  "product": "Share foreign Delta tables with OpenSharing (Public Preview)",
+  "tagline": "You can now use OpenSharing to share foreign Delta tables, which are Delta format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-delta",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-foreign-delta-tables-with-opensharing-public-preview",
+  "what_it_does": "You can now use OpenSharing to share foreign Delta tables, which are Delta format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue. Providers add foreign Delta tables to a share, and recipients access the shared data in read only format. This page explains how to create shares for OpenSharing.",
+  "why_it_matters": "A share is a securable object in Unity Catalog that you use for sharing the following data assets with one or more recipients: Tables and table partitions Streaming tables Managed Iceberg tables Foreign Iceberg tables Foreign Delta tables Foreign schemas and tables Views, including dynamic views that restrict access at the row and column level Materialized views Volumes Python UDFs Notebooks AI models Genie Agents FeatureSpecs If you share an entire schema (database), the recipient can access all of the tables, streaming tables, views, materialized views, models, and volumes in the schema at the moment you share it, along with any data and AI assets added to the schema in the future.",
+  "plain_summary": "You can now use OpenSharing to share foreign Delta tables, which are Delta format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue. Providers add foreign Delta tables to a share, and recipients access the shared data in…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use OpenSharing to share foreign Delta tables, which are Delta format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue.",
+  "note_id": "2026-08-27-share-foreign-delta-tables-with-opensharing-public-preview",
+  "category": "platform"
+}
