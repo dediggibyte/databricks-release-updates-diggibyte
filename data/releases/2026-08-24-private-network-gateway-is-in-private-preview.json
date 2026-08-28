@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-24-private-network-gateway-is-in-private-preview",
+  "title": "Private network gateway is in Private Preview",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#private-network-gateway-is-in-private-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Private network gateway is in [Private Preview](/aws/en/release-notes/release-types). A private network gateway connects Databricks serverless compute to resources in your VPC, on-premises systems, and the internet through a single managed gateway, reusing your existing network connectivity configuration (NCC). Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses. See [Private network gateway](/aws/en/security/network/serverless-network-security/private-network-gateway).",
+  "ref_links": [
+    {
+      "text": "Private Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Private network gateway",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/private-network-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.736946Z"
+}

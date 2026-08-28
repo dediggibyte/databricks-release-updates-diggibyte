@@ -1,0 +1,41 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Open Unity Catalog tables in Genie: You can now open Unity Catalog tables directly in Genie without navigating to Catalog Explorer.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile#scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Open Unity Catalog tables in Genie: You can now open Unity Catalog tables directly in Genie without navigating to Catalog Explorer. + Tables in chat: Opening a table from chat keeps you in the conversation. View overview details, columns, and sample data next to your chat.",
+  "why_it_matters": "For IT and security teams, see Administer the Genie mobile app for configuration guidance, network security requirements, authentication setup, and Mobile Device Management (MDM) deployment.",
+  "plain_summary": "Open Unity Catalog tables in Genie: You can now open Unity Catalog tables directly in Genie without navigating to Catalog Explorer. + Tables in chat: Opening a table from chat keeps you in the conversation.",
+  "capabilities": [
+    {
+      "title": "Tables in chat: Opening a",
+      "desc": "Tables in chat: Opening a table from chat keeps you in the conversation. View overview details, columns, and sample data next to…"
+    },
+    {
+      "title": "Tables in Discover: Opening a",
+      "desc": "Tables in Discover: Opening a table from Discover shows a full-page catalog-style view optimized for Genie."
+    },
+    {
+      "title": "Ask Genie: From a table",
+      "desc": "Ask Genie: From a table in Discover, click Ask Genie to start a chat about that table."
+    },
+    {
+      "title": "Request access: If you only",
+      "desc": "Request access: If you only have browse access, you can request access from the table view. Pin chats: You can now pin a chat in…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Open Unity Catalog tables in Genie: You can now open Unity Catalog tables directly in Genie without navigating to Catalog Explorer.",
+  "note_id": "2026-08-27-genie-one-enhancements",
+  "category": "platform"
+}

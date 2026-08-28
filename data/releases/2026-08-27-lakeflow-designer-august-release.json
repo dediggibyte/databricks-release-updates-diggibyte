@@ -1,0 +1,65 @@
+{
+  "id": "2026-08-27-lakeflow-designer-august-release",
+  "title": "Lakeflow Designer August Release",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakeflow-designer-august-release",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version-history experience. The following updates are now available:\n\n* **Unique operator**: Use the new Unique operator to remove duplicate rows, optionally keying on a subset of columns and ordering the rows to control which duplicate is kept. See [Unique](/aws/en/designer/built-in-operators#unique).\n* **Count distinct**: The Aggregate operator now supports a `COUNT DISTINCT` function to count the unique values in a column. See [Aggregate](/aws/en/designer/built-in-operators#aggregate).\n* **Dynamic column selection**: The Select operator can now choose columns dynamically by data type, name pattern, or formula, so the output adapts as the input schema changes. See [Select](/aws/en/designer/built-in-operators#select).\n* **Python preview mode**: The Python operator can run different code during previews than during full runs by checking `config[\"is_preview\"]`, so you can skip side effects such as writes and notifications while previewing. See [Python preview mode](/aws/en/designer/built-in-operators#python-preview-mode).\n* **Streaming Python output**: Python operator output now streams into the output pane as the operator runs, so you can see results before the run finishes. See [Python](/aws/en/designer/built-in-operators#python).\n* **Enable and disable operators and groups**: Disable individual operators or entire groups to exclude them from runs, then enable them again when you need them. See [Group](/aws/en/designer/built-in-operators#group).\n* **Operator lineage highlighting**: Select an operator to highlight its lineage from upstream sources to downstream sinks on the canvas. See [Operators](/aws/en/designer/what-is-lakeflow-designer#operators).\n* **Run all**: Run every operator in the visual data prep at once with the new **Run all** button. See [Run the full visual data prep](/aws/en/designer/build-transformation#run-all).\n* **Exact row count for each operator**: You can now easily see the exact row count for each operator. Run an operator in Max mode to show its exact output row count beneath the operator on the canvas. See [Preview results](/aws/en/designer/build-transformation#preview).\n* **Apply results-table changes to the canvas as operators**: Filter and transform your data directly in the output table. After renaming, filtering, or inserting a column in the output table, click **Apply to canvas** to create operators that reproduce exactly what you did in the results table. See [Transform data directly in the results table](/aws/en/designer/build-transformation#results-table).\n* **Load more filter values**: When you use the Filter operator, you can now load more of a column's values on demand instead of only a sample. See [Filter](/aws/en/designer/built-in-operators#filter).\n* **@ mention menu for columns and functions**: Type `@` in an expression editor to search the operator's input columns and the built-in SQL functions, then insert the one you want. See [Custom columns](/aws/en/designer/built-in-operators#custom-columns).\n* **Visual canvas diff in version history**: Version history now shows a visual diff on the canvas, highlighting the operators that were added, removed, or changed between versions. See [version history](/aws/en/designer/build-transformation#tips).",
+  "ref_links": [
+    {
+      "text": "Unique",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#unique"
+    },
+    {
+      "text": "Aggregate",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#aggregate"
+    },
+    {
+      "text": "Select",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#select"
+    },
+    {
+      "text": "Python preview mode",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#python-preview-mode"
+    },
+    {
+      "text": "Python",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#python"
+    },
+    {
+      "text": "Group",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#group"
+    },
+    {
+      "text": "Operators",
+      "url": "https://docs.databricks.com/aws/en/designer/what-is-lakeflow-designer#operators"
+    },
+    {
+      "text": "Run the full visual data prep",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#run-all"
+    },
+    {
+      "text": "Preview results",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#preview"
+    },
+    {
+      "text": "Transform data directly in the results table",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#results-table"
+    },
+    {
+      "text": "Filter",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#filter"
+    },
+    {
+      "text": "Custom columns",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#custom-columns"
+    },
+    {
+      "text": "version history",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#tips"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.727245Z"
+}

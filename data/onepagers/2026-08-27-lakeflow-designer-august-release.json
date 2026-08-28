@@ -1,0 +1,24 @@
+{
+  "product": "Lakeflow Designer August Release",
+  "tagline": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version history experience.",
+  "updated": "Aug 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/build-transformation#tips",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakeflow-designer-august-release",
+  "what_it_does": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version history experience. The following updates are now available: Unique operator: Use the new Unique operator to remove duplicate rows, optionally keying on a subset of columns and ordering the rows to control which duplicate is kept. Count distinct: The Aggregate operator now supports a COUNT DISTINCT function to count the unique values in a column.",
+  "why_it_matters": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version history experience.",
+  "plain_summary": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version history experience. The following updates are now available: Unique operator: Use the new Unique…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version history experience.",
+  "note_id": "2026-08-27-lakeflow-designer-august-release",
+  "category": "platform"
+}

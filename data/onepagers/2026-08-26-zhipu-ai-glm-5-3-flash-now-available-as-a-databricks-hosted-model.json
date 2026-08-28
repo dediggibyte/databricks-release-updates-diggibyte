@@ -1,0 +1,24 @@
+{
+  "product": "Zhipu AI GLM 5.3 Flash now available as a Databricks-hosted model",
+  "tagline": "Model Serving now supports GLM 5.3 Flash as a Databricks hosted model.",
+  "updated": "Aug 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-flash-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now supports GLM 5.3 Flash as a Databricks hosted model. This natively multimodal mixture of experts (MoE) model has 320 billion total parameters and 18 billion active parameters. It supports text and image input, a 1 million token context window, reasoning, coding, and agentic tool use.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable terms.",
+  "plain_summary": "Model Serving now supports GLM 5.3 Flash as a Databricks hosted model. This natively multimodal mixture of experts (MoE) model has 320 billion total parameters and 18 billion active parameters.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports GLM 5.3 Flash as a Databricks hosted model.",
+  "note_id": "2026-08-26-zhipu-ai-glm-5-3-flash-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

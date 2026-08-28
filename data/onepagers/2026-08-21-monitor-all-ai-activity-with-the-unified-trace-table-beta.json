@@ -1,0 +1,24 @@
+{
+  "product": "Monitor all AI activity with the unified trace table (Beta)",
+  "tagline": "The unified trace table is in Beta.",
+  "updated": "Aug 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/unified-trace-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#monitor-all-ai-activity-with-the-unified-trace-table-beta",
+  "what_it_does": "The unified trace table is in Beta. It captures every request and response across your Unity AI Gateway services into one Unity Catalog table in OpenTelemetry format, giving you a single place to monitor, debug, secure, and audit all AI activity. Beta The unified trace table is in Beta.",
+  "why_it_matters": "It captures every request and response across your Unity AI Gateway services into one Unity Catalog table in OpenTelemetry format, giving you a single place to monitor, debug, secure, and audit all AI activity.",
+  "plain_summary": "The unified trace table is in Beta. It captures every request and response across your Unity AI Gateway services into one Unity Catalog table in OpenTelemetry format, giving you a single place to monitor, debug, secure, and audit all AI activity.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The unified trace table is in Beta.",
+  "note_id": "2026-08-21-monitor-all-ai-activity-with-the-unified-trace-table-beta",
+  "category": "platform"
+}

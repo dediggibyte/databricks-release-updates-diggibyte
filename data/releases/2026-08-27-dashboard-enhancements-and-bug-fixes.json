@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-27-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Hide pages in published dashboards**: Dashboard authors can now hide a page so that it doesn't appear when the dashboard is published, while keeping it in the dashboard for authors. See [Hide a page in published dashboards](/aws/en/dashboards/manage#hide-page).\n* **Path maps**: You can now use the path map visualization to show routes and connections between locations on a map. See [Map visualizations](/aws/en/dashboards/manage/visualizations/maps).\n* **Table column header alignment**: You can now set left, center, or right alignment for table column headers, independent of the cell alignment. See [Field-level settings](/aws/en/dashboards/manage/visualizations/tables#field-level-settings).",
+  "ref_links": [
+    {
+      "text": "Hide a page in published dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#hide-page"
+    },
+    {
+      "text": "Map visualizations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps"
+    },
+    {
+      "text": "Field-level settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#field-level-settings"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.720918Z"
+}

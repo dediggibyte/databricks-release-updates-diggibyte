@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Hide pages in published dashboards: Dashboard authors can now hide a page so that it doesn't appear when the dashboard is published, while keeping it in the dashboard for authors.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#field-level-settings",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Hide pages in published dashboards: Dashboard authors can now hide a page so that it doesn't appear when the dashboard is published, while keeping it in the dashboard for authors. Path maps: You can now use the path map visualization to show routes and connections between locations on a map. Table column header alignment: You can now set left, center, or right alignment for table column headers, independent of the cell alignment.",
+  "why_it_matters": "Color scale: Applies a continuous color gradient background based on cell values.",
+  "plain_summary": "Hide pages in published dashboards: Dashboard authors can now hide a page so that it doesn't appear when the dashboard is published, while keeping it in the dashboard for authors. Path maps: You can now use the path map visualization to show routes and…",
+  "capabilities": [
+    {
+      "title": "Header height: Specifies the header",
+      "desc": "Header height: Specifies the header height in pixels. Header text wraps to fill the specified height. Overflow text is truncated."
+    },
+    {
+      "title": "Default style: Set font color",
+      "desc": "Default style: Set font color, background color, and text formatting (bold, italic, underline) for all column headers."
+    },
+    {
+      "title": "Basic (default): Renders values as",
+      "desc": "Basic (default): Renders values as text. Additional formatting options include font colors, font styles, background colors, and…"
+    },
+    {
+      "title": "Image: Takes a base64-encoded string",
+      "desc": "Image: Takes a base64-encoded string and renders it as an image. To learn how to encode an image as a URL, see Image paths and…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Hide pages in published dashboards: Dashboard authors can now hide a page so that it doesn't appear when the dashboard is published, while keeping it in the dashboard for authors.",
+  "note_id": "2026-08-27-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

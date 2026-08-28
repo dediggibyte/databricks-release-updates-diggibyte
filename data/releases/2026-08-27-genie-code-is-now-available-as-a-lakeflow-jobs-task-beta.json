@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-27-genie-code-is-now-available-as-a-lakeflow-jobs-task-beta",
+  "title": "Genie Code is now available as a Lakeflow Jobs task (Beta)",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-is-now-available-as-a-lakeflow-jobs-task-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run prompts with Genie Code as a task in a Lakeflow Job. Genie Code runs your prompt autonomously. It can read upstream task outputs and call tools as needed. The task returns a link to the resulting Genie Code conversation with its response. See [Genie Code task for jobs](/aws/en/jobs/tasks/genie-code).",
+  "ref_links": [
+    {
+      "text": "Genie Code task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.727771Z"
+}

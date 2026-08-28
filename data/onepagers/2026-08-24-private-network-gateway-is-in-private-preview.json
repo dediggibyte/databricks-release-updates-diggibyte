@@ -1,0 +1,24 @@
+{
+  "product": "Private network gateway is in Private Preview",
+  "tagline": "Private network gateway is in Private Preview.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/private-network-gateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#private-network-gateway-is-in-private-preview",
+  "what_it_does": "Private network gateway is in Private Preview. A private network gateway connects Databricks serverless compute to resources in your VPC, on premises systems, and the internet through a single managed gateway, reusing your existing network connectivity configuration (NCC). Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses.",
+  "why_it_matters": "Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses.",
+  "plain_summary": "Private network gateway is in Private Preview. A private network gateway connects Databricks serverless compute to resources in your VPC, on premises systems, and the internet through a single managed gateway, reusing your existing network connectivity…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Private network gateway is in Private Preview.",
+  "note_id": "2026-08-24-private-network-gateway-is-in-private-preview",
+  "category": "platform"
+}

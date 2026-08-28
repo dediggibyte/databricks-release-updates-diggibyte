@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-27-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Agent mode APIs**: The Agent mode APIs for Genie Agents are now generally available. Run Agent mode programmatically to integrate it into your own applications, such as chatbots, scheduled reports, and internal tools. See the [Agent mode API reference](https://docs.databricks.com/api/genie/v1/agent-mode-create-response).\n* **Unity Catalog functions as agent tools**: Agent authors can now attach both scalar and table-valued Unity Catalog functions as tools for a Genie Agent. See [How does Genie use SQL functions?](/aws/en/genie-agents/tune-quality#how-does-genie-use-sql-functions).",
+  "ref_links": [
+    {
+      "text": "Agent mode API reference",
+      "url": "https://docs.databricks.com/api/genie/v1/agent-mode-create-response"
+    },
+    {
+      "text": "How does Genie use SQL functions?",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/tune-quality#how-does-genie-use-sql-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.721843Z"
+}

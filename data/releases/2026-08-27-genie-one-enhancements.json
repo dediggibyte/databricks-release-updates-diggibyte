@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Open Unity Catalog tables in Genie**: You can now open Unity Catalog tables directly in Genie without navigating to Catalog Explorer. See [Open tables](/aws/en/genie-one#open-tables).\n  + **Tables in chat**: Opening a table from chat keeps you in the conversation. View overview details, columns, and sample data next to your chat.\n  + **Tables in Discover**: Opening a table from Discover shows a full-page catalog-style view optimized for Genie.\n  + **Ask Genie**: From a table in Discover, click **Ask Genie** to start a chat about that table.\n  + **Request access**: If you only have browse access, you can request access from the table view.\n* **Pin chats**: You can now pin a chat in the Genie One sidebar to keep it at the top for quick access. See [Manage chats in the sidebar](/aws/en/genie-one/chat#manage-chats).\n* **Rename chats**: You can now rename a chat in the Genie One sidebar. See [Manage chats in the sidebar](/aws/en/genie-one/chat#manage-chats).\n* **Visualizations in scheduled task emails**: Scheduled task email outputs can now include visualizations. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).\n* **Genie One desktop app (Beta)**: The Genie One desktop app, a native macOS app, is now available. Chat with your data and work with Genie without a browser. See [Use Genie One on desktop](/aws/en/genie-one/desktop).\n* **Create scheduled tasks in the Genie mobile app (Public Preview)**: You can now create scheduled tasks directly from the Genie mobile app. See [Scheduled tasks](/aws/en/genie-one/mobile#scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "Open tables",
+      "url": "https://docs.databricks.com/aws/en/genie-one#open-tables"
+    },
+    {
+      "text": "Manage chats in the sidebar",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#manage-chats"
+    },
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    },
+    {
+      "text": "Use Genie One on desktop",
+      "url": "https://docs.databricks.com/aws/en/genie-one/desktop"
+    },
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile#scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-28T19:22:21.724039Z"
+}

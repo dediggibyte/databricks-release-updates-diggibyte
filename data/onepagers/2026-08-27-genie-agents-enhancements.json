@@ -1,0 +1,41 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Agent mode APIs: The Agent mode APIs for Genie Agents are now generally available.",
+  "updated": "Aug 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/tune-quality#how-does-genie-use-sql-functions",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-1",
+  "what_it_does": "Agent mode APIs: The Agent mode APIs for Genie Agents are now generally available. Run Agent mode programmatically to integrate it into your own applications, such as chatbots, scheduled reports, and internal tools. Unity Catalog functions as agent tools: Agent authors can now attach both scalar and table valued Unity Catalog functions as tools for a Genie Agent.",
+  "why_it_matters": "Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "plain_summary": "Agent mode APIs: The Agent mode APIs for Genie Agents are now generally available. Run Agent mode programmatically to integrate it into your own applications, such as chatbots, scheduled reports, and internal tools.",
+  "capabilities": [
+    {
+      "title": "Company-specific business information",
+      "desc": "Company-specific business information:"
+    },
+    {
+      "title": "Fiscal year starts in February",
+      "desc": "Fiscal year starts in February, for example fiscal year 26 or FY26 is February 1, 2026 through January 31, 2027"
+    },
+    {
+      "title": "Formatting",
+      "desc": "Formatting:"
+    },
+    {
+      "title": "Always respond in Spanish",
+      "desc": "Always respond in Spanish"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Agent mode APIs: The Agent mode APIs for Genie Agents are now generally available.",
+  "note_id": "2026-08-27-genie-agents-enhancements",
+  "category": "platform"
+}
