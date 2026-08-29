@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-26-zerobus-ingest-into-streaming-tables-is-now-generally-available",
+  "title": "Zerobus Ingest into streaming tables is now generally available",
+  "date": "2026-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-into-streaming-tables-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Ingesting into [streaming tables](/aws/en/ldp/concepts/streaming-tables) with Zerobus Ingest in Lakeflow Connect is now generally available. Writing to a streaming table works the same way as writing to a managed Delta table, with the same limits and quotas. See [Create or identify the target table](/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table).",
+  "ref_links": [
+    {
+      "text": "streaming tables",
+      "url": "https://docs.databricks.com/aws/en/ldp/concepts/streaming-tables"
+    },
+    {
+      "text": "Create or identify the target table",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-29T13:06:44.486009Z"
+}

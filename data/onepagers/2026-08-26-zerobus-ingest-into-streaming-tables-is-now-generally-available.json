@@ -1,0 +1,24 @@
+{
+  "product": "Zerobus Ingest into streaming tables is now generally available",
+  "tagline": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available.",
+  "updated": "Aug 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-into-streaming-tables-is-now-generally-available",
+  "what_it_does": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available. Writing to a streaming table works the same way as writing to a managed Delta table, with the same limits and quotas. This page describes how to ingest data using Zerobus Ingest in Lakeflow Connect.",
+  "why_it_matters": "Create a service principal and grant permissions A service principal is a specialized identity that provides more security than personalized accounts.",
+  "plain_summary": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available. Writing to a streaming table works the same way as writing to a managed Delta table, with the same limits and quotas.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available.",
+  "note_id": "2026-08-26-zerobus-ingest-into-streaming-tables-is-now-generally-available",
+  "category": "platform"
+}

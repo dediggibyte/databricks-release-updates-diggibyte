@@ -1,0 +1,27 @@
+{
+  "product": "Lakebase storage quota default increased to 32 TB",
+  "tagline": "The default database storage quota for Lakebase is now 32 TB, up from 16 TB.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-storage-quota-default-increased-to-32-tb",
+  "what_it_does": "The default database storage quota for Lakebase is now 32 TB, up from 16 TB. The new quota takes effect the next time a compute starts or restarts. A compute that is already running keeps the previous quota until its next restart.",
+  "why_it_matters": "note Computes with scale to zero enabled automatically suspend after a period of inactivity, helping you stay within the concurrently active compute limit.",
+  "plain_summary": "The default database storage quota for Lakebase is now 32 TB, up from 16 TB. The new quota takes effect the next time a compute starts or restarts.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "analytics",
+    "reporting queries"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The default database storage quota for Lakebase is now 32 TB, up from 16 TB.",
+  "note_id": "2026-08-27-lakebase-storage-quota-default-increased-to-32-tb",
+  "category": "platform"
+}

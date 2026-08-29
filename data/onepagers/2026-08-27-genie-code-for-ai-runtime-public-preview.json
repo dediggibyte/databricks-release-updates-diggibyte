@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code for AI Runtime (Public Preview)",
+  "tagline": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-for-ai-runtime-public-preview",
+  "what_it_does": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in Public Preview, it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload failures. Preview This feature is in Public Preview.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in Public Preview, it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime.",
+  "note_id": "2026-08-27-genie-code-for-ai-runtime-public-preview",
+  "category": "platform"
+}

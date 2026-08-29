@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-27-genie-code-for-ai-runtime-public-preview",
+  "title": "Genie Code for AI Runtime (Public Preview)",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-for-ai-runtime-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in [Public Preview](/aws/en/release-notes/release-types), it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload failures. See [Use Genie Code with AI Runtime](/aws/en/machine-learning/ai-runtime/genie-code).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Use Genie Code with AI Runtime",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-08-29T13:06:44.483603Z"
+}
