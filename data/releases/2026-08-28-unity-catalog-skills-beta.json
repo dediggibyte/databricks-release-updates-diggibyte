@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-28-unity-catalog-skills-beta",
+  "title": "Unity Catalog Skills (Beta)",
+  "date": "2026-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-skills-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first-class Unity Catalog securable (`catalog.schema.skill`) that follows the [SKILL.md specification](https://agentskills.io/home), so you register it once and control who can discover, use, and update it with the same permissions, tags, and audit that protect your tables. Coding agents download published skills or load them live over MCP. See [What are Unity Catalog Skills](/aws/en/agents/uc-skills).",
+  "ref_links": [
+    {
+      "text": "SKILL.md specification",
+      "url": "https://agentskills.io/home"
+    },
+    {
+      "text": "What are Unity Catalog Skills",
+      "url": "https://docs.databricks.com/aws/en/agents/uc-skills"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-01T12:29:57.711425Z"
+}

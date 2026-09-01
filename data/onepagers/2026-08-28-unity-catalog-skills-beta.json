@@ -1,0 +1,41 @@
+{
+  "product": "Unity Catalog Skills (Beta)",
+  "tagline": "You can now publish, govern, and share agent skills with Unity Catalog.",
+  "updated": "Aug 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/uc-skills",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-skills-beta",
+  "what_it_does": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first class Unity Catalog securable (catalog.schema.skill) that follows the SKILL.md specification, so you register it once and control who can discover, use, and update it with the same permissions, tags, and audit that protect your tables. Coding agents download published skills or load them live over MCP.",
+  "why_it_matters": "You can now publish, govern, and share agent skills with Unity Catalog.",
+  "plain_summary": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first class Unity Catalog securable (catalog.schema.skill) that follows the SKILL.md specification, so you register it once and control who can discover, use, and update it…",
+  "capabilities": [
+    {
+      "title": "Discover and use Unity Catalog",
+      "desc": "Discover and use Unity Catalog Skills"
+    },
+    {
+      "title": "Connect your coding agent to",
+      "desc": "Connect your coding agent to Databricks, then discover and use governed skills your team published."
+    },
+    {
+      "title": "Create and share Unity Catalog",
+      "desc": "Create and share Unity Catalog Skills"
+    },
+    {
+      "title": "Develop a skill locally, publish",
+      "desc": "Develop a skill locally, publish it to Unity Catalog, and share it so any teammate's agent can use it."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now publish, govern, and share agent skills with Unity Catalog.",
+  "note_id": "2026-08-28-unity-catalog-skills-beta",
+  "category": "platform"
+}

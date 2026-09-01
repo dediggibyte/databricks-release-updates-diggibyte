@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-12-glean-connector-in-lakeflow-connect-beta",
+  "title": "Glean connector in Lakeflow Connect (Beta)",
+  "date": "2026-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#glean-connector-in-lakeflow-connect-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now ingest data from Glean into Databricks using the managed Glean connector in Lakeflow Connect. The connector ingests company-wide usage insights for search, Assistant, and agents, along with the shortcuts (go links) defined in your Glean deployment, using a Glean Client API token. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [Glean connector](/aws/en/ingestion/lakeflow-connect/glean).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Glean connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/glean"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-01T12:29:57.779901Z"
+}

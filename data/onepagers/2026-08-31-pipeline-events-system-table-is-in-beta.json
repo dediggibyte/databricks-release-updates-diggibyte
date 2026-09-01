@@ -1,0 +1,33 @@
+{
+  "product": "Pipeline events system table is in Beta",
+  "tagline": "The pipeline events system table is in Beta.",
+  "updated": "Aug 31, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/pipeline-events",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#pipeline-events-system-table-is-in-beta",
+  "what_it_does": "The pipeline events system table is in Beta. This table records Lakeflow pipelines event log entries for pipelines in your account, capturing lifecycle transitions, flow progress, data quality metrics, errors, and other operational data across all pipelines and workspaces in a region. Use it to query historical pipeline activity, build alerts on pipeline failures, and correlate pipeline behavior with other Lakeflow system tables.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The pipeline events system table is in Beta. This table records Lakeflow pipelines event log entries for pipelines in your account, capturing lifecycle transitions, flow progress, data quality metrics, errors, and other operational data across all pipelines…",
+  "capabilities": [
+    {
+      "title": "Be both a metastore admin",
+      "desc": "Be both a metastore admin and an account admin, or"
+    },
+    {
+      "title": "Have USE and SELECT permissions",
+      "desc": "Have USE and SELECT permissions on the system schemas. See Grant access to system tables."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The pipeline events system table is in Beta.",
+  "note_id": "2026-08-31-pipeline-events-system-table-is-in-beta",
+  "category": "platform"
+}
