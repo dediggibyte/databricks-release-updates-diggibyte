@@ -1,0 +1,24 @@
+{
+  "product": "Genie One and Genie Agents can now use models served through OpenAI on…",
+  "tagline": "Genie One and Genie Agents can now use models served through OpenAI on Databricks when partner powered AI features are enabled.",
+  "updated": "Sep 1, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered#features",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-one-and-genie-agents-can-now-use-models-served-through-openai-on-databricks",
+  "what_it_does": "Genie One and Genie Agents can now use models served through OpenAI on Databricks when partner powered AI features are enabled. For the hosting provider used by each feature, see Hosting provider used when partner powered AI features setting is enabled and disabled. The partner powered AI features setting controls whether some features are powered by models hosted by a partner provider.",
+  "why_it_matters": "By default, this setting is enabled for all workspaces that do not have a compliance security profile (CSP) enabled.",
+  "plain_summary": "Genie One and Genie Agents can now use models served through OpenAI on Databricks when partner powered AI features are enabled. For the hosting provider used by each feature, see Hosting provider used when partner powered AI features setting is enabled and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie One and Genie Agents can now use models served through OpenAI on Databricks when partner powered AI features are enabled.",
+  "note_id": "2026-09-01-b28ecf0b",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-01-apache-arrow-support-for-zerobus-ingest-is-now-generally-available",
+  "title": "Apache Arrow support for Zerobus Ingest is now generally available",
+  "date": "2026-09-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#apache-arrow-support-for-zerobus-ingest-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available. See [Use Arrow Flight with Zerobus Ingest](/aws/en/ingestion/zerobus-arrow-flight).",
+  "ref_links": [
+    {
+      "text": "Use Arrow Flight with Zerobus Ingest",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-arrow-flight"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-02T12:02:57.064558Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Apache Arrow support for Zerobus Ingest is now generally available",
+  "tagline": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available.",
+  "updated": "Sep 1, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/zerobus-arrow-flight",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#apache-arrow-support-for-zerobus-ingest-is-now-generally-available",
+  "what_it_does": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available. Arrow Flight ingestion lets you send Apache Arrow RecordBatch data directly to Zerobus Ingest instead of converting every row to JSON or Protocol Buffers (protobuf) first. It is a third record format option in Zerobus SDKs that support Arrow Flight, alongside JSON and protobuf, and it runs over the same gRPC connection.",
+  "why_it_matters": "Prefer this when the client is CPU constrained but still wants to reduce bytes on the wire.",
+  "plain_summary": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available.",
+  "note_id": "2026-09-01-apache-arrow-support-for-zerobus-ingest-is-now-generally-available",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie One web search is in Beta",
+  "tagline": "Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news.",
+  "updated": "Sep 1, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#web-search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-one-web-search-is-in-beta",
+  "what_it_does": "Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news. Genie One cites the external sources it uses as links in its response. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions.",
+  "why_it_matters": "Low: This level lowers the cost for simpler tasks.",
+  "plain_summary": "Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news. Genie One cites the external sources it uses as links in its response.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie One can now search the public web to answer questions that need current information, such as recent release notes, third party documentation, or news.",
+  "note_id": "2026-09-01-genie-one-web-search-is-in-beta",
+  "category": "platform"
+}

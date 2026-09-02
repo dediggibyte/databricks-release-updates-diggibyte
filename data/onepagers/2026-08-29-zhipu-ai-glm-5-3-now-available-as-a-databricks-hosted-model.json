@@ -1,0 +1,24 @@
+{
+  "product": "Zhipu AI GLM 5.3 now available as a Databricks-hosted model",
+  "tagline": "Model Serving now supports GLM 5.3 as a Databricks hosted model in supported US and Americas regions.",
+  "updated": "Aug 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now supports GLM 5.3 as a Databricks hosted model in supported US and Americas regions. This text only mixture of experts (MoE) model supports a context window of up to 1,048,576 tokens, up to 65,536 output tokens, function calling, structured output, coding, agentic tool use, and always on reasoning. You can access this model using Foundation Model APIs.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable terms.",
+  "plain_summary": "Model Serving now supports GLM 5.3 as a Databricks hosted model in supported US and Americas regions. This text only mixture of experts (MoE) model supports a context window of up to 1,048,576 tokens, up to 65,536 output tokens, function calling, structured…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model Serving now supports GLM 5.3 as a Databricks hosted model in supported US and Americas regions.",
+  "note_id": "2026-08-29-zhipu-ai-glm-5-3-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Cross-workspace access for serverless (Beta)",
+  "tagline": "You can now control serverless network traffic between Databricks workspaces.",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/cross-workspace-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#cross-workspace-access-for-serverless-beta",
+  "what_it_does": "You can now control serverless network traffic between Databricks workspaces. Account admins use cross workspace access to set which source workspaces can reach a workspace (ingress) and which destination workspaces a workspace's serverless workloads can send traffic to (egress). Traffic flows only when both the source workspace's egress rules and the destination workspace's ingress rules permit it.",
+  "why_it_matters": "It does not govern classic compute traffic.",
+  "plain_summary": "You can now control serverless network traffic between Databricks workspaces. Account admins use cross workspace access to set which source workspaces can reach a workspace (ingress) and which destination workspaces a workspace's serverless workloads can…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now control serverless network traffic between Databricks workspaces.",
+  "note_id": "2026-08-13-cross-workspace-access-for-serverless-beta",
+  "category": "platform"
+}

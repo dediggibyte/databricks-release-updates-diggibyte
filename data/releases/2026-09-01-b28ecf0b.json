@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-01-b28ecf0b",
+  "title": "Genie One and Genie Agents can now use models served through OpenAI on Databricks",
+  "date": "2026-09-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-one-and-genie-agents-can-now-use-models-served-through-openai-on-databricks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Genie One](/aws/en/genie-one) and [Genie Agents](/aws/en/genie-agents) can now use models served through OpenAI on Databricks when [partner-powered AI features](/aws/en/databricks-ai/partner-powered) are enabled. For the hosting provider used by each feature, see [Hosting provider used when partner-powered AI features setting is enabled and disabled](/aws/en/databricks-ai/partner-powered#features).",
+  "ref_links": [
+    {
+      "text": "Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one"
+    },
+    {
+      "text": "Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie-agents"
+    },
+    {
+      "text": "partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    },
+    {
+      "text": "Hosting provider used when partner-powered AI features setting is enabled and disabled",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered#features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-02T12:02:57.066435Z"
+}
