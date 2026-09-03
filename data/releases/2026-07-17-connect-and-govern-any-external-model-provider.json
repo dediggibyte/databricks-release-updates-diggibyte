@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-17-connect-and-govern-any-external-model-provider",
+  "title": "Connect and govern any external model provider",
+  "date": "2026-07-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#connect-and-govern-any-external-model-provider",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query it through Unity Gateway with full governance and observability.\n\nWith external model providers, you get:\n\n* **Choice**: Adopt any model on day one, and switch between models or OpenAI-compatible providers without re-integrating.\n* **Control**: Govern access with standard `GRANT` and `REVOKE` (`EXECUTE` to query, `MANAGE` to update), and attach rate limits and guardrails that apply to every request.\n* **Clarity**: Usage and spend tracking is on by default, with token counts, latency, and cost attribution per user, team, or app. Attach inference tables to log full request and response payloads to a governed Delta table.\n\nSee [Govern external model providers (model provider services)](/aws/en/ai-gateway/model-provider-services).",
+  "ref_links": [
+    {
+      "text": "Govern external model providers (model provider services)",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/model-provider-services"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.209273Z"
+}

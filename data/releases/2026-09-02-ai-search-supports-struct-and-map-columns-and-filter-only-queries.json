@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-02-ai-search-supports-struct-and-map-columns-and-filter-only-queries",
+  "title": "AI Search supports struct and map columns and filter-only queries",
+  "date": "2026-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai-search-supports-struct-and-map-columns-and-filter-only-queries",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now index and filter struct and map columns in AI Search, and run filter-only queries that return rows matching a filter without vector or keyword retrieval. See [Query an AI Search index](/aws/en/ai-search/query-ai-search).",
+  "ref_links": [
+    {
+      "text": "Query an AI Search index",
+      "url": "https://docs.databricks.com/aws/en/ai-search/query-ai-search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:28.986196Z"
+}

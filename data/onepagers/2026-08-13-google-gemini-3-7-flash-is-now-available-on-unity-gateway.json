@@ -1,0 +1,33 @@
+{
+  "product": "Google Gemini 3.7 Flash is now available on Unity Gateway",
+  "tagline": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost efficient everyday tasks.",
+  "updated": "Aug 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-37-flash-is-now-available-on-unity-gateway",
+  "what_it_does": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost efficient everyday tasks. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code. Customers are responsible for ensuring their compliance with applicable terms.",
+  "why_it_matters": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost efficient everyday tasks.",
+  "plain_summary": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost efficient everyday tasks. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without…",
+  "capabilities": [
+    {
+      "title": "Foundation Model APIs regions",
+      "desc": "Foundation Model APIs regions"
+    },
+    {
+      "title": "External models regions To send",
+      "desc": "External models regions To send a scoring request through the OpenAI client, REST API or MLflow Deployment SDK, you must have a…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost efficient everyday tasks.",
+  "note_id": "2026-08-13-google-gemini-3-7-flash-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

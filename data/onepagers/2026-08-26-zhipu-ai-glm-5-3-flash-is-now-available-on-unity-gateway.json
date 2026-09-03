@@ -1,0 +1,33 @@
+{
+  "product": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway",
+  "tagline": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads.",
+  "updated": "Aug 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#zhipu-ai-glm-53-flash-is-now-available-on-unity-gateway",
+  "what_it_does": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code. Customers are responsible for ensuring their compliance with applicable terms.",
+  "why_it_matters": "Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.",
+  "plain_summary": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch…",
+  "capabilities": [
+    {
+      "title": "Foundation Model APIs regions",
+      "desc": "Foundation Model APIs regions"
+    },
+    {
+      "title": "External models regions To send",
+      "desc": "External models regions To send a scoring request through the OpenAI client, REST API or MLflow Deployment SDK, you must have a…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads.",
+  "note_id": "2026-08-26-zhipu-ai-glm-5-3-flash-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

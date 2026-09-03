@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-06-unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
+  "title": "Unity Gateway API: Manage resources with SDKs, the CLI, and Terraform",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers. The API is available across standard Databricks developer tools:\n\n* Python SDK: `databricks-sdk` 0.125.0 and later\n* Go SDK: `databricks-sdk-go` v0.170.0 and later\n* Java SDK: `databricks-sdk-java` 0.143.0 and later\n* Databricks CLI: v1.11.0 and later\n* Terraform provider: 1.124.0 and later\n\nSee the [Unity Gateway API reference](https://docs.databricks.com/api/workspace/aigateway).",
+  "ref_links": [
+    {
+      "text": "Unity Gateway API reference",
+      "url": "https://docs.databricks.com/api/workspace/aigateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.110555Z"
+}

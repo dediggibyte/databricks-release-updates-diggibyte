@@ -1,0 +1,24 @@
+{
+  "product": "Git Folder Serverless is in Beta",
+  "tagline": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml managed environment across notebooks and files in a Git folder.",
+  "updated": "Sep 2, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/notebooks/git-folder-serverless",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#git-folder-serverless-is-in-beta",
+  "what_it_does": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml managed environment across notebooks and files in a Git folder. Beta This feature is in Beta. Git Folder Serverless provides a single serverless compute resource shared across assets in a Git folder, including notebooks and files.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml managed environment across notebooks and files in a Git folder.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml managed environment across notebooks and files in a Git folder.",
+  "note_id": "2026-09-02-git-folder-serverless-is-in-beta",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-06-databricks-managed-mcp-connectors-are-now-integrated-with-unity-gateway-beta",
+  "title": "Databricks-managed MCP connectors are now integrated with Unity Gateway (Beta)",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#databricks-managed-mcp-connectors-are-now-integrated-with-unity-gateway-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "All [Databricks-managed MCP connectors](/aws/en/genie-one/external-sources) for Genie One and Genie Code have migrated to the [Unity Gateway](/aws/en/ai-gateway). This brings Databricks-managed connectors under Unity Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.\n\nUsers must reauthenticate their connectors to continue using them with Genie One and Genie Code. A notification in Genie prompts impacted users to reconnect.",
+  "ref_links": [
+    {
+      "text": "Databricks-managed MCP connectors",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    },
+    {
+      "text": "Unity Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.108189Z"
+}

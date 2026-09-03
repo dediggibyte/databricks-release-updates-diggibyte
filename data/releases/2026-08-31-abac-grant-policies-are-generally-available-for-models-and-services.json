@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-31-abac-grant-policies-are-generally-available-for-models-and-services",
+  "title": "ABAC GRANT policies are generally available for models and services",
+  "date": "2026-08-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#abac-grant-policies-are-generally-available-for-models-and-services",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "ABAC GRANT policies for models, model services, model provider services, Model Context Protocol (MCP) services, and agent services are now generally available. These policies dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. See [ABAC GRANT policies](/aws/en/data-governance/unity-catalog/abac/grant-policies).",
+  "ref_links": [
+    {
+      "text": "ABAC GRANT policies",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/grant-policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:28.993564Z"
+}

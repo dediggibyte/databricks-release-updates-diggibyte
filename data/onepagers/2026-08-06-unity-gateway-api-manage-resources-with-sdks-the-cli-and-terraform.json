@@ -1,0 +1,24 @@
+{
+  "product": "Unity Gateway API: Manage resources with SDKs, the CLI, and Terraform",
+  "tagline": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers.",
+  "updated": "Aug 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/api/workspace/aigateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
+  "what_it_does": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers. The API is available across standard Databricks developer tools: Python SDK: databricks sdk 0.125.0 and later Go SDK: databricks sdk go v0.170.0 and later Java SDK: databricks sdk java 0.143.0 and later Databricks CLI: v1.11.0 and later Terraform provider: 1.124.0 and later See the Unity Gateway API reference. View as MarkdownCopy as Markdown A Unity Catalog securable that registers an MCP server through a Unity Catalog connection and exposes its tools for discovery, authorization, and invocation.",
+  "why_it_matters": "View as MarkdownCopy as Markdown A Unity Catalog securable that registers an MCP server through a Unity Catalog connection and exposes its tools for discovery, authorization, and invocation.",
+  "plain_summary": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers. The API is available across standard Databricks developer…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers.",
+  "note_id": "2026-08-06-unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
+  "category": "platform"
+}

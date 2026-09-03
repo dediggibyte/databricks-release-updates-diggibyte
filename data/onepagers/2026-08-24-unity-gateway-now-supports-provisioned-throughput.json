@@ -1,0 +1,41 @@
+{
+  "product": "Unity Gateway now supports Provisioned Throughput",
+  "tagline": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model…",
+  "updated": "Aug 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-now-supports-provisioned-throughput",
+  "what_it_does": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic. Beta This page covers the new Unity AI Gateway (visible in the sidebar of the UI), which is currently in Beta. Account admins can enable access to this feature in the account console Previews page.",
+  "why_it_matters": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.",
+  "plain_summary": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.",
+  "capabilities": [
+    {
+      "title": "AI governance guide",
+      "desc": "AI governance guide"
+    },
+    {
+      "title": "An end-to-end path for administrators",
+      "desc": "An end-to-end path for administrators to govern access to AI assets, traffic and cost, and the content of requests and responses."
+    },
+    {
+      "title": "Tutorial: Govern a coding agent's",
+      "desc": "Tutorial: Govern a coding agent's GitHub MCP access"
+    },
+    {
+      "title": "Restrict a coding agent's access",
+      "desc": "Restrict a coding agent's access to GitHub MCP tools using Unity Catalog permissions and a built-in service policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model…",
+  "note_id": "2026-08-24-unity-gateway-now-supports-provisioned-throughput",
+  "category": "platform"
+}

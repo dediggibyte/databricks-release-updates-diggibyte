@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-13-smart-routing-cut-ai-costs-by-routing-each-task-to-the-right-model",
+  "title": "Smart Routing: Cut AI costs by routing each task to the right model",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#smart-routing-cut-ai-costs-by-routing-each-task-to-the-right-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Smart Routing (Beta) automatically picks the right model and agent harness for each task, based on complexity, permissions, and budget. It shifts routine work to lower-cost models and reserves frontier models for hard problems, and every routing decision is visible and auditable. Smart Routing works with Claude Code and Codex when you run them through Omnigent or `ucode`, and routes across both proprietary and open models. Only Omnigent can route across coding harnesses, not just models. In internal benchmarks, it matched frontier-level quality while cutting overall task cost by more than 30%.\n\nSee [Smart Routing for coding agents](/aws/en/ai-gateway/smart-routing).",
+  "ref_links": [
+    {
+      "text": "Smart Routing for coding agents",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/smart-routing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.073642Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Unity Gateway is now generally available",
+  "tagline": "Unity Gateway is now generally available.",
+  "updated": "Aug 4, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/ai-governance",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-is-now-generally-available",
+  "what_it_does": "Unity Gateway is now generally available. Unity Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity Gateway you can: Control which AI services teams can use.",
+  "why_it_matters": "Unity Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog.",
+  "plain_summary": "Unity Gateway is now generally available. Unity Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Gateway is now generally available.",
+  "note_id": "2026-08-04-unity-gateway-is-now-generally-available",
+  "category": "platform"
+}

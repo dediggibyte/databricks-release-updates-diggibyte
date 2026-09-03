@@ -1,0 +1,41 @@
+{
+  "product": "Block or redact sensitive data in requests and responses",
+  "tagline": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or…",
+  "updated": "Aug 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/detect-sensitive-data",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#block-or-redact-sensitive-data-in-requests-and-responses",
+  "what_it_does": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place. Detection is deterministic (regular expressions plus checksums and context keywords, with no evaluator model), so it adds under 50 ms for a 100 turn conversation and returns the same result every time. To use it, enable the Enhanced Unity Gateway preview on the account console Previews page.",
+  "why_it_matters": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place.",
+  "plain_summary": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place. Detection is…",
+  "capabilities": [
+    {
+      "title": "Block: Databricks denies the interaction",
+      "desc": "Block: Databricks denies the interaction. Instead of an error, the caller receives a successful (HTTP 200) response whose…"
+    },
+    {
+      "title": "Redact: Databricks replaces each matched",
+      "desc": "Redact: Databricks replaces each matched value with a placeholder token, such as [USSSN], and forwards the rewritten content. On…"
+    },
+    {
+      "title": "Public figures, executives, politicians, celebrities",
+      "desc": "Public figures, executives, politicians, celebrities, or historical people named in a public, business, or newsworthy context…"
+    },
+    {
+      "title": "Companies, brands, organizations, funds, or",
+      "desc": "Companies, brands, organizations, funds, or institutions (for example, Morgan Stanley, Apple, Goldman Sachs)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or…",
+  "note_id": "2026-08-13-block-or-redact-sensitive-data-in-requests-and-responses",
+  "category": "platform"
+}

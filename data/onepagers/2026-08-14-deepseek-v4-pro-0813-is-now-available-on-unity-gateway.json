@@ -1,0 +1,33 @@
+{
+  "product": "DeepSeek V4 Pro (0813) is now available on Unity Gateway",
+  "tagline": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows.",
+  "updated": "Aug 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
+  "what_it_does": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code. To query the model and see supported regions, see Use foundation models.",
+  "why_it_matters": "Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.",
+  "plain_summary": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch…",
+  "capabilities": [
+    {
+      "title": "Foundation Model APIs regions",
+      "desc": "Foundation Model APIs regions"
+    },
+    {
+      "title": "External models regions To send",
+      "desc": "External models regions To send a scoring request through the OpenAI client, REST API or MLflow Deployment SDK, you must have a…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows.",
+  "note_id": "2026-08-14-deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

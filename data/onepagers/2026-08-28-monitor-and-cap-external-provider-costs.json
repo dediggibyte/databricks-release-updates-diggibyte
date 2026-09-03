@@ -1,0 +1,44 @@
+{
+  "product": "Monitor and cap external provider costs",
+  "tagline": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks provided models.",
+  "updated": "Aug 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/budgets#include-external-model-usage",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#monitor-and-cap-external-provider-costs",
+  "what_it_does": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks provided models. If your organization already has capacity commitments directly with a provider, Unity Gateway becomes the single point to track that usage and enforce spend limits across teams and use cases. To turn it on, enable External Model Spend in Budgets (Beta) on the account console Previews page, then select Include external model usage when you create a budget scoped to the Unity Gateway resource type.",
+  "why_it_matters": "Account and workspace admins can view a summary of AI budget status and spend on the AI page in Governance Hub.",
+  "plain_summary": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks provided models. If your organization already has capacity commitments directly with a provider, Unity Gateway becomes the…",
+  "capabilities": [
+    {
+      "title": "A user may be blocked",
+      "desc": "A user may be blocked before their actual spend reaches the threshold."
+    },
+    {
+      "title": "An amount of spend over",
+      "desc": "An amount of spend over the threshold may occur before enforcement takes effect. Active requests in progress when the threshold…"
+    },
+    {
+      "title": "Budget alert emails: Reflect spend",
+      "desc": "Budget alert emails: Reflect spend at the moment the alert was triggered."
+    },
+    {
+      "title": "Budget details page: Updates frequently",
+      "desc": "Budget details page: Updates frequently but may show a lower amount than a recent alert email when viewed shortly after."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "enforce spend limits across teams",
+    "use cases."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks provided models.",
+  "note_id": "2026-08-28-monitor-and-cap-external-provider-costs",
+  "category": "platform"
+}

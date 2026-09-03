@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-28-monitor-and-cap-external-provider-costs",
+  "title": "Monitor and cap external provider costs",
+  "date": "2026-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#monitor-and-cap-external-provider-costs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks-provided models. If your organization already has capacity commitments directly with a provider, Unity Gateway becomes the single point to track that usage and enforce spend limits across teams and use cases. To turn it on, enable **External Model Spend in Budgets** (Beta) on the account console **Previews** page, then select **Include external model usage** when you create a budget scoped to the Unity Gateway resource type.\n\nSee [Include external model usage](/aws/en/ai-gateway/budgets#include-external-model-usage).",
+  "ref_links": [
+    {
+      "text": "Include external model usage",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/budgets#include-external-model-usage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:28.997337Z"
+}

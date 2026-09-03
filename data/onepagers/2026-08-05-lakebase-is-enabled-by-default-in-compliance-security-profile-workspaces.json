@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase is enabled by default in compliance security profile workspaces",
+  "tagline": "Lakebase is now enabled by default in workspaces with the compliance security profile, including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a…",
+  "updated": "Aug 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-is-enabled-by-default-in-compliance-security-profile-workspaces",
+  "what_it_does": "Lakebase is now enabled by default in workspaces with the compliance security profile, including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a compliance standard. You no longer need to enable Lakebase in these workspaces. Lakebase Postgres provides data protection features to help secure your databases and control access to critical data.",
+  "why_it_matters": "Lakebase is now enabled by default in workspaces with the compliance security profile, including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a compliance standard.",
+  "plain_summary": "Lakebase is now enabled by default in workspaces with the compliance security profile, including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a compliance standard. You no longer need to enable Lakebase…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now enabled by default in workspaces with the compliance security profile, including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a…",
+  "note_id": "2026-08-05-lakebase-is-enabled-by-default-in-compliance-security-profile-workspaces",
+  "category": "platform"
+}

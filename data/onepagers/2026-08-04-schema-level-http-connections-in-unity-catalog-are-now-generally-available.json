@@ -1,0 +1,41 @@
+{
+  "product": "Schema-level HTTP connections in Unity Catalog are now generally available",
+  "tagline": "HTTP connections in Unity Catalog are now generally available at the schema level.",
+  "updated": "Aug 4, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/query-federation/http",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#schema-level-http-connections-in-unity-catalog-are-now-generally-available",
+  "what_it_does": "HTTP connections in Unity Catalog are now generally available at the schema level. You can create an HTTP connection inside a schema instead of only at the metastore level. A schema level connection uses the three level namespace (catalog.schema.connection) and inherits Unity Catalog privileges from its parent schema, so you can apply the same access controls and auditing that you use for other data assets.",
+  "why_it_matters": "An HTTP connection is a Unity Catalog securable object that stores endpoint and credential information for an external HTTP service.",
+  "plain_summary": "HTTP connections in Unity Catalog are now generally available at the schema level. You can create an HTTP connection inside a schema instead of only at the metastore level.",
+  "capabilities": [
+    {
+      "title": "Bearer token: Obtain a bearer",
+      "desc": "Bearer token: Obtain a bearer token for simple token-based authentication."
+    },
+    {
+      "title": "Dynamic Client Registration (DCR): Automatically",
+      "desc": "Dynamic Client Registration (DCR): Automatically discover and register OAuth credentials using the RFC 7591 protocol. Each user…"
+    },
+    {
+      "title": "OAuth 2.0 Machine-to-Machine: Create and",
+      "desc": "OAuth 2.0 Machine-to-Machine: Create and configure an app to enable machine-to-machine authentication."
+    },
+    {
+      "title": "OAuth 2.0 User-to-Machine Shared: Authenticate",
+      "desc": "OAuth 2.0 User-to-Machine Shared: Authenticate with user interaction to share access between service identity and machine."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "HTTP connections in Unity Catalog are now generally available at the schema level.",
+  "note_id": "2026-08-04-schema-level-http-connections-in-unity-catalog-are-now-generally-available",
+  "category": "platform"
+}

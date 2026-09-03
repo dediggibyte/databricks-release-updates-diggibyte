@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-14-deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
+  "title": "DeepSeek V4 Pro (0813) is now available on Unity Gateway",
+  "date": "2026-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see [Use foundation models](/aws/en/machine-learning/model-serving/score-foundation-models).",
+  "ref_links": [
+    {
+      "text": "Use foundation models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.053710Z"
+}

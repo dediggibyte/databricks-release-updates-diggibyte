@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-05-lakebase-is-enabled-by-default-in-compliance-security-profile-workspaces",
+  "title": "Lakebase is enabled by default in compliance security profile workspaces",
+  "date": "2026-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-is-enabled-by-default-in-compliance-security-profile-workspaces",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now enabled by default in workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile), including workspaces that use the HIPAA, C5, or TISAX standard and workspaces that enable the profile without a compliance standard. You no longer need to enable Lakebase in these workspaces. See [Data protection](/aws/en/oltp/projects/data-protection).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Data protection",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.116635Z"
+}

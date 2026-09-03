@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-30-use-unity-gateway-with-your-own-claude-enterprise-subscription",
+  "title": "Use Unity Gateway with your own Claude enterprise subscription",
+  "date": "2026-07-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#use-unity-gateway-with-your-own-claude-enterprise-subscription",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control. Databricks relays your Anthropic OAuth token on each request, so no credentials are stored, and requests bill against your Anthropic subscription. Access is governed by standard Unity Catalog privileges on the model provider you register, and gateway features such as usage tracking, inference tables, rate limits, and spend tracking keep working.\n\nSee [Claude Max and Anthropic Enterprise support](/aws/en/ai-gateway/claude-max-anthropic-enterprise-support).",
+  "ref_links": [
+    {
+      "text": "Claude Max and Anthropic Enterprise support",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/claude-max-anthropic-enterprise-support"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.155440Z"
+}

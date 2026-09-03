@@ -1,0 +1,24 @@
+{
+  "product": "Connect and govern any external model provider",
+  "tagline": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway.",
+  "updated": "Jul 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/model-provider-services",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#connect-and-govern-any-external-model-provider",
+  "what_it_does": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query it through Unity Gateway with full governance and observability. With external model providers, you get: Choice: Adopt any model on day one, and switch between models or OpenAI compatible providers without re integrating.",
+  "why_it_matters": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway.",
+  "plain_summary": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway.",
+  "note_id": "2026-07-17-connect-and-govern-any-external-model-provider",
+  "category": "platform"
+}

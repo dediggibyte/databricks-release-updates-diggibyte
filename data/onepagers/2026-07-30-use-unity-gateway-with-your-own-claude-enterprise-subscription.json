@@ -1,0 +1,24 @@
+{
+  "product": "Use Unity Gateway with your own Claude enterprise subscription",
+  "tagline": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage…",
+  "updated": "Jul 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/claude-max-anthropic-enterprise-support",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#use-unity-gateway-with-your-own-claude-enterprise-subscription",
+  "what_it_does": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control. Databricks relays your Anthropic OAuth token on each request, so no credentials are stored, and requests bill against your Anthropic subscription. Access is governed by standard Unity Catalog privileges on the model provider you register, and gateway features such as usage tracking, inference tables, rate limits, and spend tracking keep working.",
+  "why_it_matters": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control.",
+  "plain_summary": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control. Databricks relays your…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage…",
+  "note_id": "2026-07-30-use-unity-gateway-with-your-own-claude-enterprise-subscription",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-06-moonshot-ai-kimi-k3-is-now-available-on-unity-gateway",
+  "title": "Moonshot AI Kimi K3 is now available on Unity Gateway",
+  "date": "2026-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#moonshot-ai-kimi-k3-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Moonshot AI Kimi K3 is now available on Unity Gateway for long-horizon coding, knowledge work, and reasoning, with native vision. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see [Use foundation models](/aws/en/machine-learning/model-serving/score-foundation-models).",
+  "ref_links": [
+    {
+      "text": "Use foundation models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.108898Z"
+}

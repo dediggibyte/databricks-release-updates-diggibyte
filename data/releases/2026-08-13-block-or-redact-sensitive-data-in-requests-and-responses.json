@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-13-block-or-redact-sensitive-data-in-requests-and-responses",
+  "title": "Block or redact sensitive data in requests and responses",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#block-or-redact-sensitive-data-in-requests-and-responses",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place. Detection is deterministic (regular expressions plus checksums and context keywords, with no evaluator model), so it adds under 50 ms for a 100-turn conversation and returns the same result every time. To use it, enable the **Enhanced Unity Gateway preview** on the account console **Previews** page.\n\nThis release also includes the following improvements:\n\n* Blocked interactions now return a standard HTTP 200 response with the block reason, instead of a 4xx error, so coding agents that resend history don't re-trigger the same block every turn.\n* Built-in LLM-as-a-judge guardrails can now evaluate a window of recent conversation turns, or the entire conversation history, instead of only the latest message.\n* A new execution flow view shows the order in which guardrails run, end to end.\n\nSee [Detect sensitive data with a service policy](/aws/en/data-governance/unity-catalog/service-policies/detect-sensitive-data).",
+  "ref_links": [
+    {
+      "text": "Detect sensitive data with a service policy",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/detect-sensitive-data"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.072637Z"
+}

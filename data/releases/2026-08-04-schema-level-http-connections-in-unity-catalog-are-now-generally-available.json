@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-04-schema-level-http-connections-in-unity-catalog-are-now-generally-available",
+  "title": "Schema-level HTTP connections in Unity Catalog are now generally available",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#schema-level-http-connections-in-unity-catalog-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "HTTP connections in Unity Catalog are now generally available at the schema level. You can create an HTTP connection inside a schema instead of only at the metastore level. A schema-level connection uses the three-level namespace (`catalog.schema.connection`) and inherits Unity Catalog privileges from its parent schema, so you can apply the same access controls and auditing that you use for other data assets. Metastore-level HTTP connections remain in [Public Preview](/aws/en/release-notes/release-types). See [Connect to external HTTP services](/aws/en/query-federation/http).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Connect to external HTTP services",
+      "url": "https://docs.databricks.com/aws/en/query-federation/http"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.126438Z"
+}

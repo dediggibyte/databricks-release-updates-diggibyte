@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-24-unity-gateway-now-supports-provisioned-throughput",
+  "title": "Unity Gateway now supports Provisioned Throughput",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-now-supports-provisioned-throughput",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.\n\nSee [AI governance with Unity AI Gateway](/aws/en/ai-gateway).",
+  "ref_links": [
+    {
+      "text": "AI governance with Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.023783Z"
+}

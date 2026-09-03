@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-13-google-gemini-3-7-flash-is-now-available-on-unity-gateway",
+  "title": "Google Gemini 3.7 Flash is now available on Unity Gateway",
+  "date": "2026-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-37-flash-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost-efficient everyday tasks. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).\n\nTo query the model and see supported regions, see [Use foundation models](/aws/en/machine-learning/model-serving/score-foundation-models).",
+  "ref_links": [
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    },
+    {
+      "text": "Use foundation models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-03T12:02:29.071299Z"
+}
