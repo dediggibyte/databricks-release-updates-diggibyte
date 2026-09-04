@@ -1,0 +1,41 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "SQL function descriptions: When a SQL function is attached as a tool, you can now view the function's description.",
+  "updated": "Sep 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/tune-quality#sql-functions",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "SQL function descriptions: When a SQL function is attached as a tool, you can now view the function's description. Upgraded chat mode models: Genie Agents chat mode now uses upgraded large language models. Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "why_it_matters": "Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "plain_summary": "SQL function descriptions: When a SQL function is attached as a tool, you can now view the function's description. Upgraded chat mode models: Genie Agents chat mode now uses upgraded large language models.",
+  "capabilities": [
+    {
+      "title": "Company-specific business information",
+      "desc": "Company-specific business information:"
+    },
+    {
+      "title": "Fiscal year starts in February",
+      "desc": "Fiscal year starts in February, for example fiscal year 26 or FY26 is February 1, 2026 through January 31, 2027"
+    },
+    {
+      "title": "Formatting",
+      "desc": "Formatting:"
+    },
+    {
+      "title": "Always respond in Spanish",
+      "desc": "Always respond in Spanish"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "SQL function descriptions: When a SQL function is attached as a tool, you can now view the function's description.",
+  "note_id": "2026-09-03-genie-agents-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-03-web-search-in-genie-one-beta",
+  "title": "Web search in Genie One (Beta)",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#web-search-in-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One can now search the public web to answer questions that need current information, such as recent releases, third-party documentation, or news. Genie One decides when to search and cites the sources it uses, showing each as a link you can open. See [Search the web](/aws/en/genie-one/chat#web-search).",
+  "ref_links": [
+    {
+      "text": "Search the web",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#web-search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.229853Z"
+}

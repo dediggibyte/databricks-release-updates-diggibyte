@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-01-fae4bccf",
+  "title": "Genie Code scheduled tasks will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-09-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-code-scheduled-tasks-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code scheduled tasks will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in October 2026.\n\nYou can schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis and other work into an unattended background task.\n\nSee [Genie Code scheduled tasks](/aws/en/genie-code/scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Genie Code scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-code/scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.234168Z"
+}

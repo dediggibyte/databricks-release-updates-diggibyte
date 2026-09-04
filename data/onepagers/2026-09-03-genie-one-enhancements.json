@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Ask Genie button hidden when unsupported: In embedded dashboards, the Ask Genie button is now hidden when it isn't supported.",
+  "updated": "Sep 3, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile#push-notifications",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Ask Genie button hidden when unsupported: In embedded dashboards, the Ask Genie button is now hidden when it isn't supported. Push notifications for scheduled tasks (Public Preview): The Genie mobile app can now send push notifications for scheduled tasks to iOS devices. Preview This feature is in Public Preview.",
+  "why_it_matters": "For IT and security teams, see Administer the Genie mobile app for configuration guidance, network security requirements, authentication setup, and Mobile Device Management (MDM) deployment.",
+  "plain_summary": "Ask Genie button hidden when unsupported: In embedded dashboards, the Ask Genie button is now hidden when it isn't supported. Push notifications for scheduled tasks (Public Preview): The Genie mobile app can now send push notifications for scheduled tasks to…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Ask Genie button hidden when unsupported: In embedded dashboards, the Ask Genie button is now hidden when it isn't supported.",
+  "note_id": "2026-09-03-genie-one-enhancements",
+  "category": "platform"
+}

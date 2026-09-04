@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Embedded dashboard filter APIs: In embedded dashboards, you can now set and retrieve filter values through APIs.",
+  "updated": "Sep 3, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Embedded dashboard filter APIs: In embedded dashboards, you can now set and retrieve filter values through APIs. Ranked table calculations in /importBI: Importing reports from Power BI and Tableau with the /importBI Genie Code command now includes ranked table calculations. Color mappings: In a dashboard's theme settings, you can assign a specific color to a value by name.",
+  "why_it_matters": "Dashboard variable improvements: Enhancements to dashboard variables: + Multiple fields: Viewers can now add, remove, and swap multiple fields through a dashboard variable on a visualization, instead of switching one field at a time.",
+  "plain_summary": "Embedded dashboard filter APIs: In embedded dashboards, you can now set and retrieve filter values through APIs. Ranked table calculations in /importBI: Importing reports from Power BI and Tableau with the /importBI Genie Code command now includes ranked…",
+  "capabilities": [
+    {
+      "title": "Multiple fields: Viewers can now",
+      "desc": "Multiple fields: Viewers can now add, remove, and swap multiple fields through a dashboard variable on a visualization, instead…"
+    },
+    {
+      "title": "Source dataset for options: Dashboard",
+      "desc": "Source dataset for options: Dashboard variable options now show their source dataset as a subtitle. See Create a dashboard…"
+    },
+    {
+      "title": "Improved automatic widget layout: When",
+      "desc": "Improved automatic widget layout: When Genie Code adds widgets to a dashboard, it now places them in available layout space…"
+    },
+    {
+      "title": "Smoother editing: Genie Code no",
+      "desc": "Smoother editing: Genie Code no longer appears to stall between edits, and multi-step edits apply with less delay between steps."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Embedded dashboard filter APIs: In embedded dashboards, you can now set and retrieve filter values through APIs.",
+  "note_id": "2026-09-03-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

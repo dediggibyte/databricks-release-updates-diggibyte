@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-03-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **SQL function descriptions**: When a SQL function is attached as a tool, you can now view the function's description. See [How does Genie use SQL functions?](/aws/en/genie-agents/tune-quality#sql-functions).\n* **Upgraded chat-mode models**: Genie Agents chat mode now uses upgraded large language models.",
+  "ref_links": [
+    {
+      "text": "How does Genie use SQL functions?",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/tune-quality#sql-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.228123Z"
+}

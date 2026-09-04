@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-03-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Embedded dashboard filter APIs**: In embedded dashboards, you can now set and retrieve filter values through APIs. See [Control dashboard filters programmatically](/aws/en/dashboards/share/embedding/external-embed#filter-apis).\n* **Ranked table calculations in `/importBI`**: Importing reports from Power BI and Tableau with the `/importBI` Genie Code command now includes ranked table calculations.\n* **Color mappings**: In a dashboard's theme settings, you can assign a specific color to a value by name. Any visualization that colors by that value uses the assigned color across the dashboard, for both color by field and color by series. See [Consistent colors across widgets](/aws/en/dashboards/manage/visualizations#color-consistency).\n* **Rich text for dynamic data references**: You can now apply rich text formatting to [dynamic data references](/aws/en/dashboards/manage/visualizations#reference-filter) in text widgets, widget titles, and descriptions.\n* **Dashboard variable improvements**: Enhancements to dashboard variables:\n  + **Multiple fields**: Viewers can now add, remove, and swap multiple fields through a dashboard variable on a visualization, instead of switching one field at a time. See [Use dashboard variables](/aws/en/dashboards/manage/filters/dashboard-variables).\n  + **Source dataset for options**: Dashboard variable options now show their source dataset as a subtitle. See [Create a dashboard variable](/aws/en/dashboards/manage/filters/dashboard-variables#create-a-variable).\n* **Metric view downloads respect display names**: Downloads from a metric view now use the display names defined for its fields. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Always-visible scrollbars on faceted charts**: Scrollbars now stay visible on scrollable [faceted charts](/aws/en/dashboards/manage/visualizations#faceting).\n* **Data attachments in Slack and Teams**: Dashboard subscriptions delivered to Slack and Microsoft Teams can now include data attachments in CSV, TSV, or Excel format. See [Data attachments](/aws/en/dashboards/share/schedule-subscribe#email-attachments).\n* **Cross-dataset filtering through relationships (Public Preview)**: When datasets are connected by a relationship, filters, selections, and parameters applied to one dataset now automatically carry across to widgets built on the related datasets. See [Create dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships).\n* **Genie Code for dashboard authoring**: New authoring capabilities and fixes for Genie Code:\n  + **Improved automatic widget layout**: When Genie Code adds widgets to a dashboard, it now places them in available layout space automatically.\n  + **Smoother editing**: Genie Code no longer appears to stall between edits, and multi-step edits apply with less delay between steps.",
+  "ref_links": [
+    {
+      "text": "Control dashboard filters programmatically",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/external-embed#filter-apis"
+    },
+    {
+      "text": "Consistent colors across widgets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#color-consistency"
+    },
+    {
+      "text": "dynamic data references",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#reference-filter"
+    },
+    {
+      "text": "Use dashboard variables",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables"
+    },
+    {
+      "text": "Create a dashboard variable",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables#create-a-variable"
+    },
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "faceted charts",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#faceting"
+    },
+    {
+      "text": "Data attachments",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#email-attachments"
+    },
+    {
+      "text": "Create dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.227020Z"
+}

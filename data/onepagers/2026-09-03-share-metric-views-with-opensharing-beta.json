@@ -1,0 +1,24 @@
+{
+  "product": "Share metric views with OpenSharing (Beta)",
+  "tagline": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing.",
+  "updated": "Sep 3, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#share-metric-views-with-opensharing-beta",
+  "what_it_does": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing. As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing. Unlike the OpenSharing open sharing protocol, the Databricks to Databricks protocol does not require a credential file (token based security).",
+  "why_it_matters": "As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "plain_summary": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing.",
+  "note_id": "2026-09-03-share-metric-views-with-opensharing-beta",
+  "category": "platform"
+}

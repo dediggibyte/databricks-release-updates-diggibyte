@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-03-share-metric-views-with-opensharing-beta",
+  "title": "Share metric views with OpenSharing (Beta)",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#share-metric-views-with-opensharing-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing. See [Add metric views to a share](/aws/en/opensharing/create-share#metric-views) and [Read shared metric views](/aws/en/opensharing/read-data-databricks#metric-views).",
+  "ref_links": [
+    {
+      "text": "Add metric views to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#metric-views"
+    },
+    {
+      "text": "Read shared metric views",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.230492Z"
+}

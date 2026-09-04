@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code scheduled tasks are now generally available",
+  "tagline": "Genie Code scheduled tasks are now generally available.",
+  "updated": "Sep 1, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-scheduled-tasks-are-now-generally-available",
+  "what_it_does": "Genie Code scheduled tasks are now generally available. You can schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis and other work into an unattended background task.",
+  "why_it_matters": "A scheduled run accesses data and performs operations using the permissions of the user who created the task, governed by your Unity Catalog permissions.",
+  "plain_summary": "Genie Code scheduled tasks are now generally available. You can schedule Genie Code to run a prompt on a recurring schedule.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code scheduled tasks are now generally available.",
+  "note_id": "2026-09-01-genie-code-scheduled-tasks-are-now-generally-available",
+  "category": "platform"
+}

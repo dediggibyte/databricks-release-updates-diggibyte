@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-03-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Ask Genie button hidden when unsupported**: In embedded dashboards, the **Ask Genie** button is now hidden when it isn't supported. See [Ask Genie in embedded dashboards](/aws/en/dashboards/share/embedding/basic#ask-genie).\n* **Push notifications for scheduled tasks (Public Preview)**: The Genie mobile app can now send push notifications for scheduled tasks to iOS devices. See [Push notifications](/aws/en/genie-one/mobile#push-notifications).",
+  "ref_links": [
+    {
+      "text": "Ask Genie in embedded dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/basic#ask-genie"
+    },
+    {
+      "text": "Push notifications",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile#push-notifications"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-04T12:04:27.229227Z"
+}

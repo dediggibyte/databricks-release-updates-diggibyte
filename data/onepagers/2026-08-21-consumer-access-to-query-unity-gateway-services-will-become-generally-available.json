@@ -1,0 +1,37 @@
+{
+  "product": "Consumer access to query Unity Gateway services will become generally available",
+  "tagline": "Querying Unity Gateway model services and model provider services with Consumer access is currently opt in through the Consumer access to Unity Gateway Public Preview.",
+  "updated": "Aug 21, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/entitlements",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#consumer-access-to-query-unity-gateway-services-will-become-generally-available",
+  "what_it_does": "Querying Unity Gateway model services and model provider services with Consumer access is currently opt in through the Consumer access to Unity Gateway Public Preview. When this capability becomes generally available, consumer access users will be able to query these services without the preview enabled. This can increase model traffic from consumer users, including traffic to model provider services that route to external providers.",
+  "why_it_matters": "Access entitlements Each access entitlement grants a user access to a specific set of features in the workspace: Consumer access: Grants access to a simplified environment for viewing dashboards, Genie Agents, and Databricks Apps shared with them.",
+  "plain_summary": "Querying Unity Gateway model services and model provider services with Consumer access is currently opt in through the Consumer access to Unity Gateway Public Preview. When this capability becomes generally available, consumer access users will be able to…",
+  "capabilities": [
+    {
+      "title": "Workspace access",
+      "desc": "Workspace access"
+    },
+    {
+      "title": "Allow unrestricted cluster creation",
+      "desc": "Allow unrestricted cluster creation"
+    },
+    {
+      "title": "Allow pool creation",
+      "desc": "Allow pool creation"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Querying Unity Gateway model services and model provider services with Consumer access is currently opt in through the Consumer access to Unity Gateway Public Preview.",
+  "note_id": "2026-08-21-consumer-access-to-query-unity-gateway-services-will-become-generally-available",
+  "category": "platform"
+}

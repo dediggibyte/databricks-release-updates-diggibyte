@@ -1,0 +1,41 @@
+{
+  "product": "Upcoming general availability of Unity Gateway",
+  "tagline": "Unity Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon.",
+  "updated": "Jul 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-general-availability-of-unity-gateway",
+  "what_it_does": "Unity Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon. Built on Unity Catalog, Unity Gateway extends governance to the runtime interactions between models, agents, MCP servers, and tools. You can control which AI services teams use, route and manage AI traffic, and monitor usage from one control plane.",
+  "why_it_matters": "Unity Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon.",
+  "plain_summary": "Unity Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon. Built on Unity Catalog, Unity Gateway extends governance to the runtime interactions between models, agents, MCP servers, and tools.",
+  "capabilities": [
+    {
+      "title": "AI governance guide",
+      "desc": "AI governance guide"
+    },
+    {
+      "title": "An end-to-end path for administrators",
+      "desc": "An end-to-end path for administrators to govern access to AI assets, traffic and cost, and the content of requests and responses."
+    },
+    {
+      "title": "Tutorial: Govern a coding agent's",
+      "desc": "Tutorial: Govern a coding agent's GitHub MCP access"
+    },
+    {
+      "title": "Restrict a coding agent's access",
+      "desc": "Restrict a coding agent's access to GitHub MCP tools using Unity Catalog permissions and a built-in service policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Gateway, the Databricks governance solution for enterprise AI, is scheduled for general availability soon.",
+  "note_id": "2026-07-29-upcoming-general-availability-of-unity-gateway",
+  "category": "platform"
+}
