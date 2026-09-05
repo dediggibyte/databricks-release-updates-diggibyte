@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-01-databricks-runtime-19-september-1-2026",
+  "title": "Databricks Runtime 19: September 1, 2026",
+  "date": "2026-09-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-september-1-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### New features and improvements\n\n* **Automatic change data feed is generally available**: Automatic change data feed (Auto CDF) computes row-level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write-time overhead and makes `MERGE` and `UPDATE` operations about 15% faster on tables that you query for changes. It works with batch queries, Structured Streaming, and Delta Lake Sharing, and requires Databricks Runtime 19 LTS or above with row tracking enabled. See [Automatic change data feed](/aws/en/tables/features/change-data-feed#auto-cdf).",
+  "ref_links": [
+    {
+      "text": "Automatic change data feed",
+      "url": "https://docs.databricks.com/aws/en/tables/features/change-data-feed#auto-cdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-05T11:13:16.186152Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Manage project environments with %uv commands",
+  "tagline": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment.",
+  "updated": "Aug 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/libraries/notebooks-python-libraries#uv-project-commands",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-project-environments-with-uv-commands",
+  "what_it_does": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment. Notebook scoped libraries let you create, modify, save, reuse, and share custom Python environments that are specific to a notebook. When you install a notebook scoped library, only the current notebook and any jobs associated with that notebook have access to that library.",
+  "why_it_matters": "Faster installs with %uv pip note %uv pip is only available on serverless notebooks running environment version 5 or above.",
+  "plain_summary": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment.",
+  "note_id": "2026-08-17-manage-project-environments-with-uv-commands",
+  "category": "platform"
+}

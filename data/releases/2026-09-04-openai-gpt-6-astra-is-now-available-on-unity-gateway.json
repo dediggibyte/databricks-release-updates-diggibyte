@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-openai-gpt-6-astra-is-now-available-on-unity-gateway",
+  "title": "OpenAI GPT-6 Astra is now available on Unity Gateway",
+  "date": "2026-09-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#openai-gpt-6-astra-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OpenAI [GPT-6 Astra](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-6-astra) is now available on Unity Gateway for enterprise reasoning, structured document processing, coding, agentic search, multimodal inputs, and long-context workloads. You can access this model using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "GPT-6 Astra",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-6-astra"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-05T11:13:16.162393Z"
+}

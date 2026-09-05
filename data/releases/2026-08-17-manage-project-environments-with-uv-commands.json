@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-17-manage-project-environments-with-uv-commands",
+  "title": "Manage project environments with %uv commands",
+  "date": "2026-08-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-project-environments-with-uv-commands",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use `%uv init`, `%uv add`, and `%uv sync` in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment. See [Manage a project environment with `%uv`](/aws/en/libraries/notebooks-python-libraries#uv-project-commands).",
+  "ref_links": [
+    {
+      "text": "Manage a project environment with %uv",
+      "url": "https://docs.databricks.com/aws/en/libraries/notebooks-python-libraries#uv-project-commands"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-05T11:13:16.244900Z"
+}

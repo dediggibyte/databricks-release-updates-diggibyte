@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-03-environment-version-6-is-now-available",
+  "title": "Environment version 6 is now available",
+  "date": "2026-09-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#environment-version-6-is-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now select environment version 6 as your base environment for serverless and standard classic compute. See [Environment version 6](/aws/en/release-notes/serverless/environment-version/six).",
+  "ref_links": [
+    {
+      "text": "Environment version 6",
+      "url": "https://docs.databricks.com/aws/en/release-notes/serverless/environment-version/six"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-05T11:13:16.173323Z"
+}

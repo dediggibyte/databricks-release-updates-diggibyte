@@ -1,0 +1,24 @@
+{
+  "product": "Environment version 6 is now available",
+  "tagline": "You can now select environment version 6 as your base environment for serverless and standard classic compute.",
+  "updated": "Sep 3, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#environment-version-6-is-now-available",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#environment-version-6-is-now-available",
+  "what_it_does": "You can now select environment version 6 as your base environment for serverless and standard classic compute.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now select environment version 6 as your base environment for serverless and standard classic compute.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now select environment version 6 as your base environment for serverless and standard classic compute.",
+  "note_id": "2026-09-03-environment-version-6-is-now-available",
+  "category": "platform"
+}

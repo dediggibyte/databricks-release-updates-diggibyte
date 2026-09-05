@@ -1,0 +1,33 @@
+{
+  "product": "Automatic change data feed is now generally available",
+  "tagline": "Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3…",
+  "updated": "Sep 1, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/change-data-feed#auto-cdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#automatic-change-data-feed-is-now-generally-available",
+  "what_it_does": "Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write time overhead and makes MERGE and UPDATE operations about 15% faster on tables that you query for changes. It works with batch queries, Structured Streaming, and Delta Lake Sharing, and requires Databricks Runtime 19 LTS or above with row tracking enabled.",
+  "why_it_matters": "Auto CDF removes write time overhead and makes MERGE and UPDATE operations about 15% faster on tables that you query for changes.",
+  "plain_summary": "Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write time overhead and makes MERGE…",
+  "capabilities": [
+    {
+      "title": "A managed table in Delta",
+      "desc": "A managed table in Delta Lake format with row tracking enabled or in Iceberg v3 format."
+    },
+    {
+      "title": "An external table in Delta",
+      "desc": "An external table in Delta Lake format with row tracking enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3…",
+  "note_id": "2026-09-01-automatic-change-data-feed-is-now-generally-available",
+  "category": "platform"
+}
