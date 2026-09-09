@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-08-abac-deny-policies-are-in-beta",
+  "title": "ABAC DENY policies are in Beta",
+  "date": "2026-09-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-deny-policies-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "ABAC DENY policies are in [Beta](/aws/en/release-notes/release-types) in Unity Catalog. DENY policies can be used to explicitly deny the `MANAGE ACCESS CONTROL` privilege to prevent specified principals, including object owners, from performing access-management operations. They always take precedence over any grant.\n\nFor details, see [ABAC DENY policies (Beta)](/aws/en/data-governance/unity-catalog/abac/deny-policies).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "ABAC DENY policies (Beta)",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/deny-policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-09T12:15:50.205399Z"
+}

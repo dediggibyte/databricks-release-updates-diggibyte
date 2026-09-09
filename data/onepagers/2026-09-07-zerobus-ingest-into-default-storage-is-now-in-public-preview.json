@@ -1,0 +1,24 @@
+{
+  "product": "Zerobus Ingest into default storage is now in Public Preview",
+  "tagline": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now in Public Preview.",
+  "updated": "Sep 7, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#zerobus-ingest-into-default-storage-is-now-in-public-preview",
+  "what_it_does": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now in Public Preview. This page describes how to ingest data using Zerobus Ingest in Lakeflow Connect. Get started with Zerobus Ingest note If you have a client side firewall, add the IP address used by Zerobus Ingest to your allowlist.",
+  "why_it_matters": "Create a service principal and grant permissions A service principal is a specialized identity that provides more security than personalized accounts.",
+  "plain_summary": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now in Public Preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now in Public Preview.",
+  "note_id": "2026-09-07-zerobus-ingest-into-default-storage-is-now-in-public-preview",
+  "category": "platform"
+}

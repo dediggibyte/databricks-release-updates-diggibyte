@@ -1,0 +1,24 @@
+{
+  "product": "Verkada connector (Beta)",
+  "tagline": "The Verkada connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/verkada",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#verkada-connector-beta",
+  "what_it_does": "The Verkada connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector ingests organization audit logs and access users from your Verkada organization into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Verkada connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Verkada connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-08-24-verkada-connector-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Anysphere Audit Logs connector (Beta)",
+  "tagline": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Aug 25, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anysphere-audit-logs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#anysphere-audit-logs-connector-beta",
+  "what_it_does": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector uses the Anysphere (Cursor) Admin API to incrementally ingest team audit log events into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-08-25-anysphere-audit-logs-connector-beta",
+  "category": "platform"
+}

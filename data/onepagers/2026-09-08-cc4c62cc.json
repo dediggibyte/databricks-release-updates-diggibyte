@@ -1,0 +1,30 @@
+{
+  "product": "Incremental ingestion for Salesforce formula fields in Lakeflow Connect will…",
+  "tagline": "Incremental ingestion for Salesforce formula fields in Lakeflow Connect will soon be generally available.",
+  "updated": "Sep 8, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/salesforce-formula-fields",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#incremental-ingestion-for-salesforce-formula-fields-in-lakeflow-connect-will-soon-be-generally-available",
+  "what_it_does": "Incremental ingestion for Salesforce formula fields in Lakeflow Connect will soon be generally available. Today, Lakeflow Connect ingests formula fields by taking a full snapshot on each pipeline run by default. When incremental formula field ingestion is generally available, full snapshots will no longer be the default.",
+  "why_it_matters": "Incremental ingestion typically improves performance and reduces cost.",
+  "plain_summary": "Incremental ingestion for Salesforce formula fields in Lakeflow Connect will soon be generally available. Today, Lakeflow Connect ingests formula fields by taking a full snapshot on each pipeline run by default.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [
+    "GETSESSIONID",
+    "RUNASUSER",
+    "CURRENCYRATE",
+    "ISCLONE",
+    "VLOOKUP"
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Incremental ingestion for Salesforce formula fields in Lakeflow Connect will soon be generally available.",
+  "note_id": "2026-09-08-cc4c62cc",
+  "category": "platform"
+}

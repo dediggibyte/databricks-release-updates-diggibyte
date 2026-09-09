@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase now supports PCI-DSS and HITRUST in all AWS regions",
+  "tagline": "Lakebase is now PCI DSS and HITRUST compliant in all AWS regions where it is available, for workspaces with the compliance security profile enabled.",
+  "updated": "Sep 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-supports-pci-dss-and-hitrust-in-all-aws-regions",
+  "what_it_does": "Lakebase is now PCI DSS and HITRUST compliant in all AWS regions where it is available, for workspaces with the compliance security profile enabled. Previously, this support was limited to the us east 1 region on AWS. Lakebase Postgres provides data protection features to help secure your databases and control access to critical data.",
+  "why_it_matters": "Lakebase is now PCI DSS and HITRUST compliant in all AWS regions where it is available, for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Lakebase is now PCI DSS and HITRUST compliant in all AWS regions where it is available, for workspaces with the compliance security profile enabled. Previously, this support was limited to the us east 1 region on AWS.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase is now PCI DSS and HITRUST compliant in all AWS regions where it is available, for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-09-08-lakebase-now-supports-pci-dss-and-hitrust-in-all-aws-regions",
+  "category": "platform"
+}

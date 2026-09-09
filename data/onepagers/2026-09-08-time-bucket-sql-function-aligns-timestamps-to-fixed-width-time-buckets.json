@@ -1,0 +1,24 @@
+{
+  "product": "time_bucket SQL function aligns timestamps to fixed-width time buckets",
+  "tagline": "time bucket returns the start of the fixed width interval a timestamp falls into, aligned to an origin you choose (for example, 15 minute or 3 month buckets).",
+  "updated": "Sep 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/time_bucket",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#time_bucket-sql-function-aligns-timestamps-to-fixed-width-time-buckets",
+  "what_it_does": "time bucket returns the start of the fixed width interval a timestamp falls into, aligned to an origin you choose (for example, 15 minute or 3 month buckets). Use it instead of date trunc when the bucket width or start is not a calendar unit. Applies to: Databricks SQL Databricks Runtime 19 and above Returns the start of the fixed width time bucket that a timestamp falls into, aligned to an origin.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "time bucket returns the start of the fixed width interval a timestamp falls into, aligned to an origin you choose (for example, 15 minute or 3 month buckets). Use it instead of date trunc when the bucket width or start is not a calendar unit.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "time bucket returns the start of the fixed width interval a timestamp falls into, aligned to an origin you choose (for example, 15 minute or 3 month buckets).",
+  "note_id": "2026-09-08-time-bucket-sql-function-aligns-timestamps-to-fixed-width-time-buckets",
+  "category": "platform"
+}
