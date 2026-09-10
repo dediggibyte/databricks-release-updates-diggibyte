@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-09-52534b65",
+  "title": "Horizontal scaling for Databricks Apps will soon be available for workspaces with the compliance security profile enabled",
+  "date": "2026-09-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#horizontal-scaling-for-databricks-apps-will-soon-be-available-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled. Horizontal scaling lets you run an app across multiple instances behind a single app URL for higher availability and concurrency.\n\nSee [Horizontal scaling for Databricks apps](/aws/en/dev-tools/databricks-apps/horizontal-scaling).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Horizontal scaling for Databricks apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-10T12:10:29.242411Z"
+}

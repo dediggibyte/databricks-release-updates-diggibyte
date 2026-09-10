@@ -1,0 +1,24 @@
+{
+  "product": "Data Classification will soon scan Unity Catalog views",
+  "tagline": "Data Classification will soon scan Unity Catalog views in addition to tables, with columns classified for sensitive data using the same detection engine as tables.",
+  "updated": "Sep 3, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#data-classification-will-soon-scan-unity-catalog-views",
+  "what_it_does": "Data Classification will soon scan Unity Catalog views in addition to tables, with columns classified for sensitive data using the same detection engine as tables. This is a Beta feature. This page describes how to use Databricks Data Classification in Unity Catalog to automatically classify and tag sensitive data in your catalog.",
+  "why_it_matters": "It is critical for data teams to understand what kind of sensitive data exists in each table so that they can both govern and democratize access to this data.",
+  "plain_summary": "Data Classification will soon scan Unity Catalog views in addition to tables, with columns classified for sensitive data using the same detection engine as tables. This is a Beta feature.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Data Classification will soon scan Unity Catalog views in addition to tables, with columns classified for sensitive data using the same detection engine as tables.",
+  "note_id": "2026-09-03-data-classification-will-soon-scan-unity-catalog-views",
+  "category": "platform"
+}

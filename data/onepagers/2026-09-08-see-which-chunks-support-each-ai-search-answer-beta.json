@@ -1,0 +1,33 @@
+{
+  "product": "See which chunks support each ai_search answer (Beta)",
+  "tagline": "You can now turn on the generate citations option in the ai search function to see which retrieved chunks the model used to support each answer it generates.",
+  "updated": "Sep 8, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#see-which-chunks-support-each-ai_search-answer-beta",
+  "what_it_does": "You can now turn on the generate citations option in the ai search function to see which retrieved chunks the model used to support each answer it generates. ai search function Applies to: Databricks SQL Databricks Runtime Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Use ai search to enrich operational data with relevant context at scale, build batch retrieval augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system — all from a single SQL function call.",
+  "plain_summary": "You can now turn on the generate citations option in the ai search function to see which retrieved chunks the model used to support each answer it generates.",
+  "capabilities": [
+    {
+      "title": "'version': The function version to",
+      "desc": "'version': The function version to use."
+    },
+    {
+      "title": "'generateanswer': 'true' (default) or 'false'",
+      "desc": "'generateanswer': 'true' (default) or 'false'. When 'true', the function synthesizes a grounded natural-language answer from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now turn on the generate citations option in the ai search function to see which retrieved chunks the model used to support each answer it generates.",
+  "note_id": "2026-09-08-see-which-chunks-support-each-ai-search-answer-beta",
+  "category": "platform"
+}

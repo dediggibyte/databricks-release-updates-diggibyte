@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-27-ai-functions-rest-api-is-now-generally-available",
+  "title": "AI Functions REST API is now generally available",
+  "date": "2026-08-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai-functions-rest-api-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now call `ai_parse_document`, `ai_extract`, and `ai_classify` through the AI Functions REST API. See [intelligent document processing](/aws/en/agents/agent-bricks/intelligent-document-processing) for more details.",
+  "ref_links": [
+    {
+      "text": "intelligent document processing",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/intelligent-document-processing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-10T12:10:29.288969Z"
+}

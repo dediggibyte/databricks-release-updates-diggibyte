@@ -1,0 +1,24 @@
+{
+  "product": "Horizontal scaling for Databricks Apps will soon be available for workspaces…",
+  "tagline": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "updated": "Sep 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#horizontal-scaling-for-databricks-apps-will-soon-be-available-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled. Horizontal scaling lets you run an app across multiple instances behind a single app URL for higher availability and concurrency. Beta This feature is in Beta.",
+  "why_it_matters": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "plain_summary": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled. Horizontal scaling lets you run an app across multiple instances behind a single app URL for higher…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In early October 2026, horizontal scaling for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-09-09-52534b65",
+  "category": "platform"
+}

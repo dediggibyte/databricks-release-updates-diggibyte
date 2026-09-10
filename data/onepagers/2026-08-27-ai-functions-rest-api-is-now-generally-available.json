@@ -1,0 +1,29 @@
+{
+  "product": "AI Functions REST API is now generally available",
+  "tagline": "You can now call ai parse document, ai extract, and ai classify through the AI Functions REST API.",
+  "updated": "Aug 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/intelligent-document-processing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai-functions-rest-api-is-now-generally-available",
+  "what_it_does": "You can now call ai parse document, ai extract, and ai classify through the AI Functions REST API. Intelligent Document Processing (IDP) converts unstructured content—such as PDFs, DOCX files, images, and presentations—into structured, enriched data that powers downstream agents, applications, and analytics. Databricks gives you three ways to run IDP, all built on the same research developed AI Functions: Agent Bricks UI: A no code, visual experience for parsing, extracting, and classifying documents.",
+  "why_it_matters": "Use it to test sample documents, refine a schema or labels, and visually validate results before you scale.",
+  "plain_summary": "You can now call ai parse document, ai extract, and ai classify through the AI Functions REST API.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "Parse",
+    "structure documents to improve chunking",
+    "retrieval quality",
+    "grounding for LLM applications."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now call ai parse document, ai extract, and ai classify through the AI Functions REST API.",
+  "note_id": "2026-08-27-ai-functions-rest-api-is-now-generally-available",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-08-see-which-chunks-support-each-ai-search-answer-beta",
+  "title": "See which chunks support each ai_search answer (Beta)",
+  "date": "2026-09-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#see-which-chunks-support-each-ai_search-answer-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now turn on the `generate_citations` option in the `ai_search` function to see which retrieved chunks the model used to support each answer it generates. [`ai_search` function](/aws/en/sql/language-manual/functions/ai_search)",
+  "ref_links": [
+    {
+      "text": "ai_search function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-10T12:10:29.246365Z"
+}

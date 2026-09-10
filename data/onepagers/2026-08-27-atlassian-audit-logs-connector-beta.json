@@ -1,0 +1,24 @@
+{
+  "product": "Atlassian Audit Logs connector (Beta)",
+  "tagline": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Aug 27, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/atlassian-audit-logs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#atlassian-audit-logs-connector-beta",
+  "what_it_does": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector ingests organization audit log events, such as user, security, and configuration changes, from Atlassian into Databricks.",
+  "why_it_matters": "The connector ingests organization audit log events, such as user, security, and configuration changes, from Atlassian into Databricks.",
+  "plain_summary": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-08-27-atlassian-audit-logs-connector-beta",
+  "category": "platform"
+}
