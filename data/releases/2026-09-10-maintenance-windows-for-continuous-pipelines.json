@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-10-maintenance-windows-for-continuous-pipelines",
+  "title": "Maintenance windows for continuous pipelines",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#maintenance-windows-for-continuous-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless infrastructure maintenance. Select a day of the week, a start hour, and a time zone, and Databricks starts maintenance only within that one-hour window. Configure the window in the Jobs UI, the Pipelines UI, or the Jobs REST API.\n\nSee [Manage updates for continuous pipelines](/aws/en/ldp/maintenance-windows).",
+  "ref_links": [
+    {
+      "text": "Manage updates for continuous pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/maintenance-windows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.752930Z"
+}

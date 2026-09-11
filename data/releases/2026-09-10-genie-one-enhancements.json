@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-10-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Code skills in Genie One (Beta)**: Genie Code skills now appear and are turned on by default in Genie One. Turn individual skills on or off on the customization page.\n* **Backend steering**: You can now send steering messages to Genie One while it's answering, so you can guide a response without waiting for it to finish.\n* **PowerPoint uploads**: You can now upload PowerPoint (`.pptx`) files to a Genie One conversation. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).\n* **Memory confirmation prompts (Beta)**: Genie One can now suggest a memory when it detects a fact worth remembering in your request and asks you to confirm before saving it. Approve, modify, or reject the suggestion. See [Add to Genie One's memory](/aws/en/genie-one/chat#memory).",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Add to Genie One's memory",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#memory"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.759797Z"
+}

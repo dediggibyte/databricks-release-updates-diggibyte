@@ -1,0 +1,24 @@
+{
+  "product": "The Databricks Excel Add-in is now generally available",
+  "tagline": "The Databricks Excel Add in is now generally available.",
+  "updated": "Sep 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/excel",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-databricks-excel-add-in-is-now-generally-available",
+  "what_it_does": "The Databricks Excel Add in is now generally available. Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity Catalog. You can now also enable Live query when building pivot tables to see results as you update the fields.",
+  "why_it_matters": "Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity Catalog.",
+  "plain_summary": "The Databricks Excel Add in is now generally available. Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Excel Add in is now generally available.",
+  "note_id": "2026-09-10-the-databricks-excel-add-in-is-now-generally-available",
+  "category": "platform"
+}

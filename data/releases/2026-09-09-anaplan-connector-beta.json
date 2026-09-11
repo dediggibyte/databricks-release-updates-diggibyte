@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-09-anaplan-connector-beta",
+  "title": "Anaplan connector (Beta)",
+  "date": "2026-09-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anaplan-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Anaplan connector is now available in Lakeflow Connect in [Beta](/aws/en/release-notes/release-types). Workspace admins can control access to this feature from the **Previews** page.\n\nThe connector ingests audit trail events and user account records from your Anaplan tenant into Databricks. Authentication uses an Anaplan CA certificate and its paired private key.\n\nSee [Anaplan connector](/aws/en/ingestion/lakeflow-connect/anaplan).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Anaplan connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anaplan"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.762979Z"
+}

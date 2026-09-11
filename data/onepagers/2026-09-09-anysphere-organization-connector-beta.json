@@ -1,0 +1,24 @@
+{
+  "product": "Anysphere Organization connector (Beta)",
+  "tagline": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Sep 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anysphere-organization",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anysphere-organization-connector-beta",
+  "what_it_does": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector uses the Anysphere (Cursor) Organization Admin API to ingest organization members, groups, and group members into Databricks as daily snapshots.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-09-09-anysphere-organization-connector-beta",
+  "category": "platform"
+}

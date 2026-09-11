@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-10-e896fcc2",
+  "title": "Genie Agents will soon be restricted to only the data sources attached to the agent",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-agents-will-soon-be-restricted-to-only-the-data-sources-attached-to-the-agent",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In late September 2026, Genie Agents will be restricted to using only the data sources explicitly attached under the agent's **Sources**. Currently, a Genie Agent can go beyond its attached data sources if tables or Unity Catalog functions are referenced in its instructions.\n\nSee [Create and manage a Genie Agent](/aws/en/genie-agents/set-up).",
+  "ref_links": [
+    {
+      "text": "Create and manage a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/set-up"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.752188Z"
+}

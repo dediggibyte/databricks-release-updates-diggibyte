@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-10-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Increased data source limit**: Each Genie Agent supports up to 50 tables, views, or metric views as data sources, up from 30. See [Technical requirements and limits](/aws/en/genie-agents/set-up#tech-requirements).\n* **Increased conversation limit**: Each Genie Agent can store up to 200,000 conversations, up from 10,000. See [Technical requirements and limits](/aws/en/genie-agents/set-up#tech-requirements).",
+  "ref_links": [
+    {
+      "text": "Technical requirements and limits",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/set-up#tech-requirements"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.754412Z"
+}

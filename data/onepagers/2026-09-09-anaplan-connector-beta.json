@@ -1,0 +1,24 @@
+{
+  "product": "Anaplan connector (Beta)",
+  "tagline": "The Anaplan connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Sep 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anaplan",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anaplan-connector-beta",
+  "what_it_does": "The Anaplan connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector ingests audit trail events and user account records from your Anaplan tenant into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Anaplan connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Anaplan connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-09-09-anaplan-connector-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Maintenance windows for continuous pipelines",
+  "tagline": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless…",
+  "updated": "Sep 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/maintenance-windows",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#maintenance-windows-for-continuous-pipelines",
+  "what_it_does": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless infrastructure maintenance. Select a day of the week, a start hour, and a time zone, and Databricks starts maintenance only within that one hour window. Configure the window in the Jobs UI, the Pipelines UI, or the Jobs REST API.",
+  "why_it_matters": "Maintenance for a continuous pipeline can include: Databricks Runtime version upgrades Security patches and updates Operating system updates Spark Declarative Pipelines on Lakeflow features and enhancements Serverless infrastructure maintenance, such as the periodic recycling of long running serverless clusters Both runtime upgrades (service upgrades) and serverless infrastructure maintenance respect the maintenance window you configure.",
+  "plain_summary": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless infrastructure maintenance. Select a day of the week, a start hour…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless…",
+  "note_id": "2026-09-10-maintenance-windows-for-continuous-pipelines",
+  "category": "platform"
+}

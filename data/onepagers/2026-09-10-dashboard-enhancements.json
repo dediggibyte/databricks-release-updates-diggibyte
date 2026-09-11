@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements",
+  "tagline": "More Tableau calculations in /importBI: Importing Tableau reports with the /importBI Genie Code command now supports more cases of parameterized calculations.",
+  "updated": "Sep 10, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps#path-map-source",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "what_it_does": "More Tableau calculations in /importBI: Importing Tableau reports with the /importBI Genie Code command now supports more cases of parameterized calculations. Relationship scoped filters (Public Preview): On a dashboard with relationships, each widget now responds only to filters whose dataset is related to it, so a filter no longer affects unrelated charts. Choose the warehouse for materialization: When you export a dashboard dataset as a materialized view in Unity Catalog, you can now choose which SQL warehouse runs the materialization.",
+  "why_it_matters": "Metric view reuse when building: When building a dashboard, Genie Code now prefers governed metric views over ad hoc SQL datasets and reuses an existing metric view when one satisfies the request.",
+  "plain_summary": "More Tableau calculations in /importBI: Importing Tableau reports with the /importBI Genie Code command now supports more cases of parameterized calculations. Relationship scoped filters (Public Preview): On a dashboard with relationships, each widget now…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "More Tableau calculations in /importBI: Importing Tableau reports with the /importBI Genie Code command now supports more cases of parameterized calculations.",
+  "note_id": "2026-09-10-dashboard-enhancements",
+  "category": "platform"
+}

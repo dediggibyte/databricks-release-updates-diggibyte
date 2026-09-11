@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents will soon be restricted to only the data sources attached to the…",
+  "tagline": "In late September 2026, Genie Agents will be restricted to using only the data sources explicitly attached under the agent's Sources.",
+  "updated": "Sep 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/set-up",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-agents-will-soon-be-restricted-to-only-the-data-sources-attached-to-the-agent",
+  "what_it_does": "In late September 2026, Genie Agents will be restricted to using only the data sources explicitly attached under the agent's Sources. Currently, a Genie Agent can go beyond its attached data sources if tables or Unity Catalog functions are referenced in its instructions. Create, share, and manage a Genie Agent, the natural language chat interface that business users use to ask questions of their data in Databricks.",
+  "why_it_matters": "Before sharing the agent with users, Databricks recommends adding example SQL queries, instructions, and knowledge store configurations to improve response accuracy.",
+  "plain_summary": "In late September 2026, Genie Agents will be restricted to using only the data sources explicitly attached under the agent's Sources. Currently, a Genie Agent can go beyond its attached data sources if tables or Unity Catalog functions are referenced in its…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In late September 2026, Genie Agents will be restricted to using only the data sources explicitly attached under the agent's Sources.",
+  "note_id": "2026-09-10-e896fcc2",
+  "category": "platform"
+}

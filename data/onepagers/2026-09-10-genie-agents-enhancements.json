@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Increased data source limit: Each Genie Agent supports up to 50 tables, views, or metric views as data sources, up from 30.",
+  "updated": "Sep 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/set-up#tech-requirements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "Increased data source limit: Each Genie Agent supports up to 50 tables, views, or metric views as data sources, up from 30. Increased conversation limit: Each Genie Agent can store up to 200,000 conversations, up from 10,000. Create, share, and manage a Genie Agent, the natural language chat interface that business users use to ask questions of their data in Databricks.",
+  "why_it_matters": "Before sharing the agent with users, Databricks recommends adding example SQL queries, instructions, and knowledge store configurations to improve response accuracy.",
+  "plain_summary": "Increased data source limit: Each Genie Agent supports up to 50 tables, views, or metric views as data sources, up from 30. Increased conversation limit: Each Genie Agent can store up to 200,000 conversations, up from 10,000.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Increased data source limit: Each Genie Agent supports up to 50 tables, views, or metric views as data sources, up from 30.",
+  "note_id": "2026-09-10-genie-agents-enhancements",
+  "category": "platform"
+}

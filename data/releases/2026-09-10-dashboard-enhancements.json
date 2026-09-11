@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-10-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **More Tableau calculations in `/importBI`**: Importing Tableau reports with the `/importBI` Genie Code command now supports more cases of parameterized calculations. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Relationship-scoped filters (Public Preview)**: On a dashboard with relationships, each widget now responds only to filters whose dataset is related to it, so a filter no longer affects unrelated charts. See [Dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships).\n* **Choose the warehouse for materialization**: When you export a dashboard dataset as a materialized view in Unity Catalog, you can now choose which SQL warehouse runs the materialization. See [Export a dataset as a materialized view](/aws/en/dashboards/manage/data-modeling/datasets#export-materialized-view).\n* **Include-style LOD expressions**: The metric view editor now supports Include-style level of detail (LOD) expressions in YAML.\n* **Scoped starter questions**: On a published dashboard, Ask Genie's suggested starter questions are now scoped to the dashboard page and widget you're viewing.\n* **Key insights per page**: Key insights now generate for each dashboard page. A **New insights** badge appears only when new insights are available, along with a live-generating indicator.\n* **Selected chart as Ask Genie context**: On a published dashboard, the Ask Genie input bar now shows the chart you selected as context, so you can ask questions about that specific chart. See  [Ask Genie about a specific chart](/aws/en/dashboards/genie-spaces#genie-chart-details).\n* **Metric view reuse when building**: When building a dashboard, Genie Code now prefers governed metric views over ad-hoc SQL datasets and reuses an existing metric view when one satisfies the request. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **Export and import dashboard themes**: You can now export a dashboard's theme to a JSON file and import a theme file into another dashboard, so you can reuse or share a theme without editing the dashboard JSON. See [Export or import a theme](/aws/en/dashboards/manage/settings#import-export).\n* **Line shape control**: Line and area charts now have a **Line shape** control that connects data points with linear, smooth, or stepped lines. See [Line shape](/aws/en/dashboards/manage/visualizations/types#line-shape).\n* **Color scale on pivot table text**: The pivot table color scale now includes an **Apply to** setting, so you can paint the color gradient on the cell text as well as the background. See [Value-level settings](/aws/en/dashboards/manage/visualizations/tables#pivot-value-settings).\n* **Path maps from point sequences**: Path maps can now connect a sequence of ordered points into a line, from separate longitude and latitude columns or a single point geometry column, in addition to a single geometry line column. Use this for trajectories such as GPS tracks. See [Path source](/aws/en/dashboards/manage/visualizations/maps#path-map-source).",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships"
+    },
+    {
+      "text": "Export a dataset as a materialized view",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/datasets#export-materialized-view"
+    },
+    {
+      "text": "Ask Genie about a specific chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#genie-chart-details"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Export or import a theme",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#import-export"
+    },
+    {
+      "text": "Line shape",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#line-shape"
+    },
+    {
+      "text": "Value-level settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-value-settings"
+    },
+    {
+      "text": "Path source",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps#path-map-source"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-11T12:08:28.757955Z"
+}
