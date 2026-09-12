@@ -1,0 +1,24 @@
+{
+  "product": "Sharing foreign Iceberg tables with OpenSharing is now generally available",
+  "tagline": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available.",
+  "updated": "Sep 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#foreign-ice-tables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
+  "what_it_does": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available. Providers can share Iceberg tables federated from foreign Iceberg catalogs using Lakehouse Federation, including to recipients using external Iceberg clients. As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "why_it_matters": "As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "plain_summary": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available. Providers can share Iceberg tables federated from foreign Iceberg catalogs using Lakehouse Federation, including to recipients using external Iceberg clients.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available.",
+  "note_id": "2026-09-11-sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
+  "category": "platform"
+}

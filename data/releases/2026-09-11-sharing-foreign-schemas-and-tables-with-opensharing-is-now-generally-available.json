@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-11-sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
+  "title": "Sharing foreign schemas and tables with OpenSharing is now generally available",
+  "date": "2026-09-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available. Providers can share foreign schemas and tables federated from external data sources using Lakehouse Federation, without copying data into Databricks. See [Add foreign schemas or tables to a share](/aws/en/opensharing/create-share#foreign-asset) for providers and [Read data in a shared foreign table or foreign schema](/aws/en/opensharing/read-data-databricks#foreign-tables) for recipients.\n\nSharing foreign schemas and tables materializes data on the provider's side, which incurs compute and storage costs. See [How do I incur and check OpenSharing costs?](/aws/en/opensharing#share-costs).",
+  "ref_links": [
+    {
+      "text": "Add foreign schemas or tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-asset"
+    },
+    {
+      "text": "Read data in a shared foreign table or foreign schema",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#foreign-tables"
+    },
+    {
+      "text": "How do I incur and check OpenSharing costs?",
+      "url": "https://docs.databricks.com/aws/en/opensharing#share-costs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.982749Z"
+}

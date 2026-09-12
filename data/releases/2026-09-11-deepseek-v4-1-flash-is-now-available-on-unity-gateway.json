@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-11-deepseek-v4-1-flash-is-now-available-on-unity-gateway",
+  "title": "DeepSeek V4.1 Flash is now available on Unity Gateway",
+  "date": "2026-09-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deepseek-v41-flash-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[DeepSeek V4.1 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-1-flash) is now available on Unity Gateway with text and image inputs. See [supported regions](/aws/en/machine-learning/model-serving/foundation-model-overview). You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "DeepSeek V4.1 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-1-flash"
+    },
+    {
+      "text": "supported regions",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/foundation-model-overview"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.983556Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "The partner-powered AI features setting will be removed",
+  "tagline": "On November 1, 2026, Databricks will remove the account and workspace level toggle for partner powered AI features.",
+  "updated": "Sep 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-partner-powered-ai-features-setting-will-be-removed",
+  "what_it_does": "On November 1, 2026, Databricks will remove the account and workspace level toggle for partner powered AI features. Each workspace will keep its current setting value: if the setting is enabled, it stays enabled, and if it's disabled, it stays disabled. Removing the toggle doesn't change any setting values.",
+  "why_it_matters": "By default, this setting is enabled for all workspaces that do not have a compliance security profile (CSP) enabled.",
+  "plain_summary": "On November 1, 2026, Databricks will remove the account and workspace level toggle for partner powered AI features. Each workspace will keep its current setting value: if the setting is enabled, it stays enabled, and if it's disabled, it stays disabled.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "On November 1, 2026, Databricks will remove the account and workspace level toggle for partner powered AI features.",
+  "note_id": "2026-09-08-the-partner-powered-ai-features-setting-will-be-removed",
+  "category": "platform"
+}

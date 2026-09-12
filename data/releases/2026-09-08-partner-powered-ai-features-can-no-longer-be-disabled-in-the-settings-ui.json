@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-08-partner-powered-ai-features-can-no-longer-be-disabled-in-the-settings-ui",
+  "title": "Partner-powered AI features can no longer be disabled in the settings UI",
+  "date": "2026-09-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#partner-powered-ai-features-can-no-longer-be-disabled-in-the-settings-ui",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can no longer disable the [partner-powered AI features](/aws/en/databricks-ai/partner-powered) setting in the account or workspace settings UI, but can still enable it. Until November 1, 2026, you can still use the [Settings API](/aws/en/admin/workspace-settings/settings-api-manage) to enable or disable the setting.\n\nOn November 1, 2026, the setting will be removed, and any change will then require contacting your Databricks account team.",
+  "ref_links": [
+    {
+      "text": "partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    },
+    {
+      "text": "Settings API",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/settings-api-manage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.996673Z"
+}

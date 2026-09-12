@@ -1,0 +1,24 @@
+{
+  "product": "Standard performance mode is now available for one-time runs in the Jobs API",
+  "tagline": "You can now set performance target to STANDARD in the Jobs API.",
+  "updated": "Sep 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs#performance",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
+  "what_it_does": "You can now set performance target to STANDARD in the Jobs API. Apache Airflow's DatabricksSubmitRunOperator also supports this. Serverless compute for workflows lets you run your job without configuring and deploying infrastructure.",
+  "why_it_matters": "You can now set performance target to STANDARD in the Jobs API.",
+  "plain_summary": "You can now set performance target to STANDARD in the Jobs API. Apache Airflow's DatabricksSubmitRunOperator also supports this.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now set performance target to STANDARD in the Jobs API.",
+  "note_id": "2026-09-11-standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Databricks-provided MCP connectors for Genie One and Genie Code are generally…",
+  "tagline": "Genie One and Genie Code can now use Databricks provided MCP connectors for Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub to search and act on your company's…",
+  "updated": "Sep 10, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/external-sources",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#databricks-provided-mcp-connectors-for-genie-one-and-genie-code-are-generally-available",
+  "what_it_does": "Genie One and Genie Code can now use Databricks provided MCP connectors for Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub to search and act on your company's tools while answering questions. Every connection is governed through Unity Catalog and Unity Gateway, which authorizes each tool call, enforces built in policies and approval requirements, and logs usage and audit activity. Each user authenticates individually, and OAuth tokens aren't shared.",
+  "why_it_matters": "Every connection is governed through Unity Catalog and Unity Gateway, which authorizes each tool call, enforces built in policies and approval requirements, and logs usage and audit activity.",
+  "plain_summary": "Genie One and Genie Code can now use Databricks provided MCP connectors for Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub to search and act on your company's tools while answering questions. Every connection is governed…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie One and Genie Code can now use Databricks provided MCP connectors for Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub to search and act on your company's…",
+  "note_id": "2026-09-10-3d1371f8",
+  "category": "platform"
+}

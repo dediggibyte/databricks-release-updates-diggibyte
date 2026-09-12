@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-08-the-partner-powered-ai-features-setting-will-be-removed",
+  "title": "The partner-powered AI features setting will be removed",
+  "date": "2026-09-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-partner-powered-ai-features-setting-will-be-removed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "On November 1, 2026, Databricks will remove the account- and workspace-level toggle for partner-powered AI features. Each workspace will keep its current setting value: if the setting is enabled, it stays enabled, and if it's disabled, it stays disabled. Removing the toggle doesn't change any setting values. After November 1, 2026, to change this setting, contact your Databricks account team.\n\nSee [Partner-powered AI features](/aws/en/databricks-ai/partner-powered).",
+  "ref_links": [
+    {
+      "text": "Partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.998405Z"
+}

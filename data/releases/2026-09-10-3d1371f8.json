@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-10-3d1371f8",
+  "title": "Databricks-provided MCP connectors for Genie One and Genie Code are generally available",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#databricks-provided-mcp-connectors-for-genie-one-and-genie-code-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One and Genie Code can now use Databricks-provided MCP connectors for Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub to search and act on your company's tools while answering questions. Every connection is governed through Unity Catalog and [Unity Gateway](/aws/en/ai-gateway), which authorizes each tool call, enforces built-in policies and approval requirements, and logs usage and audit activity. Each user authenticates individually, and OAuth tokens aren't shared. See [Connect to external tools and sources](/aws/en/genie-one/external-sources).",
+  "ref_links": [
+    {
+      "text": "Unity Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "Connect to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.990418Z"
+}

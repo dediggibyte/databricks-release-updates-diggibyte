@@ -1,0 +1,33 @@
+{
+  "product": "Sharing foreign schemas and tables with OpenSharing is now generally available",
+  "tagline": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available.",
+  "updated": "Sep 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing#share-costs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
+  "what_it_does": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available. Providers can share foreign schemas and tables federated from external data sources using Lakehouse Federation, without copying data into Databricks. Sharing foreign schemas and tables materializes data on the provider's side, which incurs compute and storage costs.",
+  "why_it_matters": "Sharing foreign schemas and tables materializes data on the provider's side, which incurs compute and storage costs.",
+  "plain_summary": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available. Providers can share foreign schemas and tables federated from external data sources using Lakehouse Federation, without copying data into Databricks.",
+  "capabilities": [
+    {
+      "title": "In the bearer token flow",
+      "desc": "In the bearer token flow, the recipient provides the credential whenever they access the data in their tool of choice, including…"
+    },
+    {
+      "title": "In the OIDC token federation",
+      "desc": "In the OIDC token federation flow, the recipient or the recipient's client app accesses the data using their own identity…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available.",
+  "note_id": "2026-09-11-sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
+  "category": "platform"
+}

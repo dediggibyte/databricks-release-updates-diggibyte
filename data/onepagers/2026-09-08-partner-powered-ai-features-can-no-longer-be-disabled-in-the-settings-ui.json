@@ -1,0 +1,24 @@
+{
+  "product": "Partner-powered AI features can no longer be disabled in the settings UI",
+  "tagline": "You can no longer disable the partner powered AI features setting in the account or workspace settings UI, but can still enable it.",
+  "updated": "Sep 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/settings-api-manage",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#partner-powered-ai-features-can-no-longer-be-disabled-in-the-settings-ui",
+  "what_it_does": "You can no longer disable the partner powered AI features setting in the account or workspace settings UI, but can still enable it. Until November 1, 2026, you can still use the Settings API to enable or disable the setting. On November 1, 2026, the setting will be removed, and any change will then require contacting your Databricks account team.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can no longer disable the partner powered AI features setting in the account or workspace settings UI, but can still enable it. Until November 1, 2026, you can still use the Settings API to enable or disable the setting.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can no longer disable the partner powered AI features setting in the account or workspace settings UI, but can still enable it.",
+  "note_id": "2026-09-08-partner-powered-ai-features-can-no-longer-be-disabled-in-the-settings-ui",
+  "category": "platform"
+}

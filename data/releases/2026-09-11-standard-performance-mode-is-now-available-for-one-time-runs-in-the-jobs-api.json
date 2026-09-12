@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-11-standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
+  "title": "Standard performance mode is now available for one-time runs in the Jobs API",
+  "date": "2026-09-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set `performance_target` to `STANDARD` in the Jobs API. Apache Airflow's `DatabricksSubmitRunOperator` also supports this. See [Create and trigger a one-time run](https://docs.databricks.com/api/workspace/jobs/submit) and [Select a performance mode](/aws/en/jobs/run-serverless-jobs#performance).",
+  "ref_links": [
+    {
+      "text": "Create and trigger a one-time run",
+      "url": "https://docs.databricks.com/api/workspace/jobs/submit"
+    },
+    {
+      "text": "Select a performance mode",
+      "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs#performance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-12T11:33:50.981142Z"
+}
