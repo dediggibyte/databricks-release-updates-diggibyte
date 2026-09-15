@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-29-ai-transcribe-function-beta",
+  "title": "ai_transcribe function (Beta)",
+  "date": "2026-08-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_transcribe-function-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_transcribe()` SQL function transcribes an audio file into text. It returns the transcript as time-stamped segments, and labels each segment with a speaker when speaker diarization is enabled for your workspace. The output is a `VARIANT` value, so you can chain it into other AI Functions. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [`ai_transcribe` function](/aws/en/sql/language-manual/functions/ai_transcribe).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "ai_transcribe function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_transcribe"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-15T12:35:52.793753Z"
+}

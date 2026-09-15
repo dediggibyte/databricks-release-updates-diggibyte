@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-14-genie-visualizations-in-slack-replies-public-preview",
+  "title": "Genie visualizations in Slack replies (Public Preview)",
+  "date": "2026-09-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-visualizations-in-slack-replies-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this. See [Visualizations](/aws/en/genie-one/genie-slack#visualizations).",
+  "ref_links": [
+    {
+      "text": "Visualizations",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie-slack#visualizations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-15T12:35:52.760397Z"
+}

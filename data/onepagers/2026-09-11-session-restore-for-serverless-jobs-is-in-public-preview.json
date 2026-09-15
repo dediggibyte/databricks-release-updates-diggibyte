@@ -1,0 +1,24 @@
+{
+  "product": "Session restore for serverless jobs is in Public Preview",
+  "tagline": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job.",
+  "updated": "Sep 11, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/schedule-notebook-jobs#session-restore-serverless-jobs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#session-restore-for-serverless-jobs-is-in-public-preview",
+  "what_it_does": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job. Databricks captures the snapshot automatically for eligible runs. You can create and manage notebook jobs directly in the notebook UI.",
+  "why_it_matters": "If you use serverless, select the performance mode.",
+  "plain_summary": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job. Databricks captures the snapshot automatically for eligible runs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job.",
+  "note_id": "2026-09-11-session-restore-for-serverless-jobs-is-in-public-preview",
+  "category": "platform"
+}

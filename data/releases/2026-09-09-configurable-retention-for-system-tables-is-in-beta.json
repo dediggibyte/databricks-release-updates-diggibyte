@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-09-configurable-retention-for-system-tables-is-in-beta",
+  "title": "Configurable retention for system tables is in Beta",
+  "date": "2026-09-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configurable-retention-for-system-tables-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Account admins can now set an account-wide retention period from 30 to 3,650 days for supported system tables. See [Configure system table data retention](/aws/en/admin/system-tables#configure-system-table-data-retention).",
+  "ref_links": [
+    {
+      "text": "Configure system table data retention",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables#configure-system-table-data-retention"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-15T12:35:52.771093Z"
+}

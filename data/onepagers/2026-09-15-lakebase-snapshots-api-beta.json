@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase snapshots API (Beta)",
+  "tagline": "You can now manage Lakebase snapshots programmatically.",
+  "updated": "Sep 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/snapshots#create-snapshot",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakebase-snapshots-api-beta",
+  "what_it_does": "You can now manage Lakebase snapshots programmatically. The snapshots API lets you create, get, list, and delete point in time snapshots of a project branch, and restore a snapshot by creating a new branch from it. A snapshot is a point in time capture of a project's root branch, including the schema and all data.",
+  "why_it_matters": "Lakebase creates snapshots instantly with minimal performance impact.",
+  "plain_summary": "You can now manage Lakebase snapshots programmatically. The snapshots API lets you create, get, list, and delete point in time snapshots of a project branch, and restore a snapshot by creating a new branch from it.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now manage Lakebase snapshots programmatically.",
+  "note_id": "2026-09-15-lakebase-snapshots-api-beta",
+  "category": "platform"
+}

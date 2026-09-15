@@ -1,0 +1,30 @@
+{
+  "product": "Genie visualizations in Slack replies (Public Preview)",
+  "tagline": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply.",
+  "updated": "Sep 14, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/genie-slack#visualizations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-visualizations-in-slack-replies-public-preview",
+  "what_it_does": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this. Preview This feature is in Public Preview.",
+  "why_it_matters": "Genie answers each question using the credentials of the Slack user who mentions @Genie, so each user sees only the data they are already permitted to access in Databricks, governed by Unity Catalog.",
+  "plain_summary": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use case specific answers."
+  ],
+  "limitations": [
+    "Sending Databricks notifications to Slack",
+    "Triggering actions in Databricks from Slack",
+    "Creating Genie agents or Genie Agents."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply.",
+  "note_id": "2026-09-14-genie-visualizations-in-slack-replies-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-11-session-restore-for-serverless-jobs-is-in-public-preview",
+  "title": "Session restore for serverless jobs is in Public Preview",
+  "date": "2026-09-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#session-restore-for-serverless-jobs-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job. Databricks captures the snapshot automatically for eligible runs. See [Session restore for serverless jobs](/aws/en/notebooks/schedule-notebook-jobs#session-restore-serverless-jobs).",
+  "ref_links": [
+    {
+      "text": "Session restore for serverless jobs",
+      "url": "https://docs.databricks.com/aws/en/notebooks/schedule-notebook-jobs#session-restore-serverless-jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-15T12:35:52.762711Z"
+}

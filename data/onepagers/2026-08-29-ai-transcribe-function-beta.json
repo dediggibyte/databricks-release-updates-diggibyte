@@ -1,0 +1,33 @@
+{
+  "product": "ai_transcribe function (Beta)",
+  "tagline": "The ai transcribe() SQL function transcribes an audio file into text.",
+  "updated": "Aug 29, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_transcribe",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_transcribe-function-beta",
+  "what_it_does": "The ai transcribe() SQL function transcribes an audio file into text. It returns the transcript as time stamped segments, and labels each segment with a speaker when speaker diarization is enabled for your workspace. The output is a VARIANT value, so you can chain it into other AI Functions.",
+  "why_it_matters": "Data security Your document data is processed within the Databricks security perimeter.",
+  "plain_summary": "The ai transcribe() SQL function transcribes an audio file into text. It returns the transcript as time stamped segments, and labels each segment with a speaker when speaker diarization is enabled for your workspace.",
+  "capabilities": [
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The ai transcribe() SQL function transcribes an audio file into text.",
+  "note_id": "2026-08-29-ai-transcribe-function-beta",
+  "category": "platform"
+}

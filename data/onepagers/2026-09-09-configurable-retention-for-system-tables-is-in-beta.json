@@ -1,0 +1,24 @@
+{
+  "product": "Configurable retention for system tables is in Beta",
+  "tagline": "Account admins can now set an account wide retention period from 30 to 3,650 days for supported system tables.",
+  "updated": "Sep 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables#configure-system-table-data-retention",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configurable-retention-for-system-tables-is-in-beta",
+  "what_it_does": "Account admins can now set an account wide retention period from 30 to 3,650 days for supported system tables. important Databricks highly discourages you from moving this data outside the platform because it can expose sensitive data and put your deployment at risk. Due to the nature of system table information, you are reminded that you are responsible to maintain the security, and prevent misuse, of any exported system table information.",
+  "why_it_matters": "Due to the nature of system table information, you are reminded that you are responsible to maintain the security, and prevent misuse, of any exported system table information.",
+  "plain_summary": "Account admins can now set an account wide retention period from 30 to 3,650 days for supported system tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Account admins can now set an account wide retention period from 30 to 3,650 days for supported system tables.",
+  "note_id": "2026-09-09-configurable-retention-for-system-tables-is-in-beta",
+  "category": "platform"
+}

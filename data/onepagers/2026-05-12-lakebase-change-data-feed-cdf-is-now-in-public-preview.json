@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Change Data Feed (CDF) is now in Public Preview",
+  "tagline": "You can now store every insert, update, and delete on your Lakebase Postgres tables as Unity Catalog managed Delta tables.",
+  "updated": "May 12, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-cdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-change-data-feed-cdf-is-now-in-public-preview",
+  "what_it_does": "You can now store every insert, update, and delete on your Lakebase Postgres tables as Unity Catalog managed Delta tables. Lakebase Change Data Feed (CDF) captures row level changes from the write ahead log for downstream pipelines, models, and audit, with no external CDC stack to run. note The Lakebase Change Data Feed feature is in Public Preview.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now store every insert, update, and delete on your Lakebase Postgres tables as Unity Catalog managed Delta tables. Lakebase Change Data Feed (CDF) captures row level changes from the write ahead log for downstream pipelines, models, and audit, with…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now store every insert, update, and delete on your Lakebase Postgres tables as Unity Catalog managed Delta tables.",
+  "note_id": "2026-05-12-lakebase-change-data-feed-cdf-is-now-in-public-preview",
+  "category": "platform"
+}
