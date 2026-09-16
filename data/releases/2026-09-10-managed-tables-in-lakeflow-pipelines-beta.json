@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-10-managed-tables-in-lakeflow-pipelines-beta",
+  "title": "Managed tables in Lakeflow pipelines (Beta)",
+  "date": "2026-09-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-tables-in-lakeflow-pipelines-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows. This feature is in [Beta](/aws/en/release-notes/release-types). You can also use `import_checkpoint` on an append flow to migrate an existing Structured Streaming workload into a pipeline without reprocessing the source.\n\nSee [create\\_table](/aws/en/ldp/developer/ldp-python-ref-create-table), [CREATE TABLE ... FLOW (pipelines)](/aws/en/ldp/developer/ldp-sql-ref-create-table-flow), and [append\\_flow](/aws/en/ldp/developer/ldp-python-ref-append-flow).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "create_table",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-create-table"
+    },
+    {
+      "text": "CREATE TABLE ... FLOW (pipelines)",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-sql-ref-create-table-flow"
+    },
+    {
+      "text": "append_flow",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-append-flow"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-16T12:32:08.323093Z"
+}

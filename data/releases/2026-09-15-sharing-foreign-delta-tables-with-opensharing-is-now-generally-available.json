@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-15-sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
+  "title": "Sharing foreign Delta tables with OpenSharing is now generally available",
+  "date": "2026-09-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sharing and reading foreign Delta tables with OpenSharing is now generally available. Providers can share Delta-format tables federated from OneLake, a Hive metastore, or AWS Glue, without copying data into Databricks. See [Add foreign Delta tables to a share](/aws/en/opensharing/create-share#foreign-delta).",
+  "ref_links": [
+    {
+      "text": "Add foreign Delta tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-delta"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-16T12:32:08.310932Z"
+}

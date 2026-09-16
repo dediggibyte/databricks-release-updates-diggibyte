@@ -1,0 +1,24 @@
+{
+  "product": "Managed tables in Lakeflow pipelines (Beta)",
+  "tagline": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows.",
+  "updated": "Sep 10, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-append-flow",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-tables-in-lakeflow-pipelines-beta",
+  "what_it_does": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows. This feature is in Beta. You can also use import checkpoint on an append flow to migrate an existing Structured Streaming workload into a pipeline without reprocessing the source.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows. This feature is in Beta.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows.",
+  "note_id": "2026-09-10-managed-tables-in-lakeflow-pipelines-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "ABAC on views is in Beta",
+  "tagline": "Attribute based access control (ABAC) row filters and column masks now extend to views, in addition to tables.",
+  "updated": "Sep 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-on-views-is-in-beta",
+  "what_it_does": "Attribute based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views. Account admins can enable the ABAC on Views preview from the account console's Previews page.",
+  "why_it_matters": "Attribute based access control (ABAC) is an access control model in Unity Catalog where access is determined by evaluating attributes associated with securable objects.",
+  "plain_summary": "Attribute based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Attribute based access control (ABAC) row filters and column masks now extend to views, in addition to tables.",
+  "note_id": "2026-09-15-abac-on-views-is-in-beta",
+  "category": "platform"
+}

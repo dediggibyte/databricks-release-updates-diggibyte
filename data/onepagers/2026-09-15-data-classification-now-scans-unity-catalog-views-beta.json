@@ -1,0 +1,37 @@
+{
+  "product": "Data Classification now scans Unity Catalog views (Beta)",
+  "tagline": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine.",
+  "updated": "Sep 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification#classify-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#data-classification-now-scans-unity-catalog-views-beta",
+  "what_it_does": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine. This is a Beta feature. This page describes how to use Databricks Data Classification in Unity Catalog to automatically classify and tag sensitive data in your catalog.",
+  "why_it_matters": "It is critical for data teams to understand what kind of sensitive data exists in each table so that they can both govern and democratize access to this data.",
+  "plain_summary": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine. This is a Beta feature.",
+  "capabilities": [
+    {
+      "title": "MANAGE on the catalog, or",
+      "desc": "MANAGE on the catalog, or"
+    },
+    {
+      "title": "READ METADATA on the catalog",
+      "desc": "READ METADATA on the catalog, or"
+    },
+    {
+      "title": "USE CATALOG, USE SCHEMA, and",
+      "desc": "USE CATALOG, USE SCHEMA, and SELECT on the catalog. To see sample values associated with detections, you must have SELECT on the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine.",
+  "note_id": "2026-09-15-data-classification-now-scans-unity-catalog-views-beta",
+  "category": "platform"
+}

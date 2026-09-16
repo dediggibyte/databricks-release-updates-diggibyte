@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-15-4e4f6051",
+  "title": "The READ METADATA privilege will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-09-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-read-metadata-privilege-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `READ METADATA` privilege will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in mid-October 2026.\n\n`READ METADATA` grants read-only visibility into an object's metadata, including security-sensitive information that `BROWSE` doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and site reliability engineers (SREs).\n\nSee [READ METADATA](/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "READ METADATA",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-16T12:32:08.310372Z"
+}

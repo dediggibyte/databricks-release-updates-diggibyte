@@ -1,0 +1,24 @@
+{
+  "product": "Sharing foreign Delta tables with OpenSharing is now generally available",
+  "tagline": "Sharing and reading foreign Delta tables with OpenSharing is now generally available.",
+  "updated": "Sep 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-delta",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
+  "what_it_does": "Sharing and reading foreign Delta tables with OpenSharing is now generally available. Providers can share Delta format tables federated from OneLake, a Hive metastore, or AWS Glue, without copying data into Databricks. This page explains how to create shares for OpenSharing.",
+  "why_it_matters": "A share is a securable object in Unity Catalog that you use for sharing the following data assets with one or more recipients: Tables and table partitions Streaming tables Managed Iceberg tables Foreign Iceberg tables Foreign Delta tables Foreign schemas and tables Views, including dynamic views that restrict access at the row and column level Materialized views Volumes Python UDFs Notebooks AI models Genie Agents FeatureSpecs If you share an entire schema (database), the recipient can access all of the tables, streaming tables, views, materialized views, models, and volumes in the schema at the moment you share it, along with any data and AI assets added to the schema in the future.",
+  "plain_summary": "Sharing and reading foreign Delta tables with OpenSharing is now generally available. Providers can share Delta format tables federated from OneLake, a Hive metastore, or AWS Glue, without copying data into Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing and reading foreign Delta tables with OpenSharing is now generally available.",
+  "note_id": "2026-09-15-sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
+  "category": "platform"
+}
