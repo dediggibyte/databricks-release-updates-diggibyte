@@ -1,0 +1,33 @@
+{
+  "product": "The counter_diff SQL window function is now available",
+  "tagline": "The counter diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time series analysis of counter data.",
+  "updated": "Sep 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/counter_diff",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-counter_diff-sql-window-function-is-now-available",
+  "what_it_does": "The counter diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time series analysis of counter data. It is available in Databricks SQL and Databricks Runtime 19 and above. Applies to: Databricks SQL Databricks Runtime 19.0 and above Computes the differences between consecutive cumulative counter values in a time series, converting cumulative counters to delta format.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The counter diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time series analysis of counter data. It is available in Databricks SQL and Databricks Runtime 19 and above.",
+  "capabilities": [
+    {
+      "title": "Use PARTITION BY to separate",
+      "desc": "Use PARTITION BY to separate independent counters. Typical partition columns are the metric name and any attributes tied to the…"
+    },
+    {
+      "title": "Use ORDER BY to define",
+      "desc": "Use ORDER BY to define the order. This is typically a timestamp column tied to the metric."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The counter diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time series analysis of counter data.",
+  "note_id": "2026-09-14-the-counter-diff-sql-window-function-is-now-available",
+  "category": "platform"
+}

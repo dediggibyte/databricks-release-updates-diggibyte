@@ -1,0 +1,24 @@
+{
+  "product": "Unity Gateway API and developer tools are generally available",
+  "tagline": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks…",
+  "updated": "Sep 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/register-mcp-service",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-api-and-developer-tools-are-generally-available",
+  "what_it_does": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools: Terraform provider: 1.132.0 and later Databricks CLI: v1.17.0 and later Python SDK: databricks sdk 0.136.0 and later Go SDK: databricks sdk go v0.178.0 and later Java SDK: databricks sdk java 0.153.0 and later JavaScript SDK: @databricks/sdk aigateway 0.19.0 and later Declarative Automation Bundles support, through the Databricks CLI 1.17.0 and later, is in Beta. For API documentation, see the Unity Gateway API reference. For examples and tutorials, see the following: Create and manage model APIs (model services) Create and manage external model providers (model provider services) Register an external MCP server.",
+  "why_it_matters": "Registering the server as a Unity Catalog securable lets Unity Gateway proxy every call with managed credentials, so agents never handle the server's tokens.",
+  "plain_summary": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools: Terraform provider: 1.132.0 and later Databricks…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks…",
+  "note_id": "2026-09-16-unity-gateway-api-and-developer-tools-are-generally-available",
+  "category": "platform"
+}

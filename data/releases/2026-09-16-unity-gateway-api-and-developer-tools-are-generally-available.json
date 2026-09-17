@@ -1,0 +1,57 @@
+{
+  "id": "2026-09-16-unity-gateway-api-and-developer-tools-are-generally-available",
+  "title": "Unity Gateway API and developer tools are generally available",
+  "date": "2026-09-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-api-and-developer-tools-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools:\n\n* [Terraform provider](/aws/en/dev-tools/terraform): 1.132.0 and later\n* [Databricks CLI](/aws/en/dev-tools/cli/install): v1.17.0 and later\n* [Python SDK](/aws/en/dev-tools/sdk-python): `databricks-sdk` 0.136.0 and later\n* [Go SDK](/aws/en/dev-tools/sdk-go): `databricks-sdk-go` v0.178.0 and later\n* [Java SDK](/aws/en/dev-tools/sdk-java): `databricks-sdk-java` 0.153.0 and later\n* [JavaScript SDK](https://www.npmjs.com/package/@databricks/sdk-aigateway): `@databricks/sdk-aigateway` 0.19.0 and later\n\n[Declarative Automation Bundles](/aws/en/dev-tools/bundles) support, through the Databricks CLI 1.17.0 and later, is in Beta.\n\nFor API documentation, see the [Unity Gateway API reference](https://docs.databricks.com/api/workspace/aigateway).\n\nFor examples and tutorials, see the following:\n\n* [Create and manage model APIs (model services)](/aws/en/ai-gateway/create-model-services)\n* [Create and manage external model providers (model provider services)](/aws/en/ai-gateway/create-model-provider-services)\n* [Register an external MCP server](/aws/en/ai-gateway/register-mcp-service).",
+  "ref_links": [
+    {
+      "text": "Terraform provider",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/terraform"
+    },
+    {
+      "text": "Databricks CLI",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/cli/install"
+    },
+    {
+      "text": "Python SDK",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-python"
+    },
+    {
+      "text": "Go SDK",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-go"
+    },
+    {
+      "text": "Java SDK",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-java"
+    },
+    {
+      "text": "JavaScript SDK",
+      "url": "https://www.npmjs.com/package/@databricks/sdk-aigateway"
+    },
+    {
+      "text": "Declarative Automation Bundles",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles"
+    },
+    {
+      "text": "Unity Gateway API reference",
+      "url": "https://docs.databricks.com/api/workspace/aigateway"
+    },
+    {
+      "text": "Create and manage model APIs (model services)",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/create-model-services"
+    },
+    {
+      "text": "Create and manage external model providers (model provider services)",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/create-model-provider-services"
+    },
+    {
+      "text": "Register an external MCP server",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/register-mcp-service"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-17T12:32:10.955742Z"
+}

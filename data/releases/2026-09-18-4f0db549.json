@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-18-4f0db549",
+  "title": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled",
+  "date": "2026-09-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-apps-is-now-on-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Databricks Apps](/aws/en/dev-tools/databricks-apps) is now on by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nSee [Databricks Apps](/aws/en/dev-tools/databricks-apps).",
+  "ref_links": [
+    {
+      "text": "Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-17T12:32:10.952852Z"
+}

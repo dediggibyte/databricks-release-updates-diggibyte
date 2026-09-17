@@ -1,0 +1,33 @@
+{
+  "product": "Automatic change data feed will soon be available in all supported regions",
+  "tagline": "Automatic change data feed (Auto CDF) is rolling out to workspaces over the next month and will be available in all supported regions by the end of October 2026.",
+  "updated": "Sep 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/change-data-feed#auto-cdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#automatic-change-data-feed-will-soon-be-available-in-all-supported-regions",
+  "what_it_does": "Automatic change data feed (Auto CDF) is rolling out to workspaces over the next month and will be available in all supported regions by the end of October 2026. Auto CDF computes row level changes at query time using row tracking, so you don't need to enable change data feed on each Delta Lake or Apache Iceberg v3 table. It requires Databricks Runtime 19 or above with row tracking enabled.",
+  "why_it_matters": "Audit trails that track data modifications for compliance and governance requirements.",
+  "plain_summary": "Automatic change data feed (Auto CDF) is rolling out to workspaces over the next month and will be available in all supported regions by the end of October 2026. Auto CDF computes row level changes at query time using row tracking, so you don't need to…",
+  "capabilities": [
+    {
+      "title": "A managed table in Delta",
+      "desc": "A managed table in Delta Lake format with row tracking enabled or in Iceberg v3 format."
+    },
+    {
+      "title": "An external table in Delta",
+      "desc": "An external table in Delta Lake format with row tracking enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Automatic change data feed (Auto CDF) is rolling out to workspaces over the next month and will be available in all supported regions by the end of October 2026.",
+  "note_id": "2026-09-15-automatic-change-data-feed-will-soon-be-available-in-all-supported-regions",
+  "category": "platform"
+}

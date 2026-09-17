@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code adds conversation controls",
+  "tagline": "Genie Code now includes conversation controls that let you branch and revise a chat.",
+  "updated": "Sep 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/branch",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-adds-conversation-controls",
+  "what_it_does": "Genie Code now includes conversation controls that let you branch and revise a chat. You can fork a conversation into a new, independent thread from a point you choose, ask a quick side question with /btw without adding it to the thread, and edit an earlier message to regenerate the conversation from that point. When you want to revise a chat or try a different direction, Genie Code can branch it into a separate thread or edit it in place.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Genie Code now includes conversation controls that let you branch and revise a chat. You can fork a conversation into a new, independent thread from a point you choose, ask a quick side question with /btw without adding it to the thread, and edit an earlier…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code now includes conversation controls that let you branch and revise a chat.",
+  "note_id": "2026-09-09-genie-code-adds-conversation-controls",
+  "category": "platform"
+}

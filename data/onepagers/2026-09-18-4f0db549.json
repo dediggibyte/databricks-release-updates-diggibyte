@@ -1,0 +1,33 @@
+{
+  "product": "Databricks Apps is now on by default for workspaces with the compliance…",
+  "tagline": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.",
+  "updated": "Sep 18, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-apps-is-now-on-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled. This page describes the compliance security profile, its compliance controls, and supported features. To enable the compliance security profile, see Configure enhanced security and compliance settings.",
+  "why_it_matters": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [
+    {
+      "title": "A CIS Level 1 hardened",
+      "desc": "A CIS Level 1 hardened image"
+    },
+    {
+      "title": "FIPS 140 validated encryption modules",
+      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-09-18-4f0db549",
+  "category": "platform"
+}

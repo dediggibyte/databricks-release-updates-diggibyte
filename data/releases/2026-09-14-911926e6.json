@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-14-911926e6",
+  "title": "JAR tasks on serverless compute will soon be available for workspaces with the compliance security profile enabled",
+  "date": "2026-09-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#jar-tasks-on-serverless-compute-will-soon-be-available-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In early October 2026, running JAR tasks on serverless compute will be automatically enabled for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled. Package your Java or Scala Spark code in a JAR and run it as a JAR task on serverless compute in a Lakeflow Job, without provisioning or managing clusters.\n\nSee [Create and run JARs on serverless compute](/aws/en/jobs/how-to/use-jars-in-workflows).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Create and run JARs on serverless compute",
+      "url": "https://docs.databricks.com/aws/en/jobs/how-to/use-jars-in-workflows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-17T12:32:10.962067Z"
+}
