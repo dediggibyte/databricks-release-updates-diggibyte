@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-17-skills-in-genie-one-support-multiple-files-and-folders",
+  "title": "Skills in Genie One support multiple files and folders",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#skills-in-genie-one-support-multiple-files-and-folders",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A Genie One skill can now include multiple files and sub-folders, up to three folders deep and 50 files or folders per skill. Skills can load text files only. See [User skills](/aws/en/genie-one/chat#user-skills).",
+  "ref_links": [
+    {
+      "text": "User skills",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#user-skills"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-18T12:10:30.010455Z"
+}

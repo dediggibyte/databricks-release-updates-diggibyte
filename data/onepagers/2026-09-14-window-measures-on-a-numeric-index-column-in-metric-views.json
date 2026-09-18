@@ -1,0 +1,41 @@
+{
+  "product": "Window measures on a numeric index column in metric views",
+  "tagline": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column.",
+  "updated": "Sep 14, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/advanced-techniques#numeric-index",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#window-measures-on-a-numeric-index-column-in-metric-views",
+  "what_it_does": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column. Use a numeric index for non calendar periods such as fiscal weeks or 4 4 5 periods. Advanced techniques for metric views let you express complex business logic and reuse definitions across your semantic layer.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column. Use a numeric index for non calendar periods such as fiscal weeks or 4 4 5 periods.",
+  "capabilities": [
+    {
+      "title": "name: date expr: oorderdate",
+      "desc": "name: date expr: oorderdate"
+    },
+    {
+      "title": "name: t7dcustomers expr: COUNT(DISTINCT ocustkey)",
+      "desc": "name: t7dcustomers expr: COUNT(DISTINCT ocustkey)"
+    },
+    {
+      "title": "order: date range: trailing 7",
+      "desc": "order: date range: trailing 7 day semiadditive: last"
+    },
+    {
+      "title": "name: date expr: oorderdate",
+      "desc": "name: date expr: oorderdate"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column.",
+  "note_id": "2026-09-14-window-measures-on-a-numeric-index-column-in-metric-views",
+  "category": "platform"
+}

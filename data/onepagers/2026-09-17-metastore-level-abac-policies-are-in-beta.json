@@ -1,0 +1,24 @@
+{
+  "product": "Metastore-level ABAC policies are in Beta",
+  "tagline": "Metastore level ABAC policies are in Beta in Unity Catalog.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/metastore-policies",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#metastore-level-abac-policies-are-in-beta",
+  "what_it_does": "Metastore level ABAC policies are in Beta in Unity Catalog. You can now attach an ABAC policy (row filter, column mask, GRANT, or DENY) at the metastore level, so a single policy applies across every catalog in the metastore, including catalogs created later. This gives governance teams one place to enforce organization wide data protection rules without replicating a policy for each catalog.",
+  "why_it_matters": "This gives governance teams one place to enforce organization wide data protection rules without replicating a policy for each catalog.",
+  "plain_summary": "Metastore level ABAC policies are in Beta in Unity Catalog. You can now attach an ABAC policy (row filter, column mask, GRANT, or DENY) at the metastore level, so a single policy applies across every catalog in the metastore, including catalogs created later.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Metastore level ABAC policies are in Beta in Unity Catalog.",
+  "note_id": "2026-09-17-metastore-level-abac-policies-are-in-beta",
+  "category": "platform"
+}

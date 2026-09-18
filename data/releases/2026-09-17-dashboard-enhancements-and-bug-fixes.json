@@ -1,0 +1,45 @@
+{
+  "id": "2026-09-17-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Convert a SQL dataset to a local metric view**: You can now convert a SQL dataset into a local metric view from the dataset's context menu, and Genie Code handles the conversion. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views) and [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **SQL dataset parameters in Genie Code**: Genie Code for dashboard authoring now understands SQL dataset parameters when building and editing dashboards. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **Reference aggregated field values in widget titles and descriptions**: Type `@` in a visualization widget's title or description to insert a field reference. The reference shows a live, formatted metric, such as a sum or an average, that responds to the dashboard's filters. Click the reference to change the field, aggregation function, and number or date formatting. See [Reference a filter or field](/aws/en/dashboards/manage/visualizations#reference-field).\n* **Default expand level for pivot tables**: You can now set the number of row and column hierarchy levels a pivot table expands to when it first loads. See [Set the default expand level](/aws/en/dashboards/manage/visualizations/tables#pivot-default-expand-level).\n* **Independent axis scaling on faceted charts**: You can now scale a numeric axis to each subchart's own data on a faceted chart instead of sharing one range across subcharts. Set the axis range to **Per facet**. See [Faceting](/aws/en/dashboards/manage/visualizations#faceting).\n* **Theme picker previews**: The [preset theme picker](/aws/en/dashboards/manage/settings#preset) now shows a color palette preview for each theme before you select it.\n* **Reorder field variable options**: You can now reorder the options in a [field variable](/aws/en/dashboards/manage/filters/dashboard-variables).\n* **Style pivot table totals**: You can now style the headers and values of a pivot table's totals independently, and apply conditional styling to them. See [Style pivot table totals](/aws/en/dashboards/manage/visualizations/tables#pivot-total-style).\n* **Dashboard variable undo and redo fix**: Fixed a bug where undo and redo did not apply to dashboard variables.",
+  "ref_links": [
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Reference a filter or field",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#reference-field"
+    },
+    {
+      "text": "Set the default expand level",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-default-expand-level"
+    },
+    {
+      "text": "Faceting",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#faceting"
+    },
+    {
+      "text": "preset theme picker",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#preset"
+    },
+    {
+      "text": "field variable",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables"
+    },
+    {
+      "text": "Style pivot table totals",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-total-style"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-18T12:10:30.009763Z"
+}

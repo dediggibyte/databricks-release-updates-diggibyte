@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Convert a SQL dataset to a local metric view: You can now convert a SQL dataset into a local metric view from the dataset's context menu, and Genie Code handles the conversion.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-total-style",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Convert a SQL dataset to a local metric view: You can now convert a SQL dataset into a local metric view from the dataset's context menu, and Genie Code handles the conversion. SQL dataset parameters in Genie Code: Genie Code for dashboard authoring now understands SQL dataset parameters when building and editing dashboards. Reference aggregated field values in widget titles and descriptions: Type @ in a visualization widget's title or description to insert a field reference.",
+  "why_it_matters": "Independent axis scaling on faceted charts: You can now scale a numeric axis to each subchart's own data on a faceted chart instead of sharing one range across subcharts.",
+  "plain_summary": "Convert a SQL dataset to a local metric view: You can now convert a SQL dataset into a local metric view from the dataset's context menu, and Genie Code handles the conversion. SQL dataset parameters in Genie Code: Genie Code for dashboard authoring now…",
+  "capabilities": [
+    {
+      "title": "Header height: Specifies the header",
+      "desc": "Header height: Specifies the header height in pixels. Header text wraps to fill the specified height. Overflow text is truncated."
+    },
+    {
+      "title": "Default style: Set font color",
+      "desc": "Default style: Set font color, background color, and text formatting (bold, italic, underline) for all column headers."
+    },
+    {
+      "title": "Basic (default): Renders values as",
+      "desc": "Basic (default): Renders values as text. Additional formatting options include font colors, font styles, background colors, and…"
+    },
+    {
+      "title": "Image: Takes a base64-encoded string",
+      "desc": "Image: Takes a base64-encoded string and renders it as an image. To learn how to encode an image as a URL, see Image paths and…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Convert a SQL dataset to a local metric view: You can now convert a SQL dataset into a local metric view from the dataset's context menu, and Genie Code handles the conversion.",
+  "note_id": "2026-09-17-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-17-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Larger PDF uploads**: You can now upload PDFs with up to 100 pages to Genie One and Genie Agents, increased from 20. See [Upload a file](/aws/en/genie-one/chat#upload-a-file) and [Upload a file to a Genie Agent](/aws/en/genie-agents/file-upload).\n* **Summarize up to six months of activity**: Authors can now summarize up to six months of Genie Agent activity from the **Monitor** tab. See [Review usage and trends](/aws/en/genie-agents/monitor#usage-trends).\n* **Agents use only attached sources**: A Genie Agent now uses only the data assets explicitly attached as sources. See  [Manage data objects](/aws/en/genie-agents/set-up#manage-data).\n* **Fixed Analyze Agent Usage summary**: Fixed a bug where Analyze Agent Usage summarized only the last 20 messages sent to the agent.",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/file-upload"
+    },
+    {
+      "text": "Review usage and trends",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/monitor#usage-trends"
+    },
+    {
+      "text": "Manage data objects",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/set-up#manage-data"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-18T12:10:30.011949Z"
+}

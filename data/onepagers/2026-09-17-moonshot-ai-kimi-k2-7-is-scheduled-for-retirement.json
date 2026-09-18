@@ -1,0 +1,24 @@
+{
+  "product": "Moonshot AI Kimi K2.7 is scheduled for retirement",
+  "tagline": "Moonshot AI Kimi K2.7 will be retired on October 30, 2026.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#moonshot-ai-kimi-k27-is-scheduled-for-retirement",
+  "what_it_does": "Moonshot AI Kimi K2.7 will be retired on October 30, 2026. Kimi K3 is the recommended replacement. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Moonshot AI Kimi K2.7 will be retired on October 30, 2026. Kimi K3 is the recommended replacement.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Moonshot AI Kimi K2.7 will be retired on October 30, 2026.",
+  "note_id": "2026-09-17-moonshot-ai-kimi-k2-7-is-scheduled-for-retirement",
+  "category": "platform"
+}

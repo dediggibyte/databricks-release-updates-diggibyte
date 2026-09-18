@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements and bug fixes",
+  "tagline": "Larger PDF uploads: You can now upload PDFs with up to 100 pages to Genie One and Genie Agents, increased from 20.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/set-up#manage-data",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "Larger PDF uploads: You can now upload PDFs with up to 100 pages to Genie One and Genie Agents, increased from 20. Summarize up to six months of activity: Authors can now summarize up to six months of Genie Agent activity from the Monitor tab. Agents use only attached sources: A Genie Agent now uses only the data assets explicitly attached as sources.",
+  "why_it_matters": "Before sharing the agent with users, Databricks recommends adding example SQL queries, instructions, and knowledge store configurations to improve response accuracy.",
+  "plain_summary": "Larger PDF uploads: You can now upload PDFs with up to 100 pages to Genie One and Genie Agents, increased from 20. Summarize up to six months of activity: Authors can now summarize up to six months of Genie Agent activity from the Monitor tab.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Larger PDF uploads: You can now upload PDFs with up to 100 pages to Genie One and Genie Agents, increased from 20.",
+  "note_id": "2026-09-17-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}
