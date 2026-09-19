@@ -1,0 +1,33 @@
+{
+  "product": "Unity Gateway support for compliance security profile standards",
+  "tagline": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-support-for-compliance-security-profile-standards",
+  "what_it_does": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled. For a full list of supported compliance standards, see Compliance security profile. This page describes the compliance security profile, its compliance controls, and supported features.",
+  "why_it_matters": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled. For a full list of supported compliance standards, see Compliance security…",
+  "capabilities": [
+    {
+      "title": "A CIS Level 1 hardened",
+      "desc": "A CIS Level 1 hardened image"
+    },
+    {
+      "title": "FIPS 140 validated encryption modules",
+      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-09-17-unity-gateway-support-for-compliance-security-profile-standards",
+  "category": "platform"
+}

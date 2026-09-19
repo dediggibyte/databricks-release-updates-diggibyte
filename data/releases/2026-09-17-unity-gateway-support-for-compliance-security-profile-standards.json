@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-17-unity-gateway-support-for-compliance-security-profile-standards",
+  "title": "Unity Gateway support for compliance security profile standards",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-support-for-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.\n\nFor a full list of supported compliance standards, see [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-19T11:53:25.780791Z"
+}

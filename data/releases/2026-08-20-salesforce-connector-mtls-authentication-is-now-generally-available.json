@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-20-salesforce-connector-mtls-authentication-is-now-generally-available",
+  "title": "Salesforce connector mTLS authentication is now generally available",
+  "date": "2026-08-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#salesforce-connector-mtls-authentication-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mutual TLS (mTLS) authentication for the Salesforce connector in Lakeflow Connect is now generally available. With mTLS, Databricks and Salesforce exchange and verify client certificates to establish two-way trust, combined with the OAuth client credentials flow. Choose it for API-only users or when your organization requires mTLS. See [Mutual TLS (mTLS) authentication](/aws/en/ingestion/lakeflow-connect/salesforce-connection#mutual-tls-authentication).",
+  "ref_links": [
+    {
+      "text": "Mutual TLS (mTLS) authentication",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/salesforce-connection#mutual-tls-authentication"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-19T11:53:25.904671Z"
+}

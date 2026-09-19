@@ -1,0 +1,24 @@
+{
+  "product": "Anthropic models will be removed from AWS GovCloud IL5 workspaces",
+  "tagline": "On September 19, 2026, Anthropic models will be removed from Databricks on AWS GovCloud and AWS GovCloud DoD workspaces that have the DoD Impact Level 5 (IL5) compliance standard selected.",
+  "updated": "Sep 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/il5",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#anthropic-models-will-be-removed-from-aws-govcloud-il5-workspaces",
+  "what_it_does": "On September 19, 2026, Anthropic models will be removed from Databricks on AWS GovCloud and AWS GovCloud DoD workspaces that have the DoD Impact Level 5 (IL5) compliance standard selected. After this date, IL5 workspaces can't create or use endpoints that serve Anthropic models. Migrate any affected endpoints to another supported model before September 19, 2026.",
+  "why_it_matters": "On September 19, 2026, Anthropic models will be removed from Databricks on AWS GovCloud and AWS GovCloud DoD workspaces that have the DoD Impact Level 5 (IL5) compliance standard selected.",
+  "plain_summary": "On September 19, 2026, Anthropic models will be removed from Databricks on AWS GovCloud and AWS GovCloud DoD workspaces that have the DoD Impact Level 5 (IL5) compliance standard selected. After this date, IL5 workspaces can't create or use endpoints that…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "On September 19, 2026, Anthropic models will be removed from Databricks on AWS GovCloud and AWS GovCloud DoD workspaces that have the DoD Impact Level 5 (IL5) compliance standard selected.",
+  "note_id": "2026-09-16-anthropic-models-will-be-removed-from-aws-govcloud-il5-workspaces",
+  "category": "platform"
+}

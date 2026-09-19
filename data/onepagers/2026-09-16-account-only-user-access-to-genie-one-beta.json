@@ -1,0 +1,24 @@
+{
+  "product": "Account-only user access to Genie One (Beta)",
+  "tagline": "Genie One now supports account only users, so users in a registered identity provider can access account level Genie One without being assigned to a workspace or granted consumer access.",
+  "updated": "Sep 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/account-only-user-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#account-only-user-access-to-genie-one-beta",
+  "what_it_does": "Genie One now supports account only users, so users in a registered identity provider can access account level Genie One without being assigned to a workspace or granted consumer access. When enabled, eligible users are enrolled automatically. Unity Catalog continues to govern what each user can see.",
+  "why_it_matters": "Unity Catalog continues to govern what each user can see.",
+  "plain_summary": "Genie One now supports account only users, so users in a registered identity provider can access account level Genie One without being assigned to a workspace or granted consumer access. When enabled, eligible users are enrolled automatically.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie One now supports account only users, so users in a registered identity provider can access account level Genie One without being assigned to a workspace or granted consumer access.",
+  "note_id": "2026-09-16-account-only-user-access-to-genie-one-beta",
+  "category": "platform"
+}

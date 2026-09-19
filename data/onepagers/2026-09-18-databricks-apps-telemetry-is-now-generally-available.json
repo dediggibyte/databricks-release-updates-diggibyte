@@ -1,0 +1,41 @@
+{
+  "product": "Databricks Apps telemetry is now generally available",
+  "tagline": "Configuring telemetry for your Databricks apps is now generally available.",
+  "updated": "Sep 18, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/observability",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-apps-telemetry-is-now-generally-available",
+  "what_it_does": "Configuring telemetry for your Databricks apps is now generally available. Databricks Apps telemetry collects traces, logs, and metrics and persists them to Unity Catalog tables using the OpenTelemetry (OTel) protocol. After you enable app telemetry, Databricks automatically captures system logs and usage events, and you can add custom instrumentation using the OpenTelemetry SDK for your framework.",
+  "why_it_matters": "Databricks recommends enabling predictive optimization on the telemetry target tables for better query performance.",
+  "plain_summary": "Configuring telemetry for your Databricks apps is now generally available. Databricks Apps telemetry collects traces, logs, and metrics and persists them to Unity Catalog tables using the OpenTelemetry (OTel) protocol.",
+  "capabilities": [
+    {
+      "title": "name: OTELTRACESSAMPLER value: 'alwayson'",
+      "desc": "name: OTELTRACESSAMPLER value: 'alwayson'"
+    },
+    {
+      "title": "name: OTELTRACESSAMPLER value: 'alwayson'",
+      "desc": "name: OTELTRACESSAMPLER value: 'alwayson'"
+    },
+    {
+      "title": "name: OTELTRACESSAMPLER value: 'alwayson'",
+      "desc": "name: OTELTRACESSAMPLER value: 'alwayson'"
+    },
+    {
+      "title": "name: OTELTRACESSAMPLER value: 'alwayson'",
+      "desc": "name: OTELTRACESSAMPLER value: 'alwayson'"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Configuring telemetry for your Databricks apps is now generally available.",
+  "note_id": "2026-09-18-databricks-apps-telemetry-is-now-generally-available",
+  "category": "platform"
+}
