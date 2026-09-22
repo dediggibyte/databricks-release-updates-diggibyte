@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-21-databricks-runtime-19-september-21-2026",
+  "title": "Databricks Runtime 19: September 21, 2026",
+  "date": "2026-09-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-september-21-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### New features and improvements\n\n* **`truncate` function**: SQL and the Scala and Python DataFrame APIs now support `truncate`, which truncates a number to a specified scale without rounding.\n* **`trim_array` function**: SQL and the Scala and Python DataFrame APIs now support `trim_array`, which removes elements from the end of an array when the count is positive or from the beginning when the count is negative.\n* **Session environment variables for Python user-defined function workers**: Set a session-scoped Python worker environment variable using the `spark.pythonWorkerEnv.<variable-name>` configuration prefix. The variables apply when workers for regular scalar Python user-defined functions (UDFs) are launched.\n* **Auto-optimized shuffle v2 enabled by default**: Auto-optimized shuffle v2 is now used when you do not set a fixed number of shuffle partitions. Workloads that explicitly set a fixed shuffle partition count are unchanged.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-09-22T12:31:26.556574Z"
+}

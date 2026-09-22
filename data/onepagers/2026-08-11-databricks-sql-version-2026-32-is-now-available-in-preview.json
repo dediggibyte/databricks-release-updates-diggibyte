@@ -1,0 +1,24 @@
+{
+  "product": "Databricks SQL version 2026.32 is now available in Preview",
+  "tagline": "Databricks SQL version 2026.32 is now available in the Preview channel.",
+  "updated": "Aug 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-tvf",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202632-is-now-available-in-preview",
+  "what_it_does": "Databricks SQL version 2026.32 is now available in the Preview channel. Review the following section to learn about new features and improvements. Validate VARIANT values with is valid variant The is valid variant function returns true when its input is a well formed VARIANT value and false otherwise.",
+  "why_it_matters": "Review the following section to learn about new features and improvements.",
+  "plain_summary": "Databricks SQL version 2026.32 is now available in the Preview channel. Review the following section to learn about new features and improvements.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks SQL version 2026.32 is now available in the Preview channel.",
+  "note_id": "2026-08-11-databricks-sql-version-2026-32-is-now-available-in-preview",
+  "category": "platform"
+}

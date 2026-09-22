@@ -1,0 +1,41 @@
+{
+  "product": "Databricks Runtime 19: August 24, 2026",
+  "tagline": "Library and environment updates Updated Java from Zulu21.50+19 CA to Zulu21.52+15 CA.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-august-24-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-august-24-2026",
+  "what_it_does": "Library and environment updates Updated Java from Zulu21.50+19 CA to Zulu21.52+15 CA. Updated Java libraries: + com.fasterxml.jackson.core.jackson annotations from 2.21 to 2.22 + com.fasterxml.jackson.core.jackson core from 2.21.2 to 2.22.1 + com.fasterxml.jackson.core.jackson databind from 2.21.2 to 2.22.1 + com.fasterxml.jackson.datatype.jackson datatype joda from 2.21.2 to 2.22.1 + com.fasterxml.jackson.datatype.jackson datatype jsr310 from 2.21.2 to 2.22.1 + com.fasterxml.jackson.module.jackson module paranamer from 2.21.2 to 2.22.1 + com.fasterxml.jackson.module.jackson module scala 2.13 from 2.21.2 to 2.22.1",
+  "why_it_matters": "Updated Java libraries: + com.fasterxml.jackson.core.jackson annotations from 2.21 to 2.22 + com.fasterxml.jackson.core.jackson core from 2.21.2 to 2.22.1 + com.fasterxml.jackson.core.jackson databind from 2.21.2 to 2.22.1 + com.fasterxml.jackson.datatype.jackson datatype joda from 2.21.2 to 2.22.1 + com.fasterxml.jackson.datatype.jackson datatype jsr310 from 2.21.2 to 2.22.1 + com.fasterxml.jackson.module.jackson module paranamer from 2.21.2 to 2.22.1 + com.fasterxml.jackson.module.jackson module scala 2.13 from 2.21.2 to 2.22.1",
+  "plain_summary": "Library and environment updates Updated Java from Zulu21.50+19 CA to Zulu21.52+15 CA. Updated Java libraries: + com.fasterxml.jackson.core.jackson annotations from 2.21 to 2.22 + com.fasterxml.jackson.core.jackson core from 2.21.2 to 2.22.1 +…",
+  "capabilities": [
+    {
+      "title": "com.fasterxml.jackson.core.jackson-annotations from 2.21 to 2.22",
+      "desc": "com.fasterxml.jackson.core.jackson-annotations from 2.21 to 2.22"
+    },
+    {
+      "title": "com.fasterxml.jackson.core.jackson-core from 2.21.2 to 2.22.1",
+      "desc": "com.fasterxml.jackson.core.jackson-core from 2.21.2 to 2.22.1"
+    },
+    {
+      "title": "com.fasterxml.jackson.core.jackson-databind from 2.21.2 to 2.22.1",
+      "desc": "com.fasterxml.jackson.core.jackson-databind from 2.21.2 to 2.22.1"
+    },
+    {
+      "title": "com.fasterxml.jackson.datatype.jackson-datatype-joda from 2.21.2 to 2.22.1",
+      "desc": "com.fasterxml.jackson.datatype.jackson-datatype-joda from 2.21.2 to 2.22.1"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Library and environment updates Updated Java from Zulu21.50+19 CA to Zulu21.52+15 CA.",
+  "note_id": "2026-08-24-databricks-runtime-19-august-24-2026",
+  "category": "platform"
+}

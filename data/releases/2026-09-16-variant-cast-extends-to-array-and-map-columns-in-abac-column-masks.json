@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-16-variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
+  "title": "VARIANT cast extends to ARRAY and MAP columns in ABAC column masks",
+  "date": "2026-09-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use a single `VARIANT` function to mask columns of type `ARRAY` and `MAP`, in addition to `STRUCT` and other types. This requires Databricks Runtime 19 or above. See [Masking multiple column types with a single function](/aws/en/data-governance/unity-catalog/abac/common-patterns#variant-masking).",
+  "ref_links": [
+    {
+      "text": "Masking multiple column types with a single function",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/common-patterns#variant-masking"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-22T12:31:26.577546Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "The Genie One MCP server is now generally available",
+  "tagline": "The Genie One MCP server is now generally available as a Databricks provided MCP Service, system.ai.genie one mcp, in Unity Gateway.",
+  "updated": "Sep 25, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-genie-one-mcp-server-is-now-generally-available",
+  "what_it_does": "The Genie One MCP server is now generally available as a Databricks provided MCP Service, system.ai.genie one mcp, in Unity Gateway. It exposes Genie as a conversational tool over the Model Context Protocol (MCP), so any MCP client or agent, such as Claude, ChatGPT, or Cursor, can ground its data questions in Genie's trusted insights, with Unity Catalog permissions enforced on every request. The previous Beta endpoint, https://<workspace hostname /api/2.0/mcp/genie, is deprecated and will be sunset on October 31, 2026.",
+  "why_it_matters": "Genie resolves business terms, metric definitions, and table relationships through Genie Ontology, your governed semantic layer, which produces more accurate answers than an agent writing SQL directly against raw tables.",
+  "plain_summary": "The Genie One MCP server is now generally available as a Databricks provided MCP Service, system.ai.genie one mcp, in Unity Gateway. It exposes Genie as a conversational tool over the Model Context Protocol (MCP), so any MCP client or agent, such as Claude…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One MCP server is now generally available as a Databricks provided MCP Service, system.ai.genie one mcp, in Unity Gateway.",
+  "note_id": "2026-09-25-the-genie-one-mcp-server-is-now-generally-available",
+  "category": "platform"
+}

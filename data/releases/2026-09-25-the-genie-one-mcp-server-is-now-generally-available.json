@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-25-the-genie-one-mcp-server-is-now-generally-available",
+  "title": "The Genie One MCP server is now generally available",
+  "date": "2026-09-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-genie-one-mcp-server-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One MCP server is now generally available as a Databricks-provided MCP Service, `system.ai.genie_one_mcp`, in [Unity Gateway](/aws/en/ai-gateway). It exposes Genie as a conversational tool over the Model Context Protocol (MCP), so any MCP client or agent, such as Claude, ChatGPT, or Cursor, can ground its data questions in Genie's trusted insights, with Unity Catalog permissions enforced on every request. See [Genie One MCP server](/aws/en/agents/mcp-tools/genie-mcp).\n\nThe previous Beta endpoint, `https://<workspace-hostname>/api/2.0/mcp/genie`, is deprecated and will be sunset on October 31, 2026. Move all workloads to the `system.ai.genie_one_mcp` MCP Service before then.",
+  "ref_links": [
+    {
+      "text": "Unity Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "Genie One MCP server",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-22T12:31:26.553814Z"
+}

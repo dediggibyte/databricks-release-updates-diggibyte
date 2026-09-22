@@ -1,0 +1,12 @@
+{
+  "id": "2026-08-10-databricks-runtime-19-august-10-2026",
+  "title": "Databricks Runtime 19: August 10, 2026",
+  "date": "2026-08-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-august-10-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### New features and improvements\n\n* **`collect_union` aggregate function**: SQL and the Scala and Python DataFrame APIs now support `collect_union`, which returns the distinct union of the elements in arrays within each group.\n\n### Behavioral changes\n\n* **`HAVING` is evaluated before window functions in queries with generators**: For queries that include generators, such as `explode`, window functions are now evaluated after the `HAVING` filter. Window results therefore include only rows retained by `HAVING`.\n* **`DataFrame.observe` reports metrics from the last successful attempt**: When a stage backing an observed operator is recomputed, observed metrics now reflect only the last successful attempt instead of combining values from multiple attempts.\n* **Policy logic is hidden in query plans by default**: Query plans no longer expose row filter and column mask policy logic unless the user has the `INSPECT_POLICY_EXECUTION` metastore privilege.\n* **`CREATE OR REPLACE VIEW` preserves metadata atomically**: For Unity Catalog views, `CREATE OR REPLACE VIEW` now performs an atomic replacement that preserves the view identity, grants, tags, and comments by default. Governed tag protections continue to apply.\n* **Delta API DML uses policy-definer rights**: `DeltaTable.delete`, `DeltaTable.update`, and `DeltaTable.merge` now resolve row filter and column mask policy functions with the policy definer's rights, matching SQL DML. Callers no longer need `EXECUTE` on those policy functions when they have the required table permissions.\n\n### Library and environment updates\n\n* Updated Java from `Zulu21.48+15-CA` to `Zulu21.50+19-CA`.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-09-22T12:31:26.763047Z"
+}

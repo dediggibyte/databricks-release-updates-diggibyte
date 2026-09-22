@@ -1,0 +1,24 @@
+{
+  "product": "The query history system table is now generally available",
+  "tagline": "The system.query.history system table is now generally available.",
+  "updated": "Sep 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-query-history-system-table-is-now-generally-available",
+  "what_it_does": "The system.query.history system table is now generally available. Use it to access account wide records for queries run on SQL warehouses or serverless compute, including execution status, duration metrics, and query source. Preview This system table is in Public Preview.",
+  "why_it_matters": "You can retrieve the encryption key ID in the account console by clicking Security then Encryption keys then opening the key configuration you want to use.",
+  "plain_summary": "The system.query.history system table is now generally available. Use it to access account wide records for queries run on SQL warehouses or serverless compute, including execution status, duration metrics, and query source.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The system.query.history system table is now generally available.",
+  "note_id": "2026-09-21-the-query-history-system-table-is-now-generally-available",
+  "category": "platform"
+}

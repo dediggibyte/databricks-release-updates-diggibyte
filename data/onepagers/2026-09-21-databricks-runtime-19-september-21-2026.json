@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: September 21, 2026",
+  "tagline": "New features and improvements truncate function: SQL and the Scala and Python DataFrame APIs now support truncate, which truncates a number to a specified scale without rounding.",
+  "updated": "Sep 21, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-september-21-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-september-21-2026",
+  "what_it_does": "New features and improvements truncate function: SQL and the Scala and Python DataFrame APIs now support truncate, which truncates a number to a specified scale without rounding. trim array function: SQL and the Scala and Python DataFrame APIs now support trim array, which removes elements from the end of an array when the count is positive or from the beginning when the count is negative. Session environment variables for Python user defined function workers: Set a session scoped Python worker environment variable using the spark.pythonWorkerEnv.<variable name configuration prefix.",
+  "why_it_matters": "New features and improvements truncate function: SQL and the Scala and Python DataFrame APIs now support truncate, which truncates a number to a specified scale without rounding.",
+  "plain_summary": "New features and improvements truncate function: SQL and the Scala and Python DataFrame APIs now support truncate, which truncates a number to a specified scale without rounding. trim array function: SQL and the Scala and Python DataFrame APIs now support…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New features and improvements truncate function: SQL and the Scala and Python DataFrame APIs now support truncate, which truncates a number to a specified scale without rounding.",
+  "note_id": "2026-09-21-databricks-runtime-19-september-21-2026",
+  "category": "platform"
+}

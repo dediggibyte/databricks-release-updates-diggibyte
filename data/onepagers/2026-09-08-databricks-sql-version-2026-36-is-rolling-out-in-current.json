@@ -1,0 +1,24 @@
+{
+  "product": "Databricks SQL version 2026.36 is rolling out in Current",
+  "tagline": "Databricks SQL version 2026.36 is rolling out to the Current channel.",
+  "updated": "Sep 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202636-is-rolling-out-in-current",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202636-is-rolling-out-in-current",
+  "what_it_does": "Databricks SQL version 2026.36 is rolling out to the Current channel.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Databricks SQL version 2026.36 is rolling out to the Current channel.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks SQL version 2026.36 is rolling out to the Current channel.",
+  "note_id": "2026-09-08-databricks-sql-version-2026-36-is-rolling-out-in-current",
+  "category": "platform"
+}

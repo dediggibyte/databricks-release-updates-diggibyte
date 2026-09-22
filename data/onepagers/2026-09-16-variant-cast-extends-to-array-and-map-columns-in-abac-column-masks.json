@@ -1,0 +1,24 @@
+{
+  "product": "VARIANT cast extends to ARRAY and MAP columns in ABAC column masks",
+  "tagline": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types.",
+  "updated": "Sep 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/common-patterns#variant-masking",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
+  "what_it_does": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types. This requires Databricks Runtime 19 or above. This page describes common patterns for implementing ABAC row filter and column mask policies.",
+  "why_it_matters": "SQL SELECT CAST(mask salary(salary, 'admin') AS DOUBLE) FROM employees; SELECT CAST(mask salary(salary, 'manager') AS DOUBLE) FROM employees; SELECT CAST(mask salary(salary, 'viewer') AS DOUBLE) FROM employees; Masking multiple column types with a single function A single masking UDF that accepts and returns a VARIANT can mask columns of many data types, which reduces the number of UDFs and policies you maintain.",
+  "plain_summary": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types. This requires Databricks Runtime 19 or above.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types.",
+  "note_id": "2026-09-16-variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
+  "category": "platform"
+}

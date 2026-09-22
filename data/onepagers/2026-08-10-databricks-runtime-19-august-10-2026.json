@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: August 10, 2026",
+  "tagline": "New features and improvements collect union aggregate function: SQL and the Scala and Python DataFrame APIs now support collect union, which returns the distinct union of the elements in arrays…",
+  "updated": "Aug 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-august-10-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-august-10-2026",
+  "what_it_does": "New features and improvements collect union aggregate function: SQL and the Scala and Python DataFrame APIs now support collect union, which returns the distinct union of the elements in arrays within each group. Behavioral changes HAVING is evaluated before window functions in queries with generators: For queries that include generators, such as explode, window functions are now evaluated after the HAVING filter. Window results therefore include only rows retained by HAVING.",
+  "why_it_matters": "New features and improvements collect union aggregate function: SQL and the Scala and Python DataFrame APIs now support collect union, which returns the distinct union of the elements in arrays within each group.",
+  "plain_summary": "New features and improvements collect union aggregate function: SQL and the Scala and Python DataFrame APIs now support collect union, which returns the distinct union of the elements in arrays within each group. Behavioral changes HAVING is evaluated before…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New features and improvements collect union aggregate function: SQL and the Scala and Python DataFrame APIs now support collect union, which returns the distinct union of the elements in arrays…",
+  "note_id": "2026-08-10-databricks-runtime-19-august-10-2026",
+  "category": "platform"
+}
