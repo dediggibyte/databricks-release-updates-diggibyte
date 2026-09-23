@@ -1,0 +1,37 @@
+{
+  "product": "Managed agent memory and sessions are in Beta",
+  "tagline": "Managed agent memory and managed agent sessions are in Beta.",
+  "updated": "Sep 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-memory/managed-sessions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-agent-memory-and-sessions-are-in-beta",
+  "what_it_does": "Managed agent memory and managed agent sessions are in Beta. Databricks now provides two fully managed, Lakebase backed stores for agent state, both usable from agents built on any framework: Managed agent memory gives agents durable, long term memory that persists across conversations, with semantic search. Managed agent sessions store durable conversation history that an agent reads at the start of a turn and appends to as it runs.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Managed agent memory and managed agent sessions are in Beta. Databricks now provides two fully managed, Lakebase backed stores for agent state, both usable from agents built on any framework: Managed agent memory gives agents durable, long term memory that…",
+  "capabilities": [
+    {
+      "title": "actorid (required): who the session",
+      "desc": "actorid (required): who the session belongs to, such as an end user or another agent. It groups all of one subject's sessions so…"
+    },
+    {
+      "title": "sessionid (optional): a caller-chosen ID",
+      "desc": "sessionid (optional): a caller-chosen ID for the interaction. The service generates one when you omit it."
+    },
+    {
+      "title": "parentsessionid (optional): links a session",
+      "desc": "parentsessionid (optional): links a session to the one it was forked from, to represent branched conversations. A session item…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Managed agent memory and managed agent sessions are in Beta.",
+  "note_id": "2026-09-16-managed-agent-memory-and-sessions-are-in-beta",
+  "category": "platform"
+}

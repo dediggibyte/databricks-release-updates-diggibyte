@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-19-configure-provider-discounts-for-external-model-spend",
+  "title": "Configure provider discounts for external model spend",
+  "date": "2026-09-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configure-provider-discounts-for-external-model-spend",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity Gateway estimates external model spend using each provider's published list prices. If your organization has negotiated different pricing with a provider, you can now configure a **price multiplier** on the model provider service so that spend estimates reflect those rates.\n\nPrice multipliers only apply to external models accessed through model provider services, not Databricks-hosted partner models.\n\nSee [Configure a price multiplier](/aws/en/ai-gateway/create-model-provider-services#configure-a-price-multiplier).",
+  "ref_links": [
+    {
+      "text": "Configure a price multiplier",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/create-model-provider-services#configure-a-price-multiplier"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-23T12:41:53.158909Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Webhook-triggered deployments for Databricks Apps will soon be generally…",
+  "tagline": "Starting in October 2026, webhook triggered deployments for Databricks Apps will be generally available.",
+  "updated": "Sep 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/deploy",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#webhook-triggered-deployments-for-databricks-apps-will-soon-be-generally-available",
+  "what_it_does": "Starting in October 2026, webhook triggered deployments for Databricks Apps will be generally available. Automatically deploy your app when changes are pushed to a connected GitHub or Azure DevOps repository, so your deployed app stays in sync with your repository without manual redeployment. After you create and develop your Databricks app, deploy it to make it accessible in the Databricks workspace.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Starting in October 2026, webhook triggered deployments for Databricks Apps will be generally available. Automatically deploy your app when changes are pushed to a connected GitHub or Azure DevOps repository, so your deployed app stays in sync with your…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in October 2026, webhook triggered deployments for Databricks Apps will be generally available.",
+  "note_id": "2026-09-15-538bf764",
+  "category": "platform"
+}

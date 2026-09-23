@@ -1,0 +1,29 @@
+{
+  "product": "Invite OpenSharing recipients by email (Beta)",
+  "tagline": "You can now invite OpenSharing recipients by email instead of exchanging a sharing identifier or credential file.",
+  "updated": "Sep 22, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing#email-sharing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#invite-opensharing-recipients-by-email-beta",
+  "what_it_does": "You can now invite OpenSharing recipients by email instead of exchanging a sharing identifier or credential file. OpenSharing emails the recipient a secure activation link to connect and read the shared data. Email sharing is in Beta.",
+  "why_it_matters": "OpenSharing emails the recipient a secure activation link to connect and read the shared data.",
+  "plain_summary": "You can now invite OpenSharing recipients by email instead of exchanging a sharing identifier or credential file. OpenSharing emails the recipient a secure activation link to connect and read the shared data.",
+  "capabilities": [
+    {
+      "title": "In the bearer token flow",
+      "desc": "In the bearer token flow, the recipient provides the credential whenever they access the data in their tool of choice, including…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now invite OpenSharing recipients by email instead of exchanging a sharing identifier or credential file.",
+  "note_id": "2026-09-22-invite-opensharing-recipients-by-email-beta",
+  "category": "platform"
+}

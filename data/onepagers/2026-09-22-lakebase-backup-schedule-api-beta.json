@@ -1,0 +1,29 @@
+{
+  "product": "Lakebase backup schedule API (Beta)",
+  "tagline": "You can now manage Lakebase backup schedules programmatically.",
+  "updated": "Sep 22, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/snapshots#snapshot-schedules",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakebase-backup-schedule-api-beta",
+  "what_it_does": "You can now manage Lakebase backup schedules programmatically. The snapshot schedule API lets you read and set a root branch's automated snapshot cadences (daily, weekly, or monthly) and how long each cadence's snapshots are retained. This API is in Beta and available to all Lakebase workspaces.",
+  "why_it_matters": "Lakebase creates snapshots instantly with minimal performance impact.",
+  "plain_summary": "You can now manage Lakebase backup schedules programmatically. The snapshot schedule API lets you read and set a root branch's automated snapshot cadences (daily, weekly, or monthly) and how long each cadence's snapshots are retained.",
+  "capabilities": [
+    {
+      "title": "weeklyschedule: dayofweek: MONDAY hour: 3",
+      "desc": "weeklyschedule: dayofweek: MONDAY hour: 3 retention: 604800s # 7 days"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now manage Lakebase backup schedules programmatically.",
+  "note_id": "2026-09-22-lakebase-backup-schedule-api-beta",
+  "category": "platform"
+}
