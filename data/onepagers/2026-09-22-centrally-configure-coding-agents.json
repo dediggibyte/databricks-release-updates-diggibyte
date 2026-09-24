@@ -1,0 +1,24 @@
+{
+  "product": "Centrally configure coding agents",
+  "tagline": "Organizations can now centrally configure coding agents: models, MCP servers, skills, a default harness and models, and Smart Routing.",
+  "updated": "Sep 22, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-configure-govern",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#centrally-configure-coding-agents",
+  "what_it_does": "Organizations can now centrally configure coding agents: models, MCP servers, skills, a default harness and models, and Smart Routing. Settings apply at agent launch, or roll out through mobile device management (MDM). Use a coding agent configuration to give your team a shared setup for agents, models, MCP servers, and skills.",
+  "why_it_matters": "Open Unity Gateway Govern Agent configuration.",
+  "plain_summary": "Organizations can now centrally configure coding agents: models, MCP servers, skills, a default harness and models, and Smart Routing. Settings apply at agent launch, or roll out through mobile device management (MDM).",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Organizations can now centrally configure coding agents: models, MCP servers, skills, a default harness and models, and Smart Routing.",
+  "note_id": "2026-09-22-centrally-configure-coding-agents",
+  "category": "platform"
+}

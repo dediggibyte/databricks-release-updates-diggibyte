@@ -1,0 +1,24 @@
+{
+  "product": "Variant shredding will soon be enabled by default on new Variant tables",
+  "tagline": "Starting November 18, 2026, Databricks will automatically add the variantShredding table feature to new tables that contain a column of the VARIANT type when they are created on Databricks Runtime…",
+  "updated": "Sep 22, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/variant-shredding",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#variant-shredding-will-soon-be-enabled-by-default-on-new-variant-tables",
+  "what_it_does": "Starting November 18, 2026, Databricks will automatically add the variantShredding table feature to new tables that contain a column of the VARIANT type when they are created on Databricks Runtime 17.3 or above. Variant shredding stores frequently accessed fields in a typed, columnar layout to improve query performance. This is a breaking change for Databricks Runtime 15.4: clusters running Databricks Runtime 15.4 can't read from or write to tables that have variant shredding enabled.",
+  "why_it_matters": "Variant shredding stores frequently accessed fields in a typed, columnar layout to improve query performance.",
+  "plain_summary": "Starting November 18, 2026, Databricks will automatically add the variantShredding table feature to new tables that contain a column of the VARIANT type when they are created on Databricks Runtime 17.3 or above. Variant shredding stores frequently accessed…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting November 18, 2026, Databricks will automatically add the variantShredding table feature to new tables that contain a column of the VARIANT type when they are created on Databricks Runtime…",
+  "note_id": "2026-09-22-variant-shredding-will-soon-be-enabled-by-default-on-new-variant-tables",
+  "category": "platform"
+}

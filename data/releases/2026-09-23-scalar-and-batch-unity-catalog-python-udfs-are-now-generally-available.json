@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-23-scalar-and-batch-unity-catalog-python-udfs-are-now-generally-available",
+  "title": "Scalar and Batch Unity Catalog Python UDFs are now generally available",
+  "date": "2026-09-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#scalar-and-batch-unity-catalog-python-udfs-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types. This release adds named handlers for row-at-a-time scalar UDFs, removes the five-UDF-call-per-query limit, and aligns scalar `TIMESTAMP` inputs with PySpark behavior. You can also install custom dependencies and access Unity Catalog service credentials and secrets from your functions. Some capabilities require the UDF definition to explicitly set `environment_version` to `6` or above, including the newly generally available scalar capabilities on serverless compute. Requirements vary by feature and compute type. See [Python UDF feature requirements](/aws/en/udf/unity-catalog#ga-feature-requirements).",
+  "ref_links": [
+    {
+      "text": "Python UDF feature requirements",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#ga-feature-requirements"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-24T12:39:57.519280Z"
+}

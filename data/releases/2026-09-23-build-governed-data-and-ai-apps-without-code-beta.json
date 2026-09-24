@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-23-build-governed-data-and-ai-apps-without-code-beta",
+  "title": "Build governed data and AI apps without code (Beta)",
+  "date": "2026-09-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#build-governed-data-and-ai-apps-without-code-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now build governed data and AI apps without code. Genie App Builder authors apps in natural language, App Spaces enforce governance, and Serverless Micro Apps scale to zero when idle. See [Governed agentic app building](/aws/en/dev-tools/databricks-apps/governed-agentic-app-building).",
+  "ref_links": [
+    {
+      "text": "Governed agentic app building",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/governed-agentic-app-building"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-24T12:39:57.521084Z"
+}

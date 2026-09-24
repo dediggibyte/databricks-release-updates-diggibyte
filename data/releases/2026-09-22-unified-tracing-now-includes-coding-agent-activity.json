@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-22-unified-tracing-now-includes-coding-agent-activity",
+  "title": "Unified tracing now includes coding agent activity",
+  "date": "2026-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unified-tracing-now-includes-coding-agent-activity",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity Gateway now adds coding-agent activity to unified tracing through the Unity Gateway CLI, so you can see the tools and skills used alongside model requests. Explore it in **Govern > Traces** or with Genie. See [Tracing](/aws/en/ai-gateway/coding-agent-observability#tracing).",
+  "ref_links": [
+    {
+      "text": "Tracing",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-observability#tracing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-24T12:39:57.528363Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-22-connect-coding-agents-to-unity-gateway-with-the-ug-cli",
+  "title": "Connect coding agents to Unity Gateway with the ug CLI",
+  "date": "2026-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#connect-coding-agents-to-unity-gateway-with-the-ug-cli",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use the Unity Gateway CLI (`ug`) to connect Claude Code, Codex, Pi, and more to Unity Gateway with one command. `ug` handles authentication and configuration, adds approved MCP servers and skills, and shows spend in the terminal. See [Get started with coding agents](/aws/en/ai-gateway/coding-agent-quickstart).",
+  "ref_links": [
+    {
+      "text": "Get started with coding agents",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-quickstart"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-24T12:39:57.523147Z"
+}

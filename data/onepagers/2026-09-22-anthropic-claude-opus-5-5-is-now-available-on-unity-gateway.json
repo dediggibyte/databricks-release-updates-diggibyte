@@ -1,0 +1,24 @@
+{
+  "product": "Anthropic Claude Opus 5.5 is now available on Unity Gateway",
+  "tagline": "Anthropic Claude Opus 5.5 is now available on Unity Gateway.",
+  "updated": "Sep 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anthropic-claude-opus-55-is-now-available-on-unity-gateway",
+  "what_it_does": "Anthropic Claude Opus 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs. Customers are responsible for ensuring their compliance with applicable terms.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable terms.",
+  "plain_summary": "Anthropic Claude Opus 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Anthropic Claude Opus 5.5 is now available on Unity Gateway.",
+  "note_id": "2026-09-22-anthropic-claude-opus-5-5-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Scalar and Batch Unity Catalog Python UDFs are now generally available",
+  "tagline": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types.",
+  "updated": "Sep 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/udf/unity-catalog#ga-feature-requirements",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#scalar-and-batch-unity-catalog-python-udfs-are-now-generally-available",
+  "what_it_does": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types. This release adds named handlers for row at a time scalar UDFs, removes the five UDF call per query limit, and aligns scalar TIMESTAMP inputs with PySpark behavior. You can also install custom dependencies and access Unity Catalog service credentials and secrets from your functions.",
+  "why_it_matters": "They let you define, use, and securely share and govern custom functions across computing environments.",
+  "plain_summary": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types. This release adds named handlers for row at a time scalar UDFs, removes the five UDF call per query limit, and aligns scalar TIMESTAMP inputs with PySpark…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types.",
+  "note_id": "2026-09-23-scalar-and-batch-unity-catalog-python-udfs-are-now-generally-available",
+  "category": "platform"
+}

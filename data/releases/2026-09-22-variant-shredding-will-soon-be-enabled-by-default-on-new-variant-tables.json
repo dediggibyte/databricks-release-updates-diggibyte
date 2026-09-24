@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-22-variant-shredding-will-soon-be-enabled-by-default-on-new-variant-tables",
+  "title": "Variant shredding will soon be enabled by default on new Variant tables",
+  "date": "2026-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#variant-shredding-will-soon-be-enabled-by-default-on-new-variant-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting November 18, 2026, Databricks will automatically add the `variantShredding` table feature to new tables that contain a column of the `VARIANT` type when they are created on Databricks Runtime 17.3 or above. Variant shredding stores frequently accessed fields in a typed, columnar layout to improve query performance.\n\nThis is a breaking change for Databricks Runtime 15.4: clusters running Databricks Runtime 15.4 can't read from or write to tables that have variant shredding enabled. Upgrade affected clusters to Databricks Runtime 16.4 or above before this change takes effect.\n\nSee [Use variant shredding to optimize performance](/aws/en/tables/features/variant-shredding).",
+  "ref_links": [
+    {
+      "text": "Use variant shredding to optimize performance",
+      "url": "https://docs.databricks.com/aws/en/tables/features/variant-shredding"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-24T12:39:57.522291Z"
+}
