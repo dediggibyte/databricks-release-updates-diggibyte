@@ -1,0 +1,24 @@
+{
+  "product": "Sharing metric views with OpenSharing is now generally available",
+  "tagline": "Sharing metric views with OpenSharing is now generally available.",
+  "updated": "Sep 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-metric-views-with-opensharing-is-now-generally-available",
+  "what_it_does": "Sharing metric views with OpenSharing is now generally available. Add metric views to a share and query them with MEASURE(...) on serverless compute. As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "why_it_matters": "As a recipient, you read data and notebooks shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "plain_summary": "Sharing metric views with OpenSharing is now generally available. Add metric views to a share and query them with MEASURE(...) on serverless compute.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Sharing metric views with OpenSharing is now generally available.",
+  "note_id": "2026-09-24-sharing-metric-views-with-opensharing-is-now-generally-available",
+  "category": "platform"
+}

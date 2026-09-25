@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Pin a chat: You can now pin a chat to keep it at the top of the sidebar.",
+  "updated": "Sep 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/external-sources",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Pin a chat: You can now pin a chat to keep it at the top of the sidebar. MCP writes in the mobile app (Beta): The Genie One mobile app now supports MCP write actions from connected tools. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Pin a chat: You can now pin a chat to keep it at the top of the sidebar. MCP writes in the mobile app (Beta): The Genie One mobile app now supports MCP write actions from connected tools.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Pin a chat: You can now pin a chat to keep it at the top of the sidebar.",
+  "note_id": "2026-09-24-genie-one-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Data exploration controls in dataset results and metric view preview: The dataset results table and the metric view preview grid now include column pinning and formatting, search, a column explorer…",
+  "updated": "Sep 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Data exploration controls in dataset results and metric view preview: The dataset results table and the metric view preview grid now include column pinning and formatting, search, a column explorer, natural language filtering, and a selection details panel. Include style level of detail (LOD) expressions in the metric view editor: The metric view editor now supports include style LOD expressions. Ignore filters on a widget: You can now configure a dashboard widget to ignore selected dashboard filters, so those filters don't affect the widget while they continue to apply to the rest of the page.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Data exploration controls in dataset results and metric view preview: The dataset results table and the metric view preview grid now include column pinning and formatting, search, a column explorer, natural language filtering, and a selection details panel.…",
+  "capabilities": [
+    {
+      "title": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER",
+      "desc": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER (PARTITION BY <dim1>, <dim2>, ...)"
+    },
+    {
+      "title": "name: orderpriority expr: oorderpriority",
+      "desc": "name: orderpriority expr: oorderpriority"
+    },
+    {
+      "title": "name: orderdate expr: oorderdate",
+      "desc": "name: orderdate expr: oorderdate"
+    },
+    {
+      "title": "name: prioritytotalprice expr: SUM(ototalprice) OVER",
+      "desc": "name: prioritytotalprice expr: SUM(ototalprice) OVER (PARTITION BY oorderpriority)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Data exploration controls in dataset results and metric view preview: The dataset results table and the metric view preview grid now include column pinning and formatting, search, a column explorer…",
+  "note_id": "2026-09-24-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

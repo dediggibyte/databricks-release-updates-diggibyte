@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-24-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Data-exploration controls in dataset results and metric view preview**: The dataset results table and the metric view preview grid now include column pinning and formatting, search, a column explorer, natural-language filtering, and a selection details panel. See [View the results table](/aws/en/dashboards/manage/data-modeling/datasets#view-results-table).\n* **Include-style level of detail (LOD) expressions in the metric view editor**: The metric view editor now supports include-style LOD expressions. See [Finer level of detail](/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod).\n* **Ignore filters on a widget**: You can now configure a dashboard widget to ignore selected dashboard filters, so those filters don't affect the widget while they continue to apply to the rest of the page.\n* **Genie Code stall fix**: Fixed an issue where Genie Code made unnecessary turns between edits, which made the agent appear to stall.\n* **Field labels error fix**: Fixed an issue where selecting a field for labels caused a dashboard error.\n* **Data reference picker fix**: Fixed an issue where the `@` data reference picker displayed a transparent background.",
+  "ref_links": [
+    {
+      "text": "View the results table",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/datasets#view-results-table"
+    },
+    {
+      "text": "Finer level of detail",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.113401Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Monitoring table column picker: You can now choose which columns appear in the agent monitoring table on the Monitor tab.",
+  "updated": "Sep 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/volumes#how-it-works",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "Monitoring table column picker: You can now choose which columns appear in the agent monitoring table on the Monitor tab. Page level citations for volume files (Beta): When a Genie Agent answers using content retrieved from an attached volume, its citations can now point to the specific page of the source file. A Genie Agent can analyze the unstructured files stored in Unity Catalog volumes, such as PDFs, Word documents, slide decks, and images.",
+  "why_it_matters": "Content search prepares and indexes your files so that the Genie Agent can use them more effectively, which improves its ability to reason about a larger set of files and answer questions with lower latency.",
+  "plain_summary": "Monitoring table column picker: You can now choose which columns appear in the agent monitoring table on the Monitor tab. Page level citations for volume files (Beta): When a Genie Agent answers using content retrieved from an attached volume, its citations…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Monitoring table column picker: You can now choose which columns appear in the agent monitoring table on the Monitor tab.",
+  "note_id": "2026-09-24-genie-agents-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-24-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Monitoring table column picker**: You can now choose which columns appear in the agent monitoring table on the **Monitor** tab. See [Monitor the agent](/aws/en/genie-agents/monitor#history).\n* **Page-level citations for volume files (Beta)**: When a Genie Agent answers using content retrieved from an attached volume, its citations can now point to the specific page of the source file. See [How a Genie Agent analyzes files](/aws/en/genie-agents/volumes#how-it-works).",
+  "ref_links": [
+    {
+      "text": "Monitor the agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/monitor#history"
+    },
+    {
+      "text": "How a Genie Agent analyzes files",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#how-it-works"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.109830Z"
+}

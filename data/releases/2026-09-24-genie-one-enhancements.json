@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-24-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Pin a chat**: You can now pin a chat to keep it at the top of the sidebar. See [Manage chats in the sidebar](/aws/en/genie-one/chat#manage-chats).\n* **MCP writes in the mobile app (Beta)**: The Genie One mobile app now supports MCP write actions from connected tools. See [Connect to external tools and sources](/aws/en/genie-one/external-sources).",
+  "ref_links": [
+    {
+      "text": "Manage chats in the sidebar",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#manage-chats"
+    },
+    {
+      "text": "Connect to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.111772Z"
+}

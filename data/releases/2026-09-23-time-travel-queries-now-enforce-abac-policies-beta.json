@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-23-time-travel-queries-now-enforce-abac-policies-beta",
+  "title": "Time travel queries now enforce ABAC policies (Beta)",
+  "date": "2026-09-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#time-travel-queries-now-enforce-abac-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This feature is in [Beta](/aws/en/release-notes/release-types). Starting in Databricks Runtime 19, you can use time travel on qualifying Unity Catalog managed tables while enforcing ABAC row filter and column mask policies. See [Time travel with ABAC policies](/aws/en/data-governance/unity-catalog/abac/time-travel).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Time travel with ABAC policies",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/time-travel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.117303Z"
+}

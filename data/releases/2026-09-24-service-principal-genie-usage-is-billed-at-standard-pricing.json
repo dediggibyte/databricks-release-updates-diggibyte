@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-24-service-principal-genie-usage-is-billed-at-standard-pricing",
+  "title": "Service principal Genie usage is billed at standard pricing",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#service-principal-genie-usage-is-billed-at-standard-pricing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie usage by service principals is now billed at standard Genie pay-as-you-go pricing. Service principals are excluded from the free monthly usage allowance that applies to individual users. See [Manage budgets and cost controls for Genie](/aws/en/genie/budgets) and [Monitor and understand your Genie cost](/aws/en/genie/monitor-cost).",
+  "ref_links": [
+    {
+      "text": "Manage budgets and cost controls for Genie",
+      "url": "https://docs.databricks.com/aws/en/genie/budgets"
+    },
+    {
+      "text": "Monitor and understand your Genie cost",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor-cost"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.110573Z"
+}

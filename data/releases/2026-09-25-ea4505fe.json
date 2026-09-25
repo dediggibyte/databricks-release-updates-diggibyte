@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-25-ea4505fe",
+  "title": "Tags for dashboards, notebooks, Databricks apps, and Genie Agents are now generally available",
+  "date": "2026-09-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#tags-for-dashboards-notebooks-databricks-apps-and-genie-agents-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets. This capability is now generally available. Both governed and ungoverned key-value tags are supported. See [Apply tags to Unity Catalog securable objects](/aws/en/database-objects/tags).",
+  "ref_links": [
+    {
+      "text": "Apply tags to Unity Catalog securable objects",
+      "url": "https://docs.databricks.com/aws/en/database-objects/tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.107430Z"
+}

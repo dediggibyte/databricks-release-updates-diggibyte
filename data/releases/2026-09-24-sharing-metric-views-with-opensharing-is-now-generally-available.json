@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-24-sharing-metric-views-with-opensharing-is-now-generally-available",
+  "title": "Sharing metric views with OpenSharing is now generally available",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-metric-views-with-opensharing-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sharing metric views with OpenSharing is now generally available. Add metric views to a share and query them with `MEASURE(...)` on serverless compute. See [Add metric views to a share](/aws/en/opensharing/create-share#metric-views) and [Read shared metric views](/aws/en/opensharing/read-data-databricks#metric-views).",
+  "ref_links": [
+    {
+      "text": "Add metric views to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#metric-views"
+    },
+    {
+      "text": "Read shared metric views",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-25T12:41:33.114166Z"
+}

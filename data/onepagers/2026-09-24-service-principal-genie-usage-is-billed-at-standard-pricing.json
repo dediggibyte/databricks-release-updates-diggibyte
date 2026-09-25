@@ -1,0 +1,24 @@
+{
+  "product": "Service principal Genie usage is billed at standard pricing",
+  "tagline": "Genie usage by service principals is now billed at standard Genie pay as you go pricing.",
+  "updated": "Sep 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor-cost",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#service-principal-genie-usage-is-billed-at-standard-pricing",
+  "what_it_does": "Genie usage by service principals is now billed at standard Genie pay as you go pricing. Service principals are excluded from the free monthly usage allowance that applies to individual users. This article explains how Genie usage appears in the Databricks billing system tables, how to query and analyze your Genie costs, and how promotional pricing is reflected in your usage data.",
+  "why_it_matters": "This article explains how Genie usage appears in the Databricks billing system tables, how to query and analyze your Genie costs, and how promotional pricing is reflected in your usage data.",
+  "plain_summary": "Genie usage by service principals is now billed at standard Genie pay as you go pricing. Service principals are excluded from the free monthly usage allowance that applies to individual users.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie usage by service principals is now billed at standard Genie pay as you go pricing.",
+  "note_id": "2026-09-24-service-principal-genie-usage-is-billed-at-standard-pricing",
+  "category": "platform"
+}

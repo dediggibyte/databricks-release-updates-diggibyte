@@ -1,0 +1,27 @@
+{
+  "product": "Tags for dashboards, notebooks, Databricks apps, and Genie Agents are now…",
+  "tagline": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets.",
+  "updated": "Sep 25, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/database-objects/tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#tags-for-dashboards-notebooks-databricks-apps-and-genie-agents-are-now-generally-available",
+  "what_it_does": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets. This capability is now generally available. Both governed and ungoverned key value tags are supported.",
+  "why_it_matters": "Both governed and ungoverned key value tags are supported.",
+  "plain_summary": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets. This capability is now generally available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "ownership",
+    "or lifecycle tracking."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets.",
+  "note_id": "2026-09-25-ea4505fe",
+  "category": "platform"
+}
