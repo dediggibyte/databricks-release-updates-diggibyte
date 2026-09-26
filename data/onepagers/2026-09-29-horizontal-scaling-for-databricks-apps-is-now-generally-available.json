@@ -1,0 +1,24 @@
+{
+  "product": "Horizontal scaling for Databricks Apps is now generally available",
+  "tagline": "Horizontal scaling for Databricks Apps is now generally available.",
+  "updated": "Sep 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#horizontal-scaling-for-databricks-apps-is-now-generally-available",
+  "what_it_does": "Horizontal scaling for Databricks Apps is now generally available. You can run a Databricks app across multiple instances behind one app URL for higher availability and concurrency, with zero downtime deployments and best effort session affinity. Beta This feature is in Beta.",
+  "why_it_matters": "Compute cost scales linearly with the number of instances.",
+  "plain_summary": "Horizontal scaling for Databricks Apps is now generally available. You can run a Databricks app across multiple instances behind one app URL for higher availability and concurrency, with zero downtime deployments and best effort session affinity.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Horizontal scaling for Databricks Apps is now generally available.",
+  "note_id": "2026-09-29-horizontal-scaling-for-databricks-apps-is-now-generally-available",
+  "category": "platform"
+}

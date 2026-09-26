@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-29-horizontal-scaling-for-databricks-apps-is-now-generally-available",
+  "title": "Horizontal scaling for Databricks Apps is now generally available",
+  "date": "2026-09-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#horizontal-scaling-for-databricks-apps-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Horizontal scaling for Databricks Apps is now generally available. You can run a Databricks app across multiple instances behind one app URL for higher availability and concurrency, with zero-downtime deployments and best-effort session affinity.\n\nSee [Horizontal scaling for Databricks apps](/aws/en/dev-tools/databricks-apps/horizontal-scaling).",
+  "ref_links": [
+    {
+      "text": "Horizontal scaling for Databricks apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-26T12:09:21.611083Z"
+}

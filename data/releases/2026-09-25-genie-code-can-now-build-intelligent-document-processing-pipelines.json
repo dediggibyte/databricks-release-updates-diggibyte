@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-25-genie-code-can-now-build-intelligent-document-processing-pipelines",
+  "title": "Genie Code can now build intelligent document processing pipelines",
+  "date": "2026-09-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-can-now-build-intelligent-document-processing-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code can now build end-to-end document processing pipelines by orchestrating parsing, classification, extraction, and validation. Point it at unstructured PDFs, contracts, or invoices, and it evaluates extraction quality against labeled data and iterates to improve it. See [Use Genie Code for intelligent document processing](/aws/en/large-language-models/genie-code-document-processing).",
+  "ref_links": [
+    {
+      "text": "Use Genie Code for intelligent document processing",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/genie-code-document-processing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-26T12:09:21.613927Z"
+}
