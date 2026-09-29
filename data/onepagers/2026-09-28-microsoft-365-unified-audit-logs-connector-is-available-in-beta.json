@@ -1,0 +1,24 @@
+{
+  "product": "Microsoft 365 Unified Audit Logs connector is available in Beta",
+  "tagline": "The managed Microsoft 365 Unified Audit Logs connector is now available in Beta in Databricks Lakeflow Connect.",
+  "updated": "Sep 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/microsoft-365",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#microsoft-365-unified-audit-logs-connector-is-available-in-beta",
+  "what_it_does": "The managed Microsoft 365 Unified Audit Logs connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest unified audit events from Microsoft Entra ID, Exchange, SharePoint, and other Microsoft 365 workloads into Databricks. The connector uses OAuth machine to machine authentication and supports incremental ingestion.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Microsoft 365 Unified Audit Logs connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest unified audit events from Microsoft Entra ID, Exchange, SharePoint, and other Microsoft 365 workloads into Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Microsoft 365 Unified Audit Logs connector is now available in Beta in Databricks Lakeflow Connect.",
+  "note_id": "2026-09-28-microsoft-365-unified-audit-logs-connector-is-available-in-beta",
+  "category": "platform"
+}

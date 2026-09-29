@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-22-bundled-bigquery-jdbc-driver-removal-in-databricks-runtime-20",
+  "title": "Bundled BigQuery JDBC driver removal in Databricks Runtime 20",
+  "date": "2026-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#bundled-bigquery-jdbc-driver-removal-in-databricks-runtime-20",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting with Databricks Runtime 20, Databricks Runtime no longer includes the bundled BigQuery JDBC driver, while Databricks Runtime 19 and earlier continue to include it.\n\nClassic compute workloads that use Spark JDBC with a `jdbc:bigquery:` URL fail with a driver-not-found error unless a BigQuery JDBC driver is installed. Before upgrading an affected workload, [migrate the workload](/aws/en/connect/spark-data-sources#migrate).",
+  "ref_links": [
+    {
+      "text": "migrate the workload",
+      "url": "https://docs.databricks.com/aws/en/connect/spark-data-sources#migrate"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:33.018822Z"
+}

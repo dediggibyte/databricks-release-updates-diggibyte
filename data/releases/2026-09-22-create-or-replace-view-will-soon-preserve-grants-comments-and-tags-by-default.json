@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-22-create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "title": "CREATE OR REPLACE VIEW will soon preserve grants, comments and tags by default",
+  "date": "2026-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting October 12, 2026, `CREATE OR REPLACE VIEW` will update views in-place, instead of dropping and re-creating the view. Grants, tags, and comments are preserved with two caveats:\n\n* As views execute with view owner's permissions, grants are not preserved if a non-owner alters the view query via `CREATE OR REPLACE VIEW`\n* You must first remove [governed tags](/aws/en/admin/governed-tags) on a view column before dropping the column via `CREATE OR REPLACE VIEW`. Otherwise, the statement will fail with a `CANNOT_DROP_TAGGED_COLUMN` error.\n\nUse `CREATE OR REPLACE VIEW <catalog>.<schema>.<view> NOCOPY *` to drop grants, tags, and comments on the view explicitly (governed tags are still retained).\n\nSee [CREATE VIEW](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-view) and [Drop a column with governed tags](/aws/en/database-objects/tags#drop).",
+  "ref_links": [
+    {
+      "text": "governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    },
+    {
+      "text": "CREATE VIEW",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-view"
+    },
+    {
+      "text": "Drop a column with governed tags",
+      "url": "https://docs.databricks.com/aws/en/database-objects/tags#drop"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:33.017010Z"
+}

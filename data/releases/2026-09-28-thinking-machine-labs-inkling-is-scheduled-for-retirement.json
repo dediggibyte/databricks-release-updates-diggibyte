@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-28-thinking-machine-labs-inkling-is-scheduled-for-retirement",
+  "title": "Thinking Machine Labs Inkling is scheduled for retirement",
+  "date": "2026-09-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#thinking-machine-labs-inkling-is-scheduled-for-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Thinking Machine Labs Inkling will be retired on October 30, 2026. GLM 5.3 and Kimi K3 are the recommended replacements. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:32.995091Z"
+}

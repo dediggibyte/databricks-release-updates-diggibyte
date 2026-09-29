@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase observability telemetry in system tables (Beta)",
+  "tagline": "Lakebase captures its Postgres observability telemetry into the system.lakebase system tables, with no configuration to create and no destination to choose.",
+  "updated": "Sep 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/observability-telemetry-reference",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-observability-telemetry-in-system-tables-beta",
+  "what_it_does": "Lakebase captures its Postgres observability telemetry into the system.lakebase system tables, with no configuration to create and no destination to choose. Query plans, session history, wait events, schema change history, database and compute health, and Postgres logs land there, and records are retained for 7 days. Account admins and metastore admins can read the tables and manage access to them, and a user with access queries the telemetry the way they would any Unity Catalog table.",
+  "why_it_matters": "Access The system.lakebase tables are governed by Unity Catalog.",
+  "plain_summary": "Lakebase captures its Postgres observability telemetry into the system.lakebase system tables, with no configuration to create and no destination to choose. Query plans, session history, wait events, schema change history, database and compute health, and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase captures its Postgres observability telemetry into the system.lakebase system tables, with no configuration to create and no destination to choose.",
+  "note_id": "2026-09-23-lakebase-observability-telemetry-in-system-tables-beta",
+  "category": "platform"
+}

@@ -1,0 +1,27 @@
+{
+  "product": "CREATE OR REPLACE VIEW will soon preserve grants, comments and tags by default",
+  "tagline": "Starting October 12, 2026, CREATE OR REPLACE VIEW will update views in place, instead of dropping and re creating the view.",
+  "updated": "Sep 22, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/database-objects/tags#drop",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "what_it_does": "Starting October 12, 2026, CREATE OR REPLACE VIEW will update views in place, instead of dropping and re creating the view. Grants, tags, and comments are preserved with two caveats: As views execute with view owner's permissions, grants are not preserved if a non owner alters the view query via CREATE OR REPLACE VIEW You must first remove governed tags on a view column before dropping the column via CREATE OR REPLACE VIEW. Otherwise, the statement will fail with a CANNOT DROP TAGGED COLUMN error.",
+  "why_it_matters": "Grants, tags, and comments are preserved with two caveats: As views execute with view owner's permissions, grants are not preserved if a non owner alters the view query via CREATE OR REPLACE VIEW You must first remove governed tags on a view column before dropping the column via CREATE OR REPLACE VIEW.",
+  "plain_summary": "Starting October 12, 2026, CREATE OR REPLACE VIEW will update views in place, instead of dropping and re creating the view. Grants, tags, and comments are preserved with two caveats: As views execute with view owner's permissions, grants are not preserved if…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "ownership",
+    "or lifecycle tracking."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting October 12, 2026, CREATE OR REPLACE VIEW will update views in place, instead of dropping and re creating the view.",
+  "note_id": "2026-09-22-create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-28-okta-system-logs-connector-is-available-in-beta",
+  "title": "Okta System Logs connector is available in Beta",
+  "date": "2026-09-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#okta-system-logs-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Okta System Logs connector](/aws/en/ingestion/lakeflow-connect/okta-system-logs) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to incrementally ingest audit and security events from the Okta System Log into Databricks. The connector uses SSWS API token authentication and supports Declarative Automation Bundles and API-based pipeline authoring.",
+  "ref_links": [
+    {
+      "text": "Okta System Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/okta-system-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:32.993640Z"
+}

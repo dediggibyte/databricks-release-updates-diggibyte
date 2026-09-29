@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-24-ai-search-can-search-lakebase-synced-tables-beta",
+  "title": "ai_search can search Lakebase synced tables (Beta)",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai_search-can-search-lakebase-synced-tables-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_search` function can now retrieve from [Lakebase](/aws/en/oltp/projects/sync-tables) synced tables with Lakebase Search enabled, in addition to AI Search indexes. Add a `lakebase_search` knowledge source to search a Lakebase synced table, or combine it with `vector_search` sources in the same call. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [`ai_search` function](/aws/en/sql/language-manual/functions/ai_search).",
+  "ref_links": [
+    {
+      "text": "Lakebase",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/sync-tables"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "ai_search function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:33.010490Z"
+}

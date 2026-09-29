@@ -1,0 +1,24 @@
+{
+  "product": "Usage tracking adds session metadata and token details (Public Preview)",
+  "tagline": "The system.ai gateway.usage system table now includes coding agent session metadata and invocation source.",
+  "updated": "Sep 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/usage-tracking",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#usage-tracking-adds-session-metadata-and-token-details-public-preview",
+  "what_it_does": "The system.ai gateway.usage system table now includes coding agent session metadata and invocation source. New token detail fields capture tokens written to the 5 minute and 1 hour prompt caches, along with file and web search counts. This page describes how to monitor usage for Unity Gateway services using the usage tracking system table.",
+  "why_it_matters": "For model requests, it records metrics such as token usage and latency.",
+  "plain_summary": "The system.ai gateway.usage system table now includes coding agent session metadata and invocation source. New token detail fields capture tokens written to the 5 minute and 1 hour prompt caches, along with file and web search counts.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The system.ai gateway.usage system table now includes coding agent session metadata and invocation source.",
+  "note_id": "2026-09-27-usage-tracking-adds-session-metadata-and-token-details-public-preview",
+  "category": "platform"
+}

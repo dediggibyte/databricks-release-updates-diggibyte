@@ -1,0 +1,24 @@
+{
+  "product": "Deleting a Unity Catalog pipeline now retains tables by default",
+  "tagline": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines DELETE API retain associated materialized views, streaming tables, and views by default.",
+  "updated": "Sep 25, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/unity-catalog#delete-a-pipeline",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deleting-a-unity-catalog-pipeline-now-retains-tables-by-default",
+  "what_it_does": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines DELETE API retain associated materialized views, streaming tables, and views by default. The retained tables can be queried but cannot be updated until moved into an active pipeline. To delete a pipeline and its tables together, set the cascade field to true in the API request.",
+  "why_it_matters": "Support for DML queries against streaming tables enables use cases such as updating tables for compliance with the General Data Protection Regulation (GDPR).",
+  "plain_summary": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines DELETE API retain associated materialized views, streaming tables, and views by default. The retained tables can be queried but cannot be updated until…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines DELETE API retain associated materialized views, streaming tables, and views by default.",
+  "note_id": "2026-09-25-deleting-a-unity-catalog-pipeline-now-retains-tables-by-default",
+  "category": "platform"
+}

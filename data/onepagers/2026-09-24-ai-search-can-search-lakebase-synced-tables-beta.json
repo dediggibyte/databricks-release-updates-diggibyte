@@ -1,0 +1,33 @@
+{
+  "product": "ai_search can search Lakebase synced tables (Beta)",
+  "tagline": "The ai search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes.",
+  "updated": "Sep 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai_search-can-search-lakebase-synced-tables-beta",
+  "what_it_does": "The ai search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes. Add a lakebase search knowledge source to search a Lakebase synced table, or combine it with vector search sources in the same call. This feature is in Beta.",
+  "why_it_matters": "Use ai search to enrich operational data with relevant context at scale, build batch retrieval augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system — all from a single SQL function call.",
+  "plain_summary": "The ai search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes. Add a lakebase search knowledge source to search a Lakebase synced table, or combine it with vector search sources in the same…",
+  "capabilities": [
+    {
+      "title": "'version': The function version to",
+      "desc": "'version': The function version to use."
+    },
+    {
+      "title": "'generateanswer': 'true' (default) or 'false'",
+      "desc": "'generateanswer': 'true' (default) or 'false'. When 'true', the function synthesizes a grounded natural-language answer from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The ai search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes.",
+  "note_id": "2026-09-24-ai-search-can-search-lakebase-synced-tables-beta",
+  "category": "platform"
+}

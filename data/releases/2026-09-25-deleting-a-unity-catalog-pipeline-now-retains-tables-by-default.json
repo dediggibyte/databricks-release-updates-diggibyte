@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-25-deleting-a-unity-catalog-pipeline-now-retains-tables-by-default",
+  "title": "Deleting a Unity Catalog pipeline now retains tables by default",
+  "date": "2026-09-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deleting-a-unity-catalog-pipeline-now-retains-tables-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines `DELETE` API retain associated materialized views, streaming tables, and views by default. The retained tables can be queried but cannot be updated until moved into an active pipeline. To delete a pipeline and its tables together, set the `cascade` field to `true` in the API request. This change does not affect Hive metastore pipelines.\n\nSee [Delete a pipeline](https://docs.databricks.com/api/workspace/pipelines/delete) and [Delete a pipeline](/aws/en/ldp/unity-catalog#delete-a-pipeline).",
+  "ref_links": [
+    {
+      "text": "Delete a pipeline",
+      "url": "https://docs.databricks.com/api/workspace/pipelines/delete"
+    },
+    {
+      "text": "Delete a pipeline",
+      "url": "https://docs.databricks.com/aws/en/ldp/unity-catalog#delete-a-pipeline"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-29T13:55:33.001790Z"
+}

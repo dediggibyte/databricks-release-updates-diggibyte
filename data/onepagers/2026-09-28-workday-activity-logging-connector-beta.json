@@ -1,0 +1,24 @@
+{
+  "product": "Workday Activity Logging connector (Beta)",
+  "tagline": "The Workday Activity Logging connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Sep 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/workday-activity-logging",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#workday-activity-logging-connector-beta",
+  "what_it_does": "The Workday Activity Logging connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector incrementally ingests Workday user activity log events into Databricks.",
+  "why_it_matters": "Enable activity logging and create an integration system user, security group, OAuth client, and refresh token.",
+  "plain_summary": "The Workday Activity Logging connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Workday Activity Logging connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-09-28-workday-activity-logging-connector-beta",
+  "category": "platform"
+}

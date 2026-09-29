@@ -1,0 +1,24 @@
+{
+  "product": "Thinking Machine Labs Inkling is scheduled for retirement",
+  "tagline": "Thinking Machine Labs Inkling will be retired on October 30, 2026.",
+  "updated": "Sep 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#thinking-machine-labs-inkling-is-scheduled-for-retirement",
+  "what_it_does": "Thinking Machine Labs Inkling will be retired on October 30, 2026. GLM 5.3 and Kimi K3 are the recommended replacements. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Thinking Machine Labs Inkling will be retired on October 30, 2026. GLM 5.3 and Kimi K3 are the recommended replacements.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Thinking Machine Labs Inkling will be retired on October 30, 2026.",
+  "note_id": "2026-09-28-thinking-machine-labs-inkling-is-scheduled-for-retirement",
+  "category": "platform"
+}
