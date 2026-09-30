@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Search adds a configurable text tokenizer for keyword search",
+  "tagline": "The new lakebase tokenizer extension lets you control how Lakebase Search turns text into search terms, so keyword search matches the way your data and users actually read.",
+  "updated": "Sep 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-adds-a-configurable-text-tokenizer-for-keyword-search",
+  "what_it_does": "The new lakebase tokenizer extension lets you control how Lakebase Search turns text into search terms, so keyword search matches the way your data and users actually read. Native PostgreSQL full text search gives you little control over this step. lakebase tokenizer adds a configurable whole word tokenizer through PostgreSQL's standard text search dictionary interface, with the controls that matter for relevance: Normalization: lowercase text, apply Unicode normalization for byte stable matching, and strip accents so café matches cafe.",
+  "why_it_matters": "Stemming and possessives: reduce words to their root with a native English stemmer and strip trailing 's, so running matches run and John's matches john.",
+  "plain_summary": "The new lakebase tokenizer extension lets you control how Lakebase Search turns text into search terms, so keyword search matches the way your data and users actually read. Native PostgreSQL full text search gives you little control over this step.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The new lakebase tokenizer extension lets you control how Lakebase Search turns text into search terms, so keyword search matches the way your data and users actually read.",
+  "note_id": "2026-09-28-lakebase-search-adds-a-configurable-text-tokenizer-for-keyword-search",
+  "category": "platform"
+}

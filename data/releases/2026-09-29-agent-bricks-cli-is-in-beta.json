@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-29-agent-bricks-cli-is-in-beta",
+  "title": "Agent Bricks CLI is in Beta",
+  "date": "2026-09-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#agent-bricks-cli-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Agent Bricks CLI (`databricks-agentbricks`) is a command-line tool for building and deploying custom code agents on Databricks. Scaffold a project from a bundled framework template, run it locally, and deploy it to the Databricks agent runtime, with managed memory, sessions, tools, and MLflow tracing wired up from one authenticated command.\n\nSee [Agent Bricks CLI](/aws/en/agents/custom-agents/agent-bricks-cli).",
+  "ref_links": [
+    {
+      "text": "Agent Bricks CLI",
+      "url": "https://docs.databricks.com/aws/en/agents/custom-agents/agent-bricks-cli"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-30T13:32:50.680441Z"
+}

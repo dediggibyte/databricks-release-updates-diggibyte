@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-28-xai-grok-4-7-is-now-available-on-unity-gateway",
+  "title": "xAI Grok 4.7 is now available on Unity Gateway",
+  "date": "2026-09-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#xai-grok-47-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "xAI [Grok 4.7](/aws/en/machine-learning/foundation-model-apis/supported-models#grok-4-7) is now available on Unity Gateway. You can access this model using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "Grok 4.7",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#grok-4-7"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-30T13:32:50.686802Z"
+}

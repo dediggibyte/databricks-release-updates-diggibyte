@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-28-lakebase-search-adds-a-configurable-text-tokenizer-for-keyword-search",
+  "title": "Lakebase Search adds a configurable text tokenizer for keyword search",
+  "date": "2026-09-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-adds-a-configurable-text-tokenizer-for-keyword-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new `lakebase_tokenizer` extension lets you control how Lakebase Search turns text into search terms, so keyword search matches the way your data and users actually read. Native PostgreSQL full-text search gives you little control over this step. `lakebase_tokenizer` adds a configurable whole-word tokenizer through PostgreSQL's standard text-search dictionary interface, with the controls that matter for relevance:\n\n* **Normalization**: lowercase text, apply Unicode normalization for byte-stable matching, and strip accents so `café` matches `cafe`.\n* **Stopwords and synonyms**: manage your own stopword and synonym lists in SQL, so terms like `usa` and `united_states` match the same rows.\n* **Stemming and possessives**: reduce words to their root with a native English stemmer and strip trailing `'s`, so `running` matches `run` and `John's` matches `john`.\n\nIt produces standard `tsvector` values, so a tokenizer you configure works with `to_tsvector`, GIN (generalized inverted index) indexes, and the `lakebase_text` `lakebase_bm25` index for BM25 (best match 25) ranking. Install it after enabling Lakebase Search in your project settings. See [lakebase\\_tokenizer](/aws/en/oltp/projects/lakebase-tokenizer).",
+  "ref_links": [
+    {
+      "text": "lakebase_tokenizer",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-09-30T13:32:50.693606Z"
+}
