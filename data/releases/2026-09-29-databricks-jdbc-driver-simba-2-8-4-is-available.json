@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-29-databricks-jdbc-driver-simba-2-8-4-is-available",
+  "title": "Databricks JDBC Driver (Simba) 2.8.4 is available",
+  "date": "2026-09-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-jdbc-driver-simba-284-is-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Simba JDBC Driver (Legacy)](/aws/en/integrations/jdbc) 2.8.4 adds Java 25 support and upgrades `libthrift`, `httpclient5`, `httpcore5`, and `lz4-java`. Download it from the [JDBC drivers archive](https://www.databricks.com/spark/jdbc-drivers-archive) under **All JDBC Driver Versions (Simba)**.",
+  "ref_links": [
+    {
+      "text": "Simba JDBC Driver (Legacy)",
+      "url": "https://docs.databricks.com/aws/en/integrations/jdbc"
+    },
+    {
+      "text": "JDBC drivers archive",
+      "url": "https://www.databricks.com/spark/jdbc-drivers-archive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-01T14:22:21.552798Z"
+}

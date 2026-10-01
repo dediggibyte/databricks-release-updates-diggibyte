@@ -1,0 +1,24 @@
+{
+  "product": "Databricks JDBC Driver (Simba) 2.8.4 is available",
+  "tagline": "Simba JDBC Driver (Legacy) 2.8.4 adds Java 25 support and upgrades libthrift, httpclient5, httpcore5, and lz4 java.",
+  "updated": "Sep 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/jdbc",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-jdbc-driver-simba-284-is-available",
+  "what_it_does": "Simba JDBC Driver (Legacy) 2.8.4 adds Java 25 support and upgrades libthrift, httpclient5, httpcore5, and lz4 java. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba). note This page applies to the Simba JDBC Driver (Legacy), versions below version 3.",
+  "why_it_matters": "It includes improvements such as support for Unity Catalog metric views, transactions that span multiple SQL statements, stored procedures, faster large result retrieval, and built in client telemetry.",
+  "plain_summary": "Simba JDBC Driver (Legacy) 2.8.4 adds Java 25 support and upgrades libthrift, httpclient5, httpcore5, and lz4 java. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Simba JDBC Driver (Legacy) 2.8.4 adds Java 25 support and upgrades libthrift, httpclient5, httpcore5, and lz4 java.",
+  "note_id": "2026-09-29-databricks-jdbc-driver-simba-2-8-4-is-available",
+  "category": "platform"
+}

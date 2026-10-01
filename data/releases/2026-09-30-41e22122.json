@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-30-41e22122",
+  "title": "Table update triggers on OpenSharing objects and system tables are now generally available",
+  "date": "2026-09-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#table-update-triggers-on-opensharing-objects-and-system-tables-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables. See [Add a trigger to OpenSharing and system tables](/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys).",
+  "ref_links": [
+    {
+      "text": "Add a trigger to OpenSharing and system tables",
+      "url": "https://docs.databricks.com/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-01T14:22:21.548256Z"
+}

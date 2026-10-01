@@ -1,0 +1,24 @@
+{
+  "product": "Query tags for SQL warehouses are now generally available",
+  "tagline": "Query tags are now generally available.",
+  "updated": "Sep 30, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/queries/query-tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#query-tags-for-sql-warehouses-are-now-generally-available",
+  "what_it_does": "Query tags are now generally available. You can apply custom key value tags to SQL workloads for grouping, filtering, and cost attribution on Databricks SQL warehouses and Lakehouse//RT compute. Tags appear in system.query.history and on the Query History page of the Databricks UI.",
+  "why_it_matters": "You can apply custom key value tags to SQL workloads for grouping, filtering, and cost attribution on Databricks SQL warehouses and Lakehouse//RT compute.",
+  "plain_summary": "Query tags are now generally available. You can apply custom key value tags to SQL workloads for grouping, filtering, and cost attribution on Databricks SQL warehouses and Lakehouse//RT compute.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Query tags are now generally available.",
+  "note_id": "2026-09-30-query-tags-for-sql-warehouses-are-now-generally-available",
+  "category": "platform"
+}

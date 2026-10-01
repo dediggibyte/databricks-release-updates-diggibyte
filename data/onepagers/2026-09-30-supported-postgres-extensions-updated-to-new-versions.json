@@ -1,0 +1,24 @@
+{
+  "product": "Supported Postgres extensions updated to new versions",
+  "tagline": "The following supported Postgres extensions are now available at newer versions.",
+  "updated": "Sep 30, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/extensions#update-an-extension-version",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#supported-postgres-extensions-updated-to-new-versions",
+  "what_it_does": "The following supported Postgres extensions are now available at newer versions. Existing installations keep their current version until you update them with ALTER EXTENSION. postgis, postgis raster, postgis sfcgal, postgis tiger geocoder, postgis topology, address standardizer, and address standardizer data us: updated to 3.3.10 on Postgres 16, 3.5.7 on Postgres 17, and 3.6.4 on Postgres 18.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The following supported Postgres extensions are now available at newer versions. Existing installations keep their current version until you update them with ALTER EXTENSION.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The following supported Postgres extensions are now available at newer versions.",
+  "note_id": "2026-09-30-supported-postgres-extensions-updated-to-new-versions",
+  "category": "platform"
+}

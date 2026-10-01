@@ -1,0 +1,39 @@
+{
+  "product": "Table update triggers on OpenSharing objects and system tables are now…",
+  "tagline": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables.",
+  "updated": "Sep 30, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/trigger-table-update#trigger-on-ds-and-sys",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#table-update-triggers-on-opensharing-objects-and-system-tables-are-now-generally-available",
+  "what_it_does": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables. You can use table update triggers to trigger a run of your job when source tables are updated. Use this feature to run a job when new data is ready without the need for a continuously running cluster or knowledge of the processes that update a table.",
+  "why_it_matters": "Table update triggers do not incur additional costs other than cloud provider costs associated with listing tables and reading updates from the storage location.",
+  "plain_summary": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables.",
+  "capabilities": [
+    {
+      "title": "Table Update Triggers on OpenSharing",
+      "desc": "Table Update Triggers on OpenSharing (Recipient): A workspace-level beta, enabled in the recipient workspace where the trigger…"
+    },
+    {
+      "title": "Table Update Triggers on OpenSharing",
+      "desc": "Table Update Triggers on OpenSharing (Provider): An account-level beta, enabled in the provider account that owns the shared data."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [
+    "Views that use readfiles (they can read from a supported table that reads files, but cannot directly use readfiles).",
+    "Views that depend on tables that are not in Unity Catalog.",
+    "Views that depend on federated tables. Creation of triggers for views containing unsupported dependencies still succeed, but no job runs are triggered when an unsupported dependency is updated. Table update triggers monitor changes to the dependent tables of a view and considers the view updated if any of the dependent tables is updated. It is possible for a job run to be triggered for data changes that are filtered out by the view definition. Source tables for a view are counted towards the limit of 10 tables per trigger.",
+    "For example, if a view depends on 11 tables, it is not possible to use it in a table update trigger. Similarly a trigger with two views, each of which depends on 6 tables, counts as 12 tables. There is a separate limit of 10 dependent views per monitored view.",
+    "For example, if a view depends on 11 other views, it is not possible to use it in a table update trigger, even if this does not break the 10 tables per trigger rule."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables.",
+  "note_id": "2026-09-30-41e22122",
+  "category": "platform"
+}
