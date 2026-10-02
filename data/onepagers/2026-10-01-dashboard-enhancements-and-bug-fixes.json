@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Materialize SQL datasets (Beta): Dashboard materialization now covers SQL datasets in addition to local metric views, so you can materialize a dashboard's SQL datasets.",
+  "updated": "Oct 1, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#email-attachments",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Materialize SQL datasets (Beta): Dashboard materialization now covers SQL datasets in addition to local metric views, so you can materialize a dashboard's SQL datasets. Select multiple tables when adding a data source: You can now select multiple tables at the same time in the Add data source picker when building a dashboard data model. Numeric window measures: Numeric window measures are now generally available in the low code metric view UI.",
+  "why_it_matters": "Scheduling dashboard updates ensures that your dashboards display up to date information and improves performance for end users.",
+  "plain_summary": "Materialize SQL datasets (Beta): Dashboard materialization now covers SQL datasets in addition to local metric views, so you can materialize a dashboard's SQL datasets. Select multiple tables when adding a data source: You can now select multiple tables at…",
+  "capabilities": [
+    {
+      "title": "Genie Code can now use",
+      "desc": "Genie Code can now use images stored in your workspace as image widgets, not only uploaded files."
+    },
+    {
+      "title": "The dashboard canvas now stays",
+      "desc": "The dashboard canvas now stays visible while Genie Code builds datasets step by step, so you can watch widgets appear instead of…"
+    },
+    {
+      "title": "Genie Code can now create",
+      "desc": "Genie Code can now create dashboard materializations when you ask it to (Beta)."
+    },
+    {
+      "title": "Fixed a bug where two",
+      "desc": "Fixed a bug where two dataset edits made at the same time could interfere with each other."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Materialize SQL datasets (Beta): Dashboard materialization now covers SQL datasets in addition to local metric views, so you can materialize a dashboard's SQL datasets.",
+  "note_id": "2026-10-01-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

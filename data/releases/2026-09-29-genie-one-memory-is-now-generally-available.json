@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-29-genie-one-memory-is-now-generally-available",
+  "title": "Genie One memory is now generally available",
+  "date": "2026-09-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-memory-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One memory is now generally available. Genie One can retain specific facts you provide, such as your preferences and reporting conventions, and apply them in later conversations so you don't need to repeat the same context every time you chat. Memories are private to you and aren't shared with other users. Ask Genie One to remember something in a conversation, or let it suggest a memory when it detects a fact worth saving. See [Add to Genie One's memory](/aws/en/genie-one/chat#memory).",
+  "ref_links": [
+    {
+      "text": "Add to Genie One's memory",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#memory"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.574128Z"
+}

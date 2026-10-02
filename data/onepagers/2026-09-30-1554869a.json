@@ -1,0 +1,24 @@
+{
+  "product": "Salesforce Data 360 file sharing will soon be available by default for…",
+  "tagline": "The Salesforce Data 360 file sharing connector (formerly Salesforce Data Cloud file sharing) will be available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Sep 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/query-federation/salesforce-data-cloud-file-sharing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#salesforce-data-360-file-sharing-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "The Salesforce Data 360 file sharing connector (formerly Salesforce Data Cloud file sharing) will be available by default for workspaces with the compliance security profile enabled. Use the connector in Lakehouse Federation to query Salesforce Data 360 data directly from cloud object storage without copying it into Databricks. Queries run on Databricks compute.",
+  "why_it_matters": "The Salesforce Data 360 file sharing connector (formerly Salesforce Data Cloud file sharing) will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "The Salesforce Data 360 file sharing connector (formerly Salesforce Data Cloud file sharing) will be available by default for workspaces with the compliance security profile enabled. Use the connector in Lakehouse Federation to query Salesforce Data 360 data…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Salesforce Data 360 file sharing connector (formerly Salesforce Data Cloud file sharing) will be available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-09-30-1554869a",
+  "category": "platform"
+}

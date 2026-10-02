@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-01-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-10-01",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Text file uploads**: You can now upload plaintext (`.txt`) files to a Genie One conversation, in addition to the other supported file types. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).\n* **Streaming responses**: Genie One now streams responses in real time as they're generated, so answers appear progressively instead of loading all at the same time.\n* **Download a chat**: You can now download a Genie One chat. See [Manage chats in the sidebar](/aws/en/genie-one/chat#manage-chats).\n* **Personalized sample questions**: Personalized sample questions now appear beneath the search bar on the Genie One homepage.",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Manage chats in the sidebar",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#manage-chats"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.565421Z"
+}

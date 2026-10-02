@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-01-schedule-automatic-data-refresh-in-the-databricks-excel-add-in-public-preview",
+  "title": "Schedule automatic data refresh in the Databricks Excel Add-in (Public Preview)",
+  "date": "2026-10-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#schedule-automatic-data-refresh-in-the-databricks-excel-add-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now schedule automatic refreshes of Databricks data imported into Microsoft Excel. Choose an interval or calendar schedule and the SQL warehouse that runs each refresh, then review recent runs from the Databricks Excel Add-in. See [Schedule automatic data refresh in the Databricks Excel Add-in](/aws/en/integrations/excel/schedule-refresh).",
+  "ref_links": [
+    {
+      "text": "Schedule automatic data refresh in the Databricks Excel Add-in",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel/schedule-refresh"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.569180Z"
+}

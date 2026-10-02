@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-01-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-10-01",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Materialize SQL datasets (Beta)**: Dashboard materialization now covers SQL datasets in addition to local metric views, so you can materialize a dashboard's SQL datasets. See [Dataset materialization in AI/BI dashboards](/aws/en/dashboards/materialization).\n* **Select multiple tables when adding a data source**: You can now select multiple tables at the same time in the **Add data source** picker when building a dashboard data model.\n* **Numeric window measures**: Numeric window measures are now generally available in the low-code metric view UI. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Global filter display in embedded dashboards**: Embedded dashboards can now show, collapse, or hide global filters by default.\n* **Preserve email attachments at the size limit**: When a dashboard image and PDF together exceed the attachment size limit, scheduled emails now keep the attachments that fit instead of dropping all of them. See [Data attachments](/aws/en/dashboards/share/schedule-subscribe#email-attachments).\n* **Dashboard search indexing fix**: Dashboard search now correctly indexes rich widget titles and descriptions, which previously appeared as empty strings.\n* **PDF light and dark mode fix**: Fixed a bug where dashboard PDF downloads did not respect light and dark mode settings.\n* **Genie Code for dashboard authoring**: New authoring capabilities and fixes for Genie Code:\n  + Genie Code can now use images stored in your workspace as image widgets, not only uploaded files.\n  + The dashboard canvas now stays visible while Genie Code builds datasets step by step, so you can watch widgets appear instead of seeing a blank screen.\n  + Genie Code can now create dashboard materializations when you ask it to (Beta).\n  + Fixed a bug where two dataset edits made at the same time could interfere with each other.",
+  "ref_links": [
+    {
+      "text": "Dataset materialization in AI/BI dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/materialization"
+    },
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "Data attachments",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#email-attachments"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.567831Z"
+}

@@ -1,0 +1,44 @@
+{
+  "product": "Run Lakeflow pipelines as a group",
+  "tagline": "You can now set a pipeline's run as identity to an account group, in addition to a user or a service principal.",
+  "updated": "Oct 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#run-as-group",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#run-lakeflow-pipelines-as-a-group",
+  "what_it_does": "You can now set a pipeline's run as identity to an account group, in addition to a user or a service principal. Pipeline updates run with the group's permissions, so a team can own an automated pipeline without tying it to one person's account. Configure the basic settings for a pipeline, including source code, target catalog and schema, compute, and pipeline mode, in the workspace UI.",
+  "why_it_matters": "Use Cluster tags to help monitor costs associated with pipelines.",
+  "plain_summary": "You can now set a pipeline's run as identity to an account group, in addition to a user or a service principal. Pipeline updates run with the group's permissions, so a team can own an automated pipeline without tying it to one person's account.",
+  "capabilities": [
+    {
+      "title": "Select a Worker type optimized",
+      "desc": "Select a Worker type optimized for the workloads configured in your pipeline."
+    },
+    {
+      "title": "You can optionally select a",
+      "desc": "You can optionally select a Driver type that differs from your worker type. This can be useful for reducing costs in pipelines…"
+    },
+    {
+      "title": "Workspace access permission to operate",
+      "desc": "Workspace access permission to operate within the workspace"
+    },
+    {
+      "title": "Can use permission on cluster",
+      "desc": "Can use permission on cluster policies used by the pipeline"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "including development",
+    "testing"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now set a pipeline's run as identity to an account group, in addition to a user or a service principal.",
+  "note_id": "2026-10-05-run-lakeflow-pipelines-as-a-group",
+  "category": "platform"
+}

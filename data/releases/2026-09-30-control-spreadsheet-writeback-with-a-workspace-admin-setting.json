@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-30-control-spreadsheet-writeback-with-a-workspace-admin-setting",
+  "title": "Control spreadsheet writeback with a workspace admin setting",
+  "date": "2026-09-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#control-spreadsheet-writeback-with-a-workspace-admin-setting",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Excel and Google Sheets writeback now requires a workspace admin to enable the **Allow spreadsheet writeback** security setting. See [Write data back to Databricks using the Databricks Excel Add-in](/aws/en/integrations/excel/write-back) and [Write data back to Databricks from Google Sheets](/aws/en/integrations/google-sheets/write-back).",
+  "ref_links": [
+    {
+      "text": "Write data back to Databricks using the Databricks Excel Add-in",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel/write-back"
+    },
+    {
+      "text": "Write data back to Databricks from Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/write-back"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.572916Z"
+}

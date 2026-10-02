@@ -1,0 +1,41 @@
+{
+  "product": "Control spreadsheet writeback with a workspace admin setting",
+  "tagline": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting.",
+  "updated": "Sep 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/google-sheets/write-back",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#control-spreadsheet-writeback-with-a-workspace-admin-setting",
+  "what_it_does": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting. The Databricks Connector for Google Sheets lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table in Databricks without leaving Google Sheets.",
+  "why_it_matters": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting.",
+  "plain_summary": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting.",
+  "capabilities": [
+    {
+      "title": "To create a new table",
+      "desc": "To create a new table, you must have the following privileges:"
+    },
+    {
+      "title": "USE CATALOG on the catalog",
+      "desc": "USE CATALOG on the catalog"
+    },
+    {
+      "title": "USE SCHEMA on the schema",
+      "desc": "USE SCHEMA on the schema"
+    },
+    {
+      "title": "CREATE TABLE on the schema",
+      "desc": "CREATE TABLE on the schema"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting.",
+  "note_id": "2026-09-30-control-spreadsheet-writeback-with-a-workspace-admin-setting",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Text file uploads: You can now upload plaintext (.txt) files to a Genie One conversation, in addition to the other supported file types.",
+  "updated": "Oct 1, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#manage-chats",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Text file uploads: You can now upload plaintext (.txt) files to a Genie One conversation, in addition to the other supported file types. Streaming responses: Genie One now streams responses in real time as they're generated, so answers appear progressively instead of loading all at the same time. Download a chat: You can now download a Genie One chat.",
+  "why_it_matters": "Low: This level lowers the cost for simpler tasks.",
+  "plain_summary": "Text file uploads: You can now upload plaintext (.txt) files to a Genie One conversation, in addition to the other supported file types. Streaming responses: Genie One now streams responses in real time as they're generated, so answers appear progressively…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Text file uploads: You can now upload plaintext (.txt) files to a Genie One conversation, in addition to the other supported file types.",
+  "note_id": "2026-10-01-genie-one-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-05-run-lakeflow-pipelines-as-a-group",
+  "title": "Run Lakeflow pipelines as a group",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#run-lakeflow-pipelines-as-a-group",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set a pipeline's run-as identity to an account group, in addition to a user or a service principal. Pipeline updates run with the group's permissions, so a team can own an automated pipeline without tying it to one person's account. See [Set the run-as identity to a group](/aws/en/ldp/configure-pipeline#run-as-group).",
+  "ref_links": [
+    {
+      "text": "Set the run-as identity to a group",
+      "url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#run-as-group"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-02T13:44:38.563869Z"
+}
