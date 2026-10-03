@@ -1,0 +1,24 @@
+{
+  "product": "OpenJev (Qwen3.5 4B) is now available on Unity Gateway",
+  "tagline": "OpenJev (Qwen3.5 4B) is available as a pay per token model service.",
+  "updated": "Oct 2, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#openjev-qwen35-4b-is-now-available-on-unity-gateway",
+  "what_it_does": "OpenJev (Qwen3.5 4B) is available as a pay per token model service. Use the TypeSafe System One API to evaluate yes or no, choice, and scoring questions and get structured answers and probabilities. Customers are responsible for ensuring their compliance with applicable model terms.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable model terms.",
+  "plain_summary": "OpenJev (Qwen3.5 4B) is available as a pay per token model service. Use the TypeSafe System One API to evaluate yes or no, choice, and scoring questions and get structured answers and probabilities.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenJev (Qwen3.5 4B) is available as a pay per token model service.",
+  "note_id": "2026-10-02-openjev-qwen3-5-4b-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

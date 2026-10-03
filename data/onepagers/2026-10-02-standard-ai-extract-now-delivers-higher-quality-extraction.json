@@ -1,0 +1,43 @@
+{
+  "product": "Standard ai_extract now delivers higher-quality extraction",
+  "tagline": "The standard (default) mode for ai extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost.",
+  "updated": "Oct 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#standard-ai_extract-now-delivers-higher-quality-extraction",
+  "what_it_does": "The standard (default) mode for ai extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost. Applies to: Databricks SQL Databricks Runtime The ai extract() function extracts structured data from text and documents according to a schema you provide. You can use simple field names for basic extraction, or define complex schemas with nested objects, arrays, type validation, and field descriptions for business documents like invoices, contracts, and financial filings.",
+  "why_it_matters": "The standard (default) mode for ai extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost.",
+  "plain_summary": "The standard (default) mode for ai extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost.",
+  "capabilities": [
+    {
+      "title": "See regional support for aiextract",
+      "desc": "See regional support for aiextract for the appropriate compliance standard."
+    },
+    {
+      "title": "See Manage Databricks previews for",
+      "desc": "See Manage Databricks previews for how to enable it on your workspace. This function is not available on Pro or Classic SQL…"
+    },
+    {
+      "title": "Raw text as a STRING",
+      "desc": "Raw text as a STRING"
+    },
+    {
+      "title": "A VARIANT produced by another",
+      "desc": "A VARIANT produced by another AI function (such as aiparsedocument)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "error."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The standard (default) mode for ai extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost.",
+  "note_id": "2026-10-02-standard-ai-extract-now-delivers-higher-quality-extraction",
+  "category": "platform"
+}

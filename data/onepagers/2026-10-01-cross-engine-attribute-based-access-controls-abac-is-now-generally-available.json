@@ -1,0 +1,24 @@
+{
+  "product": "Cross-engine attribute-based access controls (ABAC) is now generally available",
+  "tagline": "Cross engine attribute based access controls (ABAC) is now generally available.",
+  "updated": "Oct 1, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/cross-engine-abac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cross-engine-attribute-based-access-controls-abac-is-now-generally-available",
+  "what_it_does": "Cross engine attribute based access controls (ABAC) is now generally available. Supported external engines can read Unity Catalog managed tables with ABAC policies, row filters, and column masks enforced by Databricks serverless compute. Beta Cross engine ABAC is in Beta.",
+  "why_it_matters": "Serverless compute costs Cross engine ABAC uses serverless compute resources to enforce fine grained access policies server side.",
+  "plain_summary": "Cross engine attribute based access controls (ABAC) is now generally available. Supported external engines can read Unity Catalog managed tables with ABAC policies, row filters, and column masks enforced by Databricks serverless compute.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Cross engine attribute based access controls (ABAC) is now generally available.",
+  "note_id": "2026-10-01-cross-engine-attribute-based-access-controls-abac-is-now-generally-available",
+  "category": "platform"
+}

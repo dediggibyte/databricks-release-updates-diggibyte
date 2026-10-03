@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-01-cross-engine-attribute-based-access-controls-abac-is-now-generally-available",
+  "title": "Cross-engine attribute-based access controls (ABAC) is now generally available",
+  "date": "2026-10-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cross-engine-attribute-based-access-controls-abac-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Cross-engine attribute-based access controls (ABAC) is now generally available. Supported external engines can read Unity Catalog managed tables with ABAC policies, row filters, and column masks enforced by Databricks serverless compute.\n\nSee [Cross-engine attribute-based access controls (ABAC)](/aws/en/external-access/cross-engine-abac) for requirements, supported clients, and serverless compute costs.",
+  "ref_links": [
+    {
+      "text": "Cross-engine attribute-based access controls (ABAC)",
+      "url": "https://docs.databricks.com/aws/en/external-access/cross-engine-abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-03T12:23:54.538721Z"
+}

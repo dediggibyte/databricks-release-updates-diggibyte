@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-02-jdbc-unity-catalog-connections-are-now-generally-available",
+  "title": "JDBC Unity Catalog connections are now generally available",
+  "date": "2026-10-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#jdbc-unity-catalog-connections-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "JDBC Unity Catalog connections are now generally available on serverless compute, Databricks Runtime 19 and above, and SQL warehouses 2025.40 and above, including support for SSL certificates. OAuth M2M authentication remains in Beta. See [JDBC connection](/aws/en/connect/jdbc-connection).",
+  "ref_links": [
+    {
+      "text": "JDBC connection",
+      "url": "https://docs.databricks.com/aws/en/connect/jdbc-connection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-03T12:23:54.531024Z"
+}

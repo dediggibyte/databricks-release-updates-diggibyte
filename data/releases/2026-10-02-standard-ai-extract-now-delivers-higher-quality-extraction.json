@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-02-standard-ai-extract-now-delivers-higher-quality-extraction",
+  "title": "Standard ai_extract now delivers higher-quality extraction",
+  "date": "2026-10-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#standard-ai_extract-now-delivers-higher-quality-extraction",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The standard (default) mode for `ai_extract` now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost. See the [`ai_extract` documentation](/aws/en/sql/language-manual/functions/ai_extract).",
+  "ref_links": [
+    {
+      "text": "ai_extract documentation",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-03T12:23:54.531872Z"
+}

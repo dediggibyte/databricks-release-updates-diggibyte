@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-02-openjev-qwen3-5-4b-is-now-available-on-unity-gateway",
+  "title": "OpenJev (Qwen3.5 4B) is now available on Unity Gateway",
+  "date": "2026-10-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#openjev-qwen35-4b-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[OpenJev (Qwen3.5 4B)](/aws/en/machine-learning/foundation-model-apis/supported-models#openjev-qwen35-4b) is available as a pay-per-token model service. Use the [TypeSafe System One API](/aws/en/machine-learning/model-serving/query-systemone-models) to evaluate yes or no, choice, and scoring questions and get structured answers and probabilities. See [model availability by region](/aws/en/unity-gateway/model-region-availability).\n\nCustomers are responsible for ensuring their compliance with [applicable model terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "OpenJev (Qwen3.5 4B)",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openjev-qwen35-4b"
+    },
+    {
+      "text": "TypeSafe System One API",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-systemone-models"
+    },
+    {
+      "text": "model availability by region",
+      "url": "https://docs.databricks.com/aws/en/unity-gateway/model-region-availability"
+    },
+    {
+      "text": "applicable model terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-03T12:23:54.530299Z"
+}
