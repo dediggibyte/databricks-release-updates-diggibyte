@@ -1,0 +1,24 @@
+{
+  "product": "Customer-managed keys for query history are now generally available",
+  "tagline": "You can now use a customer managed key on the system catalog to decrypt statement text and error message in the query history system table.",
+  "updated": "Oct 2, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history#cmk",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#customer-managed-keys-for-query-history-are-now-generally-available",
+  "what_it_does": "You can now use a customer managed key on the system catalog to decrypt statement text and error message in the query history system table. Preview This system table is in Public Preview. This article includes information on the query history system table, including an outline of the table's schema.",
+  "why_it_matters": "You can retrieve the encryption key ID in the account console by clicking Security then Encryption keys then opening the key configuration you want to use.",
+  "plain_summary": "You can now use a customer managed key on the system catalog to decrypt statement text and error message in the query history system table.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use a customer managed key on the system catalog to decrypt statement text and error message in the query history system table.",
+  "note_id": "2026-10-02-customer-managed-keys-for-query-history-are-now-generally-available",
+  "category": "platform"
+}

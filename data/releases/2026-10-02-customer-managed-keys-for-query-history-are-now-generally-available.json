@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-02-customer-managed-keys-for-query-history-are-now-generally-available",
+  "title": "Customer-managed keys for query history are now generally available",
+  "date": "2026-10-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#customer-managed-keys-for-query-history-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use a customer-managed key on the `system` catalog to decrypt `statement_text` and `error_message` in the query history system table. See [Reading encrypted fields](/aws/en/admin/system-tables/query-history#cmk).",
+  "ref_links": [
+    {
+      "text": "Reading encrypted fields",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history#cmk"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-06T14:05:06.662601Z"
+}

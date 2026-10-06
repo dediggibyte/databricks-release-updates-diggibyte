@@ -1,0 +1,24 @@
+{
+  "product": "Google Gemini 2.5 Pro is retired",
+  "tagline": "Google Gemini 2.5 Pro is no longer available.",
+  "updated": "Oct 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-gemini-25-pro-is-retired",
+  "what_it_does": "Google Gemini 2.5 Pro is no longer available. The recommended replacement models are Gemini 3.1 Pro or Gemini 3.5 Flash. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Google Gemini 2.5 Pro is no longer available. The recommended replacement models are Gemini 3.1 Pro or Gemini 3.5 Flash.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini 2.5 Pro is no longer available.",
+  "note_id": "2026-10-02-google-gemini-2-5-pro-is-retired",
+  "category": "platform"
+}
