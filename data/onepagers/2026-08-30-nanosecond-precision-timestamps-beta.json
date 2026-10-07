@@ -1,0 +1,29 @@
+{
+  "product": "Nanosecond-precision timestamps (Beta)",
+  "tagline": "You can now use TIMESTAMP(9) and TIMESTAMP NTZ(9) for nanosecond precision timestamps in Databricks SQL and Databricks Runtime 19 and above.",
+  "updated": "Aug 30, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/timestamp-ntz-type",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#nanosecond-precision-timestamps-beta",
+  "what_it_does": "You can now use TIMESTAMP(9) and TIMESTAMP NTZ(9) for nanosecond precision timestamps in Databricks SQL and Databricks Runtime 19 and above. Applies to: Databricks SQL Databricks Runtime 13.3 LTS and above Represents values comprising values of fields year, month, day, hour, minute, and second. All operations are performed without taking any time zone into account.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now use TIMESTAMP(9) and TIMESTAMP NTZ(9) for nanosecond precision timestamps in Databricks SQL and Databricks Runtime 19 and above.",
+  "capabilities": [
+    {
+      "title": "or -: An optional sign",
+      "desc": "or -: An optional sign. - indicates BCE, + indicates CE (default). yyyy: A year comprising at least four digits. [m]m: A one or…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use TIMESTAMP(9) and TIMESTAMP NTZ(9) for nanosecond precision timestamps in Databricks SQL and Databricks Runtime 19 and above.",
+  "note_id": "2026-08-30-nanosecond-precision-timestamps-beta",
+  "category": "platform"
+}

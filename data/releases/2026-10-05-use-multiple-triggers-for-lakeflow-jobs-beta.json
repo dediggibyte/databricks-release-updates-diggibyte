@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-05-use-multiple-triggers-for-lakeflow-jobs-beta",
+  "title": "Use multiple triggers for Lakeflow Jobs (Beta)",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-multiple-triggers-for-lakeflow-jobs-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Jobs can now use up to five triggers. You can combine trigger types, add multiple triggers of the same type, and pause each trigger independently. See [Add multiple triggers to a job](/aws/en/jobs/triggers#multiple-triggers).",
+  "ref_links": [
+    {
+      "text": "Add multiple triggers to a job",
+      "url": "https://docs.databricks.com/aws/en/jobs/triggers#multiple-triggers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.530208Z"
+}

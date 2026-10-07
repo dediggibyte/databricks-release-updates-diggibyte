@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code scheduled tasks are now available by default for workspaces with…",
+  "tagline": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Oct 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-scheduled-tasks-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-10-05-cf522aff",
+  "category": "platform"
+}

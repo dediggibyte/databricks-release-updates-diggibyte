@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-06-metric-view-window-measures-are-generally-available",
+  "title": "Metric view window measures are generally available",
+  "date": "2026-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#metric-view-window-measures-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Window measures in [metric views](/aws/en/uc-semantics/metric-views) are now generally available. Window measures define rolling window, cumulative, or semiadditive aggregations, such as moving averages, period-over-period changes, and running totals. See [Window measures](/aws/en/uc-semantics/metric-views/advanced-techniques#window-measures).",
+  "ref_links": [
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views"
+    },
+    {
+      "text": "Window measures",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/advanced-techniques#window-measures"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.526362Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-09-google-workspace-connector-is-available-in-beta",
+  "title": "Google Workspace connector is available in Beta",
+  "date": "2026-10-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-workspace-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Google Workspace connector](/aws/en/ingestion/lakeflow-connect/google-workspace) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest audit activity from Google Workspace applications and services into Databricks. The connector uses OAuth user authorization and supports incremental ingestion.",
+  "ref_links": [
+    {
+      "text": "Google Workspace connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-workspace"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.525399Z"
+}

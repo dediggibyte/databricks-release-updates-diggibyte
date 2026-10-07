@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-05-agent-bricks-documentation-for-code-first-agent-development",
+  "title": "Agent Bricks documentation for code-first agent development",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#agent-bricks-documentation-for-code-first-agent-development",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Agent Bricks documentation now centers on building, deploying, and running custom agents in code. See [Develop agents on Databricks](/aws/en/agents):\n\n* **Agent compute stack**: New pages describe how a deployed agent's framework or harness, agent server, and agent runtime fit together. See [Deploy agents on Databricks](/aws/en/agents/deploy).\n* **`DurableAgentServer` and Agent Runtime**: `DurableAgentServer` serves agents through the invocation API, with synchronous, streaming, and background runs, persistent run state, and crash recovery. Agent Runtime runs it on Databricks Apps. See [Agent Server](/aws/en/agents/deploy/agent-server) and [Agent Runtime](/aws/en/agents/deploy/agent-runtime).\n* **Querying agents**: The query guide is organized by agent server, starting with the invocation API. See [Query agents deployed on Databricks](/aws/en/agents/query-llms).\n* **Legacy offerings**: Offerings that are no longer recommended for new agents, including the MLflow `AgentServer`, `LongRunningAgentServer`, and agents deployed to Model Serving, are now in a Legacy section that maps each one to its replacement. See [Legacy agent offerings](/aws/en/agents/legacy).",
+  "ref_links": [
+    {
+      "text": "Develop agents on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents"
+    },
+    {
+      "text": "Deploy agents on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/deploy"
+    },
+    {
+      "text": "Agent Server",
+      "url": "https://docs.databricks.com/aws/en/agents/deploy/agent-server"
+    },
+    {
+      "text": "Agent Runtime",
+      "url": "https://docs.databricks.com/aws/en/agents/deploy/agent-runtime"
+    },
+    {
+      "text": "Query agents deployed on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/query-llms"
+    },
+    {
+      "text": "Legacy agent offerings",
+      "url": "https://docs.databricks.com/aws/en/agents/legacy"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.534195Z"
+}

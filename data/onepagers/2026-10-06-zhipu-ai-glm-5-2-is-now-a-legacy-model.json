@@ -1,0 +1,24 @@
+{
+  "product": "Zhipu AI GLM 5.2 is now a legacy model",
+  "tagline": "GLM 5.2 is now a legacy model.",
+  "updated": "Oct 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-3-flash",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#zhipu-ai-glm-52-is-now-a-legacy-model",
+  "what_it_does": "GLM 5.2 is now a legacy model. Databricks recommends migrating to GLM 5.3 or GLM 5.3 Flash. This article describes the state of the art open models that are supported by Databricks Foundation Model APIs.",
+  "why_it_matters": "OpenAI GPT 6.1 Sol important Customers are responsible for ensuring their compliance with applicable model terms.",
+  "plain_summary": "GLM 5.2 is now a legacy model. Databricks recommends migrating to GLM 5.3 or GLM 5.3 Flash.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "GLM 5.2 is now a legacy model.",
+  "note_id": "2026-10-06-zhipu-ai-glm-5-2-is-now-a-legacy-model",
+  "category": "platform"
+}

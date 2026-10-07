@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-21-databricks-sql-version-2026-38-is-now-available-in-preview",
+  "title": "Databricks SQL version 2026.38 is now available in Preview",
+  "date": "2026-09-21",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202638-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.38 is now available in the **Preview** channel. Review the following section to learn about new features and improvements.\n\n#### Truncate numbers without rounding using `truncate`\n\nThe `truncate` function truncates a number to a specified scale without rounding.\n\n#### Remove array elements with `trim_array`\n\nThe `trim_array` function removes the specified number of elements from the end of an array.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.602409Z"
+}

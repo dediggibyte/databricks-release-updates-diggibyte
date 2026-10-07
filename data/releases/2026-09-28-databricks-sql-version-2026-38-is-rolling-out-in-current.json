@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-28-databricks-sql-version-2026-38-is-rolling-out-in-current",
+  "title": "Databricks SQL version 2026.38 is rolling out in Current",
+  "date": "2026-09-28",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202638-is-rolling-out-in-current",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.38 is rolling out to the **Current** channel. See features in [2026.38](/aws/en/sql/release-notes/2026#2026-38-features).",
+  "ref_links": [
+    {
+      "text": "2026.38",
+      "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#2026-38-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.558726Z"
+}

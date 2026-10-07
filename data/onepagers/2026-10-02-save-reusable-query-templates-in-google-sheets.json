@@ -1,0 +1,33 @@
+{
+  "product": "Save reusable query templates in Google Sheets",
+  "tagline": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions.",
+  "updated": "Oct 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/google-sheets/query-data",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#save-reusable-query-templates-in-google-sheets",
+  "what_it_does": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions. The Databricks Connector for Google Sheets queries data from your Databricks workspace and imports it into Google Sheets. You can select tables directly, write SQL queries, add parameters, create pivot tables, and import from templates.",
+  "why_it_matters": "Calculated fields A calculated field is a column derived from existing data, such as profit computed from revenue and cost.",
+  "plain_summary": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions.",
+  "capabilities": [
+    {
+      "title": "Recreate the sheet with the",
+      "desc": "Recreate the sheet with the exact same name."
+    },
+    {
+      "title": "Create a new import by",
+      "desc": "Create a new import by choosing Select a Query as the source, reusing the import, and clicking Save as New. If two queries map…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions.",
+  "note_id": "2026-10-02-save-reusable-query-templates-in-google-sheets",
+  "category": "platform"
+}

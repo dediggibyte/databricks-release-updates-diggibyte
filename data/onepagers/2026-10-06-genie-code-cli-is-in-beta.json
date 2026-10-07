@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code CLI is in Beta",
+  "tagline": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks.",
+  "updated": "Oct 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/genie-code-cli",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-cli-is-in-beta",
+  "what_it_does": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks. It works with your local files and uses the Databricks CLI to discover data, answer questions, and build and deploy assets such as pipelines, models, and apps. Model access is provided and governed through Unity Gateway.",
+  "why_it_matters": "Model access is provided and governed through Unity Gateway.",
+  "plain_summary": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks. It works with your local files and uses the Databricks CLI to discover data, answer questions, and build and deploy assets such as pipelines, models, and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks.",
+  "note_id": "2026-10-06-genie-code-cli-is-in-beta",
+  "category": "platform"
+}

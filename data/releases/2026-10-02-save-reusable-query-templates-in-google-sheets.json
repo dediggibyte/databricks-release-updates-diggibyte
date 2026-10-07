@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-02-save-reusable-query-templates-in-google-sheets",
+  "title": "Save reusable query templates in Google Sheets",
+  "date": "2026-10-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#save-reusable-query-templates-in-google-sheets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions. See [Templates in Google Sheets](/aws/en/integrations/google-sheets/templates) and [Query Databricks data in Google Sheets](/aws/en/integrations/google-sheets/query-data).",
+  "ref_links": [
+    {
+      "text": "Templates in Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/templates"
+    },
+    {
+      "text": "Query Databricks data in Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/query-data"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.536772Z"
+}

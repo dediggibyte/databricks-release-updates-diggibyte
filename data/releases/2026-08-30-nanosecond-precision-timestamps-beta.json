@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-30-nanosecond-precision-timestamps-beta",
+  "title": "Nanosecond-precision timestamps (Beta)",
+  "date": "2026-08-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#nanosecond-precision-timestamps-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use `TIMESTAMP(9)` and `TIMESTAMP_NTZ(9)` for nanosecond-precision timestamps in Databricks SQL and Databricks Runtime 19 and above.\n\nSee [`TIMESTAMP` type](/aws/en/sql/language-manual/data-types/timestamp-type) and [`TIMESTAMP_NTZ` type](/aws/en/sql/language-manual/data-types/timestamp-ntz-type).",
+  "ref_links": [
+    {
+      "text": "TIMESTAMP type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/timestamp-type"
+    },
+    {
+      "text": "TIMESTAMP_NTZ type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/timestamp-ntz-type"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.716392Z"
+}

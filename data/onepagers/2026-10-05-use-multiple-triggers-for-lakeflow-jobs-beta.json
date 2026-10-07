@@ -1,0 +1,24 @@
+{
+  "product": "Use multiple triggers for Lakeflow Jobs (Beta)",
+  "tagline": "Lakeflow Jobs can now use up to five triggers.",
+  "updated": "Oct 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/triggers#multiple-triggers",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-multiple-triggers-for-lakeflow-jobs-beta",
+  "what_it_does": "Lakeflow Jobs can now use up to five triggers. You can combine trigger types, add multiple triggers of the same type, and pause each trigger independently. Configure Lakeflow Jobs to trigger automatically in any of the following situations: On a time based schedule On the update of source tables On the arrival of files to a Unity Catalog storage location On the creation or update of a Unity Catalog model Continuously You can also trigger job runs manually or through external orchestration tools.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Lakeflow Jobs can now use up to five triggers. You can combine trigger types, add multiple triggers of the same type, and pause each trigger independently.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakeflow Jobs can now use up to five triggers.",
+  "note_id": "2026-10-05-use-multiple-triggers-for-lakeflow-jobs-beta",
+  "category": "platform"
+}

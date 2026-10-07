@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-06-zhipu-ai-glm-5-2-is-now-a-legacy-model",
+  "title": "Zhipu AI GLM 5.2 is now a legacy model",
+  "date": "2026-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#zhipu-ai-glm-52-is-now-a-legacy-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[GLM 5.2](/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-2) is now a [legacy](/aws/en/machine-learning/retired-models-policy) model. Databricks recommends migrating to [GLM 5.3](/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-3) or [GLM 5.3 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-3-flash).",
+  "ref_links": [
+    {
+      "text": "GLM 5.2",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-2"
+    },
+    {
+      "text": "legacy",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy"
+    },
+    {
+      "text": "GLM 5.3",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-3"
+    },
+    {
+      "text": "GLM 5.3 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#glm-5-3-flash"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-07T14:22:25.527446Z"
+}
