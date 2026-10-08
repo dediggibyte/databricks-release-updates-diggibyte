@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-05-0d969874",
+  "title": "The remote_query function will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-remote_query-function-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In November 2026, the `remote_query` table-valued function will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nUse `remote_query` to run queries on external databases in their native SQL syntax, with credentials from a Unity Catalog connection.\n\nSee [Query external databases using the `remote_query` function](/aws/en/query-federation/remote-queries).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Query external databases using the remote_query function",
+      "url": "https://docs.databricks.com/aws/en/query-federation/remote-queries"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.370884Z"
+}

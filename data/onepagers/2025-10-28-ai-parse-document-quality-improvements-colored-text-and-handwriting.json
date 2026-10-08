@@ -1,0 +1,44 @@
+{
+  "product": "ai_parse_document quality improvements: colored text and handwriting",
+  "tagline": "ai parse document better recognizes colored text and documents with interleaved digital and handwritten text.",
+  "updated": "Oct 28, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#ai_parse_document-quality-improvements-colored-text-and-handwriting",
+  "what_it_does": "ai parse document better recognizes colored text and documents with interleaved digital and handwritten text. Applies to: Databricks SQL Databricks Runtime The ai parse document() function leverages state of the art Databricks managed research techniques to parse structured content from unstructured documents. To prepare the output of ai parse document for search and retrieval use cases, use ai prep search function.",
+  "why_it_matters": "+ The ai parse document function is also available to workspaces with the Enhanced Security and Compliance add on.",
+  "plain_summary": "ai parse document better recognizes colored text and documents with interleaved digital and handwritten text.",
+  "capabilities": [
+    {
+      "title": "The aiparsedocument function is also",
+      "desc": "The aiparsedocument function is also available to workspaces with the Enhanced Security and Compliance add-on. Databricks…"
+    },
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'' (empty string): No descriptions",
+      "desc": "'' (empty string): No descriptions are generated. This reduces the compute needed and costs for documents with lots of figures."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "retrieval use cases",
+    "use ai prep search function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai parse document better recognizes colored text and documents with interleaved digital and handwritten text.",
+  "note_id": "2025-10-28-ai-parse-document-quality-improvements-colored-text-and-handwriting",
+  "category": "platform"
+}

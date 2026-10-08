@@ -1,0 +1,44 @@
+{
+  "product": "ai_parse_document quality improvements: signature detection and layout…",
+  "tagline": "ai parse document now detects signature regions in documents and identifies document layouts more accurately.",
+  "updated": "Sep 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai_parse_document-quality-improvements-signature-detection-and-layout-prediction",
+  "what_it_does": "ai parse document now detects signature regions in documents and identifies document layouts more accurately. Applies to: Databricks SQL Databricks Runtime The ai parse document() function leverages state of the art Databricks managed research techniques to parse structured content from unstructured documents. To prepare the output of ai parse document for search and retrieval use cases, use ai prep search function.",
+  "why_it_matters": "+ The ai parse document function is also available to workspaces with the Enhanced Security and Compliance add on.",
+  "plain_summary": "ai parse document now detects signature regions in documents and identifies document layouts more accurately.",
+  "capabilities": [
+    {
+      "title": "The aiparsedocument function is also",
+      "desc": "The aiparsedocument function is also available to workspaces with the Enhanced Security and Compliance add-on. Databricks…"
+    },
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'' (empty string): No descriptions",
+      "desc": "'' (empty string): No descriptions are generated. This reduces the compute needed and costs for documents with lots of figures."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "retrieval use cases",
+    "use ai prep search function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai parse document now detects signature regions in documents and identifies document layouts more accurately.",
+  "note_id": "2026-09-29-26db01db",
+  "category": "platform"
+}

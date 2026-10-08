@@ -1,0 +1,24 @@
+{
+  "product": "The remote_query function will soon be available by default for workspaces…",
+  "tagline": "In November 2026, the remote query table valued function will be available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Oct 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/query-federation/remote-queries",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-remote_query-function-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "In November 2026, the remote query table valued function will be available by default for workspaces with the compliance security profile enabled. Use remote query to run queries on external databases in their native SQL syntax, with credentials from a Unity Catalog connection. The remote query table valued function (TVF) enables you to run SQL queries directly against external databases and data warehouses from within Databricks, using the native SQL syntax of the remote system.",
+  "why_it_matters": "In November 2026, the remote query table valued function will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "In November 2026, the remote query table valued function will be available by default for workspaces with the compliance security profile enabled. Use remote query to run queries on external databases in their native SQL syntax, with credentials from a Unity…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In November 2026, the remote query table valued function will be available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-10-05-0d969874",
+  "category": "platform"
+}

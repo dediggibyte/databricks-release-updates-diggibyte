@@ -1,0 +1,26 @@
+{
+  "product": "OAuth custom identity claims for service principal tokens will soon be available",
+  "tagline": "Applications will be able to attach a custom identity claim to the OAuth tokens they request for a service principal, by adding the custom claim parameter to a token request that uses the client…",
+  "updated": "Oct 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#oauth-custom-identity-claims-for-service-principal-tokens-will-soon-be-available",
+  "what_it_does": "Applications will be able to attach a custom identity claim to the OAuth tokens they request for a service principal, by adding the custom claim parameter to a token request that uses the client credentials or urn:ietf:params:oauth:grant type:token exchange grant type. You can then read the value in SQL with the current oauth custom identity claim() function. Use custom identity claims to serve many end users through one service principal while each user sees only their own data.",
+  "why_it_matters": "Replace the placeholders with your values: POST /api/2.0/genie/spaces Host: <DATABRICKS INSTANCE Authorization: Bearer <your authentication token { \"description\": \"Space for analyzing sales performance and trends\", \"parent path\": \"/Workspace/Users/<username \", \"serialized space\": \"{\\\"version\\\":1,\\\"config\\\":{\\\"sample questions\\\":[{\\\"id\\\":\\\"a1b2c3d4e5f6\\\",\\\"question\\\":[\\\"What were total sales last month?\\\"]},{\\\"id\\\":\\\"b2c3d4e5f6g7\\\",\\\"question\\\":[\\\"Show top 10 customers by revenue\\\"]},{\\\"id\\\":\\\"c3d4e5f6g7h8\\\",\\\"question\\\":[\\\"Compare sales by region for Q1 vs Q2\\\"]}]},\\\"data sources\\\":{\\\"tables\\\":[{\\\"identifier\\\":\\\"sales.analytics.orders\\\",\\\"description\\\":[\\\"Transactional order data including order date, amount, and customer information\\\"],\\\"column configs\\\":[{\\\"column name\\\":\\\"order date\\\",\\\"get example values\\\":true},{\\\"column name\\\":\\\"status\\\",\\\"get example values\\\":true,\\\"build value dictionary\\\":true},{\\\"column name\\\":\\\"region\\\",\\\"get example values\\\":true,\\\"build value dictionary\\\":true}]},{\\\"identifier\\\":\\\"sales.analytics.customers\\\"},{\\\"identifier\\\":\\\"sales.analytics.products\\\"}]},\\\"instructions\\\":{\\\"text instructions\\\":[{\\\"id\\\":\\\"01f0b37c378e1c91\\\",\\\"content\\\":[\\\"When calculating revenue, sum the order amount column.",
+  "plain_summary": "Applications will be able to attach a custom identity claim to the OAuth tokens they request for a service principal, by adding the custom claim parameter to a token request that uses the client credentials or urn:ietf:params:oauth:grant type:token exchange…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use OAuth for users (OAuth U2M)."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Applications will be able to attach a custom identity claim to the OAuth tokens they request for a service principal, by adding the custom claim parameter to a token request that uses the client…",
+  "note_id": "2026-10-05-77eae61d",
+  "category": "platform"
+}

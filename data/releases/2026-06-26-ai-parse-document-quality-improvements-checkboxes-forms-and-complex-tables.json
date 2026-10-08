@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-26-ai-parse-document-quality-improvements-checkboxes-forms-and-complex-tables",
+  "title": "ai_parse_document quality improvements: checkboxes, forms, and complex tables",
+  "date": "2026-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_parse_document-quality-improvements-checkboxes-forms-and-complex-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` improves extraction from checkboxes, forms, and complex tables. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.778963Z"
+}

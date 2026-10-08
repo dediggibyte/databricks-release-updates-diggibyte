@@ -1,0 +1,24 @@
+{
+  "product": "Share and govern Genie One skills with Unity Gateway (Beta)",
+  "tagline": "You can now publish a skill from Genie One and share it with your team, governed by Unity Gateway.",
+  "updated": "Oct 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/govern-skills",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#share-and-govern-genie-one-skills-with-unity-gateway-beta",
+  "what_it_does": "You can now publish a skill from Genie One and share it with your team, governed by Unity Gateway. Access uses standard Unity Catalog privileges on the catalog and schema that hold the skill. A skill is a first class Unity Catalog securable in the three level namespace (catalog.schema.skill).",
+  "why_it_matters": "You can now publish a skill from Genie One and share it with your team, governed by Unity Gateway.",
+  "plain_summary": "You can now publish a skill from Genie One and share it with your team, governed by Unity Gateway. Access uses standard Unity Catalog privileges on the catalog and schema that hold the skill.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now publish a skill from Genie One and share it with your team, governed by Unity Gateway.",
+  "note_id": "2026-10-05-share-and-govern-genie-one-skills-with-unity-gateway-beta",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-25-ai-parse-document-quality-improvements-checkboxes-handwriting-and-figure-text",
+  "title": "ai_parse_document quality improvements: checkboxes, handwriting, and figure text",
+  "date": "2026-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai_parse_document-quality-improvements-checkboxes-handwriting-and-figure-text",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` further improves checkbox extraction and handling of strikethrough text and handwriting. It also improves extraction of text from figures. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.544298Z"
+}

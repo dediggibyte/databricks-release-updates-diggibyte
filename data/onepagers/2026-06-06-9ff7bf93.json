@@ -1,0 +1,44 @@
+{
+  "product": "ai_parse_document quality improvements: table efficiency and extraction…",
+  "tagline": "ai parse document can now parse tables faster.",
+  "updated": "Jun 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_parse_document-quality-improvements-table-efficiency-and-extraction-reliability",
+  "what_it_does": "ai parse document can now parse tables faster. It is also better at parsing long, repetitive content. Applies to: Databricks SQL Databricks Runtime The ai parse document() function leverages state of the art Databricks managed research techniques to parse structured content from unstructured documents.",
+  "why_it_matters": "ai parse document can now parse tables faster.",
+  "plain_summary": "ai parse document can now parse tables faster. It is also better at parsing long, repetitive content.",
+  "capabilities": [
+    {
+      "title": "The aiparsedocument function is also",
+      "desc": "The aiparsedocument function is also available to workspaces with the Enhanced Security and Compliance add-on. Databricks…"
+    },
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'' (empty string): No descriptions",
+      "desc": "'' (empty string): No descriptions are generated. This reduces the compute needed and costs for documents with lots of figures."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "retrieval use cases",
+    "use ai prep search function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai parse document can now parse tables faster.",
+  "note_id": "2026-06-06-9ff7bf93",
+  "category": "platform"
+}

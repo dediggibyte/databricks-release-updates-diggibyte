@@ -1,0 +1,24 @@
+{
+  "product": "DeepSeek V4.1 Flash supports priority pay-per-token and reserved provisioned…",
+  "tagline": "You can now use DeepSeek V4.1 Flash with priority pay per token for latency sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+  "updated": "Oct 7, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-1-flash",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-supports-priority-pay-per-token-and-reserved-provisioned-throughput",
+  "what_it_does": "You can now use DeepSeek V4.1 Flash with priority pay per token for latency sensitive traffic or reserved provisioned throughput for dedicated capacity. This article describes the state of the art open models that are supported by Databricks Foundation Model APIs. note See Model availability by region for region availability of these models and the supported feature areas.",
+  "why_it_matters": "You can now use DeepSeek V4.1 Flash with priority pay per token for latency sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+  "plain_summary": "You can now use DeepSeek V4.1 Flash with priority pay per token for latency sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use DeepSeek V4.1 Flash with priority pay per token for latency sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+  "note_id": "2026-10-07-1eca7bbb",
+  "category": "platform"
+}

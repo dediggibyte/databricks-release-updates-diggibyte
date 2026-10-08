@@ -1,0 +1,44 @@
+{
+  "product": "ai_parse_document quality improvements: strikethrough, tables, and layout",
+  "tagline": "ai parse document adds strikethrough support and improves parsing of short and narrow tables.",
+  "updated": "Dec 18, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#ai_parse_document-quality-improvements-strikethrough-tables-and-layout",
+  "what_it_does": "ai parse document adds strikethrough support and improves parsing of short and narrow tables. Layout detection also improves for tax forms, scanned documents, and very dense documents. Applies to: Databricks SQL Databricks Runtime The ai parse document() function leverages state of the art Databricks managed research techniques to parse structured content from unstructured documents.",
+  "why_it_matters": "ai parse document adds strikethrough support and improves parsing of short and narrow tables.",
+  "plain_summary": "ai parse document adds strikethrough support and improves parsing of short and narrow tables. Layout detection also improves for tax forms, scanned documents, and very dense documents.",
+  "capabilities": [
+    {
+      "title": "The aiparsedocument function is also",
+      "desc": "The aiparsedocument function is also available to workspaces with the Enhanced Security and Compliance add-on. Databricks…"
+    },
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'' (empty string): No descriptions",
+      "desc": "'' (empty string): No descriptions are generated. This reduces the compute needed and costs for documents with lots of figures."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "retrieval use cases",
+    "use ai prep search function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai parse document adds strikethrough support and improves parsing of short and narrow tables.",
+  "note_id": "2025-12-18-ai-parse-document-quality-improvements-strikethrough-tables-and-layout",
+  "category": "platform"
+}

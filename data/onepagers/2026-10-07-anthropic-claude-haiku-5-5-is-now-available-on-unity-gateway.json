@@ -1,0 +1,24 @@
+{
+  "product": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway",
+  "tagline": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway.",
+  "updated": "Oct 7, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#anthropic-claude-haiku-55-is-now-available-on-unity-gateway",
+  "what_it_does": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs. Customers are responsible for ensuring their compliance with applicable terms.",
+  "why_it_matters": "Customers are responsible for ensuring their compliance with applicable terms.",
+  "plain_summary": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway.",
+  "note_id": "2026-10-07-anthropic-claude-haiku-5-5-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

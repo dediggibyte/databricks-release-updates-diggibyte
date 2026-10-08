@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-06-create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "title": "CREATE OR REPLACE VIEW will soon preserve grants, comments and tags by default",
+  "date": "2026-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#create-or-replace-view-will-soon-preserve-grants-comments-and-tags-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting December 2, 2026, `CREATE OR REPLACE VIEW` will update views in-place, instead of dropping and re-creating the view. Grants, tags, and comments are preserved with two caveats:\n\n* As views execute with view owner's permissions, grants are not preserved if a non-owner alters the view query via `CREATE OR REPLACE VIEW`\n* You must first remove [governed tags](/aws/en/admin/governed-tags) on a view column before dropping the column via `CREATE OR REPLACE VIEW`. Otherwise, the statement will fail with a `CANNOT_DROP_TAGGED_COLUMN` error to protect the [ABAC](/aws/en/data-governance/unity-catalog/abac) policies that depend on them ([learn more](/aws/en/database-objects/tags#drop)).\n\nUse `CREATE OR REPLACE VIEW <catalog>.<schema>.<view> NOCOPY * …` to drop grants, tags and comments on view explicitly (governed tags are still retained).\n\nSee [Upcoming change to CREATE OR REPLACE VIEW metadata preservation](https://kb.databricks.com/dbsql/upcoming-change-to-create-or-replace-view-metadata-preservation).",
+  "ref_links": [
+    {
+      "text": "governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    },
+    {
+      "text": "ABAC",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac"
+    },
+    {
+      "text": "learn more",
+      "url": "https://docs.databricks.com/aws/en/database-objects/tags#drop"
+    },
+    {
+      "text": "Upcoming change to CREATE OR REPLACE VIEW metadata preservation",
+      "url": "https://kb.databricks.com/dbsql/upcoming-change-to-create-or-replace-view-metadata-preservation"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.366087Z"
+}

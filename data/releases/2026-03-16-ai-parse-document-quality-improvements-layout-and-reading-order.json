@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-16-ai-parse-document-quality-improvements-layout-and-reading-order",
+  "title": "ai_parse_document quality improvements: layout and reading order",
+  "date": "2026-03-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#ai_parse_document-quality-improvements-layout-and-reading-order",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` improves bounding box and layout detection and addresses some common reading order errors. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:23.101183Z"
+}

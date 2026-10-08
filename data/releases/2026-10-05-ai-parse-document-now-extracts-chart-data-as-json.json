@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-05-ai-parse-document-now-extracts-chart-data-as-json",
+  "title": "ai_parse_document now extracts chart data as JSON",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai_parse_document-now-extracts-chart-data-as-json",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` now extracts chart values as structured JSON and describes their series, legends, and axes. Search and agents can use these values in answers. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.374256Z"
+}

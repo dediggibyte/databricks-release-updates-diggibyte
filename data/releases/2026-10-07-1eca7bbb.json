@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-1eca7bbb",
+  "title": "DeepSeek V4.1 Flash supports priority pay-per-token and reserved provisioned throughput",
+  "date": "2026-10-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-supports-priority-pay-per-token-and-reserved-provisioned-throughput",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use [DeepSeek V4.1 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-1-flash) with priority pay-per-token for latency-sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+  "ref_links": [
+    {
+      "text": "DeepSeek V4.1 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#deepseek-v4-1-flash"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.363396Z"
+}

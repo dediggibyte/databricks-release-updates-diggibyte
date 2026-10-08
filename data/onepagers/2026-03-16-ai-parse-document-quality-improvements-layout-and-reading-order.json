@@ -1,0 +1,44 @@
+{
+  "product": "ai_parse_document quality improvements: layout and reading order",
+  "tagline": "ai parse document improves bounding box and layout detection and addresses some common reading order errors.",
+  "updated": "Mar 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#ai_parse_document-quality-improvements-layout-and-reading-order",
+  "what_it_does": "ai parse document improves bounding box and layout detection and addresses some common reading order errors. Applies to: Databricks SQL Databricks Runtime The ai parse document() function leverages state of the art Databricks managed research techniques to parse structured content from unstructured documents. To prepare the output of ai parse document for search and retrieval use cases, use ai prep search function.",
+  "why_it_matters": "ai parse document improves bounding box and layout detection and addresses some common reading order errors.",
+  "plain_summary": "ai parse document improves bounding box and layout detection and addresses some common reading order errors.",
+  "capabilities": [
+    {
+      "title": "The aiparsedocument function is also",
+      "desc": "The aiparsedocument function is also available to workspaces with the Enhanced Security and Compliance add-on. Databricks…"
+    },
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'' (empty string): No descriptions",
+      "desc": "'' (empty string): No descriptions are generated. This reduces the compute needed and costs for documents with lots of figures."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "retrieval use cases",
+    "use ai prep search function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai parse document improves bounding box and layout detection and addresses some common reading order errors.",
+  "note_id": "2026-03-16-ai-parse-document-quality-improvements-layout-and-reading-order",
+  "category": "platform"
+}

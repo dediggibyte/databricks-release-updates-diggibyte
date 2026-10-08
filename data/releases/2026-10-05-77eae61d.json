@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-05-77eae61d",
+  "title": "OAuth custom identity claims for service principal tokens will soon be available",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#oauth-custom-identity-claims-for-service-principal-tokens-will-soon-be-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Applications will be able to attach a custom identity claim to the OAuth tokens they request for a service principal, by adding the `custom_claim` parameter to a token request that uses the `client_credentials` or `urn:ietf:params:oauth:grant-type:token-exchange` grant type. You can then read the value in SQL with the `current_oauth_custom_identity_claim()` function.\n\nUse custom identity claims to serve many end users through one service principal while each user sees only their own data. A dynamic view filters rows by comparing a column to the claim. The Genie Conversation API, the SQL Statement Execution API, and the Databricks JDBC Driver honor the claim.\n\nIf a token has no custom identity claim, the function returns `NULL`. Write filters that match no rows when the claim is `NULL`.\n\nSee [Authorize service principal access to Databricks with OAuth](/aws/en/dev-tools/auth/oauth-m2m) and [Use the Genie Agents API](/aws/en/genie-agents/conversation-api).",
+  "ref_links": [
+    {
+      "text": "Authorize service principal access to Databricks with OAuth",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-m2m"
+    },
+    {
+      "text": "Use the Genie Agents API",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/conversation-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.369961Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-24-ai-parse-document-quality-improvements-faster-more-accurate-layout-detection",
+  "title": "ai_parse_document quality improvements: faster, more accurate layout detection",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai_parse_document-quality-improvements-faster-more-accurate-layout-detection",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` reduces latency and improves the accuracy of layout and bounding box detection. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-08T14:30:22.676377Z"
+}
