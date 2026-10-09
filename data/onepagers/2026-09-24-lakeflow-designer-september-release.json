@@ -1,0 +1,41 @@
+{
+  "product": "Lakeflow Designer September Release",
+  "tagline": "The Lakeflow Designer September release adds Guardrails, multi input joins, new parameter controls, and more ways to bring data into a visual data prep.",
+  "updated": "Sep 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/what-is-lakeflow-designer#table-of-contents",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakeflow-designer-september-release",
+  "what_it_does": "The Lakeflow Designer September release adds Guardrails, multi input joins, new parameter controls, and more ways to bring data into a visual data prep. The following updates are now available: Create a visual data prep from multiple files: On the Visual data prep page, select Import file As source to upload multiple files into one visual data prep, with a Source operator for each file. Guardrails operator: Check data against rules such as not null, unique, and accepted values.",
+  "why_it_matters": "When the side pane is open, the in canvas toolbar is minimized.",
+  "plain_summary": "The Lakeflow Designer September release adds Guardrails, multi input joins, new parameter controls, and more ways to bring data into a visual data prep. The following updates are now available: Create a visual data prep from multiple files: On the Visual…",
+  "capabilities": [
+    {
+      "title": "Source: Table, File path, and",
+      "desc": "Source: Table, File path, and File format."
+    },
+    {
+      "title": "Output: Catalog, Schema, Table, View",
+      "desc": "Output: Catalog, Schema, Table, View, Volume, File name, and Write mode."
+    },
+    {
+      "title": "Limit: Limit",
+      "desc": "Limit: Limit."
+    },
+    {
+      "title": "Combine: Set operation, Merge strategy",
+      "desc": "Combine: Set operation, Merge strategy, Union by name, and Allow missing columns."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakeflow Designer September release adds Guardrails, multi input joins, new parameter controls, and more ways to bring data into a visual data prep.",
+  "note_id": "2026-09-24-lakeflow-designer-september-release",
+  "category": "platform"
+}

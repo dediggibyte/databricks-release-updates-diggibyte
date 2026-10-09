@@ -1,0 +1,24 @@
+{
+  "product": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python…",
+  "tagline": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the compliance security profile enabled in November 2026.",
+  "updated": "Oct 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/udf/scala-java-uc",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#unity-catalog-scala-and-java-udfs-and-scalar-and-batch-unity-catalog-python-udfs-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the compliance security profile enabled in November 2026. This page describes how to create Scala and Java user defined functions (UDFs), register them in Unity Catalog, and share them across compute environments. Unity Catalog UDFs let you reuse existing JVM logic with Unity Catalog governance and access controls.",
+  "why_it_matters": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the compliance security profile enabled in November 2026.",
+  "plain_summary": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the compliance security profile enabled in November 2026.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the compliance security profile enabled in November 2026.",
+  "note_id": "2026-10-08-12de4dfc",
+  "category": "platform"
+}

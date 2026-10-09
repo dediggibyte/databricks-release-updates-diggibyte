@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-08-file-upload-in-genie-one-is-now-generally-available",
+  "title": "File upload in Genie One is now generally available",
+  "date": "2026-10-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "File upload in Genie One is now generally available. You can upload CSV, Excel, PDF, image, Word, and plaintext files, including text (`.txt`) and Markdown (`.md`) files, directly into a chat conversation. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.015466Z"
+}

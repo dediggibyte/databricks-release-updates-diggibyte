@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements and bug fixes",
+  "tagline": "Connect to external tools (Beta): A Genie Agent can now search and take actions in external tools like Google Drive and Microsoft 365 through MCP connectors.",
+  "updated": "Oct 8, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/volumes#attach-volumes",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "Connect to external tools (Beta): A Genie Agent can now search and take actions in external tools like Google Drive and Microsoft 365 through MCP connectors. Automatic content search on attached volumes (Beta): When you attach a volume to a Genie Agent, Databricks now automatically enables content search for it. Automatic volume sync (Beta): Content search now stays in sync with attached volumes automatically.",
+  "why_it_matters": "This generates Foundation Model Serving costs (pay per token), billed under the Serverless Real time Inference SKU.",
+  "plain_summary": "Connect to external tools (Beta): A Genie Agent can now search and take actions in external tools like Google Drive and Microsoft 365 through MCP connectors. Automatic content search on attached volumes (Beta): When you attach a volume to a Genie Agent…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Connect to external tools (Beta): A Genie Agent can now search and take actions in external tools like Google Drive and Microsoft 365 through MCP connectors.",
+  "note_id": "2026-10-08-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}

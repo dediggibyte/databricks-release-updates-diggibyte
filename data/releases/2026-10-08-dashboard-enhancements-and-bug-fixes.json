@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-10-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Faceted counters**: You can now facet a counter visualization to show one counter tile per dimension value. See [Faceting](/aws/en/dashboards/manage/visualizations#faceting).\n* **Legend cross-filtering**: Selecting an item in a visualization's legend now applies cross-filtering. See [Apply cross-filtering](/aws/en/dashboards/manage/filters#cross-filter).\n* **Dashboard task page selection and tabular attachments**: Dashboard tasks in jobs can now optionally include dashboard page selection and tabular attachments. See [Configure a dashboard task](/aws/en/jobs/tasks/dashboard#configure-a-dashboard-task).\n* **Date filter month picker fix**: Fixed a bug where the month drop-down menu on date filters did not respect your dark or light mode preference.",
+  "ref_links": [
+    {
+      "text": "Faceting",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#faceting"
+    },
+    {
+      "text": "Apply cross-filtering",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#cross-filter"
+    },
+    {
+      "text": "Configure a dashboard task",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/dashboard#configure-a-dashboard-task"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.016301Z"
+}

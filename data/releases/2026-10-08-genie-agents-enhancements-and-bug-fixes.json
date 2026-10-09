@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-08-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-10-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Connect to external tools (Beta)**: A Genie Agent can now search and take actions in external tools like Google Drive and Microsoft 365 through MCP connectors. See [Connect a Genie Agent to external tools and sources](/aws/en/genie-agents/external-tools).\n* **Automatic content search on attached volumes (Beta)**: When you attach a volume to a Genie Agent, Databricks now automatically enables content search for it. See [How content search works](/aws/en/genie-agents/volumes#content-search).\n* **Automatic volume sync (Beta)**: Content search now stays in sync with attached volumes automatically. When you add, change, or remove files, Databricks updates the index without any manual step. See [How content search works](/aws/en/genie-agents/volumes#content-search).\n* **Volumes from restricted catalogs (Beta)**: You can now attach a volume as a source for a Genie Agent even when the volume's catalog isn't accessible from the agent's workspace by default, such as a catalog that is [bound to specific workspaces](/aws/en/data-governance/unity-catalog/access-control/workspace-catalog-binding). See [Attach volumes to a Genie Agent](/aws/en/genie-agents/volumes#attach-volumes).\n* **File upload fix**: Fixed a bug where uploading a file to a Genie Agent through Genie One created duplicate conversations.\n* **Deletion warning for sources and instructions**: Deleting sources or instructions from a Genie Agent now asks you to confirm to prevent accidental deletions.\n* **Column display name fix**: Fixed a bug where Genie Code did not update column display names in a Genie Agent.",
+  "ref_links": [
+    {
+      "text": "Connect a Genie Agent to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/external-tools"
+    },
+    {
+      "text": "How content search works",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#content-search"
+    },
+    {
+      "text": "bound to specific workspaces",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/workspace-catalog-binding"
+    },
+    {
+      "text": "Attach volumes to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#attach-volumes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.015000Z"
+}

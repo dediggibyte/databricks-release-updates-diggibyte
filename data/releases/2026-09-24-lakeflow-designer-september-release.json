@@ -1,0 +1,53 @@
+{
+  "id": "2026-09-24-lakeflow-designer-september-release",
+  "title": "Lakeflow Designer September Release",
+  "date": "2026-09-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakeflow-designer-september-release",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakeflow Designer September release adds Guardrails, multi-input joins, new parameter controls, and more ways to bring data into a visual data prep. The following updates are now available:\n\n* **Create a visual data prep from multiple files**: On the **Visual data prep** page, select **Import file** > **As source** to upload multiple files into one visual data prep, with a Source operator for each file. See [Export and import a visual data prep file](/aws/en/designer/build-transformation#export-import).\n* **Guardrails operator**: Check data against rules such as not null, unique, and accepted values. Choose whether failed checks warn, block passing rows, or stop the workflow. See [Guardrails](/aws/en/designer/built-in-operators#guardrails).\n* **Default preview row limit**: Set the preview row limit for all operators from the **Preview** menu in the toolbar. Override it for individual operators when needed. See [Preview results](/aws/en/designer/build-transformation#preview).\n* **Join three or more inputs**: Use one Join operator for three or more tables, with a relationship for each additional input. See [Join](/aws/en/designer/built-in-operators#join).\n* **More Pivot aggregation choices**: The Pivot operator now offers functions based on the value column's data type, including `FIRST`, `LAST`, and `CONCAT` where supported. See [Pivot](/aws/en/designer/built-in-operators#pivot).\n* **Parameterize Combine and Limit operators**: Use parameters in Combine and Limit settings, or to enable and disable operators at run time. See [Parameters](/aws/en/designer/what-is-lakeflow-designer#parameters).\n* **Create a user-defined operator with Genie Code**: From the **Operators** menu, describe a transformation and review the generated configuration and Python function before adding the operator to your visual data prep. See [Create a local user-defined operator with Genie Code](/aws/en/designer/user-operators#create-with-genie-code).\n* **Continue from an Output operator**: Connect downstream operators to an Output operator to continue working with the data after it writes to a destination. See [Output](/aws/en/designer/built-in-operators#output).\n* **Advanced CSV and Excel file output**: Split output by distinct values into files or Excel worksheets, set a worksheet name or cell range, and choose whether to include headers. See [Output](/aws/en/designer/built-in-operators#output).\n* **Detect code changes made outside the editor**: Designer detects operator code changed through Git or a bundle deployment and prevents editor and Genie Code edits until you regenerate the code from its configuration. See [Handle externally modified operator code](/aws/en/designer/production#external-code).\n* **Drag a workspace file onto the canvas**: Drag a file from the workspace file browser onto the canvas to add it as a Source operator.\n* **Sort operators in the Table of Contents**: Expand groups to find their operators, and sort the list by graph order, name, type, or status. See [The table of contents](/aws/en/designer/what-is-lakeflow-designer#table-of-contents).\n* **Create an external database connection from Source**: Create a Unity Catalog connection and foreign catalog from an unconfigured Source operator, then select a table from the catalog.",
+  "ref_links": [
+    {
+      "text": "Export and import a visual data prep file",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#export-import"
+    },
+    {
+      "text": "Guardrails",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#guardrails"
+    },
+    {
+      "text": "Preview results",
+      "url": "https://docs.databricks.com/aws/en/designer/build-transformation#preview"
+    },
+    {
+      "text": "Join",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#join"
+    },
+    {
+      "text": "Pivot",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#pivot"
+    },
+    {
+      "text": "Parameters",
+      "url": "https://docs.databricks.com/aws/en/designer/what-is-lakeflow-designer#parameters"
+    },
+    {
+      "text": "Create a local user-defined operator with Genie Code",
+      "url": "https://docs.databricks.com/aws/en/designer/user-operators#create-with-genie-code"
+    },
+    {
+      "text": "Output",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#output"
+    },
+    {
+      "text": "Handle externally modified operator code",
+      "url": "https://docs.databricks.com/aws/en/designer/production#external-code"
+    },
+    {
+      "text": "The table of contents",
+      "url": "https://docs.databricks.com/aws/en/designer/what-is-lakeflow-designer#table-of-contents"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.051884Z"
+}

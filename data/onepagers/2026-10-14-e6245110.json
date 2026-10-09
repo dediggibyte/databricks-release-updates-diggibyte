@@ -1,0 +1,24 @@
+{
+  "product": "Workspace-level package repositories for Databricks Apps will soon be…",
+  "tagline": "Starting November 13, 2026, workspace level package repositories for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "updated": "Oct 14, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#workspace-level-package-repositories-for-databricks-apps-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting November 13, 2026, workspace level package repositories for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled. Workspace admins can configure default Python and npm package repositories that apps inherit while still allowing app level overrides. Preview Configuring default Python package repositories for Databricks Apps is in Beta.",
+  "why_it_matters": "Starting November 13, 2026, workspace level package repositories for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting November 13, 2026, workspace level package repositories for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled. Workspace admins can configure default Python and npm package repositories that…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting November 13, 2026, workspace level package repositories for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-10-14-e6245110",
+  "category": "platform"
+}

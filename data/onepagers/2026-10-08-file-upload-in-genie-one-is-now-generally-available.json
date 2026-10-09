@@ -1,0 +1,24 @@
+{
+  "product": "File upload in Genie One is now generally available",
+  "tagline": "File upload in Genie One is now generally available.",
+  "updated": "Oct 8, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-is-now-generally-available",
+  "what_it_does": "File upload in Genie One is now generally available. You can upload CSV, Excel, PDF, image, Word, and plaintext files, including text (.txt) and Markdown (.md) files, directly into a chat conversation. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions.",
+  "why_it_matters": "Low: This level lowers the cost for simpler tasks.",
+  "plain_summary": "File upload in Genie One is now generally available. You can upload CSV, Excel, PDF, image, Word, and plaintext files, including text (.txt) and Markdown (.md) files, directly into a chat conversation.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "File upload in Genie One is now generally available.",
+  "note_id": "2026-10-08-file-upload-in-genie-one-is-now-generally-available",
+  "category": "platform"
+}

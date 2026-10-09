@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-enforce-partner-guardrails-with-external-service-policies-beta",
+  "title": "Enforce partner guardrails with external service policies (Beta)",
+  "date": "2026-10-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#enforce-partner-guardrails-with-external-service-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enforce a third-party guardrail on Unity Gateway traffic. An external service policy sends request and response content to your guardrail vendor and blocks the call when the vendor denies it, with no changes to your applications. See [Enforce a partner guardrail with an external service policy](/aws/en/data-governance/unity-catalog/service-policies/external-policies).",
+  "ref_links": [
+    {
+      "text": "Enforce a partner guardrail with an external service policy",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/external-policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.016736Z"
+}

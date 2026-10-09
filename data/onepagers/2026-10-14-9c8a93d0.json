@@ -1,0 +1,24 @@
+{
+  "product": "Workspace-level package repositories for Databricks Apps are generally available",
+  "tagline": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps.",
+  "updated": "Oct 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#workspace-level-package-repositories-for-databricks-apps-are-generally-available",
+  "what_it_does": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps. Apps inherit the workspace configuration while still allowing app level overrides. Preview Configuring default Python package repositories for Databricks Apps is in Beta.",
+  "why_it_matters": "This configuration leverages Databricks secrets to securely store and manage repository URLs and credentials.",
+  "plain_summary": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps. Apps inherit the workspace configuration while still allowing app level overrides.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps.",
+  "note_id": "2026-10-14-9c8a93d0",
+  "category": "platform"
+}

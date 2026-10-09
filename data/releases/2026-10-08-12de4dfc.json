@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-12de4dfc",
+  "title": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-10-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#unity-catalog-scala-and-java-udfs-and-scalar-and-batch-unity-catalog-python-udfs-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Unity Catalog Scala and Java UDFs and Scalar and Batch Unity Catalog Python UDFs will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in November 2026.\n\nSee [Python UDF feature requirements](/aws/en/udf/unity-catalog#ga-feature-requirements) and [Scala and Java user-defined functions (UDFs) in Unity Catalog](/aws/en/udf/scala-java-uc).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Python UDF feature requirements",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#ga-feature-requirements"
+    },
+    {
+      "text": "Scala and Java user-defined functions (UDFs) in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/udf/scala-java-uc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-09T14:16:58.013246Z"
+}

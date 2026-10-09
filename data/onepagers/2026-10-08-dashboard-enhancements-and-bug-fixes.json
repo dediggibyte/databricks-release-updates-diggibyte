@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Faceted counters: You can now facet a counter visualization to show one counter tile per dimension value.",
+  "updated": "Oct 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/dashboard#configure-a-dashboard-task",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Faceted counters: You can now facet a counter visualization to show one counter tile per dimension value. Legend cross filtering: Selecting an item in a visualization's legend now applies cross filtering. Dashboard task page selection and tabular attachments: Dashboard tasks in jobs can now optionally include dashboard page selection and tabular attachments.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Faceted counters: You can now facet a counter visualization to show one counter tile per dimension value. Legend cross filtering: Selecting an item in a visualization's legend now applies cross filtering.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Faceted counters: You can now facet a counter visualization to show one counter tile per dimension value.",
+  "note_id": "2026-10-08-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

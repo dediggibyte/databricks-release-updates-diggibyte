@@ -1,0 +1,24 @@
+{
+  "product": "The Discover page and domains are now GA",
+  "tagline": "The Discover page and domains are now generally available.",
+  "updated": "Oct 8, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/domains",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#the-discover-page-and-domains-are-now-ga",
+  "what_it_does": "The Discover page and domains are now generally available. Discover is a curated browsing experience that helps users find assets across Databricks without requiring deep knowledge of catalog hierarchies. Use domains and subdomains to organize assets such as tables, dashboards, notebooks, and Genie Agents by business area, highlight key assets with custom curation, and explore AI recommended assets.",
+  "why_it_matters": "Domains are an organization layer that groups data products and assets by governed tags.",
+  "plain_summary": "The Discover page and domains are now generally available. Discover is a curated browsing experience that helps users find assets across Databricks without requiring deep knowledge of catalog hierarchies.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Discover page and domains are now generally available.",
+  "note_id": "2026-10-08-the-discover-page-and-domains-are-now-ga",
+  "category": "platform"
+}
