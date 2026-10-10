@@ -1,0 +1,24 @@
+{
+  "product": "Genie One file upload supports new file types (Beta)",
+  "tagline": "File upload in Genie One now supports plaintext files, including text (.txt) and Markdown (.md) files, in addition to CSV, Excel, PDF, image, Word, and PowerPoint files.",
+  "updated": "Oct 8, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-file-upload-supports-new-file-types-beta",
+  "what_it_does": "File upload in Genie One now supports plaintext files, including text (.txt) and Markdown (.md) files, in addition to CSV, Excel, PDF, image, Word, and PowerPoint files. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions. It first searches available Genie Agents for a match, then searches across dashboards, queries, and metric views.",
+  "why_it_matters": "Low: This level lowers the cost for simpler tasks.",
+  "plain_summary": "File upload in Genie One now supports plaintext files, including text (.txt) and Markdown (.md) files, in addition to CSV, Excel, PDF, image, Word, and PowerPoint files.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "File upload in Genie One now supports plaintext files, including text (.txt) and Markdown (.md) files, in addition to CSV, Excel, PDF, image, Word, and PowerPoint files.",
+  "note_id": "2026-10-08-genie-one-file-upload-supports-new-file-types-beta",
+  "category": "platform"
+}

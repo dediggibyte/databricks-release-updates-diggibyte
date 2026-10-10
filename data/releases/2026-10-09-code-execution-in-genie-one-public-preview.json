@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-09-code-execution-in-genie-one-public-preview",
+  "title": "Code execution in Genie One (Public Preview)",
+  "date": "2026-10-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#code-execution-in-genie-one-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses. Code runs on your behalf using your existing permissions, so Unity Catalog governance and data access controls continue to apply. See [Code execution in Genie One](/aws/en/genie-one/code-execution).",
+  "ref_links": [
+    {
+      "text": "Code execution in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/code-execution"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-10T13:29:55.110269Z"
+}

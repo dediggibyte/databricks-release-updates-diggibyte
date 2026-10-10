@@ -1,0 +1,24 @@
+{
+  "product": "Use request tags in Unity Gateway service policies (Beta)",
+  "tagline": "Custom service policies in Unity Gateway can now check caller supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds.",
+  "updated": "Oct 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/policy-function-reference#request-tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-request-tags-in-unity-gateway-service-policies-beta",
+  "what_it_does": "Custom service policies in Unity Gateway can now check caller supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds. Beta This feature is in Beta. Account admins can control access to this feature from the account console Previews page.",
+  "why_it_matters": "Related Service policies for AI securables Create and attach a service policy",
+  "plain_summary": "Custom service policies in Unity Gateway can now check caller supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Custom service policies in Unity Gateway can now check caller supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds.",
+  "note_id": "2026-10-09-use-request-tags-in-unity-gateway-service-policies-beta",
+  "category": "platform"
+}

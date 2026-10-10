@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-09-use-openjev-as-the-evaluator-for-llm-as-a-judge-service-policies-beta",
+  "title": "Use OpenJev as the evaluator for LLM-as-a-judge service policies (Beta)",
+  "date": "2026-10-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-openjev-as-the-evaluator-for-llm-as-a-judge-service-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now select OpenJev (Qwen3.5 4B) as the evaluator model service of a custom LLM-as-a-judge service policy. OpenJev classifies content without generating output tokens, so it typically responds faster than a chat evaluator. See [Use OpenJev as the evaluator](/aws/en/data-governance/unity-catalog/service-policies/policy-examples#openjev-evaluator).",
+  "ref_links": [
+    {
+      "text": "Use OpenJev as the evaluator",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/policy-examples#openjev-evaluator"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-10T13:29:55.108734Z"
+}

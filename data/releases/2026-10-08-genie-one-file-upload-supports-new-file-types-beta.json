@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-08-genie-one-file-upload-supports-new-file-types-beta",
+  "title": "Genie One file upload supports new file types (Beta)",
+  "date": "2026-10-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-file-upload-supports-new-file-types-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "File upload in Genie One now supports plaintext files, including text (`.txt`) and Markdown (`.md`) files, in addition to CSV, Excel, PDF, image, Word, and PowerPoint files. See [Upload a file](/aws/en/genie-one/chat#upload-a-file).",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-10T13:29:55.116777Z"
+}

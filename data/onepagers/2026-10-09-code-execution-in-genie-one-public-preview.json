@@ -1,0 +1,24 @@
+{
+  "product": "Code execution in Genie One (Public Preview)",
+  "tagline": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses.",
+  "updated": "Oct 9, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/code-execution",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#code-execution-in-genie-one-public-preview",
+  "what_it_does": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses. Code runs on your behalf using your existing permissions, so Unity Catalog governance and data access controls continue to apply. Preview This feature is in Public Preview.",
+  "why_it_matters": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses.",
+  "plain_summary": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses. Code runs on your behalf using your existing permissions, so Unity Catalog governance and data access controls continue to apply.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie One can now run code in a secure, isolated sandbox to take on work that goes beyond SQL, such as more advanced analyses.",
+  "note_id": "2026-10-09-code-execution-in-genie-one-public-preview",
+  "category": "platform"
+}
