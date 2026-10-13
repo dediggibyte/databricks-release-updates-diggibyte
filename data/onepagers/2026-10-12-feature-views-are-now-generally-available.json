@@ -1,0 +1,41 @@
+{
+  "product": "Feature Views are now generally available",
+  "tagline": "Feature Views are now generally available for batch, streaming, and request time data.",
+  "updated": "Oct 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available",
+  "what_it_does": "Feature Views are now generally available for batch, streaming, and request time data. They will be enabled for compliance security profile workspaces in mid November 2026. Feature Views enable you to define and compute features from data sources.",
+  "why_it_matters": "They will be enabled for compliance security profile workspaces in mid November 2026.",
+  "plain_summary": "Feature Views are now generally available for batch, streaming, and request time data. They will be enabled for compliance security profile workspaces in mid November 2026.",
+  "capabilities": [
+    {
+      "title": "Use createfeature to define Unity",
+      "desc": "Use createfeature to define Unity Catalog feature objects that can be used in model training and serving workflows."
+    },
+    {
+      "title": "Alternatively, construct Feature objects locally",
+      "desc": "Alternatively, construct Feature objects locally and use registerfeature to persist them to Unity Catalog later. Locally…"
+    },
+    {
+      "title": "Use createtrainingset to calculate point-in-time",
+      "desc": "Use createtrainingset to calculate point-in-time aggregated features for machine learning. For detailed documentation on…"
+    },
+    {
+      "title": "After defining a feature with",
+      "desc": "After defining a feature with createfeature or retrieving it using getfeature, you can use materializefeatures to materialize…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Feature Views are now generally available for batch, streaming, and request time data.",
+  "note_id": "2026-10-12-feature-views-are-now-generally-available",
+  "category": "platform"
+}

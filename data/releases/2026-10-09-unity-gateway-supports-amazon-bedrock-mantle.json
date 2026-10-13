@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-09-unity-gateway-supports-amazon-bedrock-mantle",
+  "title": "Unity Gateway supports Amazon Bedrock Mantle",
+  "date": "2026-10-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-supports-amazon-bedrock-mantle",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables. See [Model providers external to Databricks](/aws/en/ai-gateway/model-provider-services).",
+  "ref_links": [
+    {
+      "text": "Model providers external to Databricks",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/model-provider-services"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.530121Z"
+}

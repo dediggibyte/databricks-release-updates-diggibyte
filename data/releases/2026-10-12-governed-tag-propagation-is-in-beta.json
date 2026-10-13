@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-12-governed-tag-propagation-is-in-beta",
+  "title": "Governed tag propagation is in Beta",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#governed-tag-propagation-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Tag propagation in Unity Catalog is in [Beta](/aws/en/release-notes/release-types). When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as `CREATE TABLE AS SELECT`, `CREATE VIEW`, `INSERT INTO ... SELECT`, or `MERGE`. This keeps classification and ABAC enforcement consistent at both the table and column levels as data moves downstream.\n\nSee [Tag propagation](/aws/en/admin/governed-tags/tag-propagation).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Tag propagation",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags/tag-propagation"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.526940Z"
+}

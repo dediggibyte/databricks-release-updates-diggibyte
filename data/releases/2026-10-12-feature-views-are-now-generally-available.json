@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-12-feature-views-are-now-generally-available",
+  "title": "Feature Views are now generally available",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See [Feature Views](/aws/en/machine-learning/feature-store/feature-views).",
+  "ref_links": [
+    {
+      "text": "Feature Views",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.528373Z"
+}

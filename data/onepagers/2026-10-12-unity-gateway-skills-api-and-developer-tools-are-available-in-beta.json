@@ -1,0 +1,41 @@
+{
+  "product": "Unity Gateway Skills API and developer tools are available in Beta",
+  "tagline": "The Unity Gateway Skills REST API is now available in Beta, with create, read, update, list, delete, and finalize support across Databricks developer tools: Databricks CLI Python SDK Go SDK Go…",
+  "updated": "Oct 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/skill-reference",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+  "what_it_does": "The Unity Gateway Skills REST API is now available in Beta, with create, read, update, list, delete, and finalize support across Databricks developer tools: Databricks CLI Python SDK Go SDK Go Modular SDK Java SDK JavaScript SDK See the Skills API and SDK reference. Beta This feature is in Beta. Account admins can manage access to this feature from the account console Previews page.",
+  "why_it_matters": "For privileges and governance, see Govern skills.",
+  "plain_summary": "The Unity Gateway Skills REST API is now available in Beta, with create, read, update, list, delete, and finalize support across Databricks developer tools: Databricks CLI Python SDK Go SDK Go Modular SDK Java SDK JavaScript SDK See the Skills API and SDK…",
+  "capabilities": [
+    {
+      "title": "Databricks CLI: v1.20.0 and above",
+      "desc": "Databricks CLI: v1.20.0 and above"
+    },
+    {
+      "title": "Python SDK: databricks-sdk 0.142.0 and",
+      "desc": "Python SDK: databricks-sdk 0.142.0 and above"
+    },
+    {
+      "title": "Go SDK: databricks-sdk-go v0.184.0 and",
+      "desc": "Go SDK: databricks-sdk-go v0.184.0 and above"
+    },
+    {
+      "title": "Go Modular SDK: github.com/databricks/sdk-go/aigateway v0.1.0",
+      "desc": "Go Modular SDK: github.com/databricks/sdk-go/aigateway v0.1.0 and above"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Unity Gateway Skills REST API is now available in Beta, with create, read, update, list, delete, and finalize support across Databricks developer tools: Databricks CLI Python SDK Go SDK Go…",
+  "note_id": "2026-10-12-unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+  "category": "platform"
+}

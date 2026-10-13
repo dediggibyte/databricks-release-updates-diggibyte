@@ -1,0 +1,24 @@
+{
+  "product": "Governed tag propagation is in Beta",
+  "tagline": "Tag propagation in Unity Catalog is in Beta.",
+  "updated": "Oct 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/governed-tags/tag-propagation",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#governed-tag-propagation-is-in-beta",
+  "what_it_does": "Tag propagation in Unity Catalog is in Beta. When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as CREATE TABLE AS SELECT, CREATE VIEW, INSERT INTO ... This keeps classification and ABAC enforcement consistent at both the table and column levels as data moves downstream.",
+  "why_it_matters": "When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as CREATE TABLE AS SELECT, CREATE VIEW, INSERT INTO ...",
+  "plain_summary": "Tag propagation in Unity Catalog is in Beta. When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as CREATE TABLE AS SELECT…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Tag propagation in Unity Catalog is in Beta.",
+  "note_id": "2026-10-12-governed-tag-propagation-is-in-beta",
+  "category": "platform"
+}

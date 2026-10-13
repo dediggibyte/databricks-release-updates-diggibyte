@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-12-parameters-for-lakeflow-pipelines-are-now-generally-available",
+  "title": "Parameters for Lakeflow pipelines are now generally available",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key-value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax. See [Use parameters with pipelines](/aws/en/ldp/parameters).",
+  "ref_links": [
+    {
+      "text": "Use parameters with pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/parameters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.527396Z"
+}

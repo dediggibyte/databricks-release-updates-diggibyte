@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-dataset-materialization-for-ai-bi-dashboards-is-now-in-beta",
+  "title": "Dataset materialization for AI/BI dashboards is now in Beta",
+  "date": "2026-10-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#dataset-materialization-for-aibi-dashboards-is-now-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now pre-compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster. Published dashboards render from stored results instead of rerunning expensive queries on every load or interaction. See [Dataset materialization in AI/BI dashboards](/aws/en/dashboards/materialization).",
+  "ref_links": [
+    {
+      "text": "Dataset materialization in AI/BI dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/materialization"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.539184Z"
+}

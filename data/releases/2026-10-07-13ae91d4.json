@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-13ae91d4",
+  "title": "Context-based ingress policies for inbound private connectivity are now generally available",
+  "date": "2026-10-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If **Context-Based Ingress: Workspace Private Access Policies** isn't already enabled for your account, an account admin can enable it from the account console **Previews** page. See [Configure private access policy](/aws/en/security/network/front-end/front-end-private-connect#private-access).",
+  "ref_links": [
+    {
+      "text": "Configure private access policy",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#private-access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-13T14:55:45.539726Z"
+}

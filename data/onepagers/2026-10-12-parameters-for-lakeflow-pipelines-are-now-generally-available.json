@@ -1,0 +1,33 @@
+{
+  "product": "Parameters for Lakeflow pipelines are now generally available",
+  "tagline": "Pipeline parameters are now generally available.",
+  "updated": "Oct 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/parameters",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available",
+  "what_it_does": "Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source.",
+  "capabilities": [
+    {
+      "title": "A job that contains a",
+      "desc": "A job that contains a pipeline task and is configured with maxconcurrentruns more than one."
+    },
+    {
+      "title": "A pipeline task wrapped in",
+      "desc": "A pipeline task wrapped in a for-each task, regardless of the iteration count."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Pipeline parameters are now generally available.",
+  "note_id": "2026-10-12-parameters-for-lakeflow-pipelines-are-now-generally-available",
+  "category": "platform"
+}

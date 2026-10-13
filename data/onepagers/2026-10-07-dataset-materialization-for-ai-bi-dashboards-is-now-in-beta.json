@@ -1,0 +1,24 @@
+{
+  "product": "Dataset materialization for AI/BI dashboards is now in Beta",
+  "tagline": "You can now pre compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster.",
+  "updated": "Oct 7, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/materialization",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#dataset-materialization-for-aibi-dashboards-is-now-in-beta",
+  "what_it_does": "You can now pre compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster. Published dashboards render from stored results instead of rerunning expensive queries on every load or interaction. Beta This feature is in Beta.",
+  "why_it_matters": "You can now pre compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster.",
+  "plain_summary": "You can now pre compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster. Published dashboards render from stored results instead of rerunning expensive queries on every load or interaction.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now pre compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster.",
+  "note_id": "2026-10-07-dataset-materialization-for-ai-bi-dashboards-is-now-in-beta",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Feature Views will soon be available by default for workspaces with the…",
+  "tagline": "Feature Views are now generally available.",
+  "updated": "Oct 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#feature-views-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Feature Views are now generally available. They will be automatically enabled for workspaces with the compliance security profile enabled in mid November 2026. Define and compute features declaratively from batch or streaming data, then use them for model training and online serving.",
+  "why_it_matters": "They will be automatically enabled for workspaces with the compliance security profile enabled in mid November 2026.",
+  "plain_summary": "Feature Views are now generally available. They will be automatically enabled for workspaces with the compliance security profile enabled in mid November 2026.",
+  "capabilities": [
+    {
+      "title": "Use createfeature to define Unity",
+      "desc": "Use createfeature to define Unity Catalog feature objects that can be used in model training and serving workflows."
+    },
+    {
+      "title": "Alternatively, construct Feature objects locally",
+      "desc": "Alternatively, construct Feature objects locally and use registerfeature to persist them to Unity Catalog later. Locally…"
+    },
+    {
+      "title": "Use createtrainingset to calculate point-in-time",
+      "desc": "Use createtrainingset to calculate point-in-time aggregated features for machine learning. For detailed documentation on…"
+    },
+    {
+      "title": "After defining a feature with",
+      "desc": "After defining a feature with createfeature or retrieving it using getfeature, you can use materializefeatures to materialize…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Feature Views are now generally available.",
+  "note_id": "2026-10-12-a36c9ed8",
+  "category": "platform"
+}

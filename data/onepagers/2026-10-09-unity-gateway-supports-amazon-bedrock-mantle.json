@@ -1,0 +1,24 @@
+{
+  "product": "Unity Gateway supports Amazon Bedrock Mantle",
+  "tagline": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables.",
+  "updated": "Oct 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/model-provider-services",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-supports-amazon-bedrock-mantle",
+  "what_it_does": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables. External model providers let you bring your own key (BYOK): connect the LLM providers you already use, such as OpenAI, Anthropic, or Amazon Bedrock, and govern them through one control point. Register each provider once, and many users and model APIs route to it without ever handling the credentials.",
+  "why_it_matters": "External model providers let you bring your own key (BYOK): connect the LLM providers you already use, such as OpenAI, Anthropic, or Amazon Bedrock, and govern them through one control point.",
+  "plain_summary": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables.",
+  "note_id": "2026-10-09-unity-gateway-supports-amazon-bedrock-mantle",
+  "category": "platform"
+}

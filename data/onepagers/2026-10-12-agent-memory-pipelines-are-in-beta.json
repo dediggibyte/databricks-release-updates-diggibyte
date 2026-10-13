@@ -1,0 +1,24 @@
+{
+  "product": "Agent memory pipelines are in Beta",
+  "tagline": "Agent memory pipelines are in Beta.",
+  "updated": "Oct 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-memory/memory-pipelines",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#agent-memory-pipelines-are-in-beta",
+  "what_it_does": "Agent memory pipelines are in Beta. A memory pipeline connects a session store to a memory store. Each run uses an LLM to distill durable facts, preferences, and decisions from stored conversations into memory entries that your agent recalls in later conversations.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Agent memory pipelines are in Beta. A memory pipeline connects a session store to a memory store.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Agent memory pipelines are in Beta.",
+  "note_id": "2026-10-12-agent-memory-pipelines-are-in-beta",
+  "category": "platform"
+}
