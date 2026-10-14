@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-google-gemini-4-argon-is-now-available-on-unity-gateway",
+  "title": "Google Gemini 4 Argon is now available on Unity Gateway",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-4-argon-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google [Gemini 4 Argon](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-4-argon) is now available on Unity Gateway. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "Gemini 4 Argon",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-4-argon"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-14T12:47:48.470720Z"
+}

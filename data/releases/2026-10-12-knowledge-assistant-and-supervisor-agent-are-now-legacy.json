@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-12-knowledge-assistant-and-supervisor-agent-are-now-legacy",
+  "title": "Knowledge Assistant and Supervisor Agent are now legacy",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#knowledge-assistant-and-supervisor-agent-are-now-legacy",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Knowledge Assistant](/aws/en/agents/agent-bricks/knowledge-assistant) and [Supervisor Agent](/aws/en/agents/agent-bricks/multi-agent-supervisor) are now [legacy](/aws/en/release-notes/runtime/databricks-runtime-ver) offerings. For new agents written in code, Databricks recommends the [Agent Bricks CLI](/aws/en/agents/custom-agents/agent-bricks-cli). To build agents without code, use [Genie Agents](/aws/en/genie-agents). See [Legacy agent offerings](/aws/en/agents/legacy).",
+  "ref_links": [
+    {
+      "text": "Knowledge Assistant",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant"
+    },
+    {
+      "text": "Supervisor Agent",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    },
+    {
+      "text": "legacy",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/databricks-runtime-ver"
+    },
+    {
+      "text": "Agent Bricks CLI",
+      "url": "https://docs.databricks.com/aws/en/agents/custom-agents/agent-bricks-cli"
+    },
+    {
+      "text": "Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie-agents"
+    },
+    {
+      "text": "Legacy agent offerings",
+      "url": "https://docs.databricks.com/aws/en/agents/legacy"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-14T12:47:48.477183Z"
+}

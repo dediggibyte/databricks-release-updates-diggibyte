@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-on-demand-state-repartitioning-is-now-generally-available",
+  "title": "On-demand state repartitioning is now generally available",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#on-demand-state-repartitioning-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "On-demand state repartitioning is now generally available. You can resize the number of shuffle partitions for a stateful Structured Streaming query or Lakeflow pipeline without losing checkpoint state. See [On-demand state repartitioning for stateful streaming queries](/aws/en/structured-streaming/state-repartitioning).",
+  "ref_links": [
+    {
+      "text": "On-demand state repartitioning for stateful streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-14T12:47:48.471209Z"
+}

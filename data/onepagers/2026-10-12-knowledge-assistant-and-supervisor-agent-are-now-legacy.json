@@ -1,0 +1,24 @@
+{
+  "product": "Knowledge Assistant and Supervisor Agent are now legacy",
+  "tagline": "Knowledge Assistant and Supervisor Agent are now legacy offerings.",
+  "updated": "Oct 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/legacy",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#knowledge-assistant-and-supervisor-agent-are-now-legacy",
+  "what_it_does": "Knowledge Assistant and Supervisor Agent are now legacy offerings. For new agents written in code, Databricks recommends the Agent Bricks CLI. To build agents without code, use Genie Agents.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Knowledge Assistant and Supervisor Agent are now legacy offerings. For new agents written in code, Databricks recommends the Agent Bricks CLI.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Knowledge Assistant and Supervisor Agent are now legacy offerings.",
+  "note_id": "2026-10-12-knowledge-assistant-and-supervisor-agent-are-now-legacy",
+  "category": "platform"
+}
