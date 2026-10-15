@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-13-028f113d",
+  "title": "AI Runtime will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-runtime-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nAI Runtime will be available by default for eligible workspaces with the compliance security profile enabled in mid November. Availability depends on the supported compliance standards and regions.\n\nUse AI Runtime to train and fine-tune models on serverless GPUs without provisioning or managing the underlying infrastructure.\n\nSee [AI Runtime](/aws/en/machine-learning/ai-runtime).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "AI Runtime",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-15T12:34:31.415483Z"
+}

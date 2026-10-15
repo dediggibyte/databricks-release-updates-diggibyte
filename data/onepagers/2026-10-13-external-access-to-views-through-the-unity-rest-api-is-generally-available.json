@@ -1,0 +1,24 @@
+{
+  "product": "External access to views through the Unity REST API is generally available",
+  "tagline": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API.",
+  "updated": "Oct 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-access-to-views-through-the-unity-rest-api-is-generally-available",
+  "what_it_does": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API. Beta External access to views through the Iceberg REST catalog is in Beta. Accessing views through the Unity REST API is generally available.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API.",
+  "note_id": "2026-10-13-external-access-to-views-through-the-unity-rest-api-is-generally-available",
+  "category": "platform"
+}

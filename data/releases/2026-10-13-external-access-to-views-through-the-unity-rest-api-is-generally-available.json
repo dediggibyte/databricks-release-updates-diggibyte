@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-external-access-to-views-through-the-unity-rest-api-is-generally-available",
+  "title": "External access to views through the Unity REST API is generally available",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-access-to-views-through-the-unity-rest-api-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API. See [External access to views](/aws/en/external-access/views).",
+  "ref_links": [
+    {
+      "text": "External access to views",
+      "url": "https://docs.databricks.com/aws/en/external-access/views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-15T12:34:31.417787Z"
+}

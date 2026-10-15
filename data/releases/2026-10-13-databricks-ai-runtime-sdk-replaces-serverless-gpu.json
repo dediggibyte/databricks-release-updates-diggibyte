@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-databricks-ai-runtime-sdk-replaces-serverless-gpu",
+  "title": "Databricks AI Runtime SDK replaces serverless_gpu",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (`databricks-sdk-air`) replaces the deprecated `serverless_gpu` package. It provides the `@distributed` and `ray_init` APIs and the `databricks.air.data` utilities under the `databricks.air` namespace. The `gpus` and `gpu_type` arguments are renamed to `num_accelerators` and `accelerator_type`. The old names still work in `databricks.air` but emit a `FutureWarning`, and support will end in version 7.\n\nServerless GPU environment version 6 includes both packages. Version 6 is the last version that includes `serverless_gpu`. Versions 5 and below continue to use it. See  [Migrate from `serverless_gpu`](/aws/en/machine-learning/ai-runtime/distributed-training#migrate-serverless-gpu).",
+  "ref_links": [
+    {
+      "text": "Migrate from serverless_gpu",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/distributed-training#migrate-serverless-gpu"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-15T12:34:31.419406Z"
+}

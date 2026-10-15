@@ -1,0 +1,44 @@
+{
+  "product": "AI Runtime will soon be available by default for workspaces with the…",
+  "tagline": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the compliance security profile enabled.",
+  "updated": "Oct 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-runtime-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the compliance security profile enabled. AI Runtime will be available by default for eligible workspaces with the compliance security profile enabled in mid November. Availability depends on the supported compliance standards and regions.",
+  "why_it_matters": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the compliance security profile enabled.",
+  "plain_summary": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the compliance security profile enabled. AI Runtime will be available by default for eligible workspaces with the compliance security profile…",
+  "capabilities": [
+    {
+      "title": "us-west-2",
+      "desc": "us-west-2"
+    },
+    {
+      "title": "us-west-1",
+      "desc": "us-west-1"
+    },
+    {
+      "title": "us-east-1",
+      "desc": "us-east-1"
+    },
+    {
+      "title": "us-east-2",
+      "desc": "us-east-2"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "large scale classic workloads",
+    "or GPUs."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the compliance security profile enabled.",
+  "note_id": "2026-10-13-028f113d",
+  "category": "platform"
+}

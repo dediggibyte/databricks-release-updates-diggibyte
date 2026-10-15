@@ -1,0 +1,24 @@
+{
+  "product": "Databricks AI Runtime SDK replaces serverless_gpu",
+  "tagline": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks sdk air) replaces the deprecated serverless gpu package.",
+  "updated": "Oct 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/distributed-training#migrate-serverless-gpu",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu",
+  "what_it_does": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks sdk air) replaces the deprecated serverless gpu package. It provides the @distributed and ray init APIs and the databricks.air.data utilities under the databricks.air namespace. The gpus and gpu type arguments are renamed to num accelerators and accelerator type.",
+  "why_it_matters": "The same code scales from single GPU to multi GPU with no cluster to provision and no distributed launcher to configure.",
+  "plain_summary": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks sdk air) replaces the deprecated serverless gpu package. It provides the @distributed and ray init APIs and the databricks.air.data utilities under the databricks.air namespace.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks sdk air) replaces the deprecated serverless gpu package.",
+  "note_id": "2026-10-13-databricks-ai-runtime-sdk-replaces-serverless-gpu",
+  "category": "platform"
+}
