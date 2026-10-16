@@ -1,0 +1,24 @@
+{
+  "product": "August 17, 2026",
+  "tagline": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "updated": "Aug 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-17-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-17-2026",
+  "what_it_does": "This serverless compute release includes updates from Databricks Runtime 19. New features is valid variant function: The is valid variant function returns true if the input is a well formed VARIANT value and false otherwise. Use it to validate variant data before downstream processing.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "This serverless compute release includes updates from Databricks Runtime 19. New features is valid variant function: The is valid variant function returns true if the input is a well formed VARIANT value and false otherwise.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "note_id": "2026-08-17-august-17-2026",
+  "category": "platform"
+}

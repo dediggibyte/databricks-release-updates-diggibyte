@@ -1,0 +1,33 @@
+{
+  "product": "READ METADATA privilege support for compliance security profile standards",
+  "tagline": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Oct 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#read-metadata-privilege-support-for-compliance-security-profile-standards",
+  "what_it_does": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled. For a full list of supported compliance standards, see Compliance security profile. This page describes the compliance security profile, its compliance controls, and supported features.",
+  "why_it_matters": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled. For a full list of supported compliance standards, see…",
+  "capabilities": [
+    {
+      "title": "A CIS Level 1 hardened",
+      "desc": "A CIS Level 1 hardened image"
+    },
+    {
+      "title": "FIPS 140 validated encryption modules",
+      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-10-16-read-metadata-privilege-support-for-compliance-security-profile-standards",
+  "category": "platform"
+}

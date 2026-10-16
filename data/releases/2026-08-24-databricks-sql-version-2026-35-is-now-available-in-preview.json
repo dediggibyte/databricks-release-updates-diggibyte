@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-24-databricks-sql-version-2026-35-is-now-available-in-preview",
+  "title": "Databricks SQL version 2026.35 is now available in Preview",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202635-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.35 is now available in the **Preview** channel. Review the following section to learn about new features and behavioral changes.\n\n#### Aggregate arrays with `collect_union`\n\nThe `collect_union` aggregate function returns the distinct union of the elements in arrays within each group.\n\n#### `HAVING` is evaluated before window functions in queries with generators\n\nFor queries that include generators, such as `explode`, window functions are now evaluated after the `HAVING` filter. Window results include only the rows that `HAVING` retains.\n\n#### Policy logic is hidden in query plans by default\n\nQuery plans no longer expose row filter and column mask policy logic unless the user has the `INSPECT_POLICY_EXECUTION` metastore privilege. See [Row filters and column masks](/aws/en/data-governance/unity-catalog/filters-and-masks).\n\n#### `CREATE OR REPLACE VIEW` preserves metadata atomically\n\nFor Unity Catalog views, `CREATE OR REPLACE VIEW` now performs an atomic replacement that preserves the view identity, grants, tags, and comments by default. Governed tag protections continue to apply.",
+  "ref_links": [
+    {
+      "text": "Row filters and column masks",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/filters-and-masks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.977922Z"
+}

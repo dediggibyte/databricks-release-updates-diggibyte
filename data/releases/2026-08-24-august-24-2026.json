@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-24-august-24-2026",
+  "title": "August 24, 2026",
+  "date": "2026-08-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-24-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release includes updates from [Databricks Runtime 19](/aws/en/release-notes/runtime/19).\n\n#### New features\n\n* **`collect_union` aggregate function**: The `collect_union` aggregate function returns the distinct union of the elements in arrays within each group.\n\n#### Behavior changes\n\n* **`HAVING` is evaluated before window functions in queries with generators**: For queries that include generators, such as `explode`, window functions are now evaluated after the `HAVING` filter. Window results therefore include only rows retained by `HAVING`.\n* **Policy logic is hidden in query plans by default**: Query plans no longer expose row filter and column mask policy logic unless the user has the `INSPECT_POLICY_EXECUTION` metastore privilege.\n* **Delta API DML uses policy-definer rights**: `DeltaTable.delete`, `DeltaTable.update`, and `DeltaTable.merge` now resolve row filter and column mask policy functions with the policy definer's rights, matching SQL DML. Callers no longer need `EXECUTE` on those policy functions when they have the required table permissions.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.980261Z"
+}

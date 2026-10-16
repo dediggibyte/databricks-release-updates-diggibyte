@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-19-saving-an-unchanged-job-no-longer-adds-rows-to-the-jobs-system-tables",
+  "title": "Saving an unchanged job no longer adds rows to the jobs system tables",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#saving-an-unchanged-job-no-longer-adds-rows-to-the-jobs-system-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Saving a job without changing its settings no longer adds rows to `system.lakeflow.jobs` or `system.lakeflow.job_tasks`, and `change_time` stays at the last change. This applies to saves from the UI, the Jobs API, and Declarative Automation Bundles. See [Jobs table schema](/aws/en/admin/system-tables/jobs#jobs).",
+  "ref_links": [
+    {
+      "text": "Jobs table schema",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.802251Z"
+}

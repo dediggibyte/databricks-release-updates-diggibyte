@@ -1,0 +1,24 @@
+{
+  "product": "ADBC driver for Power BI is now generally available",
+  "tagline": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available.",
+  "updated": "Oct 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/partners/bi/power-bi/adbc",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available",
+  "what_it_does": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service. Power BI connections to Databricks use one of two drivers: Arrow Database Connectivity (ADBC) or Open Database Connectivity (ODBC).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available.",
+  "note_id": "2026-10-15-adbc-driver-for-power-bi-is-now-generally-available",
+  "category": "platform"
+}

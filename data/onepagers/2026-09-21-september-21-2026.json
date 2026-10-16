@@ -1,0 +1,24 @@
+{
+  "product": "September 21, 2026",
+  "tagline": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "updated": "Sep 21, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/serverless#september-21-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#september-21-2026",
+  "what_it_does": "This serverless compute release includes updates from Databricks Runtime 19. New features truncate function: The truncate function truncates a number to a specified scale without rounding. trim array function: The trim array function removes the specified number of elements from the end of an array.",
+  "why_it_matters": "New features truncate function: The truncate function truncates a number to a specified scale without rounding.",
+  "plain_summary": "This serverless compute release includes updates from Databricks Runtime 19. New features truncate function: The truncate function truncates a number to a specified scale without rounding.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "note_id": "2026-09-21-september-21-2026",
+  "category": "platform"
+}

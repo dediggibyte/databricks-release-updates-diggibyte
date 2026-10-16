@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-20-google-analytics-aggregated-connector-is-available-in-beta",
+  "title": "Google Analytics Aggregated connector is available in Beta",
+  "date": "2026-10-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-analytics-aggregated-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Google Analytics Aggregated connector](/aws/en/ingestion/lakeflow-connect/google-analytics-aggregated) is now available in Lakeflow Connect in [Beta](/aws/en/release-notes/release-types). Workspace admins can control access to this feature from the **Previews** page.\n\nUse the connector to ingest aggregated Google Analytics 4 report data, such as user activity, acquisition, engagement, monetization, demographics, and tech reports, into Databricks. You can also define custom reports with your own dimensions, metrics, and aggregation level. The connector supports incremental ingestion and both service account and OAuth user-to-machine (U2M) authentication.",
+  "ref_links": [
+    {
+      "text": "Google Analytics Aggregated connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-analytics-aggregated"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.800824Z"
+}

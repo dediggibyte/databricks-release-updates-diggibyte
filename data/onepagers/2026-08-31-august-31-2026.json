@@ -1,0 +1,33 @@
+{
+  "product": "August 31, 2026",
+  "tagline": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "updated": "Aug 31, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/change-data-feed#auto-cdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-31-2026",
+  "what_it_does": "This serverless compute release includes updates from Databricks Runtime 19. New features Automatic change data feed is generally available: Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write time overhead and typically makes MERGE and UPDATE operations about 15% faster on tables that you query for changes.",
+  "why_it_matters": "Auto CDF removes write time overhead and typically makes MERGE and UPDATE operations about 15% faster on tables that you query for changes.",
+  "plain_summary": "This serverless compute release includes updates from Databricks Runtime 19. New features Automatic change data feed is generally available: Automatic change data feed (Auto CDF) computes row level changes at query time using row tracking, without requiring…",
+  "capabilities": [
+    {
+      "title": "A managed table in Delta",
+      "desc": "A managed table in Delta Lake format with row tracking enabled or in Iceberg v3 format."
+    },
+    {
+      "title": "An external table in Delta",
+      "desc": "An external table in Delta Lake format with row tracking enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "note_id": "2026-08-31-august-31-2026",
+  "category": "platform"
+}

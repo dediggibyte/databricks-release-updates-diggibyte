@@ -1,0 +1,24 @@
+{
+  "product": "August 24, 2026",
+  "tagline": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "updated": "Aug 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-24-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-24-2026",
+  "what_it_does": "This serverless compute release includes updates from Databricks Runtime 19. New features collect union aggregate function: The collect union aggregate function returns the distinct union of the elements in arrays within each group. Behavior changes HAVING is evaluated before window functions in queries with generators: For queries that include generators, such as explode, window functions are now evaluated after the HAVING filter.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "This serverless compute release includes updates from Databricks Runtime 19. New features collect union aggregate function: The collect union aggregate function returns the distinct union of the elements in arrays within each group.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "note_id": "2026-08-24-august-24-2026",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-31-august-31-2026",
+  "title": "August 31, 2026",
+  "date": "2026-08-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-31-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release includes updates from [Databricks Runtime 19](/aws/en/release-notes/runtime/19).\n\n#### New features\n\n* **Automatic change data feed is generally available**: Automatic change data feed (Auto CDF) computes row-level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write-time overhead and typically makes `MERGE` and `UPDATE` operations about 15% faster on tables that you query for changes. It works with batch queries, Structured Streaming, and Delta Sharing, and requires row tracking. See [Automatic change data feed](/aws/en/tables/features/change-data-feed#auto-cdf).\n* **`parse_sql` function**: The `parse_sql` function parses a SQL statement and returns structured JSON containing statement metadata, table references, select-list expressions, or parser error information.\n\n#### Behavior changes\n\n* **`from_protobuf` skips malformed unselected fields when schema pruning is enabled**: When protobuf schema pruning is enabled, `from_protobuf` no longer decodes or validates fields that a query does not select. A malformed unselected field no longer nulls the row in `PERMISSIVE` mode or fails the query in `FAILFAST` mode.\n* **JDBC pushdown correctly handles null literals**: Data Source v2 JDBC pushdown now emits the SQL `NULL` literal instead of the string `'null'`. Queries that group expressions such as `NULLIF` now produce a null group instead of a separate `'null'` string group.\n* **HTTP and AI functions no longer follow redirects**: `http_request` and AI functions no longer follow HTTP 3xx redirects. Calls that receive a redirect now return a remote HTTP failure for the redirect status. File-source connector downloads are unaffected.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    },
+    {
+      "text": "Automatic change data feed",
+      "url": "https://docs.databricks.com/aws/en/tables/features/change-data-feed#auto-cdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.951769Z"
+}

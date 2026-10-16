@@ -1,0 +1,33 @@
+{
+  "product": "Saving an unchanged job no longer adds rows to the jobs system tables",
+  "tagline": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job tasks, and change time stays at the last change.",
+  "updated": "Oct 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#jobs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#saving-an-unchanged-job-no-longer-adds-rows-to-the-jobs-system-tables",
+  "what_it_does": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job tasks, and change time stays at the last change. This applies to saves from the UI, the Jobs API, and Declarative Automation Bundles. note The lakeflow schema was previously known as workflow.",
+  "why_it_matters": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job tasks, and change time stays at the last change.",
+  "plain_summary": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job tasks, and change time stays at the last change. This applies to saves from the UI, the Jobs API, and Declarative Automation Bundles.",
+  "capabilities": [
+    {
+      "title": "Be both a metastore admin",
+      "desc": "Be both a metastore admin and an account admin, or"
+    },
+    {
+      "title": "Have USE and SELECT permissions",
+      "desc": "Have USE and SELECT permissions on the system schemas. See Grant access to system tables."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job tasks, and change time stays at the last change.",
+  "note_id": "2026-10-19-saving-an-unchanged-job-no-longer-adds-rows-to-the-jobs-system-tables",
+  "category": "platform"
+}

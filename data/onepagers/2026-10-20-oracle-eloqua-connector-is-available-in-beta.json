@@ -1,0 +1,24 @@
+{
+  "product": "Oracle Eloqua connector is available in Beta",
+  "tagline": "The managed Oracle Eloqua connector is now available in Lakeflow Connect in Beta.",
+  "updated": "Oct 20, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/oracle-eloqua",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#oracle-eloqua-connector-is-available-in-beta",
+  "what_it_does": "The managed Oracle Eloqua connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. Use the connector to ingest marketing data such as contacts, accounts, campaigns, email and form assets, form submissions, events, and website visitors from Oracle Eloqua into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Oracle Eloqua connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Oracle Eloqua connector is now available in Lakeflow Connect in Beta.",
+  "note_id": "2026-10-20-oracle-eloqua-connector-is-available-in-beta",
+  "category": "platform"
+}

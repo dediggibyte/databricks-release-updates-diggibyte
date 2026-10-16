@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-20-asana-connector-is-available-in-beta",
+  "title": "Asana connector is available in Beta",
+  "date": "2026-10-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#asana-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Asana connector](/aws/en/ingestion/lakeflow-connect/asana) is now available in Lakeflow Connect in [Beta](/aws/en/release-notes/release-types). Workspace admins can control access to this feature from the **Previews** page.\n\nUse the connector to ingest work management data such as workspaces, teams, projects, tasks, portfolios, and goals from Asana into Databricks. The connector uses OAuth user-to-machine (U2M) authentication.",
+  "ref_links": [
+    {
+      "text": "Asana connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/asana"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.801502Z"
+}

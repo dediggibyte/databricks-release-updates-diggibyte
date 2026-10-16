@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-17-august-17-2026",
+  "title": "August 17, 2026",
+  "date": "2026-08-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#august-17-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release includes updates from [Databricks Runtime 19](/aws/en/release-notes/runtime/19).\n\n#### New features\n\n* **`is_valid_variant` function**: The `is_valid_variant` function returns `true` if the input is a well-formed `VARIANT` value and `false` otherwise. Use it to validate variant data before downstream processing.\n* **`DataFrameGroupBy.cov` and `SeriesGroupBy.describe` in pandas API on Spark**: The pandas API on Spark now supports `DataFrameGroupBy.cov`, which computes the pairwise covariance of columns within each group, and `SeriesGroupBy.describe`, which generates descriptive statistics for each group.\n* **`pa.ChunkedArray` support in `createDataFrame`**: `createDataFrame()` now handles pandas DataFrames with PyArrow `ChunkedArray` columns, preventing type errors when you use Arrow-backed pandas data.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:12.001073Z"
+}

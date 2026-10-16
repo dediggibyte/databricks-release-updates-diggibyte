@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-16-read-metadata-privilege-support-for-compliance-security-profile-standards",
+  "title": "READ METADATA privilege support for compliance security profile standards",
+  "date": "2026-10-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#read-metadata-privilege-support-for-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [`READ METADATA` privilege](/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata) now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nFor a full list of supported compliance standards, see [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "READ METADATA privilege",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.802922Z"
+}

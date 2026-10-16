@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-02-shared-serverless-for-git-folders-is-in-beta",
+  "title": "Shared Serverless for Git Folders is in Beta",
+  "date": "2026-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shared-serverless-for-git-folders-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Shared Serverless for Git Folders to share serverless compute and a `pyproject.toml`-managed environment across notebooks and files in a Git folder. See [Shared Serverless for Git Folders](/aws/en/compute/serverless/notebooks/git-folder-serverless).",
+  "ref_links": [
+    {
+      "text": "Shared Serverless for Git Folders",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/notebooks/git-folder-serverless"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-16T12:14:11.934054Z"
+}

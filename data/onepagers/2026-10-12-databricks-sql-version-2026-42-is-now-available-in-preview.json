@@ -1,0 +1,24 @@
+{
+  "product": "Databricks SQL version 2026.42 is now available in Preview",
+  "tagline": "Databricks SQL version 2026.42 is now available in the Preview channel.",
+  "updated": "Oct 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202642-is-now-available-in-preview",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202642-is-now-available-in-preview",
+  "what_it_does": "Databricks SQL version 2026.42 is now available in the Preview channel. This version includes the following changes: Operating system security updates. Miscellaneous bug fixes.",
+  "why_it_matters": "This version includes the following changes: Operating system security updates.",
+  "plain_summary": "Databricks SQL version 2026.42 is now available in the Preview channel. This version includes the following changes: Operating system security updates.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks SQL version 2026.42 is now available in the Preview channel.",
+  "note_id": "2026-10-12-databricks-sql-version-2026-42-is-now-available-in-preview",
+  "category": "platform"
+}
