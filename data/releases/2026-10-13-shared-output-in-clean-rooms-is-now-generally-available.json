@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-shared-output-in-clean-rooms-is-now-generally-available",
+  "title": "Shared output in clean rooms is now generally available",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-output-in-clean-rooms-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Clean room runs can now write to a shared output schema that every collaborator can read as soon as each table is created, even before the run finishes. Use it to share results, logs, and debugging information with all collaborators. See [Share output with all collaborators](/aws/en/clean-rooms/output-tables#shared-output).",
+  "ref_links": [
+    {
+      "text": "Share output with all collaborators",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/output-tables#shared-output"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.162010Z"
+}

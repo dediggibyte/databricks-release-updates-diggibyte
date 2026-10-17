@@ -1,0 +1,37 @@
+{
+  "product": "Consumer access to query Unity Gateway services is generally available",
+  "tagline": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared…",
+  "updated": "Oct 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/entitlements",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available",
+  "what_it_does": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. This change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users.",
+  "why_it_matters": "Access entitlements Each access entitlement grants a user access to a specific set of features in the workspace: Consumer access: Grants access to a simplified environment for viewing dashboards, Genie Agents, and Databricks Apps shared with them.",
+  "plain_summary": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. This…",
+  "capabilities": [
+    {
+      "title": "Workspace access",
+      "desc": "Workspace access"
+    },
+    {
+      "title": "Allow unrestricted cluster creation",
+      "desc": "Allow unrestricted cluster creation"
+    },
+    {
+      "title": "Allow pool creation",
+      "desc": "Allow pool creation"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared…",
+  "note_id": "2026-10-15-consumer-access-to-query-unity-gateway-services-is-generally-available",
+  "category": "platform"
+}

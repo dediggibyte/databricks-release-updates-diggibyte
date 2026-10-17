@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-23-genie-agent-formerly-genie-space-enhancements",
+  "title": "Genie Agent (formerly Genie Space) enhancements",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-5",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Code space configuration**: Genie Code now includes tools to configure your Genie Agent (formerly Genie Space). You can ask it to update instructions, example questions, descriptions, and more.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.568425Z"
+}

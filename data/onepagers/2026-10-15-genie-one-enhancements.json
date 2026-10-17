@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Collaborative document editing: People you share a Genie One document with can now edit it if they have CAN EDIT permission.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#recall-past-conversations",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Collaborative document editing: People you share a Genie One document with can now edit it if they have CAN EDIT permission. Group memberships in user info: When Genie One retrieves a user's information, it now also returns the user's group memberships. You can use workspace instructions and table descriptions to tailor how Genie One responds to members of specific groups.",
+  "why_it_matters": "Reuse context from past investigations: When you ask a question similar to one you asked before, Genie One can now use the context from the earlier investigation to answer faster.",
+  "plain_summary": "Collaborative document editing: People you share a Genie One document with can now edit it if they have CAN EDIT permission. Group memberships in user info: When Genie One retrieves a user's information, it now also returns the user's group memberships.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Collaborative document editing: People you share a Genie One document with can now edit it if they have CAN EDIT permission.",
+  "note_id": "2026-10-15-genie-one-enhancements",
+  "category": "platform"
+}

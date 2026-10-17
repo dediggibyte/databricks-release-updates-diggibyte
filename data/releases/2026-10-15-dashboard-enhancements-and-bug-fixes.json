@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-15-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Lakehouse Real-Time warehouse support (Beta)**: AI/BI dashboards now work with Lakehouse Real-Time SQL warehouses. See [Use Lakehouse Real-Time with AI/BI dashboards](/aws/en/compute/sql-warehouse/real-time-dashboards).\n* **Dashboard Insights (Beta)**: Viewers can now have Genie analyze the charts on a published dashboard page and summarize notable findings, such as trends and outliers, as insight cards. See [Dashboard Insights](/aws/en/dashboards/genie-spaces#dashboard-insights).\n* **Import Power BI `.tmdl` files**: Authors can now upload Power BI `.tmdl` files to create metric views with the `/importBI` Genie Code skill. See [Import one file at a time](/aws/en/dashboards/manage/import-bi#upload-a-file).\n* **Pivot table drill-down**: Viewers can now drill down through the row and column hierarchy of a pivot table one level at a time. See [Drill down in pivot tables](/aws/en/dashboards/manage/filters#pivot-drill-down).\n* **Theme fonts for rich text titles**: Rich text widget titles and descriptions now inherit the dashboard theme's font styles. See [Customize colors and fonts](/aws/en/dashboards/manage/settings#custom-font).\n* **Pivot table null header fix**: Pivot tables now show `NULL` values and the text `null` as separate headers instead of merging them into one.\n* **Cross-dataset measure export fix**: Exported cross-dataset measures now use the measure name as the column header.\n* **Decimal precision fix**: Visualizations that Genie generates now respect decimal precision.",
+  "ref_links": [
+    {
+      "text": "Use Lakehouse Real-Time with AI/BI dashboards",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time-dashboards"
+    },
+    {
+      "text": "Dashboard Insights",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#dashboard-insights"
+    },
+    {
+      "text": "Import one file at a time",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi#upload-a-file"
+    },
+    {
+      "text": "Drill down in pivot tables",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#pivot-drill-down"
+    },
+    {
+      "text": "Customize colors and fonts",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.154969Z"
+}

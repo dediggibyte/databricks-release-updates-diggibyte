@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-12-b642cbaf",
+  "title": "Private connectivity from serverless compute to AWS-managed resources is now generally available",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See [Configure private connectivity to AWS-managed resources](/aws/en/security/network/serverless-network-security/pl-aws-resources).",
+  "ref_links": [
+    {
+      "text": "Configure private connectivity to AWS-managed resources",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-aws-resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.166942Z"
+}

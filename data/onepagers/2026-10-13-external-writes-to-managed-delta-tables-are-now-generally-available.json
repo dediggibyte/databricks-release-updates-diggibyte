@@ -1,0 +1,41 @@
+{
+  "product": "External writes to managed Delta tables are now generally available",
+  "tagline": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available.",
+  "updated": "Oct 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/unity-rest",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-writes-to-managed-delta-tables-are-now-generally-available",
+  "what_it_does": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available. Tables must have catalog commits enabled. This page describes how to use the Unity REST API to create, read, and write to Unity Catalog managed and external tables from external Delta clients.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available. Tables must have catalog commits enabled.",
+  "capabilities": [
+    {
+      "title": "SELECT on the table for",
+      "desc": "SELECT on the table for reads"
+    },
+    {
+      "title": "MODIFY on the table for",
+      "desc": "MODIFY on the table for writes"
+    },
+    {
+      "title": "CREATE on the schema for",
+      "desc": "CREATE on the schema for table creation"
+    },
+    {
+      "title": "For external writes to managed",
+      "desc": "For external writes to managed Delta tables, verify that the table being written to has catalog commits enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available.",
+  "note_id": "2026-10-13-external-writes-to-managed-delta-tables-are-now-generally-available",
+  "category": "platform"
+}

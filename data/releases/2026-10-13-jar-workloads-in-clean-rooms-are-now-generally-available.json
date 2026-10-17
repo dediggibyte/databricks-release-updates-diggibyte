@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-jar-workloads-in-clean-rooms-are-now-generally-available",
+  "title": "JAR workloads in clean rooms are now generally available",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#jar-workloads-in-clean-rooms-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run compiled Java or Scala code in clean rooms. Run a JAR as its own clean room analysis, or register a function from a JAR and call it from a clean room notebook as a temporary UDF. See [Run JAR workloads in Databricks clean rooms](/aws/en/clean-rooms/clean-room-jar-task).",
+  "ref_links": [
+    {
+      "text": "Run JAR workloads in Databricks clean rooms",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/clean-room-jar-task"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.162290Z"
+}

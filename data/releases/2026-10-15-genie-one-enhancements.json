@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-15-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Collaborative document editing**: People you share a Genie One document with can now edit it if they have CAN EDIT permission. See [Share a document](/aws/en/genie-one/documents#share).\n* **Group memberships in user info**: When Genie One retrieves a user's information, it now also returns the user's group memberships. You can use workspace instructions and table descriptions to tailor how Genie One responds to members of specific groups.\n* **Reuse context from past investigations**: When you ask a question similar to one you asked before, Genie One can now use the context from the earlier investigation to answer faster. See [Recall past conversations](/aws/en/genie-one/chat#recall-past-conversations).",
+  "ref_links": [
+    {
+      "text": "Share a document",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents#share"
+    },
+    {
+      "text": "Recall past conversations",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#recall-past-conversations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.153623Z"
+}

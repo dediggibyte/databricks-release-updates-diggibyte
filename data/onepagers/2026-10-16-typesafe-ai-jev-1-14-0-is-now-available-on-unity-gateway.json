@@ -1,0 +1,24 @@
+{
+  "product": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway",
+  "tagline": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway.",
+  "updated": "Oct 16, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#typesafe-ai-jev-1-14-0",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#typesafe-ai-jev-1140-is-now-available-on-unity-gateway",
+  "what_it_does": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the Externally hosted TypeSafe AI Models preview. TypeSafe's terms govern its use.",
+  "why_it_matters": "TypeSafe's terms govern its use.",
+  "plain_summary": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the Externally hosted TypeSafe AI Models preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway.",
+  "note_id": "2026-10-16-typesafe-ai-jev-1-14-0-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

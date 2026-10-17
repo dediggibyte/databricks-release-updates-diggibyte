@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Lakehouse Real Time warehouse support (Beta): AI/BI dashboards now work with Lakehouse Real Time SQL warehouses.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Lakehouse Real Time warehouse support (Beta): AI/BI dashboards now work with Lakehouse Real Time SQL warehouses. Dashboard Insights (Beta): Viewers can now have Genie analyze the charts on a published dashboard page and summarize notable findings, such as trends and outliers, as insight cards. Import Power BI .tmdl files: Authors can now upload Power BI .tmdl files to create metric views with the /importBI Genie Code skill.",
+  "why_it_matters": "This page explains how to customize dashboard settings and themes to match your organization's branding, improve readability, and ensure consistent data presentation across different regions and languages.",
+  "plain_summary": "Lakehouse Real Time warehouse support (Beta): AI/BI dashboards now work with Lakehouse Real Time SQL warehouses. Dashboard Insights (Beta): Viewers can now have Genie analyze the charts on a published dashboard page and summarize notable findings, such as…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakehouse Real Time warehouse support (Beta): AI/BI dashboards now work with Lakehouse Real Time SQL warehouses.",
+  "note_id": "2026-10-15-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

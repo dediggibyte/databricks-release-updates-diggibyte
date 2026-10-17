@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agent (formerly Genie Space) enhancements",
+  "tagline": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Agent (formerly Genie Space).",
+  "updated": "Apr 23, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-5",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agent-formerly-genie-space-enhancements-5",
+  "what_it_does": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Agent (formerly Genie Space). You can ask it to update instructions, example questions, descriptions, and more.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Agent (formerly Genie Space). You can ask it to update instructions, example questions, descriptions, and more.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Agent (formerly Genie Space).",
+  "note_id": "2026-04-23-genie-agent-formerly-genie-space-enhancements",
+  "category": "platform"
+}

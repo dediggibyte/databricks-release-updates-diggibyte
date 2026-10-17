@@ -1,0 +1,24 @@
+{
+  "product": "Create clean rooms with identity resolution providers in one step (GA)",
+  "tagline": "You can now create a ready to use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page.",
+  "updated": "Oct 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/clean-rooms/packaged-clean-rooms#identity-resolution",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+  "what_it_does": "You can now create a ready to use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can add your data and run the provider's analysis right away. This page describes packaged clean rooms, a provider consumer collaboration model for Databricks clean rooms.",
+  "why_it_matters": "How packaged clean rooms differ from approval based clean rooms The following table compares the capabilities of each collaborator in a packaged clean room with those in an approval based clean room: ←✕ Security and trust model Because the consumer cannot inspect the provider's notebook or JAR code, the consumer must trust that the provider's code behaves as described, similar to using a private library.",
+  "plain_summary": "You can now create a ready to use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now create a ready to use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page.",
+  "note_id": "2026-10-13-create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+  "category": "platform"
+}

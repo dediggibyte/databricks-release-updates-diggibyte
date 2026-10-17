@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+  "title": "Create clean rooms with identity resolution providers in one step (GA)",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create a ready-to-use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can add your data and run the provider's analysis right away. See [Create a clean room with an identity resolution provider](/aws/en/clean-rooms/packaged-clean-rooms#identity-resolution).",
+  "ref_links": [
+    {
+      "text": "Create a clean room with an identity resolution provider",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/packaged-clean-rooms#identity-resolution"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.162601Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2026-02-05-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-23",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **App thumbnail uploads**: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.680859Z"
+}

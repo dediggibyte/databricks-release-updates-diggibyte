@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Flash (Beta): Agent mode now offers Flash, an option that prioritizes response speed over depth.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/concepts#agent-mode",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "Flash (Beta): Agent mode now offers Flash, an option that prioritizes response speed over depth. Flash is most efficient on simpler, everyday tasks. Agent mode model upgrade: Agent mode now uses upgraded models that better handle long context and respond faster.",
+  "why_it_matters": "Agent mode model upgrade: Agent mode now uses upgraded models that better handle long context and respond faster.",
+  "plain_summary": "Flash (Beta): Agent mode now offers Flash, an option that prioritizes response speed over depth. Flash is most efficient on simpler, everyday tasks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Flash (Beta): Agent mode now offers Flash, an option that prioritizes response speed over depth.",
+  "note_id": "2026-10-15-genie-agents-enhancements",
+  "category": "platform"
+}

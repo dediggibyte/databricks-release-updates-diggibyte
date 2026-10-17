@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-23-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-20",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Databricks Apps search**: You can now search for Databricks Apps from the Genie One search bar.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.568148Z"
+}

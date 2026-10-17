@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+  "title": "Lakebase Search supports Chinese, Japanese, and Korean full-text search",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `lakebase_tokenizer` extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full-text search can't split them into useful search terms. The new `tokenizer_morph` template uses morphological analysis with bundled language dictionaries to segment CJK text into words:\n\n* **Built-in configurations**: installing the extension creates `tokenizer_chinese`, `tokenizer_japanese`, and `tokenizer_korean`. Use them directly with `to_tsvector` without creating a dictionary.\n* **Compound handling**: choose a mode that keeps compound words whole, splits them into finer-grained terms, or emits both, depending on the language.\n* **Language-aware filtering**: drop Japanese particles and function words, convert Japanese terms to their base form, and filter Korean particles and endings, so matches focus on meaningful terms.\n\nLike `tokenizer_wholeword`, it produces standard `tsvector` values that work with GIN (generalized inverted index) indexes and the `lakebase_text` `lakebase_bm25` index for BM25 (best match 25) ranking. CJK support ships in `lakebase_tokenizer` 0.2.0. If you already use the extension, run `ALTER EXTENSION lakebase_tokenizer UPDATE`. Your existing configurations and indexes don't need to change. See [lakebase\\_tokenizer](/aws/en/oltp/projects/lakebase-tokenizer).",
+  "ref_links": [
+    {
+      "text": "lakebase_tokenizer",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.156205Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Multiple files and folders in skills: A Genie One skill can now include multiple files and sub folders, up to three folders deep and 50 files or folders per skill.",
+  "updated": "Sep 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#user-skills",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-4",
+  "what_it_does": "Multiple files and folders in skills: A Genie One skill can now include multiple files and sub folders, up to three folders deep and 50 files or folders per skill. Skills can load text files only. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions.",
+  "why_it_matters": "Low: This level lowers the cost for simpler tasks.",
+  "plain_summary": "Multiple files and folders in skills: A Genie One skill can now include multiple files and sub folders, up to three folders deep and 50 files or folders per skill. Skills can load text files only.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Multiple files and folders in skills: A Genie One skill can now include multiple files and sub folders, up to three folders deep and 50 files or folders per skill.",
+  "note_id": "2026-09-17-genie-one-enhancements",
+  "category": "platform"
+}

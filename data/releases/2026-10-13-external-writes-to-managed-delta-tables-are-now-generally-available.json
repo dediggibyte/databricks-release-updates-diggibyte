@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-external-writes-to-managed-delta-tables-are-now-generally-available",
+  "title": "External writes to managed Delta tables are now generally available",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-writes-to-managed-delta-tables-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available. Tables must have catalog commits enabled. See [Access Databricks tables from Delta clients](/aws/en/external-access/unity-rest).",
+  "ref_links": [
+    {
+      "text": "Access Databricks tables from Delta clients",
+      "url": "https://docs.databricks.com/aws/en/external-access/unity-rest"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.161017Z"
+}

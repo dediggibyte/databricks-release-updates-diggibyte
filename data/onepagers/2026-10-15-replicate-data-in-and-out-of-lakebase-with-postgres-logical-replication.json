@@ -1,0 +1,24 @@
+{
+  "product": "Replicate data in and out of Lakebase with Postgres logical replication",
+  "tagline": "You can now use native Postgres logical replication to stream changes into and out of Lakebase.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/logical-replication",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#replicate-data-in-and-out-of-lakebase-with-postgres-logical-replication",
+  "what_it_does": "You can now use native Postgres logical replication to stream changes into and out of Lakebase. Migrate an existing Postgres database into Lakebase and keep it in sync until you cut over, or publish changes from Lakebase to external Postgres databases. Logical replication is native Postgres replication that streams row level changes between a Lakebase database and another Postgres database.",
+  "why_it_matters": "The subscriber connection is governed by the account network policy's allowed internet destinations, and the publisher connection is governed by the workspace IP access list.",
+  "plain_summary": "You can now use native Postgres logical replication to stream changes into and out of Lakebase. Migrate an existing Postgres database into Lakebase and keep it in sync until you cut over, or publish changes from Lakebase to external Postgres databases.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use native Postgres logical replication to stream changes into and out of Lakebase.",
+  "note_id": "2026-10-15-replicate-data-in-and-out-of-lakebase-with-postgres-logical-replication",
+  "category": "platform"
+}

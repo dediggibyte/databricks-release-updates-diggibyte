@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-mysql-integrated-cdc-pipeline-is-now-generally-available",
+  "title": "MySQL integrated CDC pipeline is now generally available",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See [Create an integrated CDC pipeline for MySQL](/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline).",
+  "ref_links": [
+    {
+      "text": "Create an integrated CDC pipeline for MySQL",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.157674Z"
+}

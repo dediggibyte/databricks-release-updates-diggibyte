@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Search supports Chinese, Japanese, and Korean full-text search",
+  "tagline": "The lakebase tokenizer extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+  "what_it_does": "The lakebase tokenizer extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full text search can't split them into useful search terms. The new tokenizer morph template uses morphological analysis with bundled language dictionaries to segment CJK text into words: Built in configurations: installing the extension creates tokenizer chinese, tokenizer japanese, and tokenizer korean.",
+  "why_it_matters": "Upgrade the extension A new Lakebase Search release can add features, fixes, and performance improvements.",
+  "plain_summary": "The lakebase tokenizer extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full text search can't split them into useful search terms.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The lakebase tokenizer extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text.",
+  "note_id": "2026-10-15-lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+  "category": "platform"
+}

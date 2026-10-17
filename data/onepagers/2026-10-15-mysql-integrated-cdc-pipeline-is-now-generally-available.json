@@ -1,0 +1,41 @@
+{
+  "product": "MySQL integrated CDC pipeline is now generally available",
+  "tagline": "The integrated CDC pipeline for MySQL is now generally available.",
+  "updated": "Oct 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available",
+  "what_it_does": "The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway based architecture, an integrated CDC pipeline requires no separate ingestion gateway.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update.",
+  "capabilities": [
+    {
+      "title": "CREATE CONNECTION on the metastore",
+      "desc": "CREATE CONNECTION on the metastore (if creating a new Unity Catalog connection), or USE CONNECTION on an existing connection."
+    },
+    {
+      "title": "USE CATALOG on the destination",
+      "desc": "USE CATALOG on the destination catalog."
+    },
+    {
+      "title": "USE SCHEMA and CREATE TABLE",
+      "desc": "USE SCHEMA and CREATE TABLE on the destination schema."
+    },
+    {
+      "title": "CREATE VOLUME on the destination",
+      "desc": "CREATE VOLUME on the destination schema, or on the schema specified in datastagingoptions. A staging volume is required even if…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The integrated CDC pipeline for MySQL is now generally available.",
+  "note_id": "2026-10-15-mysql-integrated-cdc-pipeline-is-now-generally-available",
+  "category": "platform"
+}

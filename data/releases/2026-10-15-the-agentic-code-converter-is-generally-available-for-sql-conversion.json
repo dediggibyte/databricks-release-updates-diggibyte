@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-the-agentic-code-converter-is-generally-available-for-sql-conversion",
+  "title": "The agentic code converter is generally available for SQL conversion",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#the-agentic-code-converter-is-generally-available-for-sql-conversion",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The agentic code converter is now generally available for the **SQL** target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and the converter validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.\n\nSee [Convert SQL with the agentic code converter](/aws/en/migration/agentic-code-converter).",
+  "ref_links": [
+    {
+      "text": "Convert SQL with the agentic code converter",
+      "url": "https://docs.databricks.com/aws/en/migration/agentic-code-converter"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.158666Z"
+}

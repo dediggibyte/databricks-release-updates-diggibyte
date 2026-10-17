@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-17-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-4",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Multiple files and folders in skills**: A Genie One skill can now include multiple files and sub-folders, up to three folders deep and 50 files or folders per skill. Skills can load text files only. See [Skills](/aws/en/genie-one/chat#user-skills).",
+  "ref_links": [
+    {
+      "text": "Skills",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#user-skills"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-17T11:31:10.227446Z"
+}

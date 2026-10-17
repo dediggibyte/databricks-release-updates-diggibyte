@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "App thumbnail uploads: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "updated": "Feb 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-23",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-23",
+  "what_it_does": "App thumbnail uploads: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "App thumbnail uploads: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "App thumbnail uploads: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "note_id": "2026-02-05-genie-one-enhancements",
+  "category": "platform"
+}
