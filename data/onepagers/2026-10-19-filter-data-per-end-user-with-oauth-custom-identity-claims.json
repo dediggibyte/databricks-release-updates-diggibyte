@@ -1,0 +1,37 @@
+{
+  "product": "Filter data per end user with OAuth custom identity claims",
+  "tagline": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy.",
+  "updated": "Oct 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-custom-identity-claims",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#filter-data-per-end-user-with-oauth-custom-identity-claims",
+  "what_it_does": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy. Serve many end users through one service principal while each sees only their own data. This page explains how to serve many end users through a single service principal while each user sees only their own data.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy. Serve many end users through one service principal while each sees only their own data.",
+  "capabilities": [
+    {
+      "title": "\"httpPath=/sql/1.0/warehouses/<warehouse-id>;AuthMech=11;AuthFlow=0;\"",
+      "desc": "\"httpPath=/sql/1.0/warehouses/<warehouse-id>;AuthMech=11;AuthFlow=0;\""
+    },
+    {
+      "title": "\"AuthAccessToken=\" + oauthToken + \";\"",
+      "desc": "\"AuthAccessToken=\" + oauthToken + \";\";"
+    },
+    {
+      "title": "rs.getString(\"product\") + \"\\t\" + rs.getString(\"orderdate\"))",
+      "desc": "rs.getString(\"product\") + \"\\t\" + rs.getString(\"orderdate\"));"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy.",
+  "note_id": "2026-10-19-filter-data-per-end-user-with-oauth-custom-identity-claims",
+  "category": "platform"
+}

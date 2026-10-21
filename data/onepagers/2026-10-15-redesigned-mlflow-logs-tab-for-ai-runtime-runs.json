@@ -1,0 +1,24 @@
+{
+  "product": "Redesigned MLflow Logs tab for AI Runtime runs",
+  "tagline": "The MLflow run page Logs tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs.",
+  "updated": "Oct 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/monitor-deploy/tracking-observability#logs-tab",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#redesigned-mlflow-logs-tab-for-ai-runtime-runs",
+  "what_it_does": "The MLflow run page Logs tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs. For new runs, it replaces the log files previously stored on the run's Artifacts tab, which are deprecated. Logs are available for 60 days.",
+  "why_it_matters": "For checkpointing patterns, see Improve training performance and resiliency on AI Runtime.",
+  "plain_summary": "The MLflow run page Logs tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs. For new runs, it replaces the log files previously stored on…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The MLflow run page Logs tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs.",
+  "note_id": "2026-10-15-redesigned-mlflow-logs-tab-for-ai-runtime-runs",
+  "category": "platform"
+}

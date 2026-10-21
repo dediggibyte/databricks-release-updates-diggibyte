@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-lakebase-insights-moves-to-per-project-settings-with-on-demand-runs-beta",
+  "title": "Lakebase Insights moves to per-project settings, with on-demand runs (Beta)",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-insights-moves-to-per-project-settings-with-on-demand-runs-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Insights now diagnoses issues using telemetry from the `system.lakebase` system tables and recommends next steps. The **Lakebase Insights** workspace preview enables automatic telemetry capture. Users with **CAN MANAGE** can configure Insights directly in each project's **Settings**, without creating an observability configuration.\n\nThis preview was previously named **Lakebase Advanced Postgres Telemetry**. Workspaces that used Insights before already have it enabled. To set up Insights:\n\n* If the preview isn't already enabled, ask a workspace admin to enable **Lakebase Insights** from the [Previews page](/aws/en/admin/workspace-settings/manage-previews). Insights needs telemetry in `system.lakebase` to analyze a project, so enabling the Insights preview also enables **Lakebase Observability in System Tables** if it isn't already enabled. Workspace admins can enable the observability preview separately to capture telemetry without Insights.\n* To schedule Insights runs for a project, you need **CAN MANAGE** on that project. Enable Insights and set its analysis frequency in **Settings**.\n* You can run Insights on demand at any time, with or without a schedule.\n\nIf you scheduled Insights through an observability configuration, those jobs have stopped. Their schedules do not carry over. Those configurations no longer write telemetry to their Unity Catalog destinations, so their dashboards retain historical data but receive no new data.\n\nTo continue receiving scheduled insights, enable Insights and set an analysis frequency in each project's **Settings**. Each project runs separately, and each run uses compute and model tokens, so choose which projects to analyze and how often. Insights remains in [Beta](/aws/en/release-notes/release-types). See [Detect issues with Insights](/aws/en/oltp/projects/observability-ai-insights).",
+  "ref_links": [
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Detect issues with Insights",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/observability-ai-insights"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.622201Z"
+}

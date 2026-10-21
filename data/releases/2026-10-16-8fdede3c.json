@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-16-8fdede3c",
+  "title": "File upload in Genie One and Genie Agents will soon be available by default for compliance security profile workspaces with supported compliance standards",
+  "date": "2026-10-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#file-upload-in-genie-one-and-genie-agents-will-soon-be-available-by-default-for-compliance-security-profile-workspaces-with-supported-compliance-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the [compliance security profile](/aws/en/security/privacy/security-profile) enabled, if the workspace's compliance standard supports file upload. You can upload files to a conversation and analyze them in natural language alongside your other data.\n\nWorkspaces with a compliance standard that doesn't support file upload yet can't use it. To check whether your standard supports file upload, open its page from the list of supported [compliance standards](/aws/en/security/privacy/security-profile#compliance-security-profile-overview) and see the feature availability table.\n\nSee [Upload a file](/aws/en/genie-one/chat#upload-a-file) and [Upload a file to a Genie Agent](/aws/en/genie-agents/file-upload).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "compliance standards",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile#compliance-security-profile-overview"
+    },
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/file-upload"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.630330Z"
+}

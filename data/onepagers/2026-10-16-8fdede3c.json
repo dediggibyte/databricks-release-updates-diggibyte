@@ -1,0 +1,24 @@
+{
+  "product": "File upload in Genie One and Genie Agents will soon be available by default…",
+  "tagline": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the compliance security profile enabled, if the workspace's compliance…",
+  "updated": "Oct 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/file-upload",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#file-upload-in-genie-one-and-genie-agents-will-soon-be-available-by-default-for-compliance-security-profile-workspaces-with-supported-compliance-standards",
+  "what_it_does": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the compliance security profile enabled, if the workspace's compliance standard supports file upload. You can upload files to a conversation and analyze them in natural language alongside your other data. Workspaces with a compliance standard that doesn't support file upload yet can't use it.",
+  "why_it_matters": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the compliance security profile enabled, if the workspace's compliance standard supports file upload.",
+  "plain_summary": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the compliance security profile enabled, if the workspace's compliance standard supports file upload. You can upload files to a…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the compliance security profile enabled, if the workspace's compliance…",
+  "note_id": "2026-10-16-8fdede3c",
+  "category": "platform"
+}

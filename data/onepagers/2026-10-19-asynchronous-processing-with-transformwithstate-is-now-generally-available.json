@@ -1,0 +1,33 @@
+{
+  "product": "Asynchronous processing with transformWithState is now generally available",
+  "tagline": "Asynchronous processing for the Python row based transformWithState API is now generally available.",
+  "updated": "Oct 19, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/stateful-applications/async",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#asynchronous-processing-with-transformwithstate-is-now-generally-available",
+  "what_it_does": "Asynchronous processing for the Python row based transformWithState API is now generally available. Run state operations and user logic concurrently for higher throughput with only minor code changes. Asynchronous processing for the Python row based transformWithState API requires Databricks Runtime 19 and above, or serverless compute with environment version 6 and above.",
+  "why_it_matters": "Instead of waiting for each request in sequence, use asyncio to run the requests concurrently and reduce idle time.",
+  "plain_summary": "Asynchronous processing for the Python row based transformWithState API is now generally available. Run state operations and user logic concurrently for higher throughput with only minor code changes.",
+  "capabilities": [
+    {
+      "title": "In an AsyncStatefulProcessor, state operation",
+      "desc": "In an AsyncStatefulProcessor, state operation errors are managed for you and never surfaced to your code."
+    },
+    {
+      "title": "In a synchronous StatefulProcessor, state",
+      "desc": "In a synchronous StatefulProcessor, state operation errors are raised in your code, but suppressing them can compromise data…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Asynchronous processing for the Python row based transformWithState API is now generally available.",
+  "note_id": "2026-10-19-asynchronous-processing-with-transformwithstate-is-now-generally-available",
+  "category": "platform"
+}

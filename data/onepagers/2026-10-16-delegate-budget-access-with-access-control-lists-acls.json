@@ -1,0 +1,24 @@
+{
+  "product": "Delegate budget access with access control lists (ACLs)",
+  "tagline": "Budgets now support access control lists (ACLs).",
+  "updated": "Oct 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/budget-permissions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#delegate-budget-access-with-access-control-lists-acls",
+  "what_it_does": "Budgets now support access control lists (ACLs). Account and workspace admins can grant the Budget Manager or Budget Viewer role to users, groups, or Databricks service principals, delegating who can view and manage a budget. This article explains how to control who can view and manage budgets in your Databricks account.",
+  "why_it_matters": "Access to a budget is governed by an access control list (ACL): each budget has a set of grant rules that assign roles to principals (users, groups, or Databricks service principals).",
+  "plain_summary": "Budgets now support access control lists (ACLs). Account and workspace admins can grant the Budget Manager or Budget Viewer role to users, groups, or Databricks service principals, delegating who can view and manage a budget.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Budgets now support access control lists (ACLs).",
+  "note_id": "2026-10-16-delegate-budget-access-with-access-control-lists-acls",
+  "category": "platform"
+}

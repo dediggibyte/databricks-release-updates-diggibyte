@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-19-databricks-runtime-19-october-19-2026",
+  "title": "Databricks Runtime 19: October 19, 2026",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-19-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\n* Spark Connect DataFrame execution metrics now hide internal operators and metrics associated with row filters and column masks. This protects information about policy execution when inspecting `df.executionInfo.metrics`, including its text representation. The boundary of the protected portion of the plan and its own metrics remain visible. Query results are unchanged. Notebooks or tools that depend on detailed metrics inside protected subplans may need to be updated.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.623868Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Delegate access to Genie budgets",
+  "tagline": "Budgets used to manage Genie costs now support access control lists (ACLs).",
+  "updated": "Oct 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/budgets",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#delegate-access-to-genie-budgets",
+  "what_it_does": "Budgets used to manage Genie costs now support access control lists (ACLs). Account admins and workspace admins can grant the Budget Manager or Budget Viewer role to specific users, groups, or Databricks service principals, delegating who can view and manage each budget. note Beginning July 8, 2026 at 00:00 UTC, Databricks charges for Genie product usage beyond a free monthly allowance.",
+  "why_it_matters": "Budgets used to manage Genie costs now support access control lists (ACLs).",
+  "plain_summary": "Budgets used to manage Genie costs now support access control lists (ACLs). Account admins and workspace admins can grant the Budget Manager or Budget Viewer role to specific users, groups, or Databricks service principals, delegating who can view and manage…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Budgets used to manage Genie costs now support access control lists (ACLs).",
+  "note_id": "2026-10-16-delegate-access-to-genie-budgets",
+  "category": "platform"
+}

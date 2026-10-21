@@ -1,0 +1,24 @@
+{
+  "product": "Data Classification API is now generally available",
+  "tagline": "The Data Classification API and its Terraform resource are now generally available.",
+  "updated": "Oct 14, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/api/workspace/dataclassification",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-api-is-now-generally-available",
+  "what_it_does": "The Data Classification API and its Terraform resource are now generally available. Auto tagging configuration (auto tag configs) remains in Public Preview. View as MarkdownCopy as Markdown Data Classification configuration for a Unity Catalog catalog.",
+  "why_it_matters": "For built in classes this is a system tag (e.g., \"class.name\", \"class.location\"); for custom classes it is a user defined governance tag key.",
+  "plain_summary": "The Data Classification API and its Terraform resource are now generally available. Auto tagging configuration (auto tag configs) remains in Public Preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Data Classification API and its Terraform resource are now generally available.",
+  "note_id": "2026-10-14-data-classification-api-is-now-generally-available",
+  "category": "platform"
+}

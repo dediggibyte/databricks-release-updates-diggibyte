@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-14-transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+  "title": "Transactions support both managed Delta Lake and Apache Iceberg tables",
+  "date": "2026-10-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables. Group multiple SQL statements across one or more managed Delta Lake or managed Apache Iceberg tables into a single atomic transaction using `BEGIN ATOMIC ... END;` or `BEGIN TRANSACTION; ... COMMIT;` syntax. Transactions require [catalog commits](/aws/en/tables/features/catalog-commits) enabled on participating tables.\n\nSee [Transactions](/aws/en/transactions).",
+  "ref_links": [
+    {
+      "text": "catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    },
+    {
+      "text": "Transactions",
+      "url": "https://docs.databricks.com/aws/en/transactions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.646999Z"
+}

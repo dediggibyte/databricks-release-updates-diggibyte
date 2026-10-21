@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-14-data-classification-api-is-now-generally-available",
+  "title": "Data Classification API is now generally available",
+  "date": "2026-10-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-api-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Data Classification API and its Terraform resource are now generally available. Auto-tagging configuration (`auto_tag_configs`) remains in [Public Preview](/aws/en/release-notes/release-types). See the [API reference](https://docs.databricks.com/api/workspace/dataclassification).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "API reference",
+      "url": "https://docs.databricks.com/api/workspace/dataclassification"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.646170Z"
+}

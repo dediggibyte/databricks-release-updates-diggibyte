@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-19-asynchronous-processing-with-transformwithstate-is-now-generally-available",
+  "title": "Asynchronous processing with transformWithState is now generally available",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#asynchronous-processing-with-transformwithstate-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Asynchronous processing for the Python row-based `transformWithState` API is now generally available. Run state operations and user logic concurrently for higher throughput with only minor code changes. See [Asynchronous processing with `transformWithState`](/aws/en/stateful-applications/async).",
+  "ref_links": [
+    {
+      "text": "Asynchronous processing with transformWithState",
+      "url": "https://docs.databricks.com/aws/en/stateful-applications/async"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.627718Z"
+}

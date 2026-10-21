@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-19-filter-data-per-end-user-with-oauth-custom-identity-claims",
+  "title": "Filter data per end user with OAuth custom identity claims",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#filter-data-per-end-user-with-oauth-custom-identity-claims",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy. Serve many end users through one service principal while each sees only their own data.\n\nSee [Filter data per end user with OAuth custom identity claims](/aws/en/dev-tools/auth/oauth-custom-identity-claims).",
+  "ref_links": [
+    {
+      "text": "Filter data per end user with OAuth custom identity claims",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-custom-identity-claims"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.625448Z"
+}

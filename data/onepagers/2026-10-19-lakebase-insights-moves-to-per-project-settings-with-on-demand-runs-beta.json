@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Insights moves to per-project settings, with on-demand runs (Beta)",
+  "tagline": "Lakebase Insights now diagnoses issues using telemetry from the system.lakebase system tables and recommends next steps.",
+  "updated": "Oct 19, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/observability-ai-insights",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-insights-moves-to-per-project-settings-with-on-demand-runs-beta",
+  "what_it_does": "Lakebase Insights now diagnoses issues using telemetry from the system.lakebase system tables and recommends next steps. The Lakebase Insights workspace preview enables automatic telemetry capture. Users with CAN MANAGE can configure Insights directly in each project's Settings, without creating an observability configuration.",
+  "why_it_matters": "Other costs are bundled into products you already use.",
+  "plain_summary": "Lakebase Insights now diagnoses issues using telemetry from the system.lakebase system tables and recommends next steps. The Lakebase Insights workspace preview enables automatic telemetry capture.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase Insights now diagnoses issues using telemetry from the system.lakebase system tables and recommends next steps.",
+  "note_id": "2026-10-19-lakebase-insights-moves-to-per-project-settings-with-on-demand-runs-beta",
+  "category": "platform"
+}

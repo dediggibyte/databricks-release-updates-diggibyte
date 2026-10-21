@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-19-deepseek-v4-1-flash-is-scheduled-for-retirement",
+  "title": "DeepSeek V4.1 Flash is scheduled for retirement",
+  "date": "2026-10-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-is-scheduled-for-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "DeepSeek V4.1 Flash will be retired on November 19, 2026. DeepSeek V4.1 Flash (1017) is the recommended replacement. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.626197Z"
+}

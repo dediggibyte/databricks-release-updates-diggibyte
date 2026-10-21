@@ -1,0 +1,41 @@
+{
+  "product": "Transactions support both managed Delta Lake and Apache Iceberg tables",
+  "tagline": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables.",
+  "updated": "Oct 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/transactions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+  "what_it_does": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables. Group multiple SQL statements across one or more managed Delta Lake or managed Apache Iceberg tables into a single atomic transaction using BEGIN ATOMIC ... END; or BEGIN TRANSACTION; ...",
+  "why_it_matters": "This allows for a clean audit trail and simplifies rollback operations.",
+  "plain_summary": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables. Group multiple SQL statements across one or more managed Delta Lake or managed Apache Iceberg tables into a single atomic…",
+  "capabilities": [
+    {
+      "title": "Be Unity Catalog managed tables",
+      "desc": "Be Unity Catalog managed tables (Delta Lake or Iceberg)"
+    },
+    {
+      "title": "Have Catalog commits enabled",
+      "desc": "Have Catalog commits enabled"
+    },
+    {
+      "title": "For non-interactive transactions, use any",
+      "desc": "For non-interactive transactions, use any SQL warehouse, serverless compute, or cluster running Databricks Runtime 18.0 and above."
+    },
+    {
+      "title": "For interactive transactions, use any",
+      "desc": "For interactive transactions, use any SQL warehouse."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables.",
+  "note_id": "2026-10-14-transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+  "category": "platform"
+}

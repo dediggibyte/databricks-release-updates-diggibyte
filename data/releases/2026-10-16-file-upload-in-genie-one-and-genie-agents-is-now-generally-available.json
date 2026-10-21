@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-16-file-upload-in-genie-one-and-genie-agents-is-now-generally-available",
+  "title": "File upload in Genie One and Genie Agents is now generally available",
+  "date": "2026-10-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-and-genie-agents-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "File upload in Genie One and Genie Agents is now generally available, so workspace admins no longer need to turn on a preview. Upload files to a conversation and analyze them in natural language alongside your other data. For supported file types and limits, see [Upload a file](/aws/en/genie-one/chat#upload-a-file) and [Upload a file to a Genie Agent](/aws/en/genie-agents/file-upload).\n\nFile upload in Genie One isn't supported for users who have only [consumer access](/aws/en/ai-bi/consumers).",
+  "ref_links": [
+    {
+      "text": "Upload a file",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/file-upload"
+    },
+    {
+      "text": "consumer access",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/consumers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-21T12:50:38.629224Z"
+}
