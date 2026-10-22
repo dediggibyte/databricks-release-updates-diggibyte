@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-21-screen-mcp-tool-calls-and-results-for-jailbreaks-beta",
+  "title": "Screen MCP tool calls and results for jailbreaks (Beta)",
+  "date": "2026-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#screen-mcp-tool-calls-and-results-for-jailbreaks-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts. Apply the **Jailbreak** guardrail on input, output, or both. See [Attach a built-in policy](/aws/en/data-governance/unity-catalog/service-policies/create-service-policy#use-a-built-in-policy).",
+  "ref_links": [
+    {
+      "text": "Attach a built-in policy",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/create-service-policy#use-a-built-in-policy"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-22T12:53:39.145777Z"
+}

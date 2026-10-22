@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-cribl-connector-is-available-in-beta",
+  "title": "Cribl connector is available in Beta",
+  "date": "2026-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cribl-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Cribl connector](/aws/en/ingestion/lakeflow-connect/cribl) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest Cribl.Cloud Worker Group configuration, worker and health status, organization metadata, and Leader audit and access logs into Databricks. The connector uses OAuth machine-to-machine authentication and supports incremental ingestion for audit and access logs.",
+  "ref_links": [
+    {
+      "text": "Cribl connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/cribl"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-22T12:53:39.175471Z"
+}

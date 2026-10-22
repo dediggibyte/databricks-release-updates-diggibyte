@@ -1,0 +1,33 @@
+{
+  "product": "Screen MCP tool calls and results for jailbreaks (Beta)",
+  "tagline": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts.",
+  "updated": "Oct 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/create-service-policy#use-a-built-in-policy",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#screen-mcp-tool-calls-and-results-for-jailbreaks-beta",
+  "what_it_does": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts. Apply the Jailbreak guardrail on input, output, or both. Beta This feature is in Beta.",
+  "why_it_matters": "For an overview of service policies, see Service policies for AI securables.",
+  "plain_summary": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts. Apply the Jailbreak guardrail on input, output, or both.",
+  "capabilities": [
+    {
+      "title": "In a workspace that doesn't",
+      "desc": "In a workspace that doesn't use the compliance security profile, the account-level Enhanced Unity Gateway preview also turns on…"
+    },
+    {
+      "title": "If the preview isn't listed",
+      "desc": "If the preview isn't listed on the Previews page, contact your Databricks account team. To attach any policy to a service…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts.",
+  "note_id": "2026-10-21-screen-mcp-tool-calls-and-results-for-jailbreaks-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Azure DevOps connector is available in Beta",
+  "tagline": "The managed Azure DevOps connector is now available in Beta in Databricks Lakeflow Connect.",
+  "updated": "Oct 8, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/azure-devops",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#azure-devops-connector-is-available-in-beta",
+  "what_it_does": "The managed Azure DevOps connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest project, repository, work item, build, release, and identity data from Azure DevOps into Databricks. The connector authenticates with a Microsoft Entra service principal and supports incremental ingestion of commits.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Azure DevOps connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest project, repository, work item, build, release, and identity data from Azure DevOps into Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Azure DevOps connector is now available in Beta in Databricks Lakeflow Connect.",
+  "note_id": "2026-10-08-azure-devops-connector-is-available-in-beta",
+  "category": "platform"
+}
