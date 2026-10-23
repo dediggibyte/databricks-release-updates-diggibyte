@@ -1,0 +1,24 @@
+{
+  "product": "Microsoft Entra ID connector is available in Beta",
+  "tagline": "The managed Microsoft Entra ID connector is now available in Beta in Databricks Lakeflow Connect.",
+  "updated": "Oct 22, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/microsoft-entra-id",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#microsoft-entra-id-connector-is-available-in-beta",
+  "what_it_does": "The managed Microsoft Entra ID connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest Microsoft Entra ID users, groups, applications, service principals, directory roles, identity configuration, and audit and sign in logs into Databricks. The connector uses OAuth machine to machine authentication and supports incremental ingestion for audit and sign in logs.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Microsoft Entra ID connector is now available in Beta in Databricks Lakeflow Connect. Use the connector to ingest Microsoft Entra ID users, groups, applications, service principals, directory roles, identity configuration, and audit and sign in…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Microsoft Entra ID connector is now available in Beta in Databricks Lakeflow Connect.",
+  "note_id": "2026-10-22-microsoft-entra-id-connector-is-available-in-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Data Classification adds 50 new classes and support for 16 more countries and…",
+  "tagline": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions: Payment card and financial data: Card security codes, card expiration…",
+  "updated": "Oct 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-adds-50-new-classes-and-support-for-16-more-countries-and-regions",
+  "what_it_does": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions: Payment card and financial data: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores. Personal and employee data: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status. Software security secrets: Credentials and secrets used by software.",
+  "why_it_matters": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions: Payment card and financial data: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.",
+  "plain_summary": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions: Payment card and financial data: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions: Payment card and financial data: Card security codes, card expiration…",
+  "note_id": "2026-10-15-d11c2840",
+  "category": "platform"
+}

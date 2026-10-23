@@ -1,0 +1,33 @@
+{
+  "product": "Lakeflow pipelines system tables are now generally available (GA)",
+  "tagline": "The lakeflow system tables pipelines and pipeline update timeline are now generally available.",
+  "updated": "Oct 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-pipelines-system-tables-are-now-generally-available-ga",
+  "what_it_does": "The lakeflow system tables pipelines and pipeline update timeline are now generally available. These tables record the pipelines and pipeline updates in your account. For a reference of these tables, see Jobs system table reference.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The lakeflow system tables pipelines and pipeline update timeline are now generally available. These tables record the pipelines and pipeline updates in your account.",
+  "capabilities": [
+    {
+      "title": "Be both a metastore admin",
+      "desc": "Be both a metastore admin and an account admin, or"
+    },
+    {
+      "title": "Have USE and SELECT permissions",
+      "desc": "Have USE and SELECT permissions on the system schemas. See Grant access to system tables."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The lakeflow system tables pipelines and pipeline update timeline are now generally available.",
+  "note_id": "2026-10-21-lakeflow-pipelines-system-tables-are-now-generally-available-ga",
+  "category": "platform"
+}

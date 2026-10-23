@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-21-lakeflow-pipelines-system-tables-are-now-generally-available-ga",
+  "title": "Lakeflow pipelines system tables are now generally available (GA)",
+  "date": "2026-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-pipelines-system-tables-are-now-generally-available-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `lakeflow` system tables `pipelines` and `pipeline_update_timeline` are now generally available. These tables record the pipelines and pipeline updates in your account.\n\nFor a reference of these tables, see [Jobs system table reference](/aws/en/admin/system-tables/jobs).",
+  "ref_links": [
+    {
+      "text": "Jobs system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-23T12:32:02.847400Z"
+}

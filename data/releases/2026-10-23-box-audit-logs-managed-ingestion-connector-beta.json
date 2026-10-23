@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-23-box-audit-logs-managed-ingestion-connector-beta",
+  "title": "Box Audit Logs managed ingestion connector (Beta)",
+  "date": "2026-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#box-audit-logs-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Box Audit Logs connector in Lakeflow Connect is now available in Beta. Use the connector to ingest enterprise audit events from Box into Databricks. See [Box Audit Logs connector](/aws/en/ingestion/lakeflow-connect/box-audit-logs).",
+  "ref_links": [
+    {
+      "text": "Box Audit Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/box-audit-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-23T12:32:02.844854Z"
+}

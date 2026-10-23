@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-15-d11c2840",
+  "title": "Data Classification adds 50 new classes and support for 16 more countries and regions",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-adds-50-new-classes-and-support-for-16-more-countries-and-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions:\n\n* **Payment card and financial data**: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.\n* **Personal and employee data**: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status.\n* **Software security secrets**: Credentials and secrets used by software.\n* **Regional identifiers**: Added 35 new classes and expanded coverage in existing classes across 18 countries and regions, including China, Mexico, the UK, other European countries, and more. See [the documentation](/aws/en/data-governance/unity-catalog/data-classification-tags#regional-tags) for details.\n\nRegional tags are available in select regions. See [Supported classification tags](/aws/en/data-governance/unity-catalog/data-classification-tags).",
+  "ref_links": [
+    {
+      "text": "the documentation",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags#regional-tags"
+    },
+    {
+      "text": "Supported classification tags",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-23T12:32:02.861818Z"
+}

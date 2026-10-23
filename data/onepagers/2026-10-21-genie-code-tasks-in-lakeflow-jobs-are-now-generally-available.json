@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code tasks in Lakeflow Jobs are now generally available",
+  "tagline": "Genie Code tasks in Lakeflow Jobs are now generally available.",
+  "updated": "Oct 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-tasks-in-lakeflow-jobs-are-now-generally-available",
+  "what_it_does": "Genie Code tasks in Lakeflow Jobs are now generally available. A Genie Code task runs your prompt autonomously as part of a job. It can read upstream task outputs and call tools as needed, and it returns a link to the resulting Genie Code chat with its response.",
+  "why_it_matters": "Generate a weekly compliance audit.",
+  "plain_summary": "Genie Code tasks in Lakeflow Jobs are now generally available. A Genie Code task runs your prompt autonomously as part of a job.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code tasks in Lakeflow Jobs are now generally available.",
+  "note_id": "2026-10-21-genie-code-tasks-in-lakeflow-jobs-are-now-generally-available",
+  "category": "platform"
+}

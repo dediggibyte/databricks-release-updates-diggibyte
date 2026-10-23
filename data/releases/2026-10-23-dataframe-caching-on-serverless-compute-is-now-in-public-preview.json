@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-23-dataframe-caching-on-serverless-compute-is-now-in-public-preview",
+  "title": "DataFrame caching on serverless compute is now in Public Preview",
+  "date": "2026-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#dataframe-caching-on-serverless-compute-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "DataFrame caching on serverless compute is now in [Public Preview](/aws/en/release-notes/release-types). You can cache a DataFrame with `df.cache()` or `df.persist()` on serverless compute to reuse an expensive result for the rest of your session. Caching requires serverless environment version 5 or above, Databricks Connect for Python 18.1.8 or above, or Databricks Connect for Scala 18.1.5 or above. The preview is enabled by default for most workspaces. Workspace admins can disable it from the **Previews** page. See [Cache DataFrames on serverless compute](/aws/en/compute/serverless/dataframe-cache).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Cache DataFrames on serverless compute",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/dataframe-cache"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-23T12:32:02.843657Z"
+}

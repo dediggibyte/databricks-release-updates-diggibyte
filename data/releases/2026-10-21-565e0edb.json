@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-21-565e0edb",
+  "title": "Genie Code tasks in Lakeflow Jobs are available by default for workspaces with the compliance security profile enabled starting in November 2026",
+  "date": "2026-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-code-tasks-in-lakeflow-jobs-are-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled-starting-in-november-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in November 2026, Genie Code tasks in Lakeflow Jobs are available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nA Genie Code task runs your prompt autonomously as part of a job. It can read upstream task outputs and call tools as needed, and it returns a link to the resulting Genie Code chat with its response.\n\nSee [Genie Code task for jobs](/aws/en/jobs/tasks/genie-code).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Genie Code task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-23T12:32:02.845999Z"
+}

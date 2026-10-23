@@ -1,0 +1,41 @@
+{
+  "product": "DataFrame caching on serverless compute is now in Public Preview",
+  "tagline": "DataFrame caching on serverless compute is now in Public Preview.",
+  "updated": "Oct 23, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/dataframe-cache",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#dataframe-caching-on-serverless-compute-is-now-in-public-preview",
+  "what_it_does": "DataFrame caching on serverless compute is now in Public Preview. You can cache a DataFrame with df.cache() or df.persist() on serverless compute to reuse an expensive result for the rest of your session. Caching requires serverless environment version 5 or above, Databricks Connect for Python 18.1.8 or above, or Databricks Connect for Scala 18.1.5 or above.",
+  "why_it_matters": "The preview isn't available in workspaces with the compliance security profile enabled.",
+  "plain_summary": "DataFrame caching on serverless compute is now in Public Preview. You can cache a DataFrame with df.cache() or df.persist() on serverless compute to reuse an expensive result for the rest of your session.",
+  "capabilities": [
+    {
+      "title": "Runs the DataFrame's query right",
+      "desc": "Runs the DataFrame's query right away and materializes the result as a snapshot before the call returns."
+    },
+    {
+      "title": "After the call, df and",
+      "desc": "After the call, df and the returned DataFrame (df itself) are based on the snapshot. They are no longer connected to the…"
+    },
+    {
+      "title": "DataFrames derived from df, directly",
+      "desc": "DataFrames derived from df, directly or through other derived DataFrames, read the snapshot automatically instead of running the…"
+    },
+    {
+      "title": "The snapshot is local to",
+      "desc": "The snapshot is local to your session. Only the session that cached df can read it. See Isolation and privileges."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "DataFrame caching on serverless compute is now in Public Preview.",
+  "note_id": "2026-10-23-dataframe-caching-on-serverless-compute-is-now-in-public-preview",
+  "category": "platform"
+}
