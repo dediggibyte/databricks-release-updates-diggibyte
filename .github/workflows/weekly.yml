@@ -46,7 +46,7 @@ concurrency:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       # Check out the branch TIP, not the sha pinned at dispatch time — a run
       # queued behind another run must see the data that run committed, or the
@@ -129,7 +129,7 @@ jobs:
 
   deploy-pages:
     needs: generate
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

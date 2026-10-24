@@ -39,7 +39,7 @@ permissions:
 
 jobs:
   email:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     # Never react to failed pipeline runs; the guards below decide the rest.
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
