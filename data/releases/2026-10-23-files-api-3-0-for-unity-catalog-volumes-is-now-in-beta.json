@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-23-files-api-3-0-for-unity-catalog-volumes-is-now-in-beta",
+  "title": "Files API 3.0 for Unity Catalog volumes is now in Beta",
+  "date": "2026-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#files-api-30-for-unity-catalog-volumes-is-now-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Files API 3.0 is in [Beta](/aws/en/release-notes/release-types) and introduces two new capabilities:\n\n* **Multipart uploads:** Upload files larger than 5 GB to Unity Catalog volumes.\n* **Conditional operations:** Upload, download, and delete files based on their current version to prevent unintended changes.\n\nFor more information, see [What is Files API?](/aws/en/volumes/files-api).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "What is Files API?",
+      "url": "https://docs.databricks.com/aws/en/volumes/files-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-24T11:56:08.806253Z"
+}

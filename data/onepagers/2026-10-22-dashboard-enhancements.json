@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements",
+  "tagline": "Private bookmarks: Dashboard viewers can now save filter combinations as private bookmarks to return to later.",
+  "updated": "Oct 22, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#waterfall",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "what_it_does": "Private bookmarks: Dashboard viewers can now save filter combinations as private bookmarks to return to later. Private bookmarks are visible only to the user who creates them. Bulk import from Power BI and Tableau: Genie Code can now import up to 100 Power BI or Tableau files at a time as AI/BI dashboards and metric views.",
+  "why_it_matters": "Sankey label improvements: Labels on Sankey diagrams now overlap less.",
+  "plain_summary": "Private bookmarks: Dashboard viewers can now save filter combinations as private bookmarks to return to later. Private bookmarks are visible only to the user who creates them.",
+  "capabilities": [
+    {
+      "title": "Field: oorderdate",
+      "desc": "Field: oorderdate"
+    },
+    {
+      "title": "Transform: Yearly",
+      "desc": "Transform: Yearly"
+    },
+    {
+      "title": "Scale Type: Continuous",
+      "desc": "Scale Type: Continuous"
+    },
+    {
+      "title": "Display name: Order year",
+      "desc": "Display name: Order year"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Private bookmarks: Dashboard viewers can now save filter combinations as private bookmarks to return to later.",
+  "note_id": "2026-10-22-dashboard-enhancements",
+  "category": "platform"
+}

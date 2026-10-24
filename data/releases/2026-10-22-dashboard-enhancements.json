@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-22-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-10-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Private bookmarks**: Dashboard viewers can now save filter combinations as private bookmarks to return to later. Private bookmarks are visible only to the user who creates them. See [Save a private bookmark](/aws/en/dashboards/manage#private-bookmarks).\n* **Bulk import from Power BI and Tableau**: Genie Code can now import up to 100 Power BI or Tableau files at a time as AI/BI dashboards and metric views. See [Import multiple files in bulk](/aws/en/dashboards/manage/import-bi#bulk-import).\n* **Field picker tooltips**: Hovering over a field or measure name in the field picker now shows its full name in a tooltip.\n* **Layered combo charts**: Authors can now build combo charts from separate chart layers. See [Combo chart](/aws/en/dashboards/manage/visualizations/types#combo).\n* **Custom waterfall totals**: Authors can now customize totals on waterfall charts. See [Waterfall chart](/aws/en/dashboards/manage/visualizations/types#waterfall).\n* **Sankey label improvements**: Labels on Sankey diagrams now overlap less.",
+  "ref_links": [
+    {
+      "text": "Save a private bookmark",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#private-bookmarks"
+    },
+    {
+      "text": "Import multiple files in bulk",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi#bulk-import"
+    },
+    {
+      "text": "Combo chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#combo"
+    },
+    {
+      "text": "Waterfall chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#waterfall"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-24T11:56:08.810943Z"
+}

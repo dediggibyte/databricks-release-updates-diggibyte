@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-22-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-10-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Conversation outline**: Use the conversation outline along the left edge of Genie One conversations to jump between your messages. Hover over a tick in the outline to preview a message and the start of its response. See [Navigate a long conversation](/aws/en/genie-one/chat#navigate-conversation).\n* **Upload skills (Public Preview)**: You can now click **Upload skills** to upload your existing skill files and folders to your skills folder in the workspace. See [Upload a skill](/aws/en/genie-one/chat#upload-skills).\n* **Snippets from external tool queries (Public Preview)**: Genie Ontology now also extracts snippets from queries that [external tools](/aws/en/integrations), such as dbt, run on Databricks. These runs appear in [query history](/aws/en/sql/user/queries/query-history) alongside queries that you run in Databricks. See [Genie Ontology](/aws/en/genie/genie-ontology).\n* **Remembered sign-in email in the Genie mobile app (Public Preview)**: The Genie mobile app now remembers the email address of the last user who signed in and prefills it at the next sign-in. See [Use Genie on mobile](/aws/en/genie-one/mobile).",
+  "ref_links": [
+    {
+      "text": "Navigate a long conversation",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#navigate-conversation"
+    },
+    {
+      "text": "Upload a skill",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#upload-skills"
+    },
+    {
+      "text": "external tools",
+      "url": "https://docs.databricks.com/aws/en/integrations"
+    },
+    {
+      "text": "query history",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-history"
+    },
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology"
+    },
+    {
+      "text": "Use Genie on mobile",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-24T11:56:08.808871Z"
+}

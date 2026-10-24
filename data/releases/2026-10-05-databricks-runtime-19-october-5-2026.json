@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-05-databricks-runtime-19-october-5-2026",
+  "title": "Databricks Runtime 19: October 5, 2026",
+  "date": "2026-10-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-5-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### New features and improvements\n\n* **Kinesis polling in real-time mode is generally available on classic compute**: In Databricks Runtime 19 and above, Amazon Kinesis polling with real-time mode is generally available for Structured Streaming on classic compute. See [Set up real-time mode](/aws/en/structured-streaming/real-time/setup), [Connect to Amazon Kinesis](/aws/en/connect/streaming/kinesis), and the [Kinesis source to Kafka sink example](/aws/en/structured-streaming/real-time/examples#kinesis-source-to-kafka-sink).",
+  "ref_links": [
+    {
+      "text": "Set up real-time mode",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/real-time/setup"
+    },
+    {
+      "text": "Connect to Amazon Kinesis",
+      "url": "https://docs.databricks.com/aws/en/connect/streaming/kinesis"
+    },
+    {
+      "text": "Kinesis source to Kafka sink example",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/real-time/examples#kinesis-source-to-kafka-sink"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-24T11:56:08.902532Z"
+}

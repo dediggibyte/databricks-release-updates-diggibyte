@@ -1,0 +1,33 @@
+{
+  "product": "Serverless job environments from pyproject.toml (Beta)",
+  "tagline": "Serverless notebook and Python script tasks can use a pyproject.toml file to configure their job environment.",
+  "updated": "Oct 22, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/dependencies#project-environment",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-job-environments-from-pyprojecttoml-beta",
+  "what_it_does": "Serverless notebook and Python script tasks can use a pyproject.toml file to configure their job environment. Configure the project environment in the Jobs UI, the Jobs API, or a bundle. Workspace admins can enable Project Scoped Shared Compute on the Previews page.",
+  "why_it_matters": "When a job runs, any task that shares the same set of dependencies as a completed task in the same run finishes faster, because the cache already contains the required dependencies.",
+  "plain_summary": "Serverless notebook and Python script tasks can use a pyproject.toml file to configure their job environment. Configure the project environment in the Jobs UI, the Jobs API, or a bundle.",
+  "capabilities": [
+    {
+      "title": "Previous versions of Standard, ML",
+      "desc": "Previous versions of Standard, ML, and AI environments."
+    },
+    {
+      "title": "Custom: Specify a custom environment",
+      "desc": "Custom: Specify a custom environment using a YAML file. Workspace environments: Lists all compatible base environments…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Serverless notebook and Python script tasks can use a pyproject.toml file to configure their job environment.",
+  "note_id": "2026-10-22-serverless-job-environments-from-pyproject-toml-beta",
+  "category": "platform"
+}

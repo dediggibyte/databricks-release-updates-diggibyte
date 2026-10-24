@@ -1,0 +1,24 @@
+{
+  "product": "Files API 3.0 for Unity Catalog volumes is now in Beta",
+  "tagline": "Files API 3.0 is in Beta and introduces two new capabilities: Multipart uploads: Upload files larger than 5 GB to Unity Catalog volumes.",
+  "updated": "Oct 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/volumes/files-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#files-api-30-for-unity-catalog-volumes-is-now-in-beta",
+  "what_it_does": "Files API 3.0 is in Beta and introduces two new capabilities: Multipart uploads: Upload files larger than 5 GB to Unity Catalog volumes. Conditional operations: Upload, download, and delete files based on their current version to prevent unintended changes. The Files API is a standard HTTP API that allows you to read, write, list, and delete files and directories by referring to their URI.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Files API 3.0 is in Beta and introduces two new capabilities: Multipart uploads: Upload files larger than 5 GB to Unity Catalog volumes. Conditional operations: Upload, download, and delete files based on their current version to prevent unintended changes.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Files API 3.0 is in Beta and introduces two new capabilities: Multipart uploads: Upload files larger than 5 GB to Unity Catalog volumes.",
+  "note_id": "2026-10-23-files-api-3-0-for-unity-catalog-volumes-is-now-in-beta",
+  "category": "platform"
+}

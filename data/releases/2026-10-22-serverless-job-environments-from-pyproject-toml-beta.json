@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-22-serverless-job-environments-from-pyproject-toml-beta",
+  "title": "Serverless job environments from pyproject.toml (Beta)",
+  "date": "2026-10-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-job-environments-from-pyprojecttoml-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless notebook and Python script tasks can use a `pyproject.toml` file to configure their job environment. Configure the project environment in the Jobs UI, the Jobs API, or a bundle. Workspace admins can enable **Project-Scoped Shared Compute** on the [**Previews** page](/aws/en/admin/workspace-settings/manage-previews). See [Configure a project environment with `pyproject.toml`](/aws/en/compute/serverless/dependencies#project-environment).",
+  "ref_links": [
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Configure a project environment with pyproject.toml",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/dependencies#project-environment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-24T11:56:08.812106Z"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Databricks Runtime 19: October 5, 2026",
+  "tagline": "New features and improvements Kinesis polling in real time mode is generally available on classic compute: In Databricks Runtime 19 and above, Amazon Kinesis polling with real time mode is generally…",
+  "updated": "Oct 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/real-time/examples#kinesis-source-to-kafka-sink",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-5-2026",
+  "what_it_does": "New features and improvements Kinesis polling in real time mode is generally available on classic compute: In Databricks Runtime 19 and above, Amazon Kinesis polling with real time mode is generally available for Structured Streaming on classic compute. This page provides working code examples for real time mode queries in Structured Streaming, from simple stateless transformations to complex stateful processing with custom state management. Prerequisites To run the examples on this page, you need: A real time mode cluster configured and running.",
+  "why_it_matters": "New features and improvements Kinesis polling in real time mode is generally available on classic compute: In Databricks Runtime 19 and above, Amazon Kinesis polling with real time mode is generally available for Structured Streaming on classic compute.",
+  "plain_summary": "New features and improvements Kinesis polling in real time mode is generally available on classic compute: In Databricks Runtime 19 and above, Amazon Kinesis polling with real time mode is generally available for Structured Streaming on classic compute.",
+  "capabilities": [
+    {
+      "title": "For Kafka examples: A Kafka",
+      "desc": "For Kafka examples: A Kafka broker with input/output topics configured"
+    },
+    {
+      "title": "For Kinesis examples: A Unity",
+      "desc": "For Kinesis examples: A Unity Catalog connection of type KINESIS and a stream configured for polling mode or Enhanced Fan-Out…"
+    },
+    {
+      "title": "For Lakebase examples: A Lakebase",
+      "desc": "For Lakebase examples: A Lakebase database. See Requirements for requirements."
+    },
+    {
+      "title": "For custom sink examples: Target",
+      "desc": "For custom sink examples: Target database or service configured (PostgreSQL for the example provided)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New features and improvements Kinesis polling in real time mode is generally available on classic compute: In Databricks Runtime 19 and above, Amazon Kinesis polling with real time mode is generally…",
+  "note_id": "2026-10-05-databricks-runtime-19-october-5-2026",
+  "category": "platform"
+}

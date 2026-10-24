@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Conversation outline: Use the conversation outline along the left edge of Genie One conversations to jump between your messages.",
+  "updated": "Oct 22, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Conversation outline: Use the conversation outline along the left edge of Genie One conversations to jump between your messages. Hover over a tick in the outline to preview a message and the start of its response. Upload skills (Public Preview): You can now click Upload skills to upload your existing skill files and folders to your skills folder in the workspace.",
+  "why_it_matters": "For IT and security teams, see Administer the Genie mobile app for configuration guidance, network security requirements, authentication setup, and Mobile Device Management (MDM) deployment.",
+  "plain_summary": "Conversation outline: Use the conversation outline along the left edge of Genie One conversations to jump between your messages. Hover over a tick in the outline to preview a message and the start of its response.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Conversation outline: Use the conversation outline along the left edge of Genie One conversations to jump between your messages.",
+  "note_id": "2026-10-22-genie-one-enhancements",
+  "category": "platform"
+}
