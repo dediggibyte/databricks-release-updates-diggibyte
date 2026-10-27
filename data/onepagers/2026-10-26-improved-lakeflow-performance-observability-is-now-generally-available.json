@@ -1,0 +1,24 @@
+{
+  "product": "Improved Lakeflow Performance Observability is now generally available",
+  "tagline": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks.",
+  "updated": "Oct 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/diagnose-job-performance#query-performance-metrics",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#improved-lakeflow-performance-observability-is-now-generally-available",
+  "what_it_does": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job level data volume metrics and use the Optimize button to open Genie Code to help improve queries with performance insights. When a job or task takes longer than expected, use the Jobs UI to understand where time is spent and what you can do to reduce it.",
+  "why_it_matters": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks.",
+  "plain_summary": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job level data volume metrics and use the Optimize button to open Genie Code to help improve queries with performance insights.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks.",
+  "note_id": "2026-10-26-improved-lakeflow-performance-observability-is-now-generally-available",
+  "category": "platform"
+}

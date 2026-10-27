@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-26-improved-lakeflow-performance-observability-is-now-generally-available",
+  "title": "Improved Lakeflow Performance Observability is now generally available",
+  "date": "2026-10-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#improved-lakeflow-performance-observability-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job-level data volume metrics and use the **Optimize** button to open Genie Code to help improve queries with performance insights. See [View query performance metrics for serverless jobs](/aws/en/jobs/diagnose-job-performance#query-performance-metrics).",
+  "ref_links": [
+    {
+      "text": "View query performance metrics for serverless jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/diagnose-job-performance#query-performance-metrics"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.553670Z"
+}

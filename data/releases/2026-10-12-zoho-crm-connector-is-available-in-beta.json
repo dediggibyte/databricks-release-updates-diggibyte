@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-12-zoho-crm-connector-is-available-in-beta",
+  "title": "Zoho CRM connector is available in Beta",
+  "date": "2026-10-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#zoho-crm-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Zoho CRM connector](/aws/en/ingestion/lakeflow-connect/zoho-crm) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest CRM records such as leads, contacts, accounts, and deals, plus activities, line items, settings data, and custom modules, from Zoho CRM into Databricks. The connector uses OAuth client credentials and supports incremental ingestion.",
+  "ref_links": [
+    {
+      "text": "Zoho CRM connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zoho-crm"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.625509Z"
+}

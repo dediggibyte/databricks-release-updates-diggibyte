@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-24-paypal-connector-is-available-in-beta",
+  "title": "PayPal connector is available in Beta",
+  "date": "2026-10-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#paypal-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [PayPal connector](/aws/en/ingestion/lakeflow-connect/paypal) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest payments data such as transactions, disputes, invoices, balances, catalog products, and billing plans from PayPal into Databricks. The connector uses OAuth client credentials and supports incremental ingestion.",
+  "ref_links": [
+    {
+      "text": "PayPal connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/paypal"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.554426Z"
+}

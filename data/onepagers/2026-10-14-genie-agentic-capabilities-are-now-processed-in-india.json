@@ -1,0 +1,24 @@
+{
+  "product": "Genie agentic capabilities are now processed in India",
+  "tagline": "Genie Code agentic capabilities, Genie Agents Agent mode, and chat in Genie One now process data within India for workspaces in India regions, without cross Geo processing.",
+  "updated": "Oct 14, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/resources/designated-services",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-agentic-capabilities-are-now-processed-in-india",
+  "what_it_does": "Genie Code agentic capabilities, Genie Agents Agent mode, and chat in Genie One now process data within India for workspaces in India regions, without cross Geo processing. For where each AI assistive feature processes data, see Databricks Designated Services. This article describes Databricks Designated Services, which are features in Databricks that use Databricks Geos to manage data residency when processing customer content.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Genie Code agentic capabilities, Genie Agents Agent mode, and chat in Genie One now process data within India for workspaces in India regions, without cross Geo processing. For where each AI assistive feature processes data, see Databricks Designated Services.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code agentic capabilities, Genie Agents Agent mode, and chat in Genie One now process data within India for workspaces in India regions, without cross Geo processing.",
+  "note_id": "2026-10-14-genie-agentic-capabilities-are-now-processed-in-india",
+  "category": "platform"
+}

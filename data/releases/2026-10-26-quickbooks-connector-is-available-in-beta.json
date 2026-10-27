@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-26-quickbooks-connector-is-available-in-beta",
+  "title": "QuickBooks connector is available in Beta",
+  "date": "2026-10-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#quickbooks-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [QuickBooks connector](/aws/en/ingestion/lakeflow-connect/quickbooks) is now available in [Beta](/aws/en/release-notes/release-types) in Databricks Lakeflow Connect.\n\nUse the connector to ingest accounting data such as accounts, customers, vendors, items, invoices, bills, payments, and journal entries from QuickBooks Online into Databricks. The connector uses OAuth user authorization and supports incremental ingestion with delete capture.",
+  "ref_links": [
+    {
+      "text": "QuickBooks connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/quickbooks"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.552904Z"
+}

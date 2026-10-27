@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-26-e576f8a2",
+  "title": "Improved Lakeflow Performance Observability will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-10-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#improved-lakeflow-performance-observability-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting on or after November 25, 2026, Improved Lakeflow Performance Observability will be available by default for eligible workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nLakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job-level data volume metrics and use the **Optimize** button to open Genie Code to help improve queries with performance insights. Query profiling is supported for serverless compute, SQL Warehouses and Lakeflow Pipelines.\n\nSee [View query performance metrics for serverless jobs](/aws/en/jobs/diagnose-job-performance#query-performance-metrics).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "View query performance metrics for serverless jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/diagnose-job-performance#query-performance-metrics"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.551837Z"
+}

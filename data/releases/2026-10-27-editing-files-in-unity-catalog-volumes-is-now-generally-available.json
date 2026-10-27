@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-27-editing-files-in-unity-catalog-volumes-is-now-generally-available",
+  "title": "Editing files in Unity Catalog volumes is now generally available",
+  "date": "2026-10-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#editing-files-in-unity-catalog-volumes-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now edit files in Unity Catalog volumes directly in the workspace file editor, without downloading and uploading them again. Open a file from Catalog Explorer or from the schema browser in a notebook or the SQL editor. See [Edit files in a volume](/aws/en/volumes/volume-files#edit-files).",
+  "ref_links": [
+    {
+      "text": "Edit files in a volume",
+      "url": "https://docs.databricks.com/aws/en/volumes/volume-files#edit-files"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.549523Z"
+}

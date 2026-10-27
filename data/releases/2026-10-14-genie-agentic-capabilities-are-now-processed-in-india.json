@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-14-genie-agentic-capabilities-are-now-processed-in-india",
+  "title": "Genie agentic capabilities are now processed in India",
+  "date": "2026-10-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-agentic-capabilities-are-now-processed-in-india",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code agentic capabilities, [Genie Agents](/aws/en/genie-agents) Agent mode, and chat in [Genie One](/aws/en/genie-one/chat) now process data within India for workspaces in India regions, without [cross-Geo processing](/aws/en/resources/databricks-geos#cross-geo-processing). For where each AI assistive feature processes data, see [Databricks Designated Services](/aws/en/resources/designated-services).",
+  "ref_links": [
+    {
+      "text": "Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie-agents"
+    },
+    {
+      "text": "Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat"
+    },
+    {
+      "text": "cross-Geo processing",
+      "url": "https://docs.databricks.com/aws/en/resources/databricks-geos#cross-geo-processing"
+    },
+    {
+      "text": "Databricks Designated Services",
+      "url": "https://docs.databricks.com/aws/en/resources/designated-services"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-27T13:06:16.609556Z"
+}
