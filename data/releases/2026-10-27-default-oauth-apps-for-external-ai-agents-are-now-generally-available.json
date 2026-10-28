@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-27-default-oauth-apps-for-external-ai-agents-are-now-generally-available",
+  "title": "Default OAuth apps for external AI agents are now generally available",
+  "date": "2026-10-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#default-oauth-apps-for-external-ai-agents-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "ChatGPT, Codex, Claude, Claude Code, and Cursor can now connect to Databricks MCP servers, including the Genie One MCP server, using default OAuth client IDs. An account admin doesn't need to create an OAuth app. See [Default OAuth client IDs](/aws/en/partner-connect/ai-agents#default-oauth-apps).",
+  "ref_links": [
+    {
+      "text": "Default OAuth client IDs",
+      "url": "https://docs.databricks.com/aws/en/partner-connect/ai-agents#default-oauth-apps"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-28T13:56:05.978475Z"
+}

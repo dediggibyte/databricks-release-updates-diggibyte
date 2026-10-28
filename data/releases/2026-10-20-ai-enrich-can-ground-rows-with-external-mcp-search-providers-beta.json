@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-20-ai-enrich-can-ground-rows-with-external-mcp-search-providers-beta",
+  "title": "ai_enrich can ground rows with external MCP search providers (Beta)",
+  "date": "2026-10-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai_enrich-can-ground-rows-with-external-mcp-search-providers-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_enrich` function can ground each row with a search tool on an external Model Context Protocol (MCP) server that you register in Unity Gateway, such as You.com or Exa. Add an `mcp` knowledge source alone or alongside other knowledge sources in the same call. This feature is in [Beta](/aws/en/release-notes/release-types). Workspace admins can enable the **Ai Enrich** preview from the [Previews](/aws/en/admin/workspace-settings/manage-previews) page.\n\nSee [MCP configuration](/aws/en/sql/language-manual/functions/ai_enrich#mcp-config).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "MCP configuration",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_enrich#mcp-config"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-28T13:56:05.996304Z"
+}

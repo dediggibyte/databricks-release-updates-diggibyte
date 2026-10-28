@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-26-account-level-security-features-are-now-available-by-default-at-ga",
+  "title": "Account-level security features are now available by default at GA",
+  "date": "2026-10-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#account-level-security-features-are-now-available-by-default-at-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Going forward, account-level security features will be available to all accounts immediately upon [General Availability (GA)](/aws/en/release-notes/release-types), without requiring account admins to manually enable them on the [Previews page](/aws/en/admin/workspace-settings/manage-previews#account). Account admins must still configure these features before they take effect.\n\nThis includes features for network connectivity (such as private connectivity), network security (such as ingress and egress controls), encryption, and enhanced security and compliance.\n\n**Why are we making this change?**\n\nThis change makes it easier for platform teams to discover and adopt security best practices as soon as new security capabilities become generally available. Making these features available does not automatically change an account's security configuration or enforce new controls. Account admins retain full control over whether and how to adopt them.",
+  "ref_links": [
+    {
+      "text": "General Availability (GA)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews#account"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-28T13:56:05.981902Z"
+}

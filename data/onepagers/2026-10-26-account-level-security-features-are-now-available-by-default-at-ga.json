@@ -1,0 +1,24 @@
+{
+  "product": "Account-level security features are now available by default at GA",
+  "tagline": "Going forward, account level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews…",
+  "updated": "Oct 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews#account",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#account-level-security-features-are-now-available-by-default-at-ga",
+  "what_it_does": "Going forward, account level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews page. Account admins must still configure these features before they take effect. This includes features for network connectivity (such as private connectivity), network security (such as ingress and egress controls), encryption, and enhanced security and compliance.",
+  "why_it_matters": "Going forward, account level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews page.",
+  "plain_summary": "Going forward, account level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews page. Account admins must still configure these features…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Going forward, account level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews…",
+  "note_id": "2026-10-26-account-level-security-features-are-now-available-by-default-at-ga",
+  "category": "platform"
+}

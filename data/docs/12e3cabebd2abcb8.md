@@ -1,0 +1,34 @@
+This page tells you how to manage Databricks previews in your account or workspace.
+
+## Databricks previews overview
+
+Previews provide early access to Databricks features before they are released for General Availability (GA). They let organizations explore new capabilities, give feedback, and prepare for upcoming changes.
+
+Previews can be enabled at two different scopes:
+
+* Account-level previews apply to all workspaces in your account. Account admins manage these settings in the account console.
+* Workspace-level previews apply only to a specific workspace. Workspace admins manage these settings in the workspace admin settings page.
+
+Previews have different availability and default states depending on their release type. For a description of each release type, including who can use it, whether it's production-ready, and its default state, see [Platform releases](/aws/en/release-notes/release-types#platform-releases).
+
+important
+
+**Important information about Private Preview and Beta features**
+
+* A product in either of these preview phases is not intended for use in production and is provided *AS-IS* consistent with your agreement with Databricks.
+* Non-public information about the preview is confidential.
+* We may change or discontinue the preview at any time without notice. We may also choose not to make the preview generally commercially available.
+* These preview phases are not included in the SLA and do not have formal support. If you have questions or feedback, reach out to your Databricks contact.
+* During Private Preview, Databricks may collect and use data relating to this feature, such as inputs and outputs, to develop and test the feature.
+
+## Manage account-level previews
+
+1. As an account admin, log in to the [account console](https://accounts.cloud.databricks.com).
+2. In the sidebar, click **Previews**.
+3. Use toggles  to enable or disable previews.
+
+## Manage workspace-level previews
+
+1. As a workspace admin, click your username in the top bar of the Databricks workspace.
+2. From the menu, select **Previews**.
+3. Use toggles  to enable or disable previews.

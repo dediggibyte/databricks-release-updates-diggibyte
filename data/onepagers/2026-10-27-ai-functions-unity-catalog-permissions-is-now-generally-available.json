@@ -1,0 +1,24 @@
+{
+  "product": "AI Functions Unity Catalog permissions is now generally available",
+  "tagline": "AI Functions Unity Catalog permissions is now generally available.",
+  "updated": "Oct 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions-uc-permissions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai-functions-unity-catalog-permissions-is-now-generally-available",
+  "what_it_does": "AI Functions Unity Catalog permissions is now generally available. Metastore admins can use Unity Catalog permissions on the system.ai schema to control which task specific AI Functions users in your organization can run. Contact your Databricks account team to enable this feature.",
+  "why_it_matters": "For example, if you need to govern access based on compliance or data handling requirements.",
+  "plain_summary": "AI Functions Unity Catalog permissions is now generally available. Metastore admins can use Unity Catalog permissions on the system.ai schema to control which task specific AI Functions users in your organization can run.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "AI Functions Unity Catalog permissions is now generally available.",
+  "note_id": "2026-10-27-ai-functions-unity-catalog-permissions-is-now-generally-available",
+  "category": "platform"
+}

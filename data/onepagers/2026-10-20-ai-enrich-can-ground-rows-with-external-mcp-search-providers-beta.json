@@ -1,0 +1,41 @@
+{
+  "product": "ai_enrich can ground rows with external MCP search providers (Beta)",
+  "tagline": "The ai enrich function can ground each row with a search tool on an external Model Context Protocol (MCP) server that you register in Unity Gateway, such as You.com or Exa.",
+  "updated": "Oct 20, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_enrich#mcp-config",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai_enrich-can-ground-rows-with-external-mcp-search-providers-beta",
+  "what_it_does": "The ai enrich function can ground each row with a search tool on an external Model Context Protocol (MCP) server that you register in Unity Gateway, such as You.com or Exa. Add an mcp knowledge source alone or alongside other knowledge sources in the same call. This feature is in Beta.",
+  "why_it_matters": "Use ai enrich to add derived attributes to a table at scale.",
+  "plain_summary": "The ai enrich function can ground each row with a search tool on an external Model Context Protocol (MCP) server that you register in Unity Gateway, such as You.com or Exa. Add an mcp knowledge source alone or alongside other knowledge sources in the same…",
+  "capabilities": [
+    {
+      "title": "Simple schema: A JSON array",
+      "desc": "Simple schema: A JSON array of field names, which are generated as strings."
+    },
+    {
+      "title": "Advanced schema: A JSON object",
+      "desc": "Advanced schema: A JSON object with type information, descriptions, and nested structures."
+    },
+    {
+      "title": "Supports string, integer, number, boolean",
+      "desc": "Supports string, integer, number, boolean, and enum types. Performs type validation. Maximum of 500 enum values."
+    },
+    {
+      "title": "Supports nested objects using \"type\"",
+      "desc": "Supports nested objects using \"type\": \"object\" with \"properties\"."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The ai enrich function can ground each row with a search tool on an external Model Context Protocol (MCP) server that you register in Unity Gateway, such as You.com or Exa.",
+  "note_id": "2026-10-20-ai-enrich-can-ground-rows-with-external-mcp-search-providers-beta",
+  "category": "platform"
+}
