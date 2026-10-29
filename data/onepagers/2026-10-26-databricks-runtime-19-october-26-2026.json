@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: October 26, 2026",
+  "tagline": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "updated": "Oct 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-26-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-26-2026",
+  "what_it_does": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "why_it_matters": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "plain_summary": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "note_id": "2026-10-26-databricks-runtime-19-october-26-2026",
+  "category": "platform"
+}

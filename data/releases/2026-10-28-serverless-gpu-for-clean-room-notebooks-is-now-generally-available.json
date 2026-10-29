@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-serverless-gpu-for-clean-room-notebooks-is-now-generally-available",
+  "title": "Serverless GPU for clean room notebooks is now generally available",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-gpu-for-clean-room-notebooks-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run clean room notebooks on serverless GPU compute for model inference and training over shared data. GPU notebooks run on AI Runtime and use the same approval flow, data access, and output tables as other clean room notebooks. See [Run a notebook on serverless GPU](/aws/en/clean-rooms/clean-room-notebook#gpu).",
+  "ref_links": [
+    {
+      "text": "Run a notebook on serverless GPU",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/clean-room-notebook#gpu"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-29T14:03:22.258107Z"
+}

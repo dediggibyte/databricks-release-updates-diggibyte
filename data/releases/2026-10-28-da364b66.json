@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-28-da364b66",
+  "title": "Serverless GPU in clean rooms will soon be on by default for accounts where it's turned off",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#serverless-gpu-in-clean-rooms-will-soon-be-on-by-default-for-accounts-where-its-turned-off",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise pricing tier.\n\nUntil then, an account admin can turn on **Clean Rooms AI Runtime** from the **Previews** page in the account console. See  [Manage account-level previews](/aws/en/admin/workspace-settings/manage-previews#account).\n\nSee [Run a notebook on serverless GPU](/aws/en/clean-rooms/clean-room-notebook#gpu).",
+  "ref_links": [
+    {
+      "text": "Manage account-level previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews#account"
+    },
+    {
+      "text": "Run a notebook on serverless GPU",
+      "url": "https://docs.databricks.com/aws/en/clean-rooms/clean-room-notebook#gpu"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-29T14:03:22.256779Z"
+}

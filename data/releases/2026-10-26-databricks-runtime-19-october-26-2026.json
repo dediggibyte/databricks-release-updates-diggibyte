@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-26-databricks-runtime-19-october-26-2026",
+  "title": "Databricks Runtime 19: October 26, 2026",
+  "date": "2026-10-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-october-26-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Bug fixes\n\n* Operating system security updates and miscellaneous fixes.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-10-29T14:03:22.263871Z"
+}

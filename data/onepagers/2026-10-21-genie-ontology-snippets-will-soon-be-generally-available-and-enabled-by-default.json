@@ -1,0 +1,24 @@
+{
+  "product": "Genie Ontology snippets will soon be generally available and enabled by default",
+  "tagline": "In early November 2026, Genie Ontology snippets will be generally available and enabled by default.",
+  "updated": "Oct 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/genie-ontology",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-ontology-snippets-will-soon-be-generally-available-and-enabled-by-default",
+  "what_it_does": "In early November 2026, Genie Ontology snippets will be generally available and enabled by default. Genie Ontology automatically extracts and maintains business context from your existing assets and usage, including metric views, dashboards, SQL queries, and Genie Agents. Genie One and Genie Code search the most relevant snippets from assets you have permission to access, improving response accuracy and speed.",
+  "why_it_matters": "Genie One and Genie Code search the most relevant snippets from assets you have permission to access, improving response accuracy and speed.",
+  "plain_summary": "In early November 2026, Genie Ontology snippets will be generally available and enabled by default. Genie Ontology automatically extracts and maintains business context from your existing assets and usage, including metric views, dashboards, SQL queries, and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In early November 2026, Genie Ontology snippets will be generally available and enabled by default.",
+  "note_id": "2026-10-21-genie-ontology-snippets-will-soon-be-generally-available-and-enabled-by-default",
+  "category": "platform"
+}

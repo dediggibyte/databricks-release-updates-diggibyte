@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-genie-migrate-is-generally-available-for-sql-conversion",
+  "title": "Genie Migrate is generally available for SQL conversion",
+  "date": "2026-10-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-migrate-is-generally-available-for-sql-conversion",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Migrate, formerly the agentic code converter, is now generally available for the **SQL** target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and Genie Migrate validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.\n\nSee [Convert SQL with Genie Migrate](/aws/en/migration/agentic-code-converter).",
+  "ref_links": [
+    {
+      "text": "Convert SQL with Genie Migrate",
+      "url": "https://docs.databricks.com/aws/en/migration/agentic-code-converter"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-29T14:03:22.302707Z"
+}

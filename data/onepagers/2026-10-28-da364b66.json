@@ -1,0 +1,33 @@
+{
+  "product": "Serverless GPU in clean rooms will soon be on by default for accounts where…",
+  "tagline": "Starting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise pricing tier.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/clean-rooms/clean-room-notebook#gpu",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#serverless-gpu-in-clean-rooms-will-soon-be-on-by-default-for-accounts-where-its-turned-off",
+  "what_it_does": "Starting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise pricing tier. Until then, an account admin can turn on Clean Rooms AI Runtime from the Previews page in the account console. This page describes how to run notebooks in clean rooms.",
+  "why_it_matters": "Cross Geo processing can incur egress costs and affect data residency.",
+  "plain_summary": "Starting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise pricing tier. Until then, an account admin can turn on Clean Rooms AI Runtime from the Previews page in the account console.",
+  "capabilities": [
+    {
+      "title": "AWS: ca-central-1, eu-west-1, sa-east-1, us-east-1",
+      "desc": "AWS: ca-central-1, eu-west-1, sa-east-1, us-east-1, us-east-2, or us-west-2."
+    },
+    {
+      "title": "Azure: eastus or westus. The",
+      "desc": "Azure: eastus or westus. The notebook must use a Standard base environment version 4 or above, or an AI base environment. When…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise pricing tier.",
+  "note_id": "2026-10-28-da364b66",
+  "category": "platform"
+}

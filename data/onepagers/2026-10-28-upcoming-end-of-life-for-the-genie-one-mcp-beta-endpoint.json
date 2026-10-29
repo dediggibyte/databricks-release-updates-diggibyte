@@ -1,0 +1,24 @@
+{
+  "product": "Upcoming end of life for the Genie One MCP Beta endpoint",
+  "tagline": "The Genie One MCP Beta endpoint, https://<workspace hostname /api/2.0/mcp/genie, reaches end of life on November 30, 2026.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp#access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-end-of-life-for-the-genie-one-mcp-beta-endpoint",
+  "what_it_does": "The Genie One MCP Beta endpoint, https://<workspace hostname /api/2.0/mcp/genie, reaches end of life on November 30, 2026. After that date, requests to the Beta endpoint fail. The end of life date was previously October 31, 2026.",
+  "why_it_matters": "Genie resolves business terms, metric definitions, and table relationships through Genie Ontology, your governed semantic layer, which produces more accurate answers than an agent writing SQL directly against raw tables.",
+  "plain_summary": "The Genie One MCP Beta endpoint, https://<workspace hostname /api/2.0/mcp/genie, reaches end of life on November 30, 2026. After that date, requests to the Beta endpoint fail.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One MCP Beta endpoint, https://<workspace hostname /api/2.0/mcp/genie, reaches end of life on November 30, 2026.",
+  "note_id": "2026-10-28-upcoming-end-of-life-for-the-genie-one-mcp-beta-endpoint",
+  "category": "platform"
+}

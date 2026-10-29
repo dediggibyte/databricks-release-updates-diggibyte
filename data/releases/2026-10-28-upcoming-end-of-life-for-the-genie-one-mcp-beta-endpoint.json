@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-upcoming-end-of-life-for-the-genie-one-mcp-beta-endpoint",
+  "title": "Upcoming end of life for the Genie One MCP Beta endpoint",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-end-of-life-for-the-genie-one-mcp-beta-endpoint",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One MCP Beta endpoint, `https://<workspace-hostname>/api/2.0/mcp/genie`, reaches end of life on November 30, 2026. After that date, requests to the Beta endpoint fail. The end-of-life date was previously October 31, 2026.\n\nMove all workloads to the generally available `system.ai.genie_one_mcp` MCP in Unity Gateway. See [Access through Unity Gateway](/aws/en/agents/mcp-tools/genie-mcp#access).",
+  "ref_links": [
+    {
+      "text": "Access through Unity Gateway",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp#access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-29T14:03:22.257619Z"
+}

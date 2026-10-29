@@ -1,0 +1,24 @@
+{
+  "product": "Unity Gateway Usage Dashboard v1.0",
+  "tagline": "The Unity Gateway Usage Dashboard v1.0 is now available.",
+  "updated": "Oct 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/usage-tracking#built-in-usage-dashboard",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-usage-dashboard-v10",
+  "what_it_does": "The Unity Gateway Usage Dashboard v1.0 is now available. Explore coding agent adoption, harness usage, and estimated session spend. The dashboard offers expanded model and user spend analysis and tag based spend attribution.",
+  "why_it_matters": "Usage records include requester and service details, response status, model token usage and latency, MCP call metadata, and coding agent session metadata.",
+  "plain_summary": "The Unity Gateway Usage Dashboard v1.0 is now available. Explore coding agent adoption, harness usage, and estimated session spend.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Unity Gateway Usage Dashboard v1.0 is now available.",
+  "note_id": "2026-10-27-unity-gateway-usage-dashboard-v1-0",
+  "category": "platform"
+}
