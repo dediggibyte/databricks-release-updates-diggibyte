@@ -1,0 +1,24 @@
+{
+  "product": "Xero connector is available in Beta",
+  "tagline": "The managed Xero connector is now available in Beta in Databricks Lakeflow Connect.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/xero",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#xero-connector-is-available-in-beta",
+  "what_it_does": "The managed Xero connector is now available in Beta in Databricks Lakeflow Connect. Workspace admins can enable it from the Previews page. Use the connector to ingest accounting data such as invoices, payments, and contacts from Xero into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Xero connector is now available in Beta in Databricks Lakeflow Connect. Workspace admins can enable it from the Previews page.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The managed Xero connector is now available in Beta in Databricks Lakeflow Connect.",
+  "note_id": "2026-10-29-xero-connector-is-available-in-beta",
+  "category": "platform"
+}

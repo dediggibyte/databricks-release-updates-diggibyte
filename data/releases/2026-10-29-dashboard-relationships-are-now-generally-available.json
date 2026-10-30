@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29-dashboard-relationships-are-now-generally-available",
+  "title": "Dashboard relationships are now generally available",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-relationships-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Dashboard relationships, which let you build complex multi-fact data models scoped to an AI/BI dashboard, are now generally available. See [Dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships) and [Create dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships).",
+  "ref_links": [
+    {
+      "text": "Dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships"
+    },
+    {
+      "text": "Create dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.949531Z"
+}

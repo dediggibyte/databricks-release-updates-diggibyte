@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-22-shared-serverless-beta",
+  "title": "Shared Serverless (Beta)",
+  "date": "2026-10-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-serverless-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "With Shared Serverless, notebooks and files in the same bundle can share serverless compute and an environment defined in the bundle-root `pyproject.toml` file. Workspace admins can enable **Project-Scoped Shared Compute** on the [**Previews** page](/aws/en/admin/workspace-settings/manage-previews). See [Use Shared Serverless in bundles](/aws/en/compute/serverless/notebooks/shared-serverless#asset-bundles-serverless).",
+  "ref_links": [
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Use Shared Serverless in bundles",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/notebooks/shared-serverless#asset-bundles-serverless"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.966999Z"
+}

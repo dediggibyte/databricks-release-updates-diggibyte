@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Guided agent creation**: A guided experience now walks you through creating an effective Genie Agent. See [Set up an agent with Genie Code](/aws/en/genie-agents/set-up#build-with-genie-code).\n* **Faster file retrieval (Beta)**: Genie Agents now retrieve files faster when answering questions. See [How content search works](/aws/en/genie-agents/volumes#content-search).\n* **Content search details hidden from viewers (Beta)**: The context panel no longer shows technical content search details, such as the number of files indexed, to users with CAN VIEW or CAN RUN permission on a Genie Agent. See [How content search works](/aws/en/genie-agents/volumes#content-search).\n* **Volume file links in embedded agents**: Links to volume files in an embedded Genie Agent now open the file instead of redirecting users to the workspace. See [Embed a Genie Agent in an external app](/aws/en/genie-agents/embed).",
+  "ref_links": [
+    {
+      "text": "Set up an agent with Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/set-up#build-with-genie-code"
+    },
+    {
+      "text": "How content search works",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#content-search"
+    },
+    {
+      "text": "Embed a Genie Agent in an external app",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/embed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.949064Z"
+}

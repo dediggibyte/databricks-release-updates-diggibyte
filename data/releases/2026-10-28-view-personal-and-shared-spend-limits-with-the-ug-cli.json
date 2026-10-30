@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-view-personal-and-shared-spend-limits-with-the-ug-cli",
+  "title": "View personal and shared spend limits with the ug CLI",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#view-personal-and-shared-spend-limits-with-the-ug-cli",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ug usage` now shows up to five personal and shared spend limits, starting with the highest percentage used. Run `ug usage --all` to see all applicable limits. See [Check your usage](/aws/en/ai-gateway/coding-agent-ug-cli#check-your-usage).",
+  "ref_links": [
+    {
+      "text": "Check your usage",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-ug-cli#check-your-usage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.952629Z"
+}

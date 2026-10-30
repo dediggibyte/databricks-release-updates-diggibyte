@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-30-microsoft-graph-logs-connector-is-available-in-beta",
+  "title": "Microsoft Graph Logs connector is available in Beta",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#microsoft-graph-logs-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Microsoft Graph Logs connector](/aws/en/ingestion/lakeflow-connect/microsoft-graph-logs) is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest security alerts from Microsoft Defender XDR, Microsoft Sentinel, and other Microsoft security products into Databricks. The connector uses OAuth machine-to-machine authentication with a Microsoft Entra ID application and supports incremental ingestion.",
+  "ref_links": [
+    {
+      "text": "Microsoft Graph Logs connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/microsoft-graph-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.947982Z"
+}

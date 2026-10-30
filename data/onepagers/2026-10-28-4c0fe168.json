@@ -1,0 +1,24 @@
+{
+  "product": "Multiple real-time flows per serverless pipeline and source stage adaptive…",
+  "tagline": "On serverless pipelines that use the preview channel, you can run multiple real time mode flows in one pipeline without the flows competing for task slots.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/real-time#serverless-pipelines-on-the-preview-channel",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#multiple-real-time-flows-per-serverless-pipeline-and-source-stage-adaptive-repartitioning-are-in-beta",
+  "what_it_does": "On serverless pipelines that use the preview channel, you can run multiple real time mode flows in one pipeline without the flows competing for task slots. Source stage adaptive repartitioning automatically adjusts the number of tasks that read from each Kafka or Kinesis source to match its traffic, so you don't need to set maxPartitions or shardsPerTask. Both capabilities are in Beta.",
+  "why_it_matters": "Real time mode enables ultra low latency data processing, with end to end latency as low as five milliseconds.",
+  "plain_summary": "On serverless pipelines that use the preview channel, you can run multiple real time mode flows in one pipeline without the flows competing for task slots. Source stage adaptive repartitioning automatically adjusts the number of tasks that read from each…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "On serverless pipelines that use the preview channel, you can run multiple real time mode flows in one pipeline without the flows competing for task slots.",
+  "note_id": "2026-10-28-4c0fe168",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard relationships are now generally available",
+  "tagline": "Dashboard relationships, which let you build complex multi fact data models scoped to an AI/BI dashboard, are now generally available.",
+  "updated": "Oct 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships/create-relationships",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-relationships-are-now-generally-available",
+  "what_it_does": "Dashboard relationships, which let you build complex multi fact data models scoped to an AI/BI dashboard, are now generally available. Preview This feature is in Public Preview. Define relationships and cross dataset measures in an AI/BI dashboard to model joins once and use them across all visualizations, instead of pre joining data in SQL or duplicating join logic across datasets.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Dashboard relationships, which let you build complex multi fact data models scoped to an AI/BI dashboard, are now generally available.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Dashboard relationships, which let you build complex multi fact data models scoped to an AI/BI dashboard, are now generally available.",
+  "note_id": "2026-10-29-dashboard-relationships-are-now-generally-available",
+  "category": "platform"
+}

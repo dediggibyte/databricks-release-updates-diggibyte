@@ -1,0 +1,24 @@
+{
+  "product": "Genie Agents enhancements and bug fixes",
+  "tagline": "Guided agent creation: A guided experience now walks you through creating an effective Genie Agent.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/embed",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "Guided agent creation: A guided experience now walks you through creating an effective Genie Agent. Faster file retrieval (Beta): Genie Agents now retrieve files faster when answering questions. Content search details hidden from viewers (Beta): The context panel no longer shows technical content search details, such as the number of files indexed, to users with CAN VIEW or CAN RUN permission on a Genie Agent.",
+  "why_it_matters": "Faster file retrieval (Beta): Genie Agents now retrieve files faster when answering questions.",
+  "plain_summary": "Guided agent creation: A guided experience now walks you through creating an effective Genie Agent. Faster file retrieval (Beta): Genie Agents now retrieve files faster when answering questions.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Guided agent creation: A guided experience now walks you through creating an effective Genie Agent.",
+  "note_id": "2026-10-29-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}

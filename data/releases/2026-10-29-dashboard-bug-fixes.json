@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29-dashboard-bug-fixes",
+  "title": "Dashboard bug fixes",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Single-field filter default**: Changing the field on a single-field filter now clears the previous field's default value. The filter falls back to **All**, or to **None** when **All** isn't allowed.\n* **Widget-level filter refresh**: The values in widget-level filters now refresh when a dataset changes, without a browser refresh. See [Filter on fields](/aws/en/dashboards/manage/filters/field-filters).\n* **Custom theme scope**: Custom themes no longer color the **View queries** dialog, widget context menus, or data reference popovers, matching the behavior of built-in themes.\n* **Funnel chart fields**: Fields now carry over when you change a chart to or from a funnel chart. See [Funnel chart](/aws/en/dashboards/manage/visualizations/types#funnel).\n* **Tabbed editor popover height**: Tabbed editor popovers now keep their opening height instead of growing.",
+  "ref_links": [
+    {
+      "text": "Filter on fields",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/field-filters"
+    },
+    {
+      "text": "Funnel chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#funnel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.950598Z"
+}

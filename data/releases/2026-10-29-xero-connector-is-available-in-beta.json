@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29-xero-connector-is-available-in-beta",
+  "title": "Xero connector is available in Beta",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#xero-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Xero connector](/aws/en/ingestion/lakeflow-connect/xero) is now available in [Beta](/aws/en/release-notes/release-types) in Databricks Lakeflow Connect. Workspace admins can enable it from the **Previews** page.\n\nUse the connector to ingest accounting data such as invoices, payments, and contacts from Xero into Databricks. The connector uses OAuth user authorization, ingests transaction tables such as invoices and payments incrementally, and removes deleted records for supported tables.",
+  "ref_links": [
+    {
+      "text": "Xero connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/xero"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:27.951094Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Check budget usage with the Spend Status API",
+  "tagline": "Use the Spend Status API to check your usage against Unity Gateway budget limits.",
+  "updated": "Oct 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/api/budgets/v1/budget-spend-status#get-budget-spend-status",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#check-budget-usage-with-the-spend-status-api",
+  "what_it_does": "Use the Spend Status API to check your usage against Unity Gateway budget limits. Retrieve a single budget's spend status or list statuses across budgets. View as MarkdownCopy as Markdown The calling user's live spend against the blocking thresholds of a single budget.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Use the Spend Status API to check your usage against Unity Gateway budget limits. Retrieve a single budget's spend status or list statuses across budgets.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use the Spend Status API to check your usage against Unity Gateway budget limits.",
+  "note_id": "2026-10-26-check-budget-usage-with-the-spend-status-api",
+  "category": "platform"
+}

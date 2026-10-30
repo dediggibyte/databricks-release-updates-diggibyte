@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-02-shared-serverless-is-in-beta",
+  "title": "Shared Serverless is in Beta",
+  "date": "2026-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shared-serverless-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Shared Serverless to share serverless compute and a `pyproject.toml`-managed environment across notebooks and files in a Git folder. See [Use Shared Serverless for Git folders and bundles](/aws/en/compute/serverless/notebooks/shared-serverless).",
+  "ref_links": [
+    {
+      "text": "Use Shared Serverless for Git folders and bundles",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/notebooks/shared-serverless"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-30T13:57:28.093444Z"
+}

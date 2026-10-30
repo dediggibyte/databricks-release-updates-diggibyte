@@ -1,0 +1,24 @@
+{
+  "product": "View personal and shared spend limits with the ug CLI",
+  "tagline": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-ug-cli#check-your-usage",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#view-personal-and-shared-spend-limits-with-the-ug-cli",
+  "what_it_does": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used. Run ug usage all to see all applicable limits. Use the Unity Gateway CLI (ug) to configure and launch coding agents.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used. Run ug usage all to see all applicable limits.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used.",
+  "note_id": "2026-10-28-view-personal-and-shared-spend-limits-with-the-ug-cli",
+  "category": "platform"
+}

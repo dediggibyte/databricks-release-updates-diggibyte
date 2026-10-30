@@ -1,0 +1,24 @@
+{
+  "product": "October 19, 2026",
+  "tagline": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "updated": "Oct 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/serverless#october-19-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#october-19-2026",
+  "what_it_does": "This serverless compute release includes updates from Databricks Runtime 19. Behavior changes Spark Connect execution metrics hide row filter and column mask details: DataFrame execution metrics now hide internal operators and metrics associated with row filters and column masks. This protects information about policy execution when you inspect df.executionInfo.metrics, including its text representation.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "This serverless compute release includes updates from Databricks Runtime 19. Behavior changes Spark Connect execution metrics hide row filter and column mask details: DataFrame execution metrics now hide internal operators and metrics associated with row…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "This serverless compute release includes updates from Databricks Runtime 19.",
+  "note_id": "2026-10-19-october-19-2026",
+  "category": "platform"
+}

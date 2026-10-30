@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard bug fixes",
+  "tagline": "Single field filter default: Changing the field on a single field filter now clears the previous field's default value.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#funnel",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-bug-fixes",
+  "what_it_does": "Single field filter default: Changing the field on a single field filter now clears the previous field's default value. The filter falls back to All, or to None when All isn't allowed. Widget level filter refresh: The values in widget level filters now refresh when a dataset changes, without a browser refresh.",
+  "why_it_matters": "Configuration values: For the provided area visualization example, the following values were set: Dataset: samples.tpch.orders Visualization: Area Title: Total price and order year by order priority and clerk X axis: + Field: o orderdate + Transform: Yearly + Scale Type: Continuous + Display name: Order year Y axis: + Field: o totalprice + Display name: Total price + Scale Type: Continuous + Transform: Sum Color: + Field: o orderpriority + Legend title: Order priority Filter + Field: TPCH orders.o clerk SQL query: For this area visualization, the following SQL query was used to generate the dataset named TPCH orders.",
+  "plain_summary": "Single field filter default: Changing the field on a single field filter now clears the previous field's default value. The filter falls back to All, or to None when All isn't allowed.",
+  "capabilities": [
+    {
+      "title": "Field: oorderdate",
+      "desc": "Field: oorderdate"
+    },
+    {
+      "title": "Transform: Yearly",
+      "desc": "Transform: Yearly"
+    },
+    {
+      "title": "Scale Type: Continuous",
+      "desc": "Scale Type: Continuous"
+    },
+    {
+      "title": "Display name: Order year",
+      "desc": "Display name: Order year"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Single field filter default: Changing the field on a single field filter now clears the previous field's default value.",
+  "note_id": "2026-10-29-dashboard-bug-fixes",
+  "category": "platform"
+}
