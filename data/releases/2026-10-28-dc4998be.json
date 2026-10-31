@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-dc4998be",
+  "title": "Unpaginated requests to some Unity Catalog REST API operations will soon be rejected",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#unpaginated-requests-to-some-unity-catalog-rest-api-operations-will-soon-be-rejected",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks will soon start rejecting unpaginated requests to some Unity Catalog REST API operations, such as list catalogs, list schemas, and list tables, with HTTP `400` responses. Prior to this, unpaginated requests to these operations are subject to progressively stricter rate limits and will receive HTTP `429` responses, potentially causing jobs to run more slowly due to retries, or fail if the client does not handle these errors. The paginated forms of these operations remain available.\n\nIf you call these operations directly, update your clients to set `max_results=0` and follow with `next_page_token` until all pages are retrieved. If you use a Databricks SDK or the Databricks CLI, upgrade to a current release, which uses these fields by default.\n\nFor the full list of affected operations and update instructions, see [Paginate Unity Catalog REST API operations](/aws/en/data-governance/unity-catalog/paginate-legacy-list-apis).",
+  "ref_links": [
+    {
+      "text": "Paginate Unity Catalog REST API operations",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/paginate-legacy-list-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.064479Z"
+}

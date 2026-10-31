@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-30-track-unity-gateway-skill-usage-with-audit-logs-and-the-usage-dashboard",
+  "title": "Track Unity Gateway skill usage with audit logs and the usage dashboard",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#track-unity-gateway-skill-usage-with-audit-logs-and-the-usage-dashboard",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now track usage of Unity Gateway Skills, which are in [Beta](/aws/en/release-notes/release-types). [Audit logs](/aws/en/admin/account-settings/audit-logs#ai-gateway-skills) record skill list, load, and file fetch events under the `aiGatewaySkills` service. The **Skills** tab of the [usage dashboard](/aws/en/ai-gateway/usage-tracking#view-usage-dashboard) shows downloads, loads, and activity by user.",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Audit logs",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#ai-gateway-skills"
+    },
+    {
+      "text": "usage dashboard",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/usage-tracking#view-usage-dashboard"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.047439Z"
+}

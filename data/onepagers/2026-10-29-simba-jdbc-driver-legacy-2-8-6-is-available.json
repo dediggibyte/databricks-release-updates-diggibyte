@@ -1,0 +1,24 @@
+{
+  "product": "Simba JDBC Driver (Legacy) 2.8.6 is available",
+  "tagline": "Simba JDBC Driver (Legacy) 2.8.6 prevents pending Cloud Fetch downloads from delaying the last connection from closing.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://www.databricks.com/spark/jdbc-drivers-archive",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#simba-jdbc-driver-legacy-286-is-available",
+  "what_it_does": "Simba JDBC Driver (Legacy) 2.8.6 prevents pending Cloud Fetch downloads from delaying the last connection from closing. It also updates lz4 java, Jackson, and libthrift. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Simba JDBC Driver (Legacy) 2.8.6 prevents pending Cloud Fetch downloads from delaying the last connection from closing. It also updates lz4 java, Jackson, and libthrift.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Simba JDBC Driver (Legacy) 2.8.6 prevents pending Cloud Fetch downloads from delaying the last connection from closing.",
+  "note_id": "2026-10-29-simba-jdbc-driver-legacy-2-8-6-is-available",
+  "category": "platform"
+}

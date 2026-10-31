@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-29-native-xml-file-format-support-is-now-generally-available",
+  "title": "Native XML file format support is now generally available",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#native-xml-file-format-support-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Native XML file format support is now generally available. You can ingest, query, and parse XML files in batch or streaming workloads with Auto Loader, `read_files`, and `COPY INTO`, and use the `from_xml` and `schema_of_xml` SQL functions. See [Read and write XML files](/aws/en/query/formats/xml).",
+  "ref_links": [
+    {
+      "text": "Read and write XML files",
+      "url": "https://docs.databricks.com/aws/en/query/formats/xml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.060820Z"
+}

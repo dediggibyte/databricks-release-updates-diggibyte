@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-30-relationships-between-metric-views-beta",
+  "title": "Relationships between metric views (Beta)",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#relationships-between-metric-views-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Relationships between Unity Catalog metric views are in [Beta](/aws/en/release-notes/release-types). Use `ALTER VIEW ... ADD CONSTRAINT ... RELATIONSHIP` to record how a source metric view joins to a target metric view, including the cardinality and the join condition, so that AI assistants and BI tools choose the right join path. Relationships require Databricks Runtime 19 and above, or a SQL warehouse. See [Relationships between metric views](/aws/en/uc-semantics/metric-views/relationships).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Relationships between metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/relationships"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.051154Z"
+}

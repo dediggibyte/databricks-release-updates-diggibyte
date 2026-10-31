@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase snapshots and backup schedule APIs are generally available",
+  "tagline": "The Lakebase snapshots API and backup schedule API are now generally available.",
+  "updated": "Oct 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/snapshots",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-snapshots-and-backup-schedule-apis-are-generally-available",
+  "what_it_does": "The Lakebase snapshots API and backup schedule API are now generally available. Use the snapshots API to create, get, list, and delete point in time snapshots, and restore a snapshot by creating a new branch from it. Use the backup schedule API to read and set a root branch's automated snapshot cadences.",
+  "why_it_matters": "Lakebase creates snapshots instantly with minimal performance impact.",
+  "plain_summary": "The Lakebase snapshots API and backup schedule API are now generally available. Use the snapshots API to create, get, list, and delete point in time snapshots, and restore a snapshot by creating a new branch from it.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakebase snapshots API and backup schedule API are now generally available.",
+  "note_id": "2026-10-26-lakebase-snapshots-and-backup-schedule-apis-are-generally-available",
+  "category": "platform"
+}

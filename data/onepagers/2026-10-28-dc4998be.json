@@ -1,0 +1,24 @@
+{
+  "product": "Unpaginated requests to some Unity Catalog REST API operations will soon be…",
+  "tagline": "Databricks will soon start rejecting unpaginated requests to some Unity Catalog REST API operations, such as list catalogs, list schemas, and list tables, with HTTP 400 responses.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/paginate-legacy-list-apis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#unpaginated-requests-to-some-unity-catalog-rest-api-operations-will-soon-be-rejected",
+  "what_it_does": "Databricks will soon start rejecting unpaginated requests to some Unity Catalog REST API operations, such as list catalogs, list schemas, and list tables, with HTTP 400 responses. Prior to this, unpaginated requests to these operations are subject to progressively stricter rate limits and will receive HTTP 429 responses, potentially causing jobs to run more slowly due to retries, or fail if the client does not handle these errors. The paginated forms of these operations remain available.",
+  "why_it_matters": "Pagination bounds response sizes, making requests more predictable and reducing failures caused by increasingly large responses as your metastore grows.",
+  "plain_summary": "Databricks will soon start rejecting unpaginated requests to some Unity Catalog REST API operations, such as list catalogs, list schemas, and list tables, with HTTP 400 responses. Prior to this, unpaginated requests to these operations are subject to…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks will soon start rejecting unpaginated requests to some Unity Catalog REST API operations, such as list catalogs, list schemas, and list tables, with HTTP 400 responses.",
+  "note_id": "2026-10-28-dc4998be",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Relationships between metric views (Beta)",
+  "tagline": "Relationships between Unity Catalog metric views are in Beta.",
+  "updated": "Oct 30, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/relationships",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#relationships-between-metric-views-beta",
+  "what_it_does": "Relationships between Unity Catalog metric views are in Beta. RELATIONSHIP to record how a source metric view joins to a target metric view, including the cardinality and the join condition, so that AI assistants and BI tools choose the right join path. Relationships require Databricks Runtime 19 and above, or a SQL warehouse.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Relationships between Unity Catalog metric views are in Beta. RELATIONSHIP to record how a source metric view joins to a target metric view, including the cardinality and the join condition, so that AI assistants and BI tools choose the right join path.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Relationships between Unity Catalog metric views are in Beta.",
+  "note_id": "2026-10-30-relationships-between-metric-views-beta",
+  "category": "platform"
+}

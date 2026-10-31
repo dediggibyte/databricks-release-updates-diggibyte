@@ -1,0 +1,24 @@
+{
+  "product": "Managed warehouse for MLflow (Beta)",
+  "tagline": "With managed warehouse, users can view traces stored in Unity Catalog in the MLflow UI without selecting a SQL warehouse.",
+  "updated": "Nov 2, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/managed-warehouse",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#managed-warehouse-for-mlflow-beta",
+  "what_it_does": "With managed warehouse, users can view traces stored in Unity Catalog in the MLflow UI without selecting a SQL warehouse. MLflow runs trace queries on a SQL warehouse that it creates in your workspace when your workspace supports it, and on serverless compute otherwise. Workspace admins can enable Managed Warehouse for MLflow on the Previews page.",
+  "why_it_matters": "With managed warehouse, MLflow manages an optimized warehouse that can execute these queries with low latency and provide a more interactive experience in the UI.",
+  "plain_summary": "With managed warehouse, users can view traces stored in Unity Catalog in the MLflow UI without selecting a SQL warehouse. MLflow runs trace queries on a SQL warehouse that it creates in your workspace when your workspace supports it, and on serverless…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "With managed warehouse, users can view traces stored in Unity Catalog in the MLflow UI without selecting a SQL warehouse.",
+  "note_id": "2026-11-02-managed-warehouse-for-mlflow-beta",
+  "category": "platform"
+}

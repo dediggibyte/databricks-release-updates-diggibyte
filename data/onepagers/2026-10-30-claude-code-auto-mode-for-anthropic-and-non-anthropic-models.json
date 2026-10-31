@@ -1,0 +1,24 @@
+{
+  "product": "Claude Code auto mode for Anthropic and non-Anthropic models",
+  "tagline": "Claude Code auto mode is now supported for both Anthropic and non Anthropic models hosted by Databricks.",
+  "updated": "Oct 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-claude#auto-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#claude-code-auto-mode-for-anthropic-and-non-anthropic-models",
+  "what_it_does": "Claude Code auto mode is now supported for both Anthropic and non Anthropic models hosted by Databricks. Auto mode reviews tool calls to reduce routine permission prompts. Use Claude Code or the Claude desktop app with models, MCP tools, and skills through Unity Gateway.",
+  "why_it_matters": "Auto mode reviews tool calls to reduce routine permission prompts.",
+  "plain_summary": "Claude Code auto mode is now supported for both Anthropic and non Anthropic models hosted by Databricks. Auto mode reviews tool calls to reduce routine permission prompts.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Claude Code auto mode is now supported for both Anthropic and non Anthropic models hosted by Databricks.",
+  "note_id": "2026-10-30-claude-code-auto-mode-for-anthropic-and-non-anthropic-models",
+  "category": "platform"
+}

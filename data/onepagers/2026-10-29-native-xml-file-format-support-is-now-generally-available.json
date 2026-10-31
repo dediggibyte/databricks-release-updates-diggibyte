@@ -1,0 +1,33 @@
+{
+  "product": "Native XML file format support is now generally available",
+  "tagline": "Native XML file format support is now generally available.",
+  "updated": "Oct 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/query/formats/xml",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#native-xml-file-format-support-is-now-generally-available",
+  "what_it_does": "Native XML file format support is now generally available. You can ingest, query, and parse XML files in batch or streaming workloads with Auto Loader, read files, and COPY INTO, and use the from xml and schema of xml SQL functions. Extensible Markup Language (XML) is a markup language for formatting, storing, and sharing data in textual format.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Native XML file format support is now generally available. You can ingest, query, and parse XML files in batch or streaming workloads with Auto Loader, read files, and COPY INTO, and use the from xml and schema of xml SQL functions.",
+  "capabilities": [
+    {
+      "title": "PERMISSIVE: When it meets a",
+      "desc": "PERMISSIVE: When it meets a corrupted record, puts the malformed string into a field configured by columnNameOfCorruptRecord…"
+    },
+    {
+      "title": "FAILFAST: Throws an exception when",
+      "desc": "FAILFAST: Throws an exception when it meets corrupted records."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Native XML file format support is now generally available.",
+  "note_id": "2026-10-29-native-xml-file-format-support-is-now-generally-available",
+  "category": "platform"
+}

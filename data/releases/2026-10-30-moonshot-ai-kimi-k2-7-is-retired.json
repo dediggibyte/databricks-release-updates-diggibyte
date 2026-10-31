@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-30-moonshot-ai-kimi-k2-7-is-retired",
+  "title": "Moonshot AI Kimi K2.7 is retired",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#moonshot-ai-kimi-k27-is-retired",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Moonshot AI Kimi K2.7 was retired on October 30, 2026. Kimi K3 is the recommended replacement. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.051832Z"
+}

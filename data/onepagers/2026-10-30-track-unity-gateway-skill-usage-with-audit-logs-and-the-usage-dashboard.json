@@ -1,0 +1,24 @@
+{
+  "product": "Track Unity Gateway skill usage with audit logs and the usage dashboard",
+  "tagline": "You can now track usage of Unity Gateway Skills, which are in Beta.",
+  "updated": "Oct 30, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/usage-tracking#view-usage-dashboard",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#track-unity-gateway-skill-usage-with-audit-logs-and-the-usage-dashboard",
+  "what_it_does": "You can now track usage of Unity Gateway Skills, which are in Beta. Audit logs record skill list, load, and file fetch events under the aiGatewaySkills service. The Skills tab of the usage dashboard shows downloads, loads, and activity by user.",
+  "why_it_matters": "Usage records include requester and service details, response status, model token usage and latency, MCP call metadata, and coding agent session metadata.",
+  "plain_summary": "You can now track usage of Unity Gateway Skills, which are in Beta. Audit logs record skill list, load, and file fetch events under the aiGatewaySkills service.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now track usage of Unity Gateway Skills, which are in Beta.",
+  "note_id": "2026-10-30-track-unity-gateway-skill-usage-with-audit-logs-and-the-usage-dashboard",
+  "category": "platform"
+}

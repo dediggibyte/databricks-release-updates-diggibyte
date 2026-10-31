@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-29-real-time-mode-in-lakeflow-pipelines-is-now-generally-available",
+  "title": "Real-time mode in Lakeflow pipelines is now generally available",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#real-time-mode-in-lakeflow-pipelines-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Real-time mode in Lakeflow pipelines is now generally available on classic compute and serverless compute. Use it for operational workloads that need end-to-end latency as low as five milliseconds, such as fraud detection. See [Use real-time mode in Lakeflow pipelines](/aws/en/ldp/real-time).",
+  "ref_links": [
+    {
+      "text": "Use real-time mode in Lakeflow pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/real-time"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-10-31T13:30:31.061405Z"
+}
