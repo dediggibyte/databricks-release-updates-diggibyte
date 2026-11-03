@@ -1,0 +1,24 @@
+{
+  "product": "Serverless log delivery to Unity Catalog volumes (Beta)",
+  "tagline": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/log-delivery",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-log-delivery-to-unity-catalog-volumes-beta",
+  "what_it_does": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis. Serverless log delivery writes application logs from serverless jobs to a Unity Catalog volume. Workspace admins configure a destination for the workspace so that teams can retain logs and process them with their observability tools.",
+  "why_it_matters": "Saving the destination enables delivery.",
+  "plain_summary": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis.",
+  "note_id": "2026-10-28-serverless-log-delivery-to-unity-catalog-volumes-beta",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-02-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-11-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Analyze files in Unity Catalog volumes (Public Preview)**: A Genie Agent can now analyze unstructured files stored in Unity Catalog volumes, such as PDFs, slide decks, and images, and answer with citations that point to the source page. Workspace admins can control access from the **Previews** page. See [Analyze files in volumes with a Genie Agent](/aws/en/genie-agents/volumes).",
+  "ref_links": [
+    {
+      "text": "Analyze files in volumes with a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.349838Z"
+}

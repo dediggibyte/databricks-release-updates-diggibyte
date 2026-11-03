@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-serverless-log-delivery-to-unity-catalog-volumes-beta",
+  "title": "Serverless log delivery to Unity Catalog volumes (Beta)",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-log-delivery-to-unity-catalog-volumes-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis. See [Deliver serverless logs to Unity Catalog volumes](/aws/en/compute/serverless/log-delivery).",
+  "ref_links": [
+    {
+      "text": "Deliver serverless logs to Unity Catalog volumes",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/log-delivery"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.372270Z"
+}

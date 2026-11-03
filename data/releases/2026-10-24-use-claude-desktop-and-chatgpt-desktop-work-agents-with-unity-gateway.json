@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-24-use-claude-desktop-and-chatgpt-desktop-work-agents-with-unity-gateway",
+  "title": "Use Claude desktop and ChatGPT desktop work agents with Unity Gateway",
+  "date": "2026-10-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#use-claude-desktop-and-chatgpt-desktop-work-agents-with-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use `ug` to configure the Claude desktop and ChatGPT desktop work agents with governed models, MCP servers, and skills. Subscription relay is available only in Claude desktop. [Learn more](/aws/en/ai-gateway/coding-agent-supported-agents).",
+  "ref_links": [
+    {
+      "text": "Learn more",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-supported-agents"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.399596Z"
+}

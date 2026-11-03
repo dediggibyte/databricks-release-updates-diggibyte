@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-02-databricks-runtime-19-november-2-2026",
+  "title": "Databricks Runtime 19: November 2, 2026",
+  "date": "2026-11-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-2-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### New features and improvements\n\n* `ALTER SHARE ADD/ALTER VIEW` now accepts `WITH HISTORY` and `WITHOUT HISTORY`; existing history defaults are unchanged.\n\n### Library and environment updates\n\n* Updated Python libraries:\n  + `pytz` from 2025.2 to 2026.5\n  + `tzdata` from 2026.2 to 2026.5",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.351799Z"
+}

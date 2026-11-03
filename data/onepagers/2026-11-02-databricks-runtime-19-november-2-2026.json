@@ -1,0 +1,33 @@
+{
+  "product": "Databricks Runtime 19: November 2, 2026",
+  "tagline": "New features and improvements ALTER SHARE ADD/ALTER VIEW now accepts WITH HISTORY and WITHOUT HISTORY; existing history defaults are unchanged.",
+  "updated": "Nov 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-2-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-2-2026",
+  "what_it_does": "New features and improvements ALTER SHARE ADD/ALTER VIEW now accepts WITH HISTORY and WITHOUT HISTORY; existing history defaults are unchanged. Library and environment updates Updated Python libraries: + pytz from 2025.2 to 2026.5 + tzdata from 2026.2 to 2026.5",
+  "why_it_matters": "New features and improvements ALTER SHARE ADD/ALTER VIEW now accepts WITH HISTORY and WITHOUT HISTORY; existing history defaults are unchanged.",
+  "plain_summary": "New features and improvements ALTER SHARE ADD/ALTER VIEW now accepts WITH HISTORY and WITHOUT HISTORY; existing history defaults are unchanged. Library and environment updates Updated Python libraries: + pytz from 2025.2 to 2026.5 + tzdata from 2026.2 to…",
+  "capabilities": [
+    {
+      "title": "pytz from 2025.2 to 2026.5",
+      "desc": "pytz from 2025.2 to 2026.5"
+    },
+    {
+      "title": "tzdata from 2026.2 to 2026.5",
+      "desc": "tzdata from 2026.2 to 2026.5"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "New features and improvements ALTER SHARE ADD/ALTER VIEW now accepts WITH HISTORY and WITHOUT HISTORY; existing history defaults are unchanged.",
+  "note_id": "2026-11-02-databricks-runtime-19-november-2-2026",
+  "category": "platform"
+}

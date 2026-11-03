@@ -1,0 +1,24 @@
+{
+  "product": "Lakeflow Designer October release",
+  "tagline": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full screen previews, and tools for organizing large flows.",
+  "updated": "Oct 27, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/preview-results#preview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-designer-october-release",
+  "what_it_does": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full screen previews, and tools for organizing large flows. The following updates are now available: Find operators by category: The Operators pane groups operators into input and output, clean, combine, transform, code, report, and canvas tools. Use ai decide in the AI Function operator (Beta): Answer questions about text or parsed documents with probabilities, choices, or scores.",
+  "why_it_matters": "Improved legibility for large workflows: Operators retain their size and shape and display a new larger operator icon when you zoom out on the canvas.",
+  "plain_summary": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full screen previews, and tools for organizing large flows. The following updates are now available: Find operators by category: The Operators…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full screen previews, and tools for organizing large flows.",
+  "note_id": "2026-10-27-lakeflow-designer-october-release",
+  "category": "platform"
+}

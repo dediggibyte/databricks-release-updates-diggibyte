@@ -1,0 +1,41 @@
+{
+  "product": "Databricks-provided MCP connectors in Genie One and Genie Code will soon be…",
+  "tagline": "Starting in December 2026, Databricks provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the compliance security profile enabled.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/mcp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-provided-mcp-connectors-in-genie-one-and-genie-code-will-soon-be-enabled-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting in December 2026, Databricks provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the compliance security profile enabled. The connectors include Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub. They let Genie One and Genie Code connect to third party services to search your documents and data and take actions on your behalf.",
+  "why_it_matters": "Starting in December 2026, Databricks provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting in December 2026, Databricks provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the compliance security profile enabled. The connectors include Google Drive, Gmail, Google Calendar, Microsoft 365…",
+  "capabilities": [
+    {
+      "title": "For help creating a custom",
+      "desc": "For help creating a custom GitHub MCP server, see Search GitHub code with Genie Code. AI Search: Select the schema for the…"
+    },
+    {
+      "title": "Your app must be deployed",
+      "desc": "Your app must be deployed in the same workspace that you are trying to connect to it from."
+    },
+    {
+      "title": "The MCP server must be",
+      "desc": "The MCP server must be accessed at https://<server-url>/mcp."
+    },
+    {
+      "title": "Your app must be stateless",
+      "desc": "Your app must be stateless. For example, set mcpapp = mcpserver.httpapp(statelesshttp=True)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in December 2026, Databricks provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-10-29-54c39f8d",
+  "category": "platform"
+}

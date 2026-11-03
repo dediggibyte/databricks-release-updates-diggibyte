@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-29-54c39f8d",
+  "title": "Databricks-provided MCP connectors in Genie One and Genie Code will soon be enabled by default for workspaces with the compliance security profile enabled",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-provided-mcp-connectors-in-genie-one-and-genie-code-will-soon-be-enabled-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in December 2026, Databricks-provided MCP connectors in Genie One and Genie Code will be enabled by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nThe connectors include Google Drive, Gmail, Google Calendar, Microsoft 365, Atlassian, Slack, and GitHub. They let Genie One and Genie Code connect to third-party services to search your documents and data and take actions on your behalf. Databricks governs each connection through Unity Catalog and Unity Gateway.\n\nSee [Databricks-provided MCPs](/aws/en/agents/mcp-tools/built-in-mcp-services), [Connect Genie One to external tools and sources](/aws/en/genie-one/external-sources), and [Connect Genie Code to MCP servers](/aws/en/genie-code/mcp).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Databricks-provided MCPs",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/built-in-mcp-services"
+    },
+    {
+      "text": "Connect Genie One to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    },
+    {
+      "text": "Connect Genie Code to MCP servers",
+      "url": "https://docs.databricks.com/aws/en/genie-code/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.369957Z"
+}

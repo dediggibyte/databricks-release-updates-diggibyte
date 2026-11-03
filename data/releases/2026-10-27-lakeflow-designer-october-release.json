@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-27-lakeflow-designer-october-release",
+  "title": "Lakeflow Designer October release",
+  "date": "2026-10-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-designer-october-release",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full-screen previews, and tools for organizing large flows. The following updates are now available:\n\n* **Find operators by category**: The **Operators** pane groups operators into input and output, clean, combine, transform, code, report, and canvas tools. See [Built-in operators in Lakeflow Designer](/aws/en/designer/built-in-operators).\n* **Use `ai_decide` in the AI Function operator (Beta)**: Answer questions about text or parsed documents with probabilities, choices, or scores. See [`ai_decide` function](/aws/en/sql/language-manual/functions/ai_decide).\n* **Publish a custom operator to your workspace**: In the operator panel, open a custom operator's actions menu and select **Publish**. The file switches to the published copy so you can reuse the operator in other visual data prep files. See [Custom operators in Lakeflow Designer](/aws/en/designer/user-operators). \\_Note: user-defined operators are now called custom operators. See \\_[Custom operators](/aws/en/designer/user-operators).\n* **Auto layout a group**: Use **Auto layout group** in the group toolbar to arrange only the operators inside that group and leave the rest of the canvas unchanged. See [Group](/aws/en/designer/built-in-operators#group).\n* **Parameter usage in the Parameters panel**: The Parameters side panel now shows which operators use each parameter. Select an operator name to focus it on the canvas. See [Parameters](/aws/en/designer/parameters).\n* **Favorite operators**: Right-click an operator or click  in the table of contents to add it to your favorites. To show only favorites, select **Filter by** > **Status** > **Favorited** in the table of contents. See [Use the table of contents in Lakeflow Designer](/aws/en/designer/table-of-contents).\n* **HTML operator**: Render a custom HTML page, including embedded CSS and JavaScript, in the output pane. Connect upstream operators to display their data as charts, tables, or other views. See [HTML](/aws/en/designer/built-in-operators#html).\n* **Share full-screen previews**: Open a Visualization or HTML output in full screen and share the page URL. Users who open the link land on the canvas with that operator's output in full screen. See [Use the output pane](/aws/en/designer/preview-results#output-pane).\n* **Install custom operator dependencies**: When you add a custom operator with missing dependencies, select **Add dependencies**, then **Apply** in the **Environment** pane to install them. See [Custom operators in Lakeflow Designer](/aws/en/designer/user-operators).\n* **Sort operators by modification time**: Select **Modified** in the table of contents **Sort by** menu to order operators by when they were last changed. See [Sort and filter the list](/aws/en/designer/table-of-contents#sort-filter).\n* **Control runs from the file menu**: Click  in the file header and select **Run** to access **Run all**, **Interrupt execution**, clearing actions, and **Go to last run operator**.\n* **Reference operators in Genie Code**: Type `@` and select a canvas operator from **Operators** to give your prompt context about that part of the flow. See [Prompt Genie Code on the canvas](/aws/en/designer/genie-code#canvas-prompt).\n* **Connect files using your own account**: In a Source operator, select **My Google account** or **My Microsoft account** to connect to Google Drive, SharePoint, or OneDrive files. Sign in and provide the file link. The corresponding connector must be enabled.\n* **Save intermediate results with checkpoints**: In **Operator settings**, set **Checkpoint** to **On** to save an operator's results for reuse during previews, or use **Auto** to let Designer choose which results to save. Saved results are reused within the same compute session.\n* **Organize groups and notes**: Use the group hover toolbar to collapse or disable a group, and choose colors for groups and notes. Press **Shift+2** to zoom to selected operators.\n* **New Prepare actions**: Use **Parse JSON** to expand JSON data, **Rename columns** to rename multiple columns with one rule, and **Multi column formula** to apply one expression to selected columns. Existing actions such as **Change type** and **Trim** also accept multiple columns. See [Prepare](/aws/en/designer/built-in-operators#prepare).\n* **Run up to an operator**: Right-click an operator and select **Run up to this operator** to run it and its upstream operators against the full dataset. Downstream operators and disconnected branches do not run.\n* **Reset preview overrides**: Select **Apply to all operators** in the **Preview** menu to clear individual **Rows scanned** overrides and use the file's current default. See [Preview results](/aws/en/designer/preview-results#preview).\n* **Improved legibility for large workflows**: Operators retain their size and shape and display a new larger operator icon when you zoom out on the canvas.",
+  "ref_links": [
+    {
+      "text": "Built-in operators in Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators"
+    },
+    {
+      "text": "ai_decide function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_decide"
+    },
+    {
+      "text": "Custom operators in Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer/user-operators"
+    },
+    {
+      "text": "Group",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#group"
+    },
+    {
+      "text": "Parameters",
+      "url": "https://docs.databricks.com/aws/en/designer/parameters"
+    },
+    {
+      "text": "Use the table of contents in Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer/table-of-contents"
+    },
+    {
+      "text": "HTML",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#html"
+    },
+    {
+      "text": "Use the output pane",
+      "url": "https://docs.databricks.com/aws/en/designer/preview-results#output-pane"
+    },
+    {
+      "text": "Sort and filter the list",
+      "url": "https://docs.databricks.com/aws/en/designer/table-of-contents#sort-filter"
+    },
+    {
+      "text": "Prompt Genie Code on the canvas",
+      "url": "https://docs.databricks.com/aws/en/designer/genie-code#canvas-prompt"
+    },
+    {
+      "text": "Prepare",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#prepare"
+    },
+    {
+      "text": "Preview results",
+      "url": "https://docs.databricks.com/aws/en/designer/preview-results#preview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-03T14:57:08.389402Z"
+}
