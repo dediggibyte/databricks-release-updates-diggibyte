@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-01-ai-functions-usage-is-now-included-in-unity-gateway-budgets",
+  "title": "AI Functions usage is now included in Unity Gateway budgets",
+  "date": "2026-11-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#ai-functions-usage-is-now-included-in-unity-gateway-budgets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Beginning November 1, 2026, Unity Gateway budgets include spend from task-specific AI Functions such as `ai_parse_document`, `ai_extract`, and `ai_classify` across batch and real-time execution paths. See [Manage budgets for Unity Gateway](/aws/en/ai-gateway/budgets).",
+  "ref_links": [
+    {
+      "text": "Manage budgets for Unity Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/budgets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:57.999387Z"
+}

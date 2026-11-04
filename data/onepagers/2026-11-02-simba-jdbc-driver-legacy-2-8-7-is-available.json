@@ -1,0 +1,24 @@
+{
+  "product": "Simba JDBC Driver (Legacy) 2.8.7 is available",
+  "tagline": "Simba JDBC Driver (Legacy) 2.8.7 updates jackson core, jackson databind, and jackson datatype jsr310 to 2.21.8.",
+  "updated": "Nov 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://www.databricks.com/spark/jdbc-drivers-archive",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#simba-jdbc-driver-legacy-287-is-available",
+  "what_it_does": "Simba JDBC Driver (Legacy) 2.8.7 updates jackson core, jackson databind, and jackson datatype jsr310 to 2.21.8. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba). All JDBC Driver Versions (Open Source) Databricks supports each driver version for at least 2 years.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Simba JDBC Driver (Legacy) 2.8.7 updates jackson core, jackson databind, and jackson datatype jsr310 to 2.21.8. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Simba JDBC Driver (Legacy) 2.8.7 updates jackson core, jackson databind, and jackson datatype jsr310 to 2.21.8.",
+  "note_id": "2026-11-02-simba-jdbc-driver-legacy-2-8-7-is-available",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-30-7ccca278",
+  "title": "Monitor data freshness in Lakeflow Connect database connector pipelines (Public Preview)",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#monitor-data-freshness-in-lakeflow-connect-database-connector-pipelines-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now see how current each destination table is in Lakeflow Connect database connector pipelines, in [Public Preview](/aws/en/release-notes/release-types). The new **Data freshness** column in the pipeline's tables list shows the time since the latest source commit that the pipeline ingested for each change data capture (CDC) table. Data freshness is available for SQL Server, PostgreSQL, MySQL, and Oracle sources.\n\nYou can also query data freshness and end-to-end lag from the ingestion pipeline's event log, and create alerts on them. See [Monitor data freshness for change data capture (CDC) tables](/aws/en/ingestion/lakeflow-connect/cdc-data-freshness).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Monitor data freshness for change data capture (CDC) tables",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/cdc-data-freshness"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:58.003895Z"
+}

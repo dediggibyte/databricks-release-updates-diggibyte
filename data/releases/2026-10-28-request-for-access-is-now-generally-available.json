@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-request-for-access-is-now-generally-available",
+  "title": "Request for access is now generally available",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#request-for-access-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Request for access is now generally available. Users can request privileges on Unity Catalog objects from anywhere in Databricks and track request status in Catalog Explorer. See [Access requests](/aws/en/data-governance/unity-catalog/manage-privileges/access-requests).",
+  "ref_links": [
+    {
+      "text": "Access requests",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-requests"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:58.021289Z"
+}

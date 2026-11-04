@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-29-data-quality-monitoring-anomaly-detection-is-now-generally-available",
+  "title": "Data quality monitoring anomaly detection is now generally available",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-quality-monitoring-anomaly-detection-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Anomaly detection for data quality monitoring is now generally available. Enable it at the schema level to monitor the freshness and completeness of every table in the schema, based on historical data patterns. Results for all monitored tables are stored in the `system.data_quality_monitoring.table_results` system table, which is also now generally available. See [Anomaly detection](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection).",
+  "ref_links": [
+    {
+      "text": "Anomaly detection",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:58.017194Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-02-zerobus-ingest-into-default-storage-is-now-generally-available",
+  "title": "Zerobus Ingest into default storage is now generally available",
+  "date": "2026-11-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#zerobus-ingest-into-default-storage-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Ingesting into tables backed by [default storage](/aws/en/storage/default-storage) with Zerobus Ingest in Lakeflow Connect is now generally available. See [Create or identify the target table](/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table).",
+  "ref_links": [
+    {
+      "text": "default storage",
+      "url": "https://docs.databricks.com/aws/en/storage/default-storage"
+    },
+    {
+      "text": "Create or identify the target table",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest#create-or-identify-the-target-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:57.995846Z"
+}

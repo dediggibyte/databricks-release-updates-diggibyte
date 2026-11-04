@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-trigger-lakeflow-jobs-when-upstream-jobs-complete-beta",
+  "title": "Trigger Lakeflow Jobs when upstream jobs complete (Beta)",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#trigger-lakeflow-jobs-when-upstream-jobs-complete-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore. Configure dependencies on the downstream job. See [Trigger jobs when upstream jobs complete](/aws/en/jobs/job-completion-triggers).",
+  "ref_links": [
+    {
+      "text": "Trigger jobs when upstream jobs complete",
+      "url": "https://docs.databricks.com/aws/en/jobs/job-completion-triggers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:57.992178Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-user-aware-workspace-instructions-for-genie-one",
+  "title": "User-aware workspace instructions for Genie One",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#user-aware-workspace-instructions-for-genie-one",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now tailor Genie One chat behavior by group. Add the recommended instruction to load a user's group memberships, then define behavior for relevant groups. See [Add workspace instructions for chat](/aws/en/genie-one/chat#workspace-instructions).",
+  "ref_links": [
+    {
+      "text": "Add workspace instructions for chat",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#workspace-instructions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:58.021895Z"
+}

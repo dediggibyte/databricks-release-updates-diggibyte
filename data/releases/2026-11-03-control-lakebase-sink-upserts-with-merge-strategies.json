@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-03-control-lakebase-sink-upserts-with-merge-strategies",
+  "title": "Control Lakebase sink upserts with merge strategies",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#control-lakebase-sink-upserts-with-merge-strategies",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns. Keep the first or last value, ignore nulls, or select values by an ordering column. Merge strategies require [Databricks Runtime 19](/aws/en/release-notes/runtime/19) and above. See [Merge strategies for upserts](/aws/en/structured-streaming/lakebase#merge-strategies).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    },
+    {
+      "text": "Merge strategies for upserts",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/lakebase#merge-strategies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:57.991399Z"
+}

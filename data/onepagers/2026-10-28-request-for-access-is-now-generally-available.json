@@ -1,0 +1,24 @@
+{
+  "product": "Request for access is now generally available",
+  "tagline": "Request for access is now generally available.",
+  "updated": "Oct 28, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-requests",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#request-for-access-is-now-generally-available",
+  "what_it_does": "Request for access is now generally available. Users can request privileges on Unity Catalog objects from anywhere in Databricks and track request status in Catalog Explorer. The request for access (RFA) feature lets users request privileges for Unity Catalog objects from anywhere in Databricks.",
+  "why_it_matters": "work?\") RFA enables governed self service access to Unity Catalog objects.",
+  "plain_summary": "Request for access is now generally available. Users can request privileges on Unity Catalog objects from anywhere in Databricks and track request status in Catalog Explorer.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Request for access is now generally available.",
+  "note_id": "2026-10-28-request-for-access-is-now-generally-available",
+  "category": "platform"
+}

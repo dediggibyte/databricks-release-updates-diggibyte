@@ -1,0 +1,37 @@
+{
+  "product": "Control Lakebase sink upserts with merge strategies",
+  "tagline": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/lakebase#merge-strategies",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#control-lakebase-sink-upserts-with-merge-strategies",
+  "what_it_does": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns. Keep the first or last value, ignore nulls, or select values by an ordering column. Merge strategies require Databricks Runtime 19 and above.",
+  "why_it_matters": "When to use the Lakebase sink Use the Lakebase sink for low latency streaming writes to Lakebase or an external PostgreSQL database.",
+  "plain_summary": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns. Keep the first or last value, ignore nulls, or select values by an ordering column.",
+  "capabilities": [
+    {
+      "title": "External PostgreSQL connections require you",
+      "desc": "External PostgreSQL connections require you to use Databricks Runtime 19 and above and to opt in to the Custom JDBC on UC…"
+    },
+    {
+      "title": "Interval data types require you",
+      "desc": "Interval data types require you to use Databricks Runtime 19 and above."
+    },
+    {
+      "title": "Merge strategies for upserts require",
+      "desc": "Merge strategies for upserts require you to use Databricks Runtime 19 and above. Classic compute with dedicated or standard…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns.",
+  "note_id": "2026-11-03-control-lakebase-sink-upserts-with-merge-strategies",
+  "category": "platform"
+}

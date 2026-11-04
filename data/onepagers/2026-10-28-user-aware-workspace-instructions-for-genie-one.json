@@ -1,0 +1,37 @@
+{
+  "product": "User-aware workspace instructions for Genie One",
+  "tagline": "Workspace admins can now tailor Genie One chat behavior by group.",
+  "updated": "Oct 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#workspace-instructions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#user-aware-workspace-instructions-for-genie-one",
+  "what_it_does": "Workspace admins can now tailor Genie One chat behavior by group. Add the recommended instruction to load a user's group memberships, then define behavior for relevant groups. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions.",
+  "why_it_matters": "It combines modeled context you govern in Unity Catalog semantics, such as metric views, domains, and Pages, with context Genie infers automatically from your assets and usage.",
+  "plain_summary": "Workspace admins can now tailor Genie One chat behavior by group. Add the recommended instruction to load a user's group memberships, then define behavior for relevant groups.",
+  "capabilities": [
+    {
+      "title": "Load the user's info to",
+      "desc": "Load the user's info to get their group memberships."
+    },
+    {
+      "title": "If the user belongs to",
+      "desc": "If the user belongs to the Finance group, include gross margin and operating expenses in financial summaries."
+    },
+    {
+      "title": "If the user belongs to",
+      "desc": "If the user belongs to the Sales group, include bookings and pipeline in performance summaries."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Workspace admins can now tailor Genie One chat behavior by group.",
+  "note_id": "2026-10-28-user-aware-workspace-instructions-for-genie-one",
+  "category": "platform"
+}

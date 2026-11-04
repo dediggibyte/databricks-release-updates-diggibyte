@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-03-okta-connector-is-available-in-beta",
+  "title": "Okta connector is available in Beta",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#okta-connector-is-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed [Okta connector](/aws/en/ingestion/lakeflow-connect/okta) is now available in Beta in Databricks Lakeflow Connect. Workspace admins can enable **Lakeflow Connect for Okta** on the [**Previews** page](/aws/en/admin/workspace-settings/manage-previews).\n\nUse the connector to ingest identity and access data from Okta into Databricks, including users, groups, group memberships, app integrations, devices, policies, and administrator roles. The connector uses SSWS API token authentication and supports incremental ingestion.",
+  "ref_links": [
+    {
+      "text": "Okta connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/okta"
+    },
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-04T15:17:57.990468Z"
+}

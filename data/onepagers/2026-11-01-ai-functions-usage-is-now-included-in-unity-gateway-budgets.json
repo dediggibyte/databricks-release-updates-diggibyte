@@ -1,0 +1,24 @@
+{
+  "product": "AI Functions usage is now included in Unity Gateway budgets",
+  "tagline": "Beginning November 1, 2026, Unity Gateway budgets include spend from task specific AI Functions such as ai parse document, ai extract, and ai classify across batch and real time execution paths.",
+  "updated": "Nov 1, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/budgets",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#ai-functions-usage-is-now-included-in-unity-gateway-budgets",
+  "what_it_does": "Beginning November 1, 2026, Unity Gateway budgets include spend from task specific AI Functions such as ai parse document, ai extract, and ai classify across batch and real time execution paths. Budgets help you monitor and control monthly Unity AI Gateway spend using filters applied to billing records. You can scope a budget specifically to the Unity AI Gateway product to track only Unity AI Gateway spending, or include Unity AI Gateway in an account wide budget.",
+  "why_it_matters": "To set budgets for Genie specifically, see Manage budgets and cost controls for Genie.",
+  "plain_summary": "Beginning November 1, 2026, Unity Gateway budgets include spend from task specific AI Functions such as ai parse document, ai extract, and ai classify across batch and real time execution paths.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Beginning November 1, 2026, Unity Gateway budgets include spend from task specific AI Functions such as ai parse document, ai extract, and ai classify across batch and real time execution paths.",
+  "note_id": "2026-11-01-ai-functions-usage-is-now-included-in-unity-gateway-budgets",
+  "category": "platform"
+}

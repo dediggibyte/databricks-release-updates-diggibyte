@@ -1,0 +1,37 @@
+{
+  "product": "Trigger Lakeflow Jobs when upstream jobs complete (Beta)",
+  "tagline": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/job-completion-triggers",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#trigger-lakeflow-jobs-when-upstream-jobs-complete-beta",
+  "what_it_does": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore. Configure dependencies on the downstream job. Use job completion triggers to run a Lakeflow Job when one or more upstream jobs finish.",
+  "why_it_matters": "If an upstream job cannot be verified during this test, check the trigger's status after saving.",
+  "plain_summary": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore. Configure dependencies on the downstream job.",
+  "capabilities": [
+    {
+      "title": "pausestatus: UNPAUSED",
+      "desc": "pausestatus: UNPAUSED"
+    },
+    {
+      "title": "workspaceid: '123456789'",
+      "desc": "workspaceid: '123456789'"
+    },
+    {
+      "title": "workspaceid: '234567890'",
+      "desc": "workspaceid: '234567890'"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore.",
+  "note_id": "2026-11-03-trigger-lakeflow-jobs-when-upstream-jobs-complete-beta",
+  "category": "platform"
+}

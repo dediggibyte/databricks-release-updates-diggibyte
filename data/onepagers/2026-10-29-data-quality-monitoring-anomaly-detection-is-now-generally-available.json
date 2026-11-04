@@ -1,0 +1,24 @@
+{
+  "product": "Data quality monitoring anomaly detection is now generally available",
+  "tagline": "Anomaly detection for data quality monitoring is now generally available.",
+  "updated": "Oct 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-quality-monitoring-anomaly-detection-is-now-generally-available",
+  "what_it_does": "Anomaly detection for data quality monitoring is now generally available. Enable it at the schema level to monitor the freshness and completeness of every table in the schema, based on historical data patterns. Results for all monitored tables are stored in the system.data quality monitoring.table results system table, which is also now generally available.",
+  "why_it_matters": "Intelligent scanning prioritizes high impact tables as determined by popularity and downstream usage, and reduces frequency for less critical tables.",
+  "plain_summary": "Anomaly detection for data quality monitoring is now generally available. Enable it at the schema level to monitor the freshness and completeness of every table in the schema, based on historical data patterns.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Anomaly detection for data quality monitoring is now generally available.",
+  "note_id": "2026-10-29-data-quality-monitoring-anomaly-detection-is-now-generally-available",
+  "category": "platform"
+}
