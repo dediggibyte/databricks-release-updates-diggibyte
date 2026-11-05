@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-04-ai-function-tasks-for-jobs-beta",
+  "title": "AI Function tasks for jobs (Beta)",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-tasks-for-jobs-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add AI Function tasks to your Databricks jobs to run `ai_parse_document`, `ai_extract`, or `ai_classify` on the files in a volume or the rows of a table, without writing SQL. Each run processes only the inputs that are new or changed since the previous run and writes the results to a Unity Catalog table that later tasks can read. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [AI Function tasks for jobs](/aws/en/jobs/tasks/ai-functions).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "AI Function tasks for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-05T15:18:44.067551Z"
+}

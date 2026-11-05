@@ -1,0 +1,44 @@
+{
+  "product": "Lakehouse//RT supports fine-grained access control (Beta)",
+  "tagline": "You can now run read queries on tables protected by row filters, column masks, and attribute based access control (ABAC) policies with Lakehouse//RT.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time#fine-grained-access-control",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#lakehousert-supports-fine-grained-access-control-beta",
+  "what_it_does": "You can now run read queries on tables protected by row filters, column masks, and attribute based access control (ABAC) policies with Lakehouse//RT. Beta This feature is in Beta. Reach out to your Databricks account team to enable this feature in your account.",
+  "why_it_matters": "Performance characteristics and the supported feature set will change before general availability.",
+  "plain_summary": "You can now run read queries on tables protected by row filters, column masks, and attribute based access control (ABAC) policies with Lakehouse//RT.",
+  "capabilities": [
+    {
+      "title": "Databricks SQL Connector for Python",
+      "desc": "Databricks SQL Connector for Python: Set usekernel=True."
+    },
+    {
+      "title": "Databricks SQL Driver for Node.js",
+      "desc": "Databricks SQL Driver for Node.js: Set useKernel: true."
+    },
+    {
+      "title": "Databricks SQL Driver for Go",
+      "desc": "Databricks SQL Driver for Go: Build with the databrickskernel tag and set WithUseKernel(true)."
+    },
+    {
+      "title": "JDBC: Set UseThriftClient=0 in the",
+      "desc": "JDBC: Set UseThriftClient=0 in the connection URL."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "high concurrency use cases",
+    "running operational analytics"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now run read queries on tables protected by row filters, column masks, and attribute based access control (ABAC) policies with Lakehouse//RT.",
+  "note_id": "2026-11-03-lakehouse-rt-supports-fine-grained-access-control-beta",
+  "category": "platform"
+}

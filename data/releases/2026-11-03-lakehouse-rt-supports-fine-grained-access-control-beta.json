@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-lakehouse-rt-supports-fine-grained-access-control-beta",
+  "title": "Lakehouse//RT supports fine-grained access control (Beta)",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#lakehousert-supports-fine-grained-access-control-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run read queries on tables protected by row filters, column masks, and attribute-based access control (ABAC) policies with Lakehouse//RT. See [Fine-grained access control](/aws/en/compute/sql-warehouse/real-time#fine-grained-access-control).",
+  "ref_links": [
+    {
+      "text": "Fine-grained access control",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time#fine-grained-access-control"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-05T15:18:44.069398Z"
+}

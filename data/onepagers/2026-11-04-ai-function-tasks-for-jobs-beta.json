@@ -1,0 +1,41 @@
+{
+  "product": "AI Function tasks for jobs (Beta)",
+  "tagline": "You can now add AI Function tasks to your Databricks jobs to run ai parse document, ai extract, or ai classify on the files in a volume or the rows of a table, without writing SQL.",
+  "updated": "Nov 4, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/ai-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-tasks-for-jobs-beta",
+  "what_it_does": "You can now add AI Function tasks to your Databricks jobs to run ai parse document, ai extract, or ai classify on the files in a volume or the rows of a table, without writing SQL. Each run processes only the inputs that are new or changed since the previous run and writes the results to a Unity Catalog table that later tasks can read. This feature is in Beta.",
+  "why_it_matters": "File events aren't required, but the task finds new and changed files faster with them.",
+  "plain_summary": "You can now add AI Function tasks to your Databricks jobs to run ai parse document, ai extract, or ai classify on the files in a volume or the rows of a table, without writing SQL. Each run processes only the inputs that are new or changed since the previous…",
+  "capabilities": [
+    {
+      "title": "USE CATALOG and USE SCHEMA",
+      "desc": "USE CATALOG and USE SCHEMA on the catalogs and schemas of the input and output."
+    },
+    {
+      "title": "SELECT on the input table",
+      "desc": "SELECT on the input table, or READ VOLUME on the input volume."
+    },
+    {
+      "title": "CREATE TABLE on the output",
+      "desc": "CREATE TABLE on the output schema, for the run that creates the output table."
+    },
+    {
+      "title": "MODIFY on the output table",
+      "desc": "MODIFY on the output table, for later runs."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now add AI Function tasks to your Databricks jobs to run ai parse document, ai extract, or ai classify on the files in a volume or the rows of a table, without writing SQL.",
+  "note_id": "2026-11-04-ai-function-tasks-for-jobs-beta",
+  "category": "platform"
+}

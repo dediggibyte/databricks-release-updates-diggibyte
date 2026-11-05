@@ -1,0 +1,24 @@
+{
+  "product": "Apply ABAC policies to shared views, materialized views, and streaming tables",
+  "tagline": "You can now apply attribute based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing.",
+  "updated": "Oct 29, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/opensharing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#apply-abac-policies-to-shared-views-materialized-views-and-streaming-tables",
+  "what_it_does": "You can now apply attribute based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing. Shared views are in Beta and require the ABAC on views preview. You can share tables and views protected by ABAC policies through OpenSharing if the share owner is exempted from the policies on the provider side.",
+  "why_it_matters": "Account admin or workspace admin permissions (to create governed tags).",
+  "plain_summary": "You can now apply attribute based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing. Shared views are in Beta and require the ABAC on views preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now apply attribute based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing.",
+  "note_id": "2026-10-29-apply-abac-policies-to-shared-views-materialized-views-and-streaming-tables",
+  "category": "platform"
+}

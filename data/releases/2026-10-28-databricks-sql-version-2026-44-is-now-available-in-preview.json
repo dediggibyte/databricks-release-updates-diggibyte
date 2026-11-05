@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-28-databricks-sql-version-2026-44-is-now-available-in-preview",
+  "title": "Databricks SQL version 2026.44 is now available in Preview",
+  "date": "2026-10-28",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202644-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.44 is now available in the **Preview** channel. This version includes the following changes:\n\n* Operating system security updates.\n* Miscellaneous bug fixes.\n\nThis version doesn't include new features or behavioral changes.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-11-05T15:18:44.097913Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29-apply-abac-policies-to-shared-views-materialized-views-and-streaming-tables",
+  "title": "Apply ABAC policies to shared views, materialized views, and streaming tables",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#apply-abac-policies-to-shared-views-materialized-views-and-streaming-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply attribute-based access control (ABAC) [row filters and column masks](/aws/en/data-governance/unity-catalog/abac/policies) to views, materialized views, and streaming tables shared through OpenSharing. Shared views are in Beta and require the ABAC on views preview. See [OpenSharing and ABAC](/aws/en/data-governance/unity-catalog/abac/opensharing).",
+  "ref_links": [
+    {
+      "text": "row filters and column masks",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/policies"
+    },
+    {
+      "text": "OpenSharing and ABAC",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/opensharing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-05T15:18:44.092478Z"
+}
