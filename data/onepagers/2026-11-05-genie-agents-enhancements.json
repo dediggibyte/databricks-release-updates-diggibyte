@@ -1,0 +1,41 @@
+{
+  "product": "Genie Agents enhancements",
+  "tagline": "Answers from accessible sources: Users who can access only some of the volumes or MCP connections attached to a Genie Agent are no longer blocked from using it.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/monitor#benchmarks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "Answers from accessible sources: Users who can access only some of the volumes or MCP connections attached to a Genie Agent are no longer blocked from using it. The agent answers using only the sources that the user can access. Custom claims in the Monitor tab: For Genie Agents that an app queries with an OAuth custom identity claim, the Monitor tab can now show each message's claim, so you can tell which of the app's end users asked it.",
+  "why_it_matters": "Faster benchmark runs: Benchmark questions now run in parallel, so benchmark evaluations finish sooner.",
+  "plain_summary": "Answers from accessible sources: Users who can access only some of the volumes or MCP connections attached to a Genie Agent are no longer blocked from using it. The agent answers using only the sources that the user can access.",
+  "capabilities": [
+    {
+      "title": "Click Submit and try again",
+      "desc": "Click Submit and try again to regenerate the response using the provided feedback."
+    },
+    {
+      "title": "Click Submit to send the",
+      "desc": "Click Submit to send the feedback without regenerating the response. Request review: Flags the response for manual review. Users…"
+    },
+    {
+      "title": "Copy CSV: Copy the response",
+      "desc": "Copy CSV: Copy the response CSV to your clipboard."
+    },
+    {
+      "title": "Add as instruction: For interactions",
+      "desc": "Add as instruction: For interactions that might be useful for teaching Genie how to answer similar questions, click Add as…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Answers from accessible sources: Users who can access only some of the volumes or MCP connections attached to a Genie Agent are no longer blocked from using it.",
+  "note_id": "2026-11-05-genie-agents-enhancements",
+  "category": "platform"
+}

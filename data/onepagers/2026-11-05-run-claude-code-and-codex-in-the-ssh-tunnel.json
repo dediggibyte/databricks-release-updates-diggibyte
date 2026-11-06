@@ -1,0 +1,33 @@
+{
+  "product": "Run Claude Code and Codex in the SSH tunnel",
+  "tagline": "Claude Code and Codex are now available in SSH tunnel sessions.",
+  "updated": "Nov 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/ssh-tunnel#coding-agents",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#run-claude-code-and-codex-in-the-ssh-tunnel",
+  "what_it_does": "Claude Code and Codex are now available in SSH tunnel sessions. The agents send model requests through Unity Gateway and authenticate with the credentials of your SSH session. This requires Databricks CLI version 1.23.0 or above.",
+  "why_it_matters": "Cost and pricing for features in Beta are subject to change.",
+  "plain_summary": "Claude Code and Codex are now available in SSH tunnel sessions. The agents send model requests through Unity Gateway and authenticate with the credentials of your SSH session.",
+  "capabilities": [
+    {
+      "title": "Visual Studio Code version 1.110.0",
+      "desc": "Visual Studio Code version 1.110.0 (Universal) or above and the Remote - SSH extension (1.0.46+) installed."
+    },
+    {
+      "title": "Cursor version 2.6.11 (Universal) or",
+      "desc": "Cursor version 2.6.11 (Universal) or above."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Claude Code and Codex are now available in SSH tunnel sessions.",
+  "note_id": "2026-11-05-run-claude-code-and-codex-in-the-ssh-tunnel",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "AI Functions require Databricks Runtime 17.3 LTS or above",
+  "tagline": "Beginning in January 2027, AI Functions that require Databricks Runtime 15.4 LTS or above, other than ai similarity, require Databricks Runtime 17.3 LTS or above.",
+  "updated": "Nov 4, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-functions-require-databricks-runtime-173-lts-or-above",
+  "what_it_does": "Beginning in January 2027, AI Functions that require Databricks Runtime 15.4 LTS or above, other than ai similarity, require Databricks Runtime 17.3 LTS or above. Calls to these functions on Databricks Runtime versions below 17.3 are no longer supported and return an error. Upgrade the compute that runs affected SQL queries to Databricks Runtime 17.3 LTS or above before support ends.",
+  "why_it_matters": "For custom prompts or a specific model, see Use ai query: Forecast time series: Search with AI Search embeddings: Use AI Functions in production workflows For large scale batch inference, you can integrate task specific AI Functions, or the general purpose function ai query into your production workflows, like Lakeflow Spark Declarative Pipelines, Databricks workflows and Structured Streaming.",
+  "plain_summary": "Beginning in January 2027, AI Functions that require Databricks Runtime 15.4 LTS or above, other than ai similarity, require Databricks Runtime 17.3 LTS or above. Calls to these functions on Databricks Runtime versions below 17.3 are no longer supported and…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Beginning in January 2027, AI Functions that require Databricks Runtime 15.4 LTS or above, other than ai similarity, require Databricks Runtime 17.3 LTS or above.",
+  "note_id": "2026-11-04-ai-functions-require-databricks-runtime-17-3-lts-or-above",
+  "category": "platform"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-05-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Answers from accessible sources**: Users who can access only some of the volumes or MCP connections attached to a Genie Agent are no longer blocked from using it. The agent answers using only the sources that the user can access. See  [Manage data objects](/aws/en/genie-agents/set-up#manage-data).\n* **Custom claims in the Monitor tab**: For Genie Agents that an app queries with an [OAuth custom identity claim](/aws/en/dev-tools/auth/oauth-custom-identity-claims#genie-example), the **Monitor** tab can now show each message's claim, so you can tell which of the app's end users asked it. Turn on the **Custom claim** column from the column picker. See [Monitor the agent](/aws/en/genie-agents/monitor#history).\n* **Faster benchmark runs**: Benchmark questions now run in parallel, so benchmark evaluations finish sooner. See [Benchmarks](/aws/en/genie-agents/monitor#benchmarks).",
+  "ref_links": [
+    {
+      "text": "Manage data objects",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/set-up#manage-data"
+    },
+    {
+      "text": "OAuth custom identity claim",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-custom-identity-claims#genie-example"
+    },
+    {
+      "text": "Monitor the agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/monitor#history"
+    },
+    {
+      "text": "Benchmarks",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/monitor#benchmarks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.017935Z"
+}

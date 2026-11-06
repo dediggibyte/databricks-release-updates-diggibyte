@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Reorder dashboard variables: Authors can now reorder dashboard variables directly in the dashboard editor.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/relationships#genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Reorder dashboard variables: Authors can now reorder dashboard variables directly in the dashboard editor. Display names for field variable options: Authors can now set a display name for each option in a field variable, such as Total revenue instead of Sum of sales. You can also ask Genie Code to set, rename, or clear these display names, and it keeps the names you set when it edits the variable.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Reorder dashboard variables: Authors can now reorder dashboard variables directly in the dashboard editor. Display names for field variable options: Authors can now set a display name for each option in a field variable, such as Total revenue instead of Sum…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Reorder dashboard variables: Authors can now reorder dashboard variables directly in the dashboard editor.",
+  "note_id": "2026-11-05-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

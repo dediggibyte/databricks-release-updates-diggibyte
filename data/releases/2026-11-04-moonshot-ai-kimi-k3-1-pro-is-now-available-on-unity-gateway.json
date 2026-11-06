@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-moonshot-ai-kimi-k3-1-pro-is-now-available-on-unity-gateway",
+  "title": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#moonshot-ai-kimi-k31-pro-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning. It is available on pay-per-token endpoints in `us-east-1`.\n\nTo query the model and see supported regions, see [Use foundation models](/aws/en/machine-learning/model-serving/score-foundation-models).",
+  "ref_links": [
+    {
+      "text": "Use foundation models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.024056Z"
+}

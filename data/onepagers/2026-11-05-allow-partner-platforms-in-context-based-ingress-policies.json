@@ -1,0 +1,41 @@
+{
+  "product": "Allow partner platforms in context-based ingress policies",
+  "tagline": "Context based ingress policies can now allow traffic from Power BI, Tableau Cloud, dbt Cloud, and the Genie apps for Slack and Microsoft Teams.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/partner-platforms",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#allow-partner-platforms-in-context-based-ingress-policies",
+  "what_it_does": "Context based ingress policies can now allow traffic from Power BI, Tableau Cloud, dbt Cloud, and the Genie apps for Slack and Microsoft Teams. Databricks keeps partner details current, so you don't track IPs. Partner platforms let you lock down public access to your workspace and still allow traffic from supported software as a service (SaaS) tools, such as Power BI, Tableau Cloud, and the Databricks Genie app for Slack.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Context based ingress policies can now allow traffic from Power BI, Tableau Cloud, dbt Cloud, and the Genie apps for Slack and Microsoft Teams. Databricks keeps partner details current, so you don't track IPs.",
+  "capabilities": [
+    {
+      "title": "Manage workspace context-based ingress policies",
+      "desc": "Manage workspace context-based ingress policies"
+    },
+    {
+      "title": "Create workspace-level policies, configure public",
+      "desc": "Create workspace-level policies, configure public, private, and cross-workspace rules, and attach policies to workspaces."
+    },
+    {
+      "title": "Migrate workspace IP access lists",
+      "desc": "Migrate workspace IP access lists to context-based ingress"
+    },
+    {
+      "title": "Move existing workspace IP access",
+      "desc": "Move existing workspace IP access lists into a context-based ingress policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Context based ingress policies can now allow traffic from Power BI, Tableau Cloud, dbt Cloud, and the Genie apps for Slack and Microsoft Teams.",
+  "note_id": "2026-11-05-allow-partner-platforms-in-context-based-ingress-policies",
+  "category": "platform"
+}

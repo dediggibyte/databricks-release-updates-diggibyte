@@ -1,0 +1,41 @@
+{
+  "product": "Publish Unity Gateway Skills with a GitHub Action in Beta",
+  "tagline": "Publish Git managed skills to Unity Catalog with a GitHub Action in Beta.",
+  "updated": "Nov 4, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/uc-skills/create-share-uc-skills#publish-skills-from-your-github-repository",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#publish-unity-gateway-skills-with-a-github-action-in-beta",
+  "what_it_does": "Publish Git managed skills to Unity Catalog with a GitHub Action in Beta. Map folders to skills and publish updates on merges to your publishing branch. Beta This feature is in Beta.",
+  "why_it_matters": "Workspaces that use the compliance security profile block these operations.",
+  "plain_summary": "Publish Git managed skills to Unity Catalog with a GitHub Action in Beta. Map folders to skills and publish updates on merges to your publishing branch.",
+  "capabilities": [
+    {
+      "title": "Use snakecase for table, column",
+      "desc": "Use snakecase for table, column, and CTE names."
+    },
+    {
+      "title": "Prefer named CTEs over nested",
+      "desc": "Prefer named CTEs over nested subqueries."
+    },
+    {
+      "title": "Always filter on partition columns",
+      "desc": "Always filter on partition columns when they exist."
+    },
+    {
+      "title": "Never use SELECT ; list",
+      "desc": "Never use SELECT ; list columns explicitly."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Publish Git managed skills to Unity Catalog with a GitHub Action in Beta.",
+  "note_id": "2026-11-04-publish-unity-gateway-skills-with-a-github-action-in-beta",
+  "category": "platform"
+}

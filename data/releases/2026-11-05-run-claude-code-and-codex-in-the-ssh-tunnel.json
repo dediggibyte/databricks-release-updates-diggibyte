@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-05-run-claude-code-and-codex-in-the-ssh-tunnel",
+  "title": "Run Claude Code and Codex in the SSH tunnel",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#run-claude-code-and-codex-in-the-ssh-tunnel",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Claude Code and Codex are now available in SSH tunnel sessions. The agents send model requests through Unity Gateway and authenticate with the credentials of your SSH session. This requires Databricks CLI version 1.23.0 or above. See [Run coding agents in an SSH session](/aws/en/dev-tools/ssh-tunnel#coding-agents).",
+  "ref_links": [
+    {
+      "text": "Run coding agents in an SSH session",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/ssh-tunnel#coding-agents"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.020683Z"
+}

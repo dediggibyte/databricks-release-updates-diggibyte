@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-05-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie traces in the unified trace table (Beta)**: Genie Code and Genie One turns can now be exported to the Unity Gateway unified trace table as OpenTelemetry spans. A workspace admin turns on tracing for each product from the **Previews** page. By default, only the trace table's owner can query the traces. See [Monitor Genie Code and Genie One with the unified trace table](/aws/en/ai-gateway/genie-traces).\n* **Faster responses**: Genie One now responds more quickly when you ask a question.\n* **Expand visualizations**: You can now open a visualization from a Genie One response in the side panel, where you can interact with it at a larger size next to the conversation. See [Expand a visualization](/aws/en/genie-one/chat#expand-visualizations).",
+  "ref_links": [
+    {
+      "text": "Monitor Genie Code and Genie One with the unified trace table",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/genie-traces"
+    },
+    {
+      "text": "Expand a visualization",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#expand-visualizations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.018918Z"
+}

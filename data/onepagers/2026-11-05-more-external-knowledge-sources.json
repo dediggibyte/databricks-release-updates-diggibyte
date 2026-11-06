@@ -1,0 +1,24 @@
+{
+  "product": "More external knowledge sources",
+  "tagline": "Databricks plans to support Tableau and Sigma as external knowledge sources.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/genie-ontology/external-knowledge-sources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#more-external-knowledge-sources",
+  "what_it_does": "Databricks plans to support Tableau and Sigma as external knowledge sources. Beta This feature is in Beta. Account admins can manage access to this feature from the account console Previews page.",
+  "why_it_matters": "Genie Ontology combines modeled context, which you define and govern with Unity Catalog semantics, with inferred context that Genie extracts from your assets.",
+  "plain_summary": "Databricks plans to support Tableau and Sigma as external knowledge sources.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks plans to support Tableau and Sigma as external knowledge sources.",
+  "note_id": "2026-11-05-more-external-knowledge-sources",
+  "category": "platform"
+}

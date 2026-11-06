@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-05-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Reorder dashboard variables**: Authors can now reorder dashboard variables directly in the dashboard editor. See [Use dashboard variables](/aws/en/dashboards/manage/filters/dashboard-variables).\n* **Display names for field variable options**: Authors can now set a display name for each option in a field variable, such as **Total revenue** instead of **Sum of sales**. You can also ask Genie Code to set, rename, or clear these display names, and it keeps the names you set when it edits the variable. See [Set display names for field options](/aws/en/dashboards/manage/filters/dashboard-variables#option-display-names).\n* **Import relationships from Unity Catalog with Genie Code (Beta)**: Genie Code for dashboard authoring can now import the relationships declared on Unity Catalog metric views into a dashboard as dashboard relationships. See [Use relationships with Genie Code for dashboard authoring](/aws/en/uc-semantics/metric-views/relationships#genie-code).\n* **Waterfall chart labels**: Labels on waterfall charts now stay visible when they're close to the top or bottom of the axis.",
+  "ref_links": [
+    {
+      "text": "Use dashboard variables",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables"
+    },
+    {
+      "text": "Set display names for field options",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables#option-display-names"
+    },
+    {
+      "text": "Use relationships with Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/relationships#genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.020221Z"
+}

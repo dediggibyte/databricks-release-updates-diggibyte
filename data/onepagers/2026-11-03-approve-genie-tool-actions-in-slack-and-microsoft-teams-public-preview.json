@@ -1,0 +1,26 @@
+{
+  "product": "Approve Genie tool actions in Slack and Microsoft Teams (Public Preview)",
+  "tagline": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action…",
+  "updated": "Nov 3, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-teams#approve-tool-actions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#approve-genie-tool-actions-in-slack-and-microsoft-teams-public-preview",
+  "what_it_does": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action without leaving the chat. Preview This feature is in Public Preview. Account admins can manage access to this feature from the account console Previews page.",
+  "why_it_matters": "Higher levels override lower levels: ←✕ Workspace admin settings From Settings Security External access, a workspace admin controls whether the Databricks Genie app in Microsoft Teams can connect to the workspace and whether its responses can be public: Allowed collaboration platforms: Which collaboration platforms can connect to the workspace.",
+  "plain_summary": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action without leaving the chat.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use case specific answers."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action…",
+  "note_id": "2026-11-03-approve-genie-tool-actions-in-slack-and-microsoft-teams-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-05-external-knowledge-sources-are-in-beta",
+  "title": "External knowledge sources are in Beta",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#external-knowledge-sources-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[External knowledge sources](/aws/en/genie/genie-ontology/external-knowledge-sources) are in [Beta](/aws/en/release-notes/release-types). You can pull metadata from Power BI semantic models into Databricks, and Genie can use your Power BI measure definitions when it answers questions. To use external knowledge sources, an account admin turns on **External knowledge** from the account console **Previews** page. See  [Manage account-level previews](/aws/en/admin/workspace-settings/manage-previews#account).",
+  "ref_links": [
+    {
+      "text": "External knowledge sources",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology/external-knowledge-sources"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Manage account-level previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews#account"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.021821Z"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "New AWS Graviton instance types: M9g and M9gd",
+  "tagline": "You can now use Graviton based M9g and M9gd instances (xlarge to 8xlarge) for classic compute.",
+  "updated": "Aug 31, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/configure#node-types",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#new-aws-graviton-instance-types-m9g-and-m9gd",
+  "what_it_does": "You can now use Graviton based M9g and M9gd instances (xlarge to 8xlarge) for classic compute. M9gd instances include local NVMe storage. note The organization of this article assumes you are using the simple form compute UI.",
+  "why_it_matters": "Performance settings The following settings appear under the Performance section of the simple form compute UI: Databricks Runtime versions Use Photon acceleration Worker node type Single node compute Enable autoscaling Advanced performance settings Databricks Runtime versions Databricks Runtime is the set of core components that run on your compute.",
+  "plain_summary": "You can now use Graviton based M9g and M9gd instances (xlarge to 8xlarge) for classic compute. M9gd instances include local NVMe storage.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "For data science",
+    "machine learning use cases",
+    "consider Databricks Runtime ML version."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use Graviton based M9g and M9gd instances (xlarge to 8xlarge) for classic compute.",
+  "note_id": "2026-08-31-new-aws-graviton-instance-types-m9g-and-m9gd",
+  "category": "platform"
+}

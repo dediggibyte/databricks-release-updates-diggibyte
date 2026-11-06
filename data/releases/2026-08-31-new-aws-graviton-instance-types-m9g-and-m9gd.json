@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-31-new-aws-graviton-instance-types-m9g-and-m9gd",
+  "title": "New AWS Graviton instance types: M9g and M9gd",
+  "date": "2026-08-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#new-aws-graviton-instance-types-m9g-and-m9gd",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Graviton-based M9g and M9gd instances (xlarge to 8xlarge) for classic compute. M9gd instances include local NVMe storage. See [Worker node type](/aws/en/compute/configure#node-types).",
+  "ref_links": [
+    {
+      "text": "Worker node type",
+      "url": "https://docs.databricks.com/aws/en/compute/configure#node-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.263447Z"
+}

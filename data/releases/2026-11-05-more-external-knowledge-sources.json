@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-05-more-external-knowledge-sources",
+  "title": "More external knowledge sources",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#more-external-knowledge-sources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks plans to support Tableau and Sigma as external knowledge sources.\n\nSee [External knowledge sources](/aws/en/genie/genie-ontology/external-knowledge-sources).",
+  "ref_links": [
+    {
+      "text": "External knowledge sources",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology/external-knowledge-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.016568Z"
+}

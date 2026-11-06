@@ -1,0 +1,24 @@
+{
+  "product": "Upcoming removal of AI Functions support on older runtimes",
+  "tagline": "Starting in January 2027, AI Functions in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes",
+  "what_it_does": "Starting in January 2027, AI Functions in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS. This change doesn't affect ai similarity or the AI Functions REST API. To continue using AI Functions in SQL, use Databricks Runtime 17.3 LTS and above.",
+  "why_it_matters": "For custom prompts or a specific model, see Use ai query: Forecast time series: Search with AI Search embeddings: Use AI Functions in production workflows For large scale batch inference, you can integrate task specific AI Functions, or the general purpose function ai query into your production workflows, like Lakeflow Spark Declarative Pipelines, Databricks workflows and Structured Streaming.",
+  "plain_summary": "Starting in January 2027, AI Functions in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS. This change doesn't affect ai similarity or the AI Functions REST API.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in January 2027, AI Functions in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS.",
+  "note_id": "2026-11-05-upcoming-removal-of-ai-functions-support-on-older-runtimes",
+  "category": "platform"
+}

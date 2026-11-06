@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-05-upcoming-removal-of-ai-functions-support-on-older-runtimes",
+  "title": "Upcoming removal of AI Functions support on older runtimes",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in January 2027, [AI Functions](/aws/en/large-language-models/ai-functions) in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS. This change doesn't affect `ai_similarity` or the AI Functions REST API. To continue using AI Functions in SQL, use Databricks Runtime 17.3 LTS and above.",
+  "ref_links": [
+    {
+      "text": "AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.022791Z"
+}

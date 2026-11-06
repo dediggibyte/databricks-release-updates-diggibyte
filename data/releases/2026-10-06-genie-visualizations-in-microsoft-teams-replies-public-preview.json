@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-06-genie-visualizations-in-microsoft-teams-replies-public-preview",
+  "title": "Genie visualizations in Microsoft Teams replies (Public Preview)",
+  "date": "2026-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-visualizations-in-microsoft-teams-replies-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When a Genie response includes a chart, the visualization now appears as an image in the Microsoft Teams reply. See [Databricks Genie app in Microsoft Teams](/aws/en/integrations/msft-teams).",
+  "ref_links": [
+    {
+      "text": "Databricks Genie app in Microsoft Teams",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-teams"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-06T14:54:54.136681Z"
+}

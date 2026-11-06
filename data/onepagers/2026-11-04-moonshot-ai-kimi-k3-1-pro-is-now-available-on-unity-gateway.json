@@ -1,0 +1,33 @@
+{
+  "product": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway",
+  "tagline": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning.",
+  "updated": "Nov 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-foundation-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#moonshot-ai-kimi-k31-pro-is-now-available-on-unity-gateway",
+  "what_it_does": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning. It is available on pay per token endpoints in us east 1. To query the model and see supported regions, see Use foundation models.",
+  "why_it_matters": "Model services give you governed access to foundation models served natively by Databricks through a single interface, without configuring a serving endpoint.",
+  "plain_summary": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning. It is available on pay per token endpoints in us east 1.",
+  "capabilities": [
+    {
+      "title": "Foundation Model APIs regions",
+      "desc": "Foundation Model APIs regions"
+    },
+    {
+      "title": "External models regions To send",
+      "desc": "External models regions To send a scoring request through the OpenAI client, REST API or MLflow Deployment SDK, you must have a…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning.",
+  "note_id": "2026-11-04-moonshot-ai-kimi-k3-1-pro-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

@@ -1,0 +1,37 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Genie traces in the unified trace table (Beta): Genie Code and Genie One turns can now be exported to the Unity Gateway unified trace table as OpenTelemetry spans.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#expand-visualizations",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Genie traces in the unified trace table (Beta): Genie Code and Genie One turns can now be exported to the Unity Gateway unified trace table as OpenTelemetry spans. A workspace admin turns on tracing for each product from the Previews page. By default, only the trace table's owner can query the traces.",
+  "why_it_matters": "Faster responses: Genie One now responds more quickly when you ask a question.",
+  "plain_summary": "Genie traces in the unified trace table (Beta): Genie Code and Genie One turns can now be exported to the Unity Gateway unified trace table as OpenTelemetry spans. A workspace admin turns on tracing for each product from the Previews page.",
+  "capabilities": [
+    {
+      "title": "Load the user's info to",
+      "desc": "Load the user's info to get their group memberships."
+    },
+    {
+      "title": "If the user belongs to",
+      "desc": "If the user belongs to the Finance group, include gross margin and operating expenses in financial summaries."
+    },
+    {
+      "title": "If the user belongs to",
+      "desc": "If the user belongs to the Sales group, include bookings and pipeline in performance summaries."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie traces in the unified trace table (Beta): Genie Code and Genie One turns can now be exported to the Unity Gateway unified trace table as OpenTelemetry spans.",
+  "note_id": "2026-11-05-genie-one-enhancements",
+  "category": "platform"
+}
