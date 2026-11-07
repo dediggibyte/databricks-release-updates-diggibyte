@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-06-install-drivers-for-jdbc-unity-catalog-connections-from-maven",
+  "title": "Install drivers for JDBC Unity Catalog connections from Maven",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#install-drivers-for-jdbc-unity-catalog-connections-from-maven",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now install the JDBC driver for a JDBC Unity Catalog connection from a Maven coordinate instead of uploading it to a volume. This requires serverless compute, Databricks Runtime 19 or above, or SQL warehouses 2026.43 or above. See [Maven coordinates](/aws/en/connect/jdbc-connection#maven-coordinates).",
+  "ref_links": [
+    {
+      "text": "Maven coordinates",
+      "url": "https://docs.databricks.com/aws/en/connect/jdbc-connection#maven-coordinates"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.607761Z"
+}

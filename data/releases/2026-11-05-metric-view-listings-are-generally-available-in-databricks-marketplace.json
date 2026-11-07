@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-05-metric-view-listings-are-generally-available-in-databricks-marketplace",
+  "title": "Metric view listings are generally available in Databricks Marketplace",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#metric-view-listings-are-generally-available-in-databricks-marketplace",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views. Only Databricks recipients can use shared metric views. See [Create a Marketplace listing](/aws/en/marketplace/create-listing) and [Add metric views to a share](/aws/en/opensharing/create-share#metric-views).",
+  "ref_links": [
+    {
+      "text": "Create a Marketplace listing",
+      "url": "https://docs.databricks.com/aws/en/marketplace/create-listing"
+    },
+    {
+      "text": "Add metric views to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.611806Z"
+}

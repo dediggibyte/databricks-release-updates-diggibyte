@@ -1,0 +1,37 @@
+{
+  "product": "Edit shared Lakeflow Designer operators with Genie Code",
+  "tagline": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/user-operators#build-steps",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#edit-shared-lakeflow-designer-operators-with-genie-code",
+  "what_it_does": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path. Lakeflow Designer lets you create custom operators that appear directly in the canvas alongside built in operators. Use them to extend Lakeflow Designer with your own business logic, calculations, or integrations.",
+  "why_it_matters": "Access is governed by Unity Catalog permissions.",
+  "plain_summary": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path.",
+  "capabilities": [
+    {
+      "title": "/Workspace/Users/me/operators/myoperator.yaml",
+      "desc": "/Workspace/Users/me/operators/myoperator.yaml"
+    },
+    {
+      "title": "/Workspace/Users/me/operators/transforms/.yaml",
+      "desc": "/Workspace/Users/me/operators/transforms/.yaml"
+    },
+    {
+      "title": "catalog: mycatalog",
+      "desc": "catalog: mycatalog"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path.",
+  "note_id": "2026-11-03-edit-shared-lakeflow-designer-operators-with-genie-code",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Write Lakeflow Designer results to Google Drive or SharePoint",
+  "tagline": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#output",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#write-lakeflow-designer-results-to-google-drive-or-sharepoint",
+  "what_it_does": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator. Each run creates or replaces a file of up to 2.75 MiB. Lakeflow Designer includes built in operators for common data preparation and transformation tasks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator. Each run creates or replaces a file of up to 2.75 MiB.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator.",
+  "note_id": "2026-11-03-write-lakeflow-designer-results-to-google-drive-or-sharepoint",
+  "category": "platform"
+}

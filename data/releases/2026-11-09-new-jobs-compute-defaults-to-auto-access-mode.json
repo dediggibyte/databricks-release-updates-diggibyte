@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-09-new-jobs-compute-defaults-to-auto-access-mode",
+  "title": "New jobs compute defaults to Auto access mode",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-jobs-compute-defaults-to-auto-access-mode",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you create new jobs compute in the UI, the access mode now defaults to **Auto** instead of **Dedicated**. Auto uses **Standard** access mode unless a machine learning runtime, a GPU instance type, or a Databricks Runtime version lower than 14.3 is selected. A cluster policy that enforces a different access mode still takes precedence. Existing jobs are not changed.\n\nFor workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled, this change takes effect in December 2026. See [What's coming](/aws/en/release-notes/whats-coming#jobs-compute-auto-access-mode-csp).\n\nSee [Use standard access mode](/aws/en/jobs/run-classic-jobs#use-standard-access-mode).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "What's coming",
+      "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#jobs-compute-auto-access-mode-csp"
+    },
+    {
+      "text": "Use standard access mode",
+      "url": "https://docs.databricks.com/aws/en/jobs/run-classic-jobs#use-standard-access-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.606460Z"
+}

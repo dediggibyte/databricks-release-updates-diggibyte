@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-edit-shared-lakeflow-designer-operators-with-genie-code",
+  "title": "Edit shared Lakeflow Designer operators with Genie Code",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#edit-shared-lakeflow-designer-operators-with-genie-code",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path. See [Build a shared custom operator](/aws/en/designer/user-operators#build-steps).",
+  "ref_links": [
+    {
+      "text": "Build a shared custom operator",
+      "url": "https://docs.databricks.com/aws/en/designer/user-operators#build-steps"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.617782Z"
+}

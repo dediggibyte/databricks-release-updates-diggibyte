@@ -1,0 +1,24 @@
+{
+  "product": "New jobs compute will soon default to Auto access mode for workspaces with the…",
+  "tagline": "Starting in December 2026, new jobs compute created in the UI will default to Auto access mode in workspaces with the compliance security profile enabled.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/run-classic-jobs#use-standard-access-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#new-jobs-compute-will-soon-default-to-auto-access-mode-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting in December 2026, new jobs compute created in the UI will default to Auto access mode in workspaces with the compliance security profile enabled. Auto uses Standard access mode unless a machine learning runtime, a GPU instance type, or a Databricks Runtime version lower than 14.3 is selected. A cluster policy that enforces a different access mode still takes precedence.",
+  "why_it_matters": "Starting in December 2026, new jobs compute created in the UI will default to Auto access mode in workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting in December 2026, new jobs compute created in the UI will default to Auto access mode in workspaces with the compliance security profile enabled. Auto uses Standard access mode unless a machine learning runtime, a GPU instance type, or a Databricks…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in December 2026, new jobs compute created in the UI will default to Auto access mode in workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-09-9352546b",
+  "category": "platform"
+}

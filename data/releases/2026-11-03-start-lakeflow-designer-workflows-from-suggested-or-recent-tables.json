@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-start-lakeflow-designer-workflows-from-suggested-or-recent-tables",
+  "title": "Start Lakeflow Designer workflows from suggested or recent tables",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#start-lakeflow-designer-workflows-from-suggested-or-recent-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen. See [Browse existing tables](/aws/en/designer/ingest-data#browse).",
+  "ref_links": [
+    {
+      "text": "Browse existing tables",
+      "url": "https://docs.databricks.com/aws/en/designer/ingest-data#browse"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.617490Z"
+}

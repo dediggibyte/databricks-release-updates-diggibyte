@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-06-restore-a-deleted-unity-catalog-metastore-with-the-rest-api-public-preview",
+  "title": "Restore a deleted Unity Catalog metastore with the REST API (Public Preview)",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#restore-a-deleted-unity-catalog-metastore-with-the-rest-api-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Account admins can now restore a deleted Unity Catalog metastore by its ID. You can restore a metastore for up to 5 days after it's deleted. See [Restore a deleted metastore](/aws/en/data-governance/unity-catalog/manage-metastore#restore).",
+  "ref_links": [
+    {
+      "text": "Restore a deleted metastore",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-metastore#restore"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.607390Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Start Lakeflow Designer workflows from suggested or recent tables",
+  "tagline": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/ingest-data#browse",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#start-lakeflow-designer-workflows-from-suggested-or-recent-tables",
+  "what_it_does": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen. You can bring any data accessible through Databricks into a visual data prep in Lakeflow Designer. All data ingestion in Designer starts with the Source operator.",
+  "why_it_matters": "Additionally, for large amounts of data, this provides the best performance.",
+  "plain_summary": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen.",
+  "note_id": "2026-11-03-start-lakeflow-designer-workflows-from-suggested-or-recent-tables",
+  "category": "platform"
+}

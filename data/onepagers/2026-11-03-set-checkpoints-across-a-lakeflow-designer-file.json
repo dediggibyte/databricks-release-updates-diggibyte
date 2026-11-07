@@ -1,0 +1,24 @@
+{
+  "product": "Set checkpoints across a Lakeflow Designer file",
+  "tagline": "Set checkpoint options across a visual data prep file with Set all to Auto or Set all to On.",
+  "updated": "Nov 3, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/preview-results#checkpoint",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#set-checkpoints-across-a-lakeflow-designer-file",
+  "what_it_does": "Set checkpoint options across a visual data prep file with Set all to Auto or Set all to On. As you build a visual data prep, Lakeflow Designer previews each operator's results so you can check your work without running the whole workflow. This page describes how to read and control previews, run part or all of the visual data prep, save operator results with checkpoints, and refine data directly in the results table.",
+  "why_it_matters": "If the selected operator's run has performance data, click Performance in the output pane to open the full query profile.",
+  "plain_summary": "Set checkpoint options across a visual data prep file with Set all to Auto or Set all to On.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Set checkpoint options across a visual data prep file with Set all to Auto or Set all to On.",
+  "note_id": "2026-11-03-set-checkpoints-across-a-lakeflow-designer-file",
+  "category": "platform"
+}

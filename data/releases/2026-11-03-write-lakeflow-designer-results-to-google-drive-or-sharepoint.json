@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-write-lakeflow-designer-results-to-google-drive-or-sharepoint",
+  "title": "Write Lakeflow Designer results to Google Drive or SharePoint",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#write-lakeflow-designer-results-to-google-drive-or-sharepoint",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator. Each run creates or replaces a file of up to 2.75 MiB. See [Output](/aws/en/designer/built-in-operators#output).",
+  "ref_links": [
+    {
+      "text": "Output",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#output"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.618062Z"
+}

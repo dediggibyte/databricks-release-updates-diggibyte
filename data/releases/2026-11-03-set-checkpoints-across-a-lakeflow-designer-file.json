@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-03-set-checkpoints-across-a-lakeflow-designer-file",
+  "title": "Set checkpoints across a Lakeflow Designer file",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#set-checkpoints-across-a-lakeflow-designer-file",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Set checkpoint options across a visual data prep file with **Set all to Auto** or **Set all to On**. See [Configure operator checkpoints](/aws/en/designer/preview-results#checkpoint).",
+  "ref_links": [
+    {
+      "text": "Configure operator checkpoints",
+      "url": "https://docs.databricks.com/aws/en/designer/preview-results#checkpoint"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-07T13:51:10.618427Z"
+}

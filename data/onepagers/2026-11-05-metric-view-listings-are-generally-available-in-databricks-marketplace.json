@@ -1,0 +1,24 @@
+{
+  "product": "Metric view listings are generally available in Databricks Marketplace",
+  "tagline": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views.",
+  "updated": "Nov 5, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-share#metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#metric-view-listings-are-generally-available-in-databricks-marketplace",
+  "what_it_does": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views. Only Databricks recipients can use shared metric views. A share is a securable object in Unity Catalog that represents a collection of data and AI assets you want to share with one or more recipients.",
+  "why_it_matters": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views.",
+  "plain_summary": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views. Only Databricks recipients can use shared metric views.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views.",
+  "note_id": "2026-11-05-metric-view-listings-are-generally-available-in-databricks-marketplace",
+  "category": "platform"
+}

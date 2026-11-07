@@ -1,0 +1,24 @@
+{
+  "product": "Unity Catalog wikis are in Beta",
+  "tagline": "Unity Catalog wikis are in Beta.",
+  "updated": "Nov 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/wikis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#unity-catalog-wikis-are-in-beta",
+  "what_it_does": "Unity Catalog wikis are in Beta. A wiki lets your team document a table's meaning, intended use, and sources, then collaborate on that information. Data owners and stewards draft and publish wikis in Catalog Explorer, manually or with Genie Code, and anyone who can view the table's metadata can comment on, suggest edits to, and react to published wikis.",
+  "why_it_matters": "What's in a wiki A wiki contains the following fields: ←✕ Permissions A wiki isn't a securable object.",
+  "plain_summary": "Unity Catalog wikis are in Beta. A wiki lets your team document a table's meaning, intended use, and sources, then collaborate on that information.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Unity Catalog wikis are in Beta.",
+  "note_id": "2026-11-06-unity-catalog-wikis-are-in-beta",
+  "category": "platform"
+}
