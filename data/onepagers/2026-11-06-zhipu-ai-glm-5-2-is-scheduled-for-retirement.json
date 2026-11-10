@@ -1,0 +1,24 @@
+{
+  "product": "Zhipu AI GLM 5.2 is scheduled for retirement",
+  "tagline": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027.",
+  "updated": "Nov 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#zhipu-ai-glm-52-is-scheduled-for-retirement",
+  "what_it_does": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027. GLM 5.3 is the recommended replacement. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027. GLM 5.3 is the recommended replacement.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027.",
+  "note_id": "2026-11-06-zhipu-ai-glm-5-2-is-scheduled-for-retirement",
+  "category": "platform"
+}

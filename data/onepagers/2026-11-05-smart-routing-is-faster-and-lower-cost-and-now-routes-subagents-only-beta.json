@@ -1,0 +1,24 @@
+{
+  "product": "Smart Routing is faster and lower cost, and now routes subagents only (Beta)",
+  "tagline": "Smart Routing now routes only subagents, not the first prompt.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-model-selection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#smart-routing-is-faster-and-lower-cost-and-now-routes-subagents-only-beta",
+  "what_it_does": "Smart Routing now routes only subagents, not the first prompt. It costs up to 70% less in internal benchmarks and cuts p90 routing latency from 9 seconds to 2 seconds. Smart Routing for Codex is paused.",
+  "why_it_matters": "It costs up to 70% less in internal benchmarks and cuts p90 routing latency from 9 seconds to 2 seconds.",
+  "plain_summary": "Smart Routing now routes only subagents, not the first prompt. It costs up to 70% less in internal benchmarks and cuts p90 routing latency from 9 seconds to 2 seconds.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Smart Routing now routes only subagents, not the first prompt.",
+  "note_id": "2026-11-05-smart-routing-is-faster-and-lower-cost-and-now-routes-subagents-only-beta",
+  "category": "platform"
+}

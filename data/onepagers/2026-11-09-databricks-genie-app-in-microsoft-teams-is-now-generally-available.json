@@ -1,0 +1,30 @@
+{
+  "product": "Databricks Genie app in Microsoft Teams is now generally available",
+  "tagline": "The Databricks Genie app in Microsoft Teams is now generally available.",
+  "updated": "Nov 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-teams",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-in-microsoft-teams-is-now-generally-available",
+  "what_it_does": "The Databricks Genie app in Microsoft Teams is now generally available. Chat with the app in a direct message or mention @Databricks Genie in a channel or group chat to get answers to data questions without leaving Microsoft Teams. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Databricks Genie app in Microsoft Teams is now generally available. Chat with the app in a direct message or mention @Databricks Genie in a channel or group chat to get answers to data questions without leaving Microsoft Teams.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use case specific answers."
+  ],
+  "limitations": [
+    "Visualizing charts",
+    "Sending Databricks notifications to Teams",
+    "Triggering actions in Databricks from Teams"
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Genie app in Microsoft Teams is now generally available.",
+  "note_id": "2026-11-09-databricks-genie-app-in-microsoft-teams-is-now-generally-available",
+  "category": "platform"
+}

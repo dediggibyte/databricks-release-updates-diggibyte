@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-06-zhipu-ai-glm-5-2-is-scheduled-for-retirement",
+  "title": "Zhipu AI GLM 5.2 is scheduled for retirement",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#zhipu-ai-glm-52-is-scheduled-for-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027. GLM 5.3 is the recommended replacement. See [Legacy, deprecated, and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Legacy, deprecated, and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.133518Z"
+}

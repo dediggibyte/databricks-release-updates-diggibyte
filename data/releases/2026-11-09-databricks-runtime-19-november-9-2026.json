@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-09-databricks-runtime-19-november-9-2026",
+  "title": "Databricks Runtime 19: November 9, 2026",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-9-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Bug fixes\n\n* Fix real-time mode reservation liveness and occupied-slot accounting when tasks execute through Aether.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.131895Z"
+}

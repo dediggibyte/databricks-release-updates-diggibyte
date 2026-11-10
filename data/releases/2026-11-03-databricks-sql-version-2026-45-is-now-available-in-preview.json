@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-03-databricks-sql-version-2026-45-is-now-available-in-preview",
+  "title": "Databricks SQL version 2026.45 is now available in Preview",
+  "date": "2026-11-03",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202645-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2026.45 is now available in the **Preview** channel. Review the following section to learn about new features.\n\n#### Share views with or without history\n\n`ALTER SHARE ... ADD VIEW` and `ALTER SHARE ... ALTER VIEW` now accept the `WITH HISTORY` and `WITHOUT HISTORY` clauses. Existing history defaults are unchanged.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.142531Z"
+}

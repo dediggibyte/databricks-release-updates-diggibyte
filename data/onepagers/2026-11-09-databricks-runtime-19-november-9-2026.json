@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: November 9, 2026",
+  "tagline": "Bug fixes Fix real time mode reservation liveness and occupied slot accounting when tasks execute through Aether.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-9-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-9-2026",
+  "what_it_does": "Bug fixes Fix real time mode reservation liveness and occupied slot accounting when tasks execute through Aether.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Bug fixes Fix real time mode reservation liveness and occupied slot accounting when tasks execute through Aether.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Bug fixes Fix real time mode reservation liveness and occupied slot accounting when tasks execute through Aether.",
+  "note_id": "2026-11-09-databricks-runtime-19-november-9-2026",
+  "category": "platform"
+}

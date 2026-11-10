@@ -1,0 +1,41 @@
+{
+  "product": "Genie Ontology is now generally available",
+  "tagline": "Genie Ontology is now generally available.",
+  "updated": "Nov 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-ontology-is-now-generally-available",
+  "what_it_does": "Genie Ontology is now generally available. Genie Ontology is the context layer that gives Genie One, Genie Code, and other AI agents a business aware map of your organization. It combines modeled knowledge that you define in Unity Catalog semantics with learned knowledge that Genie extracts from your assets and usage.",
+  "why_it_matters": "This ensures that both human users and AI tools interpret your data consistently under a single governance model.",
+  "plain_summary": "Genie Ontology is now generally available. Genie Ontology is the context layer that gives Genie One, Genie Code, and other AI agents a business aware map of your organization.",
+  "capabilities": [
+    {
+      "title": "Unity Catalog metric views",
+      "desc": "Unity Catalog metric views"
+    },
+    {
+      "title": "Learn what metric views are",
+      "desc": "Learn what metric views are, why they're more flexible than standard views, and how to create, query, model, and manage them."
+    },
+    {
+      "title": "Domains and subdomains",
+      "desc": "Domains and subdomains"
+    },
+    {
+      "title": "Create and manage domains and",
+      "desc": "Create and manage domains and subdomains to organize data assets by business purpose in the Discover page."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Ontology is now generally available.",
+  "note_id": "2026-11-09-genie-ontology-is-now-generally-available",
+  "category": "platform"
+}

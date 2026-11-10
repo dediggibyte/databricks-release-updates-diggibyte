@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-09-genie-search-is-now-generally-available",
+  "title": "Genie Search is now generally available",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-search-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Genie Search](/aws/en/genie/genie-ontology/search-index) is now generally available. Genie Search indexes your organization's knowledge in sources such as Google Drive, Jira, Confluence, and Workday, so Genie One can search all of that knowledge in one place. Databricks indexes each document's permissions with its content and keeps both current, so users see only the documents that they can already access in the source.\n\nGenie Search also powers the following features in Genie One:\n\n* **Org directories**: Find teammates, browse the org chart, and view profiles from Workday. See [Browse org directories in Genie One](/aws/en/genie-one/people).\n* **Search in Discover**: Search Databricks assets and content from connected sources in one place. See [Use Genie Search in Genie One](/aws/en/genie-one/search).\n\nDatabricks recommends using Genie Search together with [MCP connectors](/aws/en/genie-one/external-sources), which let Genie One access live data and take action in the applications your team uses.",
+  "ref_links": [
+    {
+      "text": "Genie Search",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology/search-index"
+    },
+    {
+      "text": "Browse org directories in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/people"
+    },
+    {
+      "text": "Use Genie Search in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/search"
+    },
+    {
+      "text": "MCP connectors",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.130124Z"
+}

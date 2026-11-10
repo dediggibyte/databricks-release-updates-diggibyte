@@ -1,0 +1,24 @@
+{
+  "product": "Load Unity Catalog tables into PyTorch on AI Runtime (Beta)",
+  "tagline": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse.",
+  "updated": "Nov 6, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/develop-workloads/load-uc-tables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#load-unity-catalog-tables-into-pytorch-on-ai-runtime-beta",
+  "what_it_does": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse. It applies filter expressions and deletion vectors as it reads, and splits the matching rows across GPUs and data loader workers. Beta This feature is in Beta.",
+  "why_it_matters": "With DDP, the rank with the extra batch then waits on a gradient all reduce that the other ranks never join, and the job fails.",
+  "plain_summary": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse. It applies filter expressions and deletion vectors as it reads, and splits the matching rows across GPUs and data loader…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse.",
+  "note_id": "2026-11-06-load-unity-catalog-tables-into-pytorch-on-ai-runtime-beta",
+  "category": "platform"
+}

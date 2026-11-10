@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-07-recover-dropped-unity-catalog-volumes-with-undrop-volume",
+  "title": "Recover dropped Unity Catalog volumes with UNDROP VOLUME",
+  "date": "2026-11-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recover-dropped-unity-catalog-volumes-with-undrop-volume",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now recover a dropped Unity Catalog volume within 7 days. Find its ID with `SHOW VOLUMES DROPPED`, then run `UNDROP VOLUME WITH ID` to restore it with its privileges and tags. Requires Databricks Runtime 19 and above. See [UNDROP VOLUME](/aws/en/sql/language-manual/sql-ref-syntax-ddl-undrop-volume).",
+  "ref_links": [
+    {
+      "text": "UNDROP VOLUME",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-undrop-volume"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.132269Z"
+}

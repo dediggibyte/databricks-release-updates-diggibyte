@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-09-genie-ontology-is-now-generally-available",
+  "title": "Genie Ontology is now generally available",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-ontology-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Genie Ontology](/aws/en/genie/genie-ontology) is now [generally available](/aws/en/release-notes/release-types). Genie Ontology is the context layer that gives Genie One, Genie Code, and other AI agents a business-aware map of your organization. It combines modeled knowledge that you define in [Unity Catalog semantics](/aws/en/uc-semantics) with learned knowledge that Genie extracts from your assets and usage.",
+  "ref_links": [
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology"
+    },
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Unity Catalog semantics",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.130570Z"
+}

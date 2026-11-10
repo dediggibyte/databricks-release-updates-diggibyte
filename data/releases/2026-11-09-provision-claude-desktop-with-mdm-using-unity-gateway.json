@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-09-provision-claude-desktop-with-mdm-using-unity-gateway",
+  "title": "Provision Claude desktop with MDM using Unity Gateway",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#provision-claude-desktop-with-mdm-using-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Admins can use `ug configure --global` from their mobile device management (MDM) software to provision the Claude desktop app machine-wide with governed models, MCP servers, and skills, and users can import their claude.ai projects and chats. This is available on macOS only. [Learn more](/aws/en/ai-gateway/coding-agent-rollout#roll-out-claude-desktop-with-mdm).",
+  "ref_links": [
+    {
+      "text": "Learn more",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-rollout#roll-out-claude-desktop-with-mdm"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.126243Z"
+}

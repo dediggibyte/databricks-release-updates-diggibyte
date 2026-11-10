@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-06-load-unity-catalog-tables-into-pytorch-on-ai-runtime-beta",
+  "title": "Load Unity Catalog tables into PyTorch on AI Runtime (Beta)",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#load-unity-catalog-tables-into-pytorch-on-ai-runtime-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`UCDataset` streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse. It applies filter expressions and deletion vectors as it reads, and splits the matching rows across GPUs and data loader workers. See [Load Unity Catalog tables into PyTorch with `UCDataset`](/aws/en/machine-learning/ai-runtime/develop-workloads/load-uc-tables).",
+  "ref_links": [
+    {
+      "text": "Load Unity Catalog tables into PyTorch with UCDataset",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/develop-workloads/load-uc-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.133993Z"
+}

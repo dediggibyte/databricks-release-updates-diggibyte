@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-09-databricks-genie-app-for-slack-is-now-generally-available",
+  "title": "Databricks Genie app for Slack is now generally available",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-for-slack-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Genie app for Slack is now [generally available](/aws/en/release-notes/release-types). Send a direct message to the app or mention `@Genie` in a channel or group DM to get answers to data questions without leaving Slack. See [Databricks Genie app for Slack](/aws/en/genie-one/genie-slack).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Databricks Genie app for Slack",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie-slack"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.129338Z"
+}

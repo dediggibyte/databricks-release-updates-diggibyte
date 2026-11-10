@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-09-databricks-genie-app-in-microsoft-teams-is-now-generally-available",
+  "title": "Databricks Genie app in Microsoft Teams is now generally available",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-in-microsoft-teams-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Genie app in Microsoft Teams is now [generally available](/aws/en/release-notes/release-types). Chat with the app in a direct message or mention `@Databricks Genie` in a channel or group chat to get answers to data questions without leaving Microsoft Teams. See [Databricks Genie app in Microsoft Teams](/aws/en/integrations/msft-teams).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Databricks Genie app in Microsoft Teams",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-teams"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-10T15:30:06.128898Z"
+}

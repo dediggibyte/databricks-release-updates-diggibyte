@@ -1,0 +1,24 @@
+{
+  "product": "Shift dates in Lakeflow Jobs parameters with date arithmetic (Beta)",
+  "tagline": "Dynamic value references in Lakeflow Jobs can now shift a date by a duration before formatting it.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/dynamic-value-references#date-arithmetic",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#shift-dates-in-lakeflow-jobs-parameters-with-date-arithmetic-beta",
+  "what_it_does": "Dynamic value references in Lakeflow Jobs can now shift a date by a duration before formatting it. For example, {{(job.start time 1.day).iso date}} passes the date of the day before the run started to a task. Date arithmetic is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Dynamic value references in Lakeflow Jobs can now shift a date by a duration before formatting it. For example, {{(job.start time 1.day).iso date}} passes the date of the day before the run started to a task.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Dynamic value references in Lakeflow Jobs can now shift a date by a duration before formatting it.",
+  "note_id": "2026-11-09-shift-dates-in-lakeflow-jobs-parameters-with-date-arithmetic-beta",
+  "category": "platform"
+}
