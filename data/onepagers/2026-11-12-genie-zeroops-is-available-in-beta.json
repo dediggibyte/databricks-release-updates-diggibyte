@@ -1,0 +1,24 @@
+{
+  "product": "Genie ZeroOps is available in Beta",
+  "tagline": "Genie ZeroOps is now available in Beta.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/zeroops/get-started",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+  "what_it_does": "Genie ZeroOps is now available in Beta. It monitors jobs, pipelines, and tables in the background, detects failures and data quality issues, investigates the root cause, and proposes a fix. Beta This feature is in Beta.",
+  "why_it_matters": "Saving instructions does not change an investigation that is already in progress.",
+  "plain_summary": "Genie ZeroOps is now available in Beta. It monitors jobs, pipelines, and tables in the background, detects failures and data quality issues, investigates the root cause, and proposes a fix.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie ZeroOps is now available in Beta.",
+  "note_id": "2026-11-12-genie-zeroops-is-available-in-beta",
+  "category": "platform"
+}

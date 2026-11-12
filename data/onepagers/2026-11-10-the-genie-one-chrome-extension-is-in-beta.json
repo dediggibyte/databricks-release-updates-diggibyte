@@ -1,0 +1,24 @@
+{
+  "product": "The Genie One Chrome extension is in Beta",
+  "tagline": "The Genie One Chrome extension is now available in Beta.",
+  "updated": "Nov 10, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chrome-extension",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#the-genie-one-chrome-extension-is-in-beta",
+  "what_it_does": "The Genie One Chrome extension is now available in Beta. The extension makes every new Chrome tab open Genie One in your workspace, so asking a question, searching across your tools, or opening a dashboard takes one click. Install it from the Chrome Web Store.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie One Chrome extension is now available in Beta. The extension makes every new Chrome tab open Genie One in your workspace, so asking a question, searching across your tools, or opening a dashboard takes one click.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One Chrome extension is now available in Beta.",
+  "note_id": "2026-11-10-the-genie-one-chrome-extension-is-in-beta",
+  "category": "platform"
+}

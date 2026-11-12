@@ -1,0 +1,41 @@
+{
+  "product": "Add aggregations for several Lakeflow Designer columns (Public Preview)",
+  "tagline": "Select multiple columns when adding an aggregation in Lakeflow Designer.",
+  "updated": "Nov 4, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#aggregate",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#add-aggregations-for-several-lakeflow-designer-columns-public-preview",
+  "what_it_does": "Select multiple columns when adding an aggregation in Lakeflow Designer. The Aggregate operator creates a separate aggregation for each selected column. Lakeflow Designer includes built in operators for common data preparation and transformation tasks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Select multiple columns when adding an aggregation in Lakeflow Designer. The Aggregate operator creates a separate aggregation for each selected column.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Select multiple columns when adding an aggregation in Lakeflow Designer.",
+  "note_id": "2026-11-04-add-aggregations-for-several-lakeflow-designer-columns-public-preview",
+  "category": "platform"
+}

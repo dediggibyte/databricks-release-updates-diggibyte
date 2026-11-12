@@ -1,0 +1,41 @@
+{
+  "product": "External access to Unity Catalog managed Delta tables will soon be available…",
+  "tagline": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the compliance security profile enabled.",
+  "updated": "Nov 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/unity-rest",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#external-access-to-unity-catalog-managed-delta-tables-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the compliance security profile enabled. Supported external Delta clients can create, read, and write Unity Catalog managed Delta tables. Creating and writing managed Delta tables requires catalog commits.",
+  "why_it_matters": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the compliance security profile enabled. Supported external Delta clients can create, read, and write…",
+  "capabilities": [
+    {
+      "title": "SELECT on the table for",
+      "desc": "SELECT on the table for reads"
+    },
+    {
+      "title": "MODIFY on the table for",
+      "desc": "MODIFY on the table for writes"
+    },
+    {
+      "title": "CREATE on the schema for",
+      "desc": "CREATE on the schema for table creation"
+    },
+    {
+      "title": "For external writes to managed",
+      "desc": "For external writes to managed Delta tables, verify that the table being written to has catalog commits enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-10-587b70e4",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Calculate across rows in Lakeflow Designer (Public Preview)",
+  "tagline": "Use the Multi Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#multi-row-formula",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#calculate-across-rows-in-lakeflow-designer-public-preview",
+  "what_it_does": "Use the Multi Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows. Lakeflow Designer includes built in operators for common data preparation and transformation tasks. Open the Operators pane on the left to browse operators by category, or use Search for an operator...",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Use the Multi Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use the Multi Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows.",
+  "note_id": "2026-11-05-calculate-across-rows-in-lakeflow-designer-public-preview",
+  "category": "platform"
+}

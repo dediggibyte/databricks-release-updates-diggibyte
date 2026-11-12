@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-30-authorize-headless-machines-with-the-oauth-device-code-flow-beta",
+  "title": "Authorize headless machines with the OAuth device code flow (Beta)",
+  "date": "2026-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#authorize-headless-machines-with-the-oauth-device-code-flow-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now get a workspace-level OAuth token on a headless machine, such as a remote VM or container, by finishing sign-in in a browser on another device. Workspace admins can turn this on from the **Previews** page. See [Authorize headless access with the OAuth device code flow](/aws/en/dev-tools/auth/oauth-device-code).",
+  "ref_links": [
+    {
+      "text": "Authorize headless access with the OAuth device code flow",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-device-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.790501Z"
+}

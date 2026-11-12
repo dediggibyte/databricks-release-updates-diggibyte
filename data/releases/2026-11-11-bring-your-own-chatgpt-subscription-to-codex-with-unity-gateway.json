@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-bring-your-own-chatgpt-subscription-to-codex-with-unity-gateway",
+  "title": "Bring your own ChatGPT subscription to Codex with Unity Gateway",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#bring-your-own-chatgpt-subscription-to-codex-with-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use your own ChatGPT Go, Plus, Pro, or Enterprise subscription with Codex and ChatGPT desktop through Unity Gateway. Requests are billed to your subscription, and Unity Gateway governs access and usage. See [ChatGPT subscription support](/aws/en/ai-gateway/chatgpt-subscription-support).",
+  "ref_links": [
+    {
+      "text": "ChatGPT subscription support",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/chatgpt-subscription-support"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.748428Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-connect-claude-to-genie-one-with-the-databricks-genie-connector",
+  "title": "Connect Claude to Genie One with the Databricks Genie connector",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-claude-to-genie-one-with-the-databricks-genie-connector",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Genie connector connects Claude to the Genie One MCP, so users can ask questions about their data from Claude. A Claude admin connects it for the team, and each user connects by signing in with their Databricks account. See [Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor](/aws/en/agents/mcp-tools/genie-mcp#genie-plugins).",
+  "ref_links": [
+    {
+      "text": "Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp#genie-plugins"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.749348Z"
+}

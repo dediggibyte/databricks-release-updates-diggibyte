@@ -1,0 +1,33 @@
+{
+  "product": "Authorize headless machines with the OAuth device code flow (Beta)",
+  "tagline": "You can now get a workspace level OAuth token on a headless machine, such as a remote VM or container, by finishing sign in in a browser on another device.",
+  "updated": "Oct 30, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-device-code",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#authorize-headless-machines-with-the-oauth-device-code-flow-beta",
+  "what_it_does": "You can now get a workspace level OAuth token on a headless machine, such as a remote VM or container, by finishing sign in in a browser on another device. Workspace admins can turn this on from the Previews page. Beta This feature is in Beta.",
+  "why_it_matters": "←✕ Security recommendations The user code and confirmation code grant access to your workspace.",
+  "plain_summary": "You can now get a workspace level OAuth token on a headless machine, such as a remote VM or container, by finishing sign in in a browser on another device. Workspace admins can turn this on from the Previews page.",
+  "capabilities": [
+    {
+      "title": "The Databricks CLI OAuth application",
+      "desc": "The Databricks CLI OAuth application, with the client ID databricks-cli."
+    },
+    {
+      "title": "A custom OAuth application. See",
+      "desc": "A custom OAuth application. See Enable custom OAuth applications using the Databricks UI. You have the workspace URL. Device…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now get a workspace level OAuth token on a headless machine, such as a remote VM or container, by finishing sign in in a browser on another device.",
+  "note_id": "2026-10-30-authorize-headless-machines-with-the-oauth-device-code-flow-beta",
+  "category": "platform"
+}

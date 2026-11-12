@@ -1,0 +1,24 @@
+{
+  "product": "Pages are generally available",
+  "tagline": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available.",
+  "updated": "Nov 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/pages",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#pages-are-generally-available",
+  "what_it_does": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available. Curators can certify and deprecate Pages, and the new MANAGE PAGES permission controls who can publish and manage Pages in a domain. You can also manage Pages with the REST API.",
+  "why_it_matters": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available.",
+  "plain_summary": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available. Curators can certify and deprecate Pages, and the new MANAGE PAGES permission controls who can publish and manage Pages in a domain.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available.",
+  "note_id": "2026-11-11-pages-are-generally-available",
+  "category": "platform"
+}

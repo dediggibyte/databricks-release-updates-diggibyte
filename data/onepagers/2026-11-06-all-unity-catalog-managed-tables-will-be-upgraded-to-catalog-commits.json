@@ -1,0 +1,24 @@
+{
+  "product": "All Unity Catalog managed tables will be upgraded to catalog commits",
+  "tagline": "After Databricks Runtime 15.4 LTS reaches end of support on August 19, 2027, Databricks will upgrade all Unity Catalog managed tables to use catalog commits.",
+  "updated": "Nov 6, 2026",
+  "status_label": "EOL",
+  "status": "eol",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#all-unity-catalog-managed-tables-will-be-upgraded-to-catalog-commits",
+  "what_it_does": "After Databricks Runtime 15.4 LTS reaches end of support on August 19, 2027, Databricks will upgrade all Unity Catalog managed tables to use catalog commits. With catalog commits, Unity Catalog becomes the system of coordination for your tables. This enables multi statement, multi table transactions, writes from external engines, and consistent governance across all engines.",
+  "why_it_matters": "This enables multi statement, multi table transactions, writes from external engines, and consistent governance across all engines.",
+  "plain_summary": "After Databricks Runtime 15.4 LTS reaches end of support on August 19, 2027, Databricks will upgrade all Unity Catalog managed tables to use catalog commits. With catalog commits, Unity Catalog becomes the system of coordination for your tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "After Databricks Runtime 15.4 LTS reaches end of support on August 19, 2027, Databricks will upgrade all Unity Catalog managed tables to use catalog commits.",
+  "note_id": "2026-11-06-all-unity-catalog-managed-tables-will-be-upgraded-to-catalog-commits",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Allow ChatGPT and Claude as partner platforms in context-based ingress policies",
+  "tagline": "Context based ingress policies can now allow traffic from ChatGPT and Claude as partner platforms.",
+  "updated": "Nov 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/partner-platforms",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#allow-chatgpt-and-claude-as-partner-platforms-in-context-based-ingress-policies",
+  "what_it_does": "Context based ingress policies can now allow traffic from ChatGPT and Claude as partner platforms. Databricks keeps their published IP ranges current, so you don't track the IPs yourself. Use these rules to allow hosted Model Context Protocol (MCP) clients, such as the Databricks Genie plugins for ChatGPT and Claude, to reach your workspace.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Context based ingress policies can now allow traffic from ChatGPT and Claude as partner platforms. Databricks keeps their published IP ranges current, so you don't track the IPs yourself.",
+  "capabilities": [
+    {
+      "title": "Manage workspace context-based ingress policies",
+      "desc": "Manage workspace context-based ingress policies"
+    },
+    {
+      "title": "Create workspace-level policies, configure public",
+      "desc": "Create workspace-level policies, configure public, private, and cross-workspace rules, and attach policies to workspaces."
+    },
+    {
+      "title": "Migrate workspace IP access lists",
+      "desc": "Migrate workspace IP access lists to context-based ingress"
+    },
+    {
+      "title": "Move existing workspace IP access",
+      "desc": "Move existing workspace IP access lists into a context-based ingress policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Context based ingress policies can now allow traffic from ChatGPT and Claude as partner platforms.",
+  "note_id": "2026-11-10-allow-chatgpt-and-claude-as-partner-platforms-in-context-based-ingress-policies",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-02-ai-decide-beta-now-delivers-higher-answer-accuracy",
+  "title": "ai_decide (Beta) now delivers higher answer accuracy",
+  "date": "2026-11-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai_decide-beta-now-delivers-higher-answer-accuracy",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_decide` (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency. See [`ai_decide` function](/aws/en/sql/language-manual/functions/ai_decide).",
+  "ref_links": [
+    {
+      "text": "ai_decide function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_decide"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.785967Z"
+}

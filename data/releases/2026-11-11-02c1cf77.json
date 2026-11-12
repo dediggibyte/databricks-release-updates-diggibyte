@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-02c1cf77",
+  "title": "Feature Views are now available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#feature-views-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Feature Views are now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nSee [Feature Views](/aws/en/machine-learning/feature-store/feature-views).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Feature Views",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.751674Z"
+}

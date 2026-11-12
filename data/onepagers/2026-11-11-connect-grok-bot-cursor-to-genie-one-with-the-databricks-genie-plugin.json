@@ -1,0 +1,24 @@
+{
+  "product": "Connect Grok Bot/Cursor to Genie One with the Databricks Genie plugin",
+  "tagline": "The Databricks Genie plugin connects Grok Bot/Cursor to the Genie One MCP, so users can ask questions about their data from Grok Bot/Cursor.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp#genie-plugins",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-grok-botcursor-to-genie-one-with-the-databricks-genie-plugin",
+  "what_it_does": "The Databricks Genie plugin connects Grok Bot/Cursor to the Genie One MCP, so users can ask questions about their data from Grok Bot/Cursor. A Cursor team admin publishes the plugin for the team, and each user connects by signing in with their Databricks account. The Genie One MCP server is a Databricks provided MCP that exposes Genie as a conversational tool over the Model Context Protocol (MCP), leveraging Chat in Genie One.",
+  "why_it_matters": "Genie resolves business terms, metric definitions, and table relationships through Genie Ontology, your governed semantic layer, which produces more accurate answers than an agent writing SQL directly against raw tables.",
+  "plain_summary": "The Databricks Genie plugin connects Grok Bot/Cursor to the Genie One MCP, so users can ask questions about their data from Grok Bot/Cursor. A Cursor team admin publishes the plugin for the team, and each user connects by signing in with their Databricks…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Databricks Genie plugin connects Grok Bot/Cursor to the Genie One MCP, so users can ask questions about their data from Grok Bot/Cursor.",
+  "note_id": "2026-11-11-connect-grok-bot-cursor-to-genie-one-with-the-databricks-genie-plugin",
+  "category": "platform"
+}

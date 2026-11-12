@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-the-genie-one-desktop-app-for-windows-is-in-beta",
+  "title": "The Genie One desktop app for Windows is in Beta",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#the-genie-one-desktop-app-for-windows-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One desktop app is now available for Windows in [Beta](/aws/en/release-notes/release-types), in addition to macOS. The native app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. See [Windows](/aws/en/genie-one/desktop#install-windows).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Windows",
+      "url": "https://docs.databricks.com/aws/en/genie-one/desktop#install-windows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.752750Z"
+}

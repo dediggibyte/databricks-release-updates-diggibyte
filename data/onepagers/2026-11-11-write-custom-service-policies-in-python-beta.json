@@ -1,0 +1,24 @@
+{
+  "product": "Write custom service policies in Python (Beta)",
+  "tagline": "You can now write a custom service policy as a Python function in Unity Catalog.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies/python-policies",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#write-custom-service-policies-in-python-beta",
+  "what_it_does": "You can now write a custom service policy as a Python function in Unity Catalog. Use it for rules that SQL can't express, such as regular expressions, Python packages, or calls to an external guardrail through a service credential. It's available in select regions.",
+  "why_it_matters": "The workspace that sends requests to the service must not use the compliance security profile, a serverless network policy that restricts internet access or blocks specific destinations, or a private network gateway.",
+  "plain_summary": "You can now write a custom service policy as a Python function in Unity Catalog. Use it for rules that SQL can't express, such as regular expressions, Python packages, or calls to an external guardrail through a service credential.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now write a custom service policy as a Python function in Unity Catalog.",
+  "note_id": "2026-11-11-write-custom-service-policies-in-python-beta",
+  "category": "platform"
+}

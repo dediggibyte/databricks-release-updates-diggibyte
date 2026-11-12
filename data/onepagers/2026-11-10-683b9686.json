@@ -1,0 +1,24 @@
+{
+  "product": "Text and binary inputs for protobuf requests to custom model serving endpoints…",
+  "tagline": "Protobuf requests to custom model serving endpoints can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 BYTES tensors alongside numeric tensors in the same…",
+  "updated": "Nov 10, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#text-and-binary-inputs-for-protobuf-requests-to-custom-model-serving-endpoints-public-preview",
+  "what_it_does": "Protobuf requests to custom model serving endpoints can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 BYTES tensors alongside numeric tensors in the same request. Text and binary model outputs are returned as BYTES tensors. This feature is in Public Preview and is only available on endpoints deployed after November 10, 2026.",
+  "why_it_matters": "important As a security best practice for production scenarios, Databricks recommends that you use machine to machine OAuth tokens for authentication during production.",
+  "plain_summary": "Protobuf requests to custom model serving endpoints can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 BYTES tensors alongside numeric tensors in the same request. Text and binary model outputs are returned as…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Protobuf requests to custom model serving endpoints can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 BYTES tensors alongside numeric tensors in the same…",
+  "note_id": "2026-11-10-683b9686",
+  "category": "platform"
+}

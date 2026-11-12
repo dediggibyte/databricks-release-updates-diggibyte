@@ -1,0 +1,41 @@
+{
+  "product": "Use cleaned AI answers in Lakeflow Designer (Public Preview)",
+  "tagline": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#ai-function",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#use-cleaned-ai-answers-in-lakeflow-designer-public-preview",
+  "what_it_does": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations. Cleaned results include answer values, error messages, and raw responses in separate columns. Lakeflow Designer includes built in operators for common data preparation and transformation tasks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations. Cleaned results include answer values, error messages, and raw responses in separate columns.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations.",
+  "note_id": "2026-11-09-use-cleaned-ai-answers-in-lakeflow-designer-public-preview",
+  "category": "platform"
+}

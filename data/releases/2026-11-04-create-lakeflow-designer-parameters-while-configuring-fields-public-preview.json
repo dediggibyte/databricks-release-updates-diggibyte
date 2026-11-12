@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-create-lakeflow-designer-parameters-while-configuring-fields-public-preview",
+  "title": "Create Lakeflow Designer parameters while configuring fields (Public Preview)",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#create-lakeflow-designer-parameters-while-configuring-fields-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Create a parameter from a supported operator field in Lakeflow Designer, then use it in the field. See [Reference a parameter from an operator](/aws/en/designer/parameters#reference).",
+  "ref_links": [
+    {
+      "text": "Reference a parameter from an operator",
+      "url": "https://docs.databricks.com/aws/en/designer/parameters#reference"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.777311Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-add-aggregations-for-several-lakeflow-designer-columns-public-preview",
+  "title": "Add aggregations for several Lakeflow Designer columns (Public Preview)",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#add-aggregations-for-several-lakeflow-designer-columns-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Select multiple columns when adding an aggregation in Lakeflow Designer. The Aggregate operator creates a separate aggregation for each selected column. See [Aggregate](/aws/en/designer/built-in-operators#aggregate).",
+  "ref_links": [
+    {
+      "text": "Aggregate",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#aggregate"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.776237Z"
+}

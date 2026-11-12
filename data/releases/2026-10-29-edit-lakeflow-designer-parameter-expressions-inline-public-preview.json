@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-29-edit-lakeflow-designer-parameter-expressions-inline-public-preview",
+  "title": "Edit Lakeflow Designer parameter expressions inline (Public Preview)",
+  "date": "2026-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#edit-lakeflow-designer-parameter-expressions-inline-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Edit parameter expressions directly in supported operator fields in Lakeflow Designer. See [Reference a parameter from an operator](/aws/en/designer/parameters#reference).",
+  "ref_links": [
+    {
+      "text": "Reference a parameter from an operator",
+      "url": "https://docs.databricks.com/aws/en/designer/parameters#reference"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.798709Z"
+}

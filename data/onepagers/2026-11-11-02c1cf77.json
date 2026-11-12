@@ -1,0 +1,41 @@
+{
+  "product": "Feature Views are now available by default for workspaces with the compliance…",
+  "tagline": "Feature Views are now available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Nov 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#feature-views-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Feature Views are now available by default for workspaces with the compliance security profile enabled. Feature Views enable you to define and compute features from data sources. Features can be defined using a variety of sources (Delta table, Kafka Stream, and request time data) and computations (time windowed aggregations, simple column selections, and more).",
+  "why_it_matters": "Feature Views are now available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Feature Views are now available by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [
+    {
+      "title": "Use createfeature to define Unity",
+      "desc": "Use createfeature to define Unity Catalog feature objects that can be used in model training and serving workflows."
+    },
+    {
+      "title": "Alternatively, construct Feature objects locally",
+      "desc": "Alternatively, construct Feature objects locally and use registerfeature to persist them to Unity Catalog later. Locally…"
+    },
+    {
+      "title": "Use createtrainingset to calculate point-in-time",
+      "desc": "Use createtrainingset to calculate point-in-time aggregated features for machine learning. For detailed documentation on…"
+    },
+    {
+      "title": "After defining a feature with",
+      "desc": "After defining a feature with createfeature or retrieving it using getfeature, you can use materializefeatures to materialize…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Feature Views are now available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-11-02c1cf77",
+  "category": "platform"
+}

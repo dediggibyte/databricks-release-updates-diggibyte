@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-10-683b9686",
+  "title": "Text and binary inputs for protobuf requests to custom model serving endpoints (Public Preview)",
+  "date": "2026-11-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#text-and-binary-inputs-for-protobuf-requests-to-custom-model-serving-endpoints-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Protobuf requests to [custom model serving endpoints](/aws/en/machine-learning/model-serving/custom-models) can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 `BYTES` tensors alongside numeric tensors in the same request. Text and binary model outputs are returned as `BYTES` tensors.\n\nThis feature is in [Public Preview](/aws/en/release-notes/release-types) and is only available on endpoints deployed after November 10, 2026. See [Protobuf tensor input](/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input).",
+  "ref_links": [
+    {
+      "text": "custom model serving endpoints",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-models"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Protobuf tensor input",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.755662Z"
+}

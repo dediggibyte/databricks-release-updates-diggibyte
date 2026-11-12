@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-connect-chatgpt-to-genie-one-with-the-databricks-genie-plugin",
+  "title": "Connect ChatGPT to Genie One with the Databricks Genie plugin",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-chatgpt-to-genie-one-with-the-databricks-genie-plugin",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Genie plugin connects ChatGPT to the Genie One MCP, so users can ask questions about their data from ChatGPT. A ChatGPT admin sets up the plugin for the ChatGPT workspace, and each user connects by signing in with their Databricks account. See [Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor](/aws/en/agents/mcp-tools/genie-mcp#genie-plugins).",
+  "ref_links": [
+    {
+      "text": "Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp-tools/genie-mcp#genie-plugins"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.748912Z"
+}

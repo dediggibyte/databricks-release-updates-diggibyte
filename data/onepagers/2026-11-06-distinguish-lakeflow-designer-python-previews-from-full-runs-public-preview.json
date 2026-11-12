@@ -1,0 +1,41 @@
+{
+  "product": "Distinguish Lakeflow Designer Python previews from full runs (Public Preview)",
+  "tagline": "Python operators in Lakeflow Designer now expose config[\"is preview\"] so your code can skip side effects during previews.",
+  "updated": "Nov 6, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#python-preview-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#distinguish-lakeflow-designer-python-previews-from-full-runs-public-preview",
+  "what_it_does": "Python operators in Lakeflow Designer now expose config[\"is preview\"] so your code can skip side effects during previews. Lakeflow Designer includes built in operators for common data preparation and transformation tasks. Open the Operators pane on the left to browse operators by category, or use Search for an operator...",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Python operators in Lakeflow Designer now expose config[\"is preview\"] so your code can skip side effects during previews.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Python operators in Lakeflow Designer now expose config[\"is preview\"] so your code can skip side effects during previews.",
+  "note_id": "2026-11-06-distinguish-lakeflow-designer-python-previews-from-full-runs-public-preview",
+  "category": "platform"
+}

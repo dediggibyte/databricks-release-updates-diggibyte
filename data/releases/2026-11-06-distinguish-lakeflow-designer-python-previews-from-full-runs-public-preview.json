@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-06-distinguish-lakeflow-designer-python-previews-from-full-runs-public-preview",
+  "title": "Distinguish Lakeflow Designer Python previews from full runs (Public Preview)",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#distinguish-lakeflow-designer-python-previews-from-full-runs-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Python operators in Lakeflow Designer now expose `config[\"is_preview\"]` so your code can skip side effects during previews. See [Python preview mode](/aws/en/designer/built-in-operators#python-preview-mode).",
+  "ref_links": [
+    {
+      "text": "Python preview mode",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#python-preview-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.765684Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-05-calculate-across-rows-in-lakeflow-designer-public-preview",
+  "title": "Calculate across rows in Lakeflow Designer (Public Preview)",
+  "date": "2026-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#calculate-across-rows-in-lakeflow-designer-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use the Multi-Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows. See [Multi-Row Formula](/aws/en/designer/built-in-operators#multi-row-formula).",
+  "ref_links": [
+    {
+      "text": "Multi-Row Formula",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#multi-row-formula"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.772264Z"
+}

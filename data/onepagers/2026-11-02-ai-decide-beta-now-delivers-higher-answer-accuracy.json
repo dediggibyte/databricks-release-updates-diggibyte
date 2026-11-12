@@ -1,0 +1,41 @@
+{
+  "product": "ai_decide (Beta) now delivers higher answer accuracy",
+  "tagline": "ai decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency.",
+  "updated": "Nov 2, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_decide",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai_decide-beta-now-delivers-higher-answer-accuracy",
+  "what_it_does": "ai decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency. Applies to: Databricks SQL Databricks Runtime Beta This feature is in Beta. The ai decide() function evaluates one or more questions against text or structured data.",
+  "why_it_matters": "ai decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency.",
+  "plain_summary": "ai decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency.",
+  "capabilities": [
+    {
+      "title": "See regional support for aidecide",
+      "desc": "See regional support for aidecide for the appropriate compliance standard."
+    },
+    {
+      "title": "See Manage Databricks previews for",
+      "desc": "See Manage Databricks previews for how to enable it on your workspace. This function is not available on Databricks SQL Classic.…"
+    },
+    {
+      "title": "A STRING containing plain text",
+      "desc": "A STRING containing plain text or a JSON-encoded object or array. JSON objects and arrays are interpreted as structured data.…"
+    },
+    {
+      "title": "A VARIANT produced by another",
+      "desc": "A VARIANT produced by another AI function (such as aiparsedocument or aiextract) questions: A constant STRING expression…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "ai decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency.",
+  "note_id": "2026-11-02-ai-decide-beta-now-delivers-higher-answer-accuracy",
+  "category": "platform"
+}

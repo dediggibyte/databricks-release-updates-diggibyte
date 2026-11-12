@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-04-google-drive-connectors-are-now-generally-available",
+  "title": "Google Drive connectors are now generally available",
+  "date": "2026-08-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connectors-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Both Google Drive connectors in Lakeflow Connect are now generally available: the [managed connector](/aws/en/ingestion/lakeflow-connect/google-drive) for fully managed ingestion pipelines, and the [standard connector](/aws/en/ingestion/google-drive) for custom pipelines built with Spark and SQL APIs.",
+  "ref_links": [
+    {
+      "text": "managed connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive"
+    },
+    {
+      "text": "standard connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/google-drive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:54.119653Z"
+}

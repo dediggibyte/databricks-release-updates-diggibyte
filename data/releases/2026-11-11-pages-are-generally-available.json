@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-pages-are-generally-available",
+  "title": "Pages are generally available",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#pages-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Pages, governed definitions of business concepts organized by domain on the **Discover** page, are generally available. Curators can certify and deprecate Pages, and the new `MANAGE PAGES` permission controls who can publish and manage Pages in a domain. You can also manage Pages with the REST API. See [Pages](/aws/en/uc-semantics/pages).",
+  "ref_links": [
+    {
+      "text": "Pages",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/pages"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.752220Z"
+}

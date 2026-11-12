@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-detect-csv-delimiters-in-lakeflow-designer-public-preview",
+  "title": "Detect CSV delimiters in Lakeflow Designer (Public Preview)",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#detect-csv-delimiters-in-lakeflow-designer-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you add a CSV file, Lakeflow Designer samples it to detect comma, tab, semicolon, or pipe delimiters. You can set the delimiter manually when detection does not match your file. See [Drag and drop a file](/aws/en/designer/ingest-data#drag-drop).",
+  "ref_links": [
+    {
+      "text": "Drag and drop a file",
+      "url": "https://docs.databricks.com/aws/en/designer/ingest-data#drag-drop"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.777676Z"
+}

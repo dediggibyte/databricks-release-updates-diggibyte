@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-09-use-cleaned-ai-answers-in-lakeflow-designer-public-preview",
+  "title": "Use cleaned AI answers in Lakeflow Designer (Public Preview)",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#use-cleaned-ai-answers-in-lakeflow-designer-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations. Cleaned results include answer values, error messages, and raw responses in separate columns. See [AI Function](/aws/en/designer/built-in-operators#ai-function).",
+  "ref_links": [
+    {
+      "text": "AI Function",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#ai-function"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.762578Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-10-587b70e4",
+  "title": "External access to Unity Catalog managed Delta tables will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#external-access-to-unity-catalog-managed-delta-tables-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting on or after December 10, 2026, external access to Unity Catalog managed Delta tables will be available by default for eligible workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nSupported external Delta clients can create, read, and write Unity Catalog managed Delta tables. Creating and writing managed Delta tables requires [catalog commits](/aws/en/tables/features/catalog-commits). Metastore external data access settings and Unity Catalog privileges continue to control access.\n\nSee [Access Databricks tables from Delta clients](/aws/en/external-access/unity-rest).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    },
+    {
+      "text": "Access Databricks tables from Delta clients",
+      "url": "https://docs.databricks.com/aws/en/external-access/unity-rest"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-12T15:53:53.757217Z"
+}

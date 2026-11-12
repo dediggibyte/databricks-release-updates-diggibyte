@@ -1,0 +1,45 @@
+{
+  "product": "Google Drive connectors are now generally available",
+  "tagline": "Both Google Drive connectors in Lakeflow Connect are now generally available: the managed connector for fully managed ingestion pipelines, and the standard connector for custom pipelines built with…",
+  "updated": "Aug 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/google-drive",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connectors-are-now-generally-available",
+  "what_it_does": "Both Google Drive connectors in Lakeflow Connect are now generally available: the managed connector for fully managed ingestion pipelines, and the standard connector for custom pipelines built with Spark and SQL APIs. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Compliance The Google Drive connector supports use in workspaces with the Configure enhanced security and compliance settings enabled.",
+  "plain_summary": "Both Google Drive connectors in Lakeflow Connect are now generally available: the managed connector for fully managed ingestion pipelines, and the standard connector for custom pipelines built with Spark and SQL APIs.",
+  "capabilities": [
+    {
+      "title": "Dedicated Access Mode: MANAGE CONNECTION",
+      "desc": "Dedicated Access Mode: MANAGE CONNECTION."
+    },
+    {
+      "title": "Standard Access Mode: USE CONNECTION",
+      "desc": "Standard Access Mode: USE CONNECTION. Databricks Runtime 17.3 or above. The Excel file format Beta feature enabled, if you want…"
+    },
+    {
+      "title": "https://docs.google.com/spreadsheets/d/12345/edit?randomqueryparamshere",
+      "desc": "https://docs.google.com/spreadsheets/d/12345/edit?randomqueryparamshere"
+    },
+    {
+      "title": "https://drive.google.com/drive/u/0/folders/12345",
+      "desc": "https://drive.google.com/drive/u/0/folders/12345"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "PDFs",
+    "Google Docs",
+    "ideal for RAG pipelines."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Both Google Drive connectors in Lakeflow Connect are now generally available: the managed connector for fully managed ingestion pipelines, and the standard connector for custom pipelines built with…",
+  "note_id": "2026-08-04-google-drive-connectors-are-now-generally-available",
+  "category": "platform"
+}
