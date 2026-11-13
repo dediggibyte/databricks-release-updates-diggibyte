@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-links-open-in-the-genie-mobile-app",
+  "title": "Links open in the Genie mobile app",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#links-open-in-the-genie-mobile-app",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android. See [Use Genie on mobile](/aws/en/genie-one/mobile).",
+  "ref_links": [
+    {
+      "text": "Use Genie on mobile",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.443381Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Use Genie One as your Chrome new tab page (Beta)",
+  "tagline": "The Genie One Chrome extension replaces the Chrome new tab page with Genie One from your Databricks workspace.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chrome-extension",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#use-genie-one-as-your-chrome-new-tab-page-beta",
+  "what_it_does": "The Genie One Chrome extension replaces the Chrome new tab page with Genie One from your Databricks workspace. While the extension is turned on, new tabs open the Genie One home page, so you can ask a question, search across your connected tools, or open a dashboard without first going to your workspace. The extension uses your existing Databricks sign in and permissions, and it works with the one workspace you choose.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie One Chrome extension replaces the Chrome new tab page with Genie One from your Databricks workspace. While the extension is turned on, new tabs open the Genie One home page, so you can ask a question, search across your connected tools, or open a…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One Chrome extension replaces the Chrome new tab page with Genie One from your Databricks workspace.",
+  "note_id": "2026-11-12-use-genie-one-as-your-chrome-new-tab-page-beta",
+  "category": "platform"
+}

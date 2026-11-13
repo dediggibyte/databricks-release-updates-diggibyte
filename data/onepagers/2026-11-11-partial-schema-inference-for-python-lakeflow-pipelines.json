@@ -1,0 +1,24 @@
+{
+  "product": "Partial schema inference for Python Lakeflow pipelines",
+  "tagline": "In an upcoming release, Python Lakeflow pipelines will support partial schema inference in Beta.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/python-dev",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#partial-schema-inference-for-python-lakeflow-pipelines",
+  "what_it_does": "In an upcoming release, Python Lakeflow pipelines will support partial schema inference in Beta. You will be able to use the override schema argument of table, materialized view, or create streaming table to declare only the columns whose type, constraint, or comment you want to control. The pipeline infers the remaining columns from the query output.",
+  "why_it_matters": "tables = [\"t1\", \"t2\", \"t3\"] for t name in tables: @dp.materialized view(name=t name) def create table(): return spark.read.table(t name) Permanently delete records from a materialized view or streaming table To permanently delete records from a materialized view or streaming table with deletion vectors enabled, such as for GDPR compliance, additional operations must be performed on the object's underlying Delta tables.",
+  "plain_summary": "In an upcoming release, Python Lakeflow pipelines will support partial schema inference in Beta. You will be able to use the override schema argument of table, materialized view, or create streaming table to declare only the columns whose type, constraint…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In an upcoming release, Python Lakeflow pipelines will support partial schema inference in Beta.",
+  "note_id": "2026-11-11-partial-schema-inference-for-python-lakeflow-pipelines",
+  "category": "platform"
+}

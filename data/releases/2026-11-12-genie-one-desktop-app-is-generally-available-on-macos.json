@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-genie-one-desktop-app-is-generally-available-on-macos",
+  "title": "Genie One desktop app is generally available on macOS",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-desktop-app-is-generally-available-on-macos",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One desktop app is now generally available on macOS. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation controls, automatic updates, and a dock badge for unread activity. The Windows app is in Beta. See [Use Genie One on desktop](/aws/en/genie-one/desktop).",
+  "ref_links": [
+    {
+      "text": "Use Genie One on desktop",
+      "url": "https://docs.databricks.com/aws/en/genie-one/desktop"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.442749Z"
+}

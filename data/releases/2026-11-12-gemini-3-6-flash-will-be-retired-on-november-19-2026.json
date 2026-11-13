@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-gemini-3-6-flash-will-be-retired-on-november-19-2026",
+  "title": "Gemini 3.6 Flash will be retired on November 19, 2026",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-will-be-retired-on-november-19-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google Gemini 3.6 Flash will be retired on November 19, 2026. Starting on that date, API calls to Gemini 3.6 Flash will be automatically redirected to Gemini 3.8 Flash at the same price. Gemini 3.8 Flash is the recommended replacement. See [Legacy, deprecated, and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Legacy, deprecated, and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.446671Z"
+}

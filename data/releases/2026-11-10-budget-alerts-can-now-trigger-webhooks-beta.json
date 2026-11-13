@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-10-budget-alerts-can-now-trigger-webhooks-beta",
+  "title": "Budget alerts can now trigger webhooks (Beta)",
+  "date": "2026-11-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#budget-alerts-can-now-trigger-webhooks-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools. See [Trigger custom webhooks](/aws/en/admin/account-settings/budgets#trigger-custom-webhooks).",
+  "ref_links": [
+    {
+      "text": "Trigger custom webhooks",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/budgets#trigger-custom-webhooks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.462850Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-1cb23172",
+  "title": "ABAC DENY policies support AI securables and attachment to individual objects (Beta)",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#abac-deny-policies-support-ai-securables-and-attachment-to-individual-objects-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Expanded `FOR` clause support:** DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills.\n* **Expanded `ON` clause support:** DENY policies can now be attached directly on tables, volumes, functions, models, secrets, model services, model provider services, MCP services, agent services, and skills.\n\nSee [Supported securable types and privileges](/aws/en/data-governance/unity-catalog/abac/deny-policies#supported-types).",
+  "ref_links": [
+    {
+      "text": "Supported securable types and privileges",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/deny-policies#supported-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.446049Z"
+}

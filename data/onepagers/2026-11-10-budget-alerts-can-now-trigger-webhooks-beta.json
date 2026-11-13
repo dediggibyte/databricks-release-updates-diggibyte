@@ -1,0 +1,41 @@
+{
+  "product": "Budget alerts can now trigger webhooks (Beta)",
+  "tagline": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools.",
+  "updated": "Nov 10, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/budgets#trigger-custom-webhooks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#budget-alerts-can-now-trigger-webhooks-beta",
+  "what_it_does": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools. This article explains how to use budgets to track spending in your Databricks account. Budgets enable you to monitor usage across your account.",
+  "why_it_matters": "Workspace admins can create and manage budgets scoped to workspaces they administer using Governance Hub.",
+  "plain_summary": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools.",
+  "capabilities": [
+    {
+      "title": "A user may be blocked",
+      "desc": "A user may be blocked before their actual spend reaches the threshold."
+    },
+    {
+      "title": "An amount of spend over",
+      "desc": "An amount of spend over the threshold may occur before enforcement takes effect. Active requests in progress when the threshold…"
+    },
+    {
+      "title": "Budget alert emails: Reflect spend",
+      "desc": "Budget alert emails: Reflect spend at the moment the alert was triggered."
+    },
+    {
+      "title": "Budget details page: Updates frequently",
+      "desc": "Budget details page: Updates frequently but may show a lower amount than a recent alert email when viewed shortly after."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools.",
+  "note_id": "2026-11-10-budget-alerts-can-now-trigger-webhooks-beta",
+  "category": "platform"
+}

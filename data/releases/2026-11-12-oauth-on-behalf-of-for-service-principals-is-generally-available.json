@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-oauth-on-behalf-of-for-service-principals-is-generally-available",
+  "title": "OAuth on-behalf-of for service principals is generally available",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-on-behalf-of-for-service-principals-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OAuth on-behalf-of (OBO) for service principals is now generally available and turned on by default. With OBO, you use the standard user-to-machine (U2M) OAuth flow to act as a service principal you manage, without creating an OAuth secret. You must have the **Service Principal Manager** role on the service principal. A workspace admin no longer needs to turn on the feature from the **Previews** page.\n\nSee [Authenticate as a service principal using OAuth OBO](/aws/en/dev-tools/auth/oauth-m2m#oauth-obo).",
+  "ref_links": [
+    {
+      "text": "Authenticate as a service principal using OAuth OBO",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-m2m#oauth-obo"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.449096Z"
+}

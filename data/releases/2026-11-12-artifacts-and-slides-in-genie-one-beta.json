@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-12-artifacts-and-slides-in-genie-one-beta",
+  "title": "Artifacts and slides in Genie One (Beta)",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#artifacts-and-slides-in-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Artifacts are slide decks and other custom visual pages that Genie One builds from your data and saves to your workspace. Ask Genie for an artifact in chat, edit it yourself or ask for changes, then present it and share it with others. Anyone who views an artifact can use **Ask Genie** to ask questions about the data behind a chart or number. An artifact stores a snapshot of its data, so anyone who can view it sees that data, even without access to the source tables. This feature is in Beta. A workspace admin turns on the **Artifacts** preview from the **Previews** page. See [Artifacts in Genie One](/aws/en/genie-one/artifacts) and [Slides in Genie One](/aws/en/genie-one/slides).",
+  "ref_links": [
+    {
+      "text": "Artifacts in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/artifacts"
+    },
+    {
+      "text": "Slides in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/slides"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.438518Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-12-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Custom calculations with Genie Code**: Genie Code can now write custom calculations that reference other custom calculations in the same dataset. See [Referencing other calculations](/aws/en/dashboards/manage/data-modeling/custom-calculations#reference-calculations).\n* **Sort pivot tables**: Viewers can now sort pivot tables by row and column. See [Table and pivot table visualizations](/aws/en/dashboards/manage/visualizations/tables).\n* **Pivot table header styles**: Authors can now style pivot table headers separately for each row, column, and value field. See [Style pivot table headers](/aws/en/dashboards/manage/visualizations/tables#pivot-header-style).\n* **Pivot table text wrapping**: Pivot table values can now adjust their height to wrap text.\n* **Pivot table divider**: Authors can now resize the divider between columns and values in a pivot table.\n* **Associative filtering**: Authors can now turn off associative filtering between dashboard filters. See [Configure filter application behavior](/aws/en/dashboards/manage/settings#apply-filters).\n* **Undo and redo for dashboard variables**: Actions on dashboard variables now support undo and redo. See [Use dashboard variables](/aws/en/dashboards/manage/filters/dashboard-variables).\n* **Ask Genie on supported widgets**: **Ask Genie** now appears only on widgets that Genie can use as context. It no longer appears on images, filters, or older text boxes.\n* **Waterfall chart axis**: The y-axis on waterfall charts now extends so data labels aren't cut off.",
+  "ref_links": [
+    {
+      "text": "Referencing other calculations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations#reference-calculations"
+    },
+    {
+      "text": "Table and pivot table visualizations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables"
+    },
+    {
+      "text": "Style pivot table headers",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-header-style"
+    },
+    {
+      "text": "Configure filter application behavior",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#apply-filters"
+    },
+    {
+      "text": "Use dashboard variables",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.442066Z"
+}

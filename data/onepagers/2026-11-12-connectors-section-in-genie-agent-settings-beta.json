@@ -1,0 +1,24 @@
+{
+  "product": "Connectors section in Genie Agent settings (Beta)",
+  "tagline": "The Configure settings for a Genie Agent now have a dedicated section for adding connectors.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/external-tools#add-connectors",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#connectors-section-in-genie-agent-settings-beta",
+  "what_it_does": "The Configure settings for a Genie Agent now have a dedicated section for adding connectors. This feature is in Beta. A Genie Agent can use Databricks provided MCP (Model Context Protocol) connectors to pull context from and take actions in external tools and sources during an Agent mode conversation.",
+  "why_it_matters": "Databricks governs every tool call through Unity Catalog and Unity Gateway.",
+  "plain_summary": "The Configure settings for a Genie Agent now have a dedicated section for adding connectors. This feature is in Beta.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Configure settings for a Genie Agent now have a dedicated section for adding connectors.",
+  "note_id": "2026-11-12-connectors-section-in-genie-agent-settings-beta",
+  "category": "platform"
+}

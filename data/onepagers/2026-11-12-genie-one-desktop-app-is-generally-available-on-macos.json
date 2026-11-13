@@ -1,0 +1,24 @@
+{
+  "product": "Genie One desktop app is generally available on macOS",
+  "tagline": "The Genie One desktop app is now generally available on macOS.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/desktop",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-desktop-app-is-generally-available-on-macos",
+  "what_it_does": "The Genie One desktop app is now generally available on macOS. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation controls, automatic updates, and a dock badge for unread activity. The Windows app is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie One desktop app is now generally available on macOS. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation controls, automatic updates, and a dock badge for…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One desktop app is now generally available on macOS.",
+  "note_id": "2026-11-12-genie-one-desktop-app-is-generally-available-on-macos",
+  "category": "platform"
+}

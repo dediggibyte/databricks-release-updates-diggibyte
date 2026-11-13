@@ -1,0 +1,41 @@
+{
+  "product": "AI Functions Asynchronous API (Beta)",
+  "tagline": "You can now use the AI Functions Asynchronous API to run ai parse document, ai extract, or ai classify asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification#asynchronous-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-functions-asynchronous-api-beta",
+  "what_it_does": "You can now use the AI Functions Asynchronous API to run ai parse document, ai extract, or ai classify asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume. The batch writes one result for each request to a file in a volume. Workspace admins can turn on the AI Functions Asynchronous API preview from the Previews page.",
+  "why_it_matters": "For workspaces with the Enhanced Security and Compliance add on, + See regional support for ai classify for the appropriate compliance standard.",
+  "plain_summary": "You can now use the AI Functions Asynchronous API to run ai parse document, ai extract, or ai classify asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume. The batch writes one result for each request to a file in a volume.",
+  "capabilities": [
+    {
+      "title": "Serverless compute enabled. See Serverless",
+      "desc": "Serverless compute enabled. See Serverless compute requirements."
+    },
+    {
+      "title": "Unity Catalog enabled. See Enable",
+      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+    },
+    {
+      "title": "Access to a serverless usage",
+      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
+    },
+    {
+      "title": "See regional support for aiclassify",
+      "desc": "See regional support for aiclassify for the appropriate compliance standard."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now use the AI Functions Asynchronous API to run ai parse document, ai extract, or ai classify asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume.",
+  "note_id": "2026-11-09-ai-functions-asynchronous-api-beta",
+  "category": "platform"
+}

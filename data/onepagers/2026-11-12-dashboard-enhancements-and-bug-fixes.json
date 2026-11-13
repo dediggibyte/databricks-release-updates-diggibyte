@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Custom calculations with Genie Code: Genie Code can now write custom calculations that reference other custom calculations in the same dataset.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "Custom calculations with Genie Code: Genie Code can now write custom calculations that reference other custom calculations in the same dataset. Sort pivot tables: Viewers can now sort pivot tables by row and column. Pivot table header styles: Authors can now style pivot table headers separately for each row, column, and value field.",
+  "why_it_matters": "Field types and scale types A variable can contain fields of different types.",
+  "plain_summary": "Custom calculations with Genie Code: Genie Code can now write custom calculations that reference other custom calculations in the same dataset. Sort pivot tables: Viewers can now sort pivot tables by row and column.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Custom calculations with Genie Code: Genie Code can now write custom calculations that reference other custom calculations in the same dataset.",
+  "note_id": "2026-11-12-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

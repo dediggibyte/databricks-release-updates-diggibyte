@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-824ffe87",
+  "title": "Connect GitHub Copilot CLI and GitHub Copilot in Visual Studio Code with Unity Gateway",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-github-copilot-cli-and-github-copilot-in-visual-studio-code-with-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ug configure --agents copilot` now sets up GitHub Copilot in Visual Studio Code alongside GitHub Copilot CLI, with Claude, GPT, and open-source models. Admins can add GitHub Copilot to the coding agent configuration to set its models, default model, HTTP headers, and tracing for both Copilot CLI and Copilot in Visual Studio Code, and turn Copilot in Visual Studio Code on or off. Developers must use the latest `ug`.\n\nSee [Connect GitHub Copilot](/aws/en/ai-gateway/coding-agent-copilot).",
+  "ref_links": [
+    {
+      "text": "Connect GitHub Copilot",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-copilot"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.452818Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-partial-schema-inference-for-python-lakeflow-pipelines",
+  "title": "Partial schema inference for Python Lakeflow pipelines",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#partial-schema-inference-for-python-lakeflow-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, Python Lakeflow pipelines will support partial schema inference in Beta. You will be able to use the `override_schema` argument of `table`, `materialized_view`, or `create_streaming_table` to declare only the columns whose type, constraint, or comment you want to control. The pipeline infers the remaining columns from the query output.\n\nSee [Develop pipeline code with Python](/aws/en/ldp/developer/python-dev).",
+  "ref_links": [
+    {
+      "text": "Develop pipeline code with Python",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/python-dev"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.461646Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Scheduled tasks can email other users in Genie One",
+  "tagline": "Scheduled tasks in Genie One can now send emails to other users in your organization, not just to you.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#scheduled-tasks-can-email-other-users-in-genie-one",
+  "what_it_does": "Scheduled tasks in Genie One can now send emails to other users in your organization, not just to you. Chat in Genie One is a unified, full screen natural language interface for business users to ask data questions. It first searches available Genie Agents for a match, then searches across dashboards, queries, and metric views.",
+  "why_it_matters": "This generates more accurate responses and reduces latency by reducing the amount of data Genie One needs to crawl and query.",
+  "plain_summary": "Scheduled tasks in Genie One can now send emails to other users in your organization, not just to you.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Scheduled tasks in Genie One can now send emails to other users in your organization, not just to you.",
+  "note_id": "2026-11-12-scheduled-tasks-can-email-other-users-in-genie-one",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "ABAC DENY policies support AI securables and attachment to individual objects…",
+  "tagline": "Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/deny-policies#supported-types",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#abac-deny-policies-support-ai-securables-and-attachment-to-individual-objects-beta",
+  "what_it_does": "Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills. Expanded ON clause support: DENY policies can now be attached directly on tables, volumes, functions, models, secrets, model services, model provider services, MCP services, agent services, and skills. Beta ABAC DENY policies are in Beta.",
+  "why_it_matters": "DENY policies are attached at the metastore, catalog, or schema level, or directly to a supported securable object, and deny the MANAGE ACCESS CONTROL privilege on the supported securable types.",
+  "plain_summary": "Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills. Expanded ON clause support: DENY policies can now be attached directly on tables, volumes, functions, models…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills.",
+  "note_id": "2026-11-12-1cb23172",
+  "category": "platform"
+}

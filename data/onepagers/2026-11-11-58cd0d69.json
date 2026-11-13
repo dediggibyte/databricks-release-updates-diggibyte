@@ -1,0 +1,24 @@
+{
+  "product": "Pages will soon be available by default for workspaces with the compliance…",
+  "tagline": "Starting in December 2026, Pages will be available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/pages#limitations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#pages-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting in December 2026, Pages will be available by default for workspaces with the compliance security profile enabled. This applies to workspaces with no compliance standard selected or with the HIPAA, PCI DSS, C5, TISAX, or HITRUST compliance standard selected. Workspaces with any other compliance standard can't use Pages.",
+  "why_it_matters": "Starting in December 2026, Pages will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting in December 2026, Pages will be available by default for workspaces with the compliance security profile enabled. This applies to workspaces with no compliance standard selected or with the HIPAA, PCI DSS, C5, TISAX, or HITRUST compliance standard…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in December 2026, Pages will be available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-11-58cd0d69",
+  "category": "platform"
+}

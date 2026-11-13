@@ -1,0 +1,24 @@
+{
+  "product": "Standalone pipelines on serverless general compute are now generally available",
+  "tagline": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available.",
+  "updated": "Nov 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/mv-st/using-python",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#standalone-pipelines-on-serverless-general-compute-are-now-generally-available",
+  "what_it_does": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available. You can define them with SQL through spark.sql() or with the Python pipelines decorators. You can create and refresh standalone materialized views and streaming tables from a notebook using Python.",
+  "why_it_matters": "Limitations Standalone materialized views and streaming tables created on serverless general compute have additional limitations, such as no support for asynchronous refreshes and no per table cost attribution.",
+  "plain_summary": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available. You can define them with SQL through spark.sql() or with the Python pipelines decorators.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available.",
+  "note_id": "2026-11-11-standalone-pipelines-on-serverless-general-compute-are-now-generally-available",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-connectors-section-in-genie-agent-settings-beta",
+  "title": "Connectors section in Genie Agent settings (Beta)",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#connectors-section-in-genie-agent-settings-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Configure** settings for a Genie Agent now have a dedicated section for adding connectors. This feature is in Beta. See [Add connectors to a Genie Agent](/aws/en/genie-agents/external-tools#add-connectors).",
+  "ref_links": [
+    {
+      "text": "Add connectors to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/external-tools#add-connectors"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.439310Z"
+}

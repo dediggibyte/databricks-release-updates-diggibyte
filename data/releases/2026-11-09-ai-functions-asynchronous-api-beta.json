@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-09-ai-functions-asynchronous-api-beta",
+  "title": "AI Functions Asynchronous API (Beta)",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-functions-asynchronous-api-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the AI Functions Asynchronous API to run `ai_parse_document`, `ai_extract`, or `ai_classify` asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume. The batch writes one result for each request to a file in a volume. Workspace admins can turn on the **AI Functions Asynchronous API** preview from the [**Previews** page](/aws/en/admin/workspace-settings/manage-previews). This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee the [Asynchronous API reference](https://docs.databricks.com/api/ai-functions/v1/batch). For examples, see [document parsing](/aws/en/agents/agent-bricks/document-parsing#asynchronous-api), [information extraction](/aws/en/agents/agent-bricks/info-extraction#asynchronous-api), and [classification](/aws/en/agents/agent-bricks/classification#asynchronous-api).",
+  "ref_links": [
+    {
+      "text": "Previews page",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Asynchronous API reference",
+      "url": "https://docs.databricks.com/api/ai-functions/v1/batch"
+    },
+    {
+      "text": "document parsing",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/document-parsing#asynchronous-api"
+    },
+    {
+      "text": "information extraction",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/info-extraction#asynchronous-api"
+    },
+    {
+      "text": "classification",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification#asynchronous-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.469801Z"
+}

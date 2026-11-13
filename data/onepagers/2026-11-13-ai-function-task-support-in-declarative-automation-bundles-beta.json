@@ -1,0 +1,41 @@
+{
+  "product": "AI Function task support in Declarative Automation Bundles (Beta)",
+  "tagline": "Support for AI Function tasks in Declarative Automation Bundles is now in Beta.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/bundles/job-task-types#ai-function-task",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-task-support-in-declarative-automation-bundles-beta",
+  "what_it_does": "Support for AI Function tasks in Declarative Automation Bundles is now in Beta. This page provides information about how to define job tasks in Declarative Automation Bundles. For information about job tasks, see Configure and edit tasks in Lakeflow Jobs.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Support for AI Function tasks in Declarative Automation Bundles is now in Beta.",
+  "capabilities": [
+    {
+      "title": "taskkey: outputvalue",
+      "desc": "taskkey: outputvalue"
+    },
+    {
+      "title": "taskkey: inputvalue",
+      "desc": "taskkey: inputvalue"
+    },
+    {
+      "title": "taskkey: outputvalue",
+      "desc": "taskkey: outputvalue"
+    },
+    {
+      "title": "taskkey: parsing",
+      "desc": "taskkey: parsing"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Support for AI Function tasks in Declarative Automation Bundles is now in Beta.",
+  "note_id": "2026-11-13-ai-function-task-support-in-declarative-automation-bundles-beta",
+  "category": "platform"
+}

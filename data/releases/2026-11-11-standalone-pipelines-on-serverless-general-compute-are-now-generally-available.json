@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-standalone-pipelines-on-serverless-general-compute-are-now-generally-available",
+  "title": "Standalone pipelines on serverless general compute are now generally available",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#standalone-pipelines-on-serverless-general-compute-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available. You can define them with SQL through `spark.sql()` or with the Python pipelines decorators. See [Notebooks](/aws/en/sql/mv-st/compute#notebooks) and [Use Python with standalone pipelines](/aws/en/sql/mv-st/using-python).",
+  "ref_links": [
+    {
+      "text": "Notebooks",
+      "url": "https://docs.databricks.com/aws/en/sql/mv-st/compute#notebooks"
+    },
+    {
+      "text": "Use Python with standalone pipelines",
+      "url": "https://docs.databricks.com/aws/en/sql/mv-st/using-python"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.455910Z"
+}

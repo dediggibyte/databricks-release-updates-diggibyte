@@ -1,0 +1,24 @@
+{
+  "product": "Gemini 3.6 Flash will be retired on November 19, 2026",
+  "tagline": "Google Gemini 3.6 Flash will be retired on November 19, 2026.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-will-be-retired-on-november-19-2026",
+  "what_it_does": "Google Gemini 3.6 Flash will be retired on November 19, 2026. Starting on that date, API calls to Gemini 3.6 Flash will be automatically redirected to Gemini 3.8 Flash at the same price. Gemini 3.8 Flash is the recommended replacement.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Google Gemini 3.6 Flash will be retired on November 19, 2026. Starting on that date, API calls to Gemini 3.6 Flash will be automatically redirected to Gemini 3.8 Flash at the same price.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini 3.6 Flash will be retired on November 19, 2026.",
+  "note_id": "2026-11-12-gemini-3-6-flash-will-be-retired-on-november-19-2026",
+  "category": "platform"
+}

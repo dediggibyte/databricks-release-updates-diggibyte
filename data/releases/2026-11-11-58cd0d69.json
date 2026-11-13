@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-11-58cd0d69",
+  "title": "Pages will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#pages-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in December 2026, [Pages](/aws/en/uc-semantics/pages) will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled. This applies to workspaces with no compliance standard selected or with the HIPAA, PCI-DSS, C5, TISAX, or HITRUST compliance standard selected. Workspaces with any other compliance standard can't use Pages. See [Limitations](/aws/en/uc-semantics/pages#limitations).\n\nPages are governed definitions of business concepts, such as critical terms, entities, and acronyms, organized by domain on the **Discover** page. Genie One prioritizes Page definitions over context it infers automatically and cites the Page in its answers.\n\nSee [Pages](/aws/en/uc-semantics/pages).",
+  "ref_links": [
+    {
+      "text": "Pages",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/pages"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Limitations",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/pages#limitations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-13T15:15:29.460599Z"
+}

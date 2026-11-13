@@ -1,0 +1,24 @@
+{
+  "product": "Links open in the Genie mobile app",
+  "tagline": "Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/mobile",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#links-open-in-the-genie-mobile-app",
+  "what_it_does": "Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android. Preview This feature is in Public Preview. The Databricks Genie mobile app lets business users access key Genie One capabilities from iOS and Android devices.",
+  "why_it_matters": "For IT and security teams, see Administer the Genie mobile app for configuration guidance, network security requirements, authentication setup, and Mobile Device Management (MDM) deployment.",
+  "plain_summary": "Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android.",
+  "note_id": "2026-11-12-links-open-in-the-genie-mobile-app",
+  "category": "platform"
+}
