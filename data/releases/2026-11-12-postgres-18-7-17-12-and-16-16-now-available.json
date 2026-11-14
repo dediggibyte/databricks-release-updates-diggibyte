@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-12-postgres-18-7-17-12-and-16-16-now-available",
+  "title": "Postgres 18.7, 17.12, and 16.16 now available",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#postgres-187-1712-and-1616-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase updated its supported Postgres versions to [18.7](https://www.postgresql.org/docs/release/18.7/), [17.12](https://www.postgresql.org/docs/release/17.12/), and [16.16](https://www.postgresql.org/docs/release/16.16/), less than 30 minutes after the [PostgreSQL community released them](https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/). These minor releases include the latest upstream Postgres bug fixes and security patches. Lakebase applies a new minor version the next time your compute restarts. See [Recent minor version rollouts](/aws/en/oltp/projects/postgres-version-support#rollouts).",
+  "ref_links": [
+    {
+      "text": "18.7",
+      "url": "https://www.postgresql.org/docs/release/18.7/"
+    },
+    {
+      "text": "17.12",
+      "url": "https://www.postgresql.org/docs/release/17.12/"
+    },
+    {
+      "text": "16.16",
+      "url": "https://www.postgresql.org/docs/release/16.16/"
+    },
+    {
+      "text": "PostgreSQL community released them",
+      "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/"
+    },
+    {
+      "text": "Recent minor version rollouts",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/postgres-version-support#rollouts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-14T14:01:46.970086Z"
+}

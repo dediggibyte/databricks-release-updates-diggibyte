@@ -1,0 +1,24 @@
+{
+  "product": "Postgres 18.7, 17.12, and 16.16 now available",
+  "tagline": "Lakebase updated its supported Postgres versions to 18.7, 17.12, and 16.16, less than 30 minutes after the PostgreSQL community released them.",
+  "updated": "Nov 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/postgres-version-support#rollouts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#postgres-187-1712-and-1616-now-available",
+  "what_it_does": "Lakebase updated its supported Postgres versions to 18.7, 17.12, and 16.16, less than 30 minutes after the PostgreSQL community released them. These minor releases include the latest upstream Postgres bug fixes and security patches. Lakebase applies a new minor version the next time your compute restarts.",
+  "why_it_matters": "These minor releases include the latest upstream Postgres bug fixes and security patches.",
+  "plain_summary": "Lakebase updated its supported Postgres versions to 18.7, 17.12, and 16.16, less than 30 minutes after the PostgreSQL community released them. These minor releases include the latest upstream Postgres bug fixes and security patches.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase updated its supported Postgres versions to 18.7, 17.12, and 16.16, less than 30 minutes after the PostgreSQL community released them.",
+  "note_id": "2026-11-12-postgres-18-7-17-12-and-16-16-now-available",
+  "category": "platform"
+}

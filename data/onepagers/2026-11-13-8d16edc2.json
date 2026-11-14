@@ -1,0 +1,24 @@
+{
+  "product": "Importing Power BI and Tableau files with Genie Code will soon be available by…",
+  "tagline": "You can use Genie Code to import Power BI and Tableau files as AI/BI dashboards and metric views.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#importing-power-bi-and-tableau-files-with-genie-code-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "You can use Genie Code to import Power BI and Tableau files as AI/BI dashboards and metric views. Starting on or after December 15, 2026, this will be available by default for workspaces with the compliance security profile enabled. Until then, a workspace admin can turn it on from Previews in the workspace settings.",
+  "why_it_matters": "Starting on or after December 15, 2026, this will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "You can use Genie Code to import Power BI and Tableau files as AI/BI dashboards and metric views. Starting on or after December 15, 2026, this will be available by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can use Genie Code to import Power BI and Tableau files as AI/BI dashboards and metric views.",
+  "note_id": "2026-11-13-8d16edc2",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-flows-are-securable-objects-in-unity-catalog-beta",
+  "title": "Flows are securable objects in Unity Catalog (Beta)",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#flows-are-securable-objects-in-unity-catalog-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Pipeline flows are now securable objects in Unity Catalog. You can grant `READ FLOW`, `REFRESH FLOW`, `WRITE FLOW`, `APPLY TAG`, and `MANAGE` on individual flows, and `CREATE FLOW` on schemas. To participate in the Beta, contact your Databricks account team. See [Flows in Unity Catalog](/aws/en/data-governance/unity-catalog/flows).",
+  "ref_links": [
+    {
+      "text": "Flows in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-14T14:01:46.971271Z"
+}

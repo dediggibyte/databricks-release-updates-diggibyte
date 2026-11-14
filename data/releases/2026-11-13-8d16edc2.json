@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-13-8d16edc2",
+  "title": "Importing Power BI and Tableau files with Genie Code will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#importing-power-bi-and-tableau-files-with-genie-code-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can use Genie Code to import Power BI and Tableau files as AI/BI dashboards and metric views. Starting on or after December 15, 2026, this will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled. Until then, a workspace admin can turn it on from **Previews** in the workspace settings.\n\nImporting requires [partner-powered AI features](/aws/en/databricks-ai/partner-powered) for the account and workspace.\n\nSee [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    },
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-14T14:01:46.965551Z"
+}
