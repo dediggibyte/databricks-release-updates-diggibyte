@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-serverless-rate-limits-are-now-in-beta",
+  "title": "Serverless rate limits are now in Beta",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#serverless-rate-limits-are-now-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now limit Spark executor autoscaling for serverless jobs and pipelines by setting a size on an automated compute object. See [Set rate limits on serverless compute](/aws/en/compute/serverless/manage-serverless-compute#set-rate-limits-on-serverless-compute).",
+  "ref_links": [
+    {
+      "text": "Set rate limits on serverless compute",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/manage-serverless-compute#set-rate-limits-on-serverless-compute"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.846631Z"
+}

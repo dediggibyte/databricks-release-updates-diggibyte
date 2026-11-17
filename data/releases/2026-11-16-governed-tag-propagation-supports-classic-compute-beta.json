@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-16-governed-tag-propagation-supports-classic-compute-beta",
+  "title": "Governed tag propagation supports classic compute (Beta)",
+  "date": "2026-11-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#governed-tag-propagation-supports-classic-compute-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Governed tag propagation now supports classic compute running Databricks Runtime 19 or above, in addition to serverless compute. Governed tags on a source propagate to the tables and views derived from it on either type of compute.\n\nSee [Tag propagation](/aws/en/admin/governed-tags/tag-propagation).",
+  "ref_links": [
+    {
+      "text": "Tag propagation",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags/tag-propagation"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.828711Z"
+}

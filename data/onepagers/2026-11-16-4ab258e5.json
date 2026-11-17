@@ -1,0 +1,26 @@
+{
+  "product": "Share Unity Catalog agent skills with OpenSharing and Databricks Marketplace…",
+  "tagline": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings.",
+  "updated": "Nov 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/marketplace/create-listing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#share-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-beta",
+  "what_it_does": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings. Databricks to Databricks recipients get read only access to each shared skill in the catalog they create from the share, and changes that the provider makes reach recipients asynchronously. This page describes how to create shares and Databricks Marketplace listings for your data products.",
+  "why_it_matters": "It's a collection of tables, views, volumes, and AI models that are shareable and securable as a unit.",
+  "plain_summary": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings. Databricks to Databricks recipients get read only access to each shared skill in the catalog they create from the share, and changes that the provider…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "visualize table properties."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings.",
+  "note_id": "2026-11-16-4ab258e5",
+  "category": "platform"
+}

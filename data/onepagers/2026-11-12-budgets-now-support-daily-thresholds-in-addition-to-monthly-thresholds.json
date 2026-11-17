@@ -1,0 +1,33 @@
+{
+  "product": "Budgets now support daily thresholds in addition to monthly thresholds",
+  "tagline": "Budgets scoped to Unity Gateway, including budgets for Genie, now support daily per user thresholds in addition to monthly per user thresholds.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/budgets",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#budgets-now-support-daily-thresholds-in-addition-to-monthly-thresholds",
+  "what_it_does": "Budgets scoped to Unity Gateway, including budgets for Genie, now support daily per user thresholds in addition to monthly per user thresholds. You can set a daily threshold, a monthly threshold, or both, and configure separate alert, webhook, and block usage actions for each period. Daily thresholds reset at 00:00 UTC.",
+  "why_it_matters": "Workspace admins can create and manage budgets scoped to workspaces they administer using Governance Hub.",
+  "plain_summary": "Budgets scoped to Unity Gateway, including budgets for Genie, now support daily per user thresholds in addition to monthly per user thresholds. You can set a daily threshold, a monthly threshold, or both, and configure separate alert, webhook, and block…",
+  "capabilities": [
+    {
+      "title": "A user may be blocked",
+      "desc": "A user may be blocked before their actual spend reaches the threshold."
+    },
+    {
+      "title": "An amount of spend over",
+      "desc": "An amount of spend over the threshold may occur before enforcement takes eff"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Budgets scoped to Unity Gateway, including budgets for Genie, now support daily per user thresholds in addition to monthly per user thresholds.",
+  "note_id": "2026-11-12-budgets-now-support-daily-thresholds-in-addition-to-monthly-thresholds",
+  "category": "platform"
+}

@@ -1,0 +1,33 @@
+{
+  "product": "PostgreSQL integrated CDC pipeline is now in Beta",
+  "tagline": "You can now ingest change data from PostgreSQL into Databricks using a single integrated CDC pipeline, with no separate ingestion gateway.",
+  "updated": "Nov 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/postgresql-integrated-pipeline",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#postgresql-integrated-cdc-pipeline-is-now-in-beta",
+  "what_it_does": "You can now ingest change data from PostgreSQL into Databricks using a single integrated CDC pipeline, with no separate ingestion gateway. This feature is in Beta. Beta This feature is in Beta.",
+  "why_it_matters": "gateway based ←✕ Both architectures support API based and UI based pipeline authoring, incremental ingestion, Unity Catalog governance, and a maximum of 250 tables per pipeline.",
+  "plain_summary": "You can now ingest change data from PostgreSQL into Databricks using a single integrated CDC pipeline, with no separate ingestion gateway. This feature is in Beta.",
+  "capabilities": [
+    {
+      "title": "table",
+      "desc": "table:"
+    },
+    {
+      "title": "taskkey: 'cdcingestion'",
+      "desc": "taskkey: 'cdcingestion'"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now ingest change data from PostgreSQL into Databricks using a single integrated CDC pipeline, with no separate ingestion gateway.",
+  "note_id": "2026-11-15-postgresql-integrated-cdc-pipeline-is-now-in-beta",
+  "category": "platform"
+}

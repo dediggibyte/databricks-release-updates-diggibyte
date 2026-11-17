@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-budgets-now-support-daily-thresholds-in-addition-to-monthly-thresholds",
+  "title": "Budgets now support daily thresholds in addition to monthly thresholds",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#budgets-now-support-daily-thresholds-in-addition-to-monthly-thresholds",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Budgets scoped to Unity Gateway, including budgets for Genie, now support daily per-user thresholds in addition to monthly per-user thresholds. You can set a daily threshold, a monthly threshold, or both, and configure separate alert, webhook, and block usage actions for each period. Daily thresholds reset at 00:00 UTC. See [Create and monitor budgets](/aws/en/admin/account-settings/budgets).",
+  "ref_links": [
+    {
+      "text": "Create and monitor budgets",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/budgets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.839571Z"
+}

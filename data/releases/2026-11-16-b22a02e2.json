@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-16-b22a02e2",
+  "title": "IP functions will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ip-functions-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "IP functions will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nUse IP functions to work with IP addresses and CIDR blocks, including joins on IP addresses and CIDR blocks.\n\nSee [IP functions](/aws/en/sql/language-manual/sql-ref-ip-functions).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "IP functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-ip-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.830896Z"
+}

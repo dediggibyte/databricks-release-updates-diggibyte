@@ -1,0 +1,24 @@
+{
+  "product": "Submit support cases from your workspace with the Get support form",
+  "tagline": "You can now open a Databricks support case from your workspace with the Get support form.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/resources/submit-support-case-in-product",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#submit-support-cases-from-your-workspace-with-the-get-support-form",
+  "what_it_does": "You can now open a Databricks support case from your workspace with the Get support form. The form fills in issue details, attaches diagnostic files, and suggests an AI generated solution before you submit. Authorized support contacts can use the Get support form to open a Databricks support case without leaving the workspace.",
+  "why_it_matters": "To improve how the form fills in fields, include full resource URLs in your description, or open the form from the page of the affected resource, such as a job run or cluster.",
+  "plain_summary": "You can now open a Databricks support case from your workspace with the Get support form. The form fills in issue details, attaches diagnostic files, and suggests an AI generated solution before you submit.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now open a Databricks support case from your workspace with the Get support form.",
+  "note_id": "2026-11-13-submit-support-cases-from-your-workspace-with-the-get-support-form",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code CLI is now generally available",
+  "tagline": "Genie Code CLI is now generally available and managed the same way as Genie Code in the workspace.",
+  "updated": "Nov 18, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/genie-code-cli",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-code-cli-is-now-generally-available",
+  "what_it_does": "Genie Code CLI is now generally available and managed the same way as Genie Code in the workspace. Admins manage one Genie Code budget across the CLI and the workspace, and users can apply their free monthly Genie usage in the CLI. Beta This feature is in Beta.",
+  "why_it_matters": "During Beta, model access is provided and governed through Unity Gateway, so you do not bring your own model subscription.",
+  "plain_summary": "Genie Code CLI is now generally available and managed the same way as Genie Code in the workspace. Admins manage one Genie Code budget across the CLI and the workspace, and users can apply their free monthly Genie usage in the CLI.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Code CLI is now generally available and managed the same way as Genie Code in the workspace.",
+  "note_id": "2026-11-18-genie-code-cli-is-now-generally-available",
+  "category": "platform"
+}

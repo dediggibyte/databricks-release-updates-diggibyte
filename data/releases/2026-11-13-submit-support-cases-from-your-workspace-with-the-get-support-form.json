@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-13-submit-support-cases-from-your-workspace-with-the-get-support-form",
+  "title": "Submit support cases from your workspace with the Get support form",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#submit-support-cases-from-your-workspace-with-the-get-support-form",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now open a Databricks support case from your workspace with the Get support form. The form fills in issue details, attaches diagnostic files, and suggests an AI-generated solution before you submit. See [Submit a Databricks support case from your workspace](/aws/en/resources/submit-support-case-in-product).",
+  "ref_links": [
+    {
+      "text": "Submit a Databricks support case from your workspace",
+      "url": "https://docs.databricks.com/aws/en/resources/submit-support-case-in-product"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.832754Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "External access to views through the Iceberg REST catalog is in Beta",
+  "tagline": "External Iceberg engines can now query Unity Catalog views over Iceberg compatible tables through the Iceberg REST catalog.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/views",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#external-access-to-views-through-the-iceberg-rest-catalog-is-in-beta",
+  "what_it_does": "External Iceberg engines can now query Unity Catalog views over Iceberg compatible tables through the Iceberg REST catalog. This feature is in Beta. Beta External access to views through the Iceberg REST catalog is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "External Iceberg engines can now query Unity Catalog views over Iceberg compatible tables through the Iceberg REST catalog. This feature is in Beta.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "External Iceberg engines can now query Unity Catalog views over Iceberg compatible tables through the Iceberg REST catalog.",
+  "note_id": "2026-11-13-external-access-to-views-through-the-iceberg-rest-catalog-is-in-beta",
+  "category": "platform"
+}

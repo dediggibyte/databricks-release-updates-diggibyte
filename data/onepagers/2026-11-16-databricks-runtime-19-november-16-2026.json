@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: November 16, 2026",
+  "tagline": "Behavioral changes Starting with this release, new streaming queries in real time mode use real time watermark propagation by default.",
+  "updated": "Nov 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-16-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-16-2026",
+  "what_it_does": "Behavioral changes Starting with this release, new streaming queries in real time mode use real time watermark propagation by default. Stateful operators advance the event time watermark within a batch, so late events are filtered against the live watermark and state is evicted sooner than before. Queries restarted from an existing checkpoint keep their original behavior.",
+  "why_it_matters": "Bug fixes Operating system security updates and miscellaneous fixes.",
+  "plain_summary": "Behavioral changes Starting with this release, new streaming queries in real time mode use real time watermark propagation by default. Stateful operators advance the event time watermark within a batch, so late events are filtered against the live watermark…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Behavioral changes Starting with this release, new streaming queries in real time mode use real time watermark propagation by default.",
+  "note_id": "2026-11-16-databricks-runtime-19-november-16-2026",
+  "category": "platform"
+}

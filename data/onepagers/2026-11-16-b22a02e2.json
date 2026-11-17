@@ -1,0 +1,24 @@
+{
+  "product": "IP functions will soon be available by default for workspaces with the…",
+  "tagline": "IP functions will be available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Nov 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-ip-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ip-functions-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "IP functions will be available by default for workspaces with the compliance security profile enabled. Use IP functions to work with IP addresses and CIDR blocks, including joins on IP addresses and CIDR blocks. Applies to: Databricks Runtime 18.2 and above IP functions operate on IPv4 and IPv6 addresses and CIDR blocks represented as STRING or BINARY values.",
+  "why_it_matters": "IP functions will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "IP functions will be available by default for workspaces with the compliance security profile enabled. Use IP functions to work with IP addresses and CIDR blocks, including joins on IP addresses and CIDR blocks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "IP functions will be available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-16-b22a02e2",
+  "category": "platform"
+}

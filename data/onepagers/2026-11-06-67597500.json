@@ -1,0 +1,24 @@
+{
+  "product": "Account-only user access to Genie One will soon be generally available and…",
+  "tagline": "In November 2026, account only user access to Genie One will be generally available and enabled by default.",
+  "updated": "Nov 6, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/account-only-user-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#account-only-user-access-to-genie-one-will-soon-be-generally-available-and-enabled-by-default",
+  "what_it_does": "In November 2026, account only user access to Genie One will be generally available and enabled by default. Users added to your account through automatic identity management (AIM) or account level System for Cross domain Identity Management (SCIM) can then access account level Genie One without being assigned to a workspace or granted consumer access. Unity Catalog continues to govern what each user can see.",
+  "why_it_matters": "Unity Catalog continues to govern what each user can see.",
+  "plain_summary": "In November 2026, account only user access to Genie One will be generally available and enabled by default. Users added to your account through automatic identity management (AIM) or account level System for Cross domain Identity Management (SCIM) can then…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In November 2026, account only user access to Genie One will be generally available and enabled by default.",
+  "note_id": "2026-11-06-67597500",
+  "category": "platform"
+}

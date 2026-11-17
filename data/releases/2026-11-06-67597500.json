@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-06-67597500",
+  "title": "Account-only user access to Genie One will soon be generally available and enabled by default",
+  "date": "2026-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#account-only-user-access-to-genie-one-will-soon-be-generally-available-and-enabled-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In November 2026, account-only user access to Genie One will be generally available and enabled by default. Users added to your account through automatic identity management (AIM) or account-level System for Cross-domain Identity Management (SCIM) can then access account-level Genie One without being assigned to a workspace or granted [consumer access](/aws/en/ai-bi/consumers). Unity Catalog continues to govern what each user can see.\n\nBecause account-only users can access objects shared with the `all account users` group, review those shares before the change takes effect. To opt out, an account admin can turn off **Account-only users in Genie One** under **Settings** > **Account Settings** in the account console.\n\nSee [Account-only user access to Genie One](/aws/en/genie-one/account-only-user-access).",
+  "ref_links": [
+    {
+      "text": "consumer access",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/consumers"
+    },
+    {
+      "text": "Account-only user access to Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/account-only-user-access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.868287Z"
+}

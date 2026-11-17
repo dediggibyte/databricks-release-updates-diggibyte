@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-genie-code-cli-is-now-generally-available",
+  "title": "Genie Code CLI is now generally available",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-code-cli-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code CLI is now generally available and managed the same way as Genie Code in the workspace. Admins manage one Genie Code budget across the CLI and the workspace, and users can apply their free monthly Genie usage in the CLI. See [Genie Code CLI](/aws/en/genie-code/genie-code-cli).",
+  "ref_links": [
+    {
+      "text": "Genie Code CLI",
+      "url": "https://docs.databricks.com/aws/en/genie-code/genie-code-cli"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-17T16:48:54.827992Z"
+}

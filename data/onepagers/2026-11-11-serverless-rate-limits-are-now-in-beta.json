@@ -1,0 +1,24 @@
+{
+  "product": "Serverless rate limits are now in Beta",
+  "tagline": "You can now limit Spark executor autoscaling for serverless jobs and pipelines by setting a size on an automated compute object.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/manage-serverless-compute#set-rate-limits-on-serverless-compute",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#serverless-rate-limits-are-now-in-beta",
+  "what_it_does": "You can now limit Spark executor autoscaling for serverless jobs and pipelines by setting a size on an automated compute object. This page explains how to manage access to serverless compute and how to implement serverless rate limits. Workspace admins govern serverless compute using built in serverless compute objects.",
+  "why_it_matters": "Workspace admins govern serverless compute using built in serverless compute objects.",
+  "plain_summary": "You can now limit Spark executor autoscaling for serverless jobs and pipelines by setting a size on an automated compute object.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now limit Spark executor autoscaling for serverless jobs and pipelines by setting a size on an automated compute object.",
+  "note_id": "2026-11-11-serverless-rate-limits-are-now-in-beta",
+  "category": "platform"
+}
