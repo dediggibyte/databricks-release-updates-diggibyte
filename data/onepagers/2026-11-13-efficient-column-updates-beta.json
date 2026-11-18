@@ -1,0 +1,24 @@
+{
+  "product": "Efficient column updates (Beta)",
+  "tagline": "Efficient Column Updates is in Beta.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/features/efficient-column-updates",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#efficient-column-updates-beta",
+  "what_it_does": "Efficient Column Updates is in Beta. Add and backfill columns without rewriting unchanged columns. Workspace admins enable access from the Previews page.",
+  "why_it_matters": "Query the table to inspect the populated values: SQL SELECT document id, description, text length FROM documents LIMIT 10; Efficient Column Updates reduces the data rewritten during a backfill.",
+  "plain_summary": "Efficient Column Updates is in Beta. Add and backfill columns without rewriting unchanged columns.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Efficient Column Updates is in Beta.",
+  "note_id": "2026-11-13-efficient-column-updates-beta",
+  "category": "platform"
+}

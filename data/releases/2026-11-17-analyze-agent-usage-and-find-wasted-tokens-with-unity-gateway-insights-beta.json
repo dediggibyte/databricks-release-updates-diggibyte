@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-17-analyze-agent-usage-and-find-wasted-tokens-with-unity-gateway-insights-beta",
+  "title": "Analyze agent usage and find wasted tokens with Unity Gateway Insights (Beta)",
+  "date": "2026-11-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#analyze-agent-usage-and-find-wasted-tokens-with-unity-gateway-insights-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now generate Unity Gateway Insights reports that show what people use agents for and where tokens go to waste. Genie Code builds each report from a sample of sessions in the [unified trace table](/aws/en/ai-gateway/unified-trace-table). Insights is in [Beta](/aws/en/release-notes/release-types). See [Analyze agent usage with Insights](/aws/en/ai-gateway/insights).",
+  "ref_links": [
+    {
+      "text": "unified trace table",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/unified-trace-table"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Analyze agent usage with Insights",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/insights"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.795759Z"
+}

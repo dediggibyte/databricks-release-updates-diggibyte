@@ -1,0 +1,24 @@
+{
+  "product": "Genie Migrate for Serverless (Beta)",
+  "tagline": "You can now migrate classic jobs to serverless compute in the background with Genie Migrate for Serverless, using the compute migrations command group in the Databricks CLI.",
+  "updated": "Nov 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/serverless/migration#agent-migrate-cli",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-for-serverless-beta",
+  "what_it_does": "You can now migrate classic jobs to serverless compute in the background with Genie Migrate for Serverless, using the compute migrations command group in the Databricks CLI. For each job, the agent builds a serverless working copy that you review and approve before it changes the original job. You can optionally run the working copy one time to validate it.",
+  "why_it_matters": "If the agent proposes a change that looks wrong, reject it and send us feedback so we can improve the agent.",
+  "plain_summary": "You can now migrate classic jobs to serverless compute in the background with Genie Migrate for Serverless, using the compute migrations command group in the Databricks CLI. For each job, the agent builds a serverless working copy that you review and approve…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now migrate classic jobs to serverless compute in the background with Genie Migrate for Serverless, using the compute migrations command group in the Databricks CLI.",
+  "note_id": "2026-11-05-genie-migrate-for-serverless-beta",
+  "category": "platform"
+}

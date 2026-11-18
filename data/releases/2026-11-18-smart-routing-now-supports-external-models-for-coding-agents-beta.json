@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-smart-routing-now-supports-external-models-for-coding-agents-beta",
+  "title": "Smart Routing now supports external models for coding agents (Beta)",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#smart-routing-now-supports-external-models-for-coding-agents-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In the Unity Gateway Managed Configuration beta, Smart Routing can route coding-agent subagents to external models behind a model provider service. Add them to `models.sources`, alongside `system.ai` models if needed. See [Choose model sources for each agent](/aws/en/ai-gateway/coding-agent-configure-govern#choose-model-sources-for-each-agent).",
+  "ref_links": [
+    {
+      "text": "Choose model sources for each agent",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-configure-govern#choose-model-sources-for-each-agent"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.793519Z"
+}

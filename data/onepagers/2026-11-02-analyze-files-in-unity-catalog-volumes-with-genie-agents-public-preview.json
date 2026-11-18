@@ -1,0 +1,24 @@
+{
+  "product": "Analyze files in Unity Catalog volumes with Genie Agents (Public Preview)",
+  "tagline": "A Genie Agent can now analyze unstructured files stored in Unity Catalog volumes, such as PDFs, Word documents, slide decks, and images.",
+  "updated": "Nov 2, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/volumes",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#analyze-files-in-unity-catalog-volumes-with-genie-agents-public-preview",
+  "what_it_does": "A Genie Agent can now analyze unstructured files stored in Unity Catalog volumes, such as PDFs, Word documents, slide decks, and images. An agent author attaches volumes to the agent, and users ask questions about the files alongside the agent's structured data in the same conversation. Answers include citations that can point to the specific page of the source file.",
+  "why_it_matters": "How content search works Content search parses and indexes your files so the Genie Agent can reason over a larger set of files, draw on specific passages across many files, and answer questions with lower latency.",
+  "plain_summary": "A Genie Agent can now analyze unstructured files stored in Unity Catalog volumes, such as PDFs, Word documents, slide decks, and images. An agent author attaches volumes to the agent, and users ask questions about the files alongside the agent's structured…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "A Genie Agent can now analyze unstructured files stored in Unity Catalog volumes, such as PDFs, Word documents, slide decks, and images.",
+  "note_id": "2026-11-02-analyze-files-in-unity-catalog-volumes-with-genie-agents-public-preview",
+  "category": "platform"
+}

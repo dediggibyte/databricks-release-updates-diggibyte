@@ -1,0 +1,24 @@
+{
+  "product": "Files API 3.0 will soon be generally available",
+  "tagline": "Files API 3.0 for Unity Catalog volumes will soon be generally available.",
+  "updated": "Nov 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/volumes/files-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#files-api-30-will-soon-be-generally-available",
+  "what_it_does": "Files API 3.0 for Unity Catalog volumes will soon be generally available. Starting in December 2026, it will also be available by default for workspaces with the compliance security profile enabled. The Files API supports reading, writing, listing, and deleting files and directories in Unity Catalog volumes by path.",
+  "why_it_matters": "Starting in December 2026, it will also be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Files API 3.0 for Unity Catalog volumes will soon be generally available. Starting in December 2026, it will also be available by default for workspaces with the compliance security profile enabled.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Files API 3.0 for Unity Catalog volumes will soon be generally available.",
+  "note_id": "2026-11-13-files-api-3-0-will-soon-be-generally-available",
+  "category": "platform"
+}

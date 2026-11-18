@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-12-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Scheduled task emails to other users**: Scheduled tasks in Genie One can now send emails to other users in your organization, not just to you. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).\n* **Mobile app links**: Links to Genie One chats and published dashboards now open directly in the Genie mobile app on iOS and Android. See [Use Genie on mobile](/aws/en/genie-one/mobile).",
+  "ref_links": [
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    },
+    {
+      "text": "Use Genie on mobile",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.812663Z"
+}

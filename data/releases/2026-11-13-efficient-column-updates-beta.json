@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-13-efficient-column-updates-beta",
+  "title": "Efficient column updates (Beta)",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#efficient-column-updates-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Efficient Column Updates is in [Beta](/aws/en/release-notes/release-types). Add and backfill columns without rewriting unchanged columns. Workspace admins enable access from the **Previews** page. See [Efficient column updates in Delta Lake](/aws/en/tables/features/efficient-column-updates).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Efficient column updates in Delta Lake",
+      "url": "https://docs.databricks.com/aws/en/tables/features/efficient-column-updates"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.802070Z"
+}

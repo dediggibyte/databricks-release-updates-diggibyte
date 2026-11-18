@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-09-consumer-access-to-workspace-objects-is-coming-soon",
+  "title": "Consumer access to workspace objects is coming soon",
+  "date": "2026-11-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#consumer-access-to-workspace-objects-is-coming-soon",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In Genie One, users with [consumer access](/aws/en/ai-bi/consumers) will soon be able to run richer analyses like forecasting and create new asset types like slides. They will also be able to use Lakeflow Designer to create visual data preps that read and write Unity Catalog tables when they have the required privileges. To enable these experiences, users with consumer access will be able to read and write the workspace objects they already have permission to access.\n\nExisting access control lists (ACLs) will continue to govern which workspace objects each user can open, run, or save, and Unity Catalog privileges will continue to govern which data they can read or write. Consumer access will not grant any additional permissions, and users with only consumer access will continue to use the simplified consumer experience instead of the standard workspace interface.",
+  "ref_links": [
+    {
+      "text": "consumer access",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/consumers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.855209Z"
+}

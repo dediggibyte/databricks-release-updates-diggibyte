@@ -1,0 +1,24 @@
+{
+  "product": "Genie Migrate can convert T-SQL to Lakeflow pipelines (Beta)",
+  "tagline": "Genie Migrate can convert T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines.",
+  "updated": "Nov 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/migration/genie-migrate/convert#supported-sources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-can-convert-t-sql-to-lakeflow-pipelines-beta",
+  "what_it_does": "Genie Migrate can convert T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines. This target framework is in Beta. In a T SQL migration project, choose the Spark Declarative Pipelines target framework, organize your files into groups, and choose a catalog and schema for each group.",
+  "why_it_matters": "Supported source dialects and target frameworks Genie Migrate converts the following SQL dialects: T SQL Snowflake SQL Redshift SQL Oracle BigQuery Teradata When you create a migration project for a SQL dialect, choose one of the following target frameworks: DBSQL: ANSI compliant Databricks SQL queries.",
+  "plain_summary": "Genie Migrate can convert T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines. This target framework is in Beta.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Migrate can convert T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines.",
+  "note_id": "2026-11-13-genie-migrate-can-convert-t-sql-to-lakeflow-pipelines-beta",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-13-files-api-3-0-will-soon-be-generally-available",
+  "title": "Files API 3.0 will soon be generally available",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#files-api-30-will-soon-be-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Files API 3.0 for Unity Catalog volumes will soon be generally available. Starting in December 2026, it will also be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nThe Files API supports reading, writing, listing, and deleting files and directories in Unity Catalog volumes by path. Version 3.0 adds multipart uploads for files larger than 5 GB and conditional operations that prevent unintended changes by checking the current file version before upload, download, or deletion.\n\nSee [Use the Files API with Unity Catalog volumes](/aws/en/volumes/files-api) for more information.",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Use the Files API with Unity Catalog volumes",
+      "url": "https://docs.databricks.com/aws/en/volumes/files-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-18T16:20:18.805234Z"
+}

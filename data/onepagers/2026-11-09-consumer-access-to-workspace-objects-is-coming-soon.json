@@ -1,0 +1,41 @@
+{
+  "product": "Consumer access to workspace objects is coming soon",
+  "tagline": "In Genie One, users with consumer access will soon be able to run richer analyses like forecasting and create new asset types like slides.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/consumers",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#consumer-access-to-workspace-objects-is-coming-soon",
+  "what_it_does": "In Genie One, users with consumer access will soon be able to run richer analyses like forecasting and create new asset types like slides. They will also be able to use Lakeflow Designer to create visual data preps that read and write Unity Catalog tables when they have the required privileges. To enable these experiences, users with consumer access will be able to read and write the workspace objects they already have permission to access.",
+  "why_it_matters": "Existing access control lists (ACLs) will continue to govern which workspace objects each user can open, run, or save, and Unity Catalog privileges will continue to govern which data they can read or write.",
+  "plain_summary": "In Genie One, users with consumer access will soon be able to run richer analyses like forecasting and create new asset types like slides. They will also be able to use Lakeflow Designer to create visual data preps that read and write Unity Catalog tables…",
+  "capabilities": [
+    {
+      "title": "List model services and query",
+      "desc": "List model services and query Databricks-hosted foundation models."
+    },
+    {
+      "title": "List model provider services and",
+      "desc": "List model provider services and query registered external providers."
+    },
+    {
+      "title": "List MCP services and call",
+      "desc": "List MCP services and call the MCP tools shared with them. The system.ai.websearch and system.ai.sandbox built-in MCP services…"
+    },
+    {
+      "title": "List and download shared skills",
+      "desc": "List and download shared skills."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In Genie One, users with consumer access will soon be able to run richer analyses like forecasting and create new asset types like slides.",
+  "note_id": "2026-11-09-consumer-access-to-workspace-objects-is-coming-soon",
+  "category": "platform"
+}
