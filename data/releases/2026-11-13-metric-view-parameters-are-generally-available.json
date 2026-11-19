@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-13-metric-view-parameters-are-generally-available",
+  "title": "Metric view parameters are generally available",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#metric-view-parameters-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Parameters in [metric views](/aws/en/uc-semantics/metric-views) are now generally available. Parameters bind values at query time, so a single metric view definition serves many query variants. Querying a metric view that defines parameters requires Databricks Runtime 18.2 or above. See [Use parameters with metric views](/aws/en/uc-semantics/metric-views/use-parameters).",
+  "ref_links": [
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views"
+    },
+    {
+      "text": "Use parameters with metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/use-parameters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.855964Z"
+}

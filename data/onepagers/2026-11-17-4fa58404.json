@@ -1,0 +1,24 @@
+{
+  "product": "JDBC Unity Catalog connections are now available by default for workspaces…",
+  "tagline": "JDBC Unity Catalog connections, including support for SSL certificates, are now available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Nov 17, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/connect/jdbc-connection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#jdbc-unity-catalog-connections-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "JDBC Unity Catalog connections, including support for SSL certificates, are now available by default for workspaces with the compliance security profile enabled. Use JDBC Unity Catalog connections to connect to external databases with a custom JDBC driver, with access governed by Unity Catalog. note This feature is in Public Preview for Databricks Runtime 18.1, and DBSQL 2025.40 and above.",
+  "why_it_matters": "JDBC Unity Catalog connections, including support for SSL certificates, are now available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "JDBC Unity Catalog connections, including support for SSL certificates, are now available by default for workspaces with the compliance security profile enabled. Use JDBC Unity Catalog connections to connect to external databases with a custom JDBC driver…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "JDBC Unity Catalog connections, including support for SSL certificates, are now available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-17-4fa58404",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-service-policies-protect-embedding-inputs-beta",
+  "title": "Service policies protect embedding inputs (Beta)",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#service-policies-protect-embedding-inputs-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply service policies to single or batch embedding inputs to mask sensitive data or deny requests that contain it, and to reject unsafe content before the model runs. See [Embedding input guardrails](/aws/en/data-governance/unity-catalog/service-policies#embedding-input-guardrails).",
+  "ref_links": [
+    {
+      "text": "Embedding input guardrails",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies#embedding-input-guardrails"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.843920Z"
+}

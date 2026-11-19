@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-configure-materialization-ttls-for-individual-opensharing-recipients",
+  "title": "Configure materialization TTLs for individual OpenSharing recipients",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#configure-materialization-ttls-for-individual-opensharing-recipients",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set the materialization time to live (TTL) for each open sharing recipient, overriding the metastore default. See [Configure a recipient materialization TTL](/aws/en/opensharing/manage-recipients#recipient-materialization-ttl).",
+  "ref_links": [
+    {
+      "text": "Configure a recipient materialization TTL",
+      "url": "https://docs.databricks.com/aws/en/opensharing/manage-recipients#recipient-materialization-ttl"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.842439Z"
+}

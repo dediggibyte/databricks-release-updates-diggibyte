@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-17-finer-level-of-detail-measures-in-metric-views-are-generally-available",
+  "title": "Finer level of detail measures in metric views are generally available",
+  "date": "2026-09-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#finer-level-of-detail-measures-in-metric-views-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Finer level of detail (LOD) measures in [metric views](/aws/en/uc-semantics/metric-views) are now generally available. A finer LOD measure uses a `partition` block with an `include` list and an `outer_aggregate` function. It computes an aggregate at a finer grain than the query, then reaggregates the result back to the query's grain. Finer LOD measures require Databricks Runtime 19 or above. See [Finer level of detail](/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod).",
+  "ref_links": [
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views"
+    },
+    {
+      "text": "Finer level of detail",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:33.113713Z"
+}

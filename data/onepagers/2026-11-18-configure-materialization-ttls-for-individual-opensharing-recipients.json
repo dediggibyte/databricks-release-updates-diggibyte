@@ -1,0 +1,41 @@
+{
+  "product": "Configure materialization TTLs for individual OpenSharing recipients",
+  "tagline": "You can now set the materialization time to live (TTL) for each open sharing recipient, overriding the metastore default.",
+  "updated": "Nov 18, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/manage-recipients#recipient-materialization-ttl",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#configure-materialization-ttls-for-individual-opensharing-recipients",
+  "what_it_does": "You can now set the materialization time to live (TTL) for each open sharing recipient, overriding the metastore default. As a data provider, manage OpenSharing recipients in Databricks to grant share access, update properties, and control materialization caching. A recipient is the named object that represents the identity of a user or group with whom you share data.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now set the materialization time to live (TTL) for each open sharing recipient, overriding the metastore default.",
+  "capabilities": [
+    {
+      "title": "View and copy the Authentication",
+      "desc": "View and copy the Authentication link. See Send the recipient their connection information"
+    },
+    {
+      "title": "Under Token Management, rotate or",
+      "desc": "Under Token Management, rotate or update the bearer token. See Manage recipient tokens."
+    },
+    {
+      "title": "Under OIDC federation policies, click",
+      "desc": "Under OIDC federation policies, click Add policies. See Enable Open ID Connect (OIDC) federation for OpenSharing recipients."
+    },
+    {
+      "title": "View and copy Recipient endpoint",
+      "desc": "View and copy Recipient endpoint and Recipient MTLS endpoint."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now set the materialization time to live (TTL) for each open sharing recipient, overriding the metastore default.",
+  "note_id": "2026-11-18-configure-materialization-ttls-for-individual-opensharing-recipients",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Finer level of detail measures in metric views are generally available",
+  "tagline": "Finer level of detail (LOD) measures in metric views are now generally available.",
+  "updated": "Sep 17, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/uc-semantics/metric-views/level-of-detail#finer-lod",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#finer-level-of-detail-measures-in-metric-views-are-generally-available",
+  "what_it_does": "Finer level of detail (LOD) measures in metric views are now generally available. A finer LOD measure uses a partition block with an include list and an outer aggregate function. It computes an aggregate at a finer grain than the query, then reaggregates the result back to the query's grain.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Finer level of detail (LOD) measures in metric views are now generally available. A finer LOD measure uses a partition block with an include list and an outer aggregate function.",
+  "capabilities": [
+    {
+      "title": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER",
+      "desc": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER (PARTITION BY <dim1>, <dim2>, ...)"
+    },
+    {
+      "title": "name: orderpriority expr: oorderpriority",
+      "desc": "name: orderpriority expr: oorderpriority"
+    },
+    {
+      "title": "name: orderdate expr: oorderdate",
+      "desc": "name: orderdate expr: oorderdate"
+    },
+    {
+      "title": "name: prioritytotalprice expr: SUM(ototalprice) OVER",
+      "desc": "name: prioritytotalprice expr: SUM(ototalprice) OVER (PARTITION BY oorderpriority)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Finer level of detail (LOD) measures in metric views are now generally available.",
+  "note_id": "2026-09-17-finer-level-of-detail-measures-in-metric-views-are-generally-available",
+  "category": "platform"
+}

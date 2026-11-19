@@ -1,0 +1,41 @@
+{
+  "product": "Lakebase streaming sink is generally available",
+  "tagline": "The Lakebase streaming sink is generally available.",
+  "updated": "Nov 17, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/lakebase",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#lakebase-streaming-sink-is-generally-available",
+  "what_it_does": "The Lakebase streaming sink is generally available. It now supports Trigger.AvailableNow() on serverless jobs and notebooks. In Databricks Runtime 19 and above, it also supports merge strategies and additive schema evolution (mergeSchema).",
+  "why_it_matters": "When to use the Lakebase sink Use the Lakebase sink for low latency streaming writes to Lakebase or an external PostgreSQL database.",
+  "plain_summary": "The Lakebase streaming sink is generally available. It now supports Trigger.AvailableNow() on serverless jobs and notebooks.",
+  "capabilities": [
+    {
+      "title": "External PostgreSQL connections require you",
+      "desc": "External PostgreSQL connections require you to use Databricks Runtime 19 and above and to opt in to the Custom JDBC on UC…"
+    },
+    {
+      "title": "Interval data types require you",
+      "desc": "Interval data types require you to use Databricks Runtime 19 and above."
+    },
+    {
+      "title": "Merge strategies for upserts require",
+      "desc": "Merge strategies for upserts require you to use Databricks Runtime 19 and above."
+    },
+    {
+      "title": "Additive schema evolution with mergeSchema",
+      "desc": "Additive schema evolution with mergeSchema requires you to use Databricks Runtime 19 and above. Classic compute with dedicated…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakebase streaming sink is generally available.",
+  "note_id": "2026-11-17-lakebase-streaming-sink-is-generally-available",
+  "category": "platform"
+}

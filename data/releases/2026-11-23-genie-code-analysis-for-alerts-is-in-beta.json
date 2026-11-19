@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-23-genie-code-analysis-for-alerts-is-in-beta",
+  "title": "Genie Code analysis for alerts is in Beta",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#genie-code-analysis-for-alerts-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "If the **Alertv2 Genie Analysis** preview is enabled, alert owners can turn on Genie Code analysis in **Advanced settings**. When an alert changes to **Triggered** or **Error**, Genie Code starts an investigation and adds an **Investigate** link to the alert history. See [Configure Genie Code analysis](/aws/en/sql/user/alerts/create#configure-genie-code-analysis).",
+  "ref_links": [
+    {
+      "text": "Configure Genie Code analysis",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts/create#configure-genie-code-analysis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.840856Z"
+}

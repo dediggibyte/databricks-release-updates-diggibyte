@@ -1,0 +1,41 @@
+{
+  "product": "Lakewatch is available in Beta",
+  "tagline": "Lakewatch is now available in Beta.",
+  "updated": "Nov 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/lakewatch",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#lakewatch-is-available-in-beta",
+  "what_it_does": "Lakewatch is now available in Beta. Use Lakewatch to ingest security logs into governed tables, run detection rules, and investigate and respond to alerts on Databricks. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Use Lakewatch to ingest security logs into governed tables, run detection rules, and investigate and respond to alerts on Databricks.",
+  "plain_summary": "Lakewatch is now available in Beta. Use Lakewatch to ingest security logs into governed tables, run detection rules, and investigate and respond to alerts on Databricks.",
+  "capabilities": [
+    {
+      "title": "Learn how Lakewatch works",
+      "desc": "Learn how Lakewatch works"
+    },
+    {
+      "title": "Explore the core concepts behind",
+      "desc": "Explore the core concepts behind Lakewatch and how ingestion, detection, and investigation work together."
+    },
+    {
+      "title": "Follow an end-to-end walkthrough",
+      "desc": "Follow an end-to-end walkthrough"
+    },
+    {
+      "title": "Ingest data, run a detection",
+      "desc": "Ingest data, run a detection rule, investigate an alert, and query your data in one guided run."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakewatch is now available in Beta.",
+  "note_id": "2026-11-09-lakewatch-is-available-in-beta",
+  "category": "platform"
+}

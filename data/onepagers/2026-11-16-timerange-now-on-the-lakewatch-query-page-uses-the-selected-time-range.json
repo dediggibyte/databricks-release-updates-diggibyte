@@ -1,0 +1,24 @@
+{
+  "product": "TIMERANGE_NOW() on the Lakewatch query page uses the selected time range",
+  "tagline": "On the Lakewatch query page, TIMERANGE NOW() now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data.",
+  "updated": "Nov 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/lakewatch/detections/write-detection-rules#reference-the-runs-window-with-timerange_now",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#timerange_now-on-the-lakewatch-query-page-uses-the-selected-time-range",
+  "what_it_does": "On the Lakewatch query page, TIMERANGE NOW() now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data. Beta Lakewatch is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "If a source's ingestion latency is so variable that no single extend lookback reliably covers it, you can instead scope the rule on ingestion time.",
+  "plain_summary": "On the Lakewatch query page, TIMERANGE NOW() now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "On the Lakewatch query page, TIMERANGE NOW() now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data.",
+  "note_id": "2026-11-16-timerange-now-on-the-lakewatch-query-page-uses-the-selected-time-range",
+  "category": "platform"
+}

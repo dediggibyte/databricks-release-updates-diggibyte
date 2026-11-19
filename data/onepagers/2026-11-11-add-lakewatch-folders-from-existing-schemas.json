@@ -1,0 +1,33 @@
+{
+  "product": "Add Lakewatch folders from existing schemas",
+  "tagline": "In Lakewatch, Add folder can now register an existing schema as a folder, so you no longer need CREATE SCHEMA on the catalog to add one.",
+  "updated": "Nov 11, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/lakewatch/admin/set-up-workspace#add-a-folder",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#add-lakewatch-folders-from-existing-schemas",
+  "what_it_does": "In Lakewatch, Add folder can now register an existing schema as a folder, so you no longer need CREATE SCHEMA on the catalog to add one. You can also delete a folder from Settings Environment. Beta Lakewatch is in Beta.",
+  "why_it_matters": "To set up least privilege access for a security team, follow Set up Lakewatch access control.",
+  "plain_summary": "In Lakewatch, Add folder can now register an existing schema as a folder, so you no longer need CREATE SCHEMA on the catalog to add one. You can also delete a folder from Settings Environment.",
+  "capabilities": [
+    {
+      "title": "CREATE CATALOG on the metastore",
+      "desc": "CREATE CATALOG on the metastore, to create a new catalog. The Recommended configuration creates a new catalog."
+    },
+    {
+      "title": "MANAGE and CREATE SCHEMA on",
+      "desc": "MANAGE and CREATE SCHEMA on an existing catalog, to register it as the environment. Available only with Custom configuration.…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In Lakewatch, Add folder can now register an existing schema as a folder, so you no longer need CREATE SCHEMA on the catalog to add one.",
+  "note_id": "2026-11-11-add-lakewatch-folders-from-existing-schemas",
+  "category": "platform"
+}

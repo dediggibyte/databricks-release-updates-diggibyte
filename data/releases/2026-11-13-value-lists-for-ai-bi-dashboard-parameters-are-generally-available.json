@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-13-value-lists-for-ai-bi-dashboard-parameters-are-generally-available",
+  "title": "Value lists for AI/BI dashboard parameters are generally available",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#value-lists-for-aibi-dashboard-parameters-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter. Add the list in the **Value** section of the **Parameter details** dialog. Viewers can still enter any value that fits the parameter's type. See [Add a value list to a parameter](/aws/en/dashboards/manage/filters/parameters#value-lists).",
+  "ref_links": [
+    {
+      "text": "Add a value list to a parameter",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#value-lists"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.856960Z"
+}

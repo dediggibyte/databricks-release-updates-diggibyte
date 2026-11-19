@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-16-timerange-now-on-the-lakewatch-query-page-uses-the-selected-time-range",
+  "title": "TIMERANGE_NOW() on the Lakewatch query page uses the selected time range",
+  "date": "2026-11-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#timerange_now-on-the-lakewatch-query-page-uses-the-selected-time-range",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "On the Lakewatch query page, `TIMERANGE_NOW()` now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data. See [Reference the run's window with `TIMERANGE_NOW()`](/aws/en/lakewatch/detections/write-detection-rules#reference-the-runs-window-with-timerange_now).",
+  "ref_links": [
+    {
+      "text": "Reference the run's window with TIMERANGE_NOW()",
+      "url": "https://docs.databricks.com/aws/en/lakewatch/detections/write-detection-rules#reference-the-runs-window-with-timerange_now"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.849722Z"
+}

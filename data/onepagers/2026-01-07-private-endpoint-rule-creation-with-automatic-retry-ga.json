@@ -1,0 +1,41 @@
+{
+  "product": "Private endpoint rule creation with automatic retry (GA)",
+  "tagline": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources.",
+  "updated": "Jan 7, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-private-endpoint-rules",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#private-endpoint-rule-creation-with-automatic-retry-ga",
+  "what_it_does": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources. A new CREATING connection state indicates a rule is actively being created or retried. note Databricks charges for networking costs when serverless workloads connect to customer resources, and when performance intensive services egress data cross region back to clients.",
+  "why_it_matters": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources.",
+  "plain_summary": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources. A new CREATING connection state indicates a rule is actively being created or retried.",
+  "capabilities": [
+    {
+      "title": "Configure private connectivity to resources",
+      "desc": "Configure private connectivity to resources in your VPC"
+    },
+    {
+      "title": "Use PrivateLink to establish secure",
+      "desc": "Use PrivateLink to establish secure and isolated access to your internal network resources from serverless compute, bypassing…"
+    },
+    {
+      "title": "Serverless compute firewall configuration",
+      "desc": "Serverless compute firewall configuration"
+    },
+    {
+      "title": "Implement a firewall to restrict",
+      "desc": "Implement a firewall to restrict and secure inbound and outbound network connections for your serverless compute environments."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources.",
+  "note_id": "2026-01-07-private-endpoint-rule-creation-with-automatic-retry-ga",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Gemini 3.6 Flash is retired",
+  "tagline": "Google Gemini 3.6 Flash is retired as of November 19, 2026.",
+  "updated": "Nov 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-is-retired",
+  "what_it_does": "Google Gemini 3.6 Flash is retired as of November 19, 2026. API calls to Gemini 3.6 Flash are automatically redirected to Gemini 3.8 Flash, the recommended replacement, at the same price. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Google Gemini 3.6 Flash is retired as of November 19, 2026. API calls to Gemini 3.6 Flash are automatically redirected to Gemini 3.8 Flash, the recommended replacement, at the same price.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini 3.6 Flash is retired as of November 19, 2026.",
+  "note_id": "2026-11-19-gemini-3-6-flash-is-retired",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-evaluate-streaming-responses-incrementally-with-service-policies-beta",
+  "title": "Evaluate streaming responses incrementally with service policies (Beta)",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#evaluate-streaming-responses-incrementally-with-service-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model output policies default to streaming evaluation, including existing policies. Released text can't be recalled. Select **Full response evaluation** to buffer the response. See [Streaming responses (Beta)](/aws/en/data-governance/unity-catalog/service-policies#streaming-responses).",
+  "ref_links": [
+    {
+      "text": "Streaming responses (Beta)",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies#streaming-responses"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.842940Z"
+}

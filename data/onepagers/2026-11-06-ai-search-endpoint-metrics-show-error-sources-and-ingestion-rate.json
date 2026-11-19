@@ -1,0 +1,24 @@
+{
+  "product": "AI Search endpoint metrics show error sources and ingestion rate",
+  "tagline": "AI Search endpoint metrics show whether failed queries come from the embedding model endpoint or from AI Search, and how many rows per second are written to the indexes on standard endpoints.",
+  "updated": "Nov 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/monitor-endpoints",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-search-endpoint-metrics-show-error-sources-and-ingestion-rate",
+  "what_it_does": "AI Search endpoint metrics show whether failed queries come from the embedding model endpoint or from AI Search, and how many rows per second are written to the indexes on standard endpoints. View the metrics on the endpoint's Metrics tab or retrieve them with the API. AI Search endpoint metrics report health, query rate, latency, errors by source, and ingestion rate for the last 169 hours.",
+  "why_it_matters": "AI Search endpoint metrics report health, query rate, latency, errors by source, and ingestion rate for the last 169 hours.",
+  "plain_summary": "AI Search endpoint metrics show whether failed queries come from the embedding model endpoint or from AI Search, and how many rows per second are written to the indexes on standard endpoints. View the metrics on the endpoint's Metrics tab or retrieve them…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "AI Search endpoint metrics show whether failed queries come from the embedding model endpoint or from AI Search, and how many rows per second are written to the indexes on standard endpoints.",
+  "note_id": "2026-11-06-ai-search-endpoint-metrics-show-error-sources-and-ingestion-rate",
+  "category": "platform"
+}

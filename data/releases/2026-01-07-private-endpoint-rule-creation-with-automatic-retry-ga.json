@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-07-private-endpoint-rule-creation-with-automatic-retry-ga",
+  "title": "Private endpoint rule creation with automatic retry (GA)",
+  "date": "2026-01-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#private-endpoint-rule-creation-with-automatic-retry-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Private endpoint rules for serverless compute now support automatic backend retry on creation failures, improving reliability when creating rules to cloud resources. A new `CREATING` connection state indicates a rule is actively being created or retried. See [Manage private endpoint rules](/aws/en/security/network/serverless-network-security/manage-private-endpoint-rules).",
+  "ref_links": [
+    {
+      "text": "Manage private endpoint rules",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-private-endpoint-rules"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:33.745400Z"
+}

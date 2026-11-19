@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-redesigned-lakewatch-overview-page-and-navigation",
+  "title": "Redesigned Lakewatch Overview page and navigation",
+  "date": "2026-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#redesigned-lakewatch-overview-page-and-navigation",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakewatch **Overview** page now opens with a Genie question box and shows the last 7 days of ingestion and signal activity, with tabs for open alerts and system errors. The environment and SQL warehouse pickers moved to the **Environment, workspace and compute** menu in the top navigation bar. See [The Overview page](/aws/en/lakewatch/introduction-to-lakewatch#the-overview-page).",
+  "ref_links": [
+    {
+      "text": "The Overview page",
+      "url": "https://docs.databricks.com/aws/en/lakewatch/introduction-to-lakewatch#the-overview-page"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.864448Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Genie Code analysis for alerts is in Beta",
+  "tagline": "If the Alertv2 Genie Analysis preview is enabled, alert owners can turn on Genie Code analysis in Advanced settings.",
+  "updated": "Nov 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/alerts/create#configure-genie-code-analysis",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#genie-code-analysis-for-alerts-is-in-beta",
+  "what_it_does": "If the Alertv2 Genie Analysis preview is enabled, alert owners can turn on Genie Code analysis in Advanced settings. When an alert changes to Triggered or Error, Genie Code starts an investigation and adds an Investigate link to the alert history. This page walks you through creating a Databricks SQL alert end to end.",
+  "why_it_matters": "Avoid hitting the active run limit To reduce simultaneous demand on run slots, stagger alert schedules so they do not all fire at the same time.",
+  "plain_summary": "If the Alertv2 Genie Analysis preview is enabled, alert owners can turn on Genie Code analysis in Advanced settings. When an alert changes to Triggered or Error, Genie Code starts an investigation and adds an Investigate link to the alert history.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "If the Alertv2 Genie Analysis preview is enabled, alert owners can turn on Genie Code analysis in Advanced settings.",
+  "note_id": "2026-11-23-genie-code-analysis-for-alerts-is-in-beta",
+  "category": "platform"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Redesigned Lakewatch Overview page and navigation",
+  "tagline": "The Lakewatch Overview page now opens with a Genie question box and shows the last 7 days of ingestion and signal activity, with tabs for open alerts and system errors.",
+  "updated": "Nov 12, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/lakewatch/introduction-to-lakewatch#the-overview-page",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#redesigned-lakewatch-overview-page-and-navigation",
+  "what_it_does": "The Lakewatch Overview page now opens with a Genie question box and shows the last 7 days of ingestion and signal activity, with tabs for open alerts and system errors. The environment and SQL warehouse pickers moved to the Environment, workspace and compute menu in the top navigation bar. Beta Lakewatch is in Beta.",
+  "why_it_matters": "Lakewatch is a Databricks feature that brings security information and event management (SIEM) capabilities directly into your lakehouse.",
+  "plain_summary": "The Lakewatch Overview page now opens with a Genie question box and shows the last 7 days of ingestion and signal activity, with tabs for open alerts and system errors. The environment and SQL warehouse pickers moved to the Environment, workspace and compute…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Lakewatch Overview page now opens with a Genie question box and shows the last 7 days of ingestion and signal activity, with tabs for open alerts and system errors.",
+  "note_id": "2026-11-12-redesigned-lakewatch-overview-page-and-navigation",
+  "category": "platform"
+}

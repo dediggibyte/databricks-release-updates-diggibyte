@@ -1,0 +1,33 @@
+{
+  "product": "Value lists for AI/BI dashboard parameters are generally available",
+  "tagline": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter.",
+  "updated": "Nov 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#value-lists",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#value-lists-for-aibi-dashboard-parameters-are-generally-available",
+  "what_it_does": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter. Add the list in the Value section of the Parameter details dialog. Viewers can still enter any value that fits the parameter's type.",
+  "why_it_matters": "Dataset field filters can also offer dashboard interactivity, more features, and better performance with large datasets than parameters.",
+  "plain_summary": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter. Add the list in the Value section of the Parameter details dialog.",
+  "capabilities": [
+    {
+      "title": "The default type is String",
+      "desc": "The default type is String."
+    },
+    {
+      "title": "The Numeric datatype allows you",
+      "desc": "The Numeric datatype allows you to specify between Decimal and Integer. The default numeric type is Decimal. Allow multiple…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter.",
+  "note_id": "2026-11-13-value-lists-for-ai-bi-dashboard-parameters-are-generally-available",
+  "category": "platform"
+}

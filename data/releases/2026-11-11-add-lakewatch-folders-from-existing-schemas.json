@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-add-lakewatch-folders-from-existing-schemas",
+  "title": "Add Lakewatch folders from existing schemas",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#add-lakewatch-folders-from-existing-schemas",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In Lakewatch, **Add folder** can now register an existing schema as a folder, so you no longer need `CREATE SCHEMA` on the catalog to add one. You can also delete a folder from **Settings > Environment**. See [Add a folder](/aws/en/lakewatch/admin/set-up-workspace#add-a-folder).",
+  "ref_links": [
+    {
+      "text": "Add a folder",
+      "url": "https://docs.databricks.com/aws/en/lakewatch/admin/set-up-workspace#add-a-folder"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-19T16:28:32.870535Z"
+}

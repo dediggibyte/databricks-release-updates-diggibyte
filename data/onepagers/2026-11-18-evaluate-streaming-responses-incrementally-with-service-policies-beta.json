@@ -1,0 +1,24 @@
+{
+  "product": "Evaluate streaming responses incrementally with service policies (Beta)",
+  "tagline": "Model output policies default to streaming evaluation, including existing policies.",
+  "updated": "Nov 18, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies#streaming-responses",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#evaluate-streaming-responses-incrementally-with-service-policies-beta",
+  "what_it_does": "Model output policies default to streaming evaluation, including existing policies. Released text can't be recalled. Select Full response evaluation to buffer the response.",
+  "why_it_matters": "Service policies let you govern the content of interactions with AI services registered in Unity Catalog, including external MCP servers and models from any provider, not just Databricks hosted ones.",
+  "plain_summary": "Model output policies default to streaming evaluation, including existing policies. Released text can't be recalled.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Model output policies default to streaming evaluation, including existing policies.",
+  "note_id": "2026-11-18-evaluate-streaming-responses-incrementally-with-service-policies-beta",
+  "category": "platform"
+}

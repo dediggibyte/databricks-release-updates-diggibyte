@@ -1,0 +1,24 @@
+{
+  "product": "Service policies protect embedding inputs (Beta)",
+  "tagline": "You can now apply service policies to single or batch embedding inputs to mask sensitive data or deny requests that contain it, and to reject unsafe content before the model runs.",
+  "updated": "Nov 18, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/service-policies#embedding-input-guardrails",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#service-policies-protect-embedding-inputs-beta",
+  "what_it_does": "You can now apply service policies to single or batch embedding inputs to mask sensitive data or deny requests that contain it, and to reject unsafe content before the model runs. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page by opting into the Unity Gateway Service Policies preview.",
+  "why_it_matters": "Service policies let you govern the content of interactions with AI services registered in Unity Catalog, including external MCP servers and models from any provider, not just Databricks hosted ones.",
+  "plain_summary": "You can now apply service policies to single or batch embedding inputs to mask sensitive data or deny requests that contain it, and to reject unsafe content before the model runs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now apply service policies to single or batch embedding inputs to mask sensitive data or deny requests that contain it, and to reject unsafe content before the model runs.",
+  "note_id": "2026-11-18-service-policies-protect-embedding-inputs-beta",
+  "category": "platform"
+}
