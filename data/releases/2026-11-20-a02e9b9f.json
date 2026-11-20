@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-20-a02e9b9f",
+  "title": "OAuth authentication for webhook destinations will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#oauth-authentication-for-webhook-destinations-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled, subject to the [requirements for regions and compliance standards](/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-availability).\n\nUse OAuth 2.0 client credentials to send notifications to an endpoint that requires an access token. Databricks obtains the token from the configured OAuth token endpoint and uses it to authenticate the notification request. Existing webhook destinations retain their configured authentication.\n\nSee [OAuth authentication for webhook destinations](/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "requirements for regions and compliance standards",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-availability"
+    },
+    {
+      "text": "OAuth authentication for webhook destinations",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-20T16:00:19.547934Z"
+}

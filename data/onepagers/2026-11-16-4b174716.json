@@ -1,0 +1,24 @@
+{
+  "product": "Upcoming breaking change: array_contains with a constant empty array will…",
+  "tagline": "Starting on or after January 15, 2027, with ANSI mode enabled in Databricks Runtime 19 and above, array contains(arr, value) will return NULL, not false, when arr is a constant empty array and value…",
+  "updated": "Nov 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/map_contains_key",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-breaking-change-array_contains-with-a-constant-empty-array-will-return-null-for-a-null-value",
+  "what_it_does": "Starting on or after January 15, 2027, with ANSI mode enabled in Databricks Runtime 19 and above, array contains(arr, value) will return NULL, not false, when arr is a constant empty array and value is NULL. map contains key(map, key) with a constant empty map will change the same way. As a result, NOT array contains(arr, value) will no longer match rows where value is NULL.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Starting on or after January 15, 2027, with ANSI mode enabled in Databricks Runtime 19 and above, array contains(arr, value) will return NULL, not false, when arr is a constant empty array and value is NULL. map contains key(map, key) with a constant empty…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting on or after January 15, 2027, with ANSI mode enabled in Databricks Runtime 19 and above, array contains(arr, value) will return NULL, not false, when arr is a constant empty array and value…",
+  "note_id": "2026-11-16-4b174716",
+  "category": "platform"
+}

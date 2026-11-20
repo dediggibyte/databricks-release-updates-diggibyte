@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-18-oauth-m2m-authentication-for-the-salesforce-servicenow-and-jira-connectors",
+  "title": "OAuth M2M authentication for the Salesforce, ServiceNow, and Jira connectors",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-m2m-authentication-for-the-salesforce-servicenow-and-jira-connectors",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OAuth machine-to-machine (M2M) authentication is now generally available for the [Salesforce](/aws/en/ingestion/lakeflow-connect/salesforce-connection#oauth-m2m-authentication), [ServiceNow](/aws/en/ingestion/lakeflow-connect/servicenow-connection), and [Jira](/aws/en/ingestion/lakeflow-connect/jira-connection) connectors in Lakeflow Connect. M2M uses the OAuth client credentials flow, so no one signs in interactively. For Jira, M2M supports Jira Cloud only.",
+  "ref_links": [
+    {
+      "text": "Salesforce",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/salesforce-connection#oauth-m2m-authentication"
+    },
+    {
+      "text": "ServiceNow",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/servicenow-connection"
+    },
+    {
+      "text": "Jira",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/jira-connection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-20T16:00:19.551688Z"
+}

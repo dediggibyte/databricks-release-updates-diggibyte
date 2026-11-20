@@ -1,0 +1,41 @@
+{
+  "product": "OAuth authentication for webhook destinations will soon be available by…",
+  "tagline": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the compliance security profile enabled, subject to the…",
+  "updated": "Nov 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#oauth-authentication-for-webhook-destinations-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the compliance security profile enabled, subject to the requirements for regions and compliance standards. Use OAuth 2.0 client credentials to send notifications to an endpoint that requires an access token. Databricks obtains the token from the configured OAuth token endpoint and uses it to authenticate the notification request.",
+  "why_it_matters": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the compliance security profile enabled, subject to the requirements for regions and compliance standards.",
+  "plain_summary": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the compliance security profile enabled, subject to the requirements for regions and compliance standards. Use OAuth 2.0…",
+  "capabilities": [
+    {
+      "title": "For control plane webapp IP",
+      "desc": "For control plane webapp IP addresses, see IP addresses and domains for Databricks services and assets."
+    },
+    {
+      "title": "For data plane outbound IP",
+      "desc": "For data plane outbound IP addresses, see the ip-ranges.json file that Databricks publishes. Search the file for your…"
+    },
+    {
+      "title": "The service field is Databricks",
+      "desc": "The service field is Databricks"
+    },
+    {
+      "title": "The platform field is aws",
+      "desc": "The platform field is aws"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting on or after December 20, 2026, OAuth authentication for webhook destinations will be available by default for workspaces with the compliance security profile enabled, subject to the…",
+  "note_id": "2026-11-20-a02e9b9f",
+  "category": "platform"
+}

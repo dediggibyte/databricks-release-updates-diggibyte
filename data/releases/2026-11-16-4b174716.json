@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-16-4b174716",
+  "title": "Upcoming breaking change: array_contains with a constant empty array will return NULL for a NULL value",
+  "date": "2026-11-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-breaking-change-array_contains-with-a-constant-empty-array-will-return-null-for-a-null-value",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting on or after January 15, 2027, with ANSI mode enabled in Databricks Runtime 19 and above, `array_contains(arr, value)` will return NULL, not false, when `arr` is a constant empty array and `value` is NULL. `map_contains_key(map, key)` with a constant empty map will change the same way. As a result, `NOT array_contains(arr, value)` will no longer match rows where `value` is NULL.\n\nTo keep the previous result, use `size(arr) > 0 AND array_contains(arr, value)`.\n\nSee [`array_contains` function](/aws/en/sql/language-manual/functions/array_contains) and [`map_contains_key` function](/aws/en/sql/language-manual/functions/map_contains_key).",
+  "ref_links": [
+    {
+      "text": "array_contains function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/array_contains"
+    },
+    {
+      "text": "map_contains_key function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/map_contains_key"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-20T16:00:19.562703Z"
+}

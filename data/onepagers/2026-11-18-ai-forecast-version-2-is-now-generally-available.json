@@ -1,0 +1,41 @@
+{
+  "product": "ai_forecast version 2 is now generally available",
+  "tagline": "Version 2 of the ai forecast function is now generally available in Databricks SQL.",
+  "updated": "Nov 18, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_forecast",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai_forecast-version-2-is-now-generally-available",
+  "what_it_does": "Version 2 of the ai forecast function is now generally available in Databricks SQL. A research optimized time series foundation model powers version 2 for improved out of the box accuracy, and version 2 adds built in holiday support, external covariates, and non negative forecasts. Applies to: Databricks SQL ai forecast() is a table valued function that extrapolates time series data forward in time.",
+  "why_it_matters": "A research optimized time series foundation model powers version 2 for improved out of the box accuracy, and version 2 adds built in holiday support, external covariates, and non negative forecasts.",
+  "plain_summary": "Version 2 of the ai forecast function is now generally available in Databricks SQL. A research optimized time series foundation model powers version 2 for improved out of the box accuracy, and version 2 adds built in holiday support, external covariates, and…",
+  "capabilities": [
+    {
+      "title": "This input relation must contain",
+      "desc": "This input relation must contain one \"time\" column and one or more \"value\" columns. \"Group\" and \"covariate\" columns are…"
+    },
+    {
+      "title": "Future covariates: values are known",
+      "desc": "Future covariates: values are known for the forecast horizon, such as planned pricing or scheduled campaigns. To use a covariate…"
+    },
+    {
+      "title": "Past-only covariates: values are known",
+      "desc": "Past-only covariates: values are known only for the historical period, such as observed weather or macroeconomic indicators.…"
+    },
+    {
+      "title": "The inferred frequency within a",
+      "desc": "The inferred frequency within a group is the mode of the most recent observations. This inference is a convenience operation…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Version 2 of the ai forecast function is now generally available in Databricks SQL.",
+  "note_id": "2026-11-18-ai-forecast-version-2-is-now-generally-available",
+  "category": "platform"
+}
