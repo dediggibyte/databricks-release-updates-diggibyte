@@ -1,0 +1,33 @@
+{
+  "product": "Scope modifiers for personal access tokens and OAuth are generally available",
+  "tagline": "Scope modifiers narrow an API scope to a subset of its operations, such as clusters:read for read operations or sql:restricted query for read only SQL queries, in personal access tokens, OAuth…",
+  "updated": "Nov 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/auth/scope-modifiers",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#scope-modifiers-for-personal-access-tokens-and-oauth-are-generally-available",
+  "what_it_does": "Scope modifiers narrow an API scope to a subset of its operations, such as clusters:read for read operations or sql:restricted query for read only SQL queries, in personal access tokens, OAuth secrets, and OAuth token requests. A scope modifier narrows an API scope to a subset of its operations. To add a modifier, append it to the scope name after a colon, for example clusters:read.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Scope modifiers narrow an API scope to a subset of its operations, such as clusters:read for read operations or sql:restricted query for read only SQL queries, in personal access tokens, OAuth secrets, and OAuth token requests.",
+  "capabilities": [
+    {
+      "title": "Statements that create, alter, or",
+      "desc": "Statements that create, alter, or drop objects, such as CREATE TABLE and DROP TABLE, fail with [OPNOTSUPPORTEDREADONLY] ... is…"
+    },
+    {
+      "title": "Statements that modify data, such",
+      "desc": "Statements that modify data, such as INSERT and UPDATE, fail with [INSUFFICIENTPERMISSIONS] Insufficient privileges, even on…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Scope modifiers narrow an API scope to a subset of its operations, such as clusters:read for read operations or sql:restricted query for read only SQL queries, in personal access tokens, OAuth…",
+  "note_id": "2026-11-04-scope-modifiers-for-personal-access-tokens-and-oauth-are-generally-available",
+  "category": "platform"
+}

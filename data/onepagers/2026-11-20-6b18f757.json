@@ -1,0 +1,24 @@
+{
+  "product": "The Databricks GitHub app will request permission to create and manage pull…",
+  "tagline": "In an upcoming change, the Databricks GitHub app will request Read and write access to pull requests, so that tools like Genie Code and Genie ZeroOps can create and manage pull requests for you.",
+  "updated": "Nov 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/repos/get-access-tokens-from-git-provider",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-databricks-github-app-will-request-permission-to-create-and-manage-pull-requests",
+  "what_it_does": "In an upcoming change, the Databricks GitHub app will request Read and write access to pull requests, so that tools like Genie Code and Genie ZeroOps can create and manage pull requests for you. Your branch protection rules and required reviews still apply. When this happens, owners of GitHub organizations and accounts that have the app installed will receive an email from GitHub titled \"Databricks is requesting updated permissions.\" This is a legitimate request from Databricks.",
+  "why_it_matters": "Databricks recommends migrating to API tokens, which provide enhanced security and admin control.",
+  "plain_summary": "In an upcoming change, the Databricks GitHub app will request Read and write access to pull requests, so that tools like Genie Code and Genie ZeroOps can create and manage pull requests for you. Your branch protection rules and required reviews still apply.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In an upcoming change, the Databricks GitHub app will request Read and write access to pull requests, so that tools like Genie Code and Genie ZeroOps can create and manage pull requests for you.",
+  "note_id": "2026-11-20-6b18f757",
+  "category": "platform"
+}

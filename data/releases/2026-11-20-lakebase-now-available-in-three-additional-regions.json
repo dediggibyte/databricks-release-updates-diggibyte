@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-20-lakebase-now-available-in-three-additional-regions",
+  "title": "Lakebase now available in three additional regions",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-now-available-in-three-additional-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now available in the following regions:\n\n* `eu-west-3` (Europe - Paris)\n* `ap-southeast-3` (Asia Pacific - Jakarta)\n* `ap-northeast-2` (Asia Pacific - Seoul)\n\nFor the full list of supported regions, see [Region availability](/aws/en/oltp/projects/manage-projects#availability). To get started, see [Get a Postgres database](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Region availability",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#availability"
+    },
+    {
+      "text": "Get a Postgres database",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.588175Z"
+}

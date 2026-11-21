@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-11-notifications-operator-available-across-clouds-in-lakeflow-designer",
+  "title": "Notifications operator available across clouds in Lakeflow Designer",
+  "date": "2026-11-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#notifications-operator-available-across-clouds-in-lakeflow-designer",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP. Send email with table attachments when a visual data prep runs. See [Notifications](/aws/en/designer/built-in-operators#notifications).",
+  "ref_links": [
+    {
+      "text": "Notifications",
+      "url": "https://docs.databricks.com/aws/en/designer/built-in-operators#notifications"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.650914Z"
+}

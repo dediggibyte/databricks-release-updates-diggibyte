@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-ltap-direct-writes-for-synced-tables-is-now-generally-available",
+  "title": "LTAP Direct Writes for synced tables is now generally available",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#ltap-direct-writes-for-synced-tables-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "LTAP Direct Writes is now generally available. It writes synced table loads directly to Lakebase storage instead of through your compute endpoint, so large initial loads and full refreshes finish faster and don't compete with your application's queries. To use it, select **LTAP Direct Writes** when you create a synced table. See [Accelerated sync with LTAP Direct Writes](/aws/en/oltp/projects/sync-tables#ltap-direct-writes).",
+  "ref_links": [
+    {
+      "text": "Accelerated sync with LTAP Direct Writes",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/sync-tables#ltap-direct-writes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.596318Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-20-6b18f757",
+  "title": "The Databricks GitHub app will request permission to create and manage pull requests",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-databricks-github-app-will-request-permission-to-create-and-manage-pull-requests",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming change, the [Databricks GitHub app](https://github.com/apps/databricks) will request **Read and write access to pull requests**, so that tools like Genie Code and Genie ZeroOps can create and manage pull requests for you. Your branch protection rules and required reviews still apply.\n\nWhen this happens, owners of GitHub organizations and accounts that have the app installed will receive an email from GitHub titled \"Databricks is requesting updated permissions.\" This is a legitimate request from Databricks.\n\nIf you don't accept, nothing changes from today. You can still clone, pull, commit, and push. The only difference is that Genie Code and Genie ZeroOps can't create and manage pull requests for you. See [Connect your Git provider to Databricks](/aws/en/repos/get-access-tokens-from-git-provider).",
+  "ref_links": [
+    {
+      "text": "Databricks GitHub app",
+      "url": "https://github.com/apps/databricks"
+    },
+    {
+      "text": "Connect your Git provider to Databricks",
+      "url": "https://docs.databricks.com/aws/en/repos/get-access-tokens-from-git-provider"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.591313Z"
+}

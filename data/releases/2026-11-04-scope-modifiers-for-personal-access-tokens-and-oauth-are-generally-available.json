@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-scope-modifiers-for-personal-access-tokens-and-oauth-are-generally-available",
+  "title": "Scope modifiers for personal access tokens and OAuth are generally available",
+  "date": "2026-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#scope-modifiers-for-personal-access-tokens-and-oauth-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Scope modifiers narrow an API scope to a subset of its operations, such as `clusters:read` for read operations or `sql:restricted-query` for read-only SQL queries, in personal access tokens, OAuth secrets, and OAuth token requests. See [Narrow API scopes with scope modifiers](/aws/en/dev-tools/auth/scope-modifiers).",
+  "ref_links": [
+    {
+      "text": "Narrow API scopes with scope modifiers",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/scope-modifiers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.711376Z"
+}

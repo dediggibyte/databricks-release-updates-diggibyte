@@ -1,0 +1,33 @@
+{
+  "product": "Manage Lakewatch with the Databricks CLI (Beta)",
+  "tagline": "You can now manage Lakewatch from the command line with the lakewatch command group in the Databricks CLI.",
+  "updated": "Nov 19, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/cli/reference/lakewatch-commands",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#manage-lakewatch-with-the-databricks-cli-beta",
+  "what_it_does": "You can now manage Lakewatch from the command line with the lakewatch command group in the Databricks CLI. Use it to create and manage datasources, parsers, and detection rules, and to update per catalog Lakewatch configuration. The command group requires Databricks CLI version 1.25.0 or above, and the parser commands require version 1.27.0 or above.",
+  "why_it_matters": "Supported values: DS COMPUTE PERFORMANCE OPTIMIZED, DS COMPUTE STANDARD.",
+  "plain_summary": "You can now manage Lakewatch from the command line with the lakewatch command group in the Databricks CLI. Use it to create and manage datasources, parsers, and detection rules, and to update per catalog Lakewatch configuration.",
+  "capabilities": [
+    {
+      "title": "name: sourceip",
+      "desc": "name: sourceip"
+    },
+    {
+      "title": "path: ts",
+      "desc": "path: ts"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now manage Lakewatch from the command line with the lakewatch command group in the Databricks CLI.",
+  "note_id": "2026-11-19-manage-lakewatch-with-the-databricks-cli-beta",
+  "category": "platform"
+}

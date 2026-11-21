@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-20-mcp-tools-in-genie-agents-are-generally-available",
+  "title": "MCP tools in Genie Agents are generally available",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#mcp-tools-in-genie-agents-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MCP tools in Genie Agents are now generally available. Authors can attach external MCP servers registered in Unity Gateway, in addition to Databricks-provided connectors, and the Agent mode APIs support MCP tools. See [Connect a Genie Agent to MCP tools and sources](/aws/en/genie-agents/external-tools).",
+  "ref_links": [
+    {
+      "text": "Connect a Genie Agent to MCP tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/external-tools"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.586685Z"
+}

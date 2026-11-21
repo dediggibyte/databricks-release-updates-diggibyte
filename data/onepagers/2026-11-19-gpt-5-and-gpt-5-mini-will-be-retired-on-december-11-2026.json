@@ -1,0 +1,24 @@
+{
+  "product": "GPT-5 and GPT-5 mini will be retired on December 11, 2026",
+  "tagline": "OpenAI GPT 5 and OpenAI GPT 5 mini will be retired on December 11, 2026.",
+  "updated": "Nov 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gpt-5-and-gpt-5-mini-will-be-retired-on-december-11-2026",
+  "what_it_does": "OpenAI GPT 5 and OpenAI GPT 5 mini will be retired on December 11, 2026. OpenAI GPT 6.1 Sol is the recommended replacement for GPT 5, and OpenAI GPT 6.1 Terra is the recommended replacement for GPT 5 mini. This page describes the model maintenance policy for the Foundation Model APIs pay per token, Foundation Model APIs provisioned throughput, Batch Inference with ai query, and Foundation Model Fine tuning offerings.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "OpenAI GPT 5 and OpenAI GPT 5 mini will be retired on December 11, 2026. OpenAI GPT 6.1 Sol is the recommended replacement for GPT 5, and OpenAI GPT 6.1 Terra is the recommended replacement for GPT 5 mini.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenAI GPT 5 and OpenAI GPT 5 mini will be retired on December 11, 2026.",
+  "note_id": "2026-11-19-gpt-5-and-gpt-5-mini-will-be-retired-on-december-11-2026",
+  "category": "platform"
+}

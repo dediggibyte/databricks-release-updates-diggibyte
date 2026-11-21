@@ -1,0 +1,33 @@
+{
+  "product": "Warehouse-level statement timeouts are now generally available",
+  "tagline": "Warehouse level statement timeouts are now generally available.",
+  "updated": "Nov 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/warehouse-behavior#statement-timeout",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#warehouse-level-statement-timeouts-are-now-generally-available",
+  "what_it_does": "Warehouse level statement timeouts are now generally available. Set the timeout with the statement timeout field in the SQL warehouses API, Databricks SDKs, Terraform, or Declarative Automation Bundles. This article explains how to size, scale, and manage query queues for Databricks SQL warehouses to optimize performance and cost.",
+  "why_it_matters": "This article explains how to size, scale, and manage query queues for Databricks SQL warehouses to optimize performance and cost.",
+  "plain_summary": "Warehouse level statement timeouts are now generally available. Set the timeout with the statement timeout field in the SQL warehouses API, Databricks SDKs, Terraform, or Declarative Automation Bundles.",
+  "capabilities": [
+    {
+      "title": "If capacity exists, the query",
+      "desc": "If capacity exists, the query starts immediately."
+    },
+    {
+      "title": "If not, the query is",
+      "desc": "If not, the query is placed in a queue. IWM continuously monitors the queue. If wait times increase, the autoscaler quickly…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Warehouse level statement timeouts are now generally available.",
+  "note_id": "2026-11-20-warehouse-level-statement-timeouts-are-now-generally-available",
+  "category": "platform"
+}

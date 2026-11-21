@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-20-warehouse-level-statement-timeouts-are-now-generally-available",
+  "title": "Warehouse-level statement timeouts are now generally available",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#warehouse-level-statement-timeouts-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Warehouse-level statement timeouts are now generally available. Set the timeout with the `statement_timeout` field in the SQL warehouses API, Databricks SDKs, Terraform, or Declarative Automation Bundles. See [Statement timeout](/aws/en/compute/sql-warehouse/warehouse-behavior#statement-timeout).",
+  "ref_links": [
+    {
+      "text": "Statement timeout",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/warehouse-behavior#statement-timeout"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-21T15:13:40.588957Z"
+}

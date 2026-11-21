@@ -1,0 +1,41 @@
+{
+  "product": "Notifications operator available across clouds in Lakeflow Designer",
+  "tagline": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP.",
+  "updated": "Nov 11, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/built-in-operators#notifications",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#notifications-operator-available-across-clouds-in-lakeflow-designer",
+  "what_it_does": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP. Send email with table attachments when a visual data prep runs. Lakeflow Designer includes built in operators for common data preparation and transformation tasks.",
+  "why_it_matters": "Reduce the rows upstream before sending.",
+  "plain_summary": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP. Send email with table attachments when a visual data prep runs.",
+  "capabilities": [
+    {
+      "title": "Downstream execution continues",
+      "desc": "Downstream execution continues."
+    },
+    {
+      "title": "Rows that pass every enabled",
+      "desc": "Rows that pass every enabled check are sent to Passed."
+    },
+    {
+      "title": "Rows that fail at least",
+      "desc": "Rows that fail at least one enabled check are sent to Failed."
+    },
+    {
+      "title": "Errors contains one row for",
+      "desc": "Errors contains one row for each failed check, including its type, severity, and message."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP.",
+  "note_id": "2026-11-11-notifications-operator-available-across-clouds-in-lakeflow-designer",
+  "category": "platform"
+}

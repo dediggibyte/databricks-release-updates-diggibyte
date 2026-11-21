@@ -1,0 +1,41 @@
+{
+  "product": "MCP tools in Genie Agents are generally available",
+  "tagline": "MCP tools in Genie Agents are now generally available.",
+  "updated": "Nov 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/external-tools",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#mcp-tools-in-genie-agents-are-generally-available",
+  "what_it_does": "MCP tools in Genie Agents are now generally available. Authors can attach external MCP servers registered in Unity Gateway, in addition to Databricks provided connectors, and the Agent mode APIs support MCP tools. A Genie Agent can use MCP (Model Context Protocol) tools to pull context from and take actions in external tools and sources.",
+  "why_it_matters": "Databricks governs every tool call through Unity Catalog and Unity Gateway.",
+  "plain_summary": "MCP tools in Genie Agents are now generally available. Authors can attach external MCP servers registered in Unity Gateway, in addition to Databricks provided connectors, and the Agent mode APIs support MCP tools.",
+  "capabilities": [
+    {
+      "title": "Google Drive: Search and create",
+      "desc": "Google Drive: Search and create Google Docs, Sheets, and Slides; edit Docs it created."
+    },
+    {
+      "title": "Gmail: Search, read, and draft",
+      "desc": "Gmail: Search, read, and draft email."
+    },
+    {
+      "title": "Google Calendar: Search and create",
+      "desc": "Google Calendar: Search and create calendar events."
+    },
+    {
+      "title": "Microsoft 365: Search SharePoint, Teams",
+      "desc": "Microsoft 365: Search SharePoint, Teams, Outlook, and Calendar; draft Outlook email."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "MCP tools in Genie Agents are now generally available.",
+  "note_id": "2026-11-20-mcp-tools-in-genie-agents-are-generally-available",
+  "category": "platform"
+}
