@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-17-d977094e",
+  "title": "Data Classification no longer rescans recreated tables or scans short-lived temporary tables",
+  "date": "2026-11-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-no-longer-rescans-recreated-tables-or-scans-short-lived-temporary-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly.\n\nThis change is automatic and requires no configuration. See [How recreated and temporary tables are scanned](/aws/en/data-governance/unity-catalog/data-classification#recreated-temporary-tables).",
+  "ref_links": [
+    {
+      "text": "How recreated and temporary tables are scanned",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification#recreated-temporary-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.291356Z"
+}

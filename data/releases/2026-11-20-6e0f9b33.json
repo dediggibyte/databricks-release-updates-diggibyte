@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-20-6e0f9b33",
+  "title": "OAuth authentication for webhook notification destinations is generally available",
+  "date": "2026-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-authentication-for-webhook-notification-destinations-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint. See [OAuth authentication for webhook destinations](/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations).",
+  "ref_links": [
+    {
+      "text": "OAuth authentication for webhook destinations",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.279939Z"
+}

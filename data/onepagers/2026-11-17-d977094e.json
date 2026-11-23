@@ -1,0 +1,41 @@
+{
+  "product": "Data Classification no longer rescans recreated tables or scans short-lived…",
+  "tagline": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly.",
+  "updated": "Nov 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification#recreated-temporary-tables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-no-longer-rescans-recreated-tables-or-scans-short-lived-temporary-tables",
+  "what_it_does": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly. This change is automatic and requires no configuration. This page describes how to use Databricks Data Classification in Unity Catalog to automatically classify and tag sensitive data in your catalog.",
+  "why_it_matters": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly.",
+  "plain_summary": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly. This change is automatic and requires no configuration.",
+  "capabilities": [
+    {
+      "title": "MANAGE",
+      "desc": "MANAGE"
+    },
+    {
+      "title": "READ METADATA",
+      "desc": "READ METADATA"
+    },
+    {
+      "title": "USE CATALOG, USE SCHEMA, and",
+      "desc": "USE CATALOG, USE SCHEMA, and SELECT"
+    },
+    {
+      "title": "MANAGE",
+      "desc": "MANAGE"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly.",
+  "note_id": "2026-11-17-d977094e",
+  "category": "platform"
+}

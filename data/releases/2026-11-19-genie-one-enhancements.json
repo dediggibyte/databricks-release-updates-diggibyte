@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-19-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-11-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Push notifications on Android (Public Preview)**: The Genie mobile app now sends push notifications on Android for long-running prompts and scheduled tasks. See [Push notifications](/aws/en/genie-one/mobile#push-notifications).\n* **Voice input in Genie One**: Voice input is now generally available in Genie One on the web, in the desktop app, and in the mobile app. You can dictate prompts, and voice input transcribes your speech into text. Voice input is available in US and EU regions.\n* **Workspace skills and skills from other folders**: Genie One now lists workspace skills and skills from other folders that you register in Genie Code. You can't edit these skills in Genie One. See [Workspace skills and skills from other folders](/aws/en/genie-one/skills#workspace-skills).",
+  "ref_links": [
+    {
+      "text": "Push notifications",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile#push-notifications"
+    },
+    {
+      "text": "Workspace skills and skills from other folders",
+      "url": "https://docs.databricks.com/aws/en/genie-one/skills#workspace-skills"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.282840Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Impact analysis in Unity Catalog lineage (Beta)",
+  "tagline": "Impact analysis in Unity Catalog lineage shows the downstream assets that depend on a table or column, with each asset's impact level and owner.",
+  "updated": "Nov 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#impact-analysis-in-unity-catalog-lineage-beta",
+  "what_it_does": "Impact analysis in Unity Catalog lineage shows the downstream assets that depend on a table or column, with each asset's impact level and owner. Genie Code can summarize the impact and export a CSV of owners. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Impact analysis in Unity Catalog lineage shows the downstream assets that depend on a table or column, with each asset's impact level and owner. Genie Code can summarize the impact and export a CSV of owners.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Impact analysis in Unity Catalog lineage shows the downstream assets that depend on a table or column, with each asset's impact level and owner.",
+  "note_id": "2026-11-23-impact-analysis-in-unity-catalog-lineage-beta",
+  "category": "platform"
+}

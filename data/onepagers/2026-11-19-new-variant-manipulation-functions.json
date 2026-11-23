@@ -1,0 +1,26 @@
+{
+  "product": "New VARIANT manipulation functions",
+  "tagline": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above: variant insert: Inserts a new object field or array element at…",
+  "updated": "Nov 19, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-functions-builtin",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-variant-manipulation-functions",
+  "what_it_does": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above: variant insert: Inserts a new object field or array element at the specified path. variant set: Inserts or replaces an object field or array element at the specified path. variant delete: Removes object fields or array elements at the specified paths.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above: variant insert: Inserts a new object field or array element at the specified path. variant set: Inserts or replaces an object…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "consider defining a custom function."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above: variant insert: Inserts a new object field or array element at…",
+  "note_id": "2026-11-19-new-variant-manipulation-functions",
+  "category": "platform"
+}

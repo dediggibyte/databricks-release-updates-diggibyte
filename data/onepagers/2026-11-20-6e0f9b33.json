@@ -1,0 +1,41 @@
+{
+  "product": "OAuth authentication for webhook notification destinations is generally…",
+  "tagline": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint.",
+  "updated": "Nov 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/notification-destinations#oauth-webhook-destinations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-authentication-for-webhook-notification-destinations-is-generally-available",
+  "what_it_does": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint. This page teaches you how to create and configure notification destinations for your workspace. System notifications are messages that tell you when your workflow experiences a run event (start, success, and failure).",
+  "why_it_matters": "Networking requirements For webhook based destinations, the receiving endpoint must meet the following requirements: Databricks enforces the use of HTTPS for security.",
+  "plain_summary": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint.",
+  "capabilities": [
+    {
+      "title": "For control plane webapp IP",
+      "desc": "For control plane webapp IP addresses, see IP addresses and domains for Databricks services and assets."
+    },
+    {
+      "title": "For data plane outbound IP",
+      "desc": "For data plane outbound IP addresses, see the ip-ranges.json file that Databricks publishes. Search the file for your…"
+    },
+    {
+      "title": "The service field is Databricks",
+      "desc": "The service field is Databricks"
+    },
+    {
+      "title": "The platform field is aws",
+      "desc": "The platform field is aws"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint.",
+  "note_id": "2026-11-20-6e0f9b33",
+  "category": "platform"
+}

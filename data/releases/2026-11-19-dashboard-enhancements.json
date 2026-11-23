@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-19-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-11-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Larger subscription email attachments**: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. See [Dashboard subscription limits](/aws/en/dashboards/limits#subscription-limits).\n* **Recreate dashboards from screenshots**: Genie Code for dashboard authoring now reproduces the visual styling of a screenshot more closely when you recreate a dashboard from it.",
+  "ref_links": [
+    {
+      "text": "Dashboard subscription limits",
+      "url": "https://docs.databricks.com/aws/en/dashboards/limits#subscription-limits"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.282058Z"
+}

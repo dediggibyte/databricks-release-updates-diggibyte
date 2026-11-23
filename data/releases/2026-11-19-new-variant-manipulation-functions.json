@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-19-new-variant-manipulation-functions",
+  "title": "New VARIANT manipulation functions",
+  "date": "2026-11-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-variant-manipulation-functions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following SQL functions for manipulating `VARIANT` values are now available in Databricks SQL and Databricks Runtime 19 and above:\n\n* [`variant_insert`](/aws/en/sql/language-manual/functions/variant_insert): Inserts a new object field or array element at the specified path.\n* [`variant_set`](/aws/en/sql/language-manual/functions/variant_set): Inserts or replaces an object field or array element at the specified path.\n* [`variant_delete`](/aws/en/sql/language-manual/functions/variant_delete): Removes object fields or array elements at the specified paths.\n* [`variant_array_append`](/aws/en/sql/language-manual/functions/variant_array_append): Appends a value to the array at the specified path.\n* [`variant_pick`](/aws/en/sql/language-manual/functions/variant_pick): Returns a `VARIANT` containing only the specified paths, preserving their parent structure.\n* [`variant_strip_nulls`](/aws/en/sql/language-manual/functions/variant_strip_nulls): Recursively removes variant null fields from objects and, optionally, variant null elements from arrays.\n\nError-tolerant versions are also available: [`try_variant_insert`](/aws/en/sql/language-manual/functions/try_variant_insert), [`try_variant_set`](/aws/en/sql/language-manual/functions/try_variant_set), and [`try_variant_array_append`](/aws/en/sql/language-manual/functions/try_variant_array_append).\n\nSee [Built-in functions](/aws/en/sql/language-manual/sql-ref-functions-builtin).",
+  "ref_links": [
+    {
+      "text": "variant_insert",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_insert"
+    },
+    {
+      "text": "variant_set",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_set"
+    },
+    {
+      "text": "variant_delete",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_delete"
+    },
+    {
+      "text": "variant_array_append",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_array_append"
+    },
+    {
+      "text": "variant_pick",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_pick"
+    },
+    {
+      "text": "variant_strip_nulls",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/variant_strip_nulls"
+    },
+    {
+      "text": "try_variant_insert",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_variant_insert"
+    },
+    {
+      "text": "try_variant_set",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_variant_set"
+    },
+    {
+      "text": "try_variant_array_append",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_variant_array_append"
+    },
+    {
+      "text": "Built-in functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-functions-builtin"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.286480Z"
+}

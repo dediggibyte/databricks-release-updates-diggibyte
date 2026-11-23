@@ -1,0 +1,24 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Push notifications on Android (Public Preview): The Genie mobile app now sends push notifications on Android for long running prompts and scheduled tasks.",
+  "updated": "Nov 19, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/skills#workspace-skills",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "what_it_does": "Push notifications on Android (Public Preview): The Genie mobile app now sends push notifications on Android for long running prompts and scheduled tasks. Voice input in Genie One: Voice input is now generally available in Genie One on the web, in the desktop app, and in the mobile app. You can dictate prompts, and voice input transcribes your speech into text.",
+  "why_it_matters": "Skills are governed by Unity Gateway, so the same catalog and schema privileges that protect your other data control who can publish and use them: To publish a skill, you need USE CATALOG, USE SCHEMA, and CREATE VOLUME on the target schema.",
+  "plain_summary": "Push notifications on Android (Public Preview): The Genie mobile app now sends push notifications on Android for long running prompts and scheduled tasks. Voice input in Genie One: Voice input is now generally available in Genie One on the web, in the…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Push notifications on Android (Public Preview): The Genie mobile app now sends push notifications on Android for long running prompts and scheduled tasks.",
+  "note_id": "2026-11-19-genie-one-enhancements",
+  "category": "platform"
+}

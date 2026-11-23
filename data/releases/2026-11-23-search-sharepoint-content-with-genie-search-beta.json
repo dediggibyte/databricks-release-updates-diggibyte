@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-search-sharepoint-content-with-genie-search-beta",
+  "title": "Search SharePoint content with Genie Search (Beta)",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#search-sharepoint-content-with-genie-search-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Genie Search](/aws/en/genie/genie-ontology/search-index) can now index files in SharePoint Online, so Genie One can search them along with your other connected sources. Users see only the files that they can already access in SharePoint. This feature is in [Beta](/aws/en/release-notes/release-types).",
+  "ref_links": [
+    {
+      "text": "Genie Search",
+      "url": "https://docs.databricks.com/aws/en/genie/genie-ontology/search-index"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-23T19:08:13.277463Z"
+}

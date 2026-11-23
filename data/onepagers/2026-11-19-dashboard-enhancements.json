@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements",
+  "tagline": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB.",
+  "updated": "Nov 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/limits#subscription-limits",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "what_it_does": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. Recreate dashboards from screenshots: Genie Code for dashboard authoring now reproduces the visual styling of a screenshot more closely when you recreate a dashboard from it. AI/BI dashboards have limits on pages, datasets, widgets, filter values, rendered rows, subscription attachments, and PDF downloads.",
+  "why_it_matters": "For information about dataset size thresholds and performance optimizations, see Dataset performance thresholds.",
+  "plain_summary": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. Recreate dashboards from screenshots: Genie Code for dashboard authoring now reproduces the visual styling of a screenshot…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB.",
+  "note_id": "2026-11-19-dashboard-enhancements",
+  "category": "platform"
+}

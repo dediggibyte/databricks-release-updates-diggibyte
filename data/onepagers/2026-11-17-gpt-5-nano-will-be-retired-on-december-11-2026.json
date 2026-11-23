@@ -1,0 +1,24 @@
+{
+  "product": "GPT-5 nano will be retired on December 11, 2026",
+  "tagline": "OpenAI GPT 5 nano will be retired on December 11, 2026.",
+  "updated": "Nov 17, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gpt-5-nano-will-be-retired-on-december-11-2026",
+  "what_it_does": "OpenAI GPT 5 nano will be retired on December 11, 2026. OpenAI GPT 6 Luna is the recommended replacement. API calls to GPT 5 nano are not redirected after that date, so migrate your workloads before December 11, 2026.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "OpenAI GPT 5 nano will be retired on December 11, 2026. OpenAI GPT 6 Luna is the recommended replacement.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenAI GPT 5 nano will be retired on December 11, 2026.",
+  "note_id": "2026-11-17-gpt-5-nano-will-be-retired-on-december-11-2026",
+  "category": "platform"
+}
