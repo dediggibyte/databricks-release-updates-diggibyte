@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-24-new-configuration-options-for-classic-instance-pools",
+  "title": "New configuration options for classic instance pools",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-configuration-options-for-classic-instance-pools",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Instance pools now support auto-AZ for all instance types and spot with fallback. You can also change an existing pool's availability zone, availability, and max spot price. See [Pool configuration reference](/aws/en/compute/pools).",
+  "ref_links": [
+    {
+      "text": "Pool configuration reference",
+      "url": "https://docs.databricks.com/aws/en/compute/pools"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.400552Z"
+}

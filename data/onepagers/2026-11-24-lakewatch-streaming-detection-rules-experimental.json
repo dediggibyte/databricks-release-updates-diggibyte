@@ -1,0 +1,24 @@
+{
+  "product": "Lakewatch streaming detection rules (Experimental)",
+  "tagline": "Lakewatch now supports streaming detection rules, which evaluate each new row of a source table as it arrives and create a signal for every row that matches a SQL predicate.",
+  "updated": "Nov 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/lakewatch/detections/streaming-detection-rules",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakewatch#lakewatch-streaming-detection-rules-experimental",
+  "what_it_does": "Lakewatch now supports streaming detection rules, which evaluate each new row of a source table as it arrives and create a signal for every row that matches a SQL predicate. Use them for low latency signature, indicator of compromise (IOC), and atomic signal detections. Lakewatch manages the compute, so you don't select a SQL warehouse or a schedule.",
+  "why_it_matters": "Use them for low latency signature, indicator of compromise (IOC), and atomic signal detections.",
+  "plain_summary": "Lakewatch now supports streaming detection rules, which evaluate each new row of a source table as it arrives and create a signal for every row that matches a SQL predicate. Use them for low latency signature, indicator of compromise (IOC), and atomic signal…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakewatch now supports streaming detection rules, which evaluate each new row of a source table as it arrives and create a signal for every row that matches a SQL predicate.",
+  "note_id": "2026-11-24-lakewatch-streaming-detection-rules-experimental",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-22-sftp-connector-is-now-generally-available",
+  "title": "SFTP connector is now generally available",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#sftp-connector-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The SFTP connector in Lakeflow Connect is now generally available. The connector extends Auto Loader to ingest files from SFTP servers, with incremental file ingestion and Unity Catalog governance for connections and credentials. It requires Databricks Runtime 17.3 and above.\n\nSee [Ingest files from SFTP servers](/aws/en/ingestion/sftp).",
+  "ref_links": [
+    {
+      "text": "Ingest files from SFTP servers",
+      "url": "https://docs.databricks.com/aws/en/ingestion/sftp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.773738Z"
+}

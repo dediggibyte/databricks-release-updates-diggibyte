@@ -1,0 +1,33 @@
+{
+  "product": "ai_forecast version 2 will soon be available by default for workspaces with…",
+  "tagline": "Starting in January 2027, ai forecast version 2 will be available by default for workspaces with the compliance security profile enabled.",
+  "updated": "Nov 23, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai_forecast-version-2-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Starting in January 2027, ai forecast version 2 will be available by default for workspaces with the compliance security profile enabled. ai forecast version 2 uses a foundation model for more accurate time series forecasts in SQL, and adds holidays, external covariates, and non negative forecasts. Queries that don't specify a version continue to use version 1.",
+  "why_it_matters": "Starting in January 2027, ai forecast version 2 will be available by default for workspaces with the compliance security profile enabled.",
+  "plain_summary": "Starting in January 2027, ai forecast version 2 will be available by default for workspaces with the compliance security profile enabled. ai forecast version 2 uses a foundation model for more accurate time series forecasts in SQL, and adds holidays…",
+  "capabilities": [
+    {
+      "title": "A CIS Level 1 hardened",
+      "desc": "A CIS Level 1 hardened image"
+    },
+    {
+      "title": "FIPS 140 validated encryption modules",
+      "desc": "FIPS 140 validated encryption modules Automatic cluster updates, ensuring clusters have the latest updates by periodically…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting in January 2027, ai forecast version 2 will be available by default for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-11-23-618579c3",
+  "category": "platform"
+}

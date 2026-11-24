@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-09-consumer-access-to-workspace-resources-beta",
+  "title": "Consumer access to workspace resources (Beta)",
+  "date": "2026-10-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#consumer-access-to-workspace-resources-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Consumer access now also grants access to Lakeflow Designer. Users with consumer access can read and write the workspace resources they already have permission to. Products such as Genie One and Lakeflow Designer use this access to run richer analyses, such as forecasting, and to create certain asset types, such as slides. Access remains governed by existing access control lists (ACLs), and consumer access doesn't grant any additional permissions. See [Workspace resources](/aws/en/ai-bi/consumers#workspace-resources).",
+  "ref_links": [
+    {
+      "text": "Workspace resources",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/consumers#workspace-resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.540846Z"
+}

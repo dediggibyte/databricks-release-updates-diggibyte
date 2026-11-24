@@ -1,0 +1,24 @@
+{
+  "product": "Real-time mode in Structured Streaming is now generally available",
+  "tagline": "Real time mode in Structured Streaming is now generally available on classic compute with dedicated and standard access modes.",
+  "updated": "Mar 19, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/real-time",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#real-time-mode-in-structured-streaming-is-now-generally-available",
+  "what_it_does": "Real time mode in Structured Streaming is now generally available on classic compute with dedicated and standard access modes. Standard access mode supports real time mode for Python only. Real time mode requires Databricks Runtime 16.4 LTS and above.",
+  "why_it_matters": "Real time mode (RTM) is a trigger type for Structured Streaming that is up to 100x faster than micro batch mode.",
+  "plain_summary": "Real time mode in Structured Streaming is now generally available on classic compute with dedicated and standard access modes. Standard access mode supports real time mode for Python only.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Real time mode in Structured Streaming is now generally available on classic compute with dedicated and standard access modes.",
+  "note_id": "2026-03-19-real-time-mode-in-structured-streaming-is-now-generally-available",
+  "category": "platform"
+}

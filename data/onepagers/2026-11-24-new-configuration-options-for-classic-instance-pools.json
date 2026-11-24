@@ -1,0 +1,24 @@
+{
+  "product": "New configuration options for classic instance pools",
+  "tagline": "Instance pools now support auto AZ for all instance types and spot with fallback.",
+  "updated": "Nov 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/pools",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-configuration-options-for-classic-instance-pools",
+  "what_it_does": "Instance pools now support auto AZ for all instance types and spot with fallback. You can also change an existing pool's availability zone, availability, and max spot price. This page describes the configuration options for Databricks instance pools, including the settings you choose when you create a pool and the fields you can change on an existing pool.",
+  "why_it_matters": "You need to cap cost.",
+  "plain_summary": "Instance pools now support auto AZ for all instance types and spot with fallback. You can also change an existing pool's availability zone, availability, and max spot price.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Instance pools now support auto AZ for all instance types and spot with fallback.",
+  "note_id": "2026-11-24-new-configuration-options-for-classic-instance-pools",
+  "category": "platform"
+}

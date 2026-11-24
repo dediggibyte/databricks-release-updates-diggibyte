@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-23-upcoming-changes-to-aws-serverless-networking-charges",
+  "title": "Upcoming changes to AWS serverless networking charges",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-changes-to-aws-serverless-networking-charges",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "**Beginning on or after January 1, 2027, Databricks will begin charging for hourly private endpoint usage** when serverless compute connects to your resources through private connectivity, such as AWS PrivateLink. These cloud costs have previously been covered by Databricks.\n\nAll other AWS serverless networking charges, including per-GB private connectivity, public connectivity, and cross-region/internet egress, will continue to be billed as before.\n\n**No action is required.** Your existing networking configurations and connectivity will remain unchanged, and no charges will be applied retroactively.\n\nDetailed pricing information, as well as a FAQ, can be found [here](https://www.databricks.com/product/pricing/data-transfer-connectivity).",
+  "ref_links": [
+    {
+      "text": "here",
+      "url": "https://www.databricks.com/product/pricing/data-transfer-connectivity"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.404267Z"
+}

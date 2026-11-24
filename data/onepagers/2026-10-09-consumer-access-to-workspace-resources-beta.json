@@ -1,0 +1,41 @@
+{
+  "product": "Consumer access to workspace resources (Beta)",
+  "tagline": "Consumer access now also grants access to Lakeflow Designer.",
+  "updated": "Oct 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/consumers#workspace-resources",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#consumer-access-to-workspace-resources-beta",
+  "what_it_does": "Consumer access now also grants access to Lakeflow Designer. Users with consumer access can read and write the workspace resources they already have permission to. Products such as Genie One and Lakeflow Designer use this access to run richer analyses, such as forecasting, and to create certain asset types, such as slides.",
+  "why_it_matters": "Access remains governed by existing access control lists (ACLs), and consumer access doesn't grant any additional permissions.",
+  "plain_summary": "Consumer access now also grants access to Lakeflow Designer. Users with consumer access can read and write the workspace resources they already have permission to.",
+  "capabilities": [
+    {
+      "title": "List model services and query",
+      "desc": "List model services and query Databricks-hosted foundation models."
+    },
+    {
+      "title": "List model provider services and",
+      "desc": "List model provider services and query registered external providers."
+    },
+    {
+      "title": "List MCP services and call",
+      "desc": "List MCP services and call the MCP tools shared with them. The system.ai.websearch and system.ai.sandbox built-in MCP services…"
+    },
+    {
+      "title": "List and download shared skills",
+      "desc": "List and download shared skills."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Consumer access now also grants access to Lakeflow Designer.",
+  "note_id": "2026-10-09-consumer-access-to-workspace-resources-beta",
+  "category": "platform"
+}

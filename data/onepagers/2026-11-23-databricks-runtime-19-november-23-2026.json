@@ -1,0 +1,24 @@
+{
+  "product": "Databricks Runtime 19: November 23, 2026",
+  "tagline": "Library and environment updates Updated Java from Zulu21.52+15 CA to Zulu21.52+203 CA.",
+  "updated": "Nov 23, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-23-2026",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-23-2026",
+  "what_it_does": "Library and environment updates Updated Java from Zulu21.52+15 CA to Zulu21.52+203 CA. Bug fixes Operating system security updates.",
+  "why_it_matters": "Bug fixes Operating system security updates.",
+  "plain_summary": "Library and environment updates Updated Java from Zulu21.52+15 CA to Zulu21.52+203 CA. Bug fixes Operating system security updates.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Library and environment updates Updated Java from Zulu21.52+15 CA to Zulu21.52+203 CA.",
+  "note_id": "2026-11-23-databricks-runtime-19-november-23-2026",
+  "category": "platform"
+}

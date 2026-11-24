@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-618579c3",
+  "title": "ai_forecast version 2 will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai_forecast-version-2-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in January 2027, [`ai_forecast` version 2](/aws/en/sql/language-manual/functions/ai_forecast) will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\n`ai_forecast` version 2 uses a foundation model for more accurate time series forecasts in SQL, and adds holidays, external covariates, and non-negative forecasts. Queries that don't specify a version continue to use version 1.",
+  "ref_links": [
+    {
+      "text": "ai_forecast version 2",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_forecast"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.403763Z"
+}

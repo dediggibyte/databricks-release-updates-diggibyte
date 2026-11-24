@@ -1,0 +1,33 @@
+{
+  "product": "SFTP connector is now generally available",
+  "tagline": "The SFTP connector in Lakeflow Connect is now generally available.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/sftp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#sftp-connector-is-now-generally-available",
+  "what_it_does": "The SFTP connector in Lakeflow Connect is now generally available. The connector extends Auto Loader to ingest files from SFTP servers, with incremental file ingestion and Unity Catalog governance for connections and credentials. It requires Databricks Runtime 17.3 and above.",
+  "why_it_matters": "The connector extends Auto Loader to ingest files from SFTP servers, with incremental file ingestion and Unity Catalog governance for connections and credentials.",
+  "plain_summary": "The SFTP connector in Lakeflow Connect is now generally available. The connector extends Auto Loader to ingest files from SFTP servers, with incremental file ingestion and Unity Catalog governance for connections and credentials.",
+  "capabilities": [
+    {
+      "title": "Dedicated Access Mode: MANAGE CONNECTION",
+      "desc": "Dedicated Access Mode: MANAGE CONNECTION."
+    },
+    {
+      "title": "Standard Access Mode: USE CONNECTION",
+      "desc": "Standard Access Mode: USE CONNECTION. Compute that uses Databricks Runtime version 17.3 or above. For FedRAMP, Canada Protected…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The SFTP connector in Lakeflow Connect is now generally available.",
+  "note_id": "2026-07-22-sftp-connector-is-now-generally-available",
+  "category": "platform"
+}

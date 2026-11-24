@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-19-real-time-mode-in-structured-streaming-is-now-generally-available",
+  "title": "Real-time mode in Structured Streaming is now generally available",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#real-time-mode-in-structured-streaming-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Real-time mode in Structured Streaming is now generally available on classic compute with dedicated and standard access modes. Standard access mode supports real-time mode for Python only. Real-time mode requires Databricks Runtime 16.4 LTS and above. See [Real-time mode in Structured Streaming](/aws/en/structured-streaming/real-time).",
+  "ref_links": [
+    {
+      "text": "Real-time mode in Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/real-time"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-24T18:46:20.995125Z"
+}
