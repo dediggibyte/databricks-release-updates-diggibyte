@@ -1,0 +1,24 @@
+{
+  "product": "Genie Migrate conversion to Lakeflow pipelines is generally available",
+  "tagline": "Genie Migrate conversion of T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now generally available.",
+  "updated": "Nov 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/migration/genie-migrate/convert#supported-sources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available",
+  "what_it_does": "Genie Migrate conversion of T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now generally available. In a T SQL migration project, choose the Spark Declarative Pipelines target framework, organize your files into groups, and choose a catalog and schema for each group. Each group becomes one serverless pipeline that Genie Migrate validates with a dry run.",
+  "why_it_matters": "Supported source dialects and target frameworks Genie Migrate converts the following SQL dialects: T SQL Snowflake SQL Redshift SQL Oracle BigQuery Teradata When you create a migration project for a SQL dialect, choose one of the following target frameworks: DBSQL: ANSI compliant Databricks SQL queries.",
+  "plain_summary": "Genie Migrate conversion of T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now generally available. In a T SQL migration project, choose the Spark Declarative Pipelines target framework, organize your files…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Genie Migrate conversion of T SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now generally available.",
+  "note_id": "2026-11-24-genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Outbound IP addresses for serverless compute are generally available",
+  "tagline": "Published outbound IP addresses for serverless compute are now generally available.",
+  "updated": "Nov 23, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/serverless-firewall-config#outbound-ip-addresses-for-other-resources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#outbound-ip-addresses-for-serverless-compute-are-generally-available",
+  "what_it_does": "Published outbound IP addresses for serverless compute are now generally available. Previously, they were in Public Preview. Databricks publishes the outbound IP addresses in ip ranges.json.",
+  "why_it_matters": "Next steps + Configure private connectivity to resources in your VPC + Use PrivateLink to establish secure and isolated access to resources in your VPC from serverless compute.",
+  "plain_summary": "Published outbound IP addresses for serverless compute are now generally available. Previously, they were in Public Preview.",
+  "capabilities": [
+    {
+      "title": "Configure private connectivity to resources",
+      "desc": "Configure private connectivity to resources in your VPC"
+    },
+    {
+      "title": "Use PrivateLink to establish secure",
+      "desc": "Use PrivateLink to establish secure and isolated access to resources in your VPC from serverless compute."
+    },
+    {
+      "title": "Manage private endpoint rules",
+      "desc": "Manage private endpoint rules"
+    },
+    {
+      "title": "View, update, and remove private",
+      "desc": "View, update, and remove private endpoint rules for your network connectivity configuration."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Published outbound IP addresses for serverless compute are now generally available.",
+  "note_id": "2026-11-23-outbound-ip-addresses-for-serverless-compute-are-generally-available",
+  "category": "platform"
+}

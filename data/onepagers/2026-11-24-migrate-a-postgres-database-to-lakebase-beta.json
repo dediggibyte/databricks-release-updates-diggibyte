@@ -1,0 +1,24 @@
+{
+  "product": "Migrate a Postgres database to Lakebase (Beta)",
+  "tagline": "You can now copy an existing PostgreSQL database into a Lakebase project in a single, one time migration.",
+  "updated": "Nov 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/migrations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#migrate-a-postgres-database-to-lakebase-beta",
+  "what_it_does": "You can now copy an existing PostgreSQL database into a Lakebase project in a single, one time migration. Lakebase assesses the source database for compatibility, then copies its roles, schema, and data to a branch that you choose. Migrations are available in the Lakebase App and through the Postgres API and SDKs, with no separate enablement step.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now copy an existing PostgreSQL database into a Lakebase project in a single, one time migration. Lakebase assesses the source database for compatibility, then copies its roles, schema, and data to a branch that you choose.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now copy an existing PostgreSQL database into a Lakebase project in a single, one time migration.",
+  "note_id": "2026-11-24-migrate-a-postgres-database-to-lakebase-beta",
+  "category": "platform"
+}

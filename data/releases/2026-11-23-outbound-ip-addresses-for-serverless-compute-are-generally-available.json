@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-outbound-ip-addresses-for-serverless-compute-are-generally-available",
+  "title": "Outbound IP addresses for serverless compute are generally available",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#outbound-ip-addresses-for-serverless-compute-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Published outbound IP addresses for serverless compute are now generally available. Previously, they were in Public Preview. Databricks publishes the outbound IP addresses in [`ip-ranges.json`](https://www.databricks.com/networking/v1/ip-ranges.json). To allow serverless compute through a firewall that protects your resources, add these IP addresses to its allowlist and automate updates as the IP addresses change. See [Configure access to other resources using outbound IP addresses](/aws/en/security/network/serverless-network-security/serverless-firewall-config#outbound-ip-addresses-for-other-resources).",
+  "ref_links": [
+    {
+      "text": "ip-ranges.json",
+      "url": "https://www.databricks.com/networking/v1/ip-ranges.json"
+    },
+    {
+      "text": "Configure access to other resources using outbound IP addresses",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/serverless-firewall-config#outbound-ip-addresses-for-other-resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-25T17:54:05.319917Z"
+}

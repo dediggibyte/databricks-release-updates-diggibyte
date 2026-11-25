@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-24-genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available",
+  "title": "Genie Migrate conversion to Lakeflow pipelines is generally available",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Migrate conversion of T-SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now [generally available](/aws/en/release-notes/release-types). In a T-SQL migration project, choose the **Spark Declarative Pipelines** target framework, organize your files into groups, and choose a catalog and schema for each group. Each group becomes one serverless pipeline that Genie Migrate validates with a dry run.\n\nTo use the **Spark Declarative Pipelines** target framework, a workspace admin must turn on **Migration Projects Experimental Features** from the **Previews** page. See [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews).\n\nSee [Supported source dialects and target frameworks](/aws/en/migration/genie-migrate/convert#supported-sources).",
+  "ref_links": [
+    {
+      "text": "generally available",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Supported source dialects and target frameworks",
+      "url": "https://docs.databricks.com/aws/en/migration/genie-migrate/convert#supported-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-25T17:54:05.316297Z"
+}
