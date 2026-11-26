@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-13-2982073a",
+  "title": "The Discover page and domains will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-discover-page-and-domains-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting in December 2026, the [Discover page](/aws/en/discover/discover-page) and [domains](/aws/en/uc-semantics/domains) will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.\n\nDiscover is a curated browsing experience that helps users find assets across Databricks without requiring deep knowledge of catalog hierarchies. Use *domains* and *subdomains* to organize assets such as tables, dashboards, notebooks, and Genie Agents by business area, highlight key assets with custom curation, and explore AI-recommended assets.\n\nSee [Discover page](/aws/en/discover/discover-page).",
+  "ref_links": [
+    {
+      "text": "Discover page",
+      "url": "https://docs.databricks.com/aws/en/discover/discover-page"
+    },
+    {
+      "text": "domains",
+      "url": "https://docs.databricks.com/aws/en/uc-semantics/domains"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.423236Z"
+}

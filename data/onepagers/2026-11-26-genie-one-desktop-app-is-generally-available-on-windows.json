@@ -1,0 +1,24 @@
+{
+  "product": "Genie One desktop app is generally available on Windows",
+  "tagline": "The Genie One desktop app for Windows is now generally available, with separate installers for x64 and ARM64 devices.",
+  "updated": "Nov 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/desktop#install-windows",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-desktop-app-is-generally-available-on-windows",
+  "what_it_does": "The Genie One desktop app for Windows is now generally available, with separate installers for x64 and ARM64 devices. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation controls and automatic updates. Beta This feature is in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie One desktop app for Windows is now generally available, with separate installers for x64 and ARM64 devices. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The Genie One desktop app for Windows is now generally available, with separate installers for x64 and ARM64 devices.",
+  "note_id": "2026-11-26-genie-one-desktop-app-is-generally-available-on-windows",
+  "category": "platform"
+}

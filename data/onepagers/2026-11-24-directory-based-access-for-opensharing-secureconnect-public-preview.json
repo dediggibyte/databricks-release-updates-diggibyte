@@ -1,0 +1,24 @@
+{
+  "product": "Directory-based access for OpenSharing SecureConnect (Public Preview)",
+  "tagline": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory based access instead of per file pre signed URLs, for better…",
+  "updated": "Nov 24, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/secureconnect-provider#directory-based-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#directory-based-access-for-opensharing-secureconnect-public-preview",
+  "what_it_does": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory based access instead of per file pre signed URLs, for better performance. This feature is in Public Preview. Account admins can manage the OpenSharing SecureConnect Directory Based Access preview from the account console Previews page.",
+  "why_it_matters": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory based access instead of per file pre signed URLs, for better performance.",
+  "plain_summary": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory based access instead of per file pre signed URLs, for better performance. This feature is in Public Preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory based access instead of per file pre signed URLs, for better…",
+  "note_id": "2026-11-24-directory-based-access-for-opensharing-secureconnect-public-preview",
+  "category": "platform"
+}

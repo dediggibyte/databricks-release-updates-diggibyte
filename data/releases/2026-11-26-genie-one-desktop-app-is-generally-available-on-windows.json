@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-26-genie-one-desktop-app-is-generally-available-on-windows",
+  "title": "Genie One desktop app is generally available on Windows",
+  "date": "2026-11-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-desktop-app-is-generally-available-on-windows",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Genie One desktop app for Windows is now generally available, with separate installers for x64 and ARM64 devices. The app opens Genie One in its own window, with the same capabilities as the web experience plus desktop conveniences like window navigation controls and automatic updates. See [Windows](/aws/en/genie-one/desktop#install-windows).",
+  "ref_links": [
+    {
+      "text": "Windows",
+      "url": "https://docs.databricks.com/aws/en/genie-one/desktop#install-windows"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.378150Z"
+}

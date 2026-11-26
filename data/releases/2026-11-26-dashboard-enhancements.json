@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-26-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-11-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Larger subscription email attachments**: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. See [Dashboard subscription limits](/aws/en/dashboards/limits#subscription-limits).\n* **Excel downloads keep column formatting**: Excel (`.xlsx`) files downloaded from a table widget now keep the widget's column display names and column widths. See [Download results](/aws/en/dashboards/manage#downloads).",
+  "ref_links": [
+    {
+      "text": "Dashboard subscription limits",
+      "url": "https://docs.databricks.com/aws/en/dashboards/limits#subscription-limits"
+    },
+    {
+      "text": "Download results",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#downloads"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.377600Z"
+}

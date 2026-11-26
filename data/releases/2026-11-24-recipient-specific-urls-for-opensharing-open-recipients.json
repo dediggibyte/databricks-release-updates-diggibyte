@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-24-recipient-specific-urls-for-opensharing-open-recipients",
+  "title": "Recipient-specific URLs for OpenSharing open recipients",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recipient-specific-urls-for-opensharing-open-recipients",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In most regions, OpenSharing open recipients now use a recipient-specific URL that includes the recipient ID in the host name. Bearer tokens created or rotated since September 2026 use the new URL, and the OpenSharing UI shows the new URL for OpenID Connect (OIDC) federation recipients. Recipients can allow egress to their recipient-specific host name instead of the shared regional host name. Existing URLs and tokens continue to work until they expire. See [Changes to OpenSharing (formerly Delta Sharing) open recipient tokens](/aws/en/release-notes/whats-coming#changes-to-open-delta-sharing-recipient-tokens).",
+  "ref_links": [
+    {
+      "text": "Changes to OpenSharing (formerly Delta Sharing) open recipient tokens",
+      "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#changes-to-open-delta-sharing-recipient-tokens"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.384457Z"
+}

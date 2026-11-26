@@ -1,0 +1,24 @@
+{
+  "product": "Power BI and Tableau Cloud connectors for BI imports (Public Preview)",
+  "tagline": "You can now connect Genie Code to Power BI and Tableau Cloud with Databricks provided MCP connectors.",
+  "updated": "Nov 26, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi#bi-mcp",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#power-bi-and-tableau-cloud-connectors-for-bi-imports-public-preview",
+  "what_it_does": "You can now connect Genie Code to Power BI and Tableau Cloud with Databricks provided MCP connectors. When you import a report with /importBI, Genie Code checks the result against the live source to improve migration quality. This feature is in Public Preview.",
+  "why_it_matters": "When you import a report with /importBI, Genie Code checks the result against the live source to improve migration quality.",
+  "plain_summary": "You can now connect Genie Code to Power BI and Tableau Cloud with Databricks provided MCP connectors. When you import a report with /importBI, Genie Code checks the result against the live source to improve migration quality.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now connect Genie Code to Power BI and Tableau Cloud with Databricks provided MCP connectors.",
+  "note_id": "2026-11-26-power-bi-and-tableau-cloud-connectors-for-bi-imports-public-preview",
+  "category": "platform"
+}

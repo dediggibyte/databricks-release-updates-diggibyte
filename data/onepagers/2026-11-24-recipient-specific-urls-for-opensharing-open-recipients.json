@@ -1,0 +1,24 @@
+{
+  "product": "Recipient-specific URLs for OpenSharing open recipients",
+  "tagline": "In most regions, OpenSharing open recipients now use a recipient specific URL that includes the recipient ID in the host name.",
+  "updated": "Nov 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recipient-specific-urls-for-opensharing-open-recipients",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recipient-specific-urls-for-opensharing-open-recipients",
+  "what_it_does": "In most regions, OpenSharing open recipients now use a recipient specific URL that includes the recipient ID in the host name. Bearer tokens created or rotated since September 2026 use the new URL, and the OpenSharing UI shows the new URL for OpenID Connect (OIDC) federation recipients. Recipients can allow egress to their recipient specific host name instead of the shared regional host name.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "In most regions, OpenSharing open recipients now use a recipient specific URL that includes the recipient ID in the host name. Bearer tokens created or rotated since September 2026 use the new URL, and the OpenSharing UI shows the new URL for OpenID Connect…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "In most regions, OpenSharing open recipients now use a recipient specific URL that includes the recipient ID in the host name.",
+  "note_id": "2026-11-24-recipient-specific-urls-for-opensharing-open-recipients",
+  "category": "platform"
+}

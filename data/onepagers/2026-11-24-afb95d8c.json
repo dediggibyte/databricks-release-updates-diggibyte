@@ -1,0 +1,26 @@
+{
+  "product": "Sharing Unity Catalog agent skills with OpenSharing and Databricks Marketplace…",
+  "tagline": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them.",
+  "updated": "Nov 24, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/marketplace/create-listing",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#sharing-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-is-now-generally-available",
+  "what_it_does": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them. In some accounts, an account admin must turn on the Agent Skill Sharing preview. Sharing and using skills also requires the Enhanced Unity AI Gateway preview, which is in Beta.",
+  "why_it_matters": "It's a collection of tables, views, volumes, and AI models that are shareable and securable as a unit.",
+  "plain_summary": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them. In some accounts, an account admin must turn on the Agent Skill Sharing preview.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "visualize table properties."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them.",
+  "note_id": "2026-11-24-afb95d8c",
+  "category": "platform"
+}

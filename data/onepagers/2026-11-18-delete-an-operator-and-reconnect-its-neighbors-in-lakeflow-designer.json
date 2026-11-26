@@ -1,0 +1,24 @@
+{
+  "product": "Delete an operator and reconnect its neighbors in Lakeflow Designer",
+  "tagline": "Use Delete and reconnect in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators.",
+  "updated": "Nov 18, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/designer/interface#operator-actions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#delete-an-operator-and-reconnect-its-neighbors-in-lakeflow-designer",
+  "what_it_does": "Use Delete and reconnect in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators. The Lakeflow Designer editor has six areas that work together. The canvas sits in the middle, with panes around it for browsing, configuring, and checking your work: Header and toolbar: Pick compute, schedule the visual data prep, control previews, and move around the canvas.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Use Delete and reconnect in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Use Delete and reconnect in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators.",
+  "note_id": "2026-11-18-delete-an-operator-and-reconnect-its-neighbors-in-lakeflow-designer",
+  "category": "platform"
+}

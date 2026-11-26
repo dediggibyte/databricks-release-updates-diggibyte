@@ -1,0 +1,41 @@
+{
+  "product": "Artifact Registry is now generally available",
+  "tagline": "Artifact Registry is now generally available.",
+  "updated": "Nov 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/artifact-registry",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#artifact-registry-is-now-generally-available",
+  "what_it_does": "Artifact Registry is now generally available. Store container images as governed assets in Unity Catalog, browse images and versions in Catalog Explorer, list and manage images with the databricks software artifacts Databricks CLI commands, and delete images through the Software Artifacts API. note Databricks does not currently charge for usage of this feature, but pricing is subject to change.",
+  "why_it_matters": "Store container images as governed assets in Unity Catalog, browse images and versions in Catalog Explorer, list and manage images with the databricks software artifacts Databricks CLI commands, and delete images through the Software Artifacts API.",
+  "plain_summary": "Artifact Registry is now generally available. Store container images as governed assets in Unity Catalog, browse images and versions in Catalog Explorer, list and manage images with the databricks software artifacts Databricks CLI commands, and delete images…",
+  "capabilities": [
+    {
+      "title": "ap-northeast-1",
+      "desc": "ap-northeast-1"
+    },
+    {
+      "title": "ap-northeast-2",
+      "desc": "ap-northeast-2"
+    },
+    {
+      "title": "ap-south-1",
+      "desc": "ap-south-1"
+    },
+    {
+      "title": "ap-southeast-1",
+      "desc": "ap-southeast-1"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Artifact Registry is now generally available.",
+  "note_id": "2026-11-23-artifact-registry-is-now-generally-available",
+  "category": "platform"
+}

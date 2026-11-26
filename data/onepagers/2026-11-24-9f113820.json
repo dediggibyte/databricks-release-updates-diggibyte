@@ -1,0 +1,24 @@
+{
+  "product": "Latest automatic expiration date for legacy OpenSharing open recipient tokens…",
+  "tagline": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead…",
+  "updated": "Nov 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-token#rotate-token",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#latest-automatic-expiration-date-for-legacy-opensharing-open-recipient-tokens-moved-to-february-25-2027",
+  "what_it_does": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead of December 8, 2026. Data providers should rotate these tokens before February 25, 2027, to avoid breaking changes. Rotated tokens use the new recipient specific URL format.",
+  "why_it_matters": "This article describes how to create OpenSharing recipients who do not have access to a Unity Catalog enabled Databricks workspace and grant those recipients access to securely shared data using bearer tokens.",
+  "plain_summary": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead of December 8, 2026. Data providers should rotate these…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead…",
+  "note_id": "2026-11-24-9f113820",
+  "category": "platform"
+}

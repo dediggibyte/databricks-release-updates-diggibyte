@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-lakebase-terraform-resources-are-generally-available",
+  "title": "Lakebase Terraform resources are generally available",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-terraform-resources-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "As of Databricks Terraform provider v1.145.0, these Lakebase resources are generally available: `databricks_postgres_project`, `databricks_postgres_branch`, `databricks_postgres_endpoint`, `databricks_postgres_database`, `databricks_postgres_role`, `databricks_postgres_catalog`, `databricks_postgres_synced_table`, and `databricks_postgres_snapshot_schedule`. Release status varies by resource. To check the status of any Lakebase resource, see the release stage badge on its page in the [Terraform Registry](https://registry.terraform.io/providers/databricks/databricks/latest/docs). See [Get started with Terraform for Lakebase](/aws/en/oltp/projects/automate-with-terraform).",
+  "ref_links": [
+    {
+      "text": "Terraform Registry",
+      "url": "https://registry.terraform.io/providers/databricks/databricks/latest/docs"
+    },
+    {
+      "text": "Get started with Terraform for Lakebase",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/automate-with-terraform"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.387302Z"
+}

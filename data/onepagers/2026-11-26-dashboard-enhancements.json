@@ -1,0 +1,24 @@
+{
+  "product": "Dashboard enhancements",
+  "tagline": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB.",
+  "updated": "Nov 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage#downloads",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "what_it_does": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. Excel downloads keep column formatting: Excel (.xlsx) files downloaded from a table widget now keep the widget's column display names and column widths. This page covers the fundamental operations for working with dashboards, including creating, viewing, organizing, and deleting dashboards.",
+  "why_it_matters": "Row level security AI/BI dashboards enforce data access based on the identity of the viewer.",
+  "plain_summary": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB. Excel downloads keep column formatting: Excel (.xlsx) files downloaded from a table widget now keep the widget's column…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Larger subscription email attachments: Dashboard subscription emails now support up to 24 MB of combined attachments, up from 9 MB.",
+  "note_id": "2026-11-26-dashboard-enhancements",
+  "category": "platform"
+}

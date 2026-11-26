@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-9f113820",
+  "title": "Latest automatic expiration date for legacy OpenSharing open recipient tokens moved to February 25, 2027",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#latest-automatic-expiration-date-for-legacy-opensharing-open-recipient-tokens-moved-to-february-25-2027",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead of December 8, 2026. Data providers should [rotate these tokens](/aws/en/opensharing/create-recipient-token#rotate-token) before February 25, 2027, to avoid breaking changes. Rotated tokens use the new recipient-specific URL format. See [Changes to OpenSharing (formerly Delta Sharing) open recipient tokens](/aws/en/release-notes/whats-coming#changes-to-open-delta-sharing-recipient-tokens).",
+  "ref_links": [
+    {
+      "text": "rotate these tokens",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-token#rotate-token"
+    },
+    {
+      "text": "Changes to OpenSharing (formerly Delta Sharing) open recipient tokens",
+      "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#changes-to-open-delta-sharing-recipient-tokens"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.383540Z"
+}

@@ -1,0 +1,24 @@
+{
+  "product": "Lakebase Terraform resources are generally available",
+  "tagline": "As of Databricks Terraform provider v1.145.0, these Lakebase resources are generally available: databricks postgres project, databricks postgres branch, databricks postgres endpoint, databricks…",
+  "updated": "Nov 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/automate-with-terraform",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-terraform-resources-are-generally-available",
+  "what_it_does": "As of Databricks Terraform provider v1.145.0, these Lakebase resources are generally available: databricks postgres project, databricks postgres branch, databricks postgres endpoint, databricks postgres database, databricks postgres role, databricks postgres catalog, databricks postgres synced table, and databricks postgres snapshot schedule. Release status varies by resource. To check the status of any Lakebase resource, see the release stage badge on its page in the Terraform Registry.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "As of Databricks Terraform provider v1.145.0, these Lakebase resources are generally available: databricks postgres project, databricks postgres branch, databricks postgres endpoint, databricks postgres database, databricks postgres role, databricks postgres…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "As of Databricks Terraform provider v1.145.0, these Lakebase resources are generally available: databricks postgres project, databricks postgres branch, databricks postgres endpoint, databricks…",
+  "note_id": "2026-11-23-lakebase-terraform-resources-are-generally-available",
+  "category": "platform"
+}

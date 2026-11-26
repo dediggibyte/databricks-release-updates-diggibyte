@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-23-artifact-registry-is-now-generally-available",
+  "title": "Artifact Registry is now generally available",
+  "date": "2026-11-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#artifact-registry-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Artifact Registry is now generally available. Store container images as governed assets in Unity Catalog, browse images and versions in Catalog Explorer, list and manage images with the `databricks software-artifacts` Databricks CLI commands, and delete images through the Software Artifacts API. See [Artifact Registry](/aws/en/artifact-registry).",
+  "ref_links": [
+    {
+      "text": "Artifact Registry",
+      "url": "https://docs.databricks.com/aws/en/artifact-registry"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.388379Z"
+}

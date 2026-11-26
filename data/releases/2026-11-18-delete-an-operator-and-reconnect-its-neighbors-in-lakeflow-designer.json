@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-delete-an-operator-and-reconnect-its-neighbors-in-lakeflow-designer",
+  "title": "Delete an operator and reconnect its neighbors in Lakeflow Designer",
+  "date": "2026-11-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#delete-an-operator-and-reconnect-its-neighbors-in-lakeflow-designer",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use **Delete and reconnect** in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators. See [Rename, copy, delete, and disable operators](/aws/en/designer/interface#operator-actions).",
+  "ref_links": [
+    {
+      "text": "Rename, copy, delete, and disable operators",
+      "url": "https://docs.databricks.com/aws/en/designer/interface#operator-actions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-26T17:39:12.403502Z"
+}

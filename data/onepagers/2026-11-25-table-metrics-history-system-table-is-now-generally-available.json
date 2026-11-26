@@ -1,0 +1,24 @@
+{
+  "product": "Table metrics history system table is now generally available",
+  "tagline": "The table metrics history system table (system.storage.table metrics history) is now generally available.",
+  "updated": "Nov 25, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#table-metrics-history-system-table-is-now-generally-available",
+  "what_it_does": "The table metrics history system table (system.storage.table metrics history) is now generally available. Use it to track the daily storage size of your Unity Catalog managed tables, attribute storage costs, and find tables to clean up. The table metrics history system table records the storage size of your Unity Catalog managed tables every day.",
+  "why_it_matters": "Use it to track the daily storage size of your Unity Catalog managed tables, attribute storage costs, and find tables to clean up.",
+  "plain_summary": "The table metrics history system table (system.storage.table metrics history) is now generally available. Use it to track the daily storage size of your Unity Catalog managed tables, attribute storage costs, and find tables to clean up.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The table metrics history system table (system.storage.table metrics history) is now generally available.",
+  "note_id": "2026-11-25-table-metrics-history-system-table-is-now-generally-available",
+  "category": "platform"
+}
