@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-24-account-only-user-access-to-genie-one-is-generally-available",
+  "title": "Account-only user access to Genie One is generally available",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#account-only-user-access-to-genie-one-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Account-only user access to account-level Genie One is now generally available. Users provisioned through automatic identity management or account-level System for Cross-domain Identity Management (SCIM) can use Genie One without being assigned to a workspace or granted a workspace entitlement. Unity Catalog privileges govern the data and assets that each user can access. See [Account-only user access to Genie One](/aws/en/genie-one/account-only-user-access).",
+  "ref_links": [
+    {
+      "text": "Account-only user access to Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/account-only-user-access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-27T17:21:52.198036Z"
+}

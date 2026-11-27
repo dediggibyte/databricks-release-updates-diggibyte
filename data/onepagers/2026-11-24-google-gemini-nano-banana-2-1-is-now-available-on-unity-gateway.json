@@ -1,0 +1,33 @@
+{
+  "product": "Google Gemini Nano Banana 2.1 is now available on Unity Gateway",
+  "tagline": "Google Gemini Nano Banana 2.1 is available on Unity Gateway.",
+  "updated": "Nov 24, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-nano-banana-21-is-now-available-on-unity-gateway",
+  "what_it_does": "Google Gemini Nano Banana 2.1 is available on Unity Gateway. Use Foundation Model APIs to generate images from text and image inputs. This article provides an overview of Foundation Model APIs on Databricks.",
+  "why_it_matters": "For production workloads, Databricks recommends priority pay per token, also referred to as priority mode, for latency sensitive workloads that need more consistent performance under load.",
+  "plain_summary": "Google Gemini Nano Banana 2.1 is available on Unity Gateway. Use Foundation Model APIs to generate images from text and image inputs.",
+  "capabilities": [
+    {
+      "title": "Pay-per-token regions",
+      "desc": "Pay-per-token regions."
+    },
+    {
+      "title": "Provisioned throughput regions",
+      "desc": "Provisioned throughput regions."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini Nano Banana 2.1 is available on Unity Gateway.",
+  "note_id": "2026-11-24-google-gemini-nano-banana-2-1-is-now-available-on-unity-gateway",
+  "category": "platform"
+}

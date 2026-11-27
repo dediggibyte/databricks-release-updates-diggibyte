@@ -1,0 +1,24 @@
+{
+  "product": "Cross-workspace chat in account-level Genie One",
+  "tagline": "Account level Genie One now supports cross workspace chat for workspaces in the same region and connected to the same Unity Catalog metastore.",
+  "updated": "Nov 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/enable-genie-one#ask-questions-across-workspaces",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#cross-workspace-chat-in-account-level-genie-one",
+  "what_it_does": "Account level Genie One now supports cross workspace chat for workspaces in the same region and connected to the same Unity Catalog metastore. Workspace members can ask questions about and take action on assets across eligible workspaces. Workspace level Genie One is available to the members of a single workspace.",
+  "why_it_matters": "Workspaces that use the compliance security profile are excluded.",
+  "plain_summary": "Account level Genie One now supports cross workspace chat for workspaces in the same region and connected to the same Unity Catalog metastore. Workspace members can ask questions about and take action on assets across eligible workspaces.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Account level Genie One now supports cross workspace chat for workspaces in the same region and connected to the same Unity Catalog metastore.",
+  "note_id": "2026-11-20-cross-workspace-chat-in-account-level-genie-one",
+  "category": "platform"
+}

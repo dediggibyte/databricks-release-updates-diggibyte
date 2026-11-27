@@ -1,0 +1,24 @@
+{
+  "product": "Upcoming increase to the default sign-in session idle timeout",
+  "tagline": "Starting December 15, 2026, the default idle timeout for Databricks sign in sessions increases from 6 hours to 24 hours.",
+  "updated": "Nov 25, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-increase-to-the-default-sign-in-session-idle-timeout",
+  "what_it_does": "Starting December 15, 2026, the default idle timeout for Databricks sign in sessions increases from 6 hours to 24 hours. Existing custom idle timeouts continue to apply. The default maximum session length remains 5 days.",
+  "why_it_matters": "For information about securing access to your data, see Data governance with Unity Catalog.",
+  "plain_summary": "Starting December 15, 2026, the default idle timeout for Databricks sign in sessions increases from 6 hours to 24 hours. Existing custom idle timeouts continue to apply.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "Starting December 15, 2026, the default idle timeout for Databricks sign in sessions increases from 6 hours to 24 hours.",
+  "note_id": "2026-11-25-upcoming-increase-to-the-default-sign-in-session-idle-timeout",
+  "category": "platform"
+}

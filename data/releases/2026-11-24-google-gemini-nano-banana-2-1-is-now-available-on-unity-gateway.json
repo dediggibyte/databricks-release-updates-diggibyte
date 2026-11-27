@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-google-gemini-nano-banana-2-1-is-now-available-on-unity-gateway",
+  "title": "Google Gemini Nano Banana 2.1 is now available on Unity Gateway",
+  "date": "2026-11-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-nano-banana-21-is-now-available-on-unity-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google [Gemini Nano Banana 2.1](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-nano-banana-2-1) is available on Unity Gateway. Use [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis) to generate images from text and image inputs.",
+  "ref_links": [
+    {
+      "text": "Gemini Nano Banana 2.1",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-nano-banana-2-1"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-11-27T17:21:52.200736Z"
+}
